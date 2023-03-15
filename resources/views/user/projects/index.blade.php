@@ -3,7 +3,7 @@
 @section('content')
 
 <head>
-<link  href="{{ asset('assets/css/boletin.css') }}" rel="stylesheet">
+<link  href="{{ asset('assets/css/bolet.css') }}" rel="stylesheet">
 	<script type="text/javascript" src="{{ asset('js/main.js')}}"></script>
 <link  href="{{ asset('assets/css/estilos.css') }}" rel="stylesheet">
 </head>

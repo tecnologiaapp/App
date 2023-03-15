@@ -3,7 +3,7 @@
 @section('content')
 
 <head>
-<link  href="{{ asset('assets/css/boletin.css') }}" rel="stylesheet">
+<link  href="{{ asset('assets/css/bolet.css') }}" rel="stylesheet">
 <style>
 	h6{
 	color:black;	
@@ -21,6 +21,18 @@
 				</div>
 
 				<div class="content">
+
+				<article class="post">
+                <div class="post-header">
+	            <div class="post-img-46"></div>
+             	</div>
+             	<div class="post-body">
+		        <span>07/03/2023</span>
+		        <h5>Más de 4.600 empleos en el sector de Provenza</h5>
+	            <a target="_blank" href="{{ route('user.noticias.new46') }}"><h6><b>Leer más</b></h6></a>
+	
+             	</div>
+               </article>
 
 				<article class="post">
                 <div class="post-header">

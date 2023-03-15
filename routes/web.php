@@ -721,6 +721,10 @@ Route::get('/noticias/new45', function () {
    return view('user.noticias.new45');
 })->name('user.noticias.new45');
 
+Route::get('/noticias/new46', function () {
+   return view('user.noticias.new46');
+})->name('user.noticias.new46');
+
 Route::get('/Prensa/album1', function(){
    return view('user.transparency.galeria.galery1');
 }) ->name('user.transparency.galeria.galery1');
