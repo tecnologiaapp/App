@@ -9,7 +9,7 @@
     <div class="col-md-10 offset-md-1">
         <div class="text-justify">
         <div class="section-title" style="padding-top: 60px;">
-          <h2> Medellín construirá la Cárcel Metropolitana para sindicados con la aprobación de vigencias futuras en el Concejo Distrital</h2>
+          <h2> Medellín construirá la Cárcel Metropolitana para Sindicados con la aprobación de vigencias futuras en el Concejo Distrital</h2>
         </div>
 
         <ul>
@@ -40,13 +40,13 @@
                     <img src="{{ asset('assets/img/news/carcel.jpg')}}" class="mx-auto d-block" style="width:600px; height:450px;">
                     </div>
                     <div class="carousel-item">
-                    <img src="{{ asset('assets/img/news/carcel2.png')}}" class="mx-auto d-block" style="width:600px;  height:450px;">
+                    <img src="{{ asset('assets/img/Galeria/carcel/2.png')}}" class="mx-auto d-block" style="width:600px;  height:450px;">
                     </div>
                     <div class="carousel-item">
-                    <img src="{{ asset('assets/img/news/carcel3.jpeg')}}" class="mx-auto d-block" style="width:600px;  height:450px;">
+                    <img src="{{ asset('assets/img/Galeria/carcel/3.png')}}" class="mx-auto d-block" style="width:600px;  height:450px;">
                     </div>
                     <div class="carousel-item">
-                    <img src="{{ asset('assets/img/news/carcel4.jpeg')}}" class="mx-auto d-block" style="width:600px;  height:450px;">
+                    <img src="{{ asset('assets/img/Galeria/carcel/4.jpg')}}" class="mx-auto d-block" style="width:600px;  height:450px;">
                     </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
