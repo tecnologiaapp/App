@@ -397,7 +397,7 @@
 			</li>
 			<li>
 			<a class="menu-sub-item" href="{{ route('user.transparency.galery') }}">
-						  <span>Galeria</span>
+						  <span>Galería</span>
 					  </a>
 			</li>
 			<li>

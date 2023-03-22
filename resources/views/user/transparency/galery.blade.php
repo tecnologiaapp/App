@@ -207,7 +207,7 @@
               <img src="{{ asset('assets/img/Galeria/punto_cero/1.jpg')}}" alt="">
               
                 <div class="overlay">
-                <a  href="{{ route('user.transparency.galeria.galery7') }}"><h2>Punto cero</h2></a>
+                <a  href="{{ route('user.transparency.galeria.galery7') }}"><h2>Punto Cero</h2></a>
                     
                 </div>
             </div>

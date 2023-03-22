@@ -62,9 +62,9 @@
       <a href="{{ route('user.noticias.new47') }}" target="_blank"> 	<img src="{{ asset('assets/img/news/carcel.jpg')}}" class="img-fluid"> </a>
 			</div>
 			<div class="col-md-7">
-			<h3>Medellín construirá la Cárcel Metropolitana para sindicados con la aprobación de vigencias futuras en el Concejo Distrital</h3>
+			<h3>Medellín construirá la Cárcel Metropolitana para Sindicados con la aprobación de vigencias futuras en el Concejo Distrital</h3>
 			<p>
-      Con Once votos positivos y 9 negativos, el Concejo de Medellín, aprobó en sesión plenaria el presupuesto en vigencias futuras para la construcción de la Cárcel Metropolitana para sindicados, que estará ubicada en el corregimiento de San Cristóbal y que cuando comience a operar, tendrá capacidad para albergar a 1.339 personas en calidad de sindicados. Ello permitirá, en el corto plazo, el deshacinamiento de las estaciones de policía de la ciudad, que en promedio es de más del 200 %.
+      Con Once votos positivos y 9 negativos, el Concejo de Medellín, aprobó en sesión plenaria el presupuesto en vigencias futuras para la construcción de la Cárcel Metropolitana para sindicados, que estará ubicada en el corregimiento de San Cristóbal y que cuando comience a operar, tendrá capacidad para albergar a 1.339 personas en calidad de sindicados.
 			</p>
 			</div>
 			</div>
@@ -79,7 +79,7 @@
           <div class="col-md-7 order-2 order-md-1">
             <h3>La transformación de Provenza ha logrado aumentar más de 4.600 empleos en el sector</h3>
             <p>
-            El parque Lleras, en la comuna 14 El Poblado, se prepara para vivir una transformación en su espacio, con controles de acceso que harán de la zona un lugar más seguro para turistas y comerciantes, gracias a la estrategia de la Administración Distrital para abrazar esta zona de la ciudad. Se espera que el impacto sea igual al de Provenza, calle que pasó de 1.200 empleos a 5.800, entre directos e indirectos, gracias a la dinámica comercial que se vive en la zona.
+            El parque Lleras, en la comuna 14 El Poblado, se prepara para vivir una transformación en su espacio, con controles de acceso que harán de la zona un lugar más seguro para turistas y comerciantes, gracias a la estrategia de la Administración Distrital para abrazar esta zona de la ciudad.
             </p>
       
           </div>
