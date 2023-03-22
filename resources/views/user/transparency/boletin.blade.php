@@ -3,7 +3,7 @@
 @section('content')
 
 <head>
-<link  href="{{ asset('assets/css/bolet.css') }}" rel="stylesheet">
+<link  href="{{ asset('assets/css/boletin.css') }}" rel="stylesheet">
 <style>
 	h6{
 	color:black;	
@@ -21,6 +21,18 @@
 				</div>
 
 				<div class="content">
+
+				<article class="post">
+                <div class="post-header">
+	            <div class="post-img-47"></div>
+             	</div>
+             	<div class="post-body">
+		        <span>16/03/2023</span>
+		        <h5>Cárcel Metropolitana para sindicados </h5>
+	            <a target="_blank" href="{{ route('user.noticias.new47') }}"><h6><b>Leer más</b></h6></a>
+	
+             	</div>
+               </article>
 
 				<article class="post">
                 <div class="post-header">

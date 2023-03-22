@@ -59,12 +59,12 @@
         <div class="row gy-4 align-items-center features-item" data-aos="fade-up">
 
         <div class="col-md-5">
-      <a href="{{ route('user.noticias.new44') }}" target="_blank"> 	<img src="https://i.ibb.co/Fg943nf/recorte.png" class="img-fluid"> </a>
+      <a href="{{ route('user.noticias.new47') }}" target="_blank"> 	<img src="{{ asset('assets/img/news/carcel.jpg')}}" class="img-fluid"> </a>
 			</div>
 			<div class="col-md-7">
-			<h3>Palacé, Constain y Cárdenas renuevan el paisaje urbano del Centro Histórico de Medellín</h3>
+			<h3>Medellín construirá la Cárcel Metropolitana para sindicados con la aprobación de vigencias futuras en el Concejo Distrital</h3>
 			<p>
-      Con una inversión superior a los $1.000 millones, se adelantaron actividades de embellecimiento de fachadas y medianeros de tres Bienes de Interés Cultural. Durante 2022, la Agencia APP gestionó el patrimonio de Medellín con actividades de mejoramiento de fachadas en Prado, La Alhambra y el Centro Histórico.
+      Con Once votos positivos y 9 negativos, el Concejo de Medellín, aprobó en sesión plenaria el presupuesto en vigencias futuras para la construcción de la Cárcel Metropolitana para sindicados, que estará ubicada en el corregimiento de San Cristóbal y que cuando comience a operar, tendrá capacidad para albergar a 1.339 personas en calidad de sindicados. Ello permitirá, en el corto plazo, el deshacinamiento de las estaciones de policía de la ciudad, que en promedio es de más del 200 %.
 			</p>
 			</div>
 			</div>
@@ -74,12 +74,12 @@
 
             <div class="row gy-4 align-items-center features-item" data-aos="fade-up">
             <div class="col-md-5 order-1 order-md-2">
-            <a href="{{ route('user.noticias.new43') }}" target="_blank"> <img src="{{ asset('assets/img/news/unidad.png')}}" class="img-fluid" alt=""></a>
+            <a href="{{ route('user.noticias.new46') }}" target="_blank"> <img src="{{ asset('assets/img/news/economico3.jpg')}}" class="img-fluid" alt=""></a>
           </div>
           <div class="col-md-7 order-2 order-md-1">
-            <h3>Más de 150 venteros conocieron avances y logros en la modernización de la Unidad Deportiva Atanasio Girardot</h3>
+            <h3>La transformación de Provenza ha logrado aumentar más de 4.600 empleos en el sector</h3>
             <p>
-            Como una oportunidad para mejorar las ventas de comidas y productos, contar con espacios más óptimos para recibir a visitantes y turistas, y estar cerca de zonas con mayor circulación y de múltiples escenarios deportivos, parqueaderos y ciclorrutas, ante más de 150 comerciantes fue presentado el proyecto de modernización de la Unidad Deportiva Atanasio Girardot.
+            El parque Lleras, en la comuna 14 El Poblado, se prepara para vivir una transformación en su espacio, con controles de acceso que harán de la zona un lugar más seguro para turistas y comerciantes, gracias a la estrategia de la Administración Distrital para abrazar esta zona de la ciudad. Se espera que el impacto sea igual al de Provenza, calle que pasó de 1.200 empleos a 5.800, entre directos e indirectos, gracias a la dinámica comercial que se vive en la zona.
             </p>
       
           </div>
@@ -89,11 +89,11 @@
             <div class="row gy-4 align-items-center features-item" data-aos="fade-up">
 
             <div class="col-md-5">
-               <a href="{{ route('user.noticias.new42') }}" target="_blank"> <img src="{{ asset('assets/img/news/Foto-3.jpg')}}" class="img-fluid" alt=""></a>
+               <a href="{{ route('user.noticias.new45') }}" target="_blank"> <img src="{{ asset('assets/img/news/Instalación1.jpg')}}" class="img-fluid" alt=""></a>
             </div>
             <div class="col-md-7">
-                <h3>771 habitantes de bienes patrimoniales del barrio Prado se beneficiarán con la reducción en las tarifas de servicios públicos</h3>
-            <p>771 Bienes de Interés Cultural (BIC) de uso residencial de Prado, barrio patrimonial de Medellín, se beneficiarán gracias a la asimilación por estratificación, que no significa el cambio de estrato pero que sí permitirá que se calculen las tarifas de servicios públicos con base en uno más bajo, según lo reglamenta el Decreto Municipal 0227 de 2022.</p>
+                <h3>En Medellín se instalará obra ganadora de Concéntrico, uno de los eventos de arte y arquitectura más importantes en el mundo</h3>
+            <p>Medellín estará ante los ojos del mundo con la instalación temporal de una obra de arte en la Plaza de las Luces, como parte del desarrollo del noveno Festival Internacional de Arquitectura y Diseño de Logroño, uno de los más importantes de Europa y del mundo.</p>
             </div>
             </div>
            

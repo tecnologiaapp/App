@@ -149,7 +149,7 @@
 
             <div class="imagen">
               
-              <img src="{{ asset('assets/img/Galeria/carcel1.png')}}" alt="">
+              <img src="{{ asset('assets/img/Galeria/carcel/1.jpg')}}" alt="">
               
                 <div class="overlay">
                 <a href="{{ route('user.transparency.galeria.galery3') }}"><h2>Cárcel Metropolitana para Sindicados</h2></a>
@@ -158,19 +158,84 @@
             </div>
             <div class="imagen">
               
-              <img src="{{ asset('assets/img/Galeria/p2.jpg')}}" alt="">
+              <img src="{{ asset('assets/img/Galeria/nutibara/Nutibara_Portela.jpg')}}" alt="">
               
                 <div class="overlay">
-                <a  href="{{ route('user.transparency.galeria.galery1') }}"><h2>Rendición de cuentas 2021</h2></a>
+                <a  href="{{ route('user.transparency.galeria.galery4') }}"><h2>Hotel Nutibara</h2></a>
                     
                 </div>
             </div>
+        
             <div class="imagen">
               
               <img src="{{ asset('assets/img/Galeria/10.jpg')}}" alt="">
               
                 <div class="overlay">
                 <a  href="{{ route('user.transparency.galeria.galery2') }}"><h2>La Alhambra</h2></a>
+                    
+                </div>
+            </div>
+            <div class="imagen">
+              
+              <img src="{{ asset('assets/img/Galeria/aeep/6.jpg')}}" alt="">
+              
+                <div class="overlay">
+                <a  href="{{ route('user.transparency.galeria.galery10') }}"><h2>AEEP Provenza</h2></a>
+                    
+                </div>
+            </div>
+            <div class="imagen">
+              
+              <img src="{{ asset('assets/img/Galeria/muro_verde/1.jpg')}}" alt="">
+              
+                <div class="overlay">
+                <a  href="{{ route('user.transparency.galeria.galery9') }}"><h2>Muro verde</h2></a>
+                    
+                </div>
+            </div>
+            <div class="imagen">
+              
+              <img src="{{ asset('assets/img/Galeria/cam/1.jpg')}}" alt="">
+              
+                <div class="overlay">
+                <a  href="{{ route('user.transparency.galeria.galery8') }}"><h2>Centro Administrativo Municipal</h2></a>
+                    
+                </div>
+            </div>
+            <div class="imagen">
+              
+              <img src="{{ asset('assets/img/Galeria/punto_cero/1.jpg')}}" alt="">
+              
+                <div class="overlay">
+                <a  href="{{ route('user.transparency.galeria.galery7') }}"><h2>Punto cero</h2></a>
+                    
+                </div>
+            </div>
+            <div class="imagen">
+              
+              <img src="{{ asset('assets/img/Galeria/olano/1.jpg')}}" alt="">
+              
+                <div class="overlay">
+                <a  href="{{ route('user.transparency.galeria.galery6') }}"><h2>Parque Olano</h2></a>
+                    
+                </div>
+            </div>
+            <div class="imagen">
+              
+              <img src="{{ asset('assets/img/Galeria/naviera/1.jpg')}}" alt="">
+              
+                <div class="overlay">
+                <a  href="{{ route('user.transparency.galeria.galery5') }}"><h2>La Naviera</h2></a>
+                    
+                </div>
+            </div>
+         
+            <div class="imagen">
+              
+              <img src="{{ asset('assets/img/Galeria/p2.jpg')}}" alt="">
+              
+                <div class="overlay">
+                <a  href="{{ route('user.transparency.galeria.galery1') }}"><h2>Rendición de cuentas 2021</h2></a>
                     
                 </div>
             </div>

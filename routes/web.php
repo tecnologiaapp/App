@@ -725,6 +725,10 @@ Route::get('/noticias/new46', function () {
    return view('user.noticias.new46');
 })->name('user.noticias.new46');
 
+Route::get('/noticias/new47', function () {
+   return view('user.noticias.new47');
+})->name('user.noticias.new47');
+
 Route::get('/Prensa/album1', function(){
    return view('user.transparency.galeria.galery1');
 }) ->name('user.transparency.galeria.galery1');
@@ -736,6 +740,34 @@ Route::get('/Prensa/album2', function(){
 Route::get('/Prensa/album3', function(){
    return view('user.transparency.galeria.galery3');
 }) ->name('user.transparency.galeria.galery3');
+
+Route::get('/Prensa/album4', function(){
+   return view('user.transparency.galeria.galery4');
+}) ->name('user.transparency.galeria.galery4');
+
+Route::get('/Prensa/album5', function(){
+   return view('user.transparency.galeria.galery5');
+}) ->name('user.transparency.galeria.galery5');
+
+Route::get('/Prensa/album6', function(){
+   return view('user.transparency.galeria.galery6');
+}) ->name('user.transparency.galeria.galery6');
+
+Route::get('/Prensa/album7', function(){
+   return view('user.transparency.galeria.galery7');
+}) ->name('user.transparency.galeria.galery7');
+
+Route::get('/Prensa/album8', function(){
+   return view('user.transparency.galeria.galery8');
+}) ->name('user.transparency.galeria.galery8');
+
+Route::get('/Prensa/album9', function(){
+   return view('user.transparency.galeria.galery9');
+}) ->name('user.transparency.galeria.galery9');
+
+Route::get('/Prensa/album10', function(){
+   return view('user.transparency.galeria.galery10');
+}) ->name('user.transparency.galeria.galery10');
 
 Route::get('/fiestadelpatrimonio2022', function(){
    return view('user.projects.patrimonio');
