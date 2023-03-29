@@ -169,8 +169,8 @@ body.pojo-a11y-focusable a:focus{ outline-style: solid !important;	outline-width
 
       <div class="col-lg-3 col-md-6 footer-contact">
         <h4>Horario de atención</h4>
-       <p> <strong> Lunes - Jueves: </strong> 7:30 AM - 5:30 PM</p>
-       <p> <strong> Viernes: </strong> 7:30 AM - 4:30 PM</p>
+       <p> <strong> Lunes - Jueves: </strong> 7:30 AM a 12:30 PM y de 1:30 PM a 5:30 PM</p>
+       <p> <strong> Viernes: </strong> 7:30 AM a 12:30 PM y de 1:30 PM a 4:30 PM</p>
      
       </div>
 

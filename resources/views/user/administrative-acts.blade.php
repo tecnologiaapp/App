@@ -25,6 +25,17 @@
 				<tbody>
 
 				<tr>
+						<td width="20%" class="align-middle">Resolución 025 de 2023</td>
+						<td width="50%" class="align-middle">Por medio de la cual se modifica la jornada de trabajo para los días 03, 04 y 05 de abril de 2023 y se ordena una compensación</td>
+						<td width="15%" class="align-middle">20 de Febrero de 2023</td>
+						<td width="15%" class="align-middle">
+							<a href="{{ asset('assets/pdf/Resolución No. 025 Modificación jornada de trabajo (1).pdf')}}" class="btn btn-primary btn-block" target="_blank">
+								Ver documento
+							</a>
+						</td>
+					</tr>
+
+				<tr>
 						<td width="20%" class="align-middle">Resolución 001 de 2023</td>
 						<td width="50%" class="align-middle">Por medio de la cual se establecen las cuantías para la contratación en la vigencia 2023 de la Agencia para la Gestión del Paisaje, el Patrimonio y las Alianzas Público Privadas</td>
 						<td width="15%" class="align-middle">02 de Enero de 2023</td>

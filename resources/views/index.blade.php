@@ -46,7 +46,7 @@
 	
 </section>
 
-<!-- <a href="https://www.instagram.com/agenciaappmed/" target="_blank"><img src="https://i.ibb.co/j6wz1Px/Banner-Internas2.jpg" style="width:100%; height:auto;"></a> -->
+<a href="https://www.instagram.com/agenciaappmed/" target="_blank"><img src="{{ asset('assets/images/Home/santa.jpg')}}" style="width:100%; height:auto;"></a>
 
 
 
