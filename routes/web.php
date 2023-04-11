@@ -825,6 +825,10 @@ Route::get('/proyectos/mudag',[MudagController::class, 'mudag'])->name('user.pro
 
 Route::post('/enviar-message',[MudagController::class, 'enviarEmail'])->name('contact.enviar');
 
+Route::get('/nutibara', function(){
+   return view('user.projects.nutibara');
+}) ->name('user.projects.nutibara');
+
 
 
 
