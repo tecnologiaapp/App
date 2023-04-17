@@ -41,18 +41,27 @@
     z-index: 1030;
     background: rgba(255, 255, 255, 0.9);
 }
+.translate-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
 </style>
 
 </head>
   <header id="header" class="fixed-top" style="position: absolute;">
 <div class="bg-primary">
-    <div class="container-xl logo_menu_superior">
-      <div class="header-govco">
-  <a href="https://www.gov.co/" target="blank" title="Ir al portal GOV.CO">
-  <img src="https://www.mintic.gov.co/portal/715/channels-616_header_govco.png" alt="Imagen logo GovCo" class="img-fluid">
-  </a>
-</div>
-</div>
+      <div class="container-xl logo_menu_superior">
+        <div class="header-govco d-flex align-items-center justify-content-between">
+          <a href="https://www.gov.co/" target="blank" title="Ir al portal GOV.CO">
+            <img src="https://www.mintic.gov.co/portal/715/channels-616_header_govco.png" alt="Imagen logo GovCo" class="img-fluid">
+          </a>
+          <!-- <div id="google_translate_element"></div> -->
+        </div>
+      </div>
 </div>
     <div class="container d-flex align-items-center" style="margin-left: 2px; justify-content: space-between;">
 
