@@ -88,6 +88,14 @@
 										</a>
 									</td>
 								</tr>
+								<tr>
+									<td>Plan indicativo - Quinto bimestre 2022</td>
+									<td>
+										<a href="{{ asset('assets/pdf/planning/Seguimiento PI 31 Octubre2022_Definitivo.pdf')}}" class="btn btn-primary btn-block" target="_blank">
+											Ver documento
+										</a>
+									</td>
+								</tr>
 	<tr>
 									<td>Plan indicativo - Cuarto bimestre 2022</td>
 									<td>

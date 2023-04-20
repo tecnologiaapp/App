@@ -116,6 +116,14 @@
 									</td>
 								</tr>
 								<tr>
+									<td>Plan de Acción MPAL - Quinto bimestre 2022</td>
+									<td> 
+										<a href="{{ asset('assets/pdf/planning/Seguimiento PA 31 Octubre2022_Definitivo.pdf')}}" class="btn btn-primary btn-block" target="_blank">
+											Ver documento
+										</a>
+									</td>
+								</tr>
+								<tr>
 									<td>Plan de Acción MPAL - Sexto bimestre 2022</td>
 									<td> 
 										<a href="{{ asset('assets/pdf/planning/Seguimiento PA 31 Diciembre_2022_Defintivo.pdf')}}" class="btn btn-primary btn-block" target="_blank">

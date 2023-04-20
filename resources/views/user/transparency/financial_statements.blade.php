@@ -75,7 +75,7 @@
 
 <table class="table table-bordered table-striped custom-table">
 	<tbody>
-	<tr>
+								<tr>
 									<td>Estados Financieros Año 2021</td>
 									<td>
 										<a href="{{ asset('assets/pdf/financial_statements/2021/estados-financieros-del-2021.pdf')}}" class="btn btn-primary btn-block btn-block" target="_blank">
@@ -167,7 +167,25 @@
 
 <table class="table table-bordered table-striped custom-table">
 	<tbody>
-	<tr>
+								<tr>
+									<td>Estados Financieros Diciembre 2022</td>
+									<td>
+										<a href="{{ asset('assets/pdf/financial_statements/2022/Diciembre-2022.pdf')}}" class="btn btn-primary btn-block btn-block" target="_blank">
+											Ver documento
+										</a>
+									</td>
+								</tr>
+						
+								<tr>
+									<td>Estados Financieros Noviembre 2022</td>
+									<td>
+										<a href="{{ asset('assets/pdf/financial_statements/2022/Noviembre-2022.pdf')}}" class="btn btn-primary btn-block btn-block" target="_blank">
+											Ver documento
+										</a>
+									</td>
+								</tr>
+						
+								<tr>
 									<td>Estados Financieros Octubre 2022</td>
 									<td>
 										<a href="{{ asset('assets/pdf/financial_statements/2022/octubre-2022.pdf')}}" class="btn btn-primary btn-block btn-block" target="_blank">
