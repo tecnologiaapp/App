@@ -330,6 +330,11 @@
 						  <span>Participa</span>
 					  </a>
 			</li>
+					<li>
+			<a class="menu-sub-item" href="{{ route('user.rendition.cuentas-2022') }}">
+				  <span>Rendición de cuentas 2022</span>
+			  </a>
+			</li>
 			<li>
 			<a class="menu-sub-item" href="{{ route('user.rendition.cuentas-2021') }}">
 				  <span>Rendición de cuentas 2021</span>

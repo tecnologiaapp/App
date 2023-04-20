@@ -487,6 +487,10 @@ Route::get('/rendición/de/cuentas2021', function () {
    return view('user.rendition.cuentas-2021');
 })->name('user.rendition.cuentas-2021');
 
+Route::get('/rendición/de/cuentas2022', function () {
+   return view('user.rendition.cuentas-2022');
+})->name('user.rendition.cuentas-2022');
+
 
 Route::get('/rendición/de/cuentas/evaluacion', function () {
    return view('user.rendition.evaluacion');

@@ -336,7 +336,15 @@
 	<tbody>
 
 								<tr>
-									<td>Informe pormenorizado de control interno junio 30 2022</td>
+									<td>Informe pormenorizado de control interno Diciembre 30 2022</td>
+									<td>
+										<a href="{{ asset('assets/pdf/control/Autoevaluacion Sistema de Control Interno Vigencia 2022.pdf')}}" class="btn btn-primary btn-block" target="_blank">
+											Ver documento
+										</a>
+									</td>
+								</tr>
+								<tr>
+									<td>Informe pormenorizado de control interno Junio 30 2022</td>
 									<td>
 										<a href="{{ asset('assets/pdf/control/APP2022-CorteJunio-30.pdf')}}" class="btn btn-primary btn-block" target="_blank">
 											Ver documento
