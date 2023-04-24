@@ -77,7 +77,14 @@
 <table class="table table-bordered table-striped custom-table">
 	<tbody>
 
-
+	<tr>
+							<td>Plan anual de adquisiciones 2023 - Actualizado</td>
+							<td>
+								<a href="{{ asset('assets/pdf/annual_procurement_plan/2023-act.xlsx')}}" class="btn btn-primary" target="_blank">
+									Ver documento
+								</a>
+							</td>
+						</tr>
 	<tr>
 							<td>Plan anual de adquisiciones 2023 - Enero</td>
 							<td>

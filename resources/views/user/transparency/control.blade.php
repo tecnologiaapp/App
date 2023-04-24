@@ -476,12 +476,39 @@
 	<button class="accordion">Informes de peticiones, quejas, reclamos y sugerencias - PQRS</button>
 	<div class="panel">
 
-	<button class="accordion"> 2022 </button>
+	<button class="accordion"> 2023 </button>
 	<div class="panel">
 
 <table class="table table-bordered table-striped custom-table">
 	<tbody>
 
+								<tr>
+									<td>Informe de PQRSD - Primer trimestre de 2023</td>
+									<td>
+										<a href="{{ asset('assets/pdf/pqrs/primer-trimestre-2023.pdf')}}" class="btn btn-primary btn-block" target="_blank">
+											Ver documento
+										</a>
+									</td>
+								</tr>
+
+								</tbody> 
+</table>
+</div>
+
+
+	<button class="accordion"> 2022 </button>
+	<div class="panel">
+
+<table class="table table-bordered table-striped custom-table">
+	<tbody>
+	<tr>
+									<td>Informe de PQRSD - Cuarto trimestre de 2022</td>
+									<td>
+										<a href="{{ asset('assets/pdf/pqrs/cuarto-Trimestre-2022.pdf')}}" class="btn btn-primary btn-block" target="_blank">
+											Ver documento
+										</a>
+									</td>
+								</tr>
 								<tr>
 									<td>Informe de PQRSD - Tercer trimestre de 2022</td>
 									<td>

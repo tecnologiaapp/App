@@ -71,7 +71,14 @@
 
 <table class="table table-bordered table-striped custom-table">
 	<tbody>
-
+	<tr>
+									<td>Seguimiento Plan anticorrupción y atención al ciudadano Diciembre 2022</td>
+									<td>
+										<a href="{{ asset('assets/pdf/planning/Seguimiento-Diciembre-2022.pdf')}}" class="btn btn-primary btn-block" target="_blank">
+											Ver documento
+										</a>
+									</td>
+								</tr>
 
 	<tr>
 									<td>Seguimiento Septiembre Plan anticorrupción y atención al ciudadano 2022</td>
