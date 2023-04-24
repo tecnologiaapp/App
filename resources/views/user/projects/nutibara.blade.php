@@ -90,7 +90,7 @@
       <h1>Iluminamos el corazón patrimonial de Medellín</h1>
       <h2>Rescata el valor histórico y patrimonial del Hotel Nutibara con tus mejores fotografías.</h2>
       <!-- <a href="#about" class="btn-get-started scrollto">Get Started</a> -->
-      <button id="abrir-modal" class="btn-get-started scrollto">Descubrir</button>
+      <button id="abrir-modal" class="btn-get-started scrollto">Descubre</button>
 
             <!-- El modal -->
             <div id="mi-modal" class="modal">
@@ -130,8 +130,7 @@
 
           <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right" style="font-size: 18px;">
             <p>
-            En sus 78 años de historia, el Hotel Nutibara ha recibido a miles de viajeros, turistas,
-viajeros, aclamados artistas y personalidades de la época. Hasta 1972, algunos de los
+            En sus 78 años de historia, el Hotel Nutibara ha recibido a miles de viajeros, turistas, aclamados artistas y personalidades de la época. Hasta 1972, algunos de los
 presidentes de Colombia se hospedaron en él cuando venían a la capital antioqueña.
             </p>
             <p>
@@ -148,15 +147,17 @@ hospedarse en el corazón patrimonial de Medellín.
           </div>
         </div>
 
+       
+
+        <div class="row pt-5" style="font-size: 18px;">
         <div class="section-title">
           <span>Datos curiosos</span>
           <h2>Datos curiosos</h2>
         </div>
-
-        <div class="row" style="font-size: 18px;">
-        <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right" >
+        <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right" style="    padding-right: 30px;
+" >
             <ul style="text-align:justify;">
-              <li type="circle">Jorge Eliécer Gaitán visitó al Hotel Nutibara en 1947 y en su terraza le tomaron un retrato emblemático que sirvió de base para el billete actual de 1.000 pesos.</li>
+              <li type="circle">Jorge Eliécer Gaitán visitó al Hotel Nutibara en 1947 y en su terraza le tomaron un retrato emblemático que sirvió de base para el billete de 1.000 pesos Colombiano.</li>
               <li type="circle">
               Entre 1948 y 1950, el compositor Lucho Bermúdez fue el músico de planta del hotel, donde se presentó semanalmente con su orquesta.
               </li>
@@ -167,8 +168,8 @@ hospedarse en el corazón patrimonial de Medellín.
               <li type="circle">
               El diseño del Hotel Nutibara fue encargado al arquitecto norteamericano Paul
               Williams, famoso por trabajar en Hollywood haciendo mansiones para actores
-              de cine y hoteles como el Beverly Hills, que aparece en la portada de Hotel
-              California, el álbum de The Eagles.
+              de cine y hoteles como el Beverly Hills, que aparece en la portada de <span style="italic">Hotel
+              California</span> , el álbum de The Eagles.
               </li>
      
             </ul>
@@ -186,7 +187,7 @@ hospedarse en el corazón patrimonial de Medellín.
               <li type="circle">
               Con la iluminación arquitectónica realizada por la Agencia para la Gestión del
               Paisaje, el Patrimonio y las Alianzas Público Privadas -Agencia APP, se busca
-              recuperar el paisaje y arquitectónico, fomentar la mejora y la conservación de
+              recuperar el paisaje arquitectónico, fomentar la mejora y la conservación de
               edificaciones patrimoniales, aportar a la renovación y seguridad del Centro de
               la ciudad y mejorar la infraestructura de los edificios históricos.
               </li>
@@ -207,8 +208,8 @@ hospedarse en el corazón patrimonial de Medellín.
       <div class="container">
 
       <div class="section-title">
-          <span>Categorias</span>
-          <h2>Categorias</h2>
+          <span>Categorías</span>
+          <h2>Categorías</h2>
         </div>
 
         <div class="row" style="justify-content: space-around;">
@@ -290,17 +291,23 @@ hospedarse en el corazón patrimonial de Medellín.
           </div>
 
         </div>
-
+            
+        <div class="row pt-5">
         <div class="section-title">
           <span>Fechas</span>
           <h2>Fechas</h2>
         </div>
           <h4><strong>Postulación:</strong>  entre el 26 de abril y el 3 de mayo de 2023.</h4>
           <h4><strong>Premiación:</strong>  viernes 5 de mayo.</h4>
-          <h2 style="text-align:center;" class="pt-2"><strong>Reconocimiento por categoría</strong></h2>
-          <h4>Disfruta del privilegio de una noche por pareja, todo incluido, en la suite presidencial del Hotel Nutibara y evoca el lujo de mediados del siglo veinte.</h4>
-          <h4><strong>Incluye: </strong>alojamiento por noche, por pareja; seguro hotelero por persona, desayuno
-tipo americano servido bufete y parqueadero (sujeto a disponibilidad).</h4>
+          <div class="section-title">
+          <span>Reconocimientos</span>
+          <h2>Reconocimientos</h2>
+          </div>
+          <h4>El ganador de cada categoría disfrutará del privilegio de una noche por pareja, todo incluido, en la suite presidencial del Hotel Nutibara.</h4>
+          <h4><strong>Qué incluye: </strong>alojamiento por noche, por pareja; seguro hotelero por persona, desayuno
+          tipo americano servido bufete y parqueadero (sujeto a disponibilidad).</h4> 
+        </div>
+      
       </div>
     </section><!-- End Why Us Section -->
 
@@ -311,8 +318,8 @@ tipo americano servido bufete y parqueadero (sujeto a disponibilidad).</h4>
 
         <div class="text-center">
           <h3>Postulación</h3>
-          <p>Recuerda seguir las cuentas en Instagram de la Agencia APP (@agenciaappmed) y del Hotel Nutibara (@hotelnutibara) para que tu material participe del concurso.</p>
-          <a class="cta-btn" href="https://docs.google.com/forms/d/1b29OQJTLdsty5s9kY8YtYiyBu_AoxmiwK2zbw47kcs4/viewform?ts=6441b40a&edit_requested=true" target="_blank">Inscribirse</a>
+          <p>Recuerda seguir las cuentas en Instagram de la Agencia APP (@agenciaappmed) y del Hotel Nutibara (@hotelnutibara) para que tu obra participe del concurso.</p>
+          <a class="cta-btn" href="https://docs.google.com/forms/d/1b29OQJTLdsty5s9kY8YtYiyBu_AoxmiwK2zbw47kcs4/viewform?ts=6441b40a&edit_requested=true" target="_blank">Inscríbete</a>
         </div>
 
       </div>
@@ -342,7 +349,7 @@ tipo americano servido bufete y parqueadero (sujeto a disponibilidad).</h4>
               Podrás participar máximo con tres (3) fotografías en cada una de las categorías. 
               </li>
               <li type="circle">
-              No se admiten montajes, transformaciones, alteraciones a la imagen ni ayudas con IA (inteligencia artificial).
+              No se admiten montajes, transformaciones, alteraciones a la imagen ni ayudas con IA (Inteligencia Artificial).
               </li>
               <li type="circle">
               Se admiten ajustes básicos de revelado como exposición, iluminaciones, sombras, contraste, brillo, entre otros.
@@ -354,21 +361,24 @@ tipo americano servido bufete y parqueadero (sujeto a disponibilidad).</h4>
               Las fotografías no pueden tener marcas de agua, marcos, ni firmas.
               </li>
               <li type="circle">
-              El peso de las fotografías debe ser máximo 10 mb.
+              El peso de las fotografías debe ser máximo de 10 mb.
               </li>
               <li type="circle">
               La fotografía debe ser enviada únicamente en formato JPG. 
+              </li>
+              <li type="circle">
+              Se prohíbe la participación de menores de edad en el contenido fotográfico de la categoría Nocturna.
               </li>
             </ul>
         </div>
         <div  class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
             <ul style="text-align:justify;">           
           
-              <li type="circle">
-              Para poder participar debes seguir las cuentas en Instagram de la Agencia APP (@agenciaappmed) y del Hotel Nutibara (@hotelnutibara).
+              <li type="circle"> <strong>
+              Para poder participar debes seguir las cuentas en Instagram de la Agencia APP (@agenciaappmed) y del Hotel Nutibara (@hotelnutibara).</strong>
               </li>
               <li type="circle">
-              Diligencia el formulario y adjunta hasta tres fotografías en la(s) categoría(s) en la que deseas participar. 
+              Diligencia el <a href="https://docs.google.com/forms/d/1b29OQJTLdsty5s9kY8YtYiyBu_AoxmiwK2zbw47kcs4/viewform?ts=6441b40a&edit_requested=true" target="_blank">formulario</a>  y adjunta hasta tres fotografías en la(s) categoría(s) en la que deseas participar. 
               </li>
               <li type="circle">
               Al compartir tus fotografías permites la publicación del material en redes sociales, exposiciones, y otros espacios de la Agencia APP y del Hotel Nutibara. 
@@ -380,7 +390,7 @@ tipo americano servido bufete y parqueadero (sujeto a disponibilidad).</h4>
               Declaro que las fotografías concursantes y los datos suscritos en el formulario son veraces. De lo contrario, el concursante (mayor de edad) deberá responder legalmente ante cualquier acción o reclamación que se instaure por la utilización y publicación de la fotografía, eximiendo de cualquier responsabilidad a la Agencia APP y al Hotel Nutibara. 
               </li>
               <li type="circle">
-              Sólo se recibiran fotografías enviadas al formulario publicado en la página web
+              Sólo se recibirán fotografías enviadas al formulario publicado en la página web.
               </li>
            
             </ul>
