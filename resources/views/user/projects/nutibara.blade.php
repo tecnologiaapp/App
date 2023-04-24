@@ -118,7 +118,7 @@
           <h2>Historia</h2>
         </div>
 
-        <div class="row">
+        <div class="row align-items-center">
           <!-- <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-left">
             <img src="http://agencia.test/assets/img/Galeria/nutibara/Nutibara_Portela.jpg" class="img-fluid" alt="" height="100%" width="300px">
           </div> -->
@@ -128,7 +128,7 @@
             <img src="assets/images/Hotel.jpg" alt="Descripción de la imagen">
             </div>
 
-          <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right">
+          <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right" style="font-size: 18px;">
             <p>
             En sus 78 años de historia, el Hotel Nutibara ha recibido a miles de viajeros, turistas,
 viajeros, aclamados artistas y personalidades de la época. Hasta 1972, algunos de los
@@ -153,8 +153,8 @@ hospedarse en el corazón patrimonial de Medellín.
           <h2>Datos curiosos</h2>
         </div>
 
-        <div class="row">
-        <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right">
+        <div class="row" style="font-size: 18px;">
+        <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right" >
             <ul style="text-align:justify;">
               <li type="circle">Jorge Eliécer Gaitán visitó al Hotel Nutibara en 1947 y en su terraza le tomaron un retrato emblemático que sirvió de base para el billete actual de 1.000 pesos.</li>
               <li type="circle">
@@ -292,8 +292,8 @@ hospedarse en el corazón patrimonial de Medellín.
         </div>
 
         <div class="section-title">
-          <span>FECHAS</span>
-          <h2>FECHAS</h2>
+          <span>Fechas</span>
+          <h2>Fechas</h2>
         </div>
           <h4><strong>Postulación:</strong>  entre el 26 de abril y el 3 de mayo de 2023.</h4>
           <h4><strong>Premiación:</strong>  viernes 5 de mayo.</h4>
@@ -328,7 +328,7 @@ tipo americano servido bufete y parqueadero (sujeto a disponibilidad).</h4>
           <h2>Términos y condiciones</h2>
         </div>
 
-       <div class="row">
+       <div class="row" style="font-size: 18px;">
        <div  class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
         <ul style="text-align:justify;">
               <li type="circle">En la categoría Histórica se tendrán en cuenta fotografías tomadas entre 1945 y el año 2000.</li>
