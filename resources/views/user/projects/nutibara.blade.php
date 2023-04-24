@@ -36,7 +36,10 @@
   border-radius: 30px;
   object-fit: cover; /* Escalar la imagen sin deformarla y recortando lo que sobre */
 }
-
+.img-fluid {
+    max-width: 100%;
+    height: 285px;
+}
   </style>
 </head>
 
@@ -84,8 +87,8 @@
   <!-- ======= Hero Section ======= -->
   <section id="hero" class="d-flex align-items-center">
     <div class="container position-relative" data-aos="fade-up" data-aos-delay="500">
-      <h1>Deslumbra tus sentidos</h1>
-      <h2>Explora la belleza de la luz en la arquitectura: Un evento imperdible</h2>
+      <h1>Iluminamos el corazón patrimonial de Medellín</h1>
+      <h2>Rescata el valor histórico y patrimonial del Hotel Nutibara con tus mejores fotografías.</h2>
       <!-- <a href="#about" class="btn-get-started scrollto">Get Started</a> -->
       <button id="abrir-modal" class="btn-get-started scrollto">Descubrir</button>
 
@@ -113,7 +116,6 @@
         <div class="section-title">
           <span>Historia</span>
           <h2>Historia</h2>
-          <p>Sit sint consectetur velit quisquam cupiditate impedit suscipit alias</p>
         </div>
 
         <div class="row">
@@ -122,27 +124,80 @@
           </div> -->
 
             <div class="contenedor-imagen col-lg-6 order-1 order-lg-2">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/0/07/Hotel_Nutibara-Fachada-Medellin.JPG" alt="Descripción de la imagen">
+            <!-- <img src="https://upload.wikimedia.org/wikipedia/commons/0/07/Hotel_Nutibara-Fachada-Medellin.JPG" alt="Descripción de la imagen"> -->
+            <img src="assets/images/Hotel.jpg" alt="Descripción de la imagen">
             </div>
 
           <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right">
-            <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3>
-            <p class="fst-italic">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-              magna aliqua.
-            </p>
-            <ul>
-              <li><i class="bi bi-check-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-              <li><i class="bi bi-check-circle"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
-              <li><i class="bi bi-check-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</li>
-            </ul>
             <p>
-              Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-              velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-              culpa qui officia deserunt mollit anim id est laborum
+            En sus 78 años de historia, el Hotel Nutibara ha recibido a miles de viajeros, turistas,
+viajeros, aclamados artistas y personalidades de la época. Hasta 1972, algunos de los
+presidentes de Colombia se hospedaron en él cuando venían a la capital antioqueña.
+            </p>
+            <p>
+            Esta imponente edificación de estilo californiano hace parte del Centro tradicional de
+Medellín con otras edificaciones como La Naviera, Palacé, Constain y Cárdenas, el
+Palacio Rafael Uribe Uribe y el Museo de Antioquia.
+            </p>
+            <p>
+            El hotel es hoy un importante protagonista y referente de la ciudad, y un atractivo
+destino para visitar, no sólo por lo que representa la tradición de un lugar de estas
+características, también por el privilegio de encontrar un maravilloso lugar para
+hospedarse en el corazón patrimonial de Medellín.
             </p>
           </div>
         </div>
+
+        <div class="section-title">
+          <span>Datos curiosos</span>
+          <h2>Datos curiosos</h2>
+        </div>
+
+        <div class="row">
+        <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right">
+            <ul style="text-align:justify;">
+              <li type="circle">Jorge Eliécer Gaitán visitó al Hotel Nutibara en 1947 y en su terraza le tomaron un retrato emblemático que sirvió de base para el billete actual de 1.000 pesos.</li>
+              <li type="circle">
+              Entre 1948 y 1950, el compositor Lucho Bermúdez fue el músico de planta del hotel, donde se presentó semanalmente con su orquesta.
+              </li>
+              <li type="circle">
+              En sus salones se realizaron las fiestas del reinado de belleza de Antioquia, los remates de las corridas de toros y los bailes de Año Nuevo.
+              </li>
+           
+              <li type="circle">
+              El diseño del Hotel Nutibara fue encargado al arquitecto norteamericano Paul
+              Williams, famoso por trabajar en Hollywood haciendo mansiones para actores
+              de cine y hoteles como el Beverly Hills, que aparece en la portada de Hotel
+              California, el álbum de The Eagles.
+              </li>
+     
+            </ul>
+
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right">
+            <ul style="text-align:justify;">
+            <li type="circle">
+              El edificio fue el más alto de la ciudad por unos años, y su estilo supo mezclar lo
+              tradicional y lo californiano.
+              </li>
+              <li type="circle">
+              El Hotel Nutibara costó 15.000 millones de pesos de la época.
+              </li>
+              <li type="circle">
+              Con la iluminación arquitectónica realizada por la Agencia para la Gestión del
+              Paisaje, el Patrimonio y las Alianzas Público Privadas -Agencia APP, se busca
+              recuperar el paisaje y arquitectónico, fomentar la mejora y la conservación de
+              edificaciones patrimoniales, aportar a la renovación y seguridad del Centro de
+              la ciudad y mejorar la infraestructura de los edificios históricos.
+              </li>
+              <li type="circle">
+              El Hotel Nutibara era, junto al Club Unión, el núcleo de la cultura y el
+              entretenimiento de la clase alta de Medellín hasta los años ochenta.
+              </li>
+            </ul>
+
+          </div>
+        </div>   
 
       </div>
     </section><!-- End About Section -->
@@ -154,16 +209,14 @@
       <div class="section-title">
           <span>Categorias</span>
           <h2>Categorias</h2>
-          <p>Sit sint consectetur velit quisquam cupiditate impedit suscipit alias</p>
         </div>
 
         <div class="row" style="justify-content: space-around;">
 
           <div class="col-lg-4" data-aos="fade-up">
             <div class="box">
-              <span>01</span>
-              <h4>Categoria</h4>
-              <p>Ulamco laboris nisi ut aliquip ex ea commodo consequat. Et consectetur ducimus vero placeat</p>
+              <h4 style="text-align:center;">Histórica</h4>
+              <p>Comparte tus mejores momentos en el Hotel Nutibara entre 1945 y el año 2000.</p>
               <div id="myCarousel" class="carousel slide mt-3" data-bs-ride="carousel">
                     <!-- Indicadores -->
                     <ol class="carousel-indicators">
@@ -200,9 +253,8 @@
 
           <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="150">
             <div class="box">
-              <span>02</span>
-              <h4>Categoria</h4>
-              <p>Dolorem est fugiat occaecati voluptate velit esse. Dicta veritatis dolor quod et vel dire leno para dest</p>
+              <h4 style="text-align:center;">Nocturna</h4>
+              <p>Toma la mejor fotografía nocturna de la actual iluminación arquitectónica del Hotel Nutibara.</p>
               <div id="myCarousel" class="carousel slide mt-3" data-bs-ride="carousel">
                     <!-- Indicadores -->
                     <ol class="carousel-indicators">
@@ -239,6 +291,16 @@
 
         </div>
 
+        <div class="section-title">
+          <span>FECHAS</span>
+          <h2>FECHAS</h2>
+        </div>
+          <h4><strong>Postulación:</strong>  entre el 26 de abril y el 3 de mayo de 2023.</h4>
+          <h4><strong>Premiación:</strong>  viernes 5 de mayo.</h4>
+          <h2 style="text-align:center;" class="pt-2"><strong>Reconocimiento por categoría</strong></h2>
+          <h4>Disfruta del privilegio de una noche por pareja, todo incluido, en la suite presidencial del Hotel Nutibara y evoca el lujo de mediados del siglo veinte.</h4>
+          <h4><strong>Incluye: </strong>alojamiento por noche, por pareja; seguro hotelero por persona, desayuno
+tipo americano servido bufete y parqueadero (sujeto a disponibilidad).</h4>
       </div>
     </section><!-- End Why Us Section -->
 
@@ -248,9 +310,9 @@
       <div class="container" data-aos="zoom-in">
 
         <div class="text-center">
-          <h3>Call To Action</h3>
-          <p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          <a class="cta-btn" href="#">Call To Action</a>
+          <h3>Postulación</h3>
+          <p>Recuerda seguir las cuentas en Instagram de la Agencia APP (@agenciaappmed) y del Hotel Nutibara (@hotelnutibara) para que tu material participe del concurso.</p>
+          <a class="cta-btn" href="https://docs.google.com/forms/d/1b29OQJTLdsty5s9kY8YtYiyBu_AoxmiwK2zbw47kcs4/viewform?ts=6441b40a&edit_requested=true" target="_blank">Inscribirse</a>
         </div>
 
       </div>
@@ -264,13 +326,66 @@
         <div class="section-title">
           <span>Términos y condiciones</span>
           <h2>Términos y condiciones</h2>
-          <p>Sit sint consectetur velit quisquam cupiditate impedit suscipit alias</p>
         </div>
 
-        <div class="row">
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem at accusamus enim ea dolorem optio rerum facilis cupiditate vitae necessitatibus ut quis mollitia ratione quos atque perspiciatis voluptate, nam impedit, dolorum voluptatum sed facere nemo! Pariatur distinctio autem quisquam ad cumque? Ratione molestiae architecto, harum adipisci cumque odio veritatis, doloribus quae aperiam similique minima repellendus ipsam nulla voluptates recusandae? Saepe ullam delectus et laborum enim consectetur? Eius eos quia iusto debitis maxime animi sunt laborum aspernatur dolorem tenetur natus quod provident nihil officia magnam iure, repudiandae delectus. Culpa, dolores nam. Provident, illo. Assumenda eaque doloremque commodi dolores architecto totam quis, laborum, quia repellat nam impedit excepturi natus deserunt quisquam, dolor voluptatem. Fugit, officiis est. Ab placeat quia facilis quisquam explicabo debitis eveniet provident. Excepturi, facere maxime. Odit neque odio accusantium vel, repellendus aspernatur tempora deserunt cum possimus consequatur nam iste vero, voluptatum deleniti dolore libero earum provident, aliquam voluptas? Vitae doloribus maiores nobis animi eligendi minus voluptatibus eum enim quisquam quo dicta molestiae, aperiam ab voluptatem officiis optio eos. Repellendus dolore consectetur nemo asperiores sed deleniti ipsum eligendi fugiat corrupti dolorem! Sapiente voluptas obcaecati iste minima, praesentium modi! Dicta, recusandae omnis maiores saepe nemo error dolore cum deleniti, earum, amet unde vitae eius doloribus suscipit. Maxime atque similique vel explicabo eius eos sit recusandae. Dolore sed corrupti repellendus soluta aliquam eveniet itaque vero facere repudiandae laborum, iure necessitatibus esse quaerat mollitia nihil quo ducimus beatae exercitationem doloremque tempore aperiam corporis. Aperiam veniam, minima, possimus laborum ad qui iusto laboriosam aut fugit dolorem rerum tempore temporibus aliquid officia placeat sequi debitis suscipit eum dolor reiciendis maiores recusandae. Eum delectus blanditiis a animi perspiciatis! Voluptatum voluptates, dolorem omnis dicta praesentium ipsam, neque totam repellendus hic facilis odit molestias cum aspernatur dolore animi, est atque culpa optio! Quaerat, dolor repellat. Iusto explicabo voluptas corrupti animi dolor. Nesciunt nobis assumenda rerum eos odit at? Eos corrupti hic nemo quibusdam sit optio commodi provident suscipit, sunt minus odio! Ipsam cumque optio esse culpa, corporis laborum in illo saepe reprehenderit accusamus qui soluta sint ratione molestias exercitationem, ducimus unde, excepturi aliquam commodi ab velit nobis quam eum sequi? Sapiente, tempora. Molestiae id laboriosam architecto est quaerat ab? Alias nostrum beatae perferendis vitae officia impedit doloremque ducimus facilis quis maxime iste, sint cum blanditiis quidem maiores repellat nesciunt! Ut voluptate ea dicta expedita ipsam eum, totam magnam, eveniet tempora, explicabo facilis non veniam officiis vel laudantium architecto?</p>
-
+       <div class="row">
+       <div  class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
+        <ul style="text-align:justify;">
+              <li type="circle">En la categoría Histórica se tendrán en cuenta fotografías tomadas entre 1945 y el año 2000.</li>
+              <li type="circle">
+              En la categoría Nocturna se tendrán en cuenta fotografías tomadas entre el 26 de abril y el 3 de mayo de 2023. 
+              </li>
+              <li type="circle">
+              Plazo máximo de envío de fotografías: miércoles 3 de mayo de 2023 a las 11:59 p. m.
+              </li>
+              <li type="circle">
+              Podrás participar máximo con tres (3) fotografías en cada una de las categorías. 
+              </li>
+              <li type="circle">
+              No se admiten montajes, transformaciones, alteraciones a la imagen ni ayudas con IA (inteligencia artificial).
+              </li>
+              <li type="circle">
+              Se admiten ajustes básicos de revelado como exposición, iluminaciones, sombras, contraste, brillo, entre otros.
+              </li>
+              <li type="circle">
+              Las fotos deben conservar sus metadatos originales (aplica para celular como para cámara profesional, semiprofesional, analógica (negativo), entre otros).
+              </li>
+              <li type="circle">
+              Las fotografías no pueden tener marcas de agua, marcos, ni firmas.
+              </li>
+              <li type="circle">
+              El peso de las fotografías debe ser máximo 10 mb.
+              </li>
+              <li type="circle">
+              La fotografía debe ser enviada únicamente en formato JPG. 
+              </li>
+            </ul>
         </div>
+        <div  class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
+            <ul style="text-align:justify;">           
+          
+              <li type="circle">
+              Para poder participar debes seguir las cuentas en Instagram de la Agencia APP (@agenciaappmed) y del Hotel Nutibara (@hotelnutibara).
+              </li>
+              <li type="circle">
+              Diligencia el formulario y adjunta hasta tres fotografías en la(s) categoría(s) en la que deseas participar. 
+              </li>
+              <li type="circle">
+              Al compartir tus fotografías permites la publicación del material en redes sociales, exposiciones, y otros espacios de la Agencia APP y del Hotel Nutibara. 
+              </li>
+              <li type="circle">
+              Las fotografías son sin ánimo de lucro y en ningún momento serán utilizadas con fines comerciales.  La Agencia APP y el Hotel Nutibara quedan exentos de cualquier responsabilidad que se pueda derivar de la presente actividad.
+              </li>
+              <li type="circle">
+              Declaro que las fotografías concursantes y los datos suscritos en el formulario son veraces. De lo contrario, el concursante (mayor de edad) deberá responder legalmente ante cualquier acción o reclamación que se instaure por la utilización y publicación de la fotografía, eximiendo de cualquier responsabilidad a la Agencia APP y al Hotel Nutibara. 
+              </li>
+              <li type="circle">
+              Sólo se recibiran fotografías enviadas al formulario publicado en la página web
+              </li>
+           
+            </ul>
+        </div>
+       </div>
 
       </div>
     </section>
@@ -283,154 +398,109 @@
       <div class="section-title">
           <span>Galería</span>
           <h2>Galería</h2>
-          <p>Sit sint consectetur velit quisquam cupiditate impedit suscipit alias</p>
         </div>
 
         <div class="row gy-4 justify-content-center">
           <div class="col-xl-3 col-lg-4 col-md-6">
             <div class="gallery-item h-100">
-              <img src="assets/img/gallery/gallery-1.jpg" class="img-fluid" alt="">
+              <img src="assets/images/Hotel.jpg" class="img-fluid" alt="">
               <div class="gallery-links d-flex align-items-center justify-content-center">
-                <a href="assets/img/gallery/gallery-1.jpg" title="Gallery 1" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
+                <a href="assets/images/Hotel.jpg"  class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
                 
               </div>
             </div>
           </div><!-- End Gallery Item -->
           <div class="col-xl-3 col-lg-4 col-md-6">
             <div class="gallery-item h-100">
-              <img src="assets/img/gallery/gallery-2.jpg" class="img-fluid" alt="">
+              <img src="assets/images/HotelNutibara.jpg" class="img-fluid" alt="">
               <div class="gallery-links d-flex align-items-center justify-content-center">
-                <a href="assets/img/gallery/gallery-2.jpg" title="Gallery 2" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
+                <a href="assets/images/HotelNutibara.jpg"  class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
                 
               </div>
             </div>
           </div><!-- End Gallery Item -->
+   
+          <div class="col-xl-3 col-lg-4 col-md-6">
+            <div class="gallery-item" style="height:285px;">
+              <img src="assets/images/HotelNutibara02.jpg" class="img-fluid" alt="">
+              <div class="gallery-links d-flex align-items-center justify-content-center">
+                <a href="assets/images/HotelNutibara02.jpg"  class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
+                
+              </div>
+            </div>
+          </div>
+          <!-- End Gallery Item -->
           <div class="col-xl-3 col-lg-4 col-md-6">
             <div class="gallery-item h-100">
-              <img src="assets/img/gallery/gallery-3.jpg" class="img-fluid" alt="">
+              <img src="assets/images/HotelNutibara03.jpg" class="img-fluid" alt="">
               <div class="gallery-links d-flex align-items-center justify-content-center">
-                <a href="assets/img/gallery/gallery-3.jpg" title="Gallery 3" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
+                <a href="assets/images/HotelNutibara03.jpg"  class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
                 
               </div>
             </div>
-          </div><!-- End Gallery Item -->
+          </div>
+          <!-- End Gallery Item -->
           <div class="col-xl-3 col-lg-4 col-md-6">
             <div class="gallery-item h-100">
-              <img src="assets/img/gallery/gallery-4.jpg" class="img-fluid" alt="">
+              <img src="assets/images/HotelNutibara04.jpg" class="img-fluid" alt="">
               <div class="gallery-links d-flex align-items-center justify-content-center">
-                <a href="assets/img/gallery/gallery-4.jpg" title="Gallery 4" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
+                <a href="assets/images/HotelNutibara04.jpg"  class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
                 
               </div>
             </div>
-          </div><!-- End Gallery Item -->
+          </div>
+          <!-- End Gallery Item -->
+
           <div class="col-xl-3 col-lg-4 col-md-6">
             <div class="gallery-item h-100">
-              <img src="assets/img/gallery/gallery-5.jpg" class="img-fluid" alt="">
+              <img src="assets/images/HotelNutibara06.jpg" class="img-fluid" alt="">
               <div class="gallery-links d-flex align-items-center justify-content-center">
-                <a href="assets/img/gallery/gallery-5.jpg" title="Gallery 5" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
+                <a href="assets/images/HotelNutibara06.jpg"  class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
                 
               </div>
             </div>
-          </div><!-- End Gallery Item -->
+          </div>
+          <!-- End Gallery Item -->
           <div class="col-xl-3 col-lg-4 col-md-6">
             <div class="gallery-item h-100">
-              <img src="assets/img/gallery/gallery-6.jpg" class="img-fluid" alt="">
+              <img src="assets/images/HotelNutibara07.jpg" class="img-fluid" alt="">
               <div class="gallery-links d-flex align-items-center justify-content-center">
-                <a href="assets/img/gallery/gallery-6.jpg" title="Gallery 6" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
+                <a href="assets/images/HotelNutibara07.jpg"  class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
                 
               </div>
             </div>
-          </div><!-- End Gallery Item -->
+          </div>
+          <!-- End Gallery Item -->
           <div class="col-xl-3 col-lg-4 col-md-6">
             <div class="gallery-item h-100">
-              <img src="assets/img/gallery/gallery-7.jpg" class="img-fluid" alt="">
+              <img src="assets/images/HotelNutibara08.jpg" class="img-fluid" alt="">
               <div class="gallery-links d-flex align-items-center justify-content-center">
-                <a href="assets/img/gallery/gallery-7.jpg" title="Gallery 7" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
+                <a href="assets/images/HotelNutibara08.jpg"  class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
                 
               </div>
             </div>
-          </div><!-- End Gallery Item -->
+          </div>
+          <!-- End Gallery Item -->
           <div class="col-xl-3 col-lg-4 col-md-6">
             <div class="gallery-item h-100">
-              <img src="assets/img/gallery/gallery-8.jpg" class="img-fluid" alt="">
+              <img src="assets/images/HotelNutibara09.jpg" class="img-fluid" alt="">
               <div class="gallery-links d-flex align-items-center justify-content-center">
-                <a href="assets/img/gallery/gallery-8.jpg" title="Gallery 8" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
+                <a href="assets/images/HotelNutibara09.jpg"  class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
                 
               </div>
             </div>
-          </div><!-- End Gallery Item -->
+          </div>
+          <!-- End Gallery Item -->
           <div class="col-xl-3 col-lg-4 col-md-6">
             <div class="gallery-item h-100">
-              <img src="assets/img/gallery/gallery-9.jpg" class="img-fluid" alt="">
+              <img src="assets/images/HotelNutibara10.jpg" class="img-fluid" alt="">
               <div class="gallery-links d-flex align-items-center justify-content-center">
-                <a href="assets/img/gallery/gallery-9.jpg" title="Gallery 9" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
+                <a href="assets/images/HotelNutibara10.jpg"  class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
                 
               </div>
             </div>
-          </div><!-- End Gallery Item -->
-          <div class="col-xl-3 col-lg-4 col-md-6">
-            <div class="gallery-item h-100">
-              <img src="assets/img/gallery/gallery-10.jpg" class="img-fluid" alt="">
-              <div class="gallery-links d-flex align-items-center justify-content-center">
-                <a href="assets/img/gallery/gallery-10.jpg" title="Gallery 10" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
-                
-              </div>
-            </div>
-          </div><!-- End Gallery Item -->
-          <div class="col-xl-3 col-lg-4 col-md-6">
-            <div class="gallery-item h-100">
-              <img src="assets/img/gallery/gallery-11.jpg" class="img-fluid" alt="">
-              <div class="gallery-links d-flex align-items-center justify-content-center">
-                <a href="assets/img/gallery/gallery-11.jpg" title="Gallery 11" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
-                
-              </div>
-            </div>
-          </div><!-- End Gallery Item -->
-          <div class="col-xl-3 col-lg-4 col-md-6">
-            <div class="gallery-item h-100">
-              <img src="assets/img/gallery/gallery-12.jpg" class="img-fluid" alt="">
-              <div class="gallery-links d-flex align-items-center justify-content-center">
-                <a href="assets/img/gallery/gallery-12.jpg" title="Gallery 12" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
-                
-              </div>
-            </div>
-          </div><!-- End Gallery Item -->
-          <div class="col-xl-3 col-lg-4 col-md-6">
-            <div class="gallery-item h-100">
-              <img src="assets/img/gallery/gallery-13.jpg" class="img-fluid" alt="">
-              <div class="gallery-links d-flex align-items-center justify-content-center">
-                <a href="assets/img/gallery/gallery-13.jpg" title="Gallery 13" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
-                
-              </div>
-            </div>
-          </div><!-- End Gallery Item -->
-          <div class="col-xl-3 col-lg-4 col-md-6">
-            <div class="gallery-item h-100">
-              <img src="assets/img/gallery/gallery-14.jpg" class="img-fluid" alt="">
-              <div class="gallery-links d-flex align-items-center justify-content-center">
-                <a href="assets/img/gallery/gallery-14.jpg" title="Gallery 14" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
-                
-              </div>
-            </div>
-          </div><!-- End Gallery Item -->
-          <div class="col-xl-3 col-lg-4 col-md-6">
-            <div class="gallery-item h-100">
-              <img src="assets/img/gallery/gallery-15.jpg" class="img-fluid" alt="">
-              <div class="gallery-links d-flex align-items-center justify-content-center">
-                <a href="assets/img/gallery/gallery-15.jpg" title="Gallery 15" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
-                
-              </div>
-            </div>
-          </div><!-- End Gallery Item -->
-          <div class="col-xl-3 col-lg-4 col-md-6">
-            <div class="gallery-item h-100">
-              <img src="assets/img/gallery/gallery-16.jpg" class="img-fluid" alt="">
-              <div class="gallery-links d-flex align-items-center justify-content-center">
-                <a href="assets/img/gallery/gallery-16.jpg" title="Gallery 16" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
-                
-              </div>
-            </div>
-          </div><!-- End Gallery Item -->
+          </div>
+          <!-- End Gallery Item -->
 
         </div>
 
