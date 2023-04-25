@@ -22,7 +22,7 @@
   <link rel="stylesheet" href="{{ asset('assets/vendor/animate.css/animate.min.css') }}">
 
   <!-- Template Main CSS File -->
-  <link rel="stylesheet" href="{{ asset('assets/css/nutib.css')}}">
+  <link rel="stylesheet" href="{{ asset('assets/css/nutibar.css')}}">
   <style>
     .contenedor-imagen {
   width: 600px; /* Ancho del contenedor */
@@ -125,7 +125,7 @@
 
             <div class="contenedor-imagen col-lg-6 order-1 order-lg-2">
             <!-- <img src="https://upload.wikimedia.org/wikipedia/commons/0/07/Hotel_Nutibara-Fachada-Medellin.JPG" alt="Descripción de la imagen"> -->
-            <img src="assets/images/Hotel.jpg" alt="Descripción de la imagen">
+            <img src="assets/images/HotelNuti.jpg" alt="Descripción de la imagen">
             </div>
 
           <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right" style="font-size: 18px;">
@@ -157,15 +157,15 @@ hospedarse en el corazón patrimonial de Medellín.
         <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right" style="    padding-right: 30px;
 " >
             <ul style="text-align:justify;">
-              <li type="circle">Jorge Eliécer Gaitán visitó al Hotel Nutibara en 1947 y en su terraza le tomaron un retrato emblemático que sirvió de base para el billete de 1.000 pesos Colombiano.</li>
-              <li type="circle">
+              <li><i class="ri-check-double-line"></i> Jorge Eliécer Gaitán visitó al Hotel Nutibara en 1947 y en su terraza le tomaron un retrato emblemático que sirvió de base para el billete de 1.000 pesos Colombiano.</li>
+              <li><i class="ri-check-double-line"></i>
               Entre 1948 y 1950, el compositor Lucho Bermúdez fue el músico de planta del hotel, donde se presentó semanalmente con su orquesta.
               </li>
-              <li type="circle">
+              <li><i class="ri-check-double-line"></i>
               En sus salones se realizaron las fiestas del reinado de belleza de Antioquia, los remates de las corridas de toros y los bailes de Año Nuevo.
               </li>
            
-              <li type="circle">
+              <li><i class="ri-check-double-line"></i>
               El diseño del Hotel Nutibara fue encargado al arquitecto norteamericano Paul
               Williams, famoso por trabajar en Hollywood haciendo mansiones para actores
               de cine y hoteles como el Beverly Hills, que aparece en la portada de <span style="italic">Hotel
@@ -177,21 +177,21 @@ hospedarse en el corazón patrimonial de Medellín.
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right">
             <ul style="text-align:justify;">
-            <li type="circle">
+            <li><i class="ri-check-double-line"></i>  
               El edificio fue el más alto de la ciudad por unos años, y su estilo supo mezclar lo
               tradicional y lo californiano.
               </li>
-              <li type="circle">
+              <li><i class="ri-check-double-line"></i>
               El Hotel Nutibara costó 15.000 millones de pesos de la época.
               </li>
-              <li type="circle">
+              <li><i class="ri-check-double-line"></i>
               Con la iluminación arquitectónica realizada por la Agencia para la Gestión del
               Paisaje, el Patrimonio y las Alianzas Público Privadas -Agencia APP, se busca
               recuperar el paisaje arquitectónico, fomentar la mejora y la conservación de
               edificaciones patrimoniales, aportar a la renovación y seguridad del Centro de
               la ciudad y mejorar la infraestructura de los edificios históricos.
               </li>
-              <li type="circle">
+              <li><i class="ri-check-double-line"></i>
               El Hotel Nutibara era, junto al Club Unión, el núcleo de la cultura y el
               entretenimiento de la clase alta de Medellín hasta los años ochenta.
               </li>
@@ -218,15 +218,16 @@ hospedarse en el corazón patrimonial de Medellín.
             <div class="box">
               <h4 style="text-align:center;">Histórica</h4>
               <p>Comparte tus mejores momentos en el Hotel Nutibara entre 1945 y el año 2000.</p>
-              <div id="myCarousel" class="carousel slide mt-3" data-bs-ride="carousel">
-                    <!-- Indicadores -->
+              <img src="assets/images/HotelNutibara10.jpg" alt="Nutibara" height="300px" width="100%" style="padding-top: 10px;">
+              <!-- <div id="myCarousel" class="carousel slide mt-3" data-bs-ride="carousel">
+               
                     <ol class="carousel-indicators">
                         <li data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"></li>
                         <li data-bs-target="#myCarousel" data-bs-slide-to="1"></li>
                         <li data-bs-target="#myCarousel" data-bs-slide-to="2"></li>
                     </ol>
 
-                    <!-- Imágenes -->
+                 
                     <div class="carousel-inner">
                         <div class="carousel-item active">
                         <img src="https://upload.wikimedia.org/wikipedia/commons/0/07/Hotel_Nutibara-Fachada-Medellin.JPG" alt="Imagen 1" height="300px" width="100%">
@@ -239,7 +240,7 @@ hospedarse en el corazón patrimonial de Medellín.
                         </div>
                     </div>
 
-                    <!-- Controles -->
+               
                     <a class="carousel-control-prev" href="#myCarousel" role="button" data-bs-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Anterior</span>
@@ -248,7 +249,7 @@ hospedarse en el corazón patrimonial de Medellín.
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Siguiente</span>
                     </a>
-              </div>
+              </div> -->
             </div>
           </div>
 
@@ -256,15 +257,16 @@ hospedarse en el corazón patrimonial de Medellín.
             <div class="box">
               <h4 style="text-align:center;">Nocturna</h4>
               <p>Toma la mejor fotografía nocturna de la actual iluminación arquitectónica del Hotel Nutibara.</p>
-              <div id="myCarousel" class="carousel slide mt-3" data-bs-ride="carousel">
-                    <!-- Indicadores -->
+              <img src="assets/images/HotelNutibara.jpg" alt="Nutibara" height="300px" width="100%" style="padding-top: 10px;">
+              <!-- <div id="myCarousel" class="carousel slide mt-3" data-bs-ride="carousel">
+                 
                     <ol class="carousel-indicators">
                         <li data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"></li>
                         <li data-bs-target="#myCarousel" data-bs-slide-to="1"></li>
                         <li data-bs-target="#myCarousel" data-bs-slide-to="2"></li>
                     </ol>
 
-                    <!-- Imágenes -->
+                
                     <div class="carousel-inner">
                         <div class="carousel-item active">
                         <img src="https://upload.wikimedia.org/wikipedia/commons/0/07/Hotel_Nutibara-Fachada-Medellin.JPG" alt="Imagen 1" height="300px" width="100%">
@@ -277,7 +279,6 @@ hospedarse en el corazón patrimonial de Medellín.
                         </div>
                     </div>
 
-                    <!-- Controles -->
                     <a class="carousel-control-prev" href="#myCarousel" role="button" data-bs-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Anterior</span>
@@ -286,7 +287,7 @@ hospedarse en el corazón patrimonial de Medellín.
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Siguiente</span>
                     </a>
-              </div>
+              </div> -->
             </div>
           </div>
 
@@ -297,15 +298,15 @@ hospedarse en el corazón patrimonial de Medellín.
           <span>Fechas</span>
           <h2>Fechas</h2>
         </div>
-          <h4><strong>Postulación:</strong>  entre el 26 de abril y el 3 de mayo de 2023.</h4>
-          <h4><strong>Premiación:</strong>  viernes 5 de mayo.</h4>
+        <p><strong>Postulación:</strong>  entre el 26 de abril y el 3 de mayo de 2023.</p>
+        <p><strong>Premiación:</strong>  viernes 5 de mayo.</p>
+
           <div class="section-title">
           <span>Reconocimientos</span>
           <h2>Reconocimientos</h2>
           </div>
-          <h4>El ganador de cada categoría disfrutará del privilegio de una noche por pareja, todo incluido, en la suite presidencial del Hotel Nutibara.</h4>
-          <h4><strong>Qué incluye: </strong>alojamiento por noche, por pareja; seguro hotelero por persona, desayuno
-          tipo americano servido bufete y parqueadero (sujeto a disponibilidad).</h4> 
+          <p>El ganador de cada categoría disfrutará del privilegio de una noche por pareja, todo incluido, en la suite presidencial del Hotel Nutibara.</p>
+          <p><strong>Qué incluye: </strong>alojamiento por noche, por pareja; seguro hotelero por persona, desayuno tipo americano servido bufete y parqueadero (sujeto a disponibilidad).</p>
         </div>
       
       </div>
@@ -338,58 +339,58 @@ hospedarse en el corazón patrimonial de Medellín.
        <div class="row" style="font-size: 18px;">
        <div  class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
         <ul style="text-align:justify;">
-              <li type="circle">En la categoría Histórica se tendrán en cuenta fotografías tomadas entre 1945 y el año 2000.</li>
-              <li type="circle">
+              <li><i class="ri-check-double-line"></i>En la categoría Histórica se tendrán en cuenta fotografías tomadas entre 1945 y el año 2000.</li>
+              <li ><i class="ri-check-double-line"></i>
               En la categoría Nocturna se tendrán en cuenta fotografías tomadas entre el 26 de abril y el 3 de mayo de 2023. 
               </li>
-              <li type="circle">
+              <li ><i class="ri-check-double-line"></i>
               Plazo máximo de envío de fotografías: miércoles 3 de mayo de 2023 a las 11:59 p. m.
               </li>
-              <li type="circle">
+              <li ><i class="ri-check-double-line"></i>
               Podrás participar máximo con tres (3) fotografías en cada una de las categorías. 
               </li>
-              <li type="circle">
+              <li ><i class="ri-check-double-line"></i>
               No se admiten montajes, transformaciones, alteraciones a la imagen ni ayudas con IA (Inteligencia Artificial).
               </li>
-              <li type="circle">
+              <li ><i class="ri-check-double-line"></i>
               Se admiten ajustes básicos de revelado como exposición, iluminaciones, sombras, contraste, brillo, entre otros.
               </li>
-              <li type="circle">
+              <li ><i class="ri-check-double-line"></i>
               Las fotos deben conservar sus metadatos originales (aplica para celular como para cámara profesional, semiprofesional, analógica (negativo), entre otros).
               </li>
-              <li type="circle">
+              <li ><i class="ri-check-double-line"></i>
               Las fotografías no pueden tener marcas de agua, marcos, ni firmas.
               </li>
-              <li type="circle">
+              <li ><i class="ri-check-double-line"></i>
               El peso de las fotografías debe ser máximo de 10 mb.
               </li>
-              <li type="circle">
+              <li ><i class="ri-check-double-line"></i>
               La fotografía debe ser enviada únicamente en formato JPG. 
               </li>
-              <li type="circle">
-              Se prohíbe la participación de menores de edad en el contenido fotográfico de la categoría Nocturna.
-              </li>
+           
             </ul>
         </div>
         <div  class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
             <ul style="text-align:justify;">           
-          
-              <li type="circle"> <strong>
+              <li ><i class="ri-check-double-line"></i>
+              Se prohíbe la participación de menores de edad en el contenido fotográfico de la categoría Nocturna.
+              </li>
+              <li ><i class="ri-check-double-line"></i> <strong>
               Para poder participar debes seguir las cuentas en Instagram de la Agencia APP (@agenciaappmed) y del Hotel Nutibara (@hotelnutibara).</strong>
               </li>
-              <li type="circle">
-              Diligencia el <a href="https://docs.google.com/forms/d/1b29OQJTLdsty5s9kY8YtYiyBu_AoxmiwK2zbw47kcs4/viewform?ts=6441b40a&edit_requested=true" target="_blank">formulario</a>  y adjunta hasta tres fotografías en la(s) categoría(s) en la que deseas participar. 
+              <li ><i class="ri-check-double-line"></i>
+              Diligencia el <a href="https://docs.google.com/forms/d/1b29OQJTLdsty5s9kY8YtYiyBu_AoxmiwK2zbw47kcs4/viewform?ts=6441b40a&edit_requested=true" target="_blank"><strong>formulario</strong></a>  y adjunta hasta tres fotografías en la(s) categoría(s) en la que deseas participar. 
               </li>
-              <li type="circle">
+              <li ><i class="ri-check-double-line"></i>
               Al compartir tus fotografías permites la publicación del material en redes sociales, exposiciones, y otros espacios de la Agencia APP y del Hotel Nutibara. 
               </li>
-              <li type="circle">
+              <li ><i class="ri-check-double-line"></i>
               Las fotografías son sin ánimo de lucro y en ningún momento serán utilizadas con fines comerciales.  La Agencia APP y el Hotel Nutibara quedan exentos de cualquier responsabilidad que se pueda derivar de la presente actividad.
               </li>
-              <li type="circle">
+              <li ><i class="ri-check-double-line"></i>
               Declaro que las fotografías concursantes y los datos suscritos en el formulario son veraces. De lo contrario, el concursante (mayor de edad) deberá responder legalmente ante cualquier acción o reclamación que se instaure por la utilización y publicación de la fotografía, eximiendo de cualquier responsabilidad a la Agencia APP y al Hotel Nutibara. 
               </li>
-              <li type="circle">
+              <li ><i class="ri-check-double-line"></i>
               Sólo se recibirán fotografías enviadas al formulario publicado en la página web.
               </li>
            
@@ -603,7 +604,7 @@ function cargarVideo() {
 
   // Crear el objeto del reproductor de YouTube
   var reproductor = new YT.Player(contenedor, {
-    videoId: "NhfuTWgzxGg",
+    videoId: "pVwAAnoEbxs",
     height: '400',
     width: '100%',
     events: {
