@@ -22,22 +22,17 @@
   <link rel="stylesheet" href="{{ asset('assets/vendor/animate.css/animate.min.css') }}">
 
   <!-- Template Main CSS File -->
-  <link rel="stylesheet" href="{{ asset('assets/css/nutibar.css')}}">
+  <link rel="stylesheet" href="{{ asset('assets/css/nutib.css')}}">
   <style>
-    .contenedor-imagen {
-  width: 600px; /* Ancho del contenedor */
-  height: 400px; /* Alto del contenedor */
-  overflow: hidden; /* Ocultar la parte de la imagen que se salga del contenedor */
-}
 
-.contenedor-imagen img {
+.historia-imagen img {
   width: 100%; /* Ajustar la imagen al ancho del contenedor */
   height: 100%; /* Ajustar la imagen al alto del contenedor */
   border-radius: 30px;
-  object-fit: cover; /* Escalar la imagen sin deformarla y recortando lo que sobre */
+  object-fit: cover;
 }
 .img-fluid {
-    max-width: 100%;
+    max-width: 355px;
     height: 285px;
 }
   </style>
@@ -118,31 +113,28 @@
           <h2>Historia</h2>
         </div>
 
-        <div class="row align-items-center">
-          <!-- <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-left">
-            <img src="http://agencia.test/assets/img/Galeria/nutibara/Nutibara_Portela.jpg" class="img-fluid" alt="" height="100%" width="300px">
-          </div> -->
+        <div class="row align-items-center" style="font-size: 18px;">
 
-            <div class="contenedor-imagen col-lg-6 order-1 order-lg-2">
+            <div class="historia-imagen col-lg-6 order-1 order-lg-2">
             <!-- <img src="https://upload.wikimedia.org/wikipedia/commons/0/07/Hotel_Nutibara-Fachada-Medellin.JPG" alt="Descripción de la imagen"> -->
             <img src="assets/images/HotelNuti.jpg" alt="Descripción de la imagen">
             </div>
 
-          <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right" style="font-size: 18px;">
+          <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right">
             <p>
             En sus 78 años de historia, el Hotel Nutibara ha recibido a miles de viajeros, turistas, aclamados artistas y personalidades de la época. Hasta 1972, algunos de los
-presidentes de Colombia se hospedaron en él cuando venían a la capital antioqueña.
+            presidentes de Colombia se hospedaron en él cuando venían a la capital antioqueña.
             </p>
             <p>
             Esta imponente edificación de estilo californiano hace parte del Centro tradicional de
-Medellín con otras edificaciones como La Naviera, Palacé, Constain y Cárdenas, el
-Palacio Rafael Uribe Uribe y el Museo de Antioquia.
+            Medellín con otros edificios como La Naviera, Palacé, Constain y Cárdenas, el
+            Palacio Rafael Uribe Uribe y el Museo de Antioquia.
             </p>
             <p>
             El hotel es hoy un importante protagonista y referente de la ciudad, y un atractivo
-destino para visitar, no sólo por lo que representa la tradición de un lugar de estas
-características, también por el privilegio de encontrar un maravilloso lugar para
-hospedarse en el corazón patrimonial de Medellín.
+            destino para visitar, no sólo por lo que representa la tradición de un lugar de estas
+            características, también por el privilegio de encontrar un maravilloso lugar para
+          hospedarse en el corazón patrimonial de Medellín.
             </p>
           </div>
         </div>
@@ -212,44 +204,13 @@ hospedarse en el corazón patrimonial de Medellín.
           <h2>Categorías</h2>
         </div>
 
-        <div class="row" style="justify-content: space-around;">
+        <div class="row align-items-stretch" style="justify-content: space-around;">
 
           <div class="col-lg-4" data-aos="fade-up">
-            <div class="box">
+            <div class="box  h-100 d-flex flex-column justify-content-between">
               <h4 style="text-align:center;">Histórica</h4>
               <p>Comparte tus mejores momentos en el Hotel Nutibara entre 1945 y el año 2000.</p>
-              <img src="assets/images/HotelNutibara10.jpg" alt="Nutibara" height="300px" width="100%" style="padding-top: 10px;">
-              <!-- <div id="myCarousel" class="carousel slide mt-3" data-bs-ride="carousel">
-               
-                    <ol class="carousel-indicators">
-                        <li data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"></li>
-                        <li data-bs-target="#myCarousel" data-bs-slide-to="1"></li>
-                        <li data-bs-target="#myCarousel" data-bs-slide-to="2"></li>
-                    </ol>
-
-                 
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/0/07/Hotel_Nutibara-Fachada-Medellin.JPG" alt="Imagen 1" height="300px" width="100%">
-                        </div>
-                        <div class="carousel-item">
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/0/07/Hotel_Nutibara-Fachada-Medellin.JPG" alt="Imagen 2" height="300px" width="100%">
-                        </div>
-                        <div class="carousel-item">
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/0/07/Hotel_Nutibara-Fachada-Medellin.JPG" alt="Imagen 3" height="300px" width="100%">
-                        </div>
-                    </div>
-
-               
-                    <a class="carousel-control-prev" href="#myCarousel" role="button" data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Anterior</span>
-                    </a>
-                    <a class="carousel-control-next" href="#myCarousel" role="button" data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Siguiente</span>
-                    </a>
-              </div> -->
+              <img src="assets/images/HotelNutibara10.jpg" alt="Nutibara" height="100%" width="100%" style="padding-top: 10px;">
             </div>
           </div>
 
@@ -257,37 +218,7 @@ hospedarse en el corazón patrimonial de Medellín.
             <div class="box">
               <h4 style="text-align:center;">Nocturna</h4>
               <p>Toma la mejor fotografía nocturna de la actual iluminación arquitectónica del Hotel Nutibara.</p>
-              <img src="assets/images/HotelNutibara.jpg" alt="Nutibara" height="300px" width="100%" style="padding-top: 10px;">
-              <!-- <div id="myCarousel" class="carousel slide mt-3" data-bs-ride="carousel">
-                 
-                    <ol class="carousel-indicators">
-                        <li data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"></li>
-                        <li data-bs-target="#myCarousel" data-bs-slide-to="1"></li>
-                        <li data-bs-target="#myCarousel" data-bs-slide-to="2"></li>
-                    </ol>
-
-                
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/0/07/Hotel_Nutibara-Fachada-Medellin.JPG" alt="Imagen 1" height="300px" width="100%">
-                        </div>
-                        <div class="carousel-item">
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/0/07/Hotel_Nutibara-Fachada-Medellin.JPG" alt="Imagen 2" height="300px" width="100%">
-                        </div>
-                        <div class="carousel-item">
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/0/07/Hotel_Nutibara-Fachada-Medellin.JPG" alt="Imagen 3" height="300px" width="100%">
-                        </div>
-                    </div>
-
-                    <a class="carousel-control-prev" href="#myCarousel" role="button" data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Anterior</span>
-                    </a>
-                    <a class="carousel-control-next" href="#myCarousel" role="button" data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Siguiente</span>
-                    </a>
-              </div> -->
+              <img src="assets/images/HotelNutibara.jpg" alt="Nutibara" height="100%" width="100%" style="padding-top: 10px;">
             </div>
           </div>
 
@@ -307,10 +238,109 @@ hospedarse en el corazón patrimonial de Medellín.
           </div>
           <p>El ganador de cada categoría disfrutará del privilegio de una noche por pareja, todo incluido, en la suite presidencial del Hotel Nutibara.</p>
           <p><strong>Qué incluye: </strong>alojamiento por noche, por pareja; seguro hotelero por persona, desayuno tipo americano servido bufete y parqueadero (sujeto a disponibilidad).</p>
-        </div>
-      
+          </div>
+  
       </div>
-    </section><!-- End Why Us Section -->
+    </section>
+
+    <section class="gallery">
+              <div class="container-fluid">
+                  <div class="row gy-4 justify-content-center">
+                        <div class="col-xl-3 col-lg-4 col-md-6">
+                          <div class="gallery-item">
+                            <img src="assets/images/2.jpg" class="img-fluid" alt="">
+                            <div class="gallery-links d-flex align-items-center justify-content-center">
+                              <a href="assets/images/2.jpg"  class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
+                              
+                            </div>
+                          </div>
+                        </div>
+                        
+                        <div class="col-xl-3 col-lg-4 col-md-6">
+                          <div class="gallery-item">
+                            <img src="assets/images/3.jpg" class="img-fluid" alt="">
+                            <div class="gallery-links d-flex align-items-center justify-content-center">
+                              <a href="assets/images/3.jpg"  class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
+                              
+                            </div>
+                          </div>
+                        </div>
+              
+               
+                     
+                        <div class="col-xl-3 col-lg-4 col-md-6">
+                          <div class="gallery-item">
+                            <img src="assets/images/5.jpg" class="img-fluid" alt="">
+                            <div class="gallery-links d-flex align-items-center justify-content-center">
+                              <a href="assets/images/5.jpg"  class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
+                              
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="col-xl-3 col-lg-4 col-md-6">
+                          <div class="gallery-item">
+                            <img src="assets/images/6.jpg" class="img-fluid" alt="">
+                            <div class="gallery-links d-flex align-items-center justify-content-center">
+                              <a href="assets/images/6.jpg"  class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
+                              
+                            </div>
+                          </div>
+                        </div>
+                        
+                        <div class="col-xl-3 col-lg-4 col-md-6">
+                          <div class="gallery-item">
+                            <img src="assets/images/7.jpg" class="img-fluid" alt="">
+                            <div class="gallery-links d-flex align-items-center justify-content-center">
+                              <a href="assets/images/7.jpg"  class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
+                              
+                            </div>
+                          </div>
+                        </div>
+              
+                    
+                     
+                        <div class="col-xl-3 col-lg-4 col-md-6">
+                          <div class="gallery-item">
+                            <img src="assets/images/9.jpg" class="img-fluid" alt="">
+                            <div class="gallery-links d-flex align-items-center justify-content-center">
+                              <a href="assets/images/9.jpg"  class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
+                              
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="col-xl-3 col-lg-4 col-md-6">
+                          <div class="gallery-item">
+                            <img src="assets/images/10.jpg" class="img-fluid" alt="">
+                            <div class="gallery-links d-flex align-items-center justify-content-center">
+                              <a href="assets/images/10.jpg"  class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
+                              
+                            </div>
+                          </div>
+                        </div>
+                        
+     
+              
+                        <div class="col-xl-3 col-lg-4 col-md-6">
+                          <div class="gallery-item">
+                            <img src="assets/images/12.jpg" class="img-fluid" alt="">
+                            <div class="gallery-links d-flex align-items-center justify-content-center">
+                              <a href="assets/images/12.jpg"  class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
+                              
+                            </div>
+                          </div>
+                        </div>
+                     
+
+                   
+                  </div>
+                
+                        
+                   
+               
+              </div>
+        </section>    
 
 
     <!-- ======= Cta Section ======= -->
@@ -414,7 +444,7 @@ hospedarse en el corazón patrimonial de Medellín.
         <div class="row gy-4 justify-content-center">
           <div class="col-xl-3 col-lg-4 col-md-6">
             <div class="gallery-item h-100">
-              <img src="assets/images/Hotel.jpg" class="img-fluid" alt="">
+              <img src="assets/images/Hotel.jpg" class="img-fluid img-responsive" alt="">
               <div class="gallery-links d-flex align-items-center justify-content-center">
                 <a href="assets/images/Hotel.jpg"  class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
                 

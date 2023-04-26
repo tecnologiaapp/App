@@ -1450,15 +1450,12 @@ body {
 /*--------------------------------------------------------------
 # Pricing Section
 --------------------------------------------------------------*/
-.gallery {
-  margin-top: 40px;
-}
 
 .gallery .gallery-item {
   position: relative;
   overflow: hidden;
   border-radius: 10px;
-  width: 354px;
+  width: 100%;
 }
 
 .gallery .gallery-item img {
