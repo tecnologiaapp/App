@@ -22,7 +22,7 @@
   <link rel="stylesheet" href="{{ asset('assets/vendor/animate.css/animate.min.css') }}">
 
   <!-- Template Main CSS File -->
-  <link rel="stylesheet" href="{{ asset('assets/css/nutib.css')}}">
+  <link rel="stylesheet" href="{{ asset('assets/css/nut.css')}}">
   <style>
 
 .historia-imagen img {
@@ -250,7 +250,7 @@
                           <div class="gallery-item">
                             <img src="assets/images/2.jpg" class="img-fluid" alt="">
                             <div class="gallery-links d-flex align-items-center justify-content-center">
-                              <a href="assets/images/2.jpg" title="Suite presidencial - Créditos de la foto a Omar Portela"  class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
+                              <a href="assets/images/2.jpg" title="Suite presidencial - Foto: Omar Portela"  class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
                               
                             </div>
                           </div>
@@ -260,7 +260,7 @@
                           <div class="gallery-item">
                             <img src="assets/images/3.jpg" class="img-fluid" alt="">
                             <div class="gallery-links d-flex align-items-center justify-content-center">
-                              <a href="assets/images/3.jpg" title="Suite presidencial - Créditos de la foto a Omar Portela"  class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
+                              <a href="assets/images/3.jpg" title="Suite presidencial - Foto: Omar Portela"  class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
                               
                             </div>
                           </div>
@@ -272,7 +272,7 @@
                           <div class="gallery-item">
                             <img src="assets/images/5.jpg" class="img-fluid" alt="">
                             <div class="gallery-links d-flex align-items-center justify-content-center">
-                              <a href="assets/images/5.jpg" title="Suite presidencial - Créditos de la foto a Omar Portela" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
+                              <a href="assets/images/5.jpg" title="Suite presidencial - Foto: Omar Portela" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
                               
                             </div>
                           </div>
@@ -282,7 +282,7 @@
                           <div class="gallery-item">
                             <img src="assets/images/6.jpg" class="img-fluid" alt="">
                             <div class="gallery-links d-flex align-items-center justify-content-center">
-                              <a href="assets/images/6.jpg" title="Suite presidencial - Créditos de la foto a Omar Portela" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
+                              <a href="assets/images/6.jpg" title="Suite presidencial - Foto: Omar Portela" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
                               
                             </div>
                           </div>
@@ -292,7 +292,7 @@
                           <div class="gallery-item">
                             <img src="assets/images/7.jpg" class="img-fluid" alt="">
                             <div class="gallery-links d-flex align-items-center justify-content-center">
-                              <a href="assets/images/7.jpg" title="Suite presidencial - Créditos de la foto a Omar Portela" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
+                              <a href="assets/images/7.jpg" title="Suite presidencial - Foto: Omar Portela" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
                               
                             </div>
                           </div>
@@ -304,7 +304,7 @@
                           <div class="gallery-item">
                             <img src="assets/images/9.jpg" class="img-fluid" alt="">
                             <div class="gallery-links d-flex align-items-center justify-content-center">
-                              <a href="assets/images/9.jpg" title="Suite presidencial - Créditos de la foto a Omar Portela" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
+                              <a href="assets/images/9.jpg" title="Suite presidencial - Foto: Omar Portela" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
                               
                             </div>
                           </div>
@@ -314,7 +314,7 @@
                           <div class="gallery-item">
                             <img src="assets/images/10.jpg" class="img-fluid" alt="">
                             <div class="gallery-links d-flex align-items-center justify-content-center">
-                              <a href="assets/images/10.jpg" title="Suite presidencial - Créditos de la foto a Omar Portela" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
+                              <a href="assets/images/10.jpg" title="Suite presidencial - Foto: Omar Portela" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
                               
                             </div>
                           </div>
@@ -326,7 +326,7 @@
                           <div class="gallery-item">
                             <img src="assets/images/12.jpg" class="img-fluid" alt="">
                             <div class="gallery-links d-flex align-items-center justify-content-center">
-                              <a href="assets/images/12.jpg" title="Suite presidencial - Créditos de la foto a Omar Portela" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
+                              <a href="assets/images/12.jpg" title="Suite presidencial - Foto: Omar Portela" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
                               
                             </div>
                           </div>
@@ -553,7 +553,7 @@
 
   </main>
   <!-- End #main -->
-
+<img src="assets/images/Banner-logos.jpg" alt="" width="100%">
   <!-- ======= Footer ======= -->
   <footer id="footer">
 
@@ -561,7 +561,7 @@
             <div class="container">
                 <div class="row">
 
-                <div class="col-lg-3 col-md-6 footer-contact">
+                <div class="col-lg-4 col-md-6 footer-contact">
                     <h3><strong>Agencia APP</strong></h3>
                     <p>Medellín / Antioquia <br>
                     Carrera 55 # 42-180 Local 203 Edificio Plaza de La Libertad<br>
@@ -569,7 +569,7 @@
 
                 </div>
 
-                <div class="col-lg-3 col-md-6 footer-contact">
+                <div class="col-lg-4 col-md-6 footer-contact">
                     <h4><strong>Contacto</strong></h4>
                     <p> <strong> Teléfono: </strong> +57 604 448 1740</p>
                     <p><strong>Correo:</strong> info@app.gov.co</p>
@@ -579,7 +579,7 @@
 
             
 
-                <div class="col-lg-3 col-md-6 footer-contact">
+                <div class="col-lg-4 col-md-6 footer-contact">
                     <h4><strong>Redes sociales</strong></h4>
                     <p>Síguenos y entérate de todo</p>
                     <div class="social-links mt-3">
@@ -595,7 +595,7 @@
                     </div>
                 </div>
 
-                <div class="col-lg-3 col-md-6 footer-contact">
+                <!-- <div class="col-lg-3 col-md-6 footer-contact">
                     <div class="row" style="flex-wrap:nowrap;">
                         <a href="{{ url('/') }}" style="width: 174px; padding-top: 22px;" target="_blank"><img class="logo me-auto" src="assets/img/carcel/Logo-Agencia-APP-morado.png" width="240px;" height="110px;"  style="padding-right: 45px;"></a>
                         
@@ -603,7 +603,7 @@
                         <a href="https://www.medellin.gov.co/" style="width: 174px" target="_blank"><img class="logo me-auto" src="assets/img/carcel/Distrito.png" width="180px;" height="150px;"  style="padding-left: 10px; padding-right: 10px;"></a>
                     </div>
             
-                </div>
+                </div> -->
 
             
                 </div>
