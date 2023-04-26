@@ -250,7 +250,7 @@
                           <div class="gallery-item">
                             <img src="assets/images/2.jpg" class="img-fluid" alt="">
                             <div class="gallery-links d-flex align-items-center justify-content-center">
-                              <a href="assets/images/2.jpg"  class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
+                              <a href="assets/images/2.jpg" title="Suite presidencial - Créditos de la foto a Omar Portela"  class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
                               
                             </div>
                           </div>
@@ -260,7 +260,7 @@
                           <div class="gallery-item">
                             <img src="assets/images/3.jpg" class="img-fluid" alt="">
                             <div class="gallery-links d-flex align-items-center justify-content-center">
-                              <a href="assets/images/3.jpg"  class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
+                              <a href="assets/images/3.jpg" title="Suite presidencial - Créditos de la foto a Omar Portela"  class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
                               
                             </div>
                           </div>
@@ -272,7 +272,7 @@
                           <div class="gallery-item">
                             <img src="assets/images/5.jpg" class="img-fluid" alt="">
                             <div class="gallery-links d-flex align-items-center justify-content-center">
-                              <a href="assets/images/5.jpg"  class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
+                              <a href="assets/images/5.jpg" title="Suite presidencial - Créditos de la foto a Omar Portela" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
                               
                             </div>
                           </div>
@@ -282,7 +282,7 @@
                           <div class="gallery-item">
                             <img src="assets/images/6.jpg" class="img-fluid" alt="">
                             <div class="gallery-links d-flex align-items-center justify-content-center">
-                              <a href="assets/images/6.jpg"  class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
+                              <a href="assets/images/6.jpg" title="Suite presidencial - Créditos de la foto a Omar Portela" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
                               
                             </div>
                           </div>
@@ -292,7 +292,7 @@
                           <div class="gallery-item">
                             <img src="assets/images/7.jpg" class="img-fluid" alt="">
                             <div class="gallery-links d-flex align-items-center justify-content-center">
-                              <a href="assets/images/7.jpg"  class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
+                              <a href="assets/images/7.jpg" title="Suite presidencial - Créditos de la foto a Omar Portela" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
                               
                             </div>
                           </div>
@@ -304,7 +304,7 @@
                           <div class="gallery-item">
                             <img src="assets/images/9.jpg" class="img-fluid" alt="">
                             <div class="gallery-links d-flex align-items-center justify-content-center">
-                              <a href="assets/images/9.jpg"  class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
+                              <a href="assets/images/9.jpg" title="Suite presidencial - Créditos de la foto a Omar Portela" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
                               
                             </div>
                           </div>
@@ -314,7 +314,7 @@
                           <div class="gallery-item">
                             <img src="assets/images/10.jpg" class="img-fluid" alt="">
                             <div class="gallery-links d-flex align-items-center justify-content-center">
-                              <a href="assets/images/10.jpg"  class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
+                              <a href="assets/images/10.jpg" title="Suite presidencial - Créditos de la foto a Omar Portela" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
                               
                             </div>
                           </div>
@@ -326,7 +326,7 @@
                           <div class="gallery-item">
                             <img src="assets/images/12.jpg" class="img-fluid" alt="">
                             <div class="gallery-links d-flex align-items-center justify-content-center">
-                              <a href="assets/images/12.jpg"  class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
+                              <a href="assets/images/12.jpg" title="Suite presidencial - Créditos de la foto a Omar Portela" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
                               
                             </div>
                           </div>
