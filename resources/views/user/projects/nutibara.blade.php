@@ -349,7 +349,7 @@
 
         <div class="text-center">
           <h3>Postulación</h3>
-          <p>Recuerda seguir las cuentas en Instagram de la Agencia APP (@agenciaappmed) y del Hotel Nutibara (@hotelnutibara) para que tu obra participe del concurso.</p>
+          <p>Recuerda seguir las cuentas en Instagram de la Agencia APP (@agenciaappmed) y del Hotel Nutibara (@hotelnutibara) para que tus obras participen del concurso.</p>
           <a class="cta-btn" href="https://docs.google.com/forms/d/1b29OQJTLdsty5s9kY8YtYiyBu_AoxmiwK2zbw47kcs4/viewform?ts=6441b40a&edit_requested=true" target="_blank">Inscríbete</a>
         </div>
 

@@ -15,12 +15,14 @@
 </head>
 
 		<section style="padding-top: 131px;">
-										<div class="embed-responsive embed-responsive-16by9">
+										<!-- <div class="embed-responsive embed-responsive-16by9">
 											<video id="homeVideo1" autoplay muted loop style="width: 100%; height:100%;">
 												<source src="{{ asset('assets/videos/home-1.mp4')}}" type="video/mp4">
 											</video>
-										</div>
-
+										</div> -->
+    <a href="{{ route('user.projects.nutibara')}}">
+    <img src="assets/images/Home/nutibara.jpg" alt="" width="100%;">
+    </a>
 	  </section>
 
 		<section id="about" class="about">
