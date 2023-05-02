@@ -442,6 +442,204 @@
         </div>
 
         <div class="row gy-4 justify-content-center">
+        <!-- <div class="col-xl-3 col-lg-4 col-md-6">
+            <div class="gallery-item h-100">
+              <img src="assets/images/h22.jpg" class="img-fluid img-responsive" alt="" width="100%">
+              <div class="gallery-links d-flex align-items-center justify-content-center">
+                <a href="assets/images/h22.jpg"  class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
+                
+              </div>
+            </div>
+          </div>
+        <div class="col-xl-3 col-lg-4 col-md-6">
+            <div class="gallery-item h-100">
+              <img src="assets/images/h21.jpg" class="img-fluid img-responsive" alt="" width="100%">
+              <div class="gallery-links d-flex align-items-center justify-content-center">
+                <a href="assets/images/h21.jpg"  class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
+                
+              </div>
+            </div>
+          </div>
+        <div class="col-xl-3 col-lg-4 col-md-6">
+            <div class="gallery-item h-100">
+              <img src="assets/images/h20.jpg" class="img-fluid img-responsive" alt="" width="100%">
+              <div class="gallery-links d-flex align-items-center justify-content-center">
+                <a href="assets/images/h20.jpg"  class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
+                
+              </div>
+            </div>
+          </div>
+        <div class="col-xl-3 col-lg-4 col-md-6">
+            <div class="gallery-item h-100">
+              <img src="assets/images/h19.jpg" class="img-fluid img-responsive" alt="" width="100%">
+              <div class="gallery-links d-flex align-items-center justify-content-center">
+                <a href="assets/images/h19.jpg"  class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
+                
+              </div>
+            </div>
+          </div> -->
+        <div class="col-xl-3 col-lg-4 col-md-6">
+            <div class="gallery-item h-100">
+              <img src="assets/images/h18.jpg" class="img-fluid img-responsive" alt="" width="100%">
+              <div class="gallery-links d-flex align-items-center justify-content-center">
+                <a href="assets/images/h18.jpg"  class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
+                
+              </div>
+            </div>
+          </div><!-- End Gallery Item -->
+        <div class="col-xl-3 col-lg-4 col-md-6">
+            <div class="gallery-item h-100">
+              <img src="assets/images/h17.jpg" class="img-fluid img-responsive" alt="" width="100%">
+              <div class="gallery-links d-flex align-items-center justify-content-center">
+                <a href="assets/images/h17.jpg"  class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
+                
+              </div>
+            </div>
+          </div><!-- End Gallery Item -->
+        <div class="col-xl-3 col-lg-4 col-md-6">
+            <div class="gallery-item h-100">
+              <img src="assets/images/h16.jpg" class="img-fluid img-responsive" alt="" width="100%">
+              <div class="gallery-links d-flex align-items-center justify-content-center">
+                <a href="assets/images/h16.jpg"  class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
+                
+              </div>
+            </div>
+          </div><!-- End Gallery Item -->
+        <div class="col-xl-3 col-lg-4 col-md-6">
+            <div class="gallery-item h-100">
+              <img src="assets/images/h15.jpg" class="img-fluid img-responsive" alt="" width="100%">
+              <div class="gallery-links d-flex align-items-center justify-content-center">
+                <a href="assets/images/h15.jpg"  class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
+                
+              </div>
+            </div>
+          </div><!-- End Gallery Item -->
+        <div class="col-xl-3 col-lg-4 col-md-6">
+            <div class="gallery-item h-100">
+              <img src="assets/images/h14.jpg" class="img-fluid img-responsive" alt="" width="100%">
+              <div class="gallery-links d-flex align-items-center justify-content-center">
+                <a href="assets/images/h14.jpg"  class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
+                
+              </div>
+            </div>
+          </div><!-- End Gallery Item -->
+        <div class="col-xl-3 col-lg-4 col-md-6">
+            <div class="gallery-item h-100">
+              <img src="assets/images/h13.jpg" class="img-fluid img-responsive" alt="" width="100%">
+              <div class="gallery-links d-flex align-items-center justify-content-center">
+                <a href="assets/images/h13.jpg"  class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
+                
+              </div>
+            </div>
+          </div><!-- End Gallery Item -->
+        <div class="col-xl-3 col-lg-4 col-md-6">
+            <div class="gallery-item h-100">
+              <img src="assets/images/h12.jpg" class="img-fluid img-responsive" alt="" width="100%">
+              <div class="gallery-links d-flex align-items-center justify-content-center">
+                <a href="assets/images/h12.jpg"  class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
+                
+              </div>
+            </div>
+          </div><!-- End Gallery Item -->
+        <div class="col-xl-3 col-lg-4 col-md-6">
+            <div class="gallery-item h-100">
+              <img src="assets/images/h11.jpg" class="img-fluid img-responsive" alt="" width="100%">
+              <div class="gallery-links d-flex align-items-center justify-content-center">
+                <a href="assets/images/h11.jpg"  class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
+                
+              </div>
+            </div>
+          </div><!-- End Gallery Item -->
+        <div class="col-xl-3 col-lg-4 col-md-6">
+            <div class="gallery-item h-100">
+              <img src="assets/images/h10.jpg" class="img-fluid img-responsive" alt="" width="100%">
+              <div class="gallery-links d-flex align-items-center justify-content-center">
+                <a href="assets/images/h10.jpg"  class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
+                
+              </div>
+            </div>
+          </div><!-- End Gallery Item -->
+        <div class="col-xl-3 col-lg-4 col-md-6">
+            <div class="gallery-item h-100">
+              <img src="assets/images/h9.jpg" class="img-fluid img-responsive" alt="" width="100%">
+              <div class="gallery-links d-flex align-items-center justify-content-center">
+                <a href="assets/images/h9.jpg"  class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
+                
+              </div>
+            </div>
+          </div><!-- End Gallery Item -->
+        <div class="col-xl-3 col-lg-4 col-md-6">
+            <div class="gallery-item h-100">
+              <img src="assets/images/h8.jpeg" class="img-fluid img-responsive" alt="" width="100%">
+              <div class="gallery-links d-flex align-items-center justify-content-center">
+                <a href="assets/images/h8.jpeg"  class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
+                
+              </div>
+            </div>
+          </div><!-- End Gallery Item -->
+        <div class="col-xl-3 col-lg-4 col-md-6">
+            <div class="gallery-item h-100">
+              <img src="assets/images/h7.jpeg" class="img-fluid img-responsive" alt="" width="100%">
+              <div class="gallery-links d-flex align-items-center justify-content-center">
+                <a href="assets/images/h7.jpeg"  class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
+                
+              </div>
+            </div>
+          </div><!-- End Gallery Item -->
+        <div class="col-xl-3 col-lg-4 col-md-6">
+            <div class="gallery-item h-100">
+              <img src="assets/images/h6.jpeg" class="img-fluid img-responsive" alt="" width="100%">
+              <div class="gallery-links d-flex align-items-center justify-content-center">
+                <a href="assets/images/h6.jpeg"  class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
+                
+              </div>
+            </div>
+          </div><!-- End Gallery Item -->
+        <div class="col-xl-3 col-lg-4 col-md-6">
+            <div class="gallery-item h-100">
+              <img src="assets/images/h5.jpg" class="img-fluid img-responsive" alt="" width="100%">
+              <div class="gallery-links d-flex align-items-center justify-content-center">
+                <a href="assets/images/h5.jpg"  class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
+                
+              </div>
+            </div>
+          </div><!-- End Gallery Item -->
+        <div class="col-xl-3 col-lg-4 col-md-6">
+            <div class="gallery-item h-100">
+              <img src="assets/images/h4.jpeg" class="img-fluid img-responsive" alt="">
+              <div class="gallery-links d-flex align-items-center justify-content-center">
+                <a href="assets/images/h4.jpeg"  class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
+                
+              </div>
+            </div>
+          </div><!-- End Gallery Item -->
+        <div class="col-xl-3 col-lg-4 col-md-6">
+            <div class="gallery-item h-100">
+              <img src="assets/images/h3.jpg" class="img-fluid img-responsive" alt="">
+              <div class="gallery-links d-flex align-items-center justify-content-center">
+                <a href="assets/images/h3.jpg"  class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
+                
+              </div>
+            </div>
+          </div><!-- End Gallery Item -->
+        <div class="col-xl-3 col-lg-4 col-md-6">
+            <div class="gallery-item h-100">
+              <img src="assets/images/h2.jpg" class="img-fluid img-responsive" alt="">
+              <div class="gallery-links d-flex align-items-center justify-content-center">
+                <a href="assets/images/h2.jpg"  class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
+                
+              </div>
+            </div>
+          </div><!-- End Gallery Item -->
+        <div class="col-xl-3 col-lg-4 col-md-6">
+            <div class="gallery-item h-100">
+              <img src="assets/images/h1.jpg" class="img-fluid img-responsive" alt="">
+              <div class="gallery-links d-flex align-items-center justify-content-center">
+                <a href="assets/images/h1.jpg"  class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
+                
+              </div>
+            </div>
+          </div><!-- End Gallery Item -->
           <div class="col-xl-3 col-lg-4 col-md-6">
             <div class="gallery-item h-100">
               <img src="assets/images/Hotel.jpg" class="img-fluid img-responsive" alt="">
