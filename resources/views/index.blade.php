@@ -75,7 +75,7 @@
 
           <div class="col-lg-4 col-6 text-center">
               <div align="center">
-              <h2 class="counter-number" style="display: inline-block; margin: 15px 0; font-size: 35px; color: #ffffff;">2</h2><span style="font-size:25px;padding-left: 5px;"> <b> m²</b></span>
+              <h2 class="counter-number" style="display: inline-block; margin: 15px 0; font-size: 35px; color: #ffffff;">2</h2>
                 <p><b>APP de iniciativa pública estructuradas y en proyecto de pliegos.</b></p>
               </div>
           </div>
