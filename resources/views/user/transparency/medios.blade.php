@@ -1,145 +1,37 @@
 
-
 @extends('layouts.app')
+<head>
+	<link rel="stylesheet" href="{{ asset('assets/css/medio.css') }}">
+</head>
 @section('body_color', '#f3f5fa;')
 @section('content')
 
-
-
-<style>
-*{
-	margin:0;
-	padding:0;
-	box-sizing:border-box;
-}
-
-h3{
-    font-family: 'arial'!important;
-	font-size: 25px;
-}
-
-.post-list{
-	display:flex;
-	min-height:100vh;
-	align-items:center;
-	justify-content:center;
-	padding:170px 15px;
-}
-
-.content{
-	display:grid;
-	grid-template-columns: repeat(3,1fr);
-	grid-gap:20px;
-	max-width:1000px;
-	margin:auto;
-}
-
-.post-img-1{    
-	background-image: url("{{ asset('assets/img/logo-app.png')}}");
-	width:100%;
-	height:200px;
-	background-size:cover;
-	background-position:center;
-	transition:-2s;
-}
-
-
-.post{
-	box-shadow: 0 1px 6px 1px rgba(0,0,0, .1);
-	transition: .2s;
-	overflow:hidden;
-}
-.post:hover{
-	transform:translateY(-4px);
-	box-shadow: 0 1px 14px 1px rgba(0,0,0, .15);
-}
-
-.post-header{
-	width:100%;
-	height:200px;
-	cursor:pointer;
-	overflow:hidden;
-}
-.post:hover .post-img-1,
-.post:hover .post-img-2,
-.post:hover .post-img-3{
-	transform: scale(1.1);
-}
-
-.post-body{
-	padding:15px;
-	text-align:center;
-	font-size: 12px;
-    font-weight: 300;
-}
-
-.post-body span{
-	display:inline-block;
-	color:#999;
-	margin-bottom:10px;
-}
-
-.post-body h2{
-	margin-bottom:15px;
-}
-
-.post-body p{
-	line-height:1.5;
-	margin-bottom:20px;
-}
-
-.post-body .post-link{
-	display:block;
-	text-decoration:none;
-	padding:10px;
-	background:#2b6ebb;
-	color:#fff;
-	width:50%;
-	margin:auto;
-	border-radius:20px;
-	box-shadow:1px 2px 6px 1px rgba(0,0,0, .1);
-	transition:.2s;
-}
-
-.post-body .post-link:hover{
-	background:#3378c7;
-	box-shadow:1px 2px 6px 1px rgba(0,0,0, .2);
-	transform:translateY(-2px);
-}
-
-@media(max-width:840px){
-	.content{
-		grid-template-columns:repeat(2, 1fr);
-	}
-
-}
-
-@media(max-width:600px){
-	.content{
-		grid-template-columns:repeat(1, 1fr);
-	}
-
-}
-
-</style>
-
-
 <body>
-	<section class="post-list">
+<section class="post-list">
 
-<div class="content">
-
-<article class="post">
-	<div class="post-body">
-		<span>27/04/2023</span>
-		<h3>El Colombiano </h3>
-		<p classs="descripcion">¿Qué busca hacer el alcalde Quintero con el Atanasio Girardot?</p>
-	<a href="https://www.elcolombiano.com/medellin/que-busca-hacer-el-alcalde-quintero-con-la-privatizacion-del-estadio-atanasio-girardot-ED21227517" class="post-link" target="blank">Leer más...</a>
-	
+	<div class="content">
+		@foreach($medios as $medio)
+		<article class="post">
+			<div class="post-body">
+				<span>{{ $medio->fecha }}</span>
+				<h3>{{ $medio->titulo }}</h3>
+				<p classs="descripcion">{{ $medio->descripcion }}</p>
+				<a href="{{ $medio->enlace }}" class="post-link" target="blank">Leer más...</a>			
+			</div>
+		</article>
+		@endforeach
+		
 	</div>
+	<div class="container text-center" style="display: flex; justify-content: center;">
+			{{ $medios->links() }}
+		</div>
+</section>
+	
+	<script src="main.js"></script>
+</body>
 
-</article>
-
+@endsection
+<!-- 
 <article class="post">
 	<div class="post-body">
 		<span>27/04/2023</span>
@@ -1047,7 +939,7 @@ by EFE"</p>
 	
 	</div>
 
-</article>
+</article> -->
 
 
 
@@ -1055,11 +947,3 @@ by EFE"</p>
 
 
 
-</div>
-
-	</section>
-
-	<script src="main.js"></script>
-</body>
-
-@endsection

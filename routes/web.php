@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\CarcelController;
 use App\Http\Controllers\MudagController;
+use App\Http\Controllers\Panel\MedioController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -231,9 +232,9 @@ Route::get('/plan-estratégico-institucional', function () {
 })->name('user.transparency.planning.institutional');
 
 
-Route::get('/transparencia/app_medios', function(){
-   return view('user.transparency.medios');
-}) ->name('user.transparency.medios');
+// Route::get('/transparencia/app_medios', function(){
+//    return view('user.transparency.medios');
+// }) ->name('user.transparency.medios');
 
 Route::get('/prensa/boletines', function(){
    return view('user.transparency.boletin');
@@ -836,3 +837,15 @@ Route::get('/nutibara', function(){
 
 
 
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+Route::get('/transparencia/app_medios', [MedioController::class, 'index'])->name('user.transparency.medios');
+Route::get('medios/lista', [MedioController::class, 'lista'])->name('medios.lista');
+Route::get('medios/create', [MedioController::class, 'create'])->name('medios.create');
+Route::get('medios/{id}/edit', [MedioController::class, 'edit'])->name('medios.edit');
+Route::put('medios/{id}/update', [MedioController::class, 'update'])->name('medios.update');
+Route::post('medios/index', [MedioController::class, 'store'])->name('medios.store');
+Route::delete('medios/{id}', [MedioController::class, 'destroy'])->name('medios.destroy');

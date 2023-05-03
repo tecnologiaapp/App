@@ -229,8 +229,8 @@
           <span>Fechas</span>
           <h2>Fechas</h2>
         </div>
-        <p><strong>Postulación:</strong>  entre el 26 de abril y el 3 de mayo de 2023.</p>
-        <p><strong>Premiación:</strong>  viernes 5 de mayo.</p>
+        <p><strong>Postulación:</strong>  entre el 26 de abril y el 10 de mayo de 2023.</p>
+        <p><strong>Premiación:</strong>  viernes 12 de mayo.</p>
 
           <div class="section-title">
           <span>Reconocimientos</span>
@@ -371,10 +371,10 @@
         <ul style="text-align:justify;">
               <li><i class="ri-check-double-line"></i>En la categoría Histórica se tendrán en cuenta fotografías tomadas entre 1945 y el año 2000.</li>
               <li ><i class="ri-check-double-line"></i>
-              En la categoría Nocturna se tendrán en cuenta fotografías tomadas entre el 26 de abril y el 3 de mayo de 2023. 
+              En la categoría Nocturna se tendrán en cuenta fotografías tomadas entre el 26 de abril y el 10 de mayo de 2023. 
               </li>
               <li ><i class="ri-check-double-line"></i>
-              Plazo máximo de envío de fotografías: miércoles 3 de mayo de 2023 a las 11:59 p. m.
+              Plazo máximo de envío de fotografías: 10 de mayo de 2023 a las 11:59 p. m.
               </li>
               <li ><i class="ri-check-double-line"></i>
               Podrás participar máximo con tres (3) fotografías en cada una de las categorías. 

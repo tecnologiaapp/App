@@ -77,7 +77,25 @@
 
 <table class="table table-bordered table-striped custom-table">
 	<tbody>
+	<tr>
+									<td>Ejecución presupuestal de gastos Marzo 2023</td>
+									<td>
+										<a href="{{ asset('assets/pdf/budget/2023/Gastos-Marzo-2023.pdf')}}" class="btn btn-primary btn-block" target="_blank">
+											Ver documento
+										</a>
+									</td>
+								</tr>
+								
 
+
+							<tr>
+									<td>Ejecución presupuestal de ingresos Marzo 2023</td>
+									<td>
+										<a href="{{ asset('assets/pdf/budget/2023/Ingresos-Marzo-2023.pdf')}}" class="btn btn-primary btn-block" target="_blank">
+											Ver documento
+										</a>
+									</td>
+								</tr>
 							<tr>
 									<td>Ejecución presupuestal de gastos Febrero 2023</td>
 									<td>

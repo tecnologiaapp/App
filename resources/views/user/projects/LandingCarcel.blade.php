@@ -99,7 +99,7 @@ h2,span{
             <div class="content">
             <div class="section-title">
             <h2>¿Por qué una cárcel para sindicados?</h2>
-        </div>             
+            </div>             
               <p>
               La Cárcel Metropolitana para Sindicados es una necesidad de gran prioridad debido a la situación actual que desborda la capacidad del Sistema Penitenciario y Carcelario de Colombia pero, sobre todo, el estado crítico que tiene Medellín y el Área Metropolitana con un hacinamiento entre el 200% y el 250%, según cifras de la Secretaría de Seguridad y Convivencia con corte al 2022.
               </p>
