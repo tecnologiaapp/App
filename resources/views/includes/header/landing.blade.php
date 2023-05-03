@@ -16,7 +16,7 @@
   <link rel="stylesheet" href="{{ asset('assets/vendor/animate.css/animate.min.css') }}">
 
   <!-- Template Main CSS File -->
-  <link rel="stylesheet" href="{{ asset('assets/css/landingPatrimonio.css') }}">
+  <link rel="stylesheet" href="{{ asset('assets/css/landingPatrimoni.css') }}">
 
 </head>
 

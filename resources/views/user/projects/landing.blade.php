@@ -173,25 +173,58 @@
           </div>
 
         <div class="container">
-          <div class="row justify-content: space-around;">
 
-            <div class="col-lg-3 col-md-6" style="padding-left: 0px;">
-              <img src="assets/img/patrimonio/1.jpg" style="width: 100%; height:300px; padding-bottom: 10px;">
-            </div>
 
-            <div class="col-lg-3 col-md-6">
-            <img src="assets/img/patrimonio/2.jpg" style="width: 100%; height:300px; padding-bottom: 10px;">
-            </div>
 
-            <div class="col-lg-3 col-md-6">
-            <img src="assets/img/patrimonio/3.jpg" style="width: 100%; height:300px; padding-bottom: 10px;">
-            </div>
 
-            <div class="col-lg-3 col-md-6">
-            <img src="assets/img/patrimonio/4.jpg" style="width: 100%; height:300px; padding-bottom: 10px;">
-            </div>
-
-          </div>
+            <!-- ======= Gallery Section ======= -->
+            <section id="gallery" class="gallery">
+                  <div class="container-fluid">
+                    <div class="row gy-4 justify-content-center">
+                    <div class="col-xl-3 col-lg-4 col-md-6">
+                      <div class="gallery-item h-100">
+                        <img src="{{ asset('assets/img/patrimonio/1.jpg')}}" class="img-fluid" alt="">
+                        <div class="gallery-links d-flex align-items-center justify-content-center">
+                          <a href="{{ asset('assets/img/patrimonio/1.jpg')}}" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
+                      
+                        </div>
+                      </div>
+                    </div>
+                    <!-- End Gallery Item -->
+                    <div class="col-xl-3 col-lg-4 col-md-6">
+                      <div class="gallery-item h-100">
+                        <img src="{{ asset('assets/img/patrimonio/2.jpg')}}" class="img-fluid" alt="">
+                        <div class="gallery-links d-flex align-items-center justify-content-center">
+                          <a href="{{ asset('assets/img/patrimonio/2.jpg')}}" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
+                      
+                        </div>
+                      </div>
+                    </div>
+                    <!-- End Gallery Item -->
+                    <div class="col-xl-3 col-lg-4 col-md-6">
+                      <div class="gallery-item h-100">
+                        <img src="{{ asset('assets/img/patrimonio/3.jpg')}}" class="img-fluid" alt="">
+                        <div class="gallery-links d-flex align-items-center justify-content-center">
+                          <a href="{{ asset('assets/img/patrimonio/3.jpg')}}"class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
+                      
+                        </div>
+                      </div>
+                    </div>
+                    <!-- End Gallery Item -->
+                    <div class="col-xl-3 col-lg-4 col-md-6">
+                      <div class="gallery-item h-100">
+                        <img src="{{ asset('assets/img/patrimonio/4.jpg')}}" class="img-fluid" alt="">
+                        <div class="gallery-links d-flex align-items-center justify-content-center">
+                          <a href="{{ asset('assets/img/patrimonio/4.jpg')}}" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
+                      
+                        </div>
+                      </div>
+                    </div>
+                    <!-- End Gallery Item -->
+                    </div>
+                  </div>
+              </section>
+              <!-- End Gallery Section -->
 
             <div class="row gy-4 align-items-center features-item" data-aos="fade-up">
               <div class="col-md-5 order-1 order-md-2">
