@@ -162,6 +162,31 @@
 </table>
 </div>
 		
+
+<button class="accordion">Información contable de 2023 </button>
+	<div class="panel">
+
+<table class="table table-bordered table-striped custom-table">
+	<tbody>
+						
+
+
+
+							<tr>
+									<td>Estados Financieros Enero 2023</td>
+									<td>
+										<a href="{{ asset('assets/pdf/financial_statements/2023/enero-2023.pdf')}}" class="btn btn-primary btn-block btn-block" target="_blank">
+											Ver documento
+										</a>
+									</td>
+								</tr>
+                          
+
+								</tbody> 
+</table>
+</div>
+
+
 	<button class="accordion">Información contable de 2022 </button>
 	<div class="panel">
 

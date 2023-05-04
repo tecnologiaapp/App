@@ -80,15 +80,7 @@
 	<tr>
 							<td>Plan anual de adquisiciones 2023 - Actualizado</td>
 							<td>
-								<a href="{{ asset('assets/pdf/annual_procurement_plan/2023.xlsx')}}" class="btn btn-primary" target="_blank">
-									Ver documento
-								</a>
-							</td>
-						</tr>
-	<tr>
-							<td>Plan anual de adquisiciones 2023 - Enero</td>
-							<td>
-								<a href="{{ asset('assets/pdf/annual_procurement_plan/Plan Anual de Adquisiciones  2023.xlsx')}}" class="btn btn-primary" target="_blank">
+								<a href="{{ asset('assets/pdf/annual_procurement_plan/2023-1.xlsx')}}" class="btn btn-primary" target="_blank">
 									Ver documento
 								</a>
 							</td>

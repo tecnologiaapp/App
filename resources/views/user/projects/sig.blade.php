@@ -41,7 +41,7 @@
             <div class="accordion-list">
               <ul>
                 <li>
-                  <a data-bs-toggle="collapse" class="collapse" data-bs-target="#accordion-list-1"><span>01</span>¿Qué es el sistema de informacion geografico (SIG)?<i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                  <a data-bs-toggle="collapse" class="collapse" data-bs-target="#accordion-list-1"><span>01</span>¿Qué es el sistema de información geográfico (SIG) de la Agencia APP?<i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
                   <div id="accordion-list-1" class="collapse show" data-bs-parent=".accordion-list">
                     <p>
                   Es el conjunto de herramientas que recopilan, analizan y representan visualmente información que pueda ser referenciada de manera geográfica mediante planos y mapas virtuales e interactivos para distintas temáticas (Aprovechamiento Económico del Espacio Público, Patrimonio, Arte Urbano, Instrumentos de gestión del suelo, muros verdes, estrategias sociales, etc.) de fuentes variadas (propias, Catastro, POT, Movilidad, DAP.)
@@ -75,7 +75,7 @@
           </div>
 
           <div class="col-lg-5 align-items-stretch order-1 order-lg-2 img">
-          <img src="{{ asset('assets/img/hero-img.png')}}" class="img-fluid animated" alt="">
+          <img src="{{ asset('assets/img/city.png')}}" class="img-fluid animated" alt="">
           </div>
         </div>
 
