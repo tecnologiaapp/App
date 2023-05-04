@@ -44,7 +44,7 @@
                   <a data-bs-toggle="collapse" class="collapse" data-bs-target="#accordion-list-1"><span>01</span>¿Qué es el sistema de informacion geografico (SIG)?<i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
                   <div id="accordion-list-1" class="collapse show" data-bs-parent=".accordion-list">
                     <p>
-                    Es un conjunto de herramientas que recopilan, analizan y representan visualmente información que pueda ser referenciada de manera geográfica mediante planos y mapas virtuales e interactivos en distintas variables (estadísticas, de infraestructura, equipamiento, programas, proyectos etc.) de fuentes variadas (satelitales, Catastro, POT, Movilidad, DAP.)
+                  Es el conjunto de herramientas que recopilan, analizan y representan visualmente información que pueda ser referenciada de manera geográfica mediante planos y mapas virtuales e interactivos para distintas temáticas (Aprovechamiento Económico del Espacio Público, Patrimonio, Arte Urbano, Instrumentos de gestión del suelo, muros verdes, estrategias sociales, etc.) de fuentes variadas (propias, Catastro, POT, Movilidad, DAP.)
                     </p>
                   </div>
                 </li>
@@ -53,7 +53,8 @@
                   <a data-bs-toggle="collapse" data-bs-target="#accordion-list-2" class="collapsed"><span>02</span>¿Para que sirve? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
                   <div id="accordion-list-2" class="collapse" data-bs-parent=".accordion-list">
                     <p>
-                    El sistema integra en una misma plataforma, la información georreferenciada de interés para la ciudad con el fin de servir como base para la toma de decisiones, diseño de políticas públicas y la planeación de la ciudad a corto, mediano y largo plazo.
+                    El SIG integra en la información geográfica de interés para el distrito con el fin de servir como base para la toma de decisiones, diseño de políticas públicas y la planeación de la ciudad a corto, mediano y largo plazo. Así como mostrar la huella geográfica de la entidad en el territorio distrital.
+
                     </p>
                   </div>
                 </li>
@@ -62,7 +63,8 @@
                   <a data-bs-toggle="collapse" data-bs-target="#accordion-list-3" class="collapsed"><span>03</span>Caracteristicas <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
                   <div id="accordion-list-3" class="collapse" data-bs-parent=".accordion-list">
                     <p>
-                    La principal característica de este sistema, es que está diseñado para ser una herramienta accesible a toda la ciudadanía, gobierno y academia de una manera sencilla y gráfica para su mejor aprovechamiento. 
+                   Herramientas interactivas tales como; Geovisores, Story Maps, Aplicativos Móviles, Tours Maps, Dashboards, Formularios Inteligentes, Mapas Web, Colecciones de Layers, entre otras, dispuestas para que ciudadanos y entidades pueden explorar intuitivamente y descargar de forma libre.
+
                     </p>
                   </div>
                 </li>
@@ -129,28 +131,21 @@ Tenemos como misión gestionar y promover acciones que den sostenibilidad al esp
               <div class="progress">
                 <span class="skill">Mapas <i class="val">30</i></span>
                 <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+
+              <div class="progress">
+                <span class="skill">Mapa Web <i class="val">30</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="35" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+
+              <div class="progress">
+                <span class="skill">Dashboard <i class="val">30</i></span>
+                <div class="progress-bar-wrap">
                   <div class="progress-bar" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
-                </div>
-              </div>
-
-              <div class="progress">
-                <span class="skill">Dashboard <i class="val">90</i></span>
-                <div class="progress-bar-wrap">
-                  <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-                </div>
-              </div>
-
-              <div class="progress">
-                <span class="skill">Formularios <i class="val">75</i></span>
-                <div class="progress-bar-wrap">
-                  <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-                </div>
-              </div>
-
-              <div class="progress">
-                <span class="skill">Layers <i class="val">55</i></span>
-                <div class="progress-bar-wrap">
-                  <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
               </div>
 
@@ -188,18 +183,18 @@ Tenemos como misión gestionar y promover acciones que den sostenibilidad al esp
 
         <div class="section-title">
           <h2>Equipo</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+          <p>El proceso SIG de la Subdirección Paisaje y Patrimonio, está conformado por profesionales en el área de la geomática y que bajo el esquema de trabajo en el que desde el proceso se establece un enlace técnico en cada equipo o proyecto para la implementación de estándares geográficos y orientar los procesos desde la visión estratégica del uso de la información geográfica se garantiza una adecuada gestión de la misma y un conjunto de datos geográficos interoperables.</p>
         </div>
 
-        <div class="row">
+        <div class="row justify-content-center">
 
           <div class="col-lg-6">
-            <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="100"> 
-              <div class="pic"><img src="assets/img/team/team-1.jpg" class="img-fluid" alt=""></div>
+            <div class="member d-flex align-items-center" data-aos="zoom-in" data-aos-delay="100"> 
+              <div class="pic"><img src="assets/img/team/anibal.olarte.jpeg" class="img-fluid" alt=""></div>
               <div class="member-info">
-                <h4>Anibal Olarte</h4>
-                <span>Ingeniero civil</span>
-                <p>Explicabo voluptatem mollitia et repellat qui dolorum quasi</p>
+                <h4>Anibal Olarte Valbuena</h4>
+                <span>Contratista – Profesional de apoyo técnico</span>
+                <p>anibal.olarte@app.gov.co</p>
                 <div class="social">
                   <a href=""><i class="ri-twitter-fill"></i></a>
                   <a href=""><i class="ri-facebook-fill"></i></a>
@@ -209,7 +204,7 @@ Tenemos como misión gestionar y promover acciones que den sostenibilidad al esp
             </div>
           </div>
 
-          <div class="col-lg-6 mt-4 mt-lg-0">
+          <!-- <div class="col-lg-6 mt-4 mt-lg-0">
             <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="200">
               <div class="pic"><img src="assets/img/team/team-3.jpg" class="img-fluid" alt=""></div>
               <div class="member-info">
@@ -258,7 +253,7 @@ Tenemos como misión gestionar y promover acciones que den sostenibilidad al esp
                 </div>
               </div>
             </div>
-          </div>
+          </div> -->
 
         </div>
 
@@ -271,62 +266,15 @@ Tenemos como misión gestionar y promover acciones que den sostenibilidad al esp
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-          <h2>Preguntas y respuestas frecuentes</h2>
+          <h2>Glosario</h2>
           <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
         </div>
 
-        <div class="faq-list">
-          <ul>
-            <li data-aos="fade-up" data-aos-delay="100">
-              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" class="collapse" data-bs-target="#faq-list-1">¿Qué es un espacio público?<i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
-              <div id="faq-list-1" class="collapse show" data-bs-parent=".faq-list">
-                <p>
-                  Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.
-                </p>
-              </div>
-            </li>
-
-            <li data-aos="fade-up" data-aos-delay="200">
-              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-2" class="collapsed">¿Qué es la ocupación temporal del espacio público?<i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
-              <div id="faq-list-2" class="collapse" data-bs-parent=".faq-list">
-                <p>
-                  Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
-                </p>
-              </div>
-            </li>
-
-            <li data-aos="fade-up" data-aos-delay="300">
-              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-3" class="collapsed">¿Cuál es el procedimiento para adquirir un espacio público en el municipio? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
-              <div id="faq-list-3" class="collapse" data-bs-parent=".faq-list">
-                <p>
-                  Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis
-                </p>
-              </div>
-            </li>
-
-            <li data-aos="fade-up" data-aos-delay="400">
-              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-4" class="collapsed">¿Cuál es el procedimiento para adquirir un módulo estacionario?<i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
-              <div id="faq-list-4" class="collapse" data-bs-parent=".faq-list">
-                <p>
-                  Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est. Purus gravida quis blandit turpis cursus in.
-                </p>
-              </div>
-            </li>
-
-            <li data-aos="fade-up" data-aos-delay="500">
-              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-5" class="collapsed">¿Cuál es la documentación que necesito presentar para realizar una solicitud de aprovechamiento económico de espacio público? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
-              <div id="faq-list-5" class="collapse" data-bs-parent=".faq-list">
-                <p>
-                  Laoreet sit amet cursus sit amet dictum sit amet justo. Mauris vitae ultricies leo integer malesuada nunc vel. Tincidunt eget nullam non nisi est sit amet. Turpis nunc eget lorem dolor sed. Ut venenatis tellus in metus vulputate eu scelerisque.
-                </p>
-              </div>
-            </li>
-
-          </ul>
-        </div>
+       
 
       </div>
-    </section><!-- End Frequently Asked Questions Section -->
+    </section>
+    <!-- End Frequently Asked Questions Section -->
 
    
 
@@ -341,7 +289,7 @@ Tenemos como misión gestionar y promover acciones que den sostenibilidad al esp
   <div class="container">
     <div class="row">
 
-      <div class="col-lg-3 col-md-6 footer-contact">
+      <div class="col-lg-3 col-md-2 footer-contact">
         <h3>Agencia APP</h3>
         <p>
         Medellin / Antioquia <br>
@@ -351,7 +299,7 @@ Tenemos como misión gestionar y promover acciones que den sostenibilidad al esp
         </p>
       </div>
 
-      <div class="col-lg-3 col-md-6 footer-links">
+      <div class="col-lg-3 col-md-2 footer-links">
         <h4>Mapa del sitio</h4>
         <ul>
           <li><i class="bx bx-chevron-right"></i> <a href="#">Inicio</a></li>
@@ -362,15 +310,36 @@ Tenemos como misión gestionar y promover acciones que den sostenibilidad al esp
         </ul>
       </div>
 
-      <div class="col-lg-3 col-md-6 footer-links">
-        <h4>AEEP</h4>
-        <ul>
-          <li><i class="bx bx-chevron-right"></i> <a href="{{ route('user.projects.aeep') }}" target="_blank">Conocer más</a></li>
+
  
+    <div class="col-lg-2 col-md-2 footer-links">
+        <h4>Portales</h4>
+        <ul>
+          <li><i class="bx bx-chevron-right"></i> <a href="{{ route('user.projects.aeep') }}" target="_blank">Reportes Med</a></li>
+          <li><i class="bx bx-chevron-right"></i> <a href="{{ route('user.projects.aeep') }}" target="_blank">SIAMED</a></li>
+          <li><i class="bx bx-chevron-right"></i> <a href="{{ route('user.projects.aeep') }}" target="_blank">La Perla</a></li>
+          <li><i class="bx bx-chevron-right"></i> <a href="{{ route('user.projects.aeep') }}" target="_blank">Árbol Urbano – SAU</a></li>
+          <li><i class="bx bx-chevron-right"></i> <a href="{{ route('user.projects.aeep') }}" target="_blank">MapGIS</a></li>
+          <li><i class="bx bx-chevron-right"></i> <a href="{{ route('user.projects.aeep') }}" target="_blank">OpenData Medellín</a></li>
+         
+        </ul>
+      </div>
+      
+      <div class="col-lg-2 col-md-2 footer-links">
+        <h4>Portales</h4>
+        <ul>
+        <li><i class="bx bx-chevron-right"></i> <a href="{{ route('user.projects.aeep') }}" target="_blank">GIS Catalogación Medellín</a></li>
+          <li><i class="bx bx-chevron-right"></i> <a href="{{ route('user.projects.aeep') }}" target="_blank">GISTO</a></li>
+          <li><i class="bx bx-chevron-right"></i> <a href="{{ route('user.projects.aeep') }}" target="_blank">DANE</a></li>
+          <li><i class="bx bx-chevron-right"></i> <a href="{{ route('user.projects.aeep') }}" target="_blank">Catastro Antioquia</a></li>
+          <li><i class="bx bx-chevron-right"></i> <a href="{{ route('user.projects.aeep') }}" target="_blank">Datos Abierto Gobierno</a></li>
+          <li><i class="bx bx-chevron-right"></i> <a href="{{ route('user.projects.aeep') }}" target="_blank">UrbaMED</a></li>
         </ul>
       </div>
 
-      <div class="col-lg-3 col-md-6 footer-links">
+
+
+      <div class="col-lg-2 col-md-2 footer-links align-items-center">
         <h4>Redes Sociales</h4>
         <p>Síguenos y enterate de todo</p>
         <div class="social-links mt-3">
