@@ -36,7 +36,7 @@
           <li><a class="nav-link scrollto" href="#donde">Operación urbana</a></li>
           <li><a class="nav-link scrollto " href="#gestion">Plan integral </a></li>
           <li><a class="nav-link scrollto " href="#noticias">Noticias </a></li>
-          <li><a class="nav-link scrollto " href="https://inmo.app.gov.co/proyecto-prado">Gestión Inmobiliaria</a></li>    
+          <li><a class="nav-link scrollto " href="https://inmo.app.gov.co/proyecto-prado" target="_blank">Gestión Inmobiliaria</a></li>    
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav>
