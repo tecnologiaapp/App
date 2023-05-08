@@ -24,7 +24,9 @@
  <header id="header" class="d-flex align-items-center">
     <div class="container d-flex align-items-center justify-content-between">
 
-      <h1 class="logo"><a href="#">El barrio</a></h1>
+    <a href="{{ url('/') }}">
+     <img class="logo me-auto" src="https://app.gov.co/assets/img/Proyectos/logo-landing.png"  style="width: 200px; height: 90px;">
+    </a>
 
 
       <nav id="navbar" class="navbar">
@@ -34,7 +36,7 @@
           <li><a class="nav-link scrollto" href="#donde">Operación urbana</a></li>
           <li><a class="nav-link scrollto " href="#gestion">Plan integral </a></li>
           <li><a class="nav-link scrollto " href="#noticias">Noticias </a></li>
-          <li><a class="nav-link scrollto " href="#">Gestión Inmobiliaria</a></li>    
+          <li><a class="nav-link scrollto " href="https://inmo.app.gov.co/proyecto-prado">Gestión Inmobiliaria</a></li>    
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav>
