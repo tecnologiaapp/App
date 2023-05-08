@@ -734,6 +734,18 @@ Route::get('/noticias/new47', function () {
    return view('user.noticias.new47');
 })->name('user.noticias.new47');
 
+Route::get('/noticias/new48', function () {
+   return view('user.noticias.new48');
+})->name('user.noticias.new48');
+
+Route::get('/noticias/new49', function () {
+   return view('user.noticias.new49');
+})->name('user.noticias.new49');
+
+Route::get('/noticias/new50', function () {
+   return view('user.noticias.new50');
+})->name('user.noticias.new50');
+
 Route::get('/Prensa/album1', function(){
    return view('user.transparency.galeria.galery1');
 }) ->name('user.transparency.galeria.galery1');

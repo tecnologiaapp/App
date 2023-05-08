@@ -3,7 +3,7 @@
 @section('content')
 
 <head>
-<link  href="{{ asset('assets/css/boletin.css') }}" rel="stylesheet">
+<link  href="{{ asset('assets/css/boleti.css') }}" rel="stylesheet">
 <style>
 	h6{
 	color:black;	
@@ -21,6 +21,42 @@
 				</div>
 
 				<div class="content">
+
+				<article class="post">
+                <div class="post-header">
+	            <div class="post-img-50"></div>
+             	</div>
+             	<div class="post-body">
+		        <span>02/05/2023</span>
+		        <h5>Constelaciónes, destino turístico y cultural</h5>
+	            <a target="_blank" href="{{ route('user.noticias.new50') }}"><h6><b>Leer más</b></h6></a>
+	
+             	</div>
+               </article>
+
+				<article class="post">
+                <div class="post-header">
+	            <div class="post-img-49"></div>
+             	</div>
+             	<div class="post-body">
+		        <span>02/05/2023</span>
+		        <h5>Abrazo del Parque Lleras</h5>
+	            <a target="_blank" href="{{ route('user.noticias.new49') }}"><h6><b>Leer más</b></h6></a>
+	
+             	</div>
+               </article>
+
+				<article class="post">
+                <div class="post-header">
+	            <div class="post-img-48"></div>
+             	</div>
+             	<div class="post-body">
+		        <span>27/04/2023</span>
+		        <h5>Iluminación Nutibara</h5>
+	            <a target="_blank" href="{{ route('user.noticias.new48') }}"><h6><b>Leer más</b></h6></a>
+	
+             	</div>
+               </article>
 
 				<article class="post">
                 <div class="post-header">

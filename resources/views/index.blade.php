@@ -96,13 +96,13 @@
           <div class="row gy-4 align-items-center features-item" data-aos="fade-up">
 
             <div class="col-md-5">
-            <a href="{{ route('user.noticias.new47') }}" target="_blank"> 	<img src="{{ asset('assets/img/news/carcel.jpg')}}" class="img-fluid"> </a>
+            <a href="{{ route('user.noticias.new50') }}" target="_blank"> 	<img src="{{ asset('assets/img/galeria/constelaciones/1.jpg')}}" class="img-fluid"> </a>
             </div>
 
             <div class="col-md-7">
-                <h3>Medellín construirá la Cárcel Metropolitana para Sindicados con la aprobación de vigencias futuras en el Concejo Distrital</h3>
+                <h3>Constelaciones, el mural artístico más grande de Medellín, se potencia como nuevo destino turístico y cultural</h3>
                 <p>
-                Con Once votos positivos y 9 negativos, el Concejo de Medellín, aprobó en sesión plenaria el presupuesto en vigencias futuras para la construcción de la Cárcel Metropolitana para sindicados, que estará ubicada en el corregimiento de San Cristóbal y que cuando comience a operar, tendrá capacidad para albergar a 1.339 personas en calidad de sindicados.
+                La Alcaldía de Medellín entregó a la ciudadanía el mural artístico más grande de la ciudad, Constelaciones, una obra de 14.819 metros cuadrados de nuevo arte urbano que comprende la intervención de más de 500 casas y 30 murales artísticos realizados por cuatro colectivos y dos artistas urbanos.
                 </p>
             </div>
 			    </div>
@@ -112,12 +112,12 @@
 
             <div class="row gy-4 align-items-center features-item" data-aos="fade-up">
               <div class="col-md-5 order-1 order-md-2">
-              <a href="{{ route('user.noticias.new46') }}" target="_blank"> <img src="{{ asset('assets/img/news/economico3.jpg')}}" class="img-fluid" alt=""></a>
+              <a href="{{ route('user.noticias.new49') }}" target="_blank"> <img src="{{ asset('assets/img/galeria/lleras/1.jpg')}}" class="img-fluid" alt=""></a>
               </div>
               <div class="col-md-7 order-2 order-md-1">
-                  <h3>La transformación de Provenza ha logrado aumentar más de 4.600 empleos en el sector</h3>
+                  <h3>Ciudadanos y turistas en Medellín ya disfrutan del abrazo del Parque Lleras</h3>
                   <p>
-                  El parque Lleras, en la comuna 14 El Poblado, se prepara para vivir una transformación en su espacio, con controles de acceso que harán de la zona un lugar más seguro para turistas y comerciantes, gracias a la estrategia de la Administración Distrital para abrazar esta zona de la ciudad.
+                  El Parque Lleras, referente comercial y turístico de Medellín, está nuevamente al servicio de los habitantes de la ciudad y de los visitantes que a diario llegan a disfrutar de los atractivos de la capital antioqueña. La Administración Distrital realizó en este sitio una intervención integral que permitió la renovación de 12.859 m2 de espacio público para dar prioridad a la movilidad peatonal, a la cultura, a las zonas verdes y a los espacios para compartir.
                   </p>        
               </div>
             </div>
@@ -125,11 +125,11 @@
 
             <div class="row gy-4 align-items-center features-item" data-aos="fade-up">
               <div class="col-md-5">
-                <a href="{{ route('user.noticias.new45') }}" target="_blank"> <img src="{{ asset('assets/img/news/Instalación1.jpg')}}" class="img-fluid" alt=""></a>
+                <a href="{{ route('user.noticias.new48') }}" target="_blank"> <img src="{{ asset('assets/img/galeria/nutibara/1.jpg')}}" class="img-fluid" alt=""></a>
               </div>
               <div class="col-md-7">
-                  <h3>En Medellín se instalará obra ganadora de Concéntrico, uno de los eventos de arte y arquitectura más importantes en el mundo</h3>
-                  <p>Medellín estará ante los ojos del mundo con la instalación temporal de una obra de arte en la Plaza de las Luces, como parte del desarrollo del noveno Festival Internacional de Arquitectura y Diseño de Logroño, uno de los más importantes de Europa y del mundo.</p>
+                  <h3>Con la entrega de la iluminación del Hotel Nutibara, el Distrito promueve el turismo y la seguridad en el Centro de Medellín</h3>
+                  <p>En una apuesta por la transformación urbana, el mejoramiento del paisaje urbano y de la seguridad, y la cualificación de fachadas arquitectónicas del Centro tradicional de Medellín, el Distrito, a través de la Agencia para la Gestión del Paisaje, el Patrimonio y las Alianzas Público Privadas -Agencia APP-, entregó la iluminación del emblemático Hotel Nutibara.</p>
               </div>
             </div>      
 

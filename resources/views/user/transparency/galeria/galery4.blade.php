@@ -259,14 +259,154 @@
         <div class="row gy-4 justify-content-center">
           <div class="col-xl-3 col-lg-4 col-md-6">
             <div class="gallery-item h-100">
-              <img src="{{ asset('assets/img/Galeria/nutibara/Nutibara_Portela.jpg')}}" class="img-fluid" alt="">
+              <img src="{{ asset('assets/img/Galeria/nutibara/1.jpg')}}" class="img-fluid" alt="">
               <div class="gallery-links d-flex align-items-center justify-content-center">
-                <a href="{{ asset('assets/img/Galeria/nutibara/Nutibara_Portela.jpg')}}" title="Hotel Nutibara" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
+                <a href="{{ asset('assets/img/Galeria/nutibara/1.jpg')}}" title="Hotel Nutibara" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
               
               </div>
             </div>
-          </div><!-- End Gallery Item -->
-  
+          </div>
+          <!-- End Gallery Item --> 
+          <div class="col-xl-3 col-lg-4 col-md-6">
+            <div class="gallery-item h-100">
+              <img src="{{ asset('assets/img/Galeria/nutibara/2.jpg')}}" class="img-fluid" alt="">
+              <div class="gallery-links d-flex align-items-center justify-content-center">
+                <a href="{{ asset('assets/img/Galeria/nutibara/2.jpg')}}" title="Hotel Nutibara" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
+              
+              </div>
+            </div>
+          </div>
+          <!-- End Gallery Item --> 
+          <div class="col-xl-3 col-lg-4 col-md-6">
+            <div class="gallery-item h-100">
+              <img src="{{ asset('assets/img/Galeria/nutibara/3.jpg')}}" class="img-fluid" alt="">
+              <div class="gallery-links d-flex align-items-center justify-content-center">
+                <a href="{{ asset('assets/img/Galeria/nutibara/3.jpg')}}" title="Hotel Nutibara" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
+              
+              </div>
+            </div>
+          </div>
+          <!-- End Gallery Item --> 
+          <div class="col-xl-3 col-lg-4 col-md-6">
+            <div class="gallery-item h-100">
+              <img src="{{ asset('assets/img/Galeria/nutibara/4.jpg')}}" class="img-fluid" alt="">
+              <div class="gallery-links d-flex align-items-center justify-content-center">
+                <a href="{{ asset('assets/img/Galeria/nutibara/4.jpg')}}" title="Hotel Nutibara" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
+              
+              </div>
+            </div>
+          </div>
+          <!-- End Gallery Item --> 
+          <div class="col-xl-3 col-lg-4 col-md-6">
+            <div class="gallery-item h-100">
+              <img src="{{ asset('assets/img/Galeria/nutibara/5.jpg')}}" class="img-fluid" alt="">
+              <div class="gallery-links d-flex align-items-center justify-content-center">
+                <a href="{{ asset('assets/img/Galeria/nutibara/5.jpg')}}" title="Hotel Nutibara" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
+              
+              </div>
+            </div>
+          </div>
+          <!-- End Gallery Item --> 
+          <div class="col-xl-3 col-lg-4 col-md-6">
+            <div class="gallery-item h-100">
+              <img src="{{ asset('assets/img/Galeria/nutibara/6.jpg')}}" class="img-fluid" alt="">
+              <div class="gallery-links d-flex align-items-center justify-content-center">
+                <a href="{{ asset('assets/img/Galeria/nutibara/6.jpg')}}" title="Hotel Nutibara" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
+              
+              </div>
+            </div>
+          </div>
+          <!-- End Gallery Item --> 
+          <div class="col-xl-3 col-lg-4 col-md-6">
+            <div class="gallery-item h-100">
+              <img src="{{ asset('assets/img/Galeria/nutibara/7.jpg')}}" class="img-fluid" alt="">
+              <div class="gallery-links d-flex align-items-center justify-content-center">
+                <a href="{{ asset('assets/img/Galeria/nutibara/7.jpg')}}" title="Hotel Nutibara" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
+              
+              </div>
+            </div>
+          </div>
+          <!-- End Gallery Item --> 
+          <div class="col-xl-3 col-lg-4 col-md-6">
+            <div class="gallery-item h-100">
+              <img src="{{ asset('assets/img/Galeria/nutibara/8.jpg')}}" class="img-fluid" alt="">
+              <div class="gallery-links d-flex align-items-center justify-content-center">
+                <a href="{{ asset('assets/img/Galeria/nutibara/8.jpg')}}" title="Hotel Nutibara" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
+              
+              </div>
+            </div>
+          </div>
+          <!-- End Gallery Item --> 
+          <div class="col-xl-3 col-lg-4 col-md-6">
+            <div class="gallery-item h-100">
+              <img src="{{ asset('assets/img/Galeria/nutibara/9.jpg')}}" class="img-fluid" alt="">
+              <div class="gallery-links d-flex align-items-center justify-content-center">
+                <a href="{{ asset('assets/img/Galeria/nutibara/9.jpg')}}" title="Hotel Nutibara" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
+              
+              </div>
+            </div>
+          </div>
+          <!-- End Gallery Item --> 
+          <div class="col-xl-3 col-lg-4 col-md-6">
+            <div class="gallery-item h-100">
+              <img src="{{ asset('assets/img/Galeria/nutibara/10.jpg')}}" class="img-fluid" alt="">
+              <div class="gallery-links d-flex align-items-center justify-content-center">
+                <a href="{{ asset('assets/img/Galeria/nutibara/10.jpg')}}" title="Hotel Nutibara" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
+              
+              </div>
+            </div>
+          </div>
+          <!-- End Gallery Item --> 
+          <div class="col-xl-3 col-lg-4 col-md-6">
+            <div class="gallery-item h-100">
+              <img src="{{ asset('assets/img/Galeria/nutibara/11.jpg')}}" class="img-fluid" alt="">
+              <div class="gallery-links d-flex align-items-center justify-content-center">
+                <a href="{{ asset('assets/img/Galeria/nutibara/11.jpg')}}" title="Hotel Nutibara" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
+              
+              </div>
+            </div>
+          </div>
+          <!-- End Gallery Item --> 
+          <div class="col-xl-3 col-lg-4 col-md-6">
+            <div class="gallery-item h-100">
+              <img src="{{ asset('assets/img/Galeria/nutibara/12.jpg')}}" class="img-fluid" alt="">
+              <div class="gallery-links d-flex align-items-center justify-content-center">
+                <a href="{{ asset('assets/img/Galeria/nutibara/12.jpg')}}" title="Hotel Nutibara" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
+              
+              </div>
+            </div>
+          </div>
+          <!-- End Gallery Item --> 
+          <div class="col-xl-3 col-lg-4 col-md-6">
+            <div class="gallery-item h-100">
+              <img src="{{ asset('assets/img/Galeria/nutibara/13.jpg')}}" class="img-fluid" alt="">
+              <div class="gallery-links d-flex align-items-center justify-content-center">
+                <a href="{{ asset('assets/img/Galeria/nutibara/13.jpg')}}" title="Hotel Nutibara" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
+              
+              </div>
+            </div>
+          </div>
+          <!-- End Gallery Item --> 
+          <div class="col-xl-3 col-lg-4 col-md-6">
+            <div class="gallery-item h-100">
+              <img src="{{ asset('assets/img/Galeria/nutibara/14.jpg')}}" class="img-fluid" alt="">
+              <div class="gallery-links d-flex align-items-center justify-content-center">
+                <a href="{{ asset('assets/img/Galeria/nutibara/14.jpg')}}" title="Hotel Nutibara" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
+              
+              </div>
+            </div>
+          </div>
+          <!-- End Gallery Item --> 
+          <div class="col-xl-3 col-lg-4 col-md-6">
+            <div class="gallery-item h-100">
+              <img src="{{ asset('assets/img/Galeria/nutibara/15.jpg')}}" class="img-fluid" alt="">
+              <div class="gallery-links d-flex align-items-center justify-content-center">
+                <a href="{{ asset('assets/img/Galeria/nutibara/15.jpg')}}" title="Hotel Nutibara" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
+              
+              </div>
+            </div>
+          </div>
+          <!-- End Gallery Item --> 
           
 
         </div>
