@@ -96,7 +96,7 @@
           <div class="row gy-4 align-items-center features-item" data-aos="fade-up">
 
             <div class="col-md-5">
-            <a href="{{ route('user.noticias.new50') }}" target="_blank"> 	<img src="{{ asset('assets/img/galeria/constelaciones/1.jpg')}}" class="img-fluid"> </a>
+            <a href="{{ route('user.noticias.new50') }}" target="_blank"> 	<img src="https://app.gov.co/assets/img/Galeria/constelaciones/1.jpg" class="img-fluid"> </a>
             </div>
 
             <div class="col-md-7">
@@ -112,7 +112,7 @@
 
             <div class="row gy-4 align-items-center features-item" data-aos="fade-up">
               <div class="col-md-5 order-1 order-md-2">
-              <a href="{{ route('user.noticias.new49') }}" target="_blank"> <img src="{{ asset('assets/img/galeria/lleras/1.jpg')}}" class="img-fluid" alt=""></a>
+              <a href="{{ route('user.noticias.new49') }}" target="_blank"> <img src="{{ asset('assets/img/galeria/lleras/1.JPG')}}" class="img-fluid" alt=""></a>
               </div>
               <div class="col-md-7 order-2 order-md-1">
                   <h3>Ciudadanos y turistas en Medellín ya disfrutan del abrazo del Parque Lleras</h3>
@@ -125,7 +125,7 @@
 
             <div class="row gy-4 align-items-center features-item" data-aos="fade-up">
               <div class="col-md-5">
-                <a href="{{ route('user.noticias.new48') }}" target="_blank"> <img src="{{ asset('assets/img/galeria/nutibara/1.jpg')}}" class="img-fluid" alt=""></a>
+                <a href="{{ route('user.noticias.new48') }}" target="_blank"> <img src="https://app.gov.co/assets/img/Galeria/nutibara/1.jpg" class="img-fluid" alt=""></a>
               </div>
               <div class="col-md-7">
                   <h3>Con la entrega de la iluminación del Hotel Nutibara, el Distrito promueve el turismo y la seguridad en el Centro de Medellín</h3>

@@ -42,16 +42,16 @@
             <div id="carouselExampleControls" class="carousel slide justify-content-center align-items-center" data-bs-ride="carousel" style="height:450px;">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                    <img src="{{ asset('assets/img/Galeria/lleras/1.jpg')}}" class="mx-auto d-block" style="width:600px; height:450px;">
+                    <img src="{{ asset('assets/img/Galeria/lleras/1.JPG')}}" class="mx-auto d-block" style="width:600px; height:450px;">
                     </div>
                     <div class="carousel-item">
-                    <img src="{{ asset('assets/img/Galeria/lleras/2.jpg')}}" class="mx-auto d-block" style="width:600px;  height:450px;">
+                    <img src="{{ asset('assets/img/Galeria/lleras/2.JPG')}}" class="mx-auto d-block" style="width:600px;  height:450px;">
                     </div>
                     <div class="carousel-item">
-                    <img src="{{ asset('assets/img/Galeria/lleras/3.jpg')}}" class="mx-auto d-block" style="width:600px;  height:450px;">
+                    <img src="{{ asset('assets/img/Galeria/lleras/3.JPG')}}" class="mx-auto d-block" style="width:600px;  height:450px;">
                     </div>
                     <div class="carousel-item">
-                    <img src="{{ asset('assets/img/Galeria/lleras/4.jpg')}}" class="mx-auto d-block" style="width:600px;  height:450px;">
+                    <img src="{{ asset('assets/img/Galeria/lleras/4.JPG')}}" class="mx-auto d-block" style="width:600px;  height:450px;">
                     </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
