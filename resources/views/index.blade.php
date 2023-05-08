@@ -112,7 +112,7 @@
 
             <div class="row gy-4 align-items-center features-item" data-aos="fade-up">
               <div class="col-md-5 order-1 order-md-2">
-              <a href="{{ route('user.noticias.new49') }}" target="_blank"> <img src="{{ asset('assets/img/galeria/lleras/1.JPG')}}" class="img-fluid" alt=""></a>
+              <a href="{{ route('user.noticias.new49') }}" target="_blank"> <img src="https://app.gov.co/assets/img/Galeria/lleras/1.JPG" class="img-fluid" alt=""></a>
               </div>
               <div class="col-md-7 order-2 order-md-1">
                   <h3>Ciudadanos y turistas en Medellín ya disfrutan del abrazo del Parque Lleras</h3>
