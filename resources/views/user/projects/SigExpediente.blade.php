@@ -17,7 +17,24 @@
 
         <div class="section-title">
           <h2>Galeria de mapas</h2>
-          <p>Bienvenidos al catalogo de herramientas geográficas para consultar la cartografía producida para los diferentes proyectos que gestiona la Agencia APP desde sus distintas Subdirecciones. ¿Cómo acceder? 1. Seleccione la herramienta de interés. 2. Consúltelo por diferentes categorías, por capas o dirección especifica. 3. Conoce el detalle de los proyectos que cualificaran el paisaje urbano de la ciudad, recuperaran el Patrimonio, los proyectos APP y gestionaran los bienes fiscales.</p>
+          <p>Bienvenidos al catálogo de herramientas geográficas para consultar la cartografía producida para los diferentes proyectos que gestiona la Agencia APP desde sus distintas Subdirecciones.</p>
+
+        </div>
+
+        <div class="section-subtitle">
+          <h2>¿Cómo acceder?</h2>
+          <ul>
+            <li>
+            Seleccione la herramienta de interés.
+            </li>
+            <li>
+            Consúltelo por diferentes categorías, por capas o dirección especifica.
+            </li>
+            <li>
+            Conoce el detalle de los proyectos que cualificaran el paisaje urbano de la ciudad, recuperaran el Patrimonio, los proyectos APP y gestionaran los bienes fiscales.
+            </li>
+          </ul>
+   
         </div>
 
         <ul id="portfolio-flters" class="d-flex justify-content-center" data-aos="fade-up" data-aos-delay="100">

@@ -75,7 +75,7 @@
           </div>
 
           <div class="col-lg-5 align-items-stretch order-1 order-lg-2 img">
-          <img src="{{ asset('assets/img/city.png')}}" class="img-fluid animated" alt="">
+          <img src="{{ asset('assets/img/fon.png')}}" class="img-fluid animated" alt="">
           </div>
         </div>
 
@@ -268,9 +268,7 @@ Tenemos como misión gestionar y promover acciones que den sostenibilidad al esp
         <div class="section-title">
           <h2>Glosario</h2>
           <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
-        </div>
-
-       
+        </div>       
 
       </div>
     </section>
@@ -313,27 +311,25 @@ Tenemos como misión gestionar y promover acciones que den sostenibilidad al esp
 
  
     <div class="col-lg-2 col-md-2 footer-links">
-        <h4>Portales</h4>
+        <h4>Geoportales</h4>
         <ul>
-          <li><i class="bx bx-chevron-right"></i> <a href="{{ route('user.projects.aeep') }}" target="_blank">Reportes Med</a></li>
-          <li><i class="bx bx-chevron-right"></i> <a href="{{ route('user.projects.aeep') }}" target="_blank">SIAMED</a></li>
-          <li><i class="bx bx-chevron-right"></i> <a href="{{ route('user.projects.aeep') }}" target="_blank">La Perla</a></li>
-          <li><i class="bx bx-chevron-right"></i> <a href="{{ route('user.projects.aeep') }}" target="_blank">Árbol Urbano – SAU</a></li>
-          <li><i class="bx bx-chevron-right"></i> <a href="{{ route('user.projects.aeep') }}" target="_blank">MapGIS</a></li>
-          <li><i class="bx bx-chevron-right"></i> <a href="{{ route('user.projects.aeep') }}" target="_blank">OpenData Medellín</a></li>
-         
+          <li><i class="bx bx-chevron-right"></i> <a href="https://play.google.com/store/apps/details?id=co.com.hyg.HuecosMed&hl=es&gl=US" target="_blank">Reportes Med</a></li>
+          <li><i class="bx bx-chevron-right"></i> <a href="https://www.medellin.gov.co/sau/" target="_blank">Árbol Urbano – SAU</a></li>
+          <li><i class="bx bx-chevron-right"></i> <a href="https://www.medellin.gov.co/mapgis9/mapa.jsp?aplicacion=1&css=css/app_mapas_medellin.css" target="_blank">MapGIS</a></li>
+          <li><i class="bx bx-chevron-right"></i> <a href="https://geomedellin-m-medellin.opendata.arcgis.com/" target="_blank">OpenData Medellín</a></li>
+          <li><i class="bx bx-chevron-right"></i> <a href="https://www.medellin.gov.co/giscatalogacion/srv/spa/catalog.search#/home" target="_blank">GIS Catalogación Medellín</a></li>
         </ul>
       </div>
       
       <div class="col-lg-2 col-md-2 footer-links">
-        <h4>Portales</h4>
+        <h4>Geoportales</h4>
         <ul>
-        <li><i class="bx bx-chevron-right"></i> <a href="{{ route('user.projects.aeep') }}" target="_blank">GIS Catalogación Medellín</a></li>
-          <li><i class="bx bx-chevron-right"></i> <a href="{{ route('user.projects.aeep') }}" target="_blank">GISTO</a></li>
-          <li><i class="bx bx-chevron-right"></i> <a href="{{ route('user.projects.aeep') }}" target="_blank">DANE</a></li>
-          <li><i class="bx bx-chevron-right"></i> <a href="{{ route('user.projects.aeep') }}" target="_blank">Catastro Antioquia</a></li>
-          <li><i class="bx bx-chevron-right"></i> <a href="{{ route('user.projects.aeep') }}" target="_blank">Datos Abierto Gobierno</a></li>
-          <li><i class="bx bx-chevron-right"></i> <a href="{{ route('user.projects.aeep') }}" target="_blank">UrbaMED</a></li>
+
+          <li><i class="bx bx-chevron-right"></i> <a href="https://geoportal.dane.gov.co/" target="_blank">DANE</a></li>
+          <li><i class="bx bx-chevron-right"></i> <a href="https://gobantioquia.maps.arcgis.com/apps/webappviewer/index.html?id=e7909ee1328b455e96a862dd28c6de0d" target="_blank">Gobernación Antioquia</a></li>
+          <li><i class="bx bx-chevron-right"></i> <a href="https://www.datos.gov.co/" target="_blank">Datos Abierto Gobierno</a></li>
+          <li><i class="bx bx-chevron-right"></i> <a href="https://play.google.com/store/apps/details?id=co.com.hyg.mpio.urbamed&hl=es_CO&gl=US" target="_blank">UrbaMED</a></li>
+          <li><i class="bx bx-chevron-right"></i> <a href="https://cu.epm.com.co/clientesyusuarios/geoportal" target="_blank">EPM</a></li>
         </ul>
       </div>
 
