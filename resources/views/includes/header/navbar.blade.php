@@ -3,12 +3,12 @@
 <div class="bg-primary">
     <div class="container-xl logo_menu_superior">
       <div class="header-govco">
-  <a href="https://www.gov.co/" target="blank" title="Ir al portal GOV.CO">
-  <img src="https://www.mintic.gov.co/portal/715/channels-616_header_govco.png" alt="Imagen logo GovCo" class="img-fluid">
-  <span class="sr-only">Logo Gobierno de Colombia</span>
-  </a>
-</div>
-</div>
+			<a href="https://www.gov.co/" target="blank" title="Ir al portal GOV.CO">
+			<img src="https://www.mintic.gov.co/portal/715/channels-616_header_govco.png" alt="Imagen logo GovCo" class="img-fluid">
+			<span class="sr-only">Logo Gobierno de Colombia</span>
+			</a>
+	  </div>
+	</div>
 </div>
     <div class="container d-flex align-items-center" style="margin-left: 2px;">
 

@@ -45,6 +45,8 @@
           <li data-filter=".filter-app">Aplicación Web</li>
           <li data-filter=".filter-dashboard">Dashboard</li>
           <li data-filter=".filter-movil">App Móvil</li>
+          <li data-filter=".filter-foto">Ortofoto</li>
+          <li data-filter=".filter-modelo">Modelo 3D (Sketchup)</li>
         </ul>
 
         <div class="row portfolio-container justify-content: center;" data-aos="fade-up" data-aos-delay="200">
@@ -281,6 +283,28 @@
           <div class="portfolio-img"><a href="https://arcg.is/0CSbCH0" target="_blank"><img src="assets/images/Imagen29.png" class="img-fluid" alt=""></a></div>
             <div class="portfolio-info">
               <h4>Reporte concentración de domiciliarios en el espacio público</h4>
+              <!-- <a href="https://i.ibb.co/Zm9DmDq/mapa.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Dashboard 1"><i class="bx bx-plus"></i></a> -->
+            </div>
+          </div>
+
+
+
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-foto"> 
+          <div class="portfolio-img"><a href="https://agenciaapp.maps.arcgis.com/apps/mapviewer/index.html?webmap=c651c2fd7ecc4334ac33f1c48c247c17" target="_blank"><img src="assets/images/Imagen30.png" class="img-fluid" alt=""></a></div>
+            <div class="portfolio-info">
+              <h4>Ortofoto Parque del Poblado</h4>
+              <!-- <a href="https://i.ibb.co/Zm9DmDq/mapa.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Dashboard 1"><i class="bx bx-plus"></i></a> -->
+            </div>
+          </div>
+
+
+
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-modelo"> 
+          <div class="portfolio-img"><a href="{{ asset('assets/images/Naviera.skp')}}" target="_blank"><img src="assets/images/Imagen31.png" class="img-fluid" alt=""></a></div>
+            <div class="portfolio-info">
+              <h4>Edificio La Naviera</h4>
               <!-- <a href="https://i.ibb.co/Zm9DmDq/mapa.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Dashboard 1"><i class="bx bx-plus"></i></a> -->
             </div>
           </div>

@@ -74,7 +74,7 @@
 
           </div>
 
-          <div class="col-lg-5 align-items-stretch order-1 order-lg-2 img">
+          <div class="col-lg-5 align-items-stretch order-1 order-lg-2 img" style="padding-top: 70px;">
           <img src="{{ asset('assets/img/fon.png')}}" class="img-fluid animated" alt="">
           </div>
         </div>
