@@ -308,6 +308,27 @@
               <!-- <a href="https://i.ibb.co/Zm9DmDq/mapa.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Dashboard 1"><i class="bx bx-plus"></i></a> -->
             </div>
           </div>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-modelo"> 
+          <div class="portfolio-img"><a href="{{ asset('assets/images/PalacioUribe.skp')}}" target="_blank"><img src="assets/images/Imagen32.png" class="img-fluid" alt=""></a></div>
+            <div class="portfolio-info">
+              <h4>Palacio de la Cultura Rafael Uribe Uribe</h4>
+              <!-- <a href="https://i.ibb.co/Zm9DmDq/mapa.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Dashboard 1"><i class="bx bx-plus"></i></a> -->
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-modelo"> 
+          <div class="portfolio-img"><a href="{{ asset('assets/images/Candelaria.skp')}}" target="_blank"><img src="assets/images/Imagen33.png" class="img-fluid" alt=""></a></div>
+            <div class="portfolio-info">
+              <h4>Parroquia Basílica Nuestra Señora de la Candelaria</h4>
+              <!-- <a href="https://i.ibb.co/Zm9DmDq/mapa.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Dashboard 1"><i class="bx bx-plus"></i></a> -->
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-modelo"> 
+          <div class="portfolio-img"><a href="{{ asset('assets/images/Antioquia.skp')}}" target="_blank"><img src="assets/images/Imagen34.png" class="img-fluid" alt=""></a></div>
+            <div class="portfolio-info">
+              <h4>Museo de Antioquia</h4>
+              <!-- <a href="https://i.ibb.co/Zm9DmDq/mapa.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Dashboard 1"><i class="bx bx-plus"></i></a> -->
+            </div>
+          </div>
      
 
         </div>
