@@ -10,15 +10,14 @@
    
   
                 <div class="row d-flex justify-content-around mt-6">
-                  <div class="col-6">
+                  <div class="col-md-6">
                       <div class="card mb-4">
-                          <div class="card-header pb-0">
+                          <div class="card-header pb-0 d-flex justify-content-between">
                             <h6>Registro de Noticias</h6>
-                          </div>
-                          <div class="d-flex justify-content-end px-5">
-                                      <a href="{{ route('medios.lista')}}" class="btn-get-started">
-                                          <i class="fas fa-chevron-left"></i>
-                                          Regresar</a>
+                                <a href="{{ route('medios.lista')}}" class="btn-get-started" style="position: absolute; top: 0; right: 10px;">
+                                <i class="fas fa-chevron-left"></i>
+                                 Regresar
+                                </a>
                           </div>
                           <div class="card-body px-5 pt-0 pb-2">
                               @if($errors->any())
@@ -32,12 +31,12 @@
                                       @csrf
                                           <label>Titulo</label>
                                           <div class="form-group">
-                                            <input  type="text" class="form-control" name="titulo" value="{{ old('titulo') }}" required>
+                                            <input  type="text" class="form-control" name="titulo" value="{{ old('titulo') }}" placeholder="Ingrese titulo" required>
                                           </div>
 
                                           <label>Descripción</label>
                                           <div class="form-group">
-                                            <input type="text" class="form-control" name="descripcion" value="{{ old('descripcion') }}" required>
+                                            <input type="text" class="form-control" name="descripcion" value="{{ old('descripcion') }}" placeholder="Ingrese descripcion" required>
                                           </div>
                                           
                                           <label>Fecha</label>
@@ -47,7 +46,7 @@
 
                                           <label>Enlace</label>
                                           <div class="form-group">
-                                            <input type="text" class="form-control" name="enlace" required>
+                                            <input type="text" class="form-control" name="enlace" placeholder="Ingrese enlace" required>
                                           </div>
                                         
                                           <div class="d-flex justify-content-around">

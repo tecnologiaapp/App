@@ -26,7 +26,7 @@
 
 
   <!-- Template Main CSS File -->
-  <link rel="stylesheet" href="{{ asset('assets/css/si.css') }}">
+  <link rel="stylesheet" href="{{ asset('assets/css/sig.css') }}">
 <style>
     .fixed-top {
     position: fixed;
@@ -53,7 +53,7 @@
       <nav id="navbar" class="navbar">
         <ul>
           <li><a class="nav-link scrollto" href="{{ route('user.projects.sig')}}">Inicio</a></li>
-          <li><a class="nav-link scrollto" href="{{ route('user.projects.SigExpediente')}}">Expediente geografico</a></li>
+          <li><a class="nav-link scrollto" href="{{ route('SIG.index')}}">Expediente geografico</a></li>
           <li><a class="nav-link scrollto" href="{{ route('user.projects.SigDatos')}}">Datos abiertos</a></li>
           <li><a class="nav-link scrollto " href="{{ route('user.projects.SigServicios')}}">Servicios</a></li>
           <li><a class="nav-link scrollto " href="{{ route('user.projects.SigContacto')}}">Contacto</a></li>   

@@ -78,6 +78,6 @@ class MedioController extends Controller
         $medios = Medios::find($id);        
         $medios->delete();
         $notificacion = 'La noticia se ha eliminado correctamente';
-        return redirect()->route('medios.index')->with(compact('notificacion'));
+        return redirect()->route('medios.lista')->with(compact('notificacion'));
     }
 }
