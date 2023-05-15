@@ -309,7 +309,7 @@ ciudad en formato 3D!</h5>
                       @foreach($Modelo as $mode)
                         @if($mode->categoria == 'Modelo 3D')
                         <div class="col-lg-4 col-md-6 mt-4 mt-lg-0 pt-4 portfolio-item" data-aos="fade-up" data-aos-delay="400">
-                          <div class="portfolio-img"><a href="{{$mode->enlace}}" target="_blank"><img src="{{ asset('recursos/' . $mode->imagen) }}" class="img-fluid" alt=""></a></div>
+                          <div class="portfolio-img"><a href="{{ asset('recursos/' . $mode->archivo) }}" target="_blank"><img src="{{ asset('recursos/' . $mode->imagen) }}" class="img-fluid" alt=""></a></div>
                             <div class="portfolio-info">
                               <h4>{{$mode->titulo}}</h4>
                               <!-- <a href="https://i.ibb.co/Zm9DmDq/mapa.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Dashboard 1"><i class="bx bx-plus"></i></a> -->

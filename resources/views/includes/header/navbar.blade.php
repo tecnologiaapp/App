@@ -202,6 +202,9 @@
 			<li>
 			<a class="menu-sub-item" href="{{ route('user.projects.index') }}"><span>Mapa de proyectos</span></a>
 			</li>
+			<li>
+			<a class="menu-sub-item" href="{{ route('user.projects.audiencia') }}"><span>Audiencia Pública Arena Medellín</span></a>
+			</li>
 		  
 			
 			<!-- <li>

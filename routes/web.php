@@ -452,7 +452,9 @@ Route::get('/proyectos/plaza_mayor', function () {
    return view('user.projects.hotel');
 })->name('user.projects.hotel');
 
-
+Route::get('/convocatoria-2023', function () {
+   return view('user.projects.audiencia');
+})->name('user.projects.audiencia');
 
 Route::get('/proyectos/olimpica', function () {
    return view('user.projects.olimpica');
