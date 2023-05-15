@@ -111,6 +111,12 @@
 
           <div class="tab-content">
               <div id="tab-1" class="tab-pane active">
+              <div class="row mt-3" style="text-align:justify;">
+                <h5>Descubre historias extraordinarias de los proyectos de la Agencia APP en Medellín a través de
+              nuestros envolventes y visuales StoryMaps. Explora revitalizaciones urbanas, intervenciones
+              sociales y desarrollo sostenible en un recorrido interactivo. Sumérgete en un mundo de
+              transformación y construcción de un futuro mejor en solo unos clics. ¡Explora ahora!</h5>
+              </div>
               @if(count($Story) > 0)
                   <div class="row">
                       @foreach($Story as $story)
@@ -136,6 +142,12 @@
               </div>
 
               <div id="tab-2" class="tab-pane">
+              <div class="row mt-3" style="text-align:justify;">
+                <h5>Explora visualizaciones interactivas de gestión de subdirecciones en nuestros Mapas Web de
+ArcGIS Online. Accede a información detallada de AEEP, Patrimonio, Gestión Inmobiliaria, Arte
+Urbano, Gestión Social, Paisaje Urbano y más. Descubre todo en un solo lugar. ¡Accede ahora a
+nuestros Mapas Web!</h5>
+              </div>
               @if(count($Mapa) > 0)
                   <div class="row">
                       @foreach($Mapa as $mapa)
@@ -162,6 +174,11 @@
 
 
               <div id="tab-3" class="tab-pane">
+              <div class="row mt-3" style="text-align:justify;">
+                <h5>Consulta y explora diversas aplicaciones WEB en ArcGIS Online, que almacenan información
+valiosa para la gestión diaria de la Agencia APP. Unifica Mapas WEB, datos 2D y 3D en una
+plataforma accesible desde dispositivos móviles.</h5>
+              </div>
               @if(count($Aplicacion) > 0)
                   <div class="row">
                       @foreach($Aplicacion as $apli)
@@ -188,6 +205,11 @@
 
 
               <div id="tab-4" class="tab-pane">
+              <div class="row mt-3" style="text-align:justify;">
+                <h5>Sumérgete en visualizaciones de datos intuitivas e interactivas en nuestros Dashboard. Toma
+decisiones oportunas, explora cifras relevantes y monitorea proyectos en tiempo real.
+Optimizamos la gestión de la Agencia APP con potentes herramientas de visualización.</h5>
+              </div>
               @if(count($Dashboard) > 0)
                   <div class="row">
                       @foreach($Dashboard as $dash)
@@ -214,6 +236,11 @@
 
 
               <div id="tab-5" class="tab-pane">
+              <div class="row mt-3" style="text-align:justify;">
+                <h5>Juntos, construimos soluciones. Recopilamos datos georreferenciados a través de formularios
+inteligentes hechos con Survey123 para abordar las problemáticas del distrito. ¡Participa en la
+recolección de datos de manera sencilla y ágil! Únete a la acción y crea un impacto positivo.</h5>
+              </div>
               @if(count($App) > 0)
                   <div class="row">
                       @foreach($App as $app)
@@ -240,6 +267,11 @@
 
 
               <div id="tab-6" class="tab-pane">
+              <div class="row mt-3" style="text-align:justify;">
+                <h5>Información esencial para diseño, planeación y exploración territorial. Acceda a ortofotos de alta
+calidad y precisión con un solo clic. Útiles para ciudadanos y entidades. ¡Descubre el territorio
+distrital de forma visual y detallada!</h5>
+              </div>
               @if(count($Ortofoto) > 0)
                   <div class="row">
                       @foreach($Ortofoto as $orto)
@@ -266,6 +298,12 @@
 
 
               <div id="tab-7" class="tab-pane">
+              <div class="row mt-3" style="text-align:justify;">
+                <h5>Descubre nuestra colección de modelos 3D (.Skp, versión 2021) de bienes culturales e inmuebles
+destacados. Detalles precisos de fachadas o interiores; construidos para el proceso de diseño en
+proyectos de iluminación arquitectónica y gestión urbana. ¡Explora la belleza arquitectónica de la
+ciudad en formato 3D!</h5>
+              </div>
               @if(count($Modelo) > 0)
                   <div class="row">
                       @foreach($Modelo as $mode)
