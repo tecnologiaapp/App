@@ -42,7 +42,6 @@
                                     <th>Categoría</th>
                                     <th>Título</th> 
                                     <th>Enlace</th>
-                                    <th>Archivo</th>
                                     <th>Imagen</th>
                                     <th>Opciones</th>
                                     </tr>
@@ -60,11 +59,8 @@
                                                 {{ $si->titulo }}
                                             </td>    
                                             <td>
-                                                {{ $si->enlace ?? 'N/A' }}
-                                            </td>  
-                                            <td>
-                                                {{ $si->archivo ?? 'N/A' }}
-                                            </td>                    
+                                                {{ $si->enlace }}
+                                            </td>                   
                                             <td>
                                                 {{ $si->imagen }}
                                             </td>
@@ -83,7 +79,7 @@
                                     </tbody>
                                     <tfoot>
                                         <tr>
-                                            <td colspan="7"> {{$sig->appends(['busqueda'=>$busqueda])}}  </td>
+                                            <td colspan="6"> {{$sig->appends(['busqueda'=>$busqueda])}}  </td>
                                         </tr>
                                     </tfoot>
                                 </table>

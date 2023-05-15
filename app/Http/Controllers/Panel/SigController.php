@@ -70,16 +70,11 @@ class SigController extends Controller
        $request->validate([
         'imagen' => 'image|mimes:jpeg,png,gif,bmp,svg',
           ]);
-        if($request->hasFile('imagen')){
-            $archivo =$request->file('imagen');
-            $archivo->move(public_path().'/recursos/',$archivo->getClientOriginalName());
-            $sig->imagen = $archivo->getClientOriginalName();
-            }
-            if($request->hasFile('modelo')){
-                $archivo =$request->file('modelo');
-                $archivo->move(public_path().'/recursos/',$archivo->getClientOriginalName());
-                $sig->archivo = $archivo->getClientOriginalName();
-                }
+       if($request->hasFile('imagen')){
+        $archivo =$request->file('imagen');
+        $archivo->move(public_path().'/recursos/',$archivo->getClientOriginalName());
+        $sig->imagen = $archivo->getClientOriginalName();
+        }
        $sig->save();
        
 
@@ -111,11 +106,7 @@ class SigController extends Controller
             $archivo->move(public_path().'/recursos/',$archivo->getClientOriginalName());
             $sig->imagen = $archivo->getClientOriginalName();
             }
-            if($request->hasFile('modelo')){
-                $archivo =$request->file('modelo');
-                $archivo->move(public_path().'/recursos/',$archivo->getClientOriginalName());
-                $sig->archivo = $archivo->getClientOriginalName();
-                }
+
         $notificacion = 'El contenido se ha actualizado correctamente';
         $sig->save();      
         return redirect()->route('SIG.lista')->with(compact('notificacion'));

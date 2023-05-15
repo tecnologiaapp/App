@@ -15,8 +15,7 @@ return new class extends Migration
             $table->id();
             $table->enum('categoria', ['Story Maps', 'Mapa Web', 'Aplicacion Web','Dashboard','App Movil','Ortofoto','Modelo 3D']);
             $table->string('titulo');
-            $table->string('enlace')->nullable();
-            $table->string('archivo')->nullable();
+            $table->string('enlace');
             $table->string('imagen');
             $table->timestamps();
         });

@@ -205,13 +205,6 @@
 			<li>
 			<a class="menu-sub-item" href="{{ route('user.projects.audiencia') }}"><span>Audiencia Pública</span></a>
 			</li>
-		  
-			
-			<!-- <li>
-			<a href="{{ route('user.projects.sig') }}">
-				   <span>SIG</span>
-			   </a>
-			</li> -->
 		   
 		  </ul>
 		</li>

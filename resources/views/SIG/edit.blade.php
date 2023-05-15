@@ -52,10 +52,7 @@
                         <label>Enlace</label>
                         <input type="text" class="form-control" name="enlace" value="{{ old('enlace', $sig->enlace) }}" required>
                     </div>  
-                    <div class="form-group">
-                        <label for="enlace">Archivo (Modelos 3D)</label>
-                        <input type="file" class="form-control" name="modelo">
-                    </div>
+
                     <div class="form-group">
                         <label>Imagen</label>
                         <input type="file" class="form-control" name="imagen" required>
