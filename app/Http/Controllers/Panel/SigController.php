@@ -62,7 +62,11 @@ class SigController extends Controller
     }
 
     public function store(Request $request)
-    {
+    { 
+        dd($request->all());
+        $request->validate([
+            'imagen' => 'required|image|mimes:jpeg,png,gif', // Validación para imagen
+        ]);
        $sig = new SIG();
        $sig->categoria = $request->categoria;
        $sig->titulo = $request->titulo;
