@@ -102,9 +102,9 @@
         <!-- Mashead header-->
         <section style="padding-bottom: 0rem;">
         <picture>
-            <source media="(min-width: 800px)" srcset="{{ asset('assets/img/Proyectos/header-gastro.png') }}">
-            <source media="(min-width: 330px)" srcset="{{ asset('assets/img/Proyectos/MOBILE-6.png') }}">
-            <img src="{{ asset('assets/img/Proyectos/header-gastro.png') }}" style="width:100% " alt="Ejemplo">
+            <source media="(min-width: 800px)" srcset="{{ asset('assets/img/Proyectos/empren.jpg') }}">
+            <source media="(min-width: 330px)" srcset="{{ asset('assets/img/Proyectos/empren-mo.jpg') }}">
+            <img src="{{ asset('assets/img/Proyectos/empren.jpg') }}" style="width:100% " alt="Ejemplo">
         </picture>
         <!-- <img src="{{ asset('assets/img/Proyectos/header-gastro.png') }}" style="position: relative; width:100%; height:700px; background-size: 100% 100%;" /> -->
         </section>

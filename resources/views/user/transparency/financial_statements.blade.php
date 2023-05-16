@@ -169,8 +169,22 @@
 <table class="table table-bordered table-striped custom-table">
 	<tbody>
 						
-
-
+	<tr>
+									<td>Estados Financieros Marzo 2023</td>
+									<td>
+										<a href="{{ asset('assets/pdf/financial_statements/2023/marzo-2023.pdf')}}" class="btn btn-primary btn-block btn-block" target="_blank">
+											Ver documento
+										</a>
+									</td>
+								</tr>
+	<tr>
+									<td>Estados Financieros Febrero 2023</td>
+									<td>
+										<a href="{{ asset('assets/pdf/financial_statements/2023/febrero-2023.pdf')}}" class="btn btn-primary btn-block btn-block" target="_blank">
+											Ver documento
+										</a>
+									</td>
+								</tr>
 
 							<tr>
 									<td>Estados Financieros Enero 2023</td>
