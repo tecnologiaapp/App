@@ -295,40 +295,6 @@ distrital de forma visual y detallada!</h5>
               </div>
               @endif
               </div>
-
-
-              <div id="tab-7" class="tab-pane">
-              <div class="row mt-3" style="text-align:justify;">
-                <h5>Descubre nuestra colección de modelos 3D (.Skp, versión 2021) de bienes culturales e inmuebles
-destacados. Detalles precisos de fachadas o interiores; construidos para el proceso de diseño en
-proyectos de iluminación arquitectónica y gestión urbana. ¡Explora la belleza arquitectónica de la
-ciudad en formato 3D!</h5>
-              </div>
-              @if(count($Modelo) > 0)
-                  <div class="row">
-                      @foreach($Modelo as $mode)
-                        @if($mode->categoria == 'Modelo 3D')
-                        <div class="col-lg-4 col-md-6 mt-4 mt-lg-0 pt-4 portfolio-item" data-aos="fade-up" data-aos-delay="400">
-                          <div class="portfolio-img"><a href="{{ asset('recursos/' . $mode->archivo) }}" target="_blank"><img src="{{ asset('recursos/' . $mode->imagen) }}" class="img-fluid" alt=""></a></div>
-                            <div class="portfolio-info">
-                              <h4>{{$mode->titulo}}</h4>
-                              <!-- <a href="https://i.ibb.co/Zm9DmDq/mapa.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Dashboard 1"><i class="bx bx-plus"></i></a> -->
-                            </div>
-                          </div>
-                        @endif   
-                      @endforeach
-                  </div>
-                  <div class="d-flex justify-content-center pt-5">
-                      {{ $Modelo->links() }}
-                  </div>   
-              @else
-              <div class="d-flex justify-content-center align-items-center" style="height: 30vh;">
-                  <h1>No hay contenido disponible</h1>
-              </div>
-              @endif
-              </div>
-
-
           </div>
         </div>
 
