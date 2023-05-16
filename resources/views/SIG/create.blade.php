@@ -55,7 +55,7 @@
                         <input type="file" class="form-control" name="imagen" required>
                     </div>
                     <div class="form-group">
-                        <label for="enlace">Archivo (Modelos 3D)</label>
+                        <label for="modelo">Archivo (Modelos 3D)</label>
                         <input type="file" class="form-control" name="modelo">
                     </div> 
                     <div class="d-flex justify-content-around">
