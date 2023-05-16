@@ -67,9 +67,6 @@ class SigController extends Controller
        $sig->categoria = $request->categoria;
        $sig->titulo = $request->titulo;
        $sig->enlace = $request->enlace;
-       $request->validate([
-        'imagen' => 'image|mimes:jpeg,png,gif,bmp,svg',
-          ]);
         if($request->hasFile('imagen')){
             $archivo =$request->file('imagen');
             $archivo->move(public_path().'/recursos/',$archivo->getClientOriginalName());
@@ -103,9 +100,6 @@ class SigController extends Controller
         $sig->categoria = $request->categoria;
         $sig->titulo = $request->titulo;
         $sig->enlace = $request->enlace;
-        $request->validate([
-            'imagen' => 'image|mimes:jpeg,png,gif,bmp,svg',
-              ]);
            if($request->hasFile('imagen')){
             $archivo =$request->file('imagen');
             $archivo->move(public_path().'/recursos/',$archivo->getClientOriginalName());
