@@ -56,7 +56,7 @@
                     </div>
                     <div class="form-group">
                         <label for="imagen">Imagen</label>
-                        <input type="file" class="form-control" name="imagen" value="{{ old('imagen') }}" required>
+                        <input type="file" class="form-control" name="imagen" required>
                     </div> 
                     <div class="d-flex justify-content-around">
                         <button type="submit" class="btn-get-started">Registrar Expediente</button>
