@@ -68,11 +68,12 @@ class SiController extends Controller
         $sig->categoria = $request->categoria;
         $sig->titulo = $request->titulo;
         $sig->enlace = $request->enlace;
-        if($request->hasFile('imagen')){
-            $archivo =$request->file('imagen');
-            $archivo->move(public_path().'/recursos/',$archivo->getClientOriginalName());
-            $sig->imagen = $archivo->getClientOriginalName();
-            }
+        if ($request->hasFile('imagen') && $request->file('imagen')->isValid()) {
+            $archivo = $request->file('imagen');
+            $imagenNombre = $archivo->getClientOriginalName();
+            $archivo->move(public_path('recurso'), $imagenNombre);
+            $sig->imagen = $imagenNombre;
+        }
     
         $sig->save();
     
