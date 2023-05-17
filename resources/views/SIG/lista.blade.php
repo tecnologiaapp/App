@@ -54,19 +54,19 @@
                                                 {{ $si->id }}
                                             </td>
                                             <td>
-                                                {{ $si->categoria }}
+                                            {{ !empty($si->categoria ) ? substr($si->categoria, 0, 18) . (strlen($si->categoria ) > 18 ? '...' : '') : 'N/A' }}                                                
                                             </td>
                                             <td>
-                                                {{ $si->titulo }}
+                                            {{ !empty($si->titulo ) ? substr($si->titulo, 0, 18) . (strlen($si->titulo ) > 18 ? '...' : '') : 'N/A' }}
                                             </td>    
                                             <td>
-                                                {{ $si->enlace ?? 'N/A' }}
+                                            {{ !empty($si->enlace ) ? substr($si->enlace, 0, 18) . (strlen($si->enlace ) > 18 ? '...' : '') : 'N/A' }}
                                             </td>  
                                             <td>
-                                                {{ $si->archivo ?? 'N/A' }}
+                                            {{ !empty($si->archivo ) ? substr($si->archivo, 0, 18) . (strlen($si->archivo ) > 18 ? '...' : '') : 'N/A' }}
                                             </td>                    
                                             <td>
-                                                {{ $si->imagen }}
+                                            {{ !empty($si->imagen ) ? substr($si->imagen, 0, 18) . (strlen($si->imagen ) > 18 ? '...' : '') : 'N/A' }}
                                             </td>
                                         
                                             <td class="text-center">

@@ -53,16 +53,16 @@
                                                 {{ $medio->id }}
                                             </td>
                                             <td>
-                                                {{ $medio->titulo }}
+                                            {{ !empty($medio->titulo ) ? substr($medio->titulo, 0, 18) . (strlen($medio->titulo ) > 18 ? '...' : '') : 'N/A' }}
                                             </td>                       
                                             <td>
-                                                {{ $medio->descripcion }}
+                                            {{ !empty($medio->descripcion ) ? substr($medio->descripcion, 0, 18) . (strlen($medio->descripcion ) > 18 ? '...' : '') : 'N/A' }}
                                             </td>
                                             <td>
                                                 {{ $medio->fecha }}
                                             </td>
                                             <td>
-                                                {{ $medio->enlace }}
+                                            {{ !empty($medio->enlace ) ? substr($medio->enlace, 0, 18) . (strlen($medio->enlace ) > 18 ? '...' : '') : 'N/A' }}
                                             </td>
                                         
                                             <td class="text-center">

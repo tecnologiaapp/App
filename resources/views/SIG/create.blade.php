@@ -27,11 +27,11 @@
                 </div>
                 @endforeach
                 @endif
-                <form action="{{ route('SIG.store')}}" method="POST" enctype="multipart/form-data">
+                <form action="{{ route('SIG.store')}}" method="POST" enctype="multipart/form-data" id="sigForm">
                     @csrf
                     <div class="form-group">
                         <label for="categoria">Categoría</label>
-                        <select class="form-control @error('categoria') is-invalid @enderror" name="categoria" required>
+                        <select class="form-control @error('categoria') is-invalid @enderror" name="categoria" id="categoriaSelect" required>
                             <option value="" selected>Elegir...</option>
                             <option value="Story Maps">Story Maps</option>
                             <option value="Mapa Web">Mapa Web</option>
@@ -48,15 +48,14 @@
                     </div>
                     <div class="form-group">
                         <label for="enlace">Enlace</label>
-                        <input type="text" class="form-control" name="enlace" placeholder="Ingrese enlace">
+                        <input type="text" class="form-control" name="enlace" placeholder="Ingrese enlace" id="enlaceInput">
                     </div>                   
                     <div class="form-group">
                         <label for="modelo">Archivo (Modelos 3D)</label>
-                        <input type="file" class="form-control" name="modelo">
+                        <input type="file" class="form-control" name="modelo" id="modeloInput">
                     </div>
-                    
                     <div class="form-group">
-                    <label>Imagen</label>
+                        <label>Imagen</label>
                         <input type="file" class="form-control" name="imagen" required>
                     </div>
                     <div class="d-flex justify-content-around">
@@ -67,6 +66,26 @@
         </div>
     </div>
 </div>
+<script>
+    // Obtener los elementos del formulario
+    var categoriaSelect = document.getElementById('categoriaSelect');
+    var enlaceInput = document.getElementById('enlaceInput');
+    var modeloInput = document.getElementById('modeloInput');
 
+    // Escuchar el evento de cambio en la selección de categoría
+    categoriaSelect.addEventListener('change', function() {
+        // Obtener el valor seleccionado
+        var selectedCategoria = categoriaSelect.value;
+        
+        // Habilitar o deshabilitar los campos según la categoría seleccionada
+        if (selectedCategoria === 'Modelo 3D') {
+            enlaceInput.disabled = true;
+            modeloInput.disabled = false;
+        } else {
+            enlaceInput.disabled = false;
+            modeloInput.disabled = true;
+        }
+    });
+</script>
 @endsection
 
