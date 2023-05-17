@@ -50,15 +50,15 @@
                         <label for="enlace">Enlace</label>
                         <input type="text" class="form-control" name="enlace" placeholder="Ingrese enlace">
                     </div>                   
-                    <!-- <div class="form-group">
+                    <div class="form-group">
                         <label for="modelo">Archivo (Modelos 3D)</label>
                         <input type="file" class="form-control" name="modelo">
-                    </div> -->
+                    </div>
                     
-                                          <div class="form-group">
-                                          <label>Imagen</label>
-                                            <input type="file" class="form-control" name="imagen" required>
-                                          </div>
+                    <div class="form-group">
+                    <label>Imagen</label>
+                        <input type="file" class="form-control" name="imagen" required>
+                    </div>
                     <div class="d-flex justify-content-around">
                         <button type="submit" class="btn-get-started">Registrar Expediente</button>
                     </div>               
