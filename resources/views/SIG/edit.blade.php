@@ -38,10 +38,10 @@
                 <form action="{{ route('SIG.update',$sig->id) }}" method="POST" enctype="multipart/form-data">
                     @csrf
                     @method('PUT')
-                    <div class="form-group">
+                    <!-- <div class="form-group">
                         <label>Categoría</label>
                         <input type="text" name="categoria" class="form-control" value="{{ old('categoria', $sig->categoria) }}" required>
-                    </div>
+                    </div> -->
             
                     <div class="form-group">
                         <label>Título</label>
@@ -52,10 +52,10 @@
                         <label>Enlace</label>
                         <input type="text" class="form-control" name="enlace" value="{{ old('enlace', $sig->enlace) }}" required>
                     </div>  
-                    <!-- <div class="form-group">
+                    <div class="form-group">
                         <label for="enlace">Archivo (Modelos 3D)</label>
                         <input type="file" class="form-control" name="modelo">
-                    </div> -->
+                    </div>
                     <div class="form-group">
                         <label>Imagen</label>
                         <input type="file" class="form-control" name="imagen" required>
@@ -72,4 +72,5 @@
 </div>
 
 </body>
+
 @endsection
