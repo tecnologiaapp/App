@@ -122,7 +122,7 @@
                       @foreach($Story as $story)
                         @if($story->categoria == 'Story Maps')
                         <div class="col-lg-4 col-md-6 mt-4 mt-lg-0 pt-4 portfolio-item" data-aos="fade-up" data-aos-delay="400">
-                          <div class="portfolio-img"><a href="{{$story->enlace}}" target="_blank"><img src="{{ asset('recursos/' . $story->imagen) }}" class="img-fluid" alt=""></a></div>
+                          <div class="portfolio-img"><a href="{{$story->enlace}}" target="_blank"><img src="{{ asset('recurso/' . $story->imagen) }}" class="img-fluid" alt=""></a></div>
                             <div class="portfolio-info">
                               <h4>{{$story->titulo}}</h4>
                               <!-- <a href="https://i.ibb.co/Zm9DmDq/mapa.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Dashboard 1"><i class="bx bx-plus"></i></a> -->
@@ -153,7 +153,7 @@ nuestros Mapas Web!</h5>
                       @foreach($Mapa as $mapa)
                         @if($mapa->categoria == 'Mapa Web')
                         <div class="col-lg-4 col-md-6 mt-4 mt-lg-0 pt-4 portfolio-item" data-aos="fade-up" data-aos-delay="400">
-                          <div class="portfolio-img"><a href="{{$mapa->enlace}}" target="_blank"><img src="{{ asset('recursos/' . $mapa->imagen) }}" class="img-fluid" alt=""></a></div>
+                          <div class="portfolio-img"><a href="{{$mapa->enlace}}" target="_blank"><img src="{{ asset('recurso/' . $mapa->imagen) }}" class="img-fluid" alt=""></a></div>
                             <div class="portfolio-info">
                               <h4>{{$mapa->titulo}}</h4>
                               <!-- <a href="https://i.ibb.co/Zm9DmDq/mapa.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Dashboard 1"><i class="bx bx-plus"></i></a> -->
@@ -184,7 +184,7 @@ plataforma accesible desde dispositivos móviles.</h5>
                       @foreach($Aplicacion as $apli)
                         @if($apli->categoria == 'Aplicacion Web')
                         <div class="col-lg-4 col-md-6 mt-4 mt-lg-0 pt-4 portfolio-item" data-aos="fade-up" data-aos-delay="400">
-                          <div class="portfolio-img"><a href="{{$apli->enlace}}" target="_blank"><img src="{{ asset('recursos/' . $apli->imagen) }}" class="img-fluid" alt=""></a></div>
+                          <div class="portfolio-img"><a href="{{$apli->enlace}}" target="_blank"><img src="{{ asset('recurso/' . $apli->imagen) }}" class="img-fluid" alt=""></a></div>
                             <div class="portfolio-info">
                               <h4>{{$apli->titulo}}</h4>
                               <!-- <a href="https://i.ibb.co/Zm9DmDq/mapa.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Dashboard 1"><i class="bx bx-plus"></i></a> -->
@@ -215,7 +215,7 @@ Optimizamos la gestión de la Agencia APP con potentes herramientas de visualiza
                       @foreach($Dashboard as $dash)
                         @if($dash->categoria == 'Dashboard')
                         <div class="col-lg-4 col-md-6 mt-4 mt-lg-0 pt-4 portfolio-item" data-aos="fade-up" data-aos-delay="400">
-                          <div class="portfolio-img"><a href="{{$dash->enlace}}" target="_blank"><img src="{{ asset('recursos/' . $dash->imagen) }}" class="img-fluid" alt=""></a></div>
+                          <div class="portfolio-img"><a href="{{$dash->enlace}}" target="_blank"><img src="{{ asset('recurso/' . $dash->imagen) }}" class="img-fluid" alt=""></a></div>
                             <div class="portfolio-info">
                               <h4>{{$dash->titulo}}</h4>
                               <!-- <a href="https://i.ibb.co/Zm9DmDq/mapa.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Dashboard 1"><i class="bx bx-plus"></i></a> -->
@@ -246,7 +246,7 @@ recolección de datos de manera sencilla y ágil! Únete a la acción y crea un 
                       @foreach($App as $app)
                         @if($app->categoria == 'App Movil')
                         <div class="col-lg-4 col-md-6 mt-4 mt-lg-0 pt-4 portfolio-item" data-aos="fade-up" data-aos-delay="400">
-                          <div class="portfolio-img"><a href="{{$app->enlace}}" target="_blank"><img src="{{ asset('recursos/' . $app->imagen) }}" class="img-fluid" alt=""></a></div>
+                          <div class="portfolio-img"><a href="{{$app->enlace}}" target="_blank"><img src="{{ asset('recurso/' . $app->imagen) }}" class="img-fluid" alt=""></a></div>
                             <div class="portfolio-info">
                               <h4>{{$app->titulo}}</h4>
                               <!-- <a href="https://i.ibb.co/Zm9DmDq/mapa.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Dashboard 1"><i class="bx bx-plus"></i></a> -->
@@ -276,7 +276,7 @@ recolección de datos de manera sencilla y ágil! Únete a la acción y crea un 
                       @foreach($Ortofoto as $orto)
                         @if($orto->categoria == 'Ortofoto')
                         <div class="col-lg-4 col-md-6 mt-4 mt-lg-0 pt-4 portfolio-item" data-aos="fade-up" data-aos-delay="400">
-                          <div class="portfolio-img"><a href="{{$orto->enlace}}" target="_blank"><img src="{{ asset('recursos/' . $orto->imagen) }}" class="img-fluid" alt=""></a></div>
+                          <div class="portfolio-img"><a href="{{$orto->enlace}}" target="_blank"><img src="{{ asset('recurso/' . $orto->imagen) }}" class="img-fluid" alt=""></a></div>
                             <div class="portfolio-info">
                               <h4>{{$orto->titulo}}</h4>
                               <!-- <a href="https://i.ibb.co/Zm9DmDq/mapa.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Dashboard 1"><i class="bx bx-plus"></i></a> -->
@@ -308,7 +308,7 @@ recolección de datos de manera sencilla y ágil! Únete a la acción y crea un 
                       @foreach($Modelo as $mode)
                         @if($mode->categoria == 'Modelo 3D')
                         <div class="col-lg-4 col-md-6 mt-4 mt-lg-0 pt-4 portfolio-item" data-aos="fade-up" data-aos-delay="400">
-                          <div class="portfolio-img"><a href="{{ asset('recursos/' . $mode->archivo) }}" target="_blank"><img src="{{ asset('recursos/' . $mode->imagen) }}" class="img-fluid" alt=""></a></div>
+                          <div class="portfolio-img"><a href="{{ asset('recurso/' . $mode->archivo) }}" target="_blank"><img src="{{ asset('recurso/' . $mode->imagen) }}" class="img-fluid" alt=""></a></div>
                             <div class="portfolio-info">
                               <h4>{{$mode->titulo}}</h4>
                               <!-- <a href="https://i.ibb.co/Zm9DmDq/mapa.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Dashboard 1"><i class="bx bx-plus"></i></a> -->
