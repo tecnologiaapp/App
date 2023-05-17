@@ -54,6 +54,7 @@
                                             <input type="file" class="form-control" name="imagen" required>
                                           </div>
 
+
                                         
                                           <div class="d-flex justify-content-around">
                                           <button type="submit" class="btn-get-started">Registrar Noticia</button>
