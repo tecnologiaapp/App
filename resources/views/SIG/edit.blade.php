@@ -38,10 +38,10 @@
                 <form action="{{ route('SIG.update',$sig->id) }}" method="POST" enctype="multipart/form-data">
                     @csrf
                     @method('PUT')
-                    <!-- <div class="form-group">
+                    <div class="form-group">
                         <label>Categoría</label>
-                        <input type="text" name="categoria" class="form-control" value="{{ old('categoria', $sig->categoria) }}" required>
-                    </div> -->
+                        <input type="text" name="categoria" class="form-control" value="{{ old('categoria', $sig->categoria) }}" readonly>
+                    </div>
             
                     <div class="form-group">
                         <label>Título</label>
