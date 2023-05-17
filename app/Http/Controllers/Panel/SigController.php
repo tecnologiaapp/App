@@ -75,11 +75,12 @@ class SigController extends Controller
             $archivo->move(public_path('recursos'), $modeloNombre);
             $sig->archivo = $modeloNombre;
         }
-        if($request->hasFile('imagen')){
-            $archivo =$request->file('imagen');
-            $archivo->move(public_path().'/recursos/',$archivo->getClientOriginalName());
-            $sig->imagen = $archivo->getClientOriginalName();
-            }
+        if ($request->hasFile('imagen') && $request->file('imagen')->isValid()) {
+            $archivo = $request->file('imagen');
+            $imagenNombre = $archivo->getClientOriginalName();
+            $archivo->move(public_path('recurso'), $imagenNombre);
+            $sig->imagen = $imagenNombre;
+        }
     
         $sig->save();
     
@@ -108,11 +109,12 @@ class SigController extends Controller
             $archivo->move(public_path('recursos'), $modeloNombre);
             $sig->archivo = $modeloNombre;
         }
-        if($request->hasFile('imagen')){
-            $archivo =$request->file('imagen');
-            $archivo->move(public_path().'/recursos/',$archivo->getClientOriginalName());
-            $sig->imagen = $archivo->getClientOriginalName();
-            }
+        if ($request->hasFile('imagen') && $request->file('imagen')->isValid()) {
+            $archivo = $request->file('imagen');
+            $imagenNombre = $archivo->getClientOriginalName();
+            $archivo->move(public_path('recurso'), $imagenNombre);
+            $sig->imagen = $imagenNombre;
+        }
         $notificacion = 'El contenido se ha actualizado correctamente';
         $sig->save();      
         return redirect()->route('SIG.lista')->with(compact('notificacion'));
