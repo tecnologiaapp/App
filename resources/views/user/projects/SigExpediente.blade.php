@@ -300,9 +300,11 @@ recolección de datos de manera sencilla y ágil! Únete a la acción y crea un 
                             <div class="portfolio-info">
                               <h4>{{$orto->titulo}}</h4>
                               <!-- <a href="https://i.ibb.co/Zm9DmDq/mapa.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Dashboard 1"><i class="bx bx-plus"></i></a> -->
-                              <div class="text-center">
-                                  <a href="{{ asset('recurso/' . $orto->archivo) }}" target="_blank" class="btn-blue">Descargar</a>
-                              </div>
+                              @if($orto->archivo)
+                                  <div class="text-center">
+                                      <a href="{{ asset('recurso/' . $orto->archivo) }}" target="_blank" class="btn-blue">Descargar</a>
+                                  </div>
+                              @endif
                             </div>
                           </div>
                         @endif   
