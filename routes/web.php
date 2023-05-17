@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\CarcelController;
 use App\Http\Controllers\MudagController;
 use App\Http\Controllers\Panel\MedioController;
-use App\Http\Controllers\Panel\SigController;
+use App\Http\Controllers\Panel\SiController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -874,11 +874,11 @@ Route::post('medios/index', [MedioController::class, 'store'])->name('medios.sto
 Route::delete('medios/{id}', [MedioController::class, 'destroy'])->name('medios.destroy');
 
 
-Route::get('SIG/lista', [SigController::class, 'lista'])->name('SIG.lista');
-Route::get('SIG/create', [SigController::class, 'create'])->name('SIG.create');
-Route::get('SIG/{id}/edit', [SigController::class, 'edit'])->name('SIG.edit');
-Route::put('SIG/{id}/update', [SigController::class, 'update'])->name('SIG.update');
-Route::post('SIG/index', [SigController::class, 'store'])->name('SIG.store');
-Route::delete('SIG/{id}', [SigController::class, 'destroy'])->name('SIG.destroy');
+Route::get('SIG/lista', [SiController::class, 'lista'])->name('SIG.lista');
+Route::get('SIG/create', [SiController::class, 'create'])->name('SIG.create');
+Route::get('SIG/{id}/edit', [SiController::class, 'edit'])->name('SIG.edit');
+Route::put('SIG/{id}/update', [SiController::class, 'update'])->name('SIG.update');
+Route::post('SIG/index', [SiController::class, 'store'])->name('SIG.store');
+Route::delete('SIG/{id}', [SiController::class, 'destroy'])->name('SIG.destroy');
 
 });

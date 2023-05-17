@@ -50,10 +50,6 @@
                         <label for="enlace">Enlace</label>
                         <input type="text" class="form-control" name="enlace" placeholder="Ingrese enlace">
                     </div>                   
-                    <!-- <div class="form-group">
-                        <label for="modelo">Archivo (Modelos 3D)</label>
-                        <input type="file" class="form-control" name="modelo">
-                    </div> -->
                     
                                           <div class="form-group">
                                           <label>Imagen</label>
