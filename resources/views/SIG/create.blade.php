@@ -75,15 +75,18 @@
     // Escuchar el evento de cambio en la selección de categoría
     categoriaSelect.addEventListener('change', function() {
         // Obtener el valor seleccionado
-        var selectedCategoria = categoriaSelect.value;
-        
+        var selectedCategoria = categoriaSelect.value;        
+ 
         // Habilitar o deshabilitar los campos según la categoría seleccionada
-        if (selectedCategoria === 'Modelo 3D') {
-            enlaceInput.disabled = true;
-            modeloInput.disabled = false;
+        if (selectedCategoria === 'Ortofoto') {
+            enlaceInput.disabled = false; // Habilitar el campo de enlace
+            modeloInput.disabled = false; // Habilitar el campo de modelo
+        } else if (selectedCategoria === 'Modelo 3D') {
+            enlaceInput.disabled = true; // Deshabilitar el campo de enlace
+            modeloInput.disabled = false; // Habilitar el campo de modelo
         } else {
-            enlaceInput.disabled = false;
-            modeloInput.disabled = true;
+            enlaceInput.disabled = false; // Habilitar el campo de enlace
+            modeloInput.disabled = true; // Deshabilitar el campo de modelo
         }
     });
 </script>

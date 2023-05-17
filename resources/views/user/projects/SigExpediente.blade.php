@@ -63,6 +63,26 @@
     margin-bottom: 0;
   }
 }
+
+.btn-blue {
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 30px;
+  border-radius: 50px;
+  transition: 0.5s;
+  color: #ffffff;
+  border: 2px solid #fbfbfb;
+  
+}
+
+.btn-blue:hover {
+  background: #3498db;
+  color: #fff;
+  border: 2px solid #3498db;
+}
 </style>
 <body>
 
@@ -280,6 +300,9 @@ recolección de datos de manera sencilla y ágil! Únete a la acción y crea un 
                             <div class="portfolio-info">
                               <h4>{{$orto->titulo}}</h4>
                               <!-- <a href="https://i.ibb.co/Zm9DmDq/mapa.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Dashboard 1"><i class="bx bx-plus"></i></a> -->
+                              <div class="text-center">
+                                  <a href="{{ asset('recurso/' . $orto->archivo) }}" target="_blank" class="btn-blue">Descargar</a>
+                              </div>
                             </div>
                           </div>
                         @endif   

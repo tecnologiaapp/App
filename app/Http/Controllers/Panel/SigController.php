@@ -13,26 +13,26 @@ class SigController extends Controller
 
         $Story = SIG::where('categoria', '=', 'Story Maps')
         ->orderBy('id','desc')
-                            ->paginate(3);
+                            ->paginate(9);
         $Mapa = SIG::where('categoria', '=', 'Mapa Web')
         ->orderBy('id','desc')
-                            ->paginate(3);
+                            ->paginate(9);
         $Aplicacion = SIG::where('categoria', '=', 'Aplicacion Web')
         ->orderBy('id','desc')
-                            ->paginate(3);
+                            ->paginate(9);
         $Dashboard = SIG::where('categoria', '=', 'Dashboard')
         ->orderBy('id','desc')
-                            ->paginate(3);
+                            ->paginate(9);
 
         $App = SIG::where('categoria', '=', 'App Movil')
         ->orderBy('id','desc')
-                            ->paginate(3);
+                            ->paginate(9);
         $Ortofoto = SIG::where('categoria', '=', 'Ortofoto')
         ->orderBy('id','desc')
-                            ->paginate(3);
+                            ->paginate(9);
         $Modelo = SIG::where('categoria', '=', 'Modelo 3D')
         ->orderBy('id','desc')
-                            ->paginate(3);
+                            ->paginate(9);
         $data = [
             'Story' =>$Story,
             'Mapa' =>$Mapa,
@@ -48,7 +48,7 @@ class SigController extends Controller
 
     public function lista(Request $request)
     {   $busqueda = $request->busqueda;
-        $sig = SIG::orderBy('id', 'desc')->paginate(3);
+        $sig = SIG::orderBy('id', 'desc')->paginate(8);
         $data = [
             'sig' =>$sig,
             'busqueda' =>$busqueda,
