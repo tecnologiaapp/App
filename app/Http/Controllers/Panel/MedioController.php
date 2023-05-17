@@ -38,9 +38,7 @@ class MedioController extends Controller
 
     public function store(Request $request)
     {
-        $request->validate([
-            'imagen' => 'required|image|mimes:jpeg,png,gif', // Validación para imagen
-        ]);
+
 
        $medios = new Medios();
        $medios->titulo = $request->titulo;
