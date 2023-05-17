@@ -38,16 +38,21 @@ class MedioController extends Controller
 
     public function store(Request $request)
     {
+        $request->validate([
+            'imagen' => 'required|image|mimes:jpeg,png,gif', // Validación para imagen
+        ]);
+
        $medios = new Medios();
        $medios->titulo = $request->titulo;
        $medios->descripcion = $request->descripcion;      
        $medios->fecha = $request->fecha;
        $medios->enlace = $request->enlace;
-       if($request->hasFile('imagen')){
-        $archivo =$request->file('imagen');
-        $archivo->move(public_path().'/recursos/',$archivo->getClientOriginalName());
-        $medios->imagen = $archivo->getClientOriginalName();
-        }
+       if ($request->hasFile('imagen') && $request->file('imagen')->isValid()) {
+        $archivo = $request->file('imagen');
+        $imagenNombre = $archivo->getClientOriginalName();
+        $archivo->move(public_path('recurso'), $imagenNombre);
+        $medios->imagen = $imagenNombre;
+    }
        $medios->save();
        
 
@@ -67,17 +72,22 @@ class MedioController extends Controller
 
     public function update(Request $request, string $id)
     {   
+        $request->validate([
+            'imagen' => 'required|image|mimes:jpeg,png,gif', // Validación para imagen
+        ]);
+    
+
         $medios = Medios::find($id);
         $medios->titulo = $request->titulo;
         $medios->descripcion = $request->descripcion;
         $medios->fecha = $request->fecha;
         $medios->enlace = $request->enlace;
-        if($request->hasFile('imagen')){
-            $archivo =$request->file('imagen');
-            $archivo->move(public_path().'/recursos/',$archivo->getClientOriginalName());
-            $medios->imagen = $archivo->getClientOriginalName();
-            }
-            
+        if ($request->hasFile('imagen') && $request->file('imagen')->isValid()) {
+            $archivo = $request->file('imagen');
+            $imagenNombre = $archivo->getClientOriginalName();
+            $archivo->move(public_path('recurso'), $imagenNombre);
+            $medios->imagen = $imagenNombre;
+        }
         $notificacion = 'La noticia se ha actualizado correctamente';
         $medios->save();      
         return redirect()->route('medios.lista')->with(compact('notificacion'));
