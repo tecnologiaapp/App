@@ -50,7 +50,7 @@
              
                     <div class="form-group">
                         <label>Enlace</label>
-                        <input type="text" class="form-control" name="enlace" value="{{ old('enlace', $sig->enlace) }}" required>
+                        <input type="text" class="form-control" name="enlace" value="{{ old('enlace', $sig->enlace) }}">
                     </div>  
                     <div class="form-group">
                         <label for="enlace">Archivo (Modelos 3D)</label>
