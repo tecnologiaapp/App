@@ -63,26 +63,11 @@ class SigController extends Controller
     }
 
     public function store(Request $request)
-    { 
-        $request->validate([
-            'imagen' => 'required|image|mimes:jpeg,png,gif', // Validación para imagen
-            'modelo' => 'nullable|file', // Validación para archivo modelo opcional
-            'categoria' => 'required', // Validación para categoría requerida
-            'titulo' => 'required', // Validación para título requerido
-            'enlace' => 'nullable|url', // Validación para enlace opcional en formato URL
-        ]);
-    
+    {     
         $sig = new SIG();
         $sig->categoria = $request->categoria;
         $sig->titulo = $request->titulo;
         $sig->enlace = $request->enlace;
-    
-        if ($request->hasFile('imagen') && $request->file('imagen')->isValid()) {
-            $archivo = $request->file('imagen');
-            $imagenNombre = $archivo->getClientOriginalName();
-            $archivo->move(public_path('recursos'), $imagenNombre);
-            $sig->imagen = $imagenNombre;
-        }
     
         if ($request->hasFile('modelo') && $request->file('modelo')->isValid()) {
             $archivo = $request->file('modelo');
@@ -90,6 +75,11 @@ class SigController extends Controller
             $archivo->move(public_path('recursos'), $modeloNombre);
             $sig->archivo = $modeloNombre;
         }
+        if($request->hasFile('imagen')){
+            $archivo =$request->file('imagen');
+            $archivo->move(public_path().'/recursos/',$archivo->getClientOriginalName());
+            $sig->imagen = $archivo->getClientOriginalName();
+            }
     
         $sig->save();
     
@@ -112,16 +102,17 @@ class SigController extends Controller
         $sig->categoria = $request->categoria;
         $sig->titulo = $request->titulo;
         $sig->enlace = $request->enlace;
-           if($request->hasFile('imagen')){
+        if ($request->hasFile('modelo') && $request->file('modelo')->isValid()) {
+            $archivo = $request->file('modelo');
+            $modeloNombre = $archivo->getClientOriginalName();
+            $archivo->move(public_path('recursos'), $modeloNombre);
+            $sig->archivo = $modeloNombre;
+        }
+        if($request->hasFile('imagen')){
             $archivo =$request->file('imagen');
             $archivo->move(public_path().'/recursos/',$archivo->getClientOriginalName());
             $sig->imagen = $archivo->getClientOriginalName();
             }
-            if($request->hasFile('modelo')){
-                $archivo =$request->file('modelo');
-                $archivo->move(public_path().'/recursos/',$archivo->getClientOriginalName());
-                $sig->archivo = $archivo->getClientOriginalName();
-                }
         $notificacion = 'El contenido se ha actualizado correctamente';
         $sig->save();      
         return redirect()->route('SIG.lista')->with(compact('notificacion'));
