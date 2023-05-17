@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\CarcelController;
 use App\Http\Controllers\MudagController;
 use App\Http\Controllers\Panel\MedioController;
-use App\Http\Controllers\Panel\SiController;
+use App\Http\Controllers\SiController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
