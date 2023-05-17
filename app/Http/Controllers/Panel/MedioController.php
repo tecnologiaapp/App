@@ -43,6 +43,11 @@ class MedioController extends Controller
        $medios->descripcion = $request->descripcion;      
        $medios->fecha = $request->fecha;
        $medios->enlace = $request->enlace;
+       if($request->hasFile('imagen')){
+        $archivo =$request->file('imagen');
+        $archivo->move(public_path().'/recursos/',$archivo->getClientOriginalName());
+        $medios->imagen = $archivo->getClientOriginalName();
+        }
        $medios->save();
        
 
@@ -67,7 +72,12 @@ class MedioController extends Controller
         $medios->descripcion = $request->descripcion;
         $medios->fecha = $request->fecha;
         $medios->enlace = $request->enlace;
-
+        if($request->hasFile('imagen')){
+            $archivo =$request->file('imagen');
+            $archivo->move(public_path().'/recursos/',$archivo->getClientOriginalName());
+            $medios->imagen = $archivo->getClientOriginalName();
+            }
+            
         $notificacion = 'La noticia se ha actualizado correctamente';
         $medios->save();      
         return redirect()->route('medios.lista')->with(compact('notificacion'));
