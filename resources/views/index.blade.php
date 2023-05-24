@@ -15,18 +15,18 @@
 </head>
 
 		<section style="padding-top: 131px;">
-										<!-- <div class="embed-responsive embed-responsive-16by9">
+										<div class="embed-responsive embed-responsive-16by9">
 											<video id="homeVideo1" autoplay muted loop style="width: 100%; height:100%;">
 												<source src="{{ asset('assets/videos/home-1.mp4')}}" type="video/mp4">
 											</video>
-										</div> -->
-<a href="{{ route('user.projects.nutibara')}}">
+										</div>
+<!-- <a href="{{ route('user.projects.nutibara')}}">
 <picture>
   <source media="(max-width: 768px)" srcset="assets/images/Home/banner.jpg" width="100%;">
   <source media="(min-width: 769px)" srcset="assets/images/Home/nutibara.jpg">
   <img src="assets/images/Home/nutibara.jpg" alt="Nutibara" width="100%;">
 </picture>
-</a>
+</a> -->
     <!-- <a href="{{ route('user.projects.nutibara')}}">
     <img src="assets/images/Home/nutibara.jpg" alt="" width="100%;">
     </a> -->
