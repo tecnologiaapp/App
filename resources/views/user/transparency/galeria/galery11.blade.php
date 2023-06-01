@@ -260,45 +260,45 @@
    
           <div class="col-xl-3 col-lg-4 col-md-6">
             <div class="gallery-item h-100">
-              <img src="{{ asset('assets/img/Galeria/AMVA/1.jpg')}}" class="img-fluid" alt="">
+              <img src="{{ asset('assets/img/Galeria/AMV/1.jpg')}}" class="img-fluid" alt="">
               <div class="gallery-links d-flex align-items-center justify-content-center">
-                <a href="{{ asset('assets/img/Galeria/AMVA/1.jpg')}}" title="AEEP Provenza" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
+                <a href="{{ asset('assets/img/Galeria/AMV/1.jpg')}}" title="AEEP Provenza" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
               
               </div>
             </div>
           </div><!-- End Gallery Item -->
           <div class="col-xl-3 col-lg-4 col-md-6">
             <div class="gallery-item h-100">
-              <img src="{{ asset('assets/img/Galeria/AMVA/2.jpg')}}" class="img-fluid" alt="">
+              <img src="{{ asset('assets/img/Galeria/AMV/2.jpg')}}" class="img-fluid" alt="">
               <div class="gallery-links d-flex align-items-center justify-content-center">
-                <a href="{{ asset('assets/img/Galeria/AMVA/2.jpg')}}" title="AEEP Provenza" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
+                <a href="{{ asset('assets/img/Galeria/AMV/2.jpg')}}" title="AEEP Provenza" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
               
               </div>
             </div>
           </div><!-- End Gallery Item -->
           <div class="col-xl-3 col-lg-4 col-md-6">
             <div class="gallery-item h-100">
-              <img src="{{ asset('assets/img/Galeria/AMVA/3.jpg')}}" class="img-fluid" alt="">
+              <img src="{{ asset('assets/img/Galeria/AMV/3.jpg')}}" class="img-fluid" alt="">
               <div class="gallery-links d-flex align-items-center justify-content-center">
-                <a href="{{ asset('assets/img/Galeria/AMVA/3.jpg')}}" title="AEEP Provenza" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
+                <a href="{{ asset('assets/img/Galeria/AMV/3.jpg')}}" title="AEEP Provenza" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
               
               </div>
             </div>
           </div><!-- End Gallery Item -->
           <div class="col-xl-3 col-lg-4 col-md-6">
             <div class="gallery-item h-100">
-              <img src="{{ asset('assets/img/Galeria/AMVA/4.jpg')}}" class="img-fluid" alt="">
+              <img src="{{ asset('assets/img/Galeria/AMV/4.jpg')}}" class="img-fluid" alt="">
               <div class="gallery-links d-flex align-items-center justify-content-center">
-                <a href="{{ asset('assets/img/Galeria/AMVA/4.jpg')}}" title="AEEP Provenza" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
+                <a href="{{ asset('assets/img/Galeria/AMV/4.jpg')}}" title="AEEP Provenza" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
               
               </div>
             </div>
           </div><!-- End Gallery Item -->
           <div class="col-xl-3 col-lg-4 col-md-6">
             <div class="gallery-item h-100">
-              <img src="{{ asset('assets/img/Galeria/AMVA/5.jpg')}}" class="img-fluid" alt="">
+              <img src="{{ asset('assets/img/Galeria/AMV/5.jpg')}}" class="img-fluid" alt="">
               <div class="gallery-links d-flex align-items-center justify-content-center">
-                <a href="{{ asset('assets/img/Galeria/AMVA/5.jpg')}}" title="AEEP Provenza" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
+                <a href="{{ asset('assets/img/Galeria/AMV/5.jpg')}}" title="AEEP Provenza" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
               
               </div>
             </div>

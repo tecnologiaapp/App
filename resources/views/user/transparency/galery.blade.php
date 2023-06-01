@@ -147,7 +147,7 @@
         <div class="linea"></div>
         <div class="contenedor-imagenes">
 
-            <div class="imagen">
+            <!-- <div class="imagen">
               
               <img src="{{ asset('assets/img/Galeria/lleras/9.jpg')}}" alt="">
               
@@ -155,7 +155,7 @@
                 <a href="{{ route('user.transparency.galeria.galery12') }}"><h2>Lleras</h2></a>
                     
                 </div>
-            </div>
+            </div> -->
 
             <div class="imagen">
               
