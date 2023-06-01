@@ -149,6 +149,26 @@
 
             <div class="imagen">
               
+              <img src="{{ asset('assets/img/Galeria/lleras/9.jpg')}}" alt="">
+              
+                <div class="overlay">
+                <a href="{{ route('user.transparency.galeria.galery12') }}"><h2>Lleras</h2></a>
+                    
+                </div>
+            </div>
+
+            <div class="imagen">
+              
+              <img src="{{ asset('assets/img/Galeria/AMVA/1.jpg')}}" alt="">
+              
+                <div class="overlay">
+                <a href="{{ route('user.transparency.galeria.galery11') }}"><h2>Muro verde AMVA</h2></a>
+                    
+                </div>
+            </div>
+
+            <div class="imagen">
+              
               <img src="{{ asset('assets/img/Galeria/carcel/1.jpg')}}" alt="">
               
                 <div class="overlay">
@@ -156,6 +176,8 @@
                     
                 </div>
             </div>
+
+
             <div class="imagen">
               
               <img src="{{ asset('assets/img/Galeria/nutibara/Nutibara_Portela.jpg')}}" alt="">

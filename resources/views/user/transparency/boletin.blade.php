@@ -3,7 +3,7 @@
 @section('content')
 
 <head>
-<link  href="{{ asset('assets/css/boleti.css') }}" rel="stylesheet">
+<link  href="{{ asset('assets/css/boleta.css') }}" rel="stylesheet">
 <style>
 	h6{
 	color:black;	
@@ -21,6 +21,18 @@
 				</div>
 
 				<div class="content">
+
+				<article class="post">
+                <div class="post-header">
+	            <div class="post-img-51"></div>
+             	</div>
+             	<div class="post-body">
+		        <span>24/05/2023</span>
+		        <h5>Arte en el Lleras</h5>
+	            <a target="_blank" href="{{ route('user.noticias.new51') }}"><h6><b>Leer más</b></h6></a>
+	
+             	</div>
+               </article>
 
 				<article class="post">
                 <div class="post-header">

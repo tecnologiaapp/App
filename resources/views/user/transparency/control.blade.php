@@ -164,7 +164,14 @@
 
 <table class="table table-bordered table-striped custom-table">
 	<tbody>
-
+	<tr>
+									<td>Informe de Gestión y comité de conciliación primer semestre 2023</td>
+									<td>
+										<a href="{{ asset('assets/pdf/control/conciliacion-primer-semestre.pdf') }}" class="btn btn-primary btn-block" target="_blank">
+											Ver documento
+										</a>
+									</td>
+								</tr>
 	<tr>
 									<td>Plan anual de auditoria 2023</td>
 									<td>
