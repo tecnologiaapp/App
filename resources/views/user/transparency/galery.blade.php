@@ -159,7 +159,7 @@
 
             <div class="imagen">
               
-              <img src="{{ asset('assets/img/Galeria/AMVA/1.jpg')}}" alt="">
+              <img src="{{ asset('assets/img/Galeria/AMV/1.jpg')}}" alt="">
               
                 <div class="overlay">
                 <a href="{{ route('user.transparency.galeria.galery11') }}"><h2>Muro verde AMVA</h2></a>
