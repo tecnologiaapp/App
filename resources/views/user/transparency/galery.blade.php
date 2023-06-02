@@ -149,7 +149,7 @@
 
             <div class="imagen">
               
-              <img src="{{ asset('assets/img/Galeria/lleras/lleras.jpg')}}" alt="">
+              <img src="{{ asset('assets/img/Galeria/lleras/Lleras.jpg')}}" alt="">
               
                 <div class="overlay">
                 <a href="{{ route('user.transparency.galeria.galery12') }}"><h2>Lleras</h2></a>
