@@ -260,50 +260,96 @@
    
           <div class="col-xl-3 col-lg-4 col-md-6">
             <div class="gallery-item h-100">
-              <img src="{{ asset('assets/img/Galeria/lleras/9.jpg')}}" class="img-fluid" alt="">
+              <img src="{{ asset('assets/img/Galeria/lleras/lleras.jpg')}}" class="img-fluid" alt="">
               <div class="gallery-links d-flex align-items-center justify-content-center">
-                <a href="{{ asset('assets/img/Galeria/lleras/9.jpg')}}" title="AEEP Provenza" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
+                <a href="{{ asset('assets/img/Galeria/lleras/lleras.jpg')}}" title="AEEP Provenza" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
               
               </div>
             </div>
           </div><!-- End Gallery Item -->
           <div class="col-xl-3 col-lg-4 col-md-6">
             <div class="gallery-item h-100">
-              <img src="{{ asset('assets/img/Galeria/lleras/10.jpg')}}" class="img-fluid" alt="">
+              <img src="{{ asset('assets/img/Galeria/lleras/lleras2.jpg')}}" class="img-fluid" alt="">
               <div class="gallery-links d-flex align-items-center justify-content-center">
-                <a href="{{ asset('assets/img/Galeria/lleras/10.jpg')}}" title="AEEP Provenza" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
+                <a href="{{ asset('assets/img/Galeria/lleras/lleras2.jpg')}}" title="AEEP Provenza" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
               
               </div>
             </div>
           </div><!-- End Gallery Item -->
           <div class="col-xl-3 col-lg-4 col-md-6">
             <div class="gallery-item h-100">
-              <img src="{{ asset('assets/img/Galeria/lleras/11.jpg')}}" class="img-fluid" alt="">
+              <img src="{{ asset('assets/img/Galeria/lleras/lleras3.jpg')}}" class="img-fluid" alt="">
               <div class="gallery-links d-flex align-items-center justify-content-center">
-                <a href="{{ asset('assets/img/Galeria/lleras/11.jpg')}}" title="AEEP Provenza" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
+                <a href="{{ asset('assets/img/Galeria/lleras/lleras3.jpg')}}" title="AEEP Provenza" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
               
               </div>
             </div>
           </div><!-- End Gallery Item -->
           <div class="col-xl-3 col-lg-4 col-md-6">
             <div class="gallery-item h-100">
-              <img src="{{ asset('assets/img/Galeria/lleras/12.jpg')}}" class="img-fluid" alt="">
+              <img src="{{ asset('assets/img/Galeria/lleras/lleras4.jpg')}}" class="img-fluid" alt="">
               <div class="gallery-links d-flex align-items-center justify-content-center">
-                <a href="{{ asset('assets/img/Galeria/lleras/12.jpg')}}" title="AEEP Provenza" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
+                <a href="{{ asset('assets/img/Galeria/lleras/lleras4.jpg')}}" title="AEEP Provenza" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
               
               </div>
             </div>
           </div><!-- End Gallery Item -->
           <div class="col-xl-3 col-lg-4 col-md-6">
             <div class="gallery-item h-100">
-              <img src="{{ asset('assets/img/Galeria/lleras/5.jpg')}}" class="img-fluid" alt="">
+              <img src="{{ asset('assets/img/Galeria/lleras/lleras5.jpg')}}" class="img-fluid" alt="">
               <div class="gallery-links d-flex align-items-center justify-content-center">
-                <a href="{{ asset('assets/img/Galeria/lleras/5.jpg')}}" title="AEEP Provenza" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
+                <a href="{{ asset('assets/img/Galeria/lleras/lleras5.jpg')}}" title="AEEP Provenza" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
+              
+              </div>
+            </div>
+          </div>
+          <!-- End Gallery Item -->
+          <div class="col-xl-3 col-lg-4 col-md-6">
+            <div class="gallery-item h-100">
+              <img src="{{ asset('assets/img/Galeria/lleras/lleras6.jpg')}}" class="img-fluid" alt="">
+              <div class="gallery-links d-flex align-items-center justify-content-center">
+                <a href="{{ asset('assets/img/Galeria/lleras/lleras6.jpg')}}" title="AEEP Provenza" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
               
               </div>
             </div>
           </div><!-- End Gallery Item -->
-       
+          <div class="col-xl-3 col-lg-4 col-md-6">
+            <div class="gallery-item h-100">
+              <img src="{{ asset('assets/img/Galeria/lleras/lleras7.jpg')}}" class="img-fluid" alt="">
+              <div class="gallery-links d-flex align-items-center justify-content-center">
+                <a href="{{ asset('assets/img/Galeria/lleras/lleras7.jpg')}}" title="AEEP Provenza" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
+              
+              </div>
+            </div>
+          </div><!-- End Gallery Item -->
+          <div class="col-xl-3 col-lg-4 col-md-6">
+            <div class="gallery-item h-100">
+              <img src="{{ asset('assets/img/Galeria/lleras/lleras8.jpg')}}" class="img-fluid" alt="">
+              <div class="gallery-links d-flex align-items-center justify-content-center">
+                <a href="{{ asset('assets/img/Galeria/lleras/lleras8.jpg')}}" title="AEEP Provenza" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
+              
+              </div>
+            </div>
+          </div><!-- End Gallery Item -->
+          <div class="col-xl-3 col-lg-4 col-md-6">
+            <div class="gallery-item h-100">
+              <img src="{{ asset('assets/img/Galeria/lleras/lleras9.jpg')}}" class="img-fluid" alt="">
+              <div class="gallery-links d-flex align-items-center justify-content-center">
+                <a href="{{ asset('assets/img/Galeria/lleras/lleras9.jpg')}}" title="AEEP Provenza" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
+              
+              </div>
+            </div>
+          </div><!-- End Gallery Item -->
+          <div class="col-xl-3 col-lg-4 col-md-6">
+            <div class="gallery-item h-100">
+              <img src="{{ asset('assets/img/Galeria/lleras/lleras10.jpg')}}" class="img-fluid" alt="">
+              <div class="gallery-links d-flex align-items-center justify-content-center">
+                <a href="{{ asset('assets/img/Galeria/lleras/lleras10.jpg')}}" title="AEEP Provenza" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
+              
+              </div>
+            </div>
+          </div>
+          <!-- End Gallery Item -->
           
 
         </div>
