@@ -147,6 +147,16 @@
         <div class="linea"></div>
         <div class="contenedor-imagenes">
 
+        <div class="imagen">
+              
+              <img src="{{ asset('assets/img/Galeria/prado/1.jpg')}}" alt="">
+              
+                <div class="overlay">
+                <a href="{{ route('user.transparency.galeria.galery13') }}"><h2>Prado</h2></a>
+                    
+                </div>
+            </div>
+
             <div class="imagen">
               
               <img src="{{ asset('assets/img/Galeria/lleras/Lleras.jpg')}}" alt="">

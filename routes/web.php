@@ -805,6 +805,10 @@ Route::get('/Prensa/album12', function(){
    return view('user.transparency.galeria.galery12');
 }) ->name('user.transparency.galeria.galery12');
 
+Route::get('/Prensa/album13', function(){
+   return view('user.transparency.galeria.galery13');
+}) ->name('user.transparency.galeria.galery13');
+
 Route::get('/fiestadelpatrimonio2022', function(){
    return view('user.projects.patrimonio');
 }) ->name('user.projects.patrimonio');

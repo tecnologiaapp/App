@@ -40,7 +40,7 @@
              	</div>
              	<div class="post-body">
 		        <span>02/05/2023</span>
-		        <h5>Constelaciónes, destino turístico y cultural</h5>
+		        <h5>Constelaciones, destino turístico y cultural</h5>
 	            <a target="_blank" href="{{ route('user.noticias.new50') }}"><h6><b>Leer más</b></h6></a>
 	
              	</div>

@@ -80,7 +80,7 @@
 	<tr>
 							<td>Plan anual de adquisiciones 2023 - Actualizado</td>
 							<td>
-								<a href="{{ asset('assets/pdf/annual_procurement_plan/2023-1.xlsx')}}" class="btn btn-primary" target="_blank">
+								<a href="{{ asset('assets/pdf/annual_procurement_plan/2023V10.xlsx')}}" class="btn btn-primary" target="_blank">
 									Ver documento
 								</a>
 							</td>
