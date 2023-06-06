@@ -119,7 +119,7 @@
 
         <div class="tab-container">
           <div class="tabs">
-            <button class="tab btn-tab active" data-target="tab-1">Story Maps</button>
+            <button class="tab btn-tab" data-target="tab-1">Story Maps</button>
             <button class="tab btn-tab" data-target="tab-2">Mapa Web</button>
             <button class="tab btn-tab" data-target="tab-3">Aplicación Web</button>
             <button class="tab btn-tab" data-target="tab-4">Dashboard</button>
@@ -130,7 +130,7 @@
           </div>
 
           <div class="tab-content">
-              <div id="tab-1" class="tab-pane active">
+              <div id="tab-1" class="tab-pane">
               <div class="row mt-3" style="text-align:justify;">
                 <h5>Descubre historias extraordinarias de los proyectos de la Agencia APP en Medellín a través de
               nuestros envolventes y visuales StoryMaps. Explora revitalizaciones urbanas, intervenciones
@@ -311,7 +311,7 @@ recolección de datos de manera sencilla y ágil! Únete a la acción y crea un 
                       @endforeach
                   </div>
                   <div class="d-flex justify-content-center pt-5">
-                      {{ $Ortofoto->links() }}
+                  {{ $Ortofoto->links() }}
                   </div>   
               @else
               <div class="d-flex justify-content-center align-items-center" style="height: 30vh;">
@@ -343,7 +343,7 @@ recolección de datos de manera sencilla y ágil! Únete a la acción y crea un 
                       @endforeach
                   </div>
                   <div class="d-flex justify-content-center pt-5">
-                      {{ $Modelo->links() }}
+                  {{ $Modelo->links() }}
                   </div>   
               @else
               <div class="d-flex justify-content-center align-items-center" style="height: 30vh;">
@@ -454,22 +454,60 @@ recolección de datos de manera sencilla y ágil! Únete a la acción y crea un 
   <!-- Template Main JS File -->
   <script src="{{ asset('assets/js/patrimonio.js')}}"></script>
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script>
-  $(document).ready(function() {
-    // Manejar el evento de clic en los botones de tab
-    $('.btn-tab').click(function() {
-      // Obtener el ID del tab objetivo
-      var target = $(this).data('target');
+  <script>
+$(document).ready(function() {
+  // Obtén el tab activo almacenado en localStorage
+  var activeTab = localStorage.getItem('activeTab');
+  if (activeTab) {
+    $('.btn-tab[data-target="' + activeTab + '"]').addClass('active');
+    $('#' + activeTab).addClass('active');
+  }
 
-      // Quitar la clase "active" de todos los botones de tab y contenidos de tab
-      $('.btn-tab').removeClass('active');
-      $('.tab-pane').removeClass('active');
+  // Manejar el evento de clic en los botones de tab
+  $('.btn-tab').click(function() {
+    // Obtener el ID del tab objetivo
+    var target = $(this).data('target');
 
-      // Agregar la clase "active" al botón de tab y contenido de tab correspondientes
-      $(this).addClass('active');
-      $('#' + target).addClass('active');
-    });
+    // Quitar la clase "active" de todos los botones de tab y contenidos de tab
+    $('.btn-tab').removeClass('active');
+    $('.tab-pane').removeClass('active');
+
+    // Agregar la clase "active" al botón de tab y contenido de tab correspondientes
+    $(this).addClass('active');
+    $('#' + target).addClass('active');
+
+    // Actualizar la URL de la página con la página 1
+    var url = new URL(window.location.href);
+    url.searchParams.set('page', 1);
+    history.replaceState(null, '', url.toString());
+
+    // Almacenar el tab activo en localStorage
+    localStorage.setItem('activeTab', target);
   });
+
+  // Obtener el tab activo de la URL y activarlo
+  var urlParams = new URLSearchParams(window.location.search);
+  var activeTab = urlParams.get('tab');
+  if (activeTab) {
+    $('.btn-tab[data-target="' + activeTab + '"]').trigger('click');
+  }
+
+  // Manejar el evento de clic en los enlaces del paginador
+  $('.pagination-link').click(function(e) {
+    e.preventDefault(); // Evitar la acción predeterminada del enlace
+
+    // Obtener el ID del tab objetivo desde el atributo data-tab
+    var targetTab = $(this).attr('data-tab');
+
+    // Actualizar la URL de la página con el nuevo tab y la página 1
+    var url = new URL(window.location.href);
+    url.searchParams.set('page', 1);
+    history.replaceState(null, '', url.toString());
+
+    // Activar el tab correspondiente al enlace del paginador
+    $('.btn-tab[data-target="' + targetTab + '"]').trigger('click');
+  });
+});
 </script>
 </body>
 
