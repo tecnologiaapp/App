@@ -76,13 +76,13 @@ class SigController extends Controller
         if ($request->hasFile('modelo') && $request->file('modelo')->isValid()) {
             $archivo = $request->file('modelo');
             $modeloNombre = $archivo->getClientOriginalName();
-            $archivo->move(public_path('recurso'), $modeloNombre);
+            $archivo->storeAs('public/recurso', $modeloNombre);
             $sig->archivo = $modeloNombre;
         }
         if ($request->hasFile('imagen') && $request->file('imagen')->isValid()) {
             $archivo = $request->file('imagen');
             $imagenNombre = $archivo->getClientOriginalName();
-            $archivo->move(public_path('recurso'), $imagenNombre);
+            $archivo->storeAs('public/recurso', $imagenNombre);
             $sig->imagen = $imagenNombre;
         }
     
@@ -112,13 +112,13 @@ class SigController extends Controller
         if ($request->hasFile('modelo') && $request->file('modelo')->isValid()) {
             $archivo = $request->file('modelo');
             $modeloNombre = $archivo->getClientOriginalName();
-            $archivo->move(public_path('recurso'), $modeloNombre);
+            $archivo->storeAs('public/recurso', $modeloNombre);
             $sig->archivo = $modeloNombre;
         }
         if ($request->hasFile('imagen') && $request->file('imagen')->isValid()) {
             $archivo = $request->file('imagen');
             $imagenNombre = $archivo->getClientOriginalName();
-            $archivo->move(public_path('recurso'), $imagenNombre);
+            $archivo->storeAs('public/recurso', $imagenNombre);
             $sig->imagen = $imagenNombre;
         }
         $notificacion = 'El contenido se ha actualizado correctamente';
