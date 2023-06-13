@@ -53,6 +53,10 @@
                         <input type="text" class="form-control" name="enlace" value="{{ old('enlace', $sig->enlace) }}">
                     </div>  
                     <div class="form-group">
+                        <label>Recurso</label>
+                        <input type="text" class="form-control" name="recurso" value="{{ old('recurso', $sig->recurso) }}">
+                    </div>
+                    <div class="form-group">
                         <label for="enlace">Archivo (Modelos 3D)</label>
                         <input type="file" class="form-control" name="modelo">
                     </div>

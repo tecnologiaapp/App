@@ -49,7 +49,11 @@
                     <div class="form-group">
                         <label for="enlace">Enlace</label>
                         <input type="text" class="form-control" name="enlace" placeholder="Ingrese enlace" id="enlaceInput">
-                    </div>                   
+                    </div>  
+                    <div class="form-group">
+                        <label for="recurso">Recurso</label>
+                        <input type="text" class="form-control" name="recurso" placeholder="(Opcional)" id="enlaceInput">
+                    </div>                 
                     <div class="form-group">
                         <label for="modelo">Archivo (Modelos 3D)</label>
                         <input type="file" class="form-control" name="modelo" id="modeloInput">

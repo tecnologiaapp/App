@@ -42,6 +42,7 @@
                                     <th>Categoría</th>
                                     <th>Título</th> 
                                     <th>Enlace</th>
+                                    <th>Recurso</th>
                                     <th>Archivo</th>
                                     <th>Imagen</th>
                                     <th>Opciones</th>
@@ -61,6 +62,9 @@
                                             </td>    
                                             <td>
                                             {{ !empty($si->enlace ) ? substr($si->enlace, 0, 18) . (strlen($si->enlace ) > 18 ? '...' : '') : 'N/A' }}
+                                            </td>  
+                                            <td>
+                                            {{ !empty($si->recurso ) ? substr($si->recurso, 0, 18) . (strlen($si->recurso ) > 18 ? '...' : '') : 'N/A' }}
                                             </td>  
                                             <td>
                                             {{ !empty($si->archivo ) ? substr($si->archivo, 0, 18) . (strlen($si->archivo ) > 18 ? '...' : '') : 'N/A' }}

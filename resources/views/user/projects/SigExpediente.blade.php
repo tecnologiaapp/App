@@ -304,6 +304,10 @@ recolección de datos de manera sencilla y ágil! Únete a la acción y crea un 
                                   <div class="text-center">
                                       <a href="{{ asset('recurso/' . $orto->archivo) }}" target="_blank" class="btn-blue">Descargar</a>
                                   </div>
+                              @elseif($orto->recurso)
+                                  <div class="text-center">
+                                      <a href="{{ $orto->recurso}}" target="_blank" class="btn-blue">Descargar</a>
+                                  </div>
                               @endif
                             </div>
                           </div>

@@ -72,7 +72,7 @@ class SigController extends Controller
         $sig->categoria = $request->categoria;
         $sig->titulo = $request->titulo;
         $sig->enlace = $request->enlace;
-    
+        $sig->recurso = $request->recurso;
         if ($request->hasFile('modelo') && $request->file('modelo')->isValid()) {
             $archivo = $request->file('modelo');
             $modeloNombre = $archivo->getClientOriginalName();
@@ -107,6 +107,8 @@ class SigController extends Controller
         $sig->categoria = $request->categoria;
         $sig->titulo = $request->titulo;
         $sig->enlace = $request->enlace;
+        $sig->recurso = $request->recurso;
+        
         if ($request->hasFile('modelo') && $request->file('modelo')->isValid()) {
             $archivo = $request->file('modelo');
             $modeloNombre = $archivo->getClientOriginalName();
