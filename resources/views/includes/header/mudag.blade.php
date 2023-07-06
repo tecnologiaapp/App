@@ -115,13 +115,13 @@
     <li class="dropdown btn-book-a-table"><a href="{{ asset('assets/pdf/Modernizacion.pdf')}}" class="getstarted scrollto" target="_blank"><span>Conoce más</span></a>
 
 		</li>
-    <li class="dropdown">
+    <!-- <li class="dropdown">
       <a href="">Lenguajes</a>
       <ul class="submenu">
         <li><a href="{{ url('locale/en') }}">English</a></li>
         <li><a href="{{ url('locale/es') }}">Español</a></li>
       </ul>
-    </li>
+    </li> -->
 		 
 	  </ul>
 	  
