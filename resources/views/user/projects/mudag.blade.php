@@ -1,104 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
-        <title>Agencia App - MUDAG </title>
-        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-        <!-- Bootstrap icons-->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
-        <!-- Google fonts-->
-        <link rel="preconnect" href="https://fonts.gstatic.com" />
-        <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,600;1,600&amp;display=swap" rel="stylesheet" />
-        <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,300;0,500;0,600;0,700;1,300;1,500;1,600;1,700&amp;display=swap" rel="stylesheet" />
-        <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,400;1,400&amp;display=swap" rel="stylesheet" />
-        <!-- Core theme CSS (includes Bootstrap)-->
-        <link rel="stylesheet" href="{{ asset('assets/css/mudag.css') }}">
-        <link rel="stylesheet" href="{{ asset('assets/css/footer.css') }}">
-        <link rel="stylesheet" href="{{ asset('assets/vendor/boxicons/css/boxicons.min.css') }}">
-        <link rel="stylesheet" href="{{ asset('assets/fonts/fontawesome/font-awesome.min.css')}}">
-    </head>
-    <style>
-        .masthead {
-    background-color: #f8f9fa;
-    padding-top: 2.5rem;
-    padding-bottom: 0rem;
-}
 
- </style>
-   
-        
-<header id="header" class="fixed-top" style="position: absolute;">
-<div class="bg-primary">
-    <div class="container-xl logo_menu_superior">
-      <div class="header-govco">
-  <a href="https://www.gov.co/" target="blank" title="Ir al portal GOV.CO">
-  <img src="https://www.mintic.gov.co/portal/715/channels-616_header_govco.png" alt="Imagen logo GovCo" class="img-fluid">
-  <span class="sr-only">Logo Gobierno de Colombia</span>
-  </a>
-</div>
-</div>
-</div>
-<div class="container d-flex align-items-center" style="margin-left: 2px; justify-content: space-between;">
-
-    
-<a href="{{ url('/') }}">
-  <img class="logo me-auto" src="https://app.gov.co/assets/img/Proyectos/logo-landing.png"  style=" width: 200px;
- height: 90px;"></a>
-
-      <nav id="navbar" class="navbar">
-	  <ul>
-		
-		<li><a href="{{route('user.projects.mudag')}}">Inicio</a></li>
- 
-
-		<li>
-		<a href="{{route('user.projects.estadio2')}}">
-				   <span>Estadio</span>
-			   </a>
-		</li>
-    <li>
-		<a href="{{route('user.projects.hotel2')}}">
-				   <span>Hotel</span>
-			   </a>
-		</li>
-    <li>
-		<a href="{{route('user.projects.edificio')}}">
-				   <span>Multipropósito</span>
-			   </a>
-		</li>
-    <li>
-		<a href="{{route('user.projects.gastronomia')}}">
-				   <span>Emprendimiento</span>
-			   </a>
-		</li>
-    <li>
-		<a href="{{route('user.projects.urbanismo')}}">
-				   <span>Urbanismo</span>
-			   </a>
-		</li>
-    <li>
-		<a href="{{route('user.projects.testimonios')}}">
-				   <span>Testimonios</span>
-			   </a>
-		</li>
-    <li class="dropdown btn-book-a-table"><a href="https://www.contratos.gov.co/consultas/detalleProceso.do?numConstancia=22-19-13109290&g-recaptcha-response=03AGdBq27StjLP0h5b3LG3GQv8ZxYSUzeD2g-MuOaclZvugcbFHnCyQFzN70zJSty3Eu55AiXGySiJbZGa6KytE1ZP-m38QBy3MCUvgyfXFg108g3BkPRsBClneKfXkuO8X7oeBIOXp8drsTO-lsPeaC-26bAIaG6l_VnMdvazoXWT4D1rMtftC8TdnepDJMyYKtDXc8gaXZp0XW1DxtVb23ePPr9XOEoaBMFP2MvMoMDxLN42GrI6XBHJzcLSsntCxskp1k_Y-eFTBVUBt8vunhhFcs1x2DETJ4pDOCTPaO2wgqNJtdNB8s3vcFPXIBN-wHo92UlkZhqKiQdWhkztkyCfIoorIL51Mb3RLRLFAUIYO7WMYm-OA4PO3HTWfxXJrMJO-vo-bdqqb1mjOpgLV25ES6z9ZsFruecJdzCoPad4tLdKKWAFctFOg2ZKK0JMBEajm5FfP_KR6yllgKlLo5CLt-SK8bd6J8ZrTW0pIFSiZ9mOnlefuAA" class="getstarted scrollto" target="_blank"><span>Proyecto de pliegos</span></a>
-
-		</li>
-    <li class="dropdown btn-book-a-table"><a href="{{ asset('assets/pdf/Modernizacion.pdf')}}" class="getstarted scrollto" target="_blank"><span>Conoce más</span></a>
-
-		</li>
-		 
-	  </ul>
-	  
-        <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav>
-
-
-    </div>
-  </header>
+  @include('includes.header.mudag')
   <body id="page-top">
         <!-- Mashead header--> 
         <section style="padding-bottom: 0rem;">
@@ -115,15 +16,15 @@
             <div class="container px-5">
                 <div class="row gx-5 align-items-center">
                                          
-                            <h6 class="display-1 lh-1 mb-3" style="font-size: 2rem;">Una pasión que se transforma</h6>
-                            <p class="lead fw-normal text-muted mb-5">La Unidad Deportiva Atanasio Girardot es uno de los complejos deportivos de mayor importancia en Colombia, por su legado histórico, social, deportivo y para el entretenimiento. Cuenta con una ubicación estratégica, cercana a vías principales y conectado al sistema de transporte público, promueve el desarrollo urbanístico del sector Centro Occidental, tiene múltiples escenarios para las prácticas deportivas y ha albergado importantes eventos internacionales, como los Juegos Centroamericanos y del Caribe en 1978, los Juegos Suramericanos en 2010, la Copa Mundial de Fútbol Sub-20 de la FIFA en 2011 y conciertos de artistas como Madonna, Beyoncé, Bad Bunny, J Balvín y Maluma.</p>
+                            <h6 class="display-1 lh-1 mb-3" style="font-size: 2rem;">@lang('messages.passion_transforms')</h6>
+                            <p class="lead fw-normal text-muted mb-5">@lang('messages.parrafo1')</p>
                          
 
                             
                     
-                        <p class="lead fw-normal text-muted mb-5">Con el propósito de seguir consolidando a Medellín como una ciudad moderna, con oportunidades para todos y conectada con el mundo, se proyecta la intervención integral de este equipamiento a través de una Asociación Público Privada de iniciativa pública (APP - Ley 1508 de 2012), para posicionar a la ciudad como un escenario de talla internacional. La iniciativa a su vez, busca promover la generación de empleo, el desarrollo económico, la promoción del turismo y nuevas y mejores oportunidades de calidad de vida.</p>
+                        <p class="lead fw-normal text-muted mb-5">@lang('messages.parrafo2')</p>
                    
-                        <p class="lead fw-normal text-muted mb-5">La Unidad Deportiva Atanasio Girardot es un símbolo de Medellín que promueve más de treinta y cuatro disciplinas deportivas, recibe visitantes del mundo y es un punto de encuentro para la práctica del deporte, la convivencia y el esparcimiento. Este espacio seguirá siendo un lugar abierto para todos los habitantes de la ciudad y sus visitantes.</p>
+                        <p class="lead fw-normal text-muted mb-5">@lang('messages.parrafo3')</p>
                     
                 </div>
             </div>
@@ -134,8 +35,8 @@
                 <div class="row gx-5 align-items-center" style="padding-top: 100px;">
                     
                             <!-- <h6 class="display-1 lh-1 mb-3" style="font-size: 2rem;">Modernización Unidad Deportiva Atanasio Girardot, una pasión que se transforma</h6> -->
-                            <p class="lead fw-normal text-muted mb-5">Es un mecanismo de contratación donde el Estado vincula capital privado para la construcción y el sostenimiento de infraestructura pública. Este tipo de asociaciones aportan mayor eficiencia, sostenibilidad en la provisión del servicio, ya que cuenta con indicadores de cumplimiento que se miden periódicamente por una interventoría y una supervisión; además, permite el equilibrio en la distribución de riesgos, lo que genera grandes ahorros para el sector público.</p>
-                            <p class="lead fw-normal text-muted mb-5">La APP para la modernización de la Unidad Deportiva Atanasio Girardot no contempla  recursos públicos para su desarrollo, lo que quiere decir que todos los recursos para su implementación provienen del socio privado, quien además se encargará de la prestación del servicio y la operación y el mantenimiento de la infraestructura. El socio privado podrá realizar el aprovechamiento económico de las áreas concesionadas.</p>
+                            <p class="lead fw-normal text-muted mb-5">@lang('messages.parrafo4')</p>
+                            <p class="lead fw-normal text-muted mb-5">@lang('messages.parrafo5')</p>
                 </div>
         </div>
         <img src="{{ asset('assets/img/Proyectos/banner2-home.png') }}" style=" width:100%;" />
@@ -145,8 +46,8 @@
                 <div class="row gx-5 align-items-center">
                     
                             <!-- <h6 class="display-1 lh-1 mb-3" style="font-size: 2rem;">Modernización Unidad Deportiva Atanasio Girardot, una pasión que se transforma</h6> -->
-                            <p class="lead fw-normal text-muted mb-5">Es el documento que incorpora las condiciones que se tendrán en cuenta en el proceso de selección del futuro contratista. Establece requisitos para habilitar a los proponentes y asignar puntajes, de acuerdo con su experiencia, capacidad financiera, presupuesto y equipo de trabajo.</p>
-                            <p class="lead fw-normal text-muted mb-5">En esta etapa se reciben observaciones de los interesados y se ajustan los pliegos, en caso de ser necesario, para optimizarlos con la retroalimentación del sector privado.</p>
+                            <p class="lead fw-normal text-muted mb-5">@lang('messages.parrafo6')</p>
+                            <p class="lead fw-normal text-muted mb-5">@lang('messages.parrafo7')</p>
                 </div>
         </div>
         </div>
@@ -212,8 +113,8 @@
       <div class="container px-5">
       <div class="row gx-5 align-items-center" style="padding-top: 100px;">
                     
-                    <h4 class="display-1 lh-1 mb-3" style="font-size: 3rem;">Un sueño olímpico de siete décadas </h4>
-                    <p class="lead fw-normal text-muted mb-5">La Unidad Deportiva Atanasio Girardot fue construida en 1953 bajo el Plan Piloto de Medellín, elaborado en 1950 por los arquitectos extranjeros Paul Wiener y Josep Lluís Sert.</p>
+                    <h4 class="display-1 lh-1 mb-3" style="font-size: 3rem;">@lang('messages.parrafo8')</h4>
+                    <p class="lead fw-normal text-muted mb-5">@lang('messages.parrafo9')</p>
 <br>
 
 <img src="https://i.ibb.co/NmqWqZh/h1.png"/>
@@ -226,15 +127,15 @@
         <div class="container px-5">
                 <div class="row gx-5 align-items-center" style="padding-top: 10px;">
                     
-                <p class="lead fw-normal text-muted mb-5">A través de las décadas siguientes, Medellín ha sido testigo de la transformación y la estimulación del deporte a través de las reformas y mejoramientos realizados a este escenario con el acondicionamiento del Parque Recreativo Atanasio Girardot y la remodelación más ambiciosa hasta entonces, antes de los IX Juegos Suramericanos en 2010, con la intervención del complejo de coliseos, el complejo acuático y zonas públicas y comerciales, consolidándose como uno de los mejores de Latinoamérica.</p>
+                <p class="lead fw-normal text-muted mb-5">@lang('messages.parrafo10')</p>
                 </div>
         </div>
         <div class="container px-5">
                 <div class="row gx-5 align-items-center" style="padding-top: 30px;">
                     
-                            <h6 class="display-1 lh-1 mb-3" style="font-size: 2rem;">Un escenario en transformación para Medellín Futuro</h6>
+                            <h6 class="display-1 lh-1 mb-3" style="font-size: 2rem;">@lang('messages.parrafo11')</h6>
              
-                            <p class="lead fw-normal text-muted mb-5">Hoy nace un nuevo capítulo para la historia de Medellín con la modernización de la unidad deportiva y el cumplimiento de mayores estándares de calidad para la realización de diversos eventos y el mejoramiento de la infraestructura y del espacio público. Con la modernización se proyecta, entre otros aspectos:</p>
+                            <p class="lead fw-normal text-muted mb-5">@lang('messages.parrafo12')</p>
                            
                 </div>
                 
@@ -245,15 +146,15 @@
                 <div class="row gx-5 align-items-center">
                     <div>
                         <div class="container-fluid px-5">
-                        <h1 class="display-1 lh-1 mb-3 text-center">Beneficios</h1>
+                        <h1 class="display-1 lh-1 mb-3 text-center">@lang('messages.parrafo13')</h1>
                             <div class="row gx-5">
                                 <div class="col-md-6 mb-5">
                                     <!-- Feature item-->
                                     <div class="text-center">
                                         <i class="bi bi-cash-coin icon-feature text-gradient d-block mb-3"></i>
                                         <h3 class="font-alt">Inversión</h3>
-                                        <p class="text-muted mb-0">Una nueva gran inversión y</p>
-                                        <p class="text-muted mb-0"> reinversión nacional y extranjera.</p>
+                                        <p class="text-muted mb-0">@lang('messages.parrafo14')</p>
+                                        <p class="text-muted mb-0">@lang('messages.parrafo15') </p>
                                     </div>
                                 </div>
                                 <div class="col-md-6 mb-5">
@@ -261,8 +162,8 @@
                                     <div class="text-center">
                                         <i class="bi bi-shop icon-feature text-gradient d-block mb-3"></i>
                                         <h3 class="font-alt">Espacio público</h3>
-                                        <p class="text-muted mb-0"> <b style="color: #5f1088;">6.000 m²</b>  de espacio público </p>
-                                        <p class="text-muted mb-0">efectivo generado.</p>
+                                        <p class="text-muted mb-0"> <b style="color: #5f1088;">6.000 m²</b> @lang('messages.parrafo16')   </p>
+                                  
                                     </div>
                                 </div>
                             </div>
@@ -272,7 +173,7 @@
                                     <div class="text-center">
                                         <i class="bi bi-shop icon-feature text-gradient d-block mb-3"></i>
                                         <h3 class="font-alt">Zonas para el encuentro</h3>
-                                        <p class="text-muted mb-0"> <b style="color: #5f1088;"> 102.000 m²</b>  de espacio público mantenido.</p>
+                                        <p class="text-muted mb-0"> <b style="color: #5f1088;"> 102.000 m²</b> @lang('messages.parrafo17') </p>
                                     </div>
                                 </div>
                                 <div class="col-md-6">
@@ -280,8 +181,8 @@
                                     <div class="text-center">
                                         <i class="bi bi-people-fill icon-feature text-gradient d-block mb-3"></i>
                                         <h3 class="font-alt">Visitas</h3>
-                                        <p class="text-muted mb-0">Aumento de 15.000 a más de<b style="color: #5f1088;"> 17.000</b> visitas </p>
-                                        <p class="text-muted mb-0">diarias a la unidad deportiva. </p>
+                                        <p class="text-muted mb-0">@lang('messages.parrafo18')</p>
+                                        <p class="text-muted mb-0">@lang('messages.parrafo19')</p>
                                     </div>
                                 </div>
                                 <div class="col-md-6">
@@ -289,8 +190,8 @@
                                     <div class="text-center">
                                         <i class="bi bi-clouds icon-feature text-gradient d-block mb-3"></i>
                                         <h3 class="font-alt">Medio ambiente</h3>
-                                        <p class="text-muted mb-0">Reducción de <b style="color: #5f1088;"> 314.000</b>  toneladas de CO₂ </p>
-                                        <p class="text-muted mb-0">o gases de efecto invernadero. </p>
+                                        <p class="text-muted mb-0">@lang('messages.parrafo20') </p>
+                                        <p class="text-muted mb-0">@lang('messages.parrafo21') </p>
                                     </div>
                                 </div>
                                 <div class="col-md-6">
@@ -298,8 +199,8 @@
                                     <div class="text-center">
                                         <i class="bi bi-building icon-feature text-gradient d-block mb-3"></i>
                                         <h3 class="font-alt">Turismo</h3>
-                                        <p class="text-muted mb-0">Incremento del <b style="color: #5f1088;">  13% </b> de la ocupación </p>
-                                        <p class="text-muted mb-0">hotelera de la ciudad.</p>
+                                        <p class="text-muted mb-0">@lang('messages.parrafo22') </p>
+                                        <p class="text-muted mb-0">@lang('messages.parrafo23')</p>
                                     </div>
                                 </div>
                                 <div class="col-md-6">
@@ -307,7 +208,7 @@
                                     <div class="text-center">
                                         <i class="bi bi-globe icon-feature text-gradient d-block mb-3"></i>
                                         <h3 class="font-alt">Cultura</h3>
-                                        <p class="text-muted mb-0">Fomento del relevo generacional de las barras.</p>
+                                        <p class="text-muted mb-0">@lang('messages.parrafo24')</p>
                                     </div>
                                 </div>
                                 <div class="col-md-6">
@@ -315,7 +216,7 @@
                                     <div class="text-center">
                                         <i class="bi bi-graph-up icon-feature text-gradient d-block mb-3"></i>
                                         <h3 class="font-alt">Empleo</h3>
-                                        <p class="text-muted mb-0">Generación de <b style="color: #5f1088;"> 6.300</b>  empleos anuales en eventos de gran formato, <b style="color: #5f1088;"> 17.850</b>  en partidos de fútbol y <b style="color: #5f1088;" > 157</b>  indirectos por comercio.</p>
+                                        <p class="text-muted mb-0">@lang('messages.parrafo25')</p>
                                     </div>
                                 </div>
                                 <div class="col-md-6">
@@ -323,8 +224,8 @@
                                     <div class="text-center">
                                         <i class="bi-patch-check icon-feature text-gradient d-block mb-3"></i>
                                         <h3 class="font-alt">Formalidad</h3>
-                                        <p class="text-muted mb-0">Aumento del <b style="color: #5f1088;"> 1,26%</b> en la tasa de</p>
-                                        <p class="text-muted mb-0"> formalidad de Medellín.</p>
+                                        <p class="text-muted mb-0">@lang('messages.parrafo26')</p>
+                                        <p class="text-muted mb-0">@lang('messages.parrafo27') </p>
                                     </div>
                                 </div>
                                 <div class="col-md-6">
@@ -332,8 +233,8 @@
                                     <div class="text-center">
                                         <i class="bi bi-shield-check icon-feature text-gradient d-block mb-3"></i>
                                         <h3 class="font-alt">Seguridad</h3>
-                                        <p class="text-muted mb-0">Disminución de los índices de hurto a personas,</p>
-                                        <p class="text-muted mb-0"> de vehículos y de motocicletas.</p>
+                                        <p class="text-muted mb-0">@lang('messages.parrafo28')</p>
+                                        <p class="text-muted mb-0">@lang('messages.parrafo29')</p>
                                     </div>
                                 </div>
                             </div>

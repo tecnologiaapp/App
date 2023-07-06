@@ -35,10 +35,13 @@ mark
     color: #fff !important;
 }
 
-.vlt-first-color
-{
+.vlt-first-color {
     color: #ee3364 !important;
+    font-size: 26px;
+    font-weight: normal;
+    padding: 10px 0;
 }
+
 
 .vlt-second-color
 {
@@ -5034,6 +5037,7 @@ table thead th
 .vlt-page-title-hero__content
 {
     position: absolute;
+    /* top: 10%; */
     top: 65%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -8933,5 +8937,6 @@ table thead th,
     letter-spacing: .05em;
     text-transform:inherit; 
 }
+
 
   

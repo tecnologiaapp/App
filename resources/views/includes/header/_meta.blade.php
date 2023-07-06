@@ -22,6 +22,6 @@
 <link rel="stylesheet" href="{{ asset('assets/fonts/fontawesome/font-awesome.min.css')}}">
 
 <!--Style-->
-<link rel="stylesheet" href="{{ asset('assets/css/vlt-stylox.css')}}">
+<link rel="stylesheet" href="{{ asset('assets/css/vlt-sty.css')}}">
 <!--Custom-->
-<link rel="stylesheet" href="{{ asset('assets/css/customise.css')}}">
+<link rel="stylesheet" href="{{ asset('assets/css/customis.css')}}">

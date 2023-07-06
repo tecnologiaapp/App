@@ -33,15 +33,15 @@
 					<div class="row">
 						<div class="col-md-10 offset-md-1">
 							<div class="text-justify">
-								<div class="vlt-gap-15"></div>
-
-							
+								<div class="vlt-gap-15"></div>					
 
 								<hr>
 								<p>La Agencia para la Gestión del Paisaje, el Patrimonio y las Alianzas Público Privadas, se encuentra analizando la Factibilidad del proyecto de Asociación  Publico Privada de iniciativa privada que tiene por objeto la “Operación y  mantenimiento de paraderos públicos y mobiliario urbano y la construcción de  infraestructura pública y amoblamiento urbano que permite mayor comodidad a  los ciudadanos que se desplazan en bicicleta con servicios de parqueaderos  gratuitos y talleres de mecánica básica para las bicicletas.</p>
                                 <hr>
                                 <a href="{{ asset('assets/pdf/CONVOCATORIA-AUDIENCIA.pdf')}}" target="_blank">
-								<img src="{{ asset('assets/img/Proyectos/Convocatoria.jpg')}}" alt="">
+								<div class="text-center">
+									<img src="{{ asset('assets/img/Proyectos/Audiencia Pública.jpeg')}}" alt="">
+								</div>
                                 </a>
 							</div>
 						</div>

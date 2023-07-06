@@ -372,8 +372,8 @@ body{
 	text-transform: uppercase!important;
 }
 
-h1,h3,h4,h5,h6,.menu-item{  
-	font-family: "Inter", sans-serif !important;
+h1,h2,h3,h4,h5,h6,.menu-item{
+	font-family: "Jost", sans-serif !important;
     font-style: normal;
 }
 

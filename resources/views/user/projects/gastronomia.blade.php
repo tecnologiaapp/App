@@ -1,103 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
-        <title>Agencia App - MUDAG </title>
-        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-        <!-- Bootstrap icons-->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
-        <!-- Google fonts-->
-        <link rel="preconnect" href="https://fonts.gstatic.com" />
-        <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,600;1,600&amp;display=swap" rel="stylesheet" />
-        <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,300;0,500;0,600;0,700;1,300;1,500;1,600;1,700&amp;display=swap" rel="stylesheet" />
-        <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,400;1,400&amp;display=swap" rel="stylesheet" />
-        <!-- Core theme CSS (includes Bootstrap)-->
-        <link rel="stylesheet" href="{{ asset('assets/css/mudag.css') }}">
-        <link rel="stylesheet" href="{{ asset('assets/css/footer.css') }}">
-        <link rel="stylesheet" href="{{ asset('assets/vendor/boxicons/css/boxicons.min.css') }}">
-        <link rel="stylesheet" href="{{ asset('assets/fonts/fontawesome/font-awesome.min.css')}}">
-    </head>
-    <style>
-        .masthead {
-    background-color: #f8f9fa;
-    padding-top: 2.5rem;
-    padding-bottom: 0rem;
-}
-
- </style>
-   
-        
-<header id="header" class="fixed-top" style="position: absolute;">
-<div class="bg-primary">
-    <div class="container-xl logo_menu_superior">
-      <div class="header-govco">
-  <a href="https://www.gov.co/" target="blank" title="Ir al portal GOV.CO">
-  <img src="https://www.mintic.gov.co/portal/715/channels-616_header_govco.png" alt="Imagen logo GovCo" class="img-fluid">
-  <span class="sr-only">Logo Gobierno de Colombia</span>
-  </a>
-</div>
-</div>
-</div>
-    <div class="container d-flex align-items-center" style="margin-left: 2px;">
-
-  
-    <img class="logo me-auto" src="https://app.gov.co/assets/img/Proyectos/logo-landing.png"  style=" width: 200px;
-    height: 90px;">
-
-      <nav id="navbar" class="navbar">
-	  <ul>
-		
-		<li><a href="{{route('user.projects.mudag')}}">Inicio</a></li>
- 
-
-		<li>
-		<a href="{{route('user.projects.estadio2')}}">
-				   <span>Estadio</span>
-			   </a>
-		</li>
-    <li>
-		<a href="{{route('user.projects.hotel2')}}">
-				   <span>Hotel</span>
-			   </a>
-		</li>
-    <li>
-		<a href="{{route('user.projects.edificio')}}">
-				   <span>Multipropósito</span>
-			   </a>
-		</li>
-    <li>
-		<a href="{{route('user.projects.gastronomia')}}">
-				   <span>Emprendimiento</span>
-			   </a>
-		</li>
-    <li>
-		<a href="{{route('user.projects.urbanismo')}}">
-				   <span>Urbanismo</span>
-			   </a>
-		</li>
-    <li>
-		<a href="{{route('user.projects.testimonios')}}">
-				   <span>Testimonios</span>
-			   </a>
-		</li>
-    <li class="dropdown btn-book-a-table"><a href="https://www.contratos.gov.co/consultas/detalleProceso.do?numConstancia=22-19-13109290&g-recaptcha-response=03AGdBq27StjLP0h5b3LG3GQv8ZxYSUzeD2g-MuOaclZvugcbFHnCyQFzN70zJSty3Eu55AiXGySiJbZGa6KytE1ZP-m38QBy3MCUvgyfXFg108g3BkPRsBClneKfXkuO8X7oeBIOXp8drsTO-lsPeaC-26bAIaG6l_VnMdvazoXWT4D1rMtftC8TdnepDJMyYKtDXc8gaXZp0XW1DxtVb23ePPr9XOEoaBMFP2MvMoMDxLN42GrI6XBHJzcLSsntCxskp1k_Y-eFTBVUBt8vunhhFcs1x2DETJ4pDOCTPaO2wgqNJtdNB8s3vcFPXIBN-wHo92UlkZhqKiQdWhkztkyCfIoorIL51Mb3RLRLFAUIYO7WMYm-OA4PO3HTWfxXJrMJO-vo-bdqqb1mjOpgLV25ES6z9ZsFruecJdzCoPad4tLdKKWAFctFOg2ZKK0JMBEajm5FfP_KR6yllgKlLo5CLt-SK8bd6J8ZrTW0pIFSiZ9mOnlefuAA" class="getstarted scrollto" target="_blank"><span>Proyecto de pliegos</span></a>
-
-		</li>
-    <li class="dropdown btn-book-a-table"><a href="{{ asset('assets/pdf/Modernizacion.pdf')}}" class="getstarted scrollto" target="_blank"><span>Conoce más</span></a>
-
-		</li>
-		 
-	  </ul>
-	  
-        <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav>
-
-
-    </div>
-  </header>
+@include('includes.header.mudag')
   <body id="page-top">
         <!-- Mashead header-->
         <section style="padding-bottom: 0rem;">
@@ -116,14 +17,14 @@
                  
 
                      
-                            <h6 class="display-1 lh-1 mb-3" style="font-size: 2rem;">La dignificación del emprendimiento</h6>
+                            <h6 class="display-1 lh-1 mb-3" style="font-size: 2rem;">@lang('messages.parrafo36')</h6>
                             <!-- <p class="lead fw-normal text-muted mb-5">La zona gastronómica generará un nuevo espacio público con locales comerciales modernos y adecuados para la gastronomía urbana, el turismo y la cualificación del espacio público. Será cubierta, con amplia circulación y una ubicación estratégica. </p>
                             <p class="lead fw-normal text-muted mb-5">En este nuevo equipamiento se dignificará la labor de los emprendedores que han estado históricamente alrededor de la unidad deportiva, cerrando las brechas en el acceso a oportunidades a través de la formalización y cualificación en competencias laborales de mujeres, jóvenes y adultos mayores.</p>
                             <p class="lead fw-normal text-muted mb-5">La nueva Zona Gastro le dará aún más vida a las dinámicas comerciales y turísticas de la Unidad Deportiva y estará ubicada en un punto obligado de circulación, cerca de los parqueaderos, escenarios y ciclovía; y contará con mesas, zonas técnicas, circulación amplia, accesibilidad inclusiva y oferta gastronómica de calidad.</p>
                              -->
-                            <p class="lead fw-normal text-muted mb-5">La zona del emprendimiento generará un nuevo espacio público con locales comerciales modernos y adecuados para la diversificada oferta, la demanda urbana, el turismo y la cualificación del espacio público. Será cubierta, con amplia circulación y una ubicación estratégica. </p>
-                            <p class="lead fw-normal text-muted mb-5">En este nuevo equipamiento se dignificará la labor de los emprendedores que han estado históricamente alrededor de la unidad deportiva, cerrando las brechas en el acceso a oportunidades a través de la formalización y cualificación en competencias laborales de mujeres, jóvenes y adultos mayores.</p>
-                            <p class="lead fw-normal text-muted mb-5">La nueva zona del emprendimiento le dará aún más vida a las dinámicas comerciales y turísticas de la Unidad Deportiva y estará ubicada en un punto obligado de circulación, cerca de los parqueaderos, escenarios y ciclovía; y contará con mesas, zonas técnicas, circulación amplia, accesibilidad inclusiva y una oferta diversificada de calidad.</p>
+                            <p class="lead fw-normal text-muted mb-5">@lang('messages.parrafo37') </p>
+                            <p class="lead fw-normal text-muted mb-5">@lang('messages.parrafo38')</p>
+                            <p class="lead fw-normal text-muted mb-5">@lang('messages.parrafo39')</p>
                             
                      
                 </div>

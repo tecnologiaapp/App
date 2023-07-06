@@ -1,5 +1,5 @@
 @extends('layouts.app')
-@section('body_color', '#DBDCFF;')
+@section('body_color', '#white;')
 @section('content')
 
 <style>
@@ -13,7 +13,7 @@
 <section>
 		<!--Page Title Hero-->
 		<div class="vlt-page-title-hero vlt-page-title-hero--work vlt-page-title-hero--lg jarallax">
-			<div class="vlt-page-title-hero__overlay"></div><img class="jarallax-img" src="{{ asset('assets/img/bg/5.jpg')}}" alt="">
+			<div class="vlt-page-title-hero__overlay"></div><img class="jarallax-img" src="{{ asset('assets/img/bg/test.jpg')}}" alt="">
 			<div class="vlt-page-title-hero__content">
 		
 							<h1 style="color:white;">
@@ -39,7 +39,7 @@
 					<!--Animation Block-->
 					<div class="vlt-animation-block" data-aos="fade" data-aos-delay="0">
 						<!--Simple Image-->
-						<div class="vlt-simple-image"><img src="https://media-cdn.tripadvisor.com/media/photo-p/09/6a/47/57/edificio-plaza-de-la.jpg" alt="">
+						<div class="vlt-simple-image"><img src="{{ asset('assets/img/bg/plaza.jpg')}}" alt="">
 						</div>
 					</div>
 					<div class="vlt-gap-60--sm"></div>
@@ -53,11 +53,11 @@
 					<!--Animation Block-->
 					<div class="vlt-animation-block" data-aos="fade" data-aos-delay="100">
 
-<p>Atención al usuario sede principal, carrera 55 # 42-180, local 203, edificio Plaza de la Libertad, Medellín - Antioquia. Teléfono: (60) + (4) 448 1740 Ext 200  </p>
+<p>Atención al usuario sede principal, carrera 55 # 42-180, local 203, edificio Plaza de la Libertad, Medellín - Antioquia. Teléfono: (+57) 604 448 1740 Ext 200  </p>
 
-						<p>Atención al usuario, calle 44 # 53 A 31. Edificio Plaza de la Libertad, Medellín - Antioquia. Teléfono: (60) + (4) 448 1740 Ext 100 </p>
+						<p>Atención al usuario, calle 44 # 53 A 31. Edificio Plaza de la Libertad, Medellín - Antioquia. Teléfono: (+57) 604 448 1740 Ext 100 </p>
 
-						<p>Atención al usuario de trámite Aprovechamiento Económico del Espacio Público. Teléfono: (60) + (4) 385 55 55 Ext 9477 ó 8800.</p>
+						<p>Atención al usuario de trámite Aprovechamiento Económico del Espacio Público. Teléfono: (+57) 604 385 55 55 Ext 9477 ó 8800.</p>
 
 						<p>Dirección: calle 44 # 52-165, Centro de Servicio a la Ciudadanía La Alpujarra. Taquillas 11 y 12. Medellin - Antioquia</p>
 

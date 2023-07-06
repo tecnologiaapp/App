@@ -1,103 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
-        <title>Agencia App - MUDAG </title>
-        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-        <!-- Bootstrap icons-->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
-        <!-- Google fonts-->
-        <link rel="preconnect" href="https://fonts.gstatic.com" />
-        <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,600;1,600&amp;display=swap" rel="stylesheet" />
-        <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,300;0,500;0,600;0,700;1,300;1,500;1,600;1,700&amp;display=swap" rel="stylesheet" />
-        <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,400;1,400&amp;display=swap" rel="stylesheet" />
-        <!-- Core theme CSS (includes Bootstrap)-->
-        <link rel="stylesheet" href="{{ asset('assets/css/mudag.css') }}">
-        <link rel="stylesheet" href="{{ asset('assets/css/footer.css') }}">
-        <link rel="stylesheet" href="{{ asset('assets/vendor/boxicons/css/boxicons.min.css') }}">
-        <link rel="stylesheet" href="{{ asset('assets/fonts/fontawesome/font-awesome.min.css')}}">
-    </head>
-    <style>
-        .masthead {
-    background-color: #f8f9fa;
-    padding-top: 2.5rem;
-    padding-bottom: 0rem;
-}
-
- </style>
-   
-        
-<header id="header" class="fixed-top" style="position: absolute;">
-<div class="bg-primary">
-    <div class="container-xl logo_menu_superior">
-      <div class="header-govco">
-  <a href="https://www.gov.co/" target="blank" title="Ir al portal GOV.CO">
-  <img src="https://www.mintic.gov.co/portal/715/channels-616_header_govco.png" alt="Imagen logo GovCo" class="img-fluid">
-  <span class="sr-only">Logo Gobierno de Colombia</span>
-  </a>
-</div>
-</div>
-</div>
-    <div class="container d-flex align-items-center" style="margin-left: 2px;">
-
-  
-    <img class="logo me-auto" src="https://app.gov.co/assets/img/Proyectos/logo-landing.png"  style=" width: 200px;
-    height: 90px;">
-
-      <nav id="navbar" class="navbar">
-	  <ul>
-		
-		<li><a href="{{route('user.projects.mudag')}}">Inicio</a></li>
- 
-
-		<li>
-		<a href="{{route('user.projects.estadio2')}}">
-				   <span>Estadio</span>
-			   </a>
-		</li>
-    <li>
-		<a href="{{route('user.projects.hotel2')}}">
-				   <span>Hotel</span>
-			   </a>
-		</li>
-    <li>
-		<a href="{{route('user.projects.edificio')}}">
-				   <span>Multipropósito</span>
-			   </a>
-		</li>
-    <li>
-		<a href="{{route('user.projects.gastronomia')}}">
-				   <span>Emprendimiento</span>
-			   </a>
-		</li>
-    <li>
-		<a href="{{route('user.projects.urbanismo')}}">
-				   <span>Urbanismo</span>
-			   </a>
-		</li>
-    <li>
-		<a href="{{route('user.projects.testimonios')}}">
-				   <span>Testimonios</span>
-			   </a>
-		</li>
-    <li class="dropdown btn-book-a-table"><a href="https://www.contratos.gov.co/consultas/detalleProceso.do?numConstancia=22-19-13109290&g-recaptcha-response=03AGdBq27StjLP0h5b3LG3GQv8ZxYSUzeD2g-MuOaclZvugcbFHnCyQFzN70zJSty3Eu55AiXGySiJbZGa6KytE1ZP-m38QBy3MCUvgyfXFg108g3BkPRsBClneKfXkuO8X7oeBIOXp8drsTO-lsPeaC-26bAIaG6l_VnMdvazoXWT4D1rMtftC8TdnepDJMyYKtDXc8gaXZp0XW1DxtVb23ePPr9XOEoaBMFP2MvMoMDxLN42GrI6XBHJzcLSsntCxskp1k_Y-eFTBVUBt8vunhhFcs1x2DETJ4pDOCTPaO2wgqNJtdNB8s3vcFPXIBN-wHo92UlkZhqKiQdWhkztkyCfIoorIL51Mb3RLRLFAUIYO7WMYm-OA4PO3HTWfxXJrMJO-vo-bdqqb1mjOpgLV25ES6z9ZsFruecJdzCoPad4tLdKKWAFctFOg2ZKK0JMBEajm5FfP_KR6yllgKlLo5CLt-SK8bd6J8ZrTW0pIFSiZ9mOnlefuAA" class="getstarted scrollto" target="_blank"><span>Proyecto de pliegos</span></a>
-
-</li>
-<li class="dropdown btn-book-a-table"><a href="{{ asset('assets/pdf/Modernizacion.pdf')}}" class="getstarted scrollto" target="_blank"><span>Conoce más</span></a>
-
-</li>
- 
-</ul>
-
-    <i class="bi bi-list mobile-nav-toggle"></i>
-  </nav>
-
-
-    </div>
-  </header>
+@include('includes.header.mudag')
   <body id="page-top">
         <section style="padding-bottom: 0rem;">
         <div style="padding-top:25px;">
@@ -117,9 +18,9 @@
                  
 
                      
-                            <h6 class="display-1 lh-1 mb-3" style="font-size: 2rem;">Incluyente y renovado </h6>
-                            <p class="lead fw-normal text-muted mb-5">Este proyecto plantea un urbanismo acondicionado con senderos de circulación, rampas, accesibilidad inclusiva, iluminación, señalética, amueblamiento urbano, patio de maniobras, reubicación arbórea, zonas corporativas y de hinchas (fan zone), mesas y sillas, y espacios para activaciones de marca. </p>
-                            <p class="lead fw-normal text-muted mb-5">Un espacio público renovado que prioriza la movilidad peatonal, las actividades deportivas y lúdicas al aire libre, la conexión con el transporte masivo, la oferta de servicios para el encuentro social y familiar, y aprovechamiento económico del espacio público, con el cual se potencia el uso de plazoletas, módulos comerciales, zonas verdes, baños públicos y demás elementos de amueblamiento y entorno urbanos.</p>
+                            <h6 class="display-1 lh-1 mb-3" style="font-size: 2rem;">@lang('messages.parrafo40') </h6>
+                            <p class="lead fw-normal text-muted mb-5">@lang('messages.parrafo41')</p>
+                            <p class="lead fw-normal text-muted mb-5">@lang('messages.parrafo42')</p>
 
                             
                     
@@ -139,7 +40,7 @@
                      
                            
                             
-                            <p class="lead fw-normal text-muted mb-5">Los beneficios socioeconómicos de la modernización de la Unidad Deportiva Atanasio Girardot, cuentan con un enfoque humano, social, económico, ambiental y físico-espacial, que permite la atención de todas las edades, grupos poblacionales y económicos; reconociendo este, como un espacio de encuentro, hito que precede y cimenta el futuro de lo que se busca y desea que se convierta la ciudad de Medellín.</p>
+                            <p class="lead fw-normal text-muted mb-5">@lang('messages.parrafo43')</p>
 
                             
                     

