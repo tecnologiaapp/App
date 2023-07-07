@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\CarcelController;
 use App\Http\Controllers\GoogleController;
+use App\Http\Controllers\HomeController;
 use App\Http\Controllers\MudagController;
 use App\Http\Controllers\Panel\MedioController;
 use App\Http\Controllers\Panel\SigController;
@@ -890,8 +891,8 @@ Route::get('/SIG_expediente', [SigController::class, 'index'])->name('SIG.index'
 
 Route::group(['middleware' => 'auth'], function () {
 
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
-Route::get('/panel', [App\Http\Controllers\HomeController::class, 'panel'])->name('panel');
+Route::get('/home', [HomeController::class, 'index'])->name('home');
+Route::get('/panel', [HomeController::class, 'panel'])->name('panel');
 
 
 Route::get('medios/lista', [MedioController::class, 'lista'])->name('medios.lista');

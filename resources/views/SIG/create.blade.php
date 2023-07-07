@@ -52,7 +52,7 @@
                     </div>  
                     <div class="form-group">
                         <label for="recurso">Recurso</label>
-                        <input type="text" class="form-control" name="recurso" placeholder="(Opcional)" id="enlaceInput">
+                        <input type="text" class="form-control" name="recurso" placeholder="(Opcional)">
                     </div>                 
                     <div class="form-group">
                         <label for="modelo">Archivo (Modelos 3D)</label>
@@ -75,7 +75,7 @@
     var categoriaSelect = document.getElementById('categoriaSelect');
     var enlaceInput = document.getElementById('enlaceInput');
     var modeloInput = document.getElementById('modeloInput');
-
+    
     // Escuchar el evento de cambio en la selección de categoría
     categoriaSelect.addEventListener('change', function() {
         // Obtener el valor seleccionado
