@@ -727,7 +727,14 @@
 
 <table class="table table-bordered table-striped custom-table">
 	<tbody>
-
+	<tr>
+									<td>Plan anticorrupción y atención al ciudadano 2022</td>
+									<td>
+										<a href="{{ asset('assets/pdf/planning/Plan Anticorrupción y de Atención al Ciudadano 2022.pdf')}}" class="btn btn-primary btn-block" target="_blank">
+											Ver documento
+										</a>
+									</td>
+								</tr>
 	<tr>  
 									<td>Plan de acción interno 2022</td>
 									<td>
