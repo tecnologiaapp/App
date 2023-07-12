@@ -23,8 +23,18 @@
 			<table class="table table-bordered table-striped custom-table">
 			
 				<tbody>
+					<tr>
+						<td width="20%" class="align-middle">Resolución 082 de 2023</td>
+						<td width="50%" class="align-middle">Por medio de la cual se concede un día correspondiente a la segunda jornada semestral del año 2023, para que los servidores públicos de la Agencia para la Gestión del Paisaje, el Patrimonio y las Alianzas Público Privadas - APP, compartan con sus familias</td>
+						<td width="15%" class="align-middle">05 de Julio de 2023</td>
+						<td width="15%" class="align-middle">
+							<a href="{{ asset('assets/pdf/Resolución-082.pdf')}}" class="btn btn-primary btn-block" target="_blank">
+								Ver documento
+							</a>
+						</td>
+					</tr>
 
-				<tr>
+					<tr>
 						<td width="20%" class="align-middle">Resolución 025 de 2023</td>
 						<td width="50%" class="align-middle">Por medio de la cual se modifica la jornada de trabajo para los días 03, 04 y 05 de abril de 2023 y se ordena una compensación</td>
 						<td width="15%" class="align-middle">20 de Febrero de 2023</td>
@@ -35,7 +45,7 @@
 						</td>
 					</tr>
 
-				<tr>
+					<tr>
 						<td width="20%" class="align-middle">Resolución 001 de 2023</td>
 						<td width="50%" class="align-middle">Por medio de la cual se establecen las cuantías para la contratación en la vigencia 2023 de la Agencia para la Gestión del Paisaje, el Patrimonio y las Alianzas Público Privadas</td>
 						<td width="15%" class="align-middle">02 de Enero de 2023</td>
@@ -46,7 +56,7 @@
 						</td>
 					</tr>
 
-				<tr>
+					<tr>
 						<td width="20%" class="align-middle">Resolución 016</td>
 						<td width="50%" class="align-middle">Por medio de la cual se concede un día correspondiente a la segunda jornada semestral del año 2022, para que los servidores públicos de la Agencia para la Gestión del Paisaje, el Patrimonio y las Alianzas Público Privadas - APP, compartan con sus familias</td>
 						<td width="15%" class="align-middle">28 de noviembre de 2022</td>
@@ -57,7 +67,7 @@
 						</td>
 					</tr>
 
-				<tr>
+					<tr>
 						<td width="20%" class="align-middle">Resolución 112</td>
 						<td width="50%" class="align-middle">Por medio de la cual se resuelve el recurso de reposición interpuesto frente a la Resolución 111 del 18 de noviembre de mediante la cual se declaró el incumplimiento del contrato de suministro No 2020169SU, y se hizo efectiva la cláusula penal</td>
 						<td width="15%" class="align-middle">18 de noviembre de 2022</td>
@@ -68,7 +78,7 @@
 						</td>
 					</tr>
 
-				<tr>
+					<tr>
 						<td width="20%" class="align-middle">Resolución 111</td>
 						<td width="50%" class="align-middle">Por medio de la cual se declara el incumplimiento parcial del contrato de suministro N° 2020169SU, celebrado con VIRTUAL S.A.S, se hace efectiva la cláusula penal, y se declara la ocurrencia del siniestro del amparo de cumplimiento respaldado en la póliza No 2738423-8 expedida por SURAMERICANA</td>
 						<td width="15%" class="align-middle">18 de noviembre de 2022</td>
@@ -79,7 +89,7 @@
 						</td>
 					</tr>
 
-				<tr>
+					<tr>
 						<td width="20%" class="align-middle">Resolución 707 de 2018</td>
 						<td width="50%" class="align-middle">Por medio de la cual se adopta el Reglamento Interno del Comité de Conciliación de la Agencia 
 para la Gestión del Paisaje, el Patrimonio y las Alianzas Público Privadas - Agencia APP</td>
@@ -91,7 +101,7 @@ para la Gestión del Paisaje, el Patrimonio y las Alianzas Público Privadas - A
 						</td>
 					</tr>
 
-				<tr>
+					<tr>
 						<td width="20%" class="align-middle">Resolución 601 de 2018</td>
 						<td width="50%" class="align-middle">Por medio de la cual se crea el Comité de Conciliación de la Agencia para la gestión del paisaje, el patrimonio y las alianzas público privadas</td>
 						<td width="15%" class="align-middle">05 de octubre de 2018</td>
@@ -102,7 +112,7 @@ para la Gestión del Paisaje, el Patrimonio y las Alianzas Público Privadas - A
 						</td>
 					</tr>
 
-				<tr>
+					<tr>
 						<td width="20%" class="align-middle">Resolución 080 de 2015</td>
 						<td width="50%" class="align-middle">Por medio de la cual se adopta la guía para la Administración del Riesgo para la Agencia para 
 la Gestión del Paisaje, el Patrimonio y las Alianzas Público - Privadas -APP</td>
@@ -114,7 +124,7 @@ la Gestión del Paisaje, el Patrimonio y las Alianzas Público - Privadas -APP</
 						</td>
 					</tr>
 
-				<tr>
+					<tr>
 						<td width="20%" class="align-middle">Resolución 288 de 2018</td>
 						<td width="50%" class="align-middle">Por medio de la cual se crea el Comité Institucional de Coordinación de Control Interno de la Agencia para la Gestión del Paisaje, el Patrimonio y las Alianzas Público Privadas APP</td>
 						<td width="15%" class="align-middle">17 de mayo de 2018</td>
