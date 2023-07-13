@@ -285,13 +285,13 @@
 					</div>
 					<div class="col-lg-3 col-6 text-center">
 						<div align="center">
-							<h2 class="counter" style=" display: inline-block; margin: 15px 0; font-size: 35px; color: #ffffff;">4.000</h2><span style="font-size:25px;padding-left: 5px;"><b>m²</b></span>
+							<h2 class="counter" style=" display: inline-block; margin: 15px 0; font-size: 35px; color: #ffffff;">30.000</h2><span style="font-size:25px;padding-left: 5px;"><b>m²</b></span>
 							<p><b>De infraestructura de calidad.</b></p>
 						</div>
 					</div>
 					<div class="col-lg-3 col-6 text-center">
 						<div align="center">
-							<h2 class="counter" style=" display: inline-block; margin: 15px 0; font-size: 35px; color: #ffffff;">30.000</h2><span style="font-size:25px;padding-left: 5px;"><b>m²</b></span>
+							<h2 class="counter" style=" display: inline-block; margin: 15px 0; font-size: 35px; color: #ffffff;">4.000</h2><span style="font-size:25px;padding-left: 5px;"><b>m²</b></span>
 							<p><b>Para la atención y acompañamiento psicosocial de los sindicados.</b></p>
 						</div>
 					</div>
