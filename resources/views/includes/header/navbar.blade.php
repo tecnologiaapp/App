@@ -18,7 +18,6 @@
 
       <nav id="navbar" class="navbar">
 	  <ul>
-	  <!-- <li><a href="{{ route('google.create') }}">google</a></li> -->
 		<li><a href="{{ url('/') }}">Inicio</a></li>
 
 		<li class="dropdown btn-book-a-table" style="margin-left: 9px; margin-right: 8px;"><a href="#" class="getstarted scrollto"><span>Proyectos</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
