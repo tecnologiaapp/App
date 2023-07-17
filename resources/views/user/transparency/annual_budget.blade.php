@@ -77,6 +77,22 @@
 
 <table class="table table-bordered table-striped custom-table">
 	<tbody>
+			<tr>
+									<td>Ejecución presupuestal de gastos Junio 2023</td>
+									<td>
+										<a href="{{ asset('assets/pdf/budget/2023/gastos-junio-2023.pdf')}}" class="btn btn-primary btn-block" target="_blank">
+											Ver documento
+										</a>
+									</td>
+								</tr>					
+								<tr>
+									<td>Ejecución presupuestal de ingresos Junio 2023</td>
+									<td>
+										<a href="{{ asset('assets/pdf/budget/2023/ingresos-junio-2023.pdf')}}" class="btn btn-primary btn-block" target="_blank">
+											Ver documento
+										</a>
+									</td>
+								</tr>
 								<tr>
 									<td>Ejecución presupuestal de gastos Mayo 2023</td>
 									<td>
@@ -84,11 +100,8 @@
 											Ver documento
 										</a>
 									</td>
-								</tr>
-								
-
-
-							<tr>
+								</tr>					
+								<tr>
 									<td>Ejecución presupuestal de ingresos Mayo 2023</td>
 									<td>
 										<a href="{{ asset('assets/pdf/budget/2023/Ingresos-mayo-2023.pdf')}}" class="btn btn-primary btn-block" target="_blank">
