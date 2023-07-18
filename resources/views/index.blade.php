@@ -7,30 +7,60 @@
 <head>
 	<style>
 		section {
-	padding: 60px 0;
+	padding: 30px 0;
 	overflow: hidden;
+  }
+  .disable-scroll {
+    overflow: hidden;
+    height: 100vh;
   }
 	</style>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 
-		<section style="padding-top: 131px;">
+		<!-- <section>
 										<div class="embed-responsive embed-responsive-16by9">
 											<video id="homeVideo1" autoplay muted loop style="width: 100%; height:100%;">
 												<source src="{{ asset('assets/videos/home-1.mp4')}}" type="video/mp4">
 											</video>
 										</div>
-<!-- <a href="{{ route('user.projects.nutibara')}}">
-<picture>
-  <source media="(max-width: 768px)" srcset="assets/images/Home/banner.jpg" width="100%;">
-  <source media="(min-width: 769px)" srcset="assets/images/Home/nutibara.jpg">
-  <img src="assets/images/Home/nutibara.jpg" alt="Nutibara" width="100%;">
-</picture>
-</a> -->
-    <!-- <a href="{{ route('user.projects.nutibara')}}">
-    <img src="assets/images/Home/nutibara.jpg" alt="" width="100%;">
-    </a> -->
-	  </section>
+
+	  </section> -->
+    <section class="bannersHome" style="padding-top:125px;  position: relative;">
+  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <a href="{{ route('user.projects.mudag')}}">
+          <img class="d-block w-100" src="assets/img/Banners/bannerHome1.jpg" alt="First slide">
+        </a>
+      </div>
+      <div class="carousel-item">
+        <a href="{{ route('user.noticias.new50')}}">
+          <img class="d-block w-100" src="assets/img/Banners/bannerHome2.jpg" alt="Second slide">
+        </a>
+      </div>
+      <div class="carousel-item">
+        <a href="https://www.instagram.com/s/aGlnaGxpZ2h0OjE3OTg4MDk0NTkyMDA3ODIx?story_media_id=3115907623191126740_6167483428&igshid=MzRlODBiNWFlZA==">
+          <img class="d-block w-100" src="assets/img/Banners/bannerHome3.jpg" alt="Third slide">
+        </a>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-target="#carouselExampleIndicators" data-slide="prev" onclick="disableScroll()">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-target="#carouselExampleIndicators" data-slide="next" onclick="disableScroll()">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </button>
+  </div>
+</section>
+
 
 		<section id="about" class="about">
       <div class="container aos-init aos-animate" data-aos="fade-up">
@@ -88,53 +118,40 @@
 
 
     <!-- ======= Features Section ======= -->
-    <section id="features" class="features">
-      <div class="container">
-          <div class="section-title">
-            <h2>Novedades</h2>
-          </div>
-          <div class="row gy-4 align-items-center features-item" data-aos="fade-up">
-
-            <div class="col-md-5">
-            <a href="{{ route('user.noticias.new50') }}" target="_blank"> 	<img src="https://app.gov.co/assets/img/Galeria/constelaciones/1.jpg" class="img-fluid"> </a>
-            </div>
-
-            <div class="col-md-7">
-                <h3>Constelaciones, el mural artístico más grande de Medellín, se potencia como nuevo destino turístico y cultural</h3>
-                <p>
-                La Alcaldía de Medellín entregó a la ciudadanía el mural artístico más grande de la ciudad, Constelaciones, una obra de 14.819 metros cuadrados de nuevo arte urbano que comprende la intervención de más de 500 casas y 30 murales artísticos realizados por cuatro colectivos y dos artistas urbanos.
-                </p>
-            </div>
-			    </div>
-
-          
-            <br>
-
-            <div class="row gy-4 align-items-center features-item" data-aos="fade-up">
-              <div class="col-md-5 order-1 order-md-2">
-              <a href="{{ route('user.noticias.new49') }}" target="_blank"> <img src="https://app.gov.co/assets/img/Galeria/lleras/1.JPG" class="img-fluid" alt=""></a>
-              </div>
-              <div class="col-md-7 order-2 order-md-1">
-                  <h3>Ciudadanos y turistas en Medellín ya disfrutan del abrazo del Parque Lleras</h3>
-                  <p>
-                  El Parque Lleras, referente comercial y turístico de Medellín, está nuevamente al servicio de los habitantes de la ciudad y de los visitantes que a diario llegan a disfrutar de los atractivos de la capital antioqueña. La Administración Distrital realizó en este sitio una intervención integral que permitió la renovación de 12.859 m2 de espacio público para dar prioridad a la movilidad peatonal, a la cultura, a las zonas verdes y a los espacios para compartir.
-                  </p>        
-              </div>
-            </div>
-            <br>
-
-            <div class="row gy-4 align-items-center features-item" data-aos="fade-up">
-              <div class="col-md-5">
-                <a href="{{ route('user.noticias.new48') }}" target="_blank"> <img src="https://app.gov.co/assets/img/Galeria/nutibara/1.jpg" class="img-fluid" alt=""></a>
-              </div>
-              <div class="col-md-7">
-                  <h3>Con la entrega de la iluminación del Hotel Nutibara, el Distrito promueve el turismo y la seguridad en el Centro de Medellín</h3>
-                  <p>En una apuesta por la transformación urbana, el mejoramiento del paisaje urbano y de la seguridad, y la cualificación de fachadas arquitectónicas del Centro tradicional de Medellín, el Distrito, a través de la Agencia para la Gestión del Paisaje, el Patrimonio y las Alianzas Público Privadas -Agencia APP-, entregó la iluminación del emblemático Hotel Nutibara.</p>
-              </div>
-            </div>      
-
-      </div>
-    </section>
+    <section class="features" id="features">
+		<div class="container">
+			<div class="section-title">
+				<h2>Novedades</h2>
+			</div>
+			<div class="newsHome1 row gy-4 align-items-center features-item aos-init aos-animate" data-aos="fade-up">
+				<div class="col-md-5">
+					<a href="{{ route('user.noticias.new50')}}"target="_blank"><img class="img-fluid" src="assets/img/Galeria/constelaciones/1.png"></a>
+				</div>
+				<div class="col-md-7">
+					<h3 class="text-white">Constelaciones, el mural artístico más grande de Medellín, se potencia como nuevo destino turístico y cultural</h3>
+					<p class="text-white"> La Alcaldía de Medellín entregó a la ciudadanía el mural artístico más grande de la ciudad, Constelaciones, una obra de 14.819 metros cuadrados de nuevo arte urbano que comprende la intervención de más de 500 casas y 30 murales artísticos realizados por cuatro colectivos y dos artistas urbanos.</p>
+				</div>
+			</div><br>
+			<div class="newsHome2 row gy-4 align-items-center features-item aos-init aos-animate" data-aos="fade-up">
+				<div class="col-md-5 order-1 order-md-2">
+					<a href="{{ route('user.noticias.new49')}}" target="_blank"><img alt="" class="img-fluid" src="assets/img/Galeria/lleras/1.png"></a>
+				</div>
+				<div class="col-md-7 order-2 order-md-1">
+					<h3>Ciudadanos y turistas en Medellín ya disfrutan del abrazo del Parque Lleras</h3>
+					<p>El Parque Lleras, referente comercial y turístico de Medellín, está nuevamente al servicio de los habitantes de la ciudad y de los visitantes que a diario llegan a disfrutar de los atractivos de la capital antioqueña. La Administración Distrital realizó en este sitio una intervención integral que permitió la renovación de 12.859 m2 de espacio público para dar prioridad a la movilidad peatonal, a la cultura, a las zonas verdes y a los espacios para compartir.</p>
+				</div>
+			</div><br>
+			<div class="newsHome3 row gy-4 align-items-center features-item aos-init aos-animate" data-aos="fade-up">
+				<div class="col-md-5">
+					<a href="{{ route('user.noticias.new48')}}" target="_blank"><img alt="" class="img-fluid" src="assets/img/Galeria/nutibara/noticia.png"></a>
+				</div>
+				<div class="col-md-7">
+					<h3 class="text-white">Con la entrega de la iluminación del Hotel Nutibara, el Distrito promueve el turismo y la seguridad en el Centro de Medellín</h3>
+					<p class="text-white"> En una apuesta por la transformación urbana, el mejoramiento del paisaje urbano y de la seguridad, y la cualificación de fachadas arquitectónicas del Centro tradicional de Medellín, el Distrito, a través de la Agencia para la Gestión del Paisaje, el Patrimonio y las Alianzas Público Privadas -Agencia APP-, entregó la iluminación del emblemático Hotel Nutibara.</p>
+				</div>
+			</div>
+		</div>
+	</section>
     <!-- End Features Section -->
 
 
@@ -173,6 +190,20 @@ return x1 + x2;
 }
 });
 </script>
+<script>
+  function disableScroll() {
+    // Desactivar el desplazamiento en el cuerpo del documento
+    document.body.style.overflow = 'hidden';
 
+    // Volver a habilitar el desplazamiento después de un breve retraso
+    setTimeout(function() {
+      document.body.style.overflow = '';
+    }, 500); // Ajusta este valor según sea necesario para sincronizar con la duración de la animación del carrusel
+  }
+</script>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 	
 @endpush

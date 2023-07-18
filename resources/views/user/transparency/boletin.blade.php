@@ -3,7 +3,7 @@
 @section('content')
 
 <head>
-<link  href="{{ asset('assets/css/boleta.css') }}" rel="stylesheet">
+<link  href="{{ asset('assets/css/boleti.css') }}" rel="stylesheet">
 <style>
 	h6{
 	color:black;	
@@ -14,10 +14,14 @@
 <!-- <a target="_blank" href="{{ route('user.noticias.new43') }}"><h6><b>Leer más</b></h6></a> -->
 	
 	<div class="vlt-single-post-wrapper vlt-single-post-wrapper--style-1">
+	<section class="bannerT">
+        <a target="_blank"> 	<img src="https://mail.google.com/mail/u/1?ui=2&ik=ad2c49892f&attid=0.1&permmsgid=msg-f:1771768831210174743&th=1896965d60643917&view=fimg&fur=ip&sz=s0-l75-ft&attbid=ANGjdJ-OJwT5dLOj0LoIUmvkLrcn_7doLakbxmR1f-kgbQavi-zw9WvoEO7LujeAaw5E93pwxzbAj5G_QdZzoW67SbUgsyMCXWBqGd2znKU3KN9ruGUwZavfMCRdpmM&disp=emb&realattid=ii_lk8e1o8i0" class="img-fluid img-banner-t"> </a>
+    </section>
 		<div class="container">
 			<article class="vlt-single-post">
 				<div class="vlt-animation-block mb-5 text-center" data-aos="fade" data-aos-delay="0">
-					<h1 style="font-size: 4rem;" class="m-0"><span class="vlt-highlight">Noticias</span></h1>
+				<h1 style="font-size: 4rem;" class="m-0 ocultPosition">
+				<span class="vlt-highlight">Noticias</span></h1>
 				</div>
 
 				<div class="content">
@@ -288,9 +292,7 @@
 	
              	</div>
                </article>
-
-
-</div>
+		</div>
 
 
 			</article>

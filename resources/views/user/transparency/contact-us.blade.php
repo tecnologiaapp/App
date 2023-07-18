@@ -13,13 +13,13 @@
 <section>
 		<!--Page Title Hero-->
 		<div class="vlt-page-title-hero vlt-page-title-hero--work vlt-page-title-hero--lg jarallax">
-			<div class="vlt-page-title-hero__overlay"></div><img class="jarallax-img" src="{{ asset('assets/img/bg/test.jpg')}}" alt="">
-			<div class="vlt-page-title-hero__content">
-		
-							<h1 style="color:white;">
-                            Conoce nuestros canales de atención
-							</h1>
-		
+			<div class="vlt-page-title-hero__overlay"></div><img class="jarallax-img" src="{{ asset('assets/img/Banners/contacto.jpg')}}" alt="">
+			<div class="vlt-page-title-hero__content ocultPosition">
+
+				<h1 style="color:white;">
+				Conoce nuestros canales de atención
+				</h1>
+
 			</div>
 
 		</div>
@@ -39,7 +39,7 @@
 					<!--Animation Block-->
 					<div class="vlt-animation-block" data-aos="fade" data-aos-delay="0">
 						<!--Simple Image-->
-						<div class="vlt-simple-image"><img src="{{ asset('assets/img/bg/plaza.jpg')}}" alt="">
+						<div class="vlt-simple-image"><img src="{{ asset('assets/img/Banners/plaza.png')}}" alt="">
 						</div>
 					</div>
 					<div class="vlt-gap-60--sm"></div>
@@ -48,12 +48,12 @@
 					<!--Animation Block-->
 					<div class="vlt-animation-block" data-aos="fade" data-aos-delay="0">
 					</div>
-					<h3 class="vlt-first-color m-0">Canales de  <span class="vlt-second-color">atención</span></h3>
+					<h3 class="vlt-first-color m-0">Canales de  <span class="vlt-second-color tlt-black">atención</span></h3>
 					<div class="vlt-gap-10"></div>
 					<!--Animation Block-->
 					<div class="vlt-animation-block" data-aos="fade" data-aos-delay="100">
 
-<p>Atención al usuario sede principal, carrera 55 # 42-180, local 203, edificio Plaza de la Libertad, Medellín - Antioquia. Teléfono: (+57) 604 448 1740 Ext 200  </p>
+						<p>Atención al usuario sede principal, carrera 55 # 42-180, local 203, edificio Plaza de la Libertad, Medellín - Antioquia. Teléfono: (+57) 604 448 1740 Ext 200  </p>
 
 						<p>Atención al usuario, calle 44 # 53 A 31. Edificio Plaza de la Libertad, Medellín - Antioquia. Teléfono: (+57) 604 448 1740 Ext 100 </p>
 

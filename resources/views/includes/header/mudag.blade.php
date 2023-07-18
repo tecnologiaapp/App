@@ -116,12 +116,18 @@
 
 		</li>
     <!-- <li class="dropdown">
-      <a href="">Lenguajes</a>
+      <a href="">Idiomas</a>
       <ul class="submenu">
         <li><a href="{{ url('locale/en') }}">English</a></li>
         <li><a href="{{ url('locale/es') }}">Español</a></li>
       </ul>
     </li> -->
+    <li class="dropdown"><a href="#"><span>Idiomas</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+      <ul class="submenu">
+        <li><a href="{{ url('locale/en') }}">English</a></li>
+        <li><a href="{{ url('locale/es') }}">Español</a></li>
+      </ul>
+		</li>
 		 
 	  </ul>
 	  

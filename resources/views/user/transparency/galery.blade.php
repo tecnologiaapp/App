@@ -20,9 +20,10 @@
     font-weight: 300;
 }
 
-.linea{
+.linea {
     border-top: 5px solid #0077C0;
     margin-bottom: 40px;
+    display: none;
 }
 
 .contenedor-imagenes{
@@ -34,13 +35,13 @@
     border-radius:3px;
 }
 
-.contenedor-imagenes .imagen{
+.contenedor-imagenes .imagen {
     width: 32%;
     position: relative;
-    height:250px;
-    margin-bottom:5px;
-    box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, .75);
-    border-radius:10px;
+    height: 250px;
+    margin-bottom: 5px;
+    box-shadow: none;
+    border-radius: 10px;
 }
 .imagen img{
     width: 100%;
@@ -61,15 +62,16 @@
     border-radius:10px;
 }
 
-.overlay h2{
+.overlay h2 {
     color: #fff;
-    font-weight: 300;
-    font-size:30px;
+    font-weight: bold;
+    font-size: 30px;
     position: absolute;
     top: 50%;
-    left:50%;
+    left: 50%;
     text-align: center;
     transform: translate(-50%, -50%);
+    font-family: "Jost", sans-serif !important;
 }
 
 .imagen:hover .overlay{
@@ -112,14 +114,14 @@
 <section>
 		<!--Page Title Hero-->
 		<div class="vlt-page-title-hero vlt-page-title-hero--work vlt-page-title-hero--lg jarallax">
-			<div class="vlt-page-title-hero__overlay"></div><img class="jarallax-img" src="{{ asset('assets/img/bg/5.jpg')}}" alt="">
-			<div class="vlt-page-title-hero__content">
-		
-							<h1 style="color:white;">
-                            Galería fotográfica
-							</h1>
-		
-			</div>
+			<div class="vlt-page-title-hero__overlay"></div><img class="jarallax-img" src="{{ asset('assets/img/Banners/galeria.jpg')}}" alt="">
+            <div class="vlt-page-title-hero__content ocultPosition">
+
+                <h1 style="color:white;">
+                Galería fotográfica
+                </h1>
+
+            </div>
 
 		</div>
 		

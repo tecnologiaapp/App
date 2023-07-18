@@ -426,7 +426,7 @@ h6 {
   display: block;
   width: 40px;
   height: 3px;
-  background: #b3348a;
+  background: #8b3bf5;
   bottom: 0;
   left: calc(50% - 20px);
 }
@@ -439,7 +439,7 @@ h6 {
 # Counts
 --------------------------------------------------------------*/
 .countas {
-  background-color:#ffc451;
+  background-color: #eb5b67;
   background-size: cover;
   padding: 80px 0 60px 0;
   position: relative;
@@ -474,13 +474,79 @@ h6 {
 .countas .counters p {
   padding: 0;
   margin: 0 0 20px 0;
-  font-family: "Regular", sans-serif;
+  font-family: "muli", sans-serif;
   font-size: 18px;
   color: #ffffff;
+  text-align: center;
 }
+
 
 @media (min-width: 1200px) {
   .countas {
     background-attachment: fixed;
   }
 }
+
+.img-padding {
+  padding: 30px 0;
+}
+
+.newsHome1
+{
+    background-color: #8b3bf5;
+    /* color: #ffffff; */
+    padding: 0px 30px 30px 30px;
+}
+
+
+.newsHome1 h3 p
+  {
+    color: #ffffff;
+  }
+
+  .newsHome2
+    {
+        padding: 30px 0px 50px 0px;
+    }
+
+  .newsHome3 
+    {
+      padding: 0px 30px 30px 30px;
+      background-color: #d22e6e;
+    }
+
+    .newsHome3 .col-md-7 h3 p
+      {
+        color: #ffffff !important;
+      }
+
+      .post-body h6 {
+        background-color: #f5b732;
+        padding: 10px;
+        border-radius: 10px;
+      }
+
+      .about   {
+        padding-top: 0px;
+      }
+
+      .ocultPosition span {
+        position: relative;
+        top: -500px;
+        }
+
+        .ocultPosition h1 {
+          position: relative;
+          top: -500px;
+          }
+
+          .vlt-animation-block p {
+            font-size: 15px;
+          }
+          
+          .tlt-black {
+           color: #333333 !important;
+          }
+          
+        
+      
