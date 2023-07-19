@@ -3,7 +3,7 @@
 @section('content')
 
 <head>
-<link  href="{{ asset('assets/css/boleti.css') }}" rel="stylesheet">
+<link  href="{{ asset('assets/css/boletin.css') }}" rel="stylesheet">
 <style>
 	h6{
 	color:black;	
@@ -15,7 +15,7 @@
 	
 	<div class="vlt-single-post-wrapper vlt-single-post-wrapper--style-1">
 	<section class="bannerT">
-        <a target="_blank"> 	<img src="https://mail.google.com/mail/u/1?ui=2&ik=ad2c49892f&attid=0.1&permmsgid=msg-f:1771768831210174743&th=1896965d60643917&view=fimg&fur=ip&sz=s0-l75-ft&attbid=ANGjdJ-OJwT5dLOj0LoIUmvkLrcn_7doLakbxmR1f-kgbQavi-zw9WvoEO7LujeAaw5E93pwxzbAj5G_QdZzoW67SbUgsyMCXWBqGd2znKU3KN9ruGUwZavfMCRdpmM&disp=emb&realattid=ii_lk8e1o8i0" class="img-fluid img-banner-t"> </a>
+        <a target="_blank"> 	<img src="{{ asset('assets/img/Banners/Noticias.jpg')}}" class="img-fluid img-banner-t"> </a>
     </section>
 		<div class="container">
 			<article class="vlt-single-post">

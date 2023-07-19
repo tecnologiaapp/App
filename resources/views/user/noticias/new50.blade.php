@@ -18,9 +18,12 @@
             <li>Esta transformación urbana impulsa el turismo en el sector, y aporta a la seguridad y la convivencia ciudadana. </li>
         </ul>
 
+        <section class="img-new">
+            <a target="_blank"> 	<img src="{{ asset('assets/img/Banners/Constelaciones1.jpg')}}" class="img-fluid img-border"> </a>
+        </section>
         <p>La Alcaldía de Medellín entregó a la ciudadanía el mural artístico más grande de la ciudad, Constelaciones, una obra de 14.819 metros cuadrados de nuevo arte urbano que comprende la intervención de más de 500 casas y 30 murales artísticos realizados por cuatro colectivos y dos artistas urbanos. </p>
         <p>Esta obra, realizada por la Agencia para la Gestión del Paisaje, el Patrimonio y las Alianzas Público Privadas -Agencia APP-, bajo la conceptualización y coordinación del artista plástico Fredy Alzate, es el resultado de varias actividades como residencias artísticas para conocer en profundidad la zona, laboratorios creativos con los residentes, un reconocimiento activo del territorio, talleres de arte y un diagnóstico social que se ve plasmado en las diversas historias que cuentan los murales. </p>
-        <p>“Esto se construyó con los actores vivos del barrio, de la comuna. Los propios y los turistas van a ir recorriendo cada uno de esos murales y conociendo una historia de Medellín, del barrio, de los retos, de la resiliencia de una comunidad que ha sabido levantarse de los momentos más difíciles y lo ha hecho con arte, cultura y trabajo social. Todo el proyecto completo es una gran obra de arte. Eso va a significar un estallido turístico para la comuna 3. Desde ya les hago la invitación para que vengan a conocer esto tan maravilloso”, expresó el alcalde de Medellín, Daniel Quintero Calle. </p>
+        <p class="p-destacado">“Esto se construyó con los actores vivos del barrio, de la comuna. Los propios y los turistas van a ir recorriendo cada uno de esos murales y conociendo una historia de Medellín, del barrio, de los retos, de la resiliencia de una comunidad que ha sabido levantarse de los momentos más difíciles y lo ha hecho con arte, cultura y trabajo social. Todo el proyecto completo es una gran obra de arte. Eso va a significar un estallido turístico para la comuna 3. Desde ya les hago la invitación para que vengan a conocer esto tan maravilloso”. <br><br><span class="firmaNew">Expresó el alcalde de Medellín, Daniel Quintero Calle.</span> </p>
         <p>Constelaciones se complementa con un recorrido que comprende 30 murales realizados por los colectivos artísticos Jagua, Jauría, Biográfos y Lemm and Buda; y los artistas individuales Agüd y Dubián Monsalve, todos ellos con amplia experiencia en muralismo y arte urbano en la ciudad. En sus obras apostaron por retratar personajes, historias y momentos cotidianos de la vida del barrio. Entre ellas se destacan, Reminiscencias, Otras formas de cargar, Hogar con plantas, Trompos y canicas y Doña Rubiela. </p>
         <p>Esta obra es un conjunto de signos que parten de interpretar, expresar o evidenciar las relaciones en un territorio que se fue construyendo de manera colectiva por sus habitantes. Las diversas geometrías y esferas plantean un juego cromático con la “piel-ladrillo” de los barrios impactados. </p>
         <p>Fue conceptualizada y coordinada por Fredy Alzate, maestro en Artes Plásticas de la Universidad de Antioquia y magíster en Artes Plásticas y Visuales de la Universidad Nacional de Bogotá con exposiciones en el Museo de Antioquia, el Baluarte de Santa Catalina en Cartagena y el Banco de la República en Bogotá. </p>
@@ -63,11 +66,13 @@
         
         </div>
 <br>
-<h5 style="text-align:center; padding-top: 20px;">
+<h5 class="contact" style="text-align:center; padding-top: 20px;">
 Información para periodistas <br>
 Agencia APP<br>
-Aldemar Echavarría <br>
+<span class="datos">Aldemar Echavarría <br>
 300 486 16 23
+</span>
+      </h5>
 
 
        

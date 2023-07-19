@@ -286,16 +286,17 @@ header .recuadro img {
 	text-align: center;
 	padding-bottom: 30px;
   }
-  
+
   .section-title h2 {
-	font-size: 32px;
-	font-weight: bold;
-	text-transform: inherit;
-	margin-bottom: 20px;
-	padding-bottom: 20px;
-	position: relative;
-	color: #000000;
-  }
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: inherit;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    color: #000000;
+    margin-top: 25px;
+}
   
   .section-title h2::before {
 	content: "";

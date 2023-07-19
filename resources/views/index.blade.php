@@ -26,7 +26,7 @@
 										</div>
 
 	  </section> -->
-    <section class="bannersHome" style="padding-top:125px;  position: relative;">
+    <section class="bannersHome" style="padding-top:55px;  position: relative;">
   <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
       <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>

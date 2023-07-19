@@ -3,7 +3,7 @@
 @section('content')
 
 <head>
-<link  href="{{ asset('assets/css/boleta.css') }}" rel="stylesheet">
+<link  href="{{ asset('assets/css/boletin.css') }}" rel="stylesheet">
 </head>
 
 	<div class="vlt-single-post-wrapper vlt-single-post-wrapper--style-1">

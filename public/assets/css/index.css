@@ -520,12 +520,6 @@ h6 {
         color: #ffffff !important;
       }
 
-      .post-body h6 {
-        background-color: #f5b732;
-        padding: 10px;
-        border-radius: 10px;
-      }
-
       .about   {
         padding-top: 0px;
       }
@@ -547,6 +541,63 @@ h6 {
           .tlt-black {
            color: #333333 !important;
           }
+
+          .text-justify ul li {
+            font-weight: bold;
+          font-size: 19px;
+          padding-bottom: 15px;
+          }
+          
+          .img-new {
+            padding: 50px 0 60px 0;
+          }
+          
+          .img-border {
+            border-radius: 20px;
+          }
+          
+          .p-destacado {
+            font-family: 'jost' serif !important;
+              text-align: center;
+              padding: 40px 75px;
+              font-weight: 600;
+              font-size: 18px;
+          }
+          
+          .firmaNew {
+          font-weight: normal;
+          }
+          
+          
+          .contact {
+            text-align: center;
+                padding: 0 0 40px;
+                font-family: "Jost", sans-serif;
+                font-weight: 600;
+          }
+          
+          .datos {
+            color: #9327ff;
+          } 
+
+          .carousel {
+            position: relative;
+            margin: 70px 0;
+        }
+        
+        .carousel-control-next-icon, .carousel-control-prev-icon {
+            display: inline-block;
+            width: 3rem;
+            height: 3rem;
+            background-repeat: no-repeat;
+            background-position: 50%;
+            background-size: 100% 100%;
+            background-color: #ff4d63 !important;
+            border-radius: 10px;
+        }
+        .proyectos-destacados {
+          margin: 150px 0 0 0;
+        }
           
         
       

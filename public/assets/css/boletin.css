@@ -530,7 +530,7 @@ h5 {
 } 
 
 .post {
-    box-shadow: 0 1px 6px 1px rgba(0,0,0, .1);
+    box-shadow: 0 1px 6px 1px rgba(0,0,0,0);
     transition: .2s;
     overflow: hidden;
     border-radius: 10px;
@@ -632,3 +632,4 @@ section{
 		color: #ffffff;
 	  }
 	
+	  

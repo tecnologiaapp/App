@@ -3,7 +3,7 @@
 @section('content')
 
 <head>
-<link  href="{{ asset('assets/css/boleti.css') }}" rel="stylesheet">
+<link  href="{{ asset('assets/css/boletin.css') }}" rel="stylesheet">
 <style>
 	h6{
 	color:blue;	
