@@ -19,7 +19,7 @@ a {
 }
 
 a:hover {
-  color: #000000;
+  color: #f5b732;
   text-decoration: none;
 }
 
@@ -582,7 +582,6 @@ h6 {
 
           .carousel {
             position: relative;
-            margin: 70px 0;
         }
         
         .carousel-control-next-icon, .carousel-control-prev-icon {
@@ -596,8 +595,30 @@ h6 {
             border-radius: 10px;
         }
         .proyectos-destacados {
-          margin: 150px 0 0 0;
-        }
+          margin: 40px 0 0 0;
+          background-color: #9327ff;
+          padding: 60px 40px;
+          text-align: center;
+      }
+
+      .proyectos-destacados .proy1 h4{
+        color: #ffffff !important;
+    }
+    
+    .ulNew {
+        list-style: none;
+    }
+    
+    .ulNew li a {
+        color: #ffffff;
+    }
+    
+    .ulNew li {
+      border: 2px solid #ffffff;
+      padding: 18px;
+      border-radius: 26px;
+      margin-top: 30px;
+    }
           
         
       

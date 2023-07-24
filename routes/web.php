@@ -289,17 +289,9 @@ Route::get('/proyectos/estadio', function () {
    return view('user.projects.estadio');
 })->name('user.projects.estadio');
 
-// Route::get('/proyectos/mudag', function () {
-//    return view('user.projects.mudag');
-// })->name('user.projects.mudag');
-
 Route::get('/proyectos/mudag_testimonios', function () {
    return view('user.projects.testimonios');
 })->name('user.projects.testimonios');
-
-Route::get('/test', function () {
-   return view('user.projects.test');
-})->name('user.projects.test');
 
 Route::get('/proyectos/mudag/estadio', function () {
    return view('user.projects.estadio2');
