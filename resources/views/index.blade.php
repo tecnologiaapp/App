@@ -77,7 +77,7 @@
             </div>		
           </div>
 
-          <!-- <div class="section-title">
+          <div class="section-title">
             <h2>¿Qué hacemos en la Agencia APP?</h2>
           </div>
 
@@ -104,7 +104,7 @@
               </li>
              </ul>
             </div>		
-          </div> -->
+          </div>
       </div>
 	
     </section>
