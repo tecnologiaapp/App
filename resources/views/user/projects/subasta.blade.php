@@ -38,7 +38,7 @@
 				<div class="section-title">
 					<h2>Subasta de bienes muebles Agencia APP</h2>
 				</div>
-				<p style="text-align:justify">La Agencia APP, se permite informar que se encuentra publicado proceso para la enajenación de bienes muebles, a través de la modalidad de martillo, liderado por el Banco Popular.</p>
+				<p style="text-align:justify">La Agencia APP, se permite informar que se encuentra publicado proceso para la enajenación de bienes muebles, a través de la modalidad de martillo, liderado por el Banco Popular, se debe seleccionar el evento del 28 de julio en el sitio web.</p>
 				<table class="table table-hover">
 					<thead>
 						<tr>
@@ -84,7 +84,7 @@
 					</tbody>
 				</table>
 				<div class="btn-container pb-4">
-					<a class="btn-get-started" href="https://www.elmartillo.com.co/en/inicio?p_p_id=co_com_martillo_publiczone_general_view_search_web_MartilloPubliczoneGeneralViewSearchWebPortlet&p_p_lifecycle=0&_co_com_martillo_publiczone_general_view_search_web_MartilloPubliczoneGeneralViewSearchWebPortlet_mvcRenderCommandName=%2Frender%2FauctionCalendar&p_p_lifecycle=1&_co_com_martillo_publiczone_general_view_search_web_MartilloPubliczoneGeneralViewSearchWebPortlet_auctionId=1667&_co_com_martillo_publiczone_general_view_search_web_MartilloPubliczoneGeneralViewSearchWebPortlet_javax.portlet.action=%2Faction%2FauctionCalendar&_co_com_martillo_publiczone_general_view_search_web_MartilloPubliczoneGeneralViewSearchWebPortlet_title=Subasta+Virtual+28+de+julio" target="_blank"><i class="fas fa-link"></i> Martillo Banco Popular</a>
+					<a class="btn-get-started" href="https://www.elmartillo.com.co/en/inicio" target="_blank"><i class="fas fa-link"></i> Martillo Banco Popular</a>
 				</div>
                 <!-- <img alt="" src="{{ asset('assets/img/banco-popular.jpeg')}}"> -->
 			</article>
