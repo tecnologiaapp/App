@@ -19,7 +19,7 @@
         </ul>
 
         <section class="img-new">
-            <a target="_blank"> 	<img src="{{ asset('assets/img/Banners/Constelaciones1.jpg')}}" class="img-fluid img-border"> </a>
+            <a target="_blank"> 	<img src="{{ asset('assets/img/Banners/constelaciones1.jpg')}}" class="img-fluid img-border"> </a>
         </section>
         <p>La Alcaldía de Medellín entregó a la ciudadanía el mural artístico más grande de la ciudad, Constelaciones, una obra de 14.819 metros cuadrados de nuevo arte urbano que comprende la intervención de más de 500 casas y 30 murales artísticos realizados por cuatro colectivos y dos artistas urbanos. </p>
         <p>Esta obra, realizada por la Agencia para la Gestión del Paisaje, el Patrimonio y las Alianzas Público Privadas -Agencia APP-, bajo la conceptualización y coordinación del artista plástico Fredy Alzate, es el resultado de varias actividades como residencias artísticas para conocer en profundidad la zona, laboratorios creativos con los residentes, un reconocimiento activo del territorio, talleres de arte y un diagnóstico social que se ve plasmado en las diversas historias que cuentan los murales. </p>

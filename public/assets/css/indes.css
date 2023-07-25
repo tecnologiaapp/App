@@ -619,6 +619,17 @@ h6 {
       border-radius: 26px;
       margin-top: 30px;
     }
+
+    .paddingTopTitle {
+      padding-top: 50px;
+    }
+
+    .listHome ul li {
+    font-weight: bold;
+    font-size: 19px;
+    padding: 18px;
+    list-style-type: none;
+}
           
         
       

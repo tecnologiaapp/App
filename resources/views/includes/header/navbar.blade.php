@@ -10,11 +10,10 @@
 	  </div>
 	</div>
 </div>
-    <div class="container d-flex align-items-center" style="margin-left: 2px;">
-
-      <img class="logo me-auto" src="https://app.gov.co/assets/img/Proyectos/logo-landing.png" style=" width: 200px;
-    height: 90px;">
-     
+    <div class="container d-flex align-items-center" style="margin-left: 2px; justify-content: space-between;">
+	<a href="{{ url('/') }}">
+      <img class="logo me-auto" src="https://app.gov.co/assets/img/Proyectos/logo-landing.png" style=" width: 200px; height: 90px;">
+     </a>
 
       <nav id="navbar" class="navbar">
 	  <ul>

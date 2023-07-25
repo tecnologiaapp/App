@@ -895,3 +895,8 @@ Route::post('SIG/index', [SigController::class, 'store'])->name('SIG.store');
 Route::delete('SIG/{id}', [SigController::class, 'destroy'])->name('SIG.destroy');
 
 });
+
+
+Route::get('/subasta', function(){
+   return view('user.projects.subasta');
+}) ->name('user.projects.subasta');
