@@ -32,6 +32,7 @@
       <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
       <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
       <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
     </ol>
     <div class="carousel-inner">
       <div class="carousel-item active">
@@ -40,13 +41,18 @@
         </a>
       </div>
       <div class="carousel-item">
+        <a href="{{ route('user.projects.subasta')}}">
+          <img class="d-block w-100" src="assets/img/Banners/Banner-internas.jpg" alt="Second slide">
+        </a>
+      </div>
+      <div class="carousel-item">
         <a href="{{ route('user.noticias.new50')}}">
-          <img class="d-block w-100" src="assets/img/Banners/bannerHome2.jpg" alt="Second slide">
+          <img class="d-block w-100" src="assets/img/Banners/bannerHome2.jpg" alt="Third slide">
         </a>
       </div>
       <div class="carousel-item">
         <a href="https://www.instagram.com/s/aGlnaGxpZ2h0OjE3OTg4MDk0NTkyMDA3ODIx?story_media_id=3115907623191126740_6167483428&igshid=MzRlODBiNWFlZA==">
-          <img class="d-block w-100" src="assets/img/Banners/bannerHome3.jpg" alt="Third slide">
+          <img class="d-block w-100" src="assets/img/Banners/bannerHome3.jpg" alt="Four slide">
         </a>
       </div>
     </div>
