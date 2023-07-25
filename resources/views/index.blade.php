@@ -35,16 +35,17 @@
       <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
     </ol>
     <div class="carousel-inner">
-      <div class="carousel-item active">
-        <a href="{{ route('user.projects.mudag')}}">
-          <img class="d-block w-100" src="assets/img/Banners/bannerHome1.jpg" alt="First slide">
+    <div class="carousel-item active">
+        <a href="{{ route('user.projects.subasta')}}">
+          <img class="d-block w-100" src="assets/img/Banners/Banner-Internas.jpg" alt="First slide">
         </a>
       </div>
       <div class="carousel-item">
-        <a href="{{ route('user.projects.subasta')}}">
-          <img class="d-block w-100" src="assets/img/Banners/Banner-Internas.jpg" alt="Second slide">
+        <a href="{{ route('user.projects.mudag')}}">
+          <img class="d-block w-100" src="assets/img/Banners/bannerHome1.jpg" alt="Second slide">
         </a>
       </div>
+   
       <div class="carousel-item">
         <a href="{{ route('user.noticias.new50')}}">
           <img class="d-block w-100" src="assets/img/Banners/bannerHome2.jpg" alt="Third slide">
