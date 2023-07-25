@@ -42,7 +42,7 @@
       </div>
       <div class="carousel-item">
         <a href="{{ route('user.projects.subasta')}}">
-          <img class="d-block w-100" src="assets/img/Banners/Banner-internas.jpg" alt="Second slide">
+          <img class="d-block w-100" src="assets/img/Banners/Banner-Internas.jpg" alt="Second slide">
         </a>
       </div>
       <div class="carousel-item">
