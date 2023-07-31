@@ -441,10 +441,7 @@
 
               <div id="tab-8" class="tab-pane">
               <div class="row mt-3" style="text-align:justify;">
-                <h5>Descubre nuestra colección de modelos 3D (.Skp, versión 2021) de bienes culturales e inmuebles
-                destacados. Detalles precisos de fachadas o interiores; construidos para el proceso de diseño en
-                proyectos de iluminación arquitectónica y gestión urbana. ¡Explora la belleza arquitectónica de la
-                ciudad en formato 3D!</h5>
+                <h5>"Descubre el poder de nuestras 'Colecciones' en ArcGIS Online, donde te presentamos un conjunto de StoryMaps que abarcan diversas temáticas geográficas. Con esta funcionalidad, tendrás acceso a un amplio expediente geográfico organizado por temas, facilitando la exploración y el conocimiento detallado de cada uno de ellos."</h5>
               </div>
               @if(count($Colecciones) > 0)
                   <div class="row">
