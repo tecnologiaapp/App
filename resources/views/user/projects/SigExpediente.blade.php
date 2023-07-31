@@ -441,7 +441,7 @@
 
               <div id="tab-8" class="tab-pane">
               <div class="row mt-3" style="text-align:justify;">
-                <h5>"Descubre el poder de nuestras 'Colecciones' en ArcGIS Online, donde te presentamos un conjunto de StoryMaps que abarcan diversas temáticas geográficas. Con esta funcionalidad, tendrás acceso a un amplio expediente geográfico organizado por temas, facilitando la exploración y el conocimiento detallado de cada uno de ellos."</h5>
+                <h5>Descubre el poder de nuestras 'Colecciones' en ArcGIS Online, donde te presentamos un conjunto de StoryMaps que abarcan diversas temáticas geográficas. Con esta funcionalidad, tendrás acceso a un amplio expediente geográfico organizado por temas, facilitando la exploración y el conocimiento detallado de cada uno de ellos.</h5>
               </div>
               @if(count($Colecciones) > 0)
                   <div class="row">
