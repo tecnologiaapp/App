@@ -39,7 +39,8 @@
                             <option value="Dashboard">Dashboard</option> 
                             <option value="App Movil">App Móvil</option> 
                             <option value="Ortofoto">Ortofoto</option> 
-                            <option value="Modelo 3D">Modelo 3D</option>                                               
+                            <option value="Modelo 3D">Modelo 3D</option>
+                            <option value="colecciones">Colecciones</option>                                            
                         </select>
                     </div>
                     <div class="form-group">

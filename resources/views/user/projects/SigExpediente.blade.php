@@ -126,6 +126,7 @@
             <button class="tab btn-tab" data-target="tab-5">App Móvil</button>
             <button class="tab btn-tab" data-target="tab-6">Ortofoto</button>
             <button class="tab btn-tab" data-target="tab-7">Modelo 3D (Sketchup)</button>
+            <button class="tab btn-tab" data-target="tab-8">Colecciones</button>
             <!-- <button class="tab btn-tab" data-target="tab-4">Formularios</button> -->
           </div>
 
@@ -142,7 +143,13 @@
                       @foreach($Story as $story)
                         @if($story->categoria == 'Story Maps')
                         <div class="col-lg-4 col-md-6 mt-4 mt-lg-0 pt-4 portfolio-item" data-aos="fade-up" data-aos-delay="400">
-                          <div class="portfolio-img"><a href="{{$story->enlace}}" target="_blank"><img src="{{ asset('storage/recurso/' . $story->imagen) }}" class="img-fluid" alt=""></a></div>
+                          <div class="portfolio-img">
+                          @if (isset($story->enlace) && !empty($story->enlace))
+                          <a href="{{$story->enlace}}" target="_blank"><img src="{{ asset('storage/recurso/' . $story->imagen) }}" class="img-fluid" alt=""></a>
+                          @else
+                          <img src="{{ asset('storage/recurso/' . $story->imagen) }}" class="img-fluid" alt="">
+                          @endif                          
+                        </div>
                             <div class="portfolio-info">
                               <h4>{{$story->titulo}}</h4>
                               <!-- <a href="https://i.ibb.co/Zm9DmDq/mapa.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Dashboard 1"><i class="bx bx-plus"></i></a> -->
@@ -169,16 +176,23 @@
               <div id="tab-2" class="tab-pane">
               <div class="row mt-3" style="text-align:justify;">
                 <h5>Explora visualizaciones interactivas de gestión de subdirecciones en nuestros Mapas Web de
-ArcGIS Online. Accede a información detallada de AEEP, Patrimonio, Gestión Inmobiliaria, Arte
-Urbano, Gestión Social, Paisaje Urbano y más. Descubre todo en un solo lugar. ¡Accede ahora a
-nuestros Mapas Web!</h5>
+                ArcGIS Online. Accede a información detallada de AEEP, Patrimonio, Gestión Inmobiliaria, Arte
+                Urbano, Gestión Social, Paisaje Urbano y más. Descubre todo en un solo lugar. ¡Accede ahora a
+                nuestros Mapas Web!</h5>
               </div>
               @if(count($Mapa) > 0)
                   <div class="row">
                       @foreach($Mapa as $mapa)
                         @if($mapa->categoria == 'Mapa Web')
                         <div class="col-lg-4 col-md-6 mt-4 mt-lg-0 pt-4 portfolio-item" data-aos="fade-up" data-aos-delay="400">
-                          <div class="portfolio-img"><a href="{{$mapa->enlace}}" target="_blank"><img src="{{ asset('storage/recurso/' . $mapa->imagen) }}" class="img-fluid" alt=""></a></div>
+                        <div class="portfolio-img">
+                        @if (isset($mapa->enlace) && !empty($mapa->enlace))
+                          <a href="{{$mapa->enlace}}" target="_blank"><img src="{{ asset('storage/recurso/' . $mapa->imagen) }}" class="img-fluid" alt=""></a>
+                          @else
+                          <img src="{{ asset('storage/recurso/' . $mapa->imagen) }}" class="img-fluid" alt="">
+                          @endif 
+                         
+                        </div>
                             <div class="portfolio-info">
                               <h4>{{$mapa->titulo}}</h4>
                               <!-- <a href="https://i.ibb.co/Zm9DmDq/mapa.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Dashboard 1"><i class="bx bx-plus"></i></a> -->
@@ -206,15 +220,21 @@ nuestros Mapas Web!</h5>
               <div id="tab-3" class="tab-pane">
               <div class="row mt-3" style="text-align:justify;">
                 <h5>Consulta y explora diversas aplicaciones WEB en ArcGIS Online, que almacenan información
-valiosa para la gestión diaria de la Agencia APP. Unifica Mapas WEB, datos 2D y 3D en una
-plataforma accesible desde dispositivos móviles.</h5>
+                valiosa para la gestión diaria de la Agencia APP. Unifica Mapas WEB, datos 2D y 3D en una
+                plataforma accesible desde dispositivos móviles.</h5>
               </div>
               @if(count($Aplicacion) > 0)
                   <div class="row">
                       @foreach($Aplicacion as $apli)
                         @if($apli->categoria == 'Aplicacion Web')
                         <div class="col-lg-4 col-md-6 mt-4 mt-lg-0 pt-4 portfolio-item" data-aos="fade-up" data-aos-delay="400">
-                          <div class="portfolio-img"><a href="{{$apli->enlace}}" target="_blank"><img src="{{ asset('storage/recurso/' . $apli->imagen) }}" class="img-fluid" alt=""></a></div>
+                          <div class="portfolio-img">
+                          @if (isset($apli->enlace) && !empty($apli->enlace))
+                          <a href="{{$apli->enlace}}" target="_blank"><img src="{{ asset('storage/recurso/' . $apli->imagen) }}" class="img-fluid" alt=""></a>
+                          @else
+                          <img src="{{ asset('storage/recurso/' . $apli->imagen) }}" class="img-fluid" alt="">
+                          @endif 
+                          </div>
                             <div class="portfolio-info">
                               <h4>{{$apli->titulo}}</h4>
                               <!-- <a href="https://i.ibb.co/Zm9DmDq/mapa.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Dashboard 1"><i class="bx bx-plus"></i></a> -->
@@ -242,15 +262,23 @@ plataforma accesible desde dispositivos móviles.</h5>
               <div id="tab-4" class="tab-pane">
               <div class="row mt-3" style="text-align:justify;">
                 <h5>Sumérgete en visualizaciones de datos intuitivas e interactivas en nuestros Dashboard. Toma
-decisiones oportunas, explora cifras relevantes y monitorea proyectos en tiempo real.
-Optimizamos la gestión de la Agencia APP con potentes herramientas de visualización.</h5>
+                decisiones oportunas, explora cifras relevantes y monitorea proyectos en tiempo real.
+                Optimizamos la gestión de la Agencia APP con potentes herramientas de visualización.</h5>
               </div>
               @if(count($Dashboard) > 0)
                   <div class="row">
                       @foreach($Dashboard as $dash)
                         @if($dash->categoria == 'Dashboard')
                         <div class="col-lg-4 col-md-6 mt-4 mt-lg-0 pt-4 portfolio-item" data-aos="fade-up" data-aos-delay="400">
-                          <div class="portfolio-img"><a href="{{$dash->enlace}}" target="_blank"><img src="{{ asset('storage/recurso/' . $dash->imagen) }}" class="img-fluid" alt=""></a></div>
+                          <div class="portfolio-img">
+                          @if (isset($dash->enlace) && !empty($dash->enlace))
+                              <a href="{{ $dash->enlace }}" target="_blank">
+                                  <img src="{{ asset('storage/recurso/' . $dash->imagen) }}" class="img-fluid" alt="">
+                              </a>
+                          @else
+                              <img src="{{ asset('storage/recurso/' . $dash->imagen) }}" class="img-fluid" alt="">
+                          @endif
+                          </div>
                             <div class="portfolio-info">
                               <h4>{{$dash->titulo}}</h4>
                               <!-- <a href="https://i.ibb.co/Zm9DmDq/mapa.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Dashboard 1"><i class="bx bx-plus"></i></a> -->
@@ -278,15 +306,21 @@ Optimizamos la gestión de la Agencia APP con potentes herramientas de visualiza
               <div id="tab-5" class="tab-pane">
               <div class="row mt-3" style="text-align:justify;">
                 <h5>Juntos, construimos soluciones. Recopilamos datos georreferenciados a través de formularios
-inteligentes hechos con Survey123 para abordar las problemáticas del distrito. ¡Participa en la
-recolección de datos de manera sencilla y ágil! Únete a la acción y crea un impacto positivo.</h5>
+              inteligentes hechos con Survey123 para abordar las problemáticas del distrito. ¡Participa en la
+              recolección de datos de manera sencilla y ágil! Únete a la acción y crea un impacto positivo.</h5>
               </div>
               @if(count($App) > 0)
                   <div class="row">
                       @foreach($App as $app)
                         @if($app->categoria == 'App Movil')
                         <div class="col-lg-4 col-md-6 mt-4 mt-lg-0 pt-4 portfolio-item" data-aos="fade-up" data-aos-delay="400">
-                          <div class="portfolio-img"><a href="{{$app->enlace}}" target="_blank"><img src="{{ asset('storage/recurso/' . $app->imagen) }}" class="img-fluid" alt=""></a></div>
+                          <div class="portfolio-img">
+                          @if (isset($app->enlace) && !empty($app->enlace))
+                          <a href="{{$app->enlace}}" target="_blank"><img src="{{ asset('storage/recurso/' . $app->imagen) }}" class="img-fluid" alt=""></a>
+                          @else
+                          <img src="{{ asset('storage/recurso/' . $app->imagen) }}" class="img-fluid" alt="">
+                          @endif   
+                          </div>
                             <div class="portfolio-info">
                               <h4>{{$app->titulo}}</h4>
                               <!-- <a href="https://i.ibb.co/Zm9DmDq/mapa.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Dashboard 1"><i class="bx bx-plus"></i></a> -->
@@ -321,7 +355,13 @@ recolección de datos de manera sencilla y ágil! Únete a la acción y crea un 
                       @foreach($Ortofoto as $orto)
                         @if($orto->categoria == 'Ortofoto')
                         <div class="col-lg-4 col-md-6 mt-4 mt-lg-0 pt-4 portfolio-item" data-aos="fade-up" data-aos-delay="400">
-                          <div class="portfolio-img"><a href="{{$orto->enlace}}" target="_blank"><img src="{{ asset('storage/recurso/' . $orto->imagen) }}" class="img-fluid" alt=""></a></div>
+                          <div class="portfolio-img">
+                          @if (isset($orto->enlace) && !empty($orto->enlace))
+                          <a href="{{$orto->enlace}}" target="_blank"><img src="{{ asset('storage/recurso/' . $orto->imagen) }}" class="img-fluid" alt=""></a>
+                          @else
+                          <img src="{{ asset('storage/recurso/' . $orto->imagen) }}" class="img-fluid" alt="">
+                          @endif     
+                          </div>
                             <div class="portfolio-info">
                               <h4>{{$orto->titulo}}</h4>
                               <!-- <a href="https://i.ibb.co/Zm9DmDq/mapa.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Dashboard 1"><i class="bx bx-plus"></i></a> -->
@@ -363,8 +403,13 @@ recolección de datos de manera sencilla y ágil! Únete a la acción y crea un 
                       @foreach($Modelo as $mode)
                         @if($mode->categoria == 'Modelo 3D')
                         <div class="col-lg-4 col-md-6 mt-4 mt-lg-0 pt-4 portfolio-item" data-aos="fade-up" data-aos-delay="400">
-                          <div class="portfolio-img">                          
-                          <img src="{{ asset('storage/recurso/' . $mode->imagen) }}" class="img-fluid" alt="">                              
+                          <div class="portfolio-img">
+                          @if (isset($mode->enlace) && !empty($mode->enlace))
+                          <a href="{{$mode->enlace}}" target="_blank"><img src="{{ asset('storage/recurso/' . $mode->imagen) }}" class="img-fluid" alt=""> </a>
+                          @else
+                          <img src="{{ asset('storage/recurso/' . $mode->imagen) }}" class="img-fluid" alt=""> 
+                          @endif                            
+                                                       
                           </div>
                             <div class="portfolio-info">
                               <h4>{{$mode->titulo}}</h4>
@@ -386,6 +431,53 @@ recolección de datos de manera sencilla y ágil! Únete a la acción y crea un 
                   </div>
                   <div class="d-flex justify-content-center pt-5">
                   {{ $Modelo->links() }}
+                  </div>   
+              @else
+              <div class="d-flex justify-content-center align-items-center" style="height: 30vh;">
+                  <h1>No hay contenido disponible</h1>
+              </div>
+              @endif
+              </div>
+
+              <div id="tab-8" class="tab-pane">
+              <div class="row mt-3" style="text-align:justify;">
+                <h5>Descubre nuestra colección de modelos 3D (.Skp, versión 2021) de bienes culturales e inmuebles
+                destacados. Detalles precisos de fachadas o interiores; construidos para el proceso de diseño en
+                proyectos de iluminación arquitectónica y gestión urbana. ¡Explora la belleza arquitectónica de la
+                ciudad en formato 3D!</h5>
+              </div>
+              @if(count($Colecciones) > 0)
+                  <div class="row">
+                      @foreach($Colecciones as $colec)
+                        @if($colec->categoria == 'colecciones')
+                        <div class="col-lg-4 col-md-6 mt-4 mt-lg-0 pt-4 portfolio-item" data-aos="fade-up" data-aos-delay="400">
+                          <div class="portfolio-img">
+                          @if (isset($colec->enlace) && !empty($colec->enlace))
+                          <a href="{{$colec->enlace}}" target="_blank"><img src="{{ asset('storage/recurso/' . $colec->imagen) }}" class="img-fluid" alt="">  </a>
+                          @else
+                          <img src="{{ asset('storage/recurso/' . $colec->imagen) }}" class="img-fluid" alt="">  
+                          @endif                           
+                                                      
+                          </div>
+                            <div class="portfolio-info">
+                              <h4>{{$colec->titulo}}</h4>
+                              @if($colec->archivo)                              
+                              <div class="text-center pb-1">
+                                <a href="{{ asset('storage/recurso/' . $colec->archivo) }}" target="_blank" class="btn-blue">Descargar</a>
+                              </div>
+                              @endif
+                              @if($colec->recurso)
+                              <div class="text-center">
+                              <a href="{{ $colec->recurso }}" target="_blank" class="btn-blue">Descargar</a>
+                              </div>
+                              @endif                              
+                            </div>
+                          </div>
+                        @endif   
+                      @endforeach
+                  </div>
+                  <div class="d-flex justify-content-center pt-5">
+                  {{ $Colecciones->links() }}
                   </div>   
               @else
               <div class="d-flex justify-content-center align-items-center" style="height: 30vh;">

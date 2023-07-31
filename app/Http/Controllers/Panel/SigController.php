@@ -33,6 +33,9 @@ class SigController extends Controller
         $Modelo = SIG::where('categoria', '=', 'Modelo 3D')
         ->orderBy('id','desc')
                             ->paginate(9);
+        $Colecciones = SIG::where('categoria', '=', 'colecciones')
+        ->orderBy('id','desc')
+                            ->paginate(9);
         $data = [
             'Story' =>$Story,
             'Mapa' =>$Mapa,
@@ -41,6 +44,7 @@ class SigController extends Controller
             'App' =>$App,
             'Ortofoto' =>$Ortofoto,
             'Modelo' =>$Modelo,
+            'Colecciones' =>$Colecciones,
             'busqueda' =>$busqueda,
             ];
         return view('user.projects.SigExpediente', $data);
