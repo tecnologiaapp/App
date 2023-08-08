@@ -4,18 +4,16 @@
 <section>
 		<!--Page Title Hero-->
 		<div class="vlt-page-title-hero vlt-page-title-hero--work vlt-page-title-hero--lg jarallax">
-			<div class="vlt-page-title-hero__overlay"></div><img class="jarallax-img" src="{{ asset('assets/img/bg/5.jpg')}}" alt="">
-			<div class="vlt-page-title-hero__content">
+			<div class="vlt-page-title-hero__overlay"></div><img class="jarallax-img" src="{{ asset('assets/img/Banners/BannerMedellinSaludable.jpg')}}" alt="">
+				<div class="vlt-page-title-hero__content ocultPosition">
 
-							<h1 style="color:white;">
-							Medellín Saludable
-							</h1>
-
+					<h1 style="color:white;">
+					Medellín saludable
+					</h1>
+				</div>
 			</div>
-
-		</div>
-		
-	</section>
+		</div>		
+</section>
 	<!--Content-->
 	<section>
 		<div class="vlt-gap-0"></div>
@@ -34,24 +32,28 @@
 
 								<hr>
 								<p>Medellín saludable consiste de la dotación de 100 módulos sanitarios para mujeres y
-hombres provistos de equipos y accesorios de última tecnología y automatizados; asimismo,
-suministro de agua pura refrigerada y filtrada para consumo humano a través de 240
-módulos dispensadores. El proyecto es una Asociación público Privada de Iniciativa Privada
-sin recursos públicos para el diseño, instalación, dotación, operación, mantenimiento,
-administración de Módulos Sanitarios Automatizados y Módulos Automatizados de Agua
-dispensada, en el área urbana de la ciudad de Medellín.</p>
-<p>El proyecto será financiado 100% con recursos privados, en un contrato de concesión de 30
-años. Actualmente la prefactibilidad se encuentra aprobada por la Agencia APP; y el
-originador se encuentra en fase de elaboración de factibilidad, que presentará en 2023, para
-evaluación y posterior Audiencia de terceros interesados.</p>
-<h3>Beneficios del proyecto:</h3>
-<p>Todos los habitantes de Medellín y posibles visitantes serán los beneficiados. Se estima que
-estos espacios presten un servicio los siete días a la semana y estén acompañados, entre
-otras características, de un programa de prevención en salud y de acceso a internet wifi.</p>
+								hombres provistos de equipos y accesorios de última tecnología y automatizados; asimismo,
+								suministro de agua pura refrigerada y filtrada para consumo humano a través de 240
+								módulos dispensadores. El proyecto es una Asociación público Privada de Iniciativa Privada
+								sin recursos públicos para el diseño, instalación, dotación, operación, mantenimiento,
+								administración de Módulos Sanitarios Automatizados y Módulos Automatizados de Agua
+								dispensada, en el área urbana de la ciudad de Medellín.
+								</p>
+
+								<p>El proyecto será financiado 100% con recursos privados, en un contrato de concesión de 30
+								años. Actualmente la prefactibilidad se encuentra aprobada por la Agencia APP; y el
+								originador se encuentra en fase de elaboración de factibilidad, que presentará en 2023, para
+								evaluación y posterior Audiencia de terceros interesados.
+								</p>
+								<h3>Beneficios del proyecto:</h3>
+								<p>Todos los habitantes de Medellín y posibles visitantes serán los beneficiados. Se estima que
+								estos espacios presten un servicio los siete días a la semana y estén acompañados, entre
+								otras características, de un programa de prevención en salud y de acceso a internet wifi.
+								</p>
 
                                 <hr>
 								
-                               <div align="center"> <img src="{{ asset('assets/img/Proyectos/Saludable.webp')}}" alt=""></div>
+                               <div align="center"> <img src="{{ asset('assets/img/Proyectos/MedellinSaludable.png')}}" alt=""></div>
 
 							</div>
 						</div>
