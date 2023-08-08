@@ -40,25 +40,25 @@
             <div class="container">
                 <nav class="navbar navbar-dark navbar-expand-lg py-0">
                 <a href="{{ url('/') }}" class="navbar-brand">
-                <img class="logo me-auto" src="https://app.gov.co/assets/img/Proyectos/logo-landing.png" style=" width: 200px; height: 90px;">
+                <img class="logo me-auto" src="{{ asset('assets/img/Proyectos/logo-landing.png')}}" style=" width: 200px; height: 90px;">
                 </a>
                     <button type="button" class="navbar-toggler me-0" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse bg-transparent" id="navbarCollapse">
                         <div class="navbar-nav ms-auto mx-xl-auto p-0">
-                            <a href="index.html" class="nav-item nav-link active text-secondary">Inicio</a>
-                            <a href="about.html" class="nav-item nav-link">Historia</a>
-                            <a href="service.html" class="nav-item nav-link">Recorre</a>
-                            <a href="contact.html" class="nav-item nav-link">Eventos</a>
+                            <a href="#inicio" class="nav-item nav-link active text-secondary">Inicio</a>
+                            <a href="#historia" class="nav-item nav-link">Historia</a>
+                            <a href="#recorre" class="nav-item nav-link">Recorre</a>
+                            <a href="#eventos" class="nav-item nav-link">Eventos</a>
                             <div class="nav-item dropdown">
-                                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Inmobiliaria</a>
+                                <a href="#inmo" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Inmobiliaria</a>
                                 <div class="dropdown-menu rounded">
-                                    <a href="blog.html" class="dropdown-item">BIC</a>
-                                    <a href="team.html" class="dropdown-item">Portal</a>
+                                    <a href="#" class="dropdown-item">BIC</a>
+                                    <a href="#" class="dropdown-item">Portal</a>
                                 </div>
                             </div>
-                            <a href="project.html" class="nav-item nav-link">Galería</a>
+                            <a href="#galeria" class="nav-item nav-link">Galería</a>
                         
                             
                         </div>
@@ -69,7 +69,7 @@
         <!-- Navbar End -->
 
         <!-- Carousel Start -->
-        <div class="container-fluid px-0">
+        <div class="container-fluid px-0" id="inicio">
             <div id="carouselId" class="carousel slide" data-bs-ride="carousel">
                 <ol class="carousel-indicators">
                     <li data-bs-target="#carouselId" data-bs-slide-to="0" class="active" aria-current="true" aria-label="First slide"></li>
@@ -77,7 +77,7 @@
                 </ol>
                 <div class="carousel-inner" role="listbox">
                     <div class="carousel-item active">
-                    <img src="http://agencia.test/assets/img/Galeria/prado/6.jpg" class="img-fluid" alt="First slide">
+                    <img src="{{ asset('assets/img/Galeria/prado/6.jpg')}}" class="img-fluid" alt="First slide">
                         <!-- <img src="{{ asset('prado/img/carousel-1.jpg') }}" class="img-fluid" alt="First slide"> -->
                         <div class="carousel-caption">
                             <div class="container carousel-content">
@@ -89,7 +89,7 @@
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img src="http://agencia.test/assets/img/Galeria/prado/5.jpg" class="img-fluid" alt="Second slide">
+                        <img src="{{ asset('assets/img/Galeria/prado/5.jpg')}}" class="img-fluid" alt="Second slide">
                         <div class="carousel-caption">
                             <div class="container carousel-content">
                                 <h1 class="text-white display-1 mb-4 animated fadeInRight">¡Bienvenido al Barrio Patrimonial Prado!</h1>
@@ -114,14 +114,14 @@
 
 
         <!-- About Start -->
-        <div class="container-fluid py-5 my-5">
+        <div class="container-fluid py-5 my-5" id="historia">
             <div class="container pt-5">
                 <div class="row g-5">
                     <div class="col-lg-5 col-md-6 col-sm-12 wow fadeIn" data-wow-delay=".3s">
                         <div class="h-100 position-relative">
-                            <img src="http://agencia.test/assets/img/Galeria/prado/1.jpg" class="w-75 rounded" alt="" style="margin-bottom: 25%;">
+                            <img src="{{ asset('assets/img/Galeria/prado/1.jpg')}}" class="w-75 rounded" alt="" style="margin-bottom: 25%;">
                             <div class="position-absolute w-75" style="top: 25%; left: 25%;">
-                                <img src="http://agencia.test/assets/img/Galeria/prado/1.jpg" class="w-100 rounded" alt="">
+                                <img src="{{ asset('assets/img/Galeria/prado/1.jpg')}}" class="w-100 rounded" alt="">
                             </div>
                         </div>
                     </div>
@@ -138,7 +138,7 @@
         <!-- About End -->
 
         <!-- Project Start -->
-        <div class="container-fluid project py-5 mb-5">
+        <div class="container-fluid project py-5 mb-5" id="recorre">
             <div class="container">
                 <div class="text-center mx-auto pb-5 wow fadeIn" data-wow-delay=".3s" style="max-width: 600px;">
                     <h5 class="text-primary">Recorre</h5>
@@ -148,7 +148,7 @@
                     <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".3s">
                         <div class="project-item">
                             <div class="project-img">
-                                <img src="http://agencia.test/assets/img/Galeria/prado/1.jpg" class="w-100 rounded" alt="">
+                                <img src="{{ asset('assets/img/Galeria/prado/1.jpg')}}" class="w-100 rounded" alt="">
                                 <div class="project-content">
                                     <a href="#" class="text-center">
                                         <h4 class="text-secondary">Casa 1</h4>
@@ -161,7 +161,7 @@
                     <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".5s">
                         <div class="project-item">
                             <div class="project-img">
-                                <img src="http://agencia.test/assets/img/Galeria/prado/2.jpg" class="w-100 rounded" alt="">
+                                <img src="{{ asset('assets/img/Galeria/prado/2.jpg')}}" class="w-100 rounded" alt="">
                                 <div class="project-content">
                                     <a href="#" class="text-center">
                                         <h4 class="text-secondary">Casa 2</h4>
@@ -174,7 +174,7 @@
                     <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".7s">
                         <div class="project-item">
                             <div class="project-img">
-                                <img src="http://agencia.test/assets/img/Galeria/prado/7.jpg" class="w-100 rounded" alt="">
+                                <img src="{{ asset('assets/img/Galeria/prado/7.jpg')}}" class="w-100 rounded" alt="">
                                 <div class="project-content">
                                     <a href="#" class="text-center">
                                         <h4 class="text-secondary">Casa 3</h4>
@@ -187,7 +187,7 @@
                     <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".3s">
                         <div class="project-item">
                             <div class="project-img">
-                                <img src="http://agencia.test/assets/img/Galeria/prado/4.jpg" class="w-100 rounded" alt="">
+                                <img src="{{ asset('assets/img/Galeria/prado/4.jpg')}}" class="w-100 rounded" alt="">
                                 <div class="project-content">
                                     <a href="#" class="text-center">
                                         <h4 class="text-secondary">Casa 4</h4>
@@ -200,7 +200,7 @@
                     <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".5s">
                         <div class="project-item">
                             <div class="project-img">
-                                <img src="http://agencia.test/assets/img/Galeria/prado/5.jpg" class="w-100 rounded" alt="">
+                                <img src="{{ asset('assets/img/Galeria/prado/5.jpg')}}" class="w-100 rounded" alt="">
                                 <div class="project-content">
                                     <a href="#" class="text-center">
                                         <h4 class="text-secondary">Casa 5</h4>
@@ -213,7 +213,7 @@
                     <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".7s">
                         <div class="project-item">
                             <div class="project-img">
-                                <img src="http://agencia.test/assets/img/Galeria/prado/6.jpg" class="w-100 rounded" alt="">
+                                <img src="{{ asset('assets/img/Galeria/prado/6.jpg')}}" class="w-100 rounded" alt="">
                                 <div class="project-content">
                                     <a href="#" class="text-center">
                                         <h4 class="text-secondary">Casa 6</h4>
@@ -229,7 +229,7 @@
         <!-- Project End -->
 
          <!-- Team Start -->
-         <div class="container-fluid py-5 mb-5 team">
+         <div class="container-fluid py-5 mb-5 team" id="eventos">
             <div class="container">
                 <div class="text-center mx-auto pb-5 wow fadeIn" data-wow-delay=".3s" style="max-width: 600px;">
                     <h5 class="text-primary">Eventos</h5>
@@ -240,7 +240,7 @@
                         <div class="team-content">
                             <div class="team-img-icon">
                                 <div class="team-img rounded-circle">
-                                    <img src="http://agencia.test/assets/img/Galeria/prado/6.jpg" class="w-100 rounded-circle" alt="">
+                                    <img src="{{ asset('assets/img/Galeria/prado/6.jpg')}}" class="w-100 rounded-circle" alt="">
                                 </div>
                                 <div class="team-name text-center py-3">
                                     <h4 class="">Recorrido</h4>
@@ -259,7 +259,7 @@
                         <div class="team-content">
                             <div class="team-img-icon">
                                 <div class="team-img rounded-circle">
-                                    <img src="http://agencia.test/assets/img/Galeria/prado/6.jpg" class="w-100 rounded-circle" alt="">
+                                    <img src="{{ asset('assets/img/Galeria/prado/6.jpg')}}" class="w-100 rounded-circle" alt="">
                                 </div>
                                 <div class="team-name text-center py-3">
                                     <h4 class="">Concierto</h4>
@@ -278,7 +278,7 @@
                         <div class="team-content">
                             <div class="team-img-icon">
                                 <div class="team-img rounded-circle">
-                                    <img src="http://agencia.test/assets/img/Galeria/prado/6.jpg" class="w-100 rounded-circle" alt="">
+                                    <img src="{{ asset('assets/img/Galeria/prado/6.jpg')}}" class="w-100 rounded-circle" alt="">
                                 </div>
                                 <div class="team-name text-center py-3">
                                     <h4 class="">Votación</h4>
@@ -299,7 +299,7 @@
         <!-- Team End -->
 
         <!-- Services Start -->
-        <div class="container-fluid services py-5 mb-5">
+        <div class="container-fluid services py-5 mb-5" id="inmo">
             <div class="container">
                 <div class="text-center mx-auto pb-5 wow fadeIn" data-wow-delay=".3s" style="max-width: 600px;">
                     <h5 class="text-primary">Inmobiliaria</h5>
@@ -348,7 +348,7 @@
         <!-- Services End -->
 
         <!-- Project Start -->
-        <div class="container-fluid project py-5 mb-5">
+        <div class="container-fluid project py-5 mb-5" id="galeria">
             <div class="container">
                 <div class="text-center mx-auto pb-5 wow fadeIn" data-wow-delay=".3s" style="max-width: 600px;">
                     <h5 class="text-primary">Galería</h5>
@@ -358,7 +358,7 @@
                     <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".3s">
                         <div class="project-item">
                             <div class="project-img">
-                                <img src="http://agencia.test/assets/img/Galeria/prado/1.jpg" class="w-100 rounded" alt="">
+                                <img src="{{ asset('assets/img/Galeria/prado/1.jpg')}}" class="w-100 rounded" alt="">
                                 <div class="project-content">
                                     <a href="#" class="text-center">
                                         <h4 class="text-secondary">Casa 1</h4>
@@ -371,7 +371,7 @@
                     <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".5s">
                         <div class="project-item">
                             <div class="project-img">
-                                <img src="http://agencia.test/assets/img/Galeria/prado/2.jpg" class="w-100 rounded" alt="">
+                                <img src="{{ asset('assets/img/Galeria/prado/2.jpg')}}" class="w-100 rounded" alt="">
                                 <div class="project-content">
                                     <a href="#" class="text-center">
                                         <h4 class="text-secondary">Casa 2</h4>
@@ -384,7 +384,7 @@
                     <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".7s">
                         <div class="project-item">
                             <div class="project-img">
-                                <img src="http://agencia.test/assets/img/Galeria/prado/7.jpg" class="w-100 rounded" alt="">
+                                <img src="{{ asset('assets/img/Galeria/prado/7.jpg')}}" class="w-100 rounded" alt="">
                                 <div class="project-content">
                                     <a href="#" class="text-center">
                                         <h4 class="text-secondary">Casa 3</h4>
@@ -397,7 +397,7 @@
                     <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".3s">
                         <div class="project-item">
                             <div class="project-img">
-                                <img src="http://agencia.test/assets/img/Galeria/prado/4.jpg" class="w-100 rounded" alt="">
+                                <img src="{{ asset('assets/img/Galeria/prado/4.jpg')}}" class="w-100 rounded" alt="">
                                 <div class="project-content">
                                     <a href="#" class="text-center">
                                         <h4 class="text-secondary">Casa 4</h4>
@@ -410,7 +410,7 @@
                     <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".5s">
                         <div class="project-item">
                             <div class="project-img">
-                                <img src="http://agencia.test/assets/img/Galeria/prado/5.jpg" class="w-100 rounded" alt="">
+                                <img src="{{ asset('assets/img/Galeria/prado/5.jpg')}}" class="w-100 rounded" alt="">
                                 <div class="project-content">
                                     <a href="#" class="text-center">
                                         <h4 class="text-secondary">Casa 5</h4>
@@ -423,7 +423,7 @@
                     <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".7s">
                         <div class="project-item">
                             <div class="project-img">
-                                <img src="http://agencia.test/assets/img/Galeria/prado/6.jpg" class="w-100 rounded" alt="">
+                                <img src="{{ asset('assets/img/Galeria/prado/6.jpg')}}" class="w-100 rounded" alt="">
                                 <div class="project-content">
                                     <a href="#" class="text-center">
                                         <h4 class="text-secondary">Casa 6</h4>
