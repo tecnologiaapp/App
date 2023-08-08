@@ -900,3 +900,7 @@ Route::delete('SIG/{id}', [SigController::class, 'destroy'])->name('SIG.destroy'
 Route::get('/subasta', function(){
    return view('user.projects.subasta');
 }) ->name('user.projects.subasta');
+
+Route::get('/prado_Patrimonial', function(){
+   return view('user.projects.LandingPrado');
+}) ->name('user.projects.LandingPrado');

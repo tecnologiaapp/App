@@ -111,15 +111,7 @@ En 2014 fue creado por el POT el instrumento de financiación Aprovechamiento Ec
                             <div style="text-align:center;" >    <img src="{{ asset('assets/img/Proyectos/AEEP.webp')}}" alt=""></div>
 <br>
 
-<h5 style="text-align:center;">
-Información para periodistas <br>
-Agencia para la Gestión del Paisaje, el Patrimonio <br>
-y las Alianzas Público Privadas –Agencia APP– <br>
-Aldemar Echavarría 300 4861623
 
-
-									
-								</h5>
 
 
 <div style="text-align:center;"class="col-sm-12">

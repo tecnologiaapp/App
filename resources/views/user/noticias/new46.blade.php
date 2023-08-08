@@ -74,7 +74,6 @@ Información para periodistas <br>
 Secretaría Desarrollo Económico<br>
 Daniela Lopera <br>
 Agencia App <br>
-Aldemar Echavarría  
        
       </div>
       <div style="text-align:center;" class="col-sm-12">

@@ -126,17 +126,7 @@ La Agencia APP es un ente descentralizado de la Alcaldía de Medellín, creado e
                             <div style="text-align:center;" >    <img src="{{ asset('assets/img/Proyectos/barran.webp')}}" alt=""></div>
 <br>
 
-<h5 style="text-align:center;">
-Información para periodistas <br>
-Agencia para la Gestión del Paisaje, el Patrimonio <br>
-y las Alianzas Público Privadas –Agencia APP– <br>
-Aldemar Echavarría 300 4861623
 
-
-
-
-									
-								</h5>
 
 
 

@@ -160,7 +160,7 @@ body.pojo-a11y-focusable a:focus{ outline-style: solid !important;	outline-width
 
       <div class="col-lg-3 col-md-6 footer-contact">
         <h4>Contacto</h4>
-        <p> <strong> Telefono: </strong> +57 604 448 1740</p>
+        <p> <strong> Teléfono: </strong> +57 604 448 1740</p>
          <p><strong>Correo:</strong> info@app.gov.co</p>
         <p> <strong>Información general:</strong>  info@app.gov.co</p>
         <p> <strong> Notificaciones judiciales:</strong> procesosjudiciales@app.gov.co</p>

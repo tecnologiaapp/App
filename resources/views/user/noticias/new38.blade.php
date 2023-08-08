@@ -85,16 +85,7 @@ La Alcaldía de Medellín intervendrá 60 esculturas en el marco de la Fiesta de
                             <div style="text-align:center;" >    <img src="{{ asset('assets/img/news/IMAGEN-PRADO-03.jpg')}}" alt=""></div>
 <br>
 
-<h5 style="text-align:center;">
-Información para periodistas <br>
-Agencia APP <br>
-Aldemar Echavarría 3004861623
 
-
-
-
-							
-								</h5>
 								
 <div style="text-align:center;"class="col-sm-12">
 						<iframe src="{{ asset('assets/videos/new/Rodrigo27.mp4') }}" width="700" height="400"></iframe>

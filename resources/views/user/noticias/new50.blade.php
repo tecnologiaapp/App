@@ -66,14 +66,6 @@
         
         </div>
 <br>
-<h5 class="contact" style="text-align:center; padding-top: 20px;">
-Información para periodistas <br>
-Agencia APP<br>
-<span class="datos">Aldemar Echavarría <br>
-300 486 16 23
-</span>
-      </h5>
-
 
        
       </div>

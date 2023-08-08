@@ -145,15 +145,7 @@ De los 14.300 metros establecidos en el Plan de Desarrollo Medellín Futuro 2020
                             <div style="text-align:center;" >    <img src="{{ asset('assets/img/news/4-sur2.jpg')}}" alt=""></div>
 <br>
 
-<h5 style="text-align:center;">
-Información para periodistas <br>
-Agencia APP <br>
-Aldemar Echavarría  <br>
-3004861623
 
-
-							
-								</h5>
 
                                 								
 <div style="text-align:center;"class="col-sm-12">

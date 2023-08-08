@@ -89,13 +89,6 @@ Con la publicación del proyecto de pliegos, comienza la modernización de la Un
                             <div style="text-align:center;" >    <img src="{{ asset('assets/img/news/estadio.png')}}" alt=""></div>
 <br>
 
-<h5 style="text-align:center;">
-Información para periodistas <br>
-Agencia para la Gestión del Paisaje, el Patrimonio <br>
-y las Alianzas Público Privadas –Agencia APP– <br>
-Andrés Felipe Ruiz Jaramillo 3136543943
-							
-								</h5>
 								
 <div style="text-align:center;"class="col-sm-12">
 						<iframe src="{{ asset('assets/videos/new/Rodrigo23.mp4') }}" width="700" height="400"></iframe>

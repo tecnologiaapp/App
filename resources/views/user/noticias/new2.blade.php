@@ -100,14 +100,7 @@ Otros beneficios ambientales de estos jardines verticales son la generación de 
                             <div style="text-align:center;" >    <img src="{{ asset('assets/img/Proyectos/Muros-verdes.webp')}}" alt=""></div>
 <br>
 
-<h5 style="text-align:center;">
-Información para periodistas <br>
-Agencia para la Gestión del Paisaje, el Patrimonio <br>
-y las Alianzas Público Privadas –Agencia APP– <br>
-Aldemar Echavarría 3004861623
 
-									
-								</h5>
 
 
 <div style="text-align:center;"class="col-sm-12">

@@ -283,12 +283,7 @@ De acuerdo con lo anterior, el listado de los artistas elegidos es el siguiente 
                             <div style="text-align:center;" >    <img src="{{ asset('assets/img/news/new.jpg')}}" alt=""></div>
 <br>
 
-<h5 style="text-align:center;">
-Información para periodistas <br>
-Agencia para la Gestión del Paisaje, el Patrimonio <br>
-y las Alianzas Público Privadas –Agencia APP– <br>
-Aldemar Echavarría 3004861623 								
-								</h5>
+
 
 
 

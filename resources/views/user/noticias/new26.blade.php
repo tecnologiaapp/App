@@ -129,13 +129,7 @@ Con esta galería, además de la de El Poblado y del nuevo tramo del Grafitour, 
                             <div style="text-align:center;" >    <img src="{{ asset('assets/img/news/naviera2.jpg')}}" alt=""></div>
 <br>
 
-<h5 style="text-align:center;">
-Información para periodistas <br>
-Agencia para la Gestión del Paisaje, el Patrimonio <br>
-y las Alianzas Público Privadas –Agencia APP– <br>
-Aldemar Echavarría 3004861623 
-							
-								</h5>
+
                               
 								
 

@@ -127,13 +127,7 @@ Medellín Futuro, un Valle del Software </h5>
                                 <p>“El 2 de noviembre de 1675 se le dio el nombre de Villa de Nuestra Señora de la Candelaria de Medellín a un pequeño cruce de caminos, entre la capital de Antioquia y el centro del país. Hoy, Medellín se transforma y se convierte en Distrito de Ciencia, Tecnología e Innovación y continúa la visión del plano de la Medellín Futuro de 1912 con el actual Plan de Desarrollo. Que este cumpleaños sirva para saber que la ciudad siempre ha pensado y planificado en futuro”, manifestó el director del Departamento Administrativo de Planeación, Sergio López Muñoz.
 </p>
 
-                                <h5 style="text-align:center;">
-Información para periodistas <br>
-Agencia para la Gestión del Paisaje, el Patrimonio <br>
-y las Alianzas Público Privadas –Agencia APP– <br>
-Aldemar Echavarría 3004861623 
-							
-								</h5>
+                                
 								
 <div style="text-align:center;"class="col-sm-12">
 						<iframe src="{{ asset('assets/videos/new/Rodrigo20.mp4') }}" width="700" height="400"></iframe>

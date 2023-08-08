@@ -58,10 +58,7 @@
         
         </div>
 <br>
-<h5 style="text-align:center; padding-top: 20px;">
-Información para periodistas <br>
-Agencia APP <br>
-Aldemar Echavarría 3004861623    
+ 
        
       </div>
       <div style="text-align:center;"class="col-sm-12">

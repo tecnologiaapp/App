@@ -6,7 +6,7 @@
 <link  href="{{ asset('assets/css/boletin.css') }}" rel="stylesheet">
 <style>
 	h6{
-	color:blue;	
+	color:blue;
 	}
 </style>
 </head>

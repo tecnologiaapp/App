@@ -124,15 +124,7 @@ Estas obras se complementan con otras acciones de la Agencia APP, como el mejora
                             <div style="text-align:center;" >    <img src="{{ asset('assets/img/news/29-1.jpg')}}" alt=""></div>
 <br>
 
-<h5 style="text-align:center;">
-Información para periodistas <br>
-Agencia APP <br>
-Aldemar Echavarría  <br>
-3004861623
 
-
-							
-								</h5>
 
                                 								
 <div style="text-align:center;"class="col-sm-12">
