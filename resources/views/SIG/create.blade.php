@@ -57,11 +57,15 @@
                     </div>                 
                     <div class="form-group">
                         <label for="modelo">Archivo (Modelos 3D)</label>
-                        <input type="file" class="form-control" name="modelo" id="modeloInput">
+                        <input type="file" class="form-control" name="modelo" id="modeloInput" required>
                     </div>
                     <div class="form-group">
                         <label>Imagen</label>
                         <input type="file" class="form-control" name="imagen" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Gif (Opcional)</label>
+                        <input type="file" class="form-control" name="gif">
                     </div>
                     <div class="d-flex justify-content-around">
                         <button type="submit" class="btn-get-started">Registrar Expediente</button>

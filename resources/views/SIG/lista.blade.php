@@ -34,6 +34,12 @@
                         @endif
                     </div>
                         <div class="card-body">
+                            <form action="{{ route('SIG.lista') }}" method="GET">
+                                <div class="btn-group mb-2">
+                                    <input type="text" id="texto" name="texto" class="form-control" value="{{$texto}}" placeholder="Ingrese titulo">
+                                    <input type="submit" value="Buscar" class="btn btn-primary">
+                                </div>
+                            </form>
                             <div class="table-responsive">
                                 <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
                                     <thead>
@@ -45,6 +51,7 @@
                                     <th>Recurso</th>
                                     <th>Archivo</th>
                                     <th>Imagen</th>
+                                    <th>Gif</th>
                                     <th>Opciones</th>
                                     </tr>
                                     </thead>
@@ -72,6 +79,9 @@
                                             <td>
                                             {{ !empty($si->imagen ) ? substr($si->imagen, 0, 18) . (strlen($si->imagen ) > 18 ? '...' : '') : 'N/A' }}
                                             </td>
+                                            <td>
+                                            {{ !empty($si->gif ) ? substr($si->gif, 0, 18) . (strlen($si->gif ) > 18 ? '...' : '') : 'N/A' }}
+                                            </td>
                                         
                                             <td class="text-center">
                                                 <form action="{{ url('/SIG/'.$si->id) }}" method="POST" class="d-flex justify-content-center">
@@ -87,7 +97,7 @@
                                     </tbody>
                                     <tfoot>
                                         <tr>
-                                            <td colspan="7"> {{$sig->appends(['busqueda'=>$busqueda])}}  </td>
+                                            <td colspan="9"> {{$sig->appends(['texto'=>$texto])}}  </td>
                                         </tr>
                                     </tfoot>
                                 </table>

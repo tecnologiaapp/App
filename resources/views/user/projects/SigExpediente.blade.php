@@ -83,6 +83,9 @@
   color: #fff;
   border: 2px solid #3498db;
 }
+.gif-image {
+    animation-play-state: paused;
+}
 </style>
 <body>
 
@@ -145,9 +148,10 @@
                         <div class="col-lg-4 col-md-6 mt-4 mt-lg-0 pt-4 portfolio-item" data-aos="fade-up" data-aos-delay="400">
                           <div class="portfolio-img">
                           @if (isset($story->enlace) && !empty($story->enlace))
-                          <a href="{{$story->enlace}}" target="_blank"><img src="{{ asset('storage/recurso/' . $story->imagen) }}" class="img-fluid" alt=""></a>
+                          <a href="{{$story->enlace}}" target="_blank"><img class="static-image" src="{{ asset('storage/recurso/' . $story->imagen) }}" class="img-fluid" alt=""><img class="gif-image"  src="{{ asset('storage/recurso/' . $story->gif) }}" class="img-fluid" alt=""> </a>
                           @else
-                          <img src="{{ asset('storage/recurso/' . $story->imagen) }}" class="img-fluid" alt="">
+                          <img class="static-image" src="{{ asset('storage/recurso/' . $story->imagen) }}" alt="">
+                          <img class="gif-image" src="{{ asset('storage/recurso/' . $story->gif) }}" alt="">
                           @endif                          
                         </div>
                             <div class="portfolio-info">
@@ -187,9 +191,10 @@
                         <div class="col-lg-4 col-md-6 mt-4 mt-lg-0 pt-4 portfolio-item" data-aos="fade-up" data-aos-delay="400">
                         <div class="portfolio-img">
                         @if (isset($mapa->enlace) && !empty($mapa->enlace))
-                          <a href="{{$mapa->enlace}}" target="_blank"><img src="{{ asset('storage/recurso/' . $mapa->imagen) }}" class="img-fluid" alt=""></a>
+                        <a href="{{$mapa->enlace}}" target="_blank"><img class="static-image" src="{{ asset('storage/recurso/' . $mapa->imagen) }}" class="img-fluid" alt=""><img class="gif-image"  src="{{ asset('storage/recurso/' . $mapa->gif) }}" class="img-fluid" alt=""> </a>
                           @else
-                          <img src="{{ asset('storage/recurso/' . $mapa->imagen) }}" class="img-fluid" alt="">
+                          <img class="static-image" src="{{ asset('storage/recurso/' . $mapa->imagen) }}" alt="">
+                          <img class="gif-image" src="{{ asset('storage/recurso/' . $mapa->gif) }}" alt="">
                           @endif 
                          
                         </div>
@@ -230,9 +235,10 @@
                         <div class="col-lg-4 col-md-6 mt-4 mt-lg-0 pt-4 portfolio-item" data-aos="fade-up" data-aos-delay="400">
                           <div class="portfolio-img">
                           @if (isset($apli->enlace) && !empty($apli->enlace))
-                          <a href="{{$apli->enlace}}" target="_blank"><img src="{{ asset('storage/recurso/' . $apli->imagen) }}" class="img-fluid" alt=""></a>
+                          <a href="{{$apli->enlace}}" target="_blank"><img class="static-image" src="{{ asset('storage/recurso/' . $apli->imagen) }}" class="img-fluid" alt=""><img class="gif-image"  src="{{ asset('storage/recurso/' . $apli->gif) }}" class="img-fluid" alt=""> </a>
                           @else
-                          <img src="{{ asset('storage/recurso/' . $apli->imagen) }}" class="img-fluid" alt="">
+                          <img class="static-image" src="{{ asset('storage/recurso/' . $apli->imagen) }}" alt="">
+                          <img class="gif-image" src="{{ asset('storage/recurso/' . $apli->gif) }}" alt="">
                           @endif 
                           </div>
                             <div class="portfolio-info">
@@ -272,11 +278,10 @@
                         <div class="col-lg-4 col-md-6 mt-4 mt-lg-0 pt-4 portfolio-item" data-aos="fade-up" data-aos-delay="400">
                           <div class="portfolio-img">
                           @if (isset($dash->enlace) && !empty($dash->enlace))
-                              <a href="{{ $dash->enlace }}" target="_blank">
-                                  <img src="{{ asset('storage/recurso/' . $dash->imagen) }}" class="img-fluid" alt="">
-                              </a>
+                          <a href="{{$dash->enlace}}" target="_blank"><img class="static-image" src="{{ asset('storage/recurso/' . $dash->imagen) }}" class="img-fluid" alt=""><img class="gif-image"  src="{{ asset('storage/recurso/' . $dash->gif) }}" class="img-fluid" alt=""> </a>
                           @else
-                              <img src="{{ asset('storage/recurso/' . $dash->imagen) }}" class="img-fluid" alt="">
+                          <img class="static-image" src="{{ asset('storage/recurso/' . $dash->imagen) }}" alt="">
+                          <img class="gif-image" src="{{ asset('storage/recurso/' . $dash->gif) }}" alt="">
                           @endif
                           </div>
                             <div class="portfolio-info">
@@ -316,9 +321,10 @@
                         <div class="col-lg-4 col-md-6 mt-4 mt-lg-0 pt-4 portfolio-item" data-aos="fade-up" data-aos-delay="400">
                           <div class="portfolio-img">
                           @if (isset($app->enlace) && !empty($app->enlace))
-                          <a href="{{$app->enlace}}" target="_blank"><img src="{{ asset('storage/recurso/' . $app->imagen) }}" class="img-fluid" alt=""></a>
+                          <a href="{{$app->enlace}}" target="_blank"><img class="static-image" src="{{ asset('storage/recurso/' . $app->imagen) }}" class="img-fluid" alt=""><img class="gif-image"  src="{{ asset('storage/recurso/' . $app->gif) }}" class="img-fluid" alt=""> </a>
                           @else
-                          <img src="{{ asset('storage/recurso/' . $app->imagen) }}" class="img-fluid" alt="">
+                          <img class="static-image" src="{{ asset('storage/recurso/' . $app->imagen) }}" alt="">
+                          <img class="gif-image" src="{{ asset('storage/recurso/' . $app->gif) }}" alt="">
                           @endif   
                           </div>
                             <div class="portfolio-info">
@@ -357,9 +363,10 @@
                         <div class="col-lg-4 col-md-6 mt-4 mt-lg-0 pt-4 portfolio-item" data-aos="fade-up" data-aos-delay="400">
                           <div class="portfolio-img">
                           @if (isset($orto->enlace) && !empty($orto->enlace))
-                          <a href="{{$orto->enlace}}" target="_blank"><img src="{{ asset('storage/recurso/' . $orto->imagen) }}" class="img-fluid" alt=""></a>
+                          <a href="{{$orto->enlace}}" target="_blank"><img class="static-image" src="{{ asset('storage/recurso/' . $orto->imagen) }}" class="img-fluid" alt=""><img class="gif-image"  src="{{ asset('storage/recurso/' . $orto->gif) }}" class="img-fluid" alt=""> </a>
                           @else
-                          <img src="{{ asset('storage/recurso/' . $orto->imagen) }}" class="img-fluid" alt="">
+                          <img class="static-image" src="{{ asset('storage/recurso/' . $orto->imagen) }}" alt="">
+                          <img class="gif-image" src="{{ asset('storage/recurso/' . $orto->gif) }}" alt="">
                           @endif     
                           </div>
                             <div class="portfolio-info">
@@ -405,9 +412,10 @@
                         <div class="col-lg-4 col-md-6 mt-4 mt-lg-0 pt-4 portfolio-item" data-aos="fade-up" data-aos-delay="400">
                           <div class="portfolio-img">
                           @if (isset($mode->enlace) && !empty($mode->enlace))
-                          <a href="{{$mode->enlace}}" target="_blank"><img src="{{ asset('storage/recurso/' . $mode->imagen) }}" class="img-fluid" alt=""> </a>
+                          <a href="{{$mode->enlace}}" target="_blank"><img class="static-image" src="{{ asset('storage/recurso/' . $mode->imagen) }}" class="img-fluid" alt=""><img class="gif-image"  src="{{ asset('storage/recurso/' . $mode->gif) }}" class="img-fluid" alt=""> </a>
                           @else
-                          <img src="{{ asset('storage/recurso/' . $mode->imagen) }}" class="img-fluid" alt=""> 
+                          <img class="static-image" src="{{ asset('storage/recurso/' . $mode->imagen) }}" alt="">
+                          <img class="gif-image" src="{{ asset('storage/recurso/' . $mode->gif) }}" alt="">
                           @endif                            
                                                        
                           </div>
@@ -450,11 +458,11 @@
                         <div class="col-lg-4 col-md-6 mt-4 mt-lg-0 pt-4 portfolio-item" data-aos="fade-up" data-aos-delay="400">
                           <div class="portfolio-img">
                           @if (isset($colec->enlace) && !empty($colec->enlace))
-                          <a href="{{$colec->enlace}}" target="_blank"><img src="{{ asset('storage/recurso/' . $colec->imagen) }}" class="img-fluid" alt="">  </a>
+                          <a href="{{$colec->enlace}}" target="_blank"><img class="static-image" src="{{ asset('storage/recurso/' . $colec->imagen) }}" class="img-fluid" alt=""><img class="gif-image"  src="{{ asset('storage/recurso/' . $colec->gif) }}" class="img-fluid" alt=""> </a>
                           @else
-                          <img src="{{ asset('storage/recurso/' . $colec->imagen) }}" class="img-fluid" alt="">  
-                          @endif                           
-                                                      
+                          <img class="static-image" src="{{ asset('storage/recurso/' . $colec->imagen) }}" alt="">
+                          <img class="gif-image" src="{{ asset('storage/recurso/' . $colec->gif) }}" alt="">
+                          @endif
                           </div>
                             <div class="portfolio-info">
                               <h4>{{$colec->titulo}}</h4>
@@ -640,6 +648,52 @@ $(document).ready(function() {
   });
 });
 </script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<script>
+    // Este código utiliza jQuery, asegúrate de tenerlo incluido en tu página
+    $(document).ready(function() {
+        $(".portfolio-img").each(function() {
+            var staticImage = $(this).find(".static-image");
+            var gifImage = $(this).find(".gif-image");
+            var img = new Image();
+
+            // Verifica si la imagen del GIF se ha cargado
+            img.onload = function() {
+                // Si el GIF existe, muestra la imagen estática inicialmente
+                staticImage.show();
+                gifImage.hide();
+            };
+
+            // En caso de error al cargar la imagen (el GIF no existe), muestra solo la imagen estática
+            img.onerror = function() {
+                staticImage.show();
+                gifImage.hide();
+            };
+
+            img.src = gifImage.attr("src");
+
+            // Asigna los eventos hover solo si la imagen del GIF existe
+            if (img.complete) {
+                $(this).hover(
+                    function() {
+                        staticImage.hide();
+                        gifImage.show();
+                    },
+                    function() {
+                        staticImage.show();
+                        gifImage.hide();
+                    }
+                );
+            }
+        });
+    });
+</script>
+
+
+
+
+
 </body>
 
 </html>

@@ -51,11 +51,14 @@ class SigController extends Controller
     }
 
     public function lista(Request $request)
-    {   $busqueda = $request->busqueda;
-        $sig = SIG::orderBy('id', 'desc')->paginate(8);
+    {  
+        $texto = trim($request->get('texto'));
+        $sig = SIG::where('titulo','LIKE','%'.$texto.'%')
+                      ->orderBy('id', 'desc')
+                      ->paginate(8);
         $data = [
             'sig' =>$sig,
-            'busqueda' =>$busqueda,
+            'texto' =>$texto,
             ];
         return view('SIG.lista', $data);
     }
@@ -88,6 +91,12 @@ class SigController extends Controller
             $imagenNombre = $archivo->getClientOriginalName();
             $archivo->storeAs('public/recurso', $imagenNombre);
             $sig->imagen = $imagenNombre;
+        }
+        if ($request->hasFile('gif') && $request->file('gif')->isValid()) {
+            $archivo = $request->file('gif');
+            $imagenNombre = $archivo->getClientOriginalName();
+            $archivo->storeAs('public/recurso', $imagenNombre);
+            $sig->gif = $imagenNombre;
         }
     
         $sig->save();
@@ -124,6 +133,12 @@ class SigController extends Controller
             $imagenNombre = $archivo->getClientOriginalName();
             $archivo->storeAs('public/recurso', $imagenNombre);
             $sig->imagen = $imagenNombre;
+        }
+        if ($request->hasFile('gif') && $request->file('gif')->isValid()) {
+            $archivo = $request->file('gif');
+            $imagenNombre = $archivo->getClientOriginalName();
+            $archivo->storeAs('public/recurso', $imagenNombre);
+            $sig->gif = $imagenNombre;
         }
         $notificacion = 'El contenido se ha actualizado correctamente';
         $sig->save();      

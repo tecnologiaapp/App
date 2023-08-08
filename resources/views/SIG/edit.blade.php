@@ -63,6 +63,10 @@
                     <div class="form-group">
                         <label>Imagen</label>
                         <input type="file" class="form-control" name="imagen">
+                    </div>
+                    <div class="form-group">
+                        <label>Gif (Opcional)</label>
+                        <input type="file" class="form-control" name="gif">
                     </div> 
                     <div class="d-flex justify-content-around">
                         <button type="submit" class="btn-get-started">Actualizar datos</button>
