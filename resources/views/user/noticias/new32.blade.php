@@ -90,7 +90,7 @@ Con la publicación del proyecto de pliegos, comienza la modernización de la Un
 <br>
 
 								
-<div style="text-align:center;"class="col-sm-12">
+<div style="text-align:center;"class="col-sm-12 pt-4">
 						<iframe src="{{ asset('assets/videos/new/Rodrigo23.mp4') }}" width="700" height="400"></iframe>
 					</div>
 								

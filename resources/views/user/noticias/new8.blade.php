@@ -123,7 +123,7 @@ La modernización de la Unidad Deportiva Estadio Atanasio Girardot permitirá me
 
 
 
-<div style="text-align:center;"class="col-sm-12">
+<div style="text-align:center;"class="col-sm-12 pt-4">
 						<iframe src="{{ asset('assets/videos/new/Rodrigo8.mp4') }}" width="700" height="400"></iframe>
 					</div>
 

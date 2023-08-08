@@ -126,7 +126,7 @@ El Sistema gerencial de participación ciudadana para el monitoreo de la gestió
 
 
 								
-<div style="text-align:center;"class="col-sm-12">
+<div style="text-align:center;"class="col-sm-12 pt-4">
 						<iframe src="{{ asset('assets/videos/new/Daniel3.mp4') }}" width="700" height="400"></iframe>
 					</div>
 

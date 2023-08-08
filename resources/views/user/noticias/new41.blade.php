@@ -96,7 +96,7 @@ La Alhambra se renueva con la intervención de 34 fachadas y más espacio públi
 
 
 								
-<div style="text-align:center;"class="col-sm-12">
+<div style="text-align:center;"class="col-sm-12 pt-4">
 						<iframe src="{{ asset('assets/videos/new/Rodrigo30.mp4') }}" width="700" height="400"></iframe>
 					</div>
 

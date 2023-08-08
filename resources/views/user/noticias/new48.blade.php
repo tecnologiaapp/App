@@ -30,7 +30,7 @@
         <p>Finalmente, entre el 26 de abril y el 3 de mayo, la Agencia APP y el Hotel Nutibara organizan un concurso de fotografía con dos categorías, Histórica y Nocturna. El reconocimiento será una noche de hospedaje, por pareja, en la suite presidencial del hotel. Toda la información de esta convocatoria está disponible en: <a href="https://app.gov.co/nutibara" target="_blank">https://app.gov.co/nutibara</a>. </p>
         </div>
         
-        <div style="text-align:center;" class="col-sm-12">
+        <div style="text-align:center;" class="col-sm-12 pt-4">
             <div id="carouselExampleControls" class="carousel slide justify-content-center align-items-center" data-bs-ride="carousel" style="height:450px;">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
@@ -63,7 +63,7 @@
 
        
       </div>
-      <div style="text-align:center;" class="col-sm-12">
+      <div style="text-align:center;" class="col-sm-12 pt-4">
 						<iframe src="{{ asset('assets/videos/new/Rodrigo37.mp4') }}" width="700" height="400"></iframe>
 					</div>
       <div class="section-title" style="padding-top: 60px;">

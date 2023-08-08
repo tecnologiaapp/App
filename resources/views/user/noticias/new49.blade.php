@@ -38,7 +38,7 @@
         
         </div>
         
-        <div style="text-align:center;" class="col-sm-12">
+        <div style="text-align:center;" class="col-sm-12 pt-4">
             <div id="carouselExampleControls" class="carousel slide justify-content-center align-items-center" data-bs-ride="carousel" style="height:450px;">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
@@ -74,7 +74,7 @@ Byron García Correa – 313 6419192<br>
 
        
       </div>
-                    <div style="text-align:center;" class="col-sm-12">
+                    <div style="text-align:center;" class="col-sm-12 pt-4">
 						<iframe src="{{ asset('assets/videos/new/director.mp4') }}" width="700" height="400"></iframe>
 					</div>
       <div class="section-title" style="padding-top: 60px;">

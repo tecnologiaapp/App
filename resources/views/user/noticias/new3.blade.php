@@ -101,7 +101,7 @@ Se espera que, en cerca de nueve meses, la Agencia APP reciba por parte del orig
 
 
 
-<div style="text-align:center;"class="col-sm-12">
+<div style="text-align:center;"class="col-sm-12 pt-4">
 						<iframe src="{{ asset('assets/videos/new/Rodrigo3.mp4') }}" width="700" height="400"></iframe>
 					</div>
 

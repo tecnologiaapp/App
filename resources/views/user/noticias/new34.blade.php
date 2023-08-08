@@ -88,7 +88,7 @@ Más de 1.500 empleos directos se recuperaron con la reactivación económica de
 
 
 								
-<div style="text-align:center;"class="col-sm-12">
+<div style="text-align:center;"class="col-sm-12 pt-4">
 						<iframe src="{{ asset('assets/videos/new/Rodrigo24.mp4') }}" width="700" height="400"></iframe>
 					</div>
 

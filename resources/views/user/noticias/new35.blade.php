@@ -104,7 +104,7 @@ Gina Álvarez Betancur 3104207510
 							
 								</h5>
 								
-<div style="text-align:center;"class="col-sm-12">
+<div style="text-align:center;"class="col-sm-12 pt-4">
 						<iframe src="{{ asset('assets/videos/new/Rodrigo25.mp4') }}" width="700" height="400"></iframe>
 					</div>
 
