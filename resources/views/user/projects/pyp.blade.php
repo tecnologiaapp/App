@@ -237,18 +237,16 @@ section{
 <section>
 		<!--Page Title Hero-->
 		<div class="vlt-page-title-hero vlt-page-title-hero--work vlt-page-title-hero--lg jarallax">
-			<div class="vlt-page-title-hero__overlay"></div><img class="jarallax-img" src="{{ asset('assets/img/bg/5.jpg')}}" alt="">
-			<div class="vlt-page-title-hero__content">
-		
-							<h1 style="color:white;">
-							Gestión del Paisaje y el Patrimonio
-							</h1>
-		
-			</div>
+			<div class="vlt-page-title-hero__overlay"></div><img class="jarallax-img" src="{{ asset('assets/img/Banners/BannerGestionDelPaisaje.jpg')}}" alt="">
+				<div class="vlt-page-title-hero__content ocultPosition">
 
-		</div>
-		
-	</section>
+					<h1 style="color:white;">
+					Gestión del paisaje y patrimonio
+					</h1>
+				</div>
+			</div>
+		</div>		
+</section>
 		<div class="vlt-gap-60"></div>
 		
 			

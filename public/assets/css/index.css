@@ -630,6 +630,16 @@ h6 {
     padding: 18px;
     list-style-type: none;
 }
+
+h3 {
+  font-size: 27px;
+  font-weight: bold;
+  text-transform: inherit;
+  position: relative;
+  color: #000000;
+  text-align: center;
+  margin: 35px 0;
+}
           
         
       

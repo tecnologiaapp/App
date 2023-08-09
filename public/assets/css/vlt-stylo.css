@@ -5016,7 +5016,7 @@ table thead th
 }
 .vlt-page-title-hero--lg
 {
-    padding: 200px 0;
+    padding: 225px 0;
 }
 
 .vlt-page-title-hero--sm
@@ -6986,8 +6986,7 @@ table thead th
 .vlt-social-share h5
 {
     margin: 0 0 30px;
-
-    color: #0b0b0b;
+    color: #ea5b67;
 }
 
 /* Shortcode: subscribe form */
@@ -8929,6 +8928,16 @@ table thead th,
     letter-spacing: .05em;
     text-transform:inherit; 
 }
+
+@media only screen and (max-width: 426px) {
+    .vlt-page-title-hero--lg {
+        padding: 134px 0;
+    }
+  
+    #jarallax-container-0 img {
+        margin-top: 295.4px;
+    }
+  }
 
 
   
