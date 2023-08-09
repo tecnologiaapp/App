@@ -1,6 +1,6 @@
 @extends('layouts.app')
 @section('content')
-@section('body_color', '#FBFEE6;')
+@section('body_color', '#ffffff;')
 
 
 

@@ -4,18 +4,16 @@
 <section>
 		<!--Page Title Hero-->
 		<div class="vlt-page-title-hero vlt-page-title-hero--work vlt-page-title-hero--lg jarallax">
-			<div class="vlt-page-title-hero__overlay"></div><img class="jarallax-img" src="{{ asset('assets/img/bg/5.jpg')}}" alt="">
-			<div class="vlt-page-title-hero__content">
-		
-							<h1 style="color:white;">
-							Plan Integral de Gestión de Prado
-							</h1>
-		
-			</div>
+			<div class="vlt-page-title-hero__overlay"></div><img class="jarallax-img" src="{{ asset('assets/img/Banners/bannerPlanIntegralDeGestionDePrado.jpg')}}" alt="">
+				<div class="vlt-page-title-hero__content ocultPosition">
 
-		</div>
-		
-	</section>
+					<h1 style="color:white;">
+					Plan integral de gestión de prado
+					</h1>
+				</div>
+			</div>
+		</div>		
+</section>
 	<!--Content-->
 	<section>
 		<div class="vlt-gap-0"></div>
@@ -34,7 +32,7 @@
 								</p>
                                 <hr>
 								
-                               <div align="center"> <img src="{{ asset('assets/img/Proyectos/Gestion-prado.webp')}}" alt=""></div>
+                               <div align="center"> <img src="{{ asset('assets/img/Proyectos/imgGestionDeBienesInmueblesFiscales.png')}}" alt=""></div>
 
 							</div>
 						</div>

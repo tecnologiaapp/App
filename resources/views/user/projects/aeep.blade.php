@@ -1,6 +1,6 @@
 @extends('layouts.app')
 @section('content')
-@section('body_color', '#FBFEE6;')
+@section('body_color', '#ffffff;')
 
 
 <style>
@@ -36,18 +36,16 @@
 <section>
 		<!--Page Title Hero-->
 		<div class="vlt-page-title-hero vlt-page-title-hero--work vlt-page-title-hero--lg jarallax">
-			<div class="vlt-page-title-hero__overlay"></div><img class="jarallax-img" src="{{ asset('assets/img/bg/5.jpg')}}" alt="">
-			<div class="vlt-page-title-hero__content">
-		
-							<h1 style="color:white;">
-							Aprovechamiento Económico del Espacio Público -AEEP-
-							</h1>
-		
-			</div>
+			<div class="vlt-page-title-hero__overlay"></div><img class="jarallax-img" src="{{ asset('assets/img/Banners/bannerAprovEconomicoDelEspacio.jpg')}}" alt="">
+				<div class="vlt-page-title-hero__content ocultPosition">
 
-		</div>
-		
-	</section>
+					<h1 style="color:white;">
+					Aprovechamiento Económico del Espacio Público -AEEP-
+					</h1>
+				</div>
+			</div>
+		</div>		
+</section>
 	<!--Content-->
 	<section>
 		<div class="vlt-gap-0"></div>
@@ -212,7 +210,7 @@ El aprovechamiento económico se podrá realizar en los componentes del Subsiste
 
 
 					</ul>
-					<div align="center"> <img src="{{ asset('assets/img/Proyectos/AEEP.webp')}}" alt="Espacios públicos susceptibles de ser aprovechados económicamente" title="Espacios públicos susceptibles de ser aprovechados económicamente"></div>
+					<div align="center"> <img src="{{ asset('assets/img/Proyectos/imgAprovEconomicoDelEspacio.png')}}" alt="Espacios públicos susceptibles de ser aprovechados económicamente" title="Espacios públicos susceptibles de ser aprovechados económicamente"></div>
 <br>
 <hr>
 					<h3 style="text-align:center;">

@@ -150,17 +150,20 @@
 	margin-bottom:20px;
 }
 
-.post-body .post-link{
-	display:block;
-	text-decoration:none;
-	padding:10px;
-	background:#2b6ebb;
-	color:#fff;
-	width:50%;
-	margin:auto;
-	border-radius:20px;
-	box-shadow:1px 2px 6px 1px rgba(0,0,0, .1);
-	transition:.2s;
+.post-body .post-link {
+    display: block;
+    text-decoration: none;
+    padding: 5px 8px;
+    background: #f5b732;
+    color: #333333;
+    width: 50%;
+    margin: auto;
+    border-radius: 20px;
+    box-shadow: 1px 2px 6px 1px rgba(0,0,0, .1);
+    transition: .2s;
+    font-family: "muli", sans-serif !important;
+    font-size: 14px;
+    font-weight: normal;
 }
 
 .post-body .post-link:hover{
@@ -190,18 +193,16 @@ section{
 <section>
 		<!--Page Title Hero-->
 		<div class="vlt-page-title-hero vlt-page-title-hero--work vlt-page-title-hero--lg jarallax">
-			<div class="vlt-page-title-hero__overlay"></div><img class="jarallax-img" src="{{ asset('assets/img/bg/5.jpg')}}" alt="">
-			<div class="vlt-page-title-hero__content">
-		
-							<h1 style="color:white;">
-							Gestión Inmobiliaria
-							</h1>
-		
-			</div>
+			<div class="vlt-page-title-hero__overlay"></div><img class="jarallax-img" src="{{ asset('assets/img/Banners/bannerGestionInmobiliaria.jpg')}}" alt="">
+				<div class="vlt-page-title-hero__content ocultPosition">
 
-		</div>
-		
-	</section>
+					<h1 style="color:white;">
+					Gestión inmobiliaria
+					</h1>
+				</div>
+			</div>
+		</div>		
+</section>
 
 
 			<body>

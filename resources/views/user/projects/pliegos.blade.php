@@ -1,6 +1,6 @@
 @extends('layouts.app')
 @section('content')
-@section('body_color', '#FBFEE6;')
+@section('body_color', '#ffffff;')
 	<section>
 		<!--Page Title Hero-->
 		<div class="vlt-page-title-hero vlt-page-title-hero--work vlt-page-title-hero--lg jarallax">

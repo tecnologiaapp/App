@@ -12,7 +12,7 @@
           <h2>Constelaciones, el mural artístico más grande de Medellín, se potencia como nuevo destino turístico y cultural </h2>
         </div>
 
-        <ul>
+        <ul class="list-constelaciones">
             <li>Más de 500 casas fueron intervenidas con color para mejorar el paisaje urbano de los barrios Brisas del Jardín y San José de la Cima II, en Manrique. </li>
             <li>El macromural Constelaciones comprende una gran obra dirigida por el artista plástico Fredy Alzate y 30 murales más realizados por cuatro colectivos y dos artistas urbanos.</li>
             <li>Esta transformación urbana impulsa el turismo en el sector, y aporta a la seguridad y la convivencia ciudadana. </li>

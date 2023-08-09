@@ -1,21 +1,19 @@
 @extends('layouts.app')
 @section('content')
-@section('body_color', '#FBFEE6;')
+@section('body_color', '#ffffff;')
 <section>
 		<!--Page Title Hero-->
 		<div class="vlt-page-title-hero vlt-page-title-hero--work vlt-page-title-hero--lg jarallax">
-			<div class="vlt-page-title-hero__overlay"></div><img class="jarallax-img" src="{{ asset('assets/img/bg/5.jpg')}}" alt="">
-			<div class="vlt-page-title-hero__content">
-		
-							<h1 style="color:white;">
-							Estructuración de proyectos inmobiliarios
-							</h1>
-		
-			</div>
+			<div class="vlt-page-title-hero__overlay"></div><img class="jarallax-img" src="{{ asset('assets/img/Banners/bannerEstructuracionDeProyectosInmobiliarios.jpg')}}" alt="">
+				<div class="vlt-page-title-hero__content ocultPosition">
 
-		</div>
-		
-	</section>
+					<h1 style="color:white;">
+					Estructuración de proyectos inmobiliarios
+					</h1>
+				</div>
+			</div>
+		</div>		
+</section>
 
 	<!--Content-->
 	<section>
@@ -41,7 +39,7 @@
 								</p>
                                 <hr>
 								
-                               <div align="center"> <img src="{{ asset('assets/img/Proyectos/inmobiliarios.webp')}}" alt=""></div>
+                               <div align="center"> <img src="{{ asset('assets/img/Proyectos/imgGestionDeBienesInmueblesFiscales.png')}}" alt=""></div>
 
 							</div>
 						</div>
