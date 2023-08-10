@@ -22,10 +22,10 @@
         <link rel="stylesheet" href="{{ asset('prado/lib/owlcarousel/assets/owl.carousel.min.css')}}">
 
         <!-- Customized Bootstrap Stylesheet -->
-        <link rel="stylesheet" href="{{ asset('prado/css/bootstr.css')}}">
+        <link rel="stylesheet" href="{{ asset('prado/css/bootstra.css')}}">
 
         <!-- Template Stylesheet -->
-        <link rel="stylesheet" href="{{ asset('prado/css/styl.css')}}">
+        <link rel="stylesheet" href="{{ asset('prado/css/stylo.css')}}">
     </head>
 
     <body>
@@ -127,9 +127,9 @@
                     </div>
                     <div class="col-lg-7 col-md-6 col-sm-12 wow fadeIn" data-wow-delay=".5s">
                         <h5 class="text-primary">Historia</h5>
-                        <h1 class="mb-4">Lorem, ipsum dolor.</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur quis purus ut interdum. Pellentesque aliquam dolor eget urna ultricies tincidunt. Nam volutpat libero sit amet leo cursus, ac viverra eros tristique. Morbi quis quam mi. Cras vel gravida eros. Proin scelerisque quam nec elementum viverra. Suspendisse viverra hendrerit diam in tempus. Etiam gravida justo nec erat vestibulum, et malesuada augue laoreet.</p>
-                        <p class="mb-4">Pellentesque aliquam dolor eget urna ultricies tincidunt. Nam volutpat libero sit amet leo cursus, ac viverra eros tristique. Morbi quis quam mi. Cras vel gravida eros. Proin scelerisque quam nec elementum viverra. Suspendisse viverra hendrerit diam in tempus.</p>
+                        <h1 class="mb-4">El barrio Prado </h1>
+                        <p>Es un barrio patrimonial de Medellín debido a su importancia histórica, cultural y arquitectónica. El barrio fue fundado en 1926 por el industrial Ricardo Olano, quien compró un terreno de 100 hectáreas al norte de la ciudad y lo loteó para construir viviendas de lujo. El barrio se inspiró en el movimiento de la ciudad jardín, que buscaba crear barrios residenciales con espacios verdes y áreas comunes.</p>
+                        <p class="mb-4">Las primeras casas del barrio Prado fueron construidas en los estilos Art Deco, Neocolonial y Modernista. Estas casas fueron habitadas por las familias más ricas de Medellín, que buscaban un lugar exclusivo y tranquilo para vivir. El barrio Prado se convirtió rápidamente en uno de los barrios más exclusivos de Medellín. En la década de 1930, el barrio fue el hogar de varios personajes importantes de la historia de Colombia, como el escritor Gabriel García Márquez y el político Jorge Eliecer Gaitán.</p>
                         <a href="" class="btn btn-secondary rounded-pill px-5 py-3 text-white">Más detalles</a>
                     </div>
                 </div>

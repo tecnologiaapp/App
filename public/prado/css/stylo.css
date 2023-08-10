@@ -185,13 +185,13 @@
     position: absolute;
     top: 50%;
     left: 0;
-    background: var(--bs-primary);
+    background: #3fbcd6;
     border-radius: 0 50px 50px 0;
     opacity: 1;
 }
 
 .carousel-control-prev:hover {
-    background: var(--bs-secondary);
+    background: #00e4f7;
     transition: .8s;
 }
 
@@ -201,27 +201,27 @@
     position: absolute;
     top: 50%;
     right: 0;
-    background: var(--bs-primary);
+    background: #3fbcd6;
     border-radius: 50px 0 0 50px;
     opacity: 1;
 }
 
 .carousel-control-next:hover {
-    background: var(--bs-secondary);
+    background: #00e4f7;
     transition: .8s;
 }
 
 .carousel-caption .carousel-content a button.carousel-content-btn1 {
-    background: var(--bs-secondary);
-    color: var(--bs-dark);
+    background: #ffffff;
+    color: #000;
     opacity: 1;
     border: 0;
     border-radius: 20px;
 }
 
 .carousel-caption .carousel-content a button.carousel-content-btn1:hover {
-    background: var(--bs-primary);
-    color: #ffffff;
+    background: #3fbcd6;
+    color: var(--bs-dark);
     border: 0;
     opacity: 1;
     transition: 1s;
@@ -229,15 +229,15 @@
 }
 
 .carousel-caption .carousel-content a button.carousel-content-btn2 {
-    background: var(--bs-primary);
-    color: var(--bs-white);
+    background: #ffffff;
+    color: #000;
     opacity: 1;
     border: 0;
     border-radius: 20px;
 }
 
 .carousel-caption .carousel-content a button.carousel-content-btn2:hover {
-    background: var(--bs-secondary);
+    background: #3fbcd6;
     color: var(--bs-dark);
     border: 0;
     opacity: 1;
@@ -248,14 +248,14 @@
 #carouselId .carousel-indicators li {
     width: 30px;
     height: 10px;
-    background: var(--bs-primary);
+    background: #3fbcd6;
     margin: 10px;
     border-radius: 30px;
     opacity: 1;
 }
 
 #carouselId .carousel-indicators li:hover {
-    background: var(--bs-secondary);
+    background: #00e4f7;
     opacity: 1;
 }
 
@@ -335,7 +335,7 @@
     top: 0;
     left: 0;
     border-radius: 10px 10px 0 0;
-    background: rgba(3, 43, 243, 0.8);
+    background: #3fbcd6;
     transition: .5s;
 }
 
@@ -362,7 +362,7 @@
 }
 
 .services-item:hover .services-content-icon i {
-    color: var(--bs-secondary) !important;
+    color: #000000 !important;
 }
 
 .services-item:hover .services-content-icon p {
@@ -386,7 +386,7 @@
     height: 150px;
     top: 0;
     left: 0;
-    background: var(--bs-secondary);
+    background: #3fbcd6;
     border-radius: 10px;
     opacity: 1;
     z-index: -1;
@@ -400,7 +400,7 @@
     position: absolute;
     right: 0;
     bottom: 0;
-    background: var(--bs-primary);
+    background: #b3348a;
     border-radius: 10px;
     opacity: 1;
     z-index: -1;
@@ -422,7 +422,7 @@
 .project-content a {
     display: inline-block;
     padding: 20px 25px;
-    background: var(--bs-primary);
+    background: #3fbcd6;
     border-radius: 10px;
 }
 
@@ -480,7 +480,7 @@
 /*** Team Start ***/
 
 .team-item {
-    border-top: 30px solid var(--bs-secondary) !important;
+    border-top: 30px solid #3fbcd6 !important;
     background: rgba(239, 239, 241, 0.8);
 }
 
@@ -490,7 +490,7 @@
     content: "";
     position: relative;
     top: -101px;
-    background: var(--bs-secondary);
+    background: #3fbcd6;
     clip-path: polygon(50% 50%, 100% 50%, 50% 100%, 0% 50%);
     padding: 60px;
     opacity: 1;
@@ -508,18 +508,18 @@
 }
 
 .team-img img {
-    border: 10px solid var(--bs-secondary);
+    border: 10px solid #3fbcd6;
     transition: .5s;
 }
 
 .team-item:hover h4 {
-    color: var(--bs-primary);
+    color: #b3348a;
     transition: .5s;
 }
 
 .team-item:hover .team-img img {
     transform: scale(1.05);
-    border: 10px solid var(--bs-secondary);
+    border: 10px solid #b3348a;
 }
 
 .team-carousel .owl-stage {
@@ -634,11 +634,11 @@
 }
 
 .contact-map {
-    background: #26d48c;
+    background: #3fbcd6;
 }
 
 .contact-form {
-    background: #26d48c;
+    background: #3fbcd6;
 }
 
 /*** Contact End ***/

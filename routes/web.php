@@ -901,6 +901,6 @@ Route::get('/subasta', function(){
    return view('user.projects.subasta');
 }) ->name('user.projects.subasta');
 
-Route::get('/prado_Patrimonial', function(){
+Route::get('/patrimonio', function(){
    return view('user.projects.LandingPrado');
 }) ->name('user.projects.LandingPrado');
