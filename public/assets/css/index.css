@@ -661,6 +661,33 @@ h5 {
   color: #ffffff;
 }
 
+.text-subtitulo {
+  background: #ca64ff;
+  color: #ffffff;
+}
+
+.vlt-testimonial-item--style-1 .vlt-testimonial-item__content h2 {
+  font-family: "Jost", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.45;
+  color: #ff4d63 !important;
+}
+
+.vlt-testimonial-item__metas h3 {
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: inherit;
+  position: relative;
+  color: #000000;
+  text-align: center;
+  margin: 18px 0;
+}
+
+.marginTB {
+  margin: 65px 0;
+}
+
 
           
         

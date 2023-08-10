@@ -7,7 +7,7 @@
 	li{
 		text-align:inherit;
 		color:#424242 ;
-		font-size:22px;
+		font-size:17px;
 	}
 	b{
 		color:black;

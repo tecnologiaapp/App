@@ -15,6 +15,14 @@
 
 /*** Spinner End ***/
 
+/* Aplica la fuente a los elementos que deseas */
+body {
+    font-family: 'Gotham Medium', sans-serif !important;
+}
+
+p {
+    text-align: justify !important;
+}
 
 /*** Button Start ***/
 .btn {
@@ -177,6 +185,7 @@
 .carousel-item p {
     max-width: 700px;
     margin: 0 auto 35px auto;
+    text-align: center !important;
 }
 
 .carousel-control-prev {

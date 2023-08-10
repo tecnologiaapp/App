@@ -39,11 +39,13 @@
         <div class="container-fluid bg-primary">
             <div class="container">
                 <nav class="navbar navbar-dark navbar-expand-lg py-0">
-                <a href="{{ url('/') }}" class="navbar-brand">
+                <img class="logo me-auto" src="{{ asset('assets/img/Proyectos/Prado.png')}}">
+                <a href="{{ url('/') }}"  class="navbar-brand d-none d-lg-block">
                 <img class="logo me-auto" src="{{ asset('assets/img/Proyectos/logo-landing.png')}}" style=" width: 200px; height: 90px;">
                 </a>
+                
                     <button type="button" class="navbar-toggler me-0" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-                        <span class="navbar-toggler-icon"></span>
+                        <img src="{{ asset('assets/img/controls.png')}}" alt="" style=" width: 50px; height: 50px;">
                     </button>
                     <div class="collapse navbar-collapse bg-transparent" id="navbarCollapse">
                         <div class="navbar-nav ms-auto mx-xl-auto p-0">
@@ -74,6 +76,7 @@
                 <ol class="carousel-indicators">
                     <li data-bs-target="#carouselId" data-bs-slide-to="0" class="active" aria-current="true" aria-label="First slide"></li>
                     <li data-bs-target="#carouselId" data-bs-slide-to="1" aria-label="Second slide"></li>
+                    <li data-bs-target="#carouselId" data-bs-slide-to="2" aria-label="Second slide"></li>
                 </ol>
                 <div class="carousel-inner" role="listbox">
                     <div class="carousel-item active">
@@ -83,8 +86,8 @@
                             <div class="container carousel-content">
                                 <h1 class="text-white display-1 mb-4 animated fadeInRight">¡Bienvenido al Barrio Patrimonial Prado!</h1>
                                 <p class="mb-4 text-white fs-5 animated fadeInDown">Descubre la belleza histórica y cultural de este encantador rincón lleno de tradiciones y arquitectura única. ¡Explora la historia que vive en cada calle y edificación!</p>
-                                <a href="" class="me-2"><button type="button" class="px-4 py-sm-3 px-sm-5 btn btn-primary rounded-pill carousel-content-btn1 animated fadeInLeft">Opción 1</button></a>
-                                <a href="" class="ms-2"><button type="button" class="px-4 py-sm-3 px-sm-5 btn btn-primary rounded-pill carousel-content-btn2 animated fadeInRight">Opción 2</button></a>
+                                <a href=""><button type="button" class="px-4 py-sm-3 px-sm-5 btn btn-primary rounded-pill carousel-content-btn1 animated fadeInLeft">Opción 1</button></a>
+                                <a href=""><button type="button" class="px-4 py-sm-3 px-sm-5 btn btn-primary rounded-pill carousel-content-btn2 animated fadeInRight">Opción 2</button></a>
                             </div>
                         </div>
                     </div>
@@ -94,8 +97,19 @@
                             <div class="container carousel-content">
                                 <h1 class="text-white display-1 mb-4 animated fadeInRight">¡Bienvenido al Barrio Patrimonial Prado!</h1>
                                 <p class="mb-4 text-white fs-5 animated fadeInDown">Descubre la belleza histórica y cultural de este encantador rincón lleno de tradiciones y arquitectura única. ¡Explora la historia que vive en cada calle y edificación!</p>
-                                <a href="" class="me-2"><button type="button" class="px-4 py-sm-3 px-sm-5 btn btn-primary rounded-pill carousel-content-btn1 animated fadeInLeft">Opción 1</button></a>
-                                <a href="" class="ms-2"><button type="button" class="px-4 py-sm-3 px-sm-5 btn btn-primary rounded-pill carousel-content-btn2 animated fadeInRight">Opción 2</button></a>
+                                <a href=""><button type="button" class="px-4 py-sm-3 px-sm-5 btn btn-primary rounded-pill carousel-content-btn1 animated fadeInLeft">Opción 1</button></a>
+                                <a href=""><button type="button" class="px-4 py-sm-3 px-sm-5 btn btn-primary rounded-pill carousel-content-btn2 animated fadeInRight">Opción 2</button></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="{{ asset('assets/img/Banners/Banners-landing-Prado02.jpg')}}" class="img-fluid" alt="Second slide">
+                        <div class="carousel-caption">
+                            <div class="container carousel-content">
+                                <h1 class="text-white display-1 mb-4 animated fadeInRight">¡Bienvenido al Barrio Patrimonial Prado!</h1>
+                                <p class="mb-4 text-white fs-5 animated fadeInDown">Descubre la belleza histórica y cultural de este encantador rincón lleno de tradiciones y arquitectura única. ¡Explora la historia que vive en cada calle y edificación!</p>
+                                <a href=""><button type="button" class="px-4 py-sm-3 px-sm-5 btn btn-primary rounded-pill carousel-content-btn1 animated fadeInLeft">Opción 1</button></a>
+                                <a href=""><button type="button" class="px-4 py-sm-3 px-sm-5 btn btn-primary rounded-pill carousel-content-btn2 animated fadeInRight">Opción 2</button></a>
                             </div>
                         </div>
                     </div>

@@ -9,7 +9,7 @@
     li{
         text-align:inherit;
         color:black;
-        font-size:22px;
+        font-size:17px;
     }
     
 	.button {
