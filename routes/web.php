@@ -833,9 +833,9 @@ Route::get('/SIG_contacto', function(){
    return view('user.projects.SigContacto');
 }) ->name('user.projects.SigContacto');
 
-Route::get('/patrimonio', function(){
-   return view('user.projects.landing');
-}) ->name('user.projects.landing');
+// Route::get('/patrimonio', function(){
+//    return view('user.projects.landing');
+// }) ->name('user.projects.landing');
 
 Route::get('/mapa', function(){
    return view('user.projects.mapa');
