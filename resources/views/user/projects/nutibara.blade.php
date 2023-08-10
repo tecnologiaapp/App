@@ -45,8 +45,6 @@
     <div class="container d-flex align-items-center justify-content-between">
 
       <h1 class="logo"><a href="#">Hotel Nutibara</a></h1>
-      <!-- Uncomment below if you prefer to use an image logo -->
-      <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
       <nav id="navbar" class="navbar">
         <ul>
@@ -55,23 +53,7 @@
           <li><a class="nav-link scrollto" href="#why-us">Categorías</a></li>
           <li><a class="nav-link scrollto " href="#services">Términos y condiciones</a></li>
           <li><a class="nav-link scrollto " href="#gallery">Galería</a></li>    
-          <!-- <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li><a href="#">Drop Down 1</a></li>
-              <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
-                <ul>
-                  <li><a href="#">Deep Drop Down 1</a></li>
-                  <li><a href="#">Deep Drop Down 2</a></li>
-                  <li><a href="#">Deep Drop Down 3</a></li>
-                  <li><a href="#">Deep Drop Down 4</a></li>
-                  <li><a href="#">Deep Drop Down 5</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Drop Down 2</a></li>
-              <li><a href="#">Drop Down 3</a></li>
-              <li><a href="#">Drop Down 4</a></li>
-            </ul>
-          </li> -->
+
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -442,42 +424,7 @@
         </div>
 
         <div class="row gy-4 justify-content-center">
-        <!-- <div class="col-xl-3 col-lg-4 col-md-6">
-            <div class="gallery-item h-100">
-              <img src="assets/images/h22.jpg" class="img-fluid img-responsive" alt="" width="100%">
-              <div class="gallery-links d-flex align-items-center justify-content-center">
-                <a href="assets/images/h22.jpg"  class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
-                
-              </div>
-            </div>
-          </div>
-        <div class="col-xl-3 col-lg-4 col-md-6">
-            <div class="gallery-item h-100">
-              <img src="assets/images/h21.jpg" class="img-fluid img-responsive" alt="" width="100%">
-              <div class="gallery-links d-flex align-items-center justify-content-center">
-                <a href="assets/images/h21.jpg"  class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
-                
-              </div>
-            </div>
-          </div>
-        <div class="col-xl-3 col-lg-4 col-md-6">
-            <div class="gallery-item h-100">
-              <img src="assets/images/h20.jpg" class="img-fluid img-responsive" alt="" width="100%">
-              <div class="gallery-links d-flex align-items-center justify-content-center">
-                <a href="assets/images/h20.jpg"  class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
-                
-              </div>
-            </div>
-          </div>
-        <div class="col-xl-3 col-lg-4 col-md-6">
-            <div class="gallery-item h-100">
-              <img src="assets/images/h19.jpg" class="img-fluid img-responsive" alt="" width="100%">
-              <div class="gallery-links d-flex align-items-center justify-content-center">
-                <a href="assets/images/h19.jpg"  class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
-                
-              </div>
-            </div>
-          </div> -->
+      
         <div class="col-xl-3 col-lg-4 col-md-6">
             <div class="gallery-item h-100">
               <img src="assets/images/h18.jpg" class="img-fluid img-responsive" alt="" width="100%">
@@ -792,16 +739,6 @@
                     <a href="https://www.youtube.com/channel/UCV1jArK6Q8cgXX7ESNocJxA" class="youtube" target="_blank"><i class="bx bxl-youtube"></i></a>
                     </div>
                 </div>
-
-                <!-- <div class="col-lg-3 col-md-6 footer-contact">
-                    <div class="row" style="flex-wrap:nowrap;">
-                        <a href="{{ url('/') }}" style="width: 174px; padding-top: 22px;" target="_blank"><img class="logo me-auto" src="assets/img/carcel/Logo-Agencia-APP-morado.png" width="240px;" height="110px;"  style="padding-right: 45px;"></a>
-                        
-                        
-                        <a href="https://www.medellin.gov.co/" style="width: 174px" target="_blank"><img class="logo me-auto" src="assets/img/carcel/Distrito.png" width="180px;" height="150px;"  style="padding-left: 10px; padding-right: 10px;"></a>
-                    </div>
-            
-                </div> -->
 
             
                 </div>

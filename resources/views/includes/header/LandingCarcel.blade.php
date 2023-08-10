@@ -21,25 +21,8 @@
 	<link href="{{ asset('assets/vendor/animate.css/animate.min.css') }}" rel="stylesheet">
 	<link href="assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
   <!-- Template Main CSS File -->
-	<link href="{{ asset('assets/css/landcarcel.css') }}" rel="stylesheet">
-	<style>
-	   .fixed-top {
-	   position: fixed;
-	   top: 0;
-	   right: 0;
-	   left: 0;
-	   z-index: 1030;
-	   background: rgba(255, 255, 255, 0.9);
-	}
-	.translate-button {
-	 background-color: #007bff;
-	 color: #fff;
-	 border: none;
-	 padding: 10px;
-	 border-radius: 5px;
-	 cursor: pointer;
-	}
-	</style>
+	<link href="{{ asset('assets/css/landingcarcel.css') }}" rel="stylesheet">
+	<link href="{{ asset('assets/css/footer.css') }}" rel="stylesheet">
 </head>
 <body>
 	<header class="fixed-top" id="header" style="position: absolute;">
@@ -79,5 +62,6 @@
 			</nav>
 		</div>
 	</header>
+	<script src="https://code.jquery.com/jquery-1.12.4.min.js">	</script>
 </body>
 </html>

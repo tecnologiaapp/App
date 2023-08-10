@@ -1,6 +1,6 @@
 @extends('layouts.app')
 @section('content')
-@section('body_color', '#fdfdfd;')
+@section('body_color', '#ffffff;')
 <style>
     .btn-get-started {
     font-family: "Raleway", sans-serif;

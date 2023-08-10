@@ -29,7 +29,7 @@
 
 
   
-	<link rel="stylesheet" type="text/css" href="{{ asset('assets/css/index.css')}}" />
+	<link rel="stylesheet" type="text/css" href="{{ asset('assets/css/indez.css')}}" />
     <link rel="stylesheet" href="{{ asset('assets/css/footer.css') }}">
     <link rel="stylesheet" id="google-language-translator-css" href="https://www.medellin.gov.co/es/wp-content/plugins/google-language-translator/css/style.css?ver=6.0.15" type="text/css" media="">
 <link rel="stylesheet" id="pojo-a11y-css" href="https://www.medellin.gov.co/es/wp-content/plugins/pojo-accessibility/assets/css/style.min.css?ver=1.0.0" type="text/css" media="all">
@@ -48,15 +48,6 @@ body.pojo-a11y-focusable a:focus{ outline-style: solid !important;	outline-width
 @media (max-width: 767px) { #pojo-a11y-toolbar { top: 200px !important; } }</style>
 
 <body>
-	<!--Preloader-->
-	<!-- <div class="vlt-site-preloader">
-		<div class="image">
-			<img src="{{ asset('assets/img/bg/hagamoslo.png')}}" alt="">
-		</div>
-	</div> -->
-
-
-	
 
 <div>
 @include('includes.header.navbar')
@@ -163,7 +154,7 @@ body.pojo-a11y-focusable a:focus{ outline-style: solid !important;	outline-width
         <p> <strong> Teléfono: </strong> +57 604 448 1740</p>
          <p><strong>Correo:</strong> info@app.gov.co</p>
         <p> <strong>Información general:</strong>  info@app.gov.co</p>
-        <p> <strong> Notificaciones judiciales:</strong> procesosjudiciales@app.gov.co</p>
+        <p style="text-align:left;"> <strong> Notificaciones judiciales:</strong> procesosjudiciales@app.gov.co</p>
      
       </div>
 

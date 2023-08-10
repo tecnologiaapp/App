@@ -1,67 +1,43 @@
 @extends('layouts.app')
-@section('body_color', '#f3f5fa;')
+@section('body_color', '#ffffff;')
 @section('content')
-<section>
+
+<body>
+	<section>
 		<!--Page Title Hero-->
 		<div class="vlt-page-title-hero vlt-page-title-hero--work vlt-page-title-hero--lg jarallax">
-			<div class="vlt-page-title-hero__overlay"></div><img class="jarallax-img" src="{{ asset('assets/img/Banners/gestion.jpg')}}" alt="">
-				<div class="vlt-page-title-hero__content ocultPosition">
-
-					<h1 style="color:white;">
-					Gestión de asociaciones público privadas
-					</h1>
-				</div>
+			<div class="vlt-page-title-hero__overlay"></div><img alt="" class="jarallax-img" src="{{asset('assets/img/Banners/gestion.jpg')}}">
+			<div class="vlt-page-title-hero__content ocultPosition">
+				<h1 style="color:white;">Gestión de asociaciones público privadas</h1>
 			</div>
-		</div>		
-</section>
-		
-<body>
-
+		</div>
+	</section>
 	<div class="container">
-		
-			<div class="text-center">
-				<div class="section-title" style="margin-top: 50px;">
-					<h2>¿Que es una Asociación Público Privada?</h2>
-				</div>
-				<p style="text-align: justify;">Es un mecanismo de contratación donde el Estado vincula capital privado para la construcción y el sostenimiento de infraestructura pública. Este tipo de asociaciones aportan mayor eficiencia, sostenibilidad en la provisión del servicio, ya que cuenta con indicadores de cumplimiento que se miden periódicamente por una interventoría y una supervisión; además, permite el equilibrio en la distribución de riesgos, lo que genera grandes ahorros para el sector público.</p>
+		<div class="text-center">
+			<div class="section-title" style="margin-top: 50px;">
+				<h2>¿Que es una Asociación Público Privada?</h2>
 			</div>
-			<div class="section-subtitle text-center" style="margin-top: 50px;">
-				<h3>La Subdirección de Gestión de Alianzas Público Privadas de la Agencia APP del Distrito de Medellín en la actualidad tiene el siguiente portafolio de proyectos de iniciativas públicas y privadas.</h3>
-			</div>
-	
-
-	
+			<p style="text-align: justify;">Es un mecanismo de contratación donde el Estado vincula capital privado para la construcción y el sostenimiento de infraestructura pública. Este tipo de asociaciones aportan mayor eficiencia, sostenibilidad en la provisión del servicio, ya que cuenta con indicadores de cumplimiento que se miden periódicamente por una interventoría y una supervisión; además, permite el equilibrio en la distribución de riesgos, lo que genera grandes ahorros para el sector público.</p>
+		</div>
+		<div class="section-subtitle text-center" style="margin-top: 50px;">
+			<h3>La Subdirección de Gestión de Alianzas Público Privadas de la Agencia APP del Distrito de Medellín en la actualidad tiene el siguiente portafolio de proyectos de iniciativas públicas y privadas.</h3>
+		</div>
 		<div class="row" style="justify-content:center;">
-			<div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+			<div class="carousel slide" data-bs-ride="carousel" id="carouselExampleInterval">
 				<div class="carousel-inner">
-					<div class="carousel-item active" data-bs-interval="5000">					
+					<div class="carousel-item active" data-bs-interval="5000">
 						<section class="img-new">
-							<a target="_blank" href="{{ asset('assets/pdf/APP Español.pdf') }}">
-								<img src="{{ asset('assets/img/Banners/gestion2.jpg')}}" class="img-fluid img-border">
-							</a>
-						</section>						
+							<a href="{{asset('assets/pdf/APPEspa%C3%B1ol.pdf')}}" target="_blank"><img class="img-fluid img-border" src="{{asset('assets/img/Banners/gestion2.jpg')}}"></a>
+						</section>
 					</div>
-
-					<div class="carousel-item" data-bs-interval="5000">						
+					<div class="carousel-item" data-bs-interval="5000">
 						<section class="img-new">
-							<a target="_blank" href="{{ asset('assets/pdf/APP-English.pdf') }}">
-								<img src="{{ asset('assets/img/Banners/gestion1.jpg')}}" class="img-fluid img-border">
-							</a>
-						</section>						
-					</div>					
-				</div>
-				<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev" style="padding-right: 40px; width: 8%;">
-					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-					<span class="visually-hidden">Previous</span>
-				</button>
-				<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next" style="padding-left: 40px; width: 8%;">
-					<span class="carousel-control-next-icon" aria-hidden="true"></span>
-					<span class="visually-hidden">Next</span>
-				</button>
+							<a href="{{asset('assets/pdf/APP-English.pdf')}}" target="_blank"><img class="img-fluid img-border" src="{{asset('assets/img/Banners/gestion1.jpg')}}"></a>
+						</section>
+					</div>
+				</div><button class="carousel-control-prev" data-bs-slide="prev" data-bs-target="#carouselExampleInterval" style="padding-right: 40px; width: 8%;" type="button"><span aria-hidden="true" class="carousel-control-prev-icon"></span> <span class="visually-hidden">Previous</span></button> <button class="carousel-control-next" data-bs-slide="next" data-bs-target="#carouselExampleInterval" style="padding-left: 40px; width: 8%;" type="button"><span aria-hidden="true" class="carousel-control-next-icon"></span> <span class="visually-hidden">Next</span></button>
 			</div>
-		</div>               
-	
-
+		</div>
 		<div class="row proyectos-destacados" style="justify-content:center;">
 			<div class="col-lg-6 col-md-6 proy1">
 				<h4 align="center">Proyectos de iniciativa pública</h4>

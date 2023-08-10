@@ -1,31 +1,12 @@
 
-
 <!DOCTYPE html>
 <html lang="es">
-
-
-
 <body>
 
 @include('includes.header.navsig')
 
-
-
   <section id="hero" class="d-flex align-items-center" style="padding-top: 120px;">
 
-    <!-- <div class="container">
-      <div class="row">
-        <div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
-          <h1>Agencia APP</h1>
-          <h2>Medellín, Colombia</h2>
-      
-        </div>
-        <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="200">
-          <img src="{{ asset('assets/img/hero-img.png')}}" class="img-fluid animated" alt="">
-          
-        </div>
-      </div>
-    </div> -->
     <section id="why-us" class="why-us section-bg" style="padding-top: 120px;">
       <div class="container-fluid" data-aos="fade-up">
 
@@ -86,32 +67,6 @@
 
   <main id="main">
 
-    <!-- ======= About Us Section ======= -->
-    <!-- <section id="about" class="about">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-title">
-          <h2>Sobre nosotros</h2>
-        </div>
-
-        <div class="row content">
-          <div class="col-center">
-          <p>
-          La Agencia para la Gestión del Paisaje, el Patrimonio y las Alianzas Público Privadas – APP-, es un ente con carácter descentralizado adscrito a la Alcaldía de Medellín; Una unidad administrativa especial, del orden municipal, con personería jurídica, autonomía administrativa, financiera, presupuestal y patrimonial, que hace parte del Presupuesto General del Distrito Especial de Ciencia, Tecnología e Innovación de Medellín con lo establecido en el artículo 3 del Decreto 006 de 1998.
-
-Tenemos como misión gestionar y promover acciones que den sostenibilidad al espacio público, al paisaje y al patrimonio. Además, responsables de promover la generación de recursos a través de la implementación de los instrumentos de financiación definidos en el Plan de Ordenamiento Territorial y fomentar la incorporación de capitales privados a proyectos de inversión para beneficio público.
-            </p>
-
-         
-        </div>
-
-      </div>
-    </section> -->
-
-    <!-- ======= Why Us Section ======= -->
-   <!-- End Why Us Section -->
-
-
     <!-- ======= Skills Section ======= -->
     <section id="skills" class="skills">
       <div class="container" data-aos="fade-up">
@@ -155,9 +110,8 @@ Tenemos como misión gestionar y promover acciones que den sostenibilidad al esp
         </div>
 
       </div>
-    </section><!-- End Skills Section -->
-
-    
+    </section>
+    <!-- End Skills Section -->
 
     <!-- ======= Cta Section ======= -->
     <section id="cta" class="cta">
@@ -174,8 +128,8 @@ Tenemos como misión gestionar y promover acciones que den sostenibilidad al esp
         </div>
 
       </div>
-    </section><!-- End Cta Section -->
-
+    </section>
+    <!-- End Cta Section -->
 
     <!-- ======= Team Section ======= -->
     <section id="team" class="team section-bg">
@@ -203,63 +157,11 @@ Tenemos como misión gestionar y promover acciones que den sostenibilidad al esp
               </div>
             </div>
           </div>
-
-          <!-- <div class="col-lg-6 mt-4 mt-lg-0">
-            <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="200">
-              <div class="pic"><img src="assets/img/team/team-3.jpg" class="img-fluid" alt=""></div>
-              <div class="member-info">
-                <h4>Mauricio Correa</h4>
-                <span>Arquitecto</span>
-                <p>Aut maiores voluptates amet et quis praesentium qui senda para</p>
-                <div class="social">
-                  <a href=""><i class="ri-twitter-fill"></i></a>
-                  <a href=""><i class="ri-facebook-fill"></i></a>
-                  <a href=""><i class="ri-instagram-fill"></i></a>
-                
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-6 mt-4">
-            <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="300">
-              <div class="pic"><img src="assets/img/team/team-3.jpg" class="img-fluid" alt=""></div>
-              <div class="member-info">
-                <h4>Alexis Espinosa</h4>
-                <span>Desarrollador</span>
-                <p>Quisquam facilis cum velit laborum corrupti fuga rerum quia</p>
-                <div class="social">
-                  <a href=""><i class="ri-twitter-fill"></i></a>
-                  <a href=""><i class="ri-facebook-fill"></i></a>
-                  <a href=""><i class="ri-instagram-fill"></i></a>
-                
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-6 mt-4">
-            <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="400">
-              <div class="pic"><img src="assets/img/team/team-1.jpg" class="img-fluid" alt=""></div>
-              <div class="member-info">
-                <h4>Aldemar Echavarria</h4>
-                <span>Comunicaciones</span>
-                <p>Dolorum tempora officiis odit laborum officiis et et accusamus</p>
-                <div class="social">
-                  <a href=""><i class="ri-twitter-fill"></i></a>
-                  <a href=""><i class="ri-facebook-fill"></i></a>
-                  <a href=""><i class="ri-instagram-fill"></i></a>
-             
-                </div>
-              </div>
-            </div>
-          </div> -->
-
         </div>
 
       </div>
-    </section><!-- End Team Section -->
-
+    </section>
+    <!-- End Team Section -->
 
     <!-- ======= Frequently Asked Questions Section ======= -->
     <section id="faq" class="faq section-bg">
@@ -274,10 +176,8 @@ Tenemos como misión gestionar y promover acciones que den sostenibilidad al esp
     </section>
     <!-- End Frequently Asked Questions Section -->
 
-   
-
-  </main><!-- End #main -->
-
+  </main>
+  <!-- End #main -->
 
     <!-- ======= Footer ======= -->
     <footer id="footer">
@@ -364,11 +264,8 @@ Tenemos como misión gestionar y promover acciones que den sostenibilidad al esp
 <script src="{{ asset('assets/vendor/waypoints/noframework.waypoints.js')}}"></script>
 <script src="{{ asset('assets/vendor/php-email-form/validate.js')}}"></script>
 
-
 <!-- Template Main JS File -->
 <script src="{{ asset('assets/js/patrimonio.js')}}"></script>
-
-
 
 </body>
 

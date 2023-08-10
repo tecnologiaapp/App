@@ -1,17 +1,15 @@
 @extends('layouts.app')
-@section('body_color', '#f3f5fa;')
+@section('body_color', '#ffffff;')
 @section('content')
 
 <head>
-<link  href="{{ asset('assets/css/boletin.css') }}" rel="stylesheet">
+<link  href="{{ asset('assets/css/noticias.css') }}" rel="stylesheet">
 <style>
 	h6{
 	color:black;	
 	}
 </style>
 </head>
-
-<!-- <a target="_blank" href="{{ route('user.noticias.new43') }}"><h6><b>Leer más</b></h6></a> -->
 	
 	<div class="vlt-single-post-wrapper vlt-single-post-wrapper--style-1">
 	<section class="bannerT">

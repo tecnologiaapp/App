@@ -12,7 +12,6 @@
 <!--Fonts-->
 <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800%7CMuli:400,400i,600%7CPlayfair+Display:700i" rel="stylesheet">
 <link rel="stylesheet" href="{{ asset('assets/fonts/leedo/style.css')}}">
-{{-- <link rel="stylesheet" href="{{ asset('assets/fonts/itc-grouch/itc-grouch.css')}}"> --}}
 <link rel="stylesheet" href="{{ asset('assets/fonts/roger/roger.css')}}">
 <link rel="stylesheet" href="{{ asset('assets/fonts/boucher/boucher.css')}}">
 <link rel="stylesheet" href="{{ asset('assets/fonts/oldventure/oldventure.css')}}">
@@ -22,6 +21,6 @@
 <link rel="stylesheet" href="{{ asset('assets/fonts/fontawesome/font-awesome.min.css')}}">
 
 <!--Style-->
-<link rel="stylesheet" href="{{ asset('assets/css/vlt-styloz.css')}}">
+<link rel="stylesheet" href="{{ asset('assets/css/vlt-stylox.css')}}">
 <!--Custom-->
 <link rel="stylesheet" href="{{ asset('assets/css/customi.css')}}">

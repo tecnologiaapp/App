@@ -2,7 +2,6 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\CarcelController;
-use App\Http\Controllers\GoogleController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\MudagController;
 use App\Http\Controllers\Panel\MedioController;
@@ -53,21 +52,9 @@ Route::get('/somos-app/historia', function () {
    return view('user.about.history');
 })->name('user.about.history');
 
-Route::get('/somos-app/estructura', function(){
-   return view('user.about.structure');
-})->name('user.about.structure');
-
-Route::get('/somos-app/mapa_estrategico', function(){
-   return view('user.about.strategic');
-}) ->name('user.about.strategic');
-
 Route::get('/somos-app/mision-vision', function(){
    return view('user.about.mision');
 }) ->name('user.about.mision');
-
-Route::get('/somos-app/vision', function(){
-   return view('user.about.vision');
-}) ->name('user.about.vision');
 
 
 
@@ -80,34 +67,9 @@ Route::get('/somos-app/funciones', function () {
    return view('user.about.functions');
 })->name('user.about.functions');
 
-Route::get('/somos-app/directorio', function () {
-   return view('user.about.directory');
-})->name('user.about.directory');
-
 Route::get('/somos-app/organigrama', function () {
    return view('user.about.organization_chart');
 })->name('user.about.organization_chart');
-
-Route::get('/somos-app/banco-de-proyectos', function () {
-   return view('user.about.projects');
-})->name('user.about.projects');
-
-
-/*Subdirecciones*/
-
-Route::get('/subdirecciones/gestión-de-alianza-público-privada', function () {
-   return view('user.subdirections.app');
-})->name('user.subdirections.app');
-
-Route::get('/subdirecciones/gestión-inmobiliaria', function () {
-   return view('user.subdirections.inmo');
-})->name('user.subdirections.inmo');
-
-Route::get('/subdirecciones/gestión-del-paisaje-y-patrimonio', function () {
-   return view('user.subdirections.landscape');
-})->name('user.subdirections.landscape');
-
-
 
 Route::get('/subdirectores/gestión-de-alianza-público-privada', function () {
    return view('user.about.subdirectors.app');
@@ -265,14 +227,6 @@ Route::get('/proyectos', function () {
    return view('user.projects.index');
 })->name('user.projects.index');
 
-Route::get('/proyectos2', function () {
-   return view('user.projects.index2');
-})->name('user.projects.index2');
-
-Route::get('/proyectos3', function () {
-   return view('user.projects.index3');
-})->name('user.projects.index3');
-
 Route::get('/proyectos/puentes', function () {
    return view('user.projects.puentes');
 })->name('user.projects.puentes');
@@ -312,9 +266,6 @@ Route::get('/proyectos/mudag/gastronomia', function () {
 Route::get('/proyectos/mudag/urbanismo', function () {
    return view('user.projects.urbanismo');
 })->name('user.projects.urbanismo');
-
-
-
 
 Route::get('/proyectos/centro_detencion', function () {
    return view('user.projects.carcel');
@@ -533,11 +484,6 @@ Route::get('/directorio-de-entidades', function () {
 Route::get('/preguntas-y-respuestas-frecuentes', function () {
    return view('user.info.faq');
 })->name('user.info.faq');
-
-Route::get('/estudios-investigación-y-otras-publicaciones', function () {
-   return view('user.info.investigation');
-})->name('user.info.investigation');
-
 
 Route::get('/noticias/new1', function () {
    return view('user.noticias.new1');
@@ -805,14 +751,6 @@ Route::get('/Prensa/album13', function(){
    return view('user.transparency.galeria.galery13');
 }) ->name('user.transparency.galeria.galery13');
 
-Route::get('/fiestadelpatrimonio2022', function(){
-   return view('user.projects.patrimonio');
-}) ->name('user.projects.patrimonio');
-
-Route::get('/fiestadelpatrimonio2022/news', function(){
-   return view('user.projects.newsPatrimonio');
-}) ->name('user.projects.newsPatrimonio');
-
 Route::get('/participa', function(){
    return view('user.projects.participa');
 }) ->name('user.projects.participa');
@@ -832,10 +770,6 @@ Route::get('/SIG_servicios', function(){
 Route::get('/SIG_contacto', function(){
    return view('user.projects.SigContacto');
 }) ->name('user.projects.SigContacto');
-
-// Route::get('/patrimonio', function(){
-//    return view('user.projects.landing');
-// }) ->name('user.projects.landing');
 
 Route::get('/mapa', function(){
    return view('user.projects.mapa');

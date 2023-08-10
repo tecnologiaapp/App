@@ -1,65 +1,10 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
 
-	<style>
-	     .row{
-	           justify-content: space-around;
-
-	       }
-
-	       .btn-primary {
-	         background-color:#b3348a;
-	       }
-	.count-box{
-	   display: block;
-	   align-items: center;
-	   width: 100%;
-	   background: #fff;
-	   padding: 30px;
-	   border-radius: 5px;
-	   box-shadow: 0px 0 30px rgb(1 41 112 / 8%);
-	   justify-content: center;
-	}
-
-	h2,span{
-	   display: inline-block;
-	   /* margin: 15px 0;
-	   font-size: 30px;
-	   color: #000; */
-	}
-	.count-box i {
-	   font-size: 42px;
-	   line-height: 0;
-	   display:block;
-	   color: #4154f1;
-	}
-
-	.video-responsive {
-	   height: 0;
-	   overflow: hidden;
-	   padding-bottom: 56.25%;
-	   padding-top: 30px;
-	   position: relative;
-	   }
-	.video-responsive iframe, .video-responsive object, .video-responsive embed {
-	   height: 100%;
-	   left: 0;
-	   position: absolute;
-	   top: 0;
-	   width: 100%;
-	   }
-
-	</style>
-	<link href="{{ asset('assets/css/footer.css') }}" rel="stylesheet">
-	<script src="https://code.jquery.com/jquery-1.12.4.min.js">
-	</script>
-	<title></title>
-</head>
 <body>
 	@include('includes.header.LandingCarcel')
    <!-- ======= Hero Section ======= -->
-	<section class="d-flex align-items-center" id="hero">
+   <section class="d-flex align-items-center" id="hero">
 		<div class="container" style="padding-top:70px;">
 			<div class="row">
 				<div>
@@ -88,12 +33,10 @@
 							<p>Debido a la existencia de una serie de vulneraciones que han permeado el sistema carcelario del país y la Declaración del Estado de Cosas Inconstitucionales, la Corte Suprema de Justicia, mediante sentencias No. STP-14283 de 2019 y la No. SU-122 de 2022, ratificó la necesidad de garantizar y mejorar las condiciones físicas y materiales de la población en calidad de sindicada.</p>
 							<p>Como resultado de esto, la Agencia APP, en convenio con la Secretaría de Seguridad y Convivencia del Distrito de Medellín, lideró la estructuración de este proyecto a través del mecanismo de Asociación Público Privada (Ley 1508 de 2012) que dará una respuesta viable y digna para albergar a las personas privadas de la libertad en condición de sindicados con una infraestructura de calidad que garantice el respeto de los derechos humanos. Con la Cárcel Metropolitana para sindicados se logrará:</p>
 						</div>
-					</div>
-          <!-- ======= Features Section ======= -->
+					</div><!-- ======= Features Section ======= -->
 					<section class="features" id="features">
 						<div class="container" data-aos="fade-up">
-							<div class="section-subtitle" style="margin-top: 50px;">
-							</div>
+							<div class="section-subtitle" style="margin-top: 50px;"></div>
 							<div class="row">
 								<div class="col-lg-6">
 									<div class="carousel slide" data-bs-ride="carousel" id="carouselExampleControls">
@@ -124,10 +67,8 @@
 								</div>
 							</div>
 						</div>
-					</section>
-          <!-- End Features Section -->
-				</div>
-        <!-- ======= Counts Section ======= -->
+					</section><!-- End Features Section -->
+				</div><!-- ======= Counts Section ======= -->
 				<section class="counts" id="counts">
 					<div class="container" data-aos="fade-up">
 						<div class="row gy-4">
@@ -160,12 +101,9 @@
 							</div>
 						</div>
 					</div>
-				</section>
-        <!-- End Counts Section -->
-				
+				</section><!-- End Counts Section -->
 			</div>
-		</section>
-    <!-- End About Us Section -->
+		</section><!-- End About Us Section -->
 		<section class="why-us" id="donde" style="padding-top: 20px; background-color:#f6f9fe;">
 			<div class="container" data-aos="fade-up">
 				<div class="section-title">
@@ -375,8 +313,7 @@
 					</div>
 				</div>
 			</div><a class="back-to-top d-flex align-items-center justify-content-center" href="#"><i class="bi bi-arrow-up-short"></i></a>
-		</footer>
-    <!-- Vendor JS Files -->
+		</footer><!-- Vendor JS Files -->
 		<script src="https://kit.fontawesome.com/5373575732.js">
 		</script> 
 		<script src="{{asset('assets/vendor/aos/aos.js')}}">
@@ -392,8 +329,8 @@
 		<script src="{{asset('assets/vendor/waypoints/noframework.waypoints.js')}}">
 		</script> 
 		<script src="{{asset('assets/vendor/php-email-form/validate.js')}}">
-		</script>
-     <!-- Template Main JS File -->
+		</script> <!-- Template Main JS File -->
+		 
 		<script src="{{asset('assets/js/patrimonio.js')}}">
 		</script> 
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js">
@@ -409,18 +346,17 @@
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js">
 		</script> 
 		<script>
-		      (function(e){"use strict";e.fn.counterUp=function(t){var n=e.extend({time:400,delay:10},t);return this.each(function(){var t=e(this),r=n,i=function(){var e=[],n=r.time/r.delay,i=t.text(),s=/[0-9]+,[0-9]+/.test(i);i=i.replace(/,/g,"");var o=/^[0-9]+$/.test(i),u=/^[0-9]+\.[0-9]+$/.test(i),a=u?(i.split(".")[1]||[]).length:0;for(var f=n;f>=1;f--){var l=parseInt(i/n*f);u&&(l=parseFloat(i/n*f).toFixed(a));if(s)while(/(\d+)(\d{3})/.test(l.toString()))l=l.toString().replace(/(\d+)(\d{3})/,"$1,$2");e.unshift(l)}t.data("counterup-nums",e);t.text("0");var c=function(){t.text(t.data("counterup-nums").shift());if(t.data("counterup-nums").length)setTimeout(t.data("counterup-func"),r.delay);else{delete t.data("counterup-nums");t.data("counterup-nums",null);t.data("counterup-func",null)}};t.data("counterup-func",c);setTimeout(t.data("counterup-func"),r.delay)};t.waypoint(i,{offset:"100%",triggerOnce:!0})})}})(jQuery);
+		            (function(e){"use strict";e.fn.counterUp=function(t){var n=e.extend({time:400,delay:10},t);return this.each(function(){var t=e(this),r=n,i=function(){var e=[],n=r.time/r.delay,i=t.text(),s=/[0-9]+,[0-9]+/.test(i);i=i.replace(/,/g,"");var o=/^[0-9]+$/.test(i),u=/^[0-9]+\.[0-9]+$/.test(i),a=u?(i.split(".")[1]||[]).length:0;for(var f=n;f>=1;f--){var l=parseInt(i/n*f);u&&(l=parseFloat(i/n*f).toFixed(a));if(s)while(/(\d+)(\d{3})/.test(l.toString()))l=l.toString().replace(/(\d+)(\d{3})/,"$1,$2");e.unshift(l)}t.data("counterup-nums",e);t.text("0");var c=function(){t.text(t.data("counterup-nums").shift());if(t.data("counterup-nums").length)setTimeout(t.data("counterup-func"),r.delay);else{delete t.data("counterup-nums");t.data("counterup-nums",null);t.data("counterup-func",null)}};t.data("counterup-func",c);setTimeout(t.data("counterup-func"),r.delay)};t.waypoint(i,{offset:"100%",triggerOnce:!0})})}})(jQuery);
 		</script> 
 		<script>
-		      jQuery(document).ready(function($) {
-		          $('.counter').counterUp({
-		              delay: 10,
-		              time: 1000
-		          });
-		      });
+		            jQuery(document).ready(function($) {
+		                $('.counter').counterUp({
+		                    delay: 10,
+		                    time: 1000
+		                });
+		            });
 
 		</script>
-    
 	</main>
 </body>
 </html>

@@ -1,6 +1,6 @@
 @extends('layouts.app')
 @section('content')
-@section('body_color', '#f3f5fa;')
+@section('body_color', '#ffffff;')
 
 
 <iframe src="https://www.medellin.gov.co/es/gabinete/" width="100%" height="100%"></iframe>

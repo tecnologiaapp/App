@@ -1,92 +1,5 @@
 <!DOCTYPE html>
 <html lang="es">
-<style>
-.tabs {
-  display: flex;
-  justify-content: center;
-}
-
-.tab {
-  margin-right: 20px;
-}
-
-.tab-button {
-  border-radius: 5px;
-  background-color: transparent;
-  border: 1px solid #ccc;
-  padding: 10px 20px;
-  margin-right: 10px;
-}
-
-.tab-button:hover {
-  background-color: #007bff;
-  color: #fff;
-  border-color: #007bff;
-}
-
-.btn-tab {
-    font-family: "Raleway", sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    letter-spacing: 1px;
-    display: inline-block;
-    padding: 10px 30px;
-    border-radius: 50px;
-    transition: 0.5s;
-    color: #3498db;
-    border: 2px solid #3498db;
-  }
-  
-.btn-tab:hover {
-    background: #3498db;
-    color: #fff;
-  }
-
-  .btn-tab.active {
-  background-color: #3498db;
-  color: #fff;
-}
-
-
-@media only screen and (max-width: 768px) {
-  .tabs {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .tab {
-    margin-right: 0;
-    margin-bottom: 10px;
-  }
-
-  .tab:last-child {
-    margin-bottom: 0;
-  }
-}
-
-.btn-blue {
-  font-family: "Raleway", sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  letter-spacing: 1px;
-  display: inline-block;
-  padding: 10px 30px;
-  border-radius: 50px;
-  transition: 0.5s;
-  color: #ffffff;
-  border: 2px solid #fbfbfb;
-  
-}
-
-.btn-blue:hover {
-  background: #3498db;
-  color: #fff;
-  border: 2px solid #3498db;
-}
-.gif-image {
-    animation-play-state: paused;
-}
-</style>
 <body>
 
 @include('includes.header.navsig')
@@ -575,8 +488,8 @@
   </div>
 </div>
 
-</footer><!-- End Footer -->
-
+</footer>
+<!-- End Footer -->
 
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
@@ -689,10 +602,6 @@ $(document).ready(function() {
         });
     });
 </script>
-
-
-
-
 
 </body>
 

@@ -1,5 +1,5 @@
 @extends('layouts.app')
-@section('body_color', '#f3f5fa;')
+@section('body_color', '#ffffff;')
 @push('styles')
 
 @endpush

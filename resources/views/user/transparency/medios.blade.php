@@ -3,7 +3,7 @@
 <head>
 	<link rel="stylesheet" href="{{ asset('assets/css/medio.css') }}">
 </head>
-@section('body_color', '#f3f5fa;')
+@section('body_color', '#ffffff;')
 @section('content')
 
 <body>

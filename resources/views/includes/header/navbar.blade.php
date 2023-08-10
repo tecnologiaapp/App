@@ -199,11 +199,7 @@
 		   
 			<li>
 			<a class="menu-sub-item" href="{{ route('user.projects.index') }}"><span>Mapa de proyectos</span></a>
-			</li>
-			<!-- <li>
-			<a class="menu-sub-item" href="{{ route('user.projects.audiencia') }}"><span>Audiencia Pública Arena Medellín</span></a>
-			</li> -->
-		  
+			</li>		  
 			
 			<!-- <li>
 			<a href="{{ route('user.projects.sig') }}">
@@ -264,60 +260,6 @@
 		   
 		  </ul>
 		</li>
-	 
-		<!-- <li class="dropdown"><a href="#"><span>Rendición de cuentas</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
-		  <ul>
-			<li>
-			<a class="menu-sub-item" href="{{ route('user.rendition.cuentas-2021') }}">
-				  <span>Rendición de cuentas 2021</span>
-			  </a>
-			</li>
-			<li class="dropdown"><a href="#"><span>Rendición de cuentas 2020</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
-			  <ul>
-				<li>
-				<a class="menu-sub-item" href="{{ route('user.rendition.accountability') }}">
-				  <span>Resolución 079 de 2019</span>
-			  </a>
-				</li>
-				<li>
-				<a class="menu-sub-item" href="{{ route('user.rendition.reglaments') }}">
-				  <span>Reglamento audiencia pública de rendición de cuentas</span>
-			  </a>
-				</li>
-				<li>
-				<a class="menu-sub-item" href="{{ route('user.rendition.cuentas') }}">
-				  <span>Rendición de cuentas 2020</span>
-			  </a>
-				</li>
-				<li>
-				<a class="menu-sub-item" href="{{ route('user.rendition.evaluacion') }}">
-				  <span>Evaluación de la rendición de cuentas 2020</span>
-			  </a>
-				</li>
-				<li>
-				<a class="menu-sub-item" href="{{ route('user.rendition.galeria') }}">
-				  <span>Galería rendición de cuentas 2020</span>
-			  </a>
-				</li>
-			  </ul>
-			</li>
-			<li>
-			<a class="menu-sub-item" href="{{ asset('assets/pdf/Rendicion-2019.pdf')}}"  >
-				  <span>Rendición de cuentas 2019</span>
-			  </a>
-			</li>
-			<li>
-			<a class="menu-sub-item" href="{{ asset('assets/pdf/Rendicion-2018.pdf')}}">
-				  <span>Rendición de cuentas 2018</span>
-			  </a>
-			</li>
-			<li>
-			<a class="menu-sub-item" href="{{ asset('assets/pdf/Rendicion-2017.pdf')}}">
-				  <span>Rendición de cuentas 2017</span>
-			  </a>
-			</li>
-		  </ul>
-		</li> -->
 
 		<li class="dropdown"><a href="#"><span>Transparencia</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
 		  <ul>
@@ -346,35 +288,6 @@
 				  <span>Rendición de cuentas 2020</span>
 			  </a>
 			</li>
-			<!-- <li class="dropdown"><a href="#"><span>Rendición de cuentas 2020</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
-			  <ul>
-				<li>
-				<a class="menu-sub-item" href="{{ route('user.rendition.accountability') }}">
-				  <span>Resolución 079 de 2019</span>
-			  </a>
-				</li>
-				<li>
-				<a class="menu-sub-item" href="{{ route('user.rendition.reglaments') }}">
-				  <span>Reglamento audiencia pública de rendición de cuentas</span>
-			  </a>
-				</li>
-				<li>
-				<a class="menu-sub-item" href="{{ route('user.rendition.cuentas') }}">
-				  <span>Rendición de cuentas 2020</span>
-			  </a>
-				</li>
-				<li>
-				<a class="menu-sub-item" href="{{ route('user.rendition.evaluacion') }}">
-				  <span>Evaluación de la rendición de cuentas 2020</span>
-			  </a>
-				</li>
-				<li>
-				<a class="menu-sub-item" href="{{ route('user.rendition.galeria') }}">
-				  <span>Galería rendición de cuentas 2020</span>
-			  </a>
-				</li>
-			  </ul>
-			</li> -->
 			<li>
 			<a class="menu-sub-item" href="{{ asset('assets/pdf/Rendicion-2019.pdf')}}" target="_blank" >
 				  <span>Rendición de cuentas 2019</span>
@@ -418,16 +331,10 @@
 		
 
 		<li>
-		<a href="{{ route('user.transparency.contact-us') }}">
+				<a href="{{ route('user.transparency.contact-us') }}">
 				   <span>Contáctanos</span>
 			   </a>
 		</li>
-		<!-- <li>
-		<a href="{{ route('user.projects.participa') }}">
-				   <span>Participa</span>
-			   </a>
-		</li>
-		<li><a href="{{ route('user.transparency.verification') }}">Transparencia</a></li> -->
 		 
 	  </ul>
 	  
