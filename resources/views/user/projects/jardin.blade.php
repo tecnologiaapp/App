@@ -5,12 +5,12 @@
 <section>
 		<!--Page Title Hero-->
 		<div class="vlt-page-title-hero vlt-page-title-hero--work vlt-page-title-hero--lg jarallax">
-			<div class="vlt-page-title-hero__overlay"></div><img alt="" class="jarallax-img" src="{{asset('assets/img/bg/5.jpg')}}">
-			<div class="vlt-page-title-hero__content">
+			<div class="vlt-page-title-hero__overlay"></div><img alt="" class="jarallax-img" src="{{asset('assets/img/Banners/bannerAvenidaJardin.jpg')}}">
+			<div class="vlt-page-title-hero__content ocultPosition">
 				<h1 style="color:white;">Avenida Jardín</h1>
 			</div>
 		</div>
-	</section><!--Content-->
+	</section>
 	<section>
 		<div class="vlt-gap-0"></div>
 		<div class="container">
@@ -23,7 +23,7 @@
 								<hr>
 								<p>Revitalizamos esta avenida, entre el primer y segundo parque de Laureles, y la avenida Nutibara, con un corredor verde y el mejoramiento del espacio público. Intervenimos 1.294 m2 de espacio público, impactamos la calidad de vida de 116.000 residentes y sembramos 5.000 plantas y 370 árboles. Asimismo, ejecutamos el mantenimiento, la reparación de los elementos arquitectónicos y la regulación de avisos de identificación en 13 predios vinculados.</p>
 								<hr>
-								<div align="center"><img alt="" src="{{asset('assets/img/Proyectos/Avenida-Jardin.webp')}}"></div>
+								<div align="center"><img alt="" src="{{asset('assets/img/Proyectos/imgAvenidaJardin.png')}}"></div>
 							</div>
 						</div>
 					</div>

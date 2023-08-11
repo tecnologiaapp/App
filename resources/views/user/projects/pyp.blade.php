@@ -2,7 +2,7 @@
 @section('body_color', '#ffffff;')
 @section('content')
 <head>
-	<link rel="stylesheet" href="{{ asset('assets/css/pyp.css')}}">
+	<link rel="stylesheet" href="{{ asset('assets/css/pypa.css')}}">
 </head>
 <section>
 		<!--Page Title Hero-->

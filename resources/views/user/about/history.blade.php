@@ -1,14 +1,19 @@
 @extends('layouts.app')
 @section('content')
 @section('body_color', '#ffffff;')
-
+<section>
+		<!--Page Title Hero-->
+		<div class="vlt-page-title-hero vlt-page-title-hero--work vlt-page-title-hero--lg jarallax">
+			<div class="vlt-page-title-hero__overlay"></div><img alt="" class="jarallax-img" src="{{asset('assets/img/Banners/bannerHistoria.jpg')}}">
+			<div class="vlt-page-title-hero__content ocultPosition">
+				<h1 style="color:white;">Historia</h1>
+			</div>
+		</div>
+	</section>
 <div class="vlt-single-post-wrapper vlt-single-post-wrapper--style-1">
 		<div class="container">
 			<!--Single Post-->
 			<article class="vlt-single-post">
-				<div class="vlt-animation-block mb-5 pt-5 text-center" data-aos="fade" data-aos-delay="0">
-					<h1 class="m-0" style="font-size: 4rem;"><span class="vlt-highlight">Historia</span></h1>
-				</div>
 				<p style="text-align:justify">En 2012, y ante la necesidad de tener un organismo que fomentara la incorporación de capitales privados para inversión y beneficio público, se creó la Agencia para las Alianzas Público Privadas –APP, a través del artículo 338 del Decreto Municipal 1364 de 2012. Se trataba de un ente con carácter descentralizado, adscrito a la Alcaldía de Medellín, que se estableció como una Unidad Administrativa Especial con personería jurídica, autonomía administrativa, financiera, presupuestal y patrimonio propio.</p>
 				<p style="text-align:justify">La AGENCIA APP tenía como objeto “Fomentar la incorporación de capitales privados a proyectos de inversión de beneficio público que busquen el mejoramiento integral en las condiciones de vida de los habitantes de la ciudad, mediante la incorporación de estrategias, instrumentos y mecanismos de relacionamiento entre el Municipio de Medellín y sus entidades descentralizadas con entidades privadas, generando la confianza necesaria para el éxito”. Lo anterior enmarcaba las funciones de la AGENCIA APP, especialmente en la estructuración de proyectos de infraestructura social, con vinculación de capital privado bajo la Ley 1508 de 2012.</p>
 				<p style="text-align:justify">El 3 de junio de 2015, por medio del artículo 351 del Decreto Municipal 883 de ese mismo año, y luego de la entrada en vigencia del Plan de Ordenamiento Territorial (POT), se define un nuevo escenario de acción para la Agencia; de acuerdo con este decreto, la entidad pasa a llamarse Agencia para la Gestión del Paisaje, el Patrimonio y las Alianzas Público Privadas y, a partir de ese momento, tiene como objeto “gestionar y promover las acciones que garanticen la cualificación, sostenibilidad y mantenimiento del Sistema Público y Colectivo definido en el POT, enfocándose al espacio público de esparcimiento y encuentro, paisaje, patrimonio, los equipamientos y demás bienes fiscales que hagan parte de los correspondientes proyectos; realizar la gestión requerida para promover la generación o incremento de recursos a través de la implementación y gestión de los instrumentos financieros definidos en el POT y fomentar la incorporación de capitales privados a proyectos de inversión de beneficio público”.</p>

@@ -5,12 +5,12 @@
 <section>
 		<!--Page Title Hero-->
 		<div class="vlt-page-title-hero vlt-page-title-hero--work vlt-page-title-hero--lg jarallax">
-			<div class="vlt-page-title-hero__overlay"></div><img alt="" class="jarallax-img" src="{{asset('assets/img/bg/5.jpg')}}">
-			<div class="vlt-page-title-hero__content">
+			<div class="vlt-page-title-hero__overlay"></div><img alt="" class="jarallax-img" src="{{asset('assets/img/Banners/bannerRendicionDeCuentas.jpg')}}">
+			<div class="vlt-page-title-hero__content ocultPosition">
 				<h1 style="color:white;">Rendición de cuentas</h1>
 			</div>
 		</div>
-	</section><!--Content-->
+	</section>
 	<section>
 		<div class="vlt-gap-120"></div>
 		<div class="container">
@@ -24,8 +24,9 @@
 				<hr>
 				<div class="section-title">
 					<h2>Formato de inscripción de preguntas para la audiencia pública</h2>
-				</div>Si tienes preguntas, propuestas o van a asistir, diligenciar el siguiente formulario <a href="https://forms.gle/2JhpRm9Zui6CGwMY9" target="_blank">https://forms.gle/2JhpRm9Zui6CGwMY9</a>
-				<p></p>
+				</div>
+				<p class="text-center">Si tienes preguntas, propuestas o van a asistir, diligenciar el siguiente formulario</p>
+			    <p class="text-center"><a class="link-cuentas" href="https://forms.gle/2JhpRm9Zui6CGwMY9" target="_blank">https://forms.gle/2JhpRm9Zui6CGwMY9</a></p>	
 			</section>
 		</div>
 		<footer class="vlt-single-post__footer">

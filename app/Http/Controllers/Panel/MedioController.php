@@ -12,7 +12,7 @@ class MedioController extends Controller
 {
     public function index(Request $request)
     {   $busqueda = $request->busqueda;
-        $medios = Medios::orderBy('id', 'desc')->paginate(9);
+        $medios = Medios::orderBy('id', 'desc')->paginate(3);
         $data = [
             'medios' =>$medios,
             'busqueda' =>$busqueda,
@@ -63,11 +63,7 @@ class MedioController extends Controller
     }
 
     public function update(Request $request, string $id)
-    {   
-        $request->validate([
-            'imagen' => 'required|image|mimes:jpeg,png,gif', // Validación para imagen
-        ]);
-    
+    {      
 
         $medios = Medios::find($id);
         $medios->titulo = $request->titulo;

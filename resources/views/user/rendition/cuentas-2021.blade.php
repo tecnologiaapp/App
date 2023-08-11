@@ -5,12 +5,12 @@
 <section>
 		<!--Page Title Hero-->
 		<div class="vlt-page-title-hero vlt-page-title-hero--work vlt-page-title-hero--lg jarallax">
-			<div class="vlt-page-title-hero__overlay"></div><img alt="" class="jarallax-img" src="{{asset('assets/img/bg/5.jpg')}}">
-			<div class="vlt-page-title-hero__content">
+			<div class="vlt-page-title-hero__overlay"></div><img alt="" class="jarallax-img" src="{{asset('assets/img/Banners/bannerRendicionDeCuentas.jpg')}}">
+			<div class="vlt-page-title-hero__content ocultPosition">
 				<h1 style="color:white;">Rendición de cuentas</h1>
 			</div>
 		</div>
-	</section><!--Content-->
+	</section>
 	<section>
 		<div class="vlt-gap-120"></div>
 		<div class="container">
@@ -18,7 +18,7 @@
 				<div class="section-title">
 					<h2>Rendición de cuentas 2021</h2>
 				</div><iframe allowfullscreen frameborder="0" height="315" src="https://www.youtube.com/embed/tmykJWQKMIo" title="YouTube video player" width="560"></iframe>
-				<h4 class="text-center mb-5">Para conocer más, click en la imagen</h4>
+				<h4 class="txt-cuentas text-center mb-5 pt-2">Para conocer más, click en la imagen</h4>
 				<div style="text-align:center;">
 					<a href="{{asset('assets/pdf/Rendici%C3%B3n-de-cuentas-2021.pdf')}}" target="_blank"><img alt="" src="{{asset('assets/img/news/final.PNG')}}"></a>
 				</div><br>

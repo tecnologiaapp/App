@@ -2,7 +2,7 @@
 @section('body_color', '#ffffff;')
 @section('content')
 <head>
-	<link rel="stylesheet" href="{{ asset('assets/css/inmo.css')}}">
+	<link rel="stylesheet" href="{{ asset('assets/css/inm.css')}}">
 </head>
 
 <section>

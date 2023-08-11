@@ -1,9 +1,3 @@
-/**
-* Template Name: Arsha - v4.9.0
-* Template URL: https://bootstrapmade.com/arsha-free-bootstrap-html-template-corporate/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 
 /*--------------------------------------------------------------
 # General
@@ -689,7 +683,66 @@ h5 {
   margin: 65px 0;
 }
 
+.post-body .descripcion {
+  line-height: 1.5;
+  margin-bottom: 20px;
+  text-align: center;
+}
 
-          
+.pagination {
+  margin-top: 70px;
+}
+
+.post-body h3 {
+  margin: 18px 0;
+}
+
+.page-item.active .page-link {
+  background-color: #ea5b67;
+  border-color: #ea5b67;
+}
+
+.page-link {
+  color: #333333;
+}
+
+.post-body .post-link {
+  display: block;
+  text-decoration: none;
+  padding: 5px 8px;
+  background: #f5b732;
+  color: #333333;
+  width: 50%;
+  margin: auto;
+  border-radius: 20px;
+  box-shadow: 1px 2px 6px 1px rgba(0,0,0, .1);
+  transition: .2s;
+  font-family: "muli", sans-serif !important;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.subt-m {
+  color: #9127ff;
+  font-size: 21px;
+  text-align: left !important;
+}
+
+.txt-cuentas {
+  color: #ff4d63;
+  font-weight: bold;
+}
+
+.link-cuentas {
+  background-color:  #ff4d63;
+  color: #ffffff;
+  padding: 10px 15px;  
+  border-radius: 20px;
+}
+
+.link-cuentas:hover {
+  background-color:  #9127ff;
+  color: #ffffff;
+}
         
       

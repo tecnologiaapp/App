@@ -6,18 +6,23 @@
 	li{
 		text-align:inherit;
 		color:black;
-		font-size:22px;
+		font-size:17px;
 	}
 </style>
 
 
-
+<section>
+		<!--Page Title Hero-->
+		<div class="vlt-page-title-hero vlt-page-title-hero--work vlt-page-title-hero--lg jarallax">
+			<div class="vlt-page-title-hero__overlay"></div><img alt="" class="jarallax-img" src="{{asset('assets/img/Banners/bannerFunciones.jpg')}}">
+			<div class="vlt-page-title-hero__content ocultPosition">
+				<h1 style="color:white;">Funciones</h1>
+			</div>
+		</div>
+	</section>
 <div class="vlt-single-post-wrapper vlt-single-post-wrapper--style-1">
 		<div class="container">
 			<article class="vlt-single-post">
-				<div class="vlt-animation-block mb-5 pt-5 text-center" data-aos="fade" data-aos-delay="0">
-					<h1 class="m-0" style="font-size: 4rem;"><span class="vlt-highlight">Funciones</span></h1>
-				</div>
 				<p>La Agencia para la Gestión del Paisaje, el Patrimonio y las Alianzas Público-Privadas tendrá las siguientes funciones según el Decreto Municipal 883 de 2015 - Articulo 354:</p>
 				<ul>
 					<li>Realizar la gestión requerida para garantizar la cualificación continua del paisaje, del patrimonio, de todos los equipamientos públicos y demás bienes inmuebles fiscales que hacen parte del Sistema Público y Colectivo, con el fin de incrementar los indicadores de calidad espacial y habitabilidad, y contribuir a la consolidación desde el aspecto físico espacial, de la plataforma requerida para que se implemente óptimamente el marketing de ciudad.</li>

@@ -5,12 +5,12 @@
 <section>
 		<!--Page Title Hero-->
 		<div class="vlt-page-title-hero vlt-page-title-hero--work vlt-page-title-hero--lg jarallax">
-			<div class="vlt-page-title-hero__overlay"></div><img alt="" class="jarallax-img" src="{{asset('assets/img/bg/5.jpg')}}">
-			<div class="vlt-page-title-hero__content">
+			<div class="vlt-page-title-hero__overlay"></div><img alt="" class="jarallax-img" src="{{asset('assets/img/Banners/bannerPasajeJunin.jpg')}}">
+			<div class="vlt-page-title-hero__content ocultPosition">
 				<h1 style="color:white;">Pasaje Junín</h1>
 			</div>
 		</div>
-	</section><!--Content-->
+	</section>
 	<section>
 		<div class="vlt-gap-0"></div>
 		<div class="container">
@@ -23,7 +23,7 @@
 								<hr>
 								<p>Con el objetivo de preservar y potenciar el centro tradicional, y mejorar el paisaje urbano de este importante corredor peatonal, comercial y turístico de Medellín, impactamos 22 predios y 8.950 m2 con la regulación de avisos publicitarios, la intervención de fachadas y el reordenamiento del espacio público. Entre los logros más destacados se encuentran la disminución de la contaminación visual, el mejoramiento de las condiciones del paisaje urbano y de la seguridad, y la reactivación económica del sector.</p>
 								<hr>
-								<div align="center"><img alt="" src="{{asset('assets/img/Proyectos/junin.webp')}}"></div>
+								<div align="center"><img alt="" src="{{asset('assets/img/Proyectos/imgPasajeJunin.png')}}"></div>
 							</div>
 						</div>
 					</div>

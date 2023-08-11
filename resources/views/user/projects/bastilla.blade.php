@@ -5,12 +5,12 @@
 <section>
 		<!--Page Title Hero-->
 		<div class="vlt-page-title-hero vlt-page-title-hero--work vlt-page-title-hero--lg jarallax">
-			<div class="vlt-page-title-hero__overlay"></div><img alt="" class="jarallax-img" src="{{asset('assets/img/bg/5.jpg')}}">
-			<div class="vlt-page-title-hero__content">
-				<h1 style="color:white;">Pasaje La Bastilla</h1>
+			<div class="vlt-page-title-hero__overlay"></div><img alt="" class="jarallax-img" src="{{asset('assets/img/Banners/bannerPasajeLaBastilla.jpg')}}">
+			<div class="vlt-page-title-hero__content ocultPosition">
+				<h1 style="color:white;">Pasaje la bastilla</h1>
 			</div>
 		</div>
-	</section><!--Content-->
+	</section>
 	<section>
 		<div class="vlt-gap-0"></div>
 		<div class="container">

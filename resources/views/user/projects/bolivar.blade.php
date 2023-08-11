@@ -5,12 +5,12 @@
 <section>
 		<!--Page Title Hero-->
 		<div class="vlt-page-title-hero vlt-page-title-hero--work vlt-page-title-hero--lg jarallax">
-			<div class="vlt-page-title-hero__overlay"></div><img alt="" class="jarallax-img" src="{{asset('assets/img/bg/5.jpg')}}">
-			<div class="vlt-page-title-hero__content">
-				<h1 style="color:white;">Parque Bolívar</h1>
+			<div class="vlt-page-title-hero__overlay"></div><img alt="" class="jarallax-img" src="{{asset('assets/img/Banners/bannerParqueBolivar.jpg')}}">
+			<div class="vlt-page-title-hero__content ocultPosition">
+				<h1 style="color:white;">Parque Bolivar</h1>
 			</div>
 		</div>
-	</section><!--Content-->
+	</section>
 	<section>
 		<div class="vlt-gap-0"></div>
 		<div class="container">
@@ -23,7 +23,7 @@
 								<hr>
 								<p>En el corazón del centro de Medellín y en unos de los parques más representativos de la ciudad, reconocido por sus feria de artesanías San Alejo, realizamos el diseño y la gestión para la recuperación del paisaje urbano a través de acciones como el reordenamiento del espacio público y de las vías aledañas. Fueron 23.059 m2 impactados, 3.721 m2 de andenes nuevos, 22 árboles sembrados y 178 bancas instaladas para recuperar la identidad histórica del sector, consolidarlo como un punto de encuentro ciudadano, mejorar la movilidad peatonal, atraer nuevos turistas e impulsar la reactivación económica. En una segunda etapa se cualificaron las fachadas de los inmuebles colindantes al parque con obras de mantenimiento general y reparaciones locativas de los predios, así como regulación de avisos publicitarios.</p>
 								<hr>
-								<div align="center"><img alt="" src="{{asset('assets/img/Proyectos/Parque-Bolivar.webp')}}"></div>
+								<div align="center"><img alt="" src="{{asset('assets/img/Proyectos/imgParqueBolivar.png')}}"></div>
 							</div>
 						</div>
 					</div>

@@ -1,16 +1,24 @@
 @extends('layouts.app')
 @section('body_color', '#ffffff;')
 @section('content')
-
+<section>
+		<!--Page Title Hero-->
+		<div class="vlt-page-title-hero vlt-page-title-hero--work vlt-page-title-hero--lg jarallax">
+			<div class="vlt-page-title-hero__overlay"></div><img alt="" class="jarallax-img" src="{{asset('assets/img/Banners/bannerMisionYvision.jpg')}}">
+			<div class="vlt-page-title-hero__content ocultPosition">
+				<h1 style="color:white;">Misíon y Visión</h1>
+			</div>
+		</div>
+	</section>
 <div class="vlt-single-post-wrapper vlt-single-post-wrapper--style-1">
 		<div class="container">
 			<article class="vlt-single-post">
-				<div class="vlt-animation-block mb-5 pt-5 text-center" data-aos="fade" data-aos-delay="0">
-					<h1 class="m-0" style="font-size: 4rem;"><span class="vlt-highlight">Misión</span></h1>
+				<div class="vlt-animation-block" data-aos="fade" data-aos-delay="0">
+					<h1><span class="subt-m">Misión</span></h1>
 				</div>
 				<p>Contribuir al desarrollo del municipio de Medellín, mediante el sostenimiento, la cualificación del paisaje urbano y el embellecimiento del sistema público-colectivo, la puesta en valor del patrimonio arquitectónico; el aprovechamiento de oportunidades inmobiliarias y la estructuración de proyectos de ciudad, mediante sinergias entre los sectores público y privado.</p>
-				<div class="vlt-animation-block mb-5 text-center" data-aos="fade" data-aos-delay="0">
-					<h1 class="m-0" style="font-size: 4rem;"><span class="vlt-highlight">Visión</span></h1>
+				<div class="vlt-animation-block" data-aos="fade" data-aos-delay="0">
+					<h1><span class="subt-m">Visión</span></h1>
 				</div>
 				<p>En 2025 seremos reconocidos en el departamento de Antioquia como un aliado estratégico para el desarrollo de proyectos de ciudad que buscan el mejoramiento del sistema público-colectivo a través del embellecimiento, la cualificación del paisaje urbano y la participación del sector privado.</p>
 			</article>

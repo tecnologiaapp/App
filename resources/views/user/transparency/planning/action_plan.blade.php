@@ -47,21 +47,14 @@
 </style>
 </head>
 
-
 <section>
 		<!--Page Title Hero-->
 		<div class="vlt-page-title-hero vlt-page-title-hero--work vlt-page-title-hero--lg jarallax">
-			<div class="vlt-page-title-hero__overlay"></div><img class="jarallax-img" src="{{ asset('assets/img/bg/5.jpg')}}" alt="">
-			<div class="vlt-page-title-hero__content">
-
-							<h1 style="color:white;">
-							Plan de Acción
-							</h1>
-		
+			<div class="vlt-page-title-hero__overlay"></div><img alt="" class="jarallax-img" src="{{asset('assets/img/Banners/bannerPlanDeAccion.jpg')}}">
+			<div class="vlt-page-title-hero__content ocultPosition">
+				<h1 style="color:white;">Plan de acción</h1>
 			</div>
-
 		</div>
-		
 	</section>
 
 <section>
