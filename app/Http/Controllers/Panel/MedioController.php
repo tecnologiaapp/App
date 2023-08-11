@@ -12,7 +12,7 @@ class MedioController extends Controller
 {
     public function index(Request $request)
     {   $busqueda = $request->busqueda;
-        $medios = Medios::orderBy('id', 'desc')->paginate(3);
+        $medios = Medios::orderBy('id', 'desc')->paginate(9);
         $data = [
             'medios' =>$medios,
             'busqueda' =>$busqueda,
