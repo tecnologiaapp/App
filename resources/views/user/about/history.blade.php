@@ -6,7 +6,7 @@
 		<div class="container">
 			<!--Single Post-->
 			<article class="vlt-single-post">
-				<div class="vlt-animation-block mb-5 text-center" data-aos="fade" data-aos-delay="0">
+				<div class="vlt-animation-block mb-5 pt-5 text-center" data-aos="fade" data-aos-delay="0">
 					<h1 class="m-0" style="font-size: 4rem;"><span class="vlt-highlight">Historia</span></h1>
 				</div>
 				<p style="text-align:justify">En 2012, y ante la necesidad de tener un organismo que fomentara la incorporación de capitales privados para inversión y beneficio público, se creó la Agencia para las Alianzas Público Privadas –APP, a través del artículo 338 del Decreto Municipal 1364 de 2012. Se trataba de un ente con carácter descentralizado, adscrito a la Alcaldía de Medellín, que se estableció como una Unidad Administrativa Especial con personería jurídica, autonomía administrativa, financiera, presupuestal y patrimonio propio.</p>

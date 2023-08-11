@@ -15,7 +15,7 @@
 <div class="vlt-single-post-wrapper vlt-single-post-wrapper--style-1">
 		<div class="container">
 			<article class="vlt-single-post">
-				<div class="vlt-animation-block mb-5 text-center" data-aos="fade" data-aos-delay="0">
+				<div class="vlt-animation-block mb-5 pt-5 text-center" data-aos="fade" data-aos-delay="0">
 					<h1 class="m-0" style="font-size: 4rem;"><span class="vlt-highlight">Funciones</span></h1>
 				</div>
 				<p>La Agencia para la Gestión del Paisaje, el Patrimonio y las Alianzas Público-Privadas tendrá las siguientes funciones según el Decreto Municipal 883 de 2015 - Articulo 354:</p>

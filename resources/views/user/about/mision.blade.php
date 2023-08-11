@@ -5,7 +5,7 @@
 <div class="vlt-single-post-wrapper vlt-single-post-wrapper--style-1">
 		<div class="container">
 			<article class="vlt-single-post">
-				<div class="vlt-animation-block mb-5 text-center" data-aos="fade" data-aos-delay="0">
+				<div class="vlt-animation-block mb-5 pt-5 text-center" data-aos="fade" data-aos-delay="0">
 					<h1 class="m-0" style="font-size: 4rem;"><span class="vlt-highlight">Misión</span></h1>
 				</div>
 				<p>Contribuir al desarrollo del municipio de Medellín, mediante el sostenimiento, la cualificación del paisaje urbano y el embellecimiento del sistema público-colectivo, la puesta en valor del patrimonio arquitectónico; el aprovechamiento de oportunidades inmobiliarias y la estructuración de proyectos de ciudad, mediante sinergias entre los sectores público y privado.</p>
