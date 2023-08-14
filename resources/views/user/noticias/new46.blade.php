@@ -150,3 +150,4 @@ Agencia App <br>
 	                    <div class="vlt-gap-100"></div>   
               </section>						
      </footer>
+     @endsection

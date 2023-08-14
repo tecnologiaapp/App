@@ -143,3 +143,4 @@ Stephen Arboleda López 3116481894 <br>
 	                    <div class="vlt-gap-100"></div>   
               </section>						
      </footer>
+     @endsection

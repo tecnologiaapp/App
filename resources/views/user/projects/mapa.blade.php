@@ -2,49 +2,7 @@
 @section('body_color', '#ffffff;')
 @section('content')
 <head>
-<style>
-.accordion {
-  background-color: transparent;
-  color: #444;
-  cursor: pointer;
-  padding: 22px;
-  width: 100%;
-  border: 1px;
-  text-align: left;
-  outline: none;
-  font-size: 14px;
-  font-family:arial;
-  font-weight: bold;
-  transition: 0.4s;
-  background-color: rgba(0,0,0,.03);
-    border-bottom: 1px solid rgba(0,0,0,.125);
-	
-  
-}
-
-.accordion:after {
-  content: '\02795'; /* Unicode character for "plus" sign (+) */
-  font-size: 13px;
-  color: #777;
-  float: right;
-  margin-left: 5px;
-}
-
-.active:after {
-  content: "\2796"; /* Unicode character for "minus" sign (-) */
-}
-
-.active, .accordion:hover {
-  background-color: rgba(0,0,0,.03); 
-}
-
-.panel {
-  padding: 12px 20px;
-  display: none;
-  background-color: transparent;
-  overflow: hidden;
-}
-</style>
+<link rel="stylesheet" href="{{ asset('assets/css/transparencia.css')}}">
 </head>
 
 <section>

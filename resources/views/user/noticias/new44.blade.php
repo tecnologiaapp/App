@@ -149,3 +149,4 @@ Los edificios Palacé, Constain y Cárdenas renuevan el paisaje urbano del Centr
 	                 </div>
 	                      <div class="vlt-gap-100"></div>   
               </section>						</footer>
+			  @endsection

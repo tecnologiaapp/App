@@ -8,32 +8,6 @@ use App\Http\Controllers\Panel\MedioController;
 use App\Http\Controllers\Panel\SigController;
 use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\Redirect;
-/*
-|--------------------------------------------------------------------------
-| Web Routes
-|--------------------------------------------------------------------------
-|
-| Here is where you can register web routes for your application. These
-| routes are loaded by the RouteServiceProvider within a group which
-| contains the "web" middleware group. Now create something great!
-
-* Decirle a Andrés Moreno que:
-
-1. Solicite el cambio del logo en PQRSD
-2. Suba los archivos a Datos Abiertos
-3. Revisar los documentos de convocatorias
-
-* Subir información de resolución 063 - Activos de información
-* estudios-investigación-y-otras-publicaciones
-
-* Decirle a Aldemar qué eventos vendrán en la AGENCIA y agregarlo al Calendario
-* Decirle a Lina que me pase la información del SALARIO de todos 
-* Organizar el directorio de entidades en una tabla
-* Preguntar a Lina las ofertas laborales (https://www.cnsc.gov.co/) - Comisión Nacional del Servicio Civil
-
- - Guía para error de conexión: https://askubuntu.com/questions/1358221/ubuntu-20-04-temporary-failure-in-name-resolution-for-wired
-|
-*/
 
 Route::get('/', function () {
    return view('index');
@@ -42,11 +16,6 @@ Route::get('/', function () {
 Route::get('/actos-administrativos', function () {
    return view('user.administrative-acts');
 })->name('user.administrative-acts');
-
-Route::get('/p', function () {
-   return view('parallax');
-})->name('parallax');
-
 
 Route::get('/somos-app/historia', function () {
    return view('user.about.history');
@@ -87,40 +56,19 @@ Route::get('/subdirectores/tecnica', function () {
    return view('user.about.subdirectors.tecnical');
 })->name('user.subdirectors.tecnical');
 
-
-/*Multimedia*/
-
-Route::get('/multimedia', function () {
-   return view('user.multimedia');
-})->name('user.multimedia');
-
-
-
 /*Transparencia*/
 
 Route::get('/transparencia/trámites-en-el-suit', function () {
    return view('user.transparency.suit');
 })->name('user.transparency.suit');
 
-Route::get('/transparencia/solicitud-información-bienes-inmuebles-de-oportunidad', function () {
-   return view('user.transparency.real_states_opportunity');
-})->name('user.transparency.real_states_opportunity');
-
 Route::get('/transparencia/normatividad', function () {
    return view('user.transparency.normativity');
 })->name('user.transparency.normativity');
 
-Route::get('/transparencia/registro-bases-de-datos', function () {
-   return view('user.transparency.rnbd');
-})->name('user.transparency.rnbd');
-
 Route::get('/transparencia/informacion-de-interes', function () {
    return view('user.transparency.info');
 })->name('user.transparency.info');
-
-Route::get('/transparencia/estructura-organica-y-talento-humanos', function () {
-   return view('user.transparency.structure');
-})->name('user.transparency.structure');
 
 Route::get('/transparencia/control', function () {
    return view('user.transparency.control');
@@ -134,18 +82,13 @@ Route::get('/transparencia/contacto', function () {
    return view('user.transparency.contact-us');
 })->name('user.transparency.contact-us');
 
-Route::get('/transparencia/manual-de-gestion-de-cobro-persuasivo-y-coactivo', function () {
-   return view('user.transparency.manual');
-})->name('user.transparency.manual');
-
-Route::get('/transparencia/política-de-manejo-de-datos-personales', function () {
-   return view('user.transparency.tyc');
-})->name('user.transparency.tyc');
-
 Route::get('/transparencia/sistema-integrado-de-gestión', function () {
    return view('user.transparency.processes');
 })->name('user.transparency.processes');
 
+Route::get('/terminos-y-condiciones', function () {
+   return view('user.transparency.tyc');
+})->name('user.transparency.tyc');
 
 Route::get('/plan-estratégico', function () {
    return view('user.transparency.planning.strategic_plan');
@@ -155,10 +98,6 @@ Route::get('/plan-estratégico', function () {
 Route::get('/plan-de-acción', function () {
    return view('user.transparency.planning.action_plan');
 })->name('user.transparency.planning.action_plan');
-
-Route::get('/seguimiento-plan-indicativo-municipio-medellín', function () {
-   return view('user.transparency.planning.medellin_plan');
-})->name('user.transparency.planning.medellin_plan');
 
 Route::get('/plan-anticorrupción-y-de-atención-al-ciudadano', function () {
    return view('user.transparency.planning.anti_corruption');
@@ -194,15 +133,6 @@ Route::get('/transparencia/informes-de-pqrs', function () {
    return view('user.transparency.pqrs');
 })->name('user.transparency.pqrs');
 
-Route::get('/plan-estratégico-institucional', function () {
-   return view('user.transparency.planning.institutional');
-})->name('user.transparency.planning.institutional');
-
-
-// Route::get('/transparencia/app_medios', function(){
-//    return view('user.transparency.medios');
-// }) ->name('user.transparency.medios');
-
 Route::get('/prensa/boletines', function(){
    return view('user.transparency.boletin');
 }) ->name('user.transparency.boletin');
@@ -215,11 +145,29 @@ Route::get('/prensa/boletines3', function(){
    return view('user.noticias.index3');
 }) ->name('user.noticias.index3');
 
+Route::get('/prensa/boletines4', function(){
+   return view('user.noticias.index4');
+}) ->name('user.noticias.index4');
 
+Route::get('/prensa/boletines5', function(){
+   return view('user.noticias.index5');
+}) ->name('user.noticias.index5');
+
+Route::get('/prensa/boletines6', function(){
+   return view('user.noticias.index6');
+}) ->name('user.noticias.index6');
+
+Route::get('/prensa/boletines7', function(){
+   return view('user.noticias.index7');
+}) ->name('user.noticias.index7');
 
 Route::get('/Prensa/galery', function(){
    return view('user.transparency.galery');
 }) ->name('user.transparency.galery');
+
+Route::get('/Prensa/galery2', function(){
+   return view('user.transparency.galeria.index2');
+}) ->name('user.transparency.galeria.index2');
 
 /*Proyectos*/
 
@@ -465,14 +413,6 @@ Route::get('/rendicion/plan_indicativo', function () {
    return view('user.transparency.planning.indicativo');
 })->name('user.transparency.planning.indicativo');
 
-
-
-/* Aditional info */
-
-Route::get('/transparencia/datos-abiertos', function () {
-   return view('user.transparency.open-data');
-})->name('user.open-data');
-
 Route::get('/directorio-de-agremiaciones-asociaciones-y-otros-grupos-de-interes', function () {
    return view('user.info.union_directory');
 })->name('user.info.union_directory');
@@ -695,6 +635,10 @@ Route::get('/noticias/new51', function () {
    return view('user.noticias.new51');
 })->name('user.noticias.new51');
 
+Route::get('/noticias/new52', function () {
+   return view('user.noticias.new52');
+})->name('user.noticias.new52');
+
 Route::get('/prueba', function () {
    return view('user.projects.prueba');
 })->name('user.projects.prueba');
@@ -778,10 +722,6 @@ Route::get('/mapa', function(){
 Route::get('/pqrsd', function(){
    return view('user.projects.pqrsd');
 }) ->name('user.projects.pqrsd');
-
-// Route::get('/Carcel', function(){
-//    return view('user.projects.LandingCarcel');
-// }) ->name('user.projects.LandingCarcel');
 
 Route::get('/Carcel',[CarcelController::class, 'carcel'])->name('user.projects.LandingCarcel');
 

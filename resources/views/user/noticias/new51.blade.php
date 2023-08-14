@@ -132,3 +132,4 @@
 	                    <div class="vlt-gap-100"></div>   
               </section>						
      </footer>
+     @endsection

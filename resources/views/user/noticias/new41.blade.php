@@ -146,3 +146,4 @@ La Alhambra se renueva con la intervención de 34 fachadas y más espacio públi
 	                 </div>
 	                      <div class="vlt-gap-100"></div>   
               </section>						</footer>
+			  @endsection

@@ -137,3 +137,4 @@ La Alcaldía de Medellín intervendrá 60 esculturas en el marco de la Fiesta de
 	                 </div>
 	                      <div class="vlt-gap-100"></div>   
               </section>						</footer>
+			  @endsection

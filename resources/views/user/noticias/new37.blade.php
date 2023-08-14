@@ -160,3 +160,4 @@ Nidia Stella Escobar Cruz 3008874322
 	                 </div>
 	                      <div class="vlt-gap-100"></div>   
               </section>						</footer>
+			  @endsection

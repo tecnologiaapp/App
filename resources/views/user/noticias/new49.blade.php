@@ -138,3 +138,4 @@ Byron García Correa – 313 6419192<br>
 	                    <div class="vlt-gap-100"></div>   
               </section>						
      </footer>
+     @endsection

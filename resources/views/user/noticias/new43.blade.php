@@ -145,3 +145,4 @@ Más de 150 venteros conocieron avances y logros en la modernización de la Unid
 	                 </div>
 	                      <div class="vlt-gap-100"></div>   
               </section>						</footer>
+			  @endsection
