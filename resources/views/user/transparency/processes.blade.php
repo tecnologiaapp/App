@@ -5,8 +5,8 @@
 <section>
 		<!--Page Title Hero-->
 		<div class="vlt-page-title-hero vlt-page-title-hero--work vlt-page-title-hero--lg jarallax">
-			<div class="vlt-page-title-hero__overlay"></div><img alt="" class="jarallax-img" src="{{asset('assets/img/bg/5.jpg')}}">
-			<div class="vlt-page-title-hero__content">
+			<div class="vlt-page-title-hero__overlay"></div><img alt="" class="jarallax-img" src="{{asset('assets/img/Banners/bannerProcesosYprocedimientos.jpg')}}">
+			<div class="vlt-page-title-hero__content ocultPosition">
 				<h1 style="color:white;">Procesos y procedimientos</h1>
 			</div>
 		</div>

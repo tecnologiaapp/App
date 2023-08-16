@@ -1,7 +1,9 @@
 @extends('layouts.app')
 @section('body_color', '#ffffff;')
 @section('content')
-
+<head>
+<link rel="stylesheet" href="{{ asset('assets/css/transparency.css')}}">
+</head>
 <section>
 		<!--Page Title Hero-->
 		<div class="vlt-page-title-hero vlt-page-title-hero--work vlt-page-title-hero--lg jarallax">
@@ -14,14 +16,12 @@
 	<section>
 		<div class="vlt-gap-120"></div>
 		<div class="container mt-5">
-			<div class="accordion" id="accordionExample" style="background-color: transparent;">
-				<div class="card team border-0">
-					<div class="card-header" id="headingOne">
-						<h2 class="mb-0"><button aria-controls="appContent" aria-expanded="true" class="btn btn-link btn-block text-left text-dark font-bold" data-target="#appContent" data-toggle="collapse" type="button">Proyectos por Asociación Público Privada - APP.</button></h2>
-					</div>
-					<div aria-labelledby="headingOne" class="collapse show" data-parent="#accordionExample" id="appContent">
-						<div class="card-body">
-							<h4>¿Qué son las Asociaciones Público Privadas?</h4>
+		<button class="accordion">Proyectos por Asociación Público Privada - APP.</button>
+		<div class="panel">
+			<table class="table table-bordered table-striped custom-table">
+				<tbody>
+					<tr>						
+					<h4>¿Qué son las Asociaciones Público Privadas?</h4>
 							<p class="text-justify">Las APP son un mecanismo que permite vincular al sector privado para proveer bienes y servicios públicos. La relación se establece a través de un contrato de largo plazo para el desarrollo de diseños definitivos, construcción o reconstrucción, operación, mantenimiento y reversión. En este tipo de contratos, es fundamental la adecuada retención y transferencia de riesgos entre las partes y la definición de los mecanismos de pago, relacionados con la disponibilidad de la infraestructura y el nivel de servicio del bien provisto.</p>
 							<p class="text-justify">Las Asociaciones Público Privadas tienen como objetivo mejorar el entorno institucional, económico y normativo para incentivar la participación del sector privado en el desarrollo de la infraestructura que requiere el país, tanto productiva como social.</p>
 							<p class="text-justify">En Colombia hay dos tipos de APP: iniciativa pública e iniciativa privada.</p>
@@ -69,16 +69,17 @@
 							<p class="text-justify">Las entidades estatales deben presentar al Departamento Nacional de Planeación (o a la entidad de planeación respectiva) una justificación técnica, que permita identificar que el desarrollo del proyecto por medio de APP es la forma más eficiente en términos económicos y sociales con respecto al desarrollo del mismo por medio de obra pública.</p>
 							<h4>¿Cómo se comprometen los recursos públicos para este tipo de proyectos?</h4>
 							<p class="text-justify">Para Medellín, la Ley APP permite realizar los desembolsos de recursos públicos durante el plazo para el desarrollo de proyectos. Las autorizaciones para comprometer vigencias futuras serán impartidas por la asamblea o concejo respectivo, a iniciativa del gobierno local, con previa aprobación por parte del CONFIS territorial (o el órgano que haga sus veces), según lo establece la Ley 819 de 2003.</p>
-						</div>
-					</div>
-				</div>
-				<div class="card team border-0">
-					<div class="card-header" id="headingOne">
-						<h2 class="mb-0"><button aria-controls="normativityContent" aria-expanded="true" class="btn btn-link btn-block text-left text-dark font-bold" data-target="#normativityContent" data-toggle="collapse" type="button">Normatividad para Proyectos APP</button></h2>
-					</div>
-					<div aria-labelledby="headingOne" class="collapse" data-parent="#accordionExample" id="normativityContent">
-						<div class="card-body">
-							<h4>documentos relacionados a la Normatividad de Proyectos APP en Colombia</h4>
+						
+					</tr>
+				</tbody>
+			</table>
+		</div>
+		<button class="accordion">Normatividad para Proyectos APP</button>
+		<div class="panel">
+			<table class="table table-bordered table-striped custom-table">
+				<tbody>
+					<tr>		
+					<h4>documentos relacionados a la Normatividad de Proyectos APP en Colombia</h4>
 							<h4>Ley 1508:</h4>
 							<p><a href="http://www.app.gov.co/index.php/subdirecciones/subdireccion-alianzas-publico-privadas/item/88-preguntas-aprovechamieno" target="_blank">http://www.app.gov.co/index.php/subdirecciones/subdireccion-alianzas-publico-privadas/item/88-preguntas-aprovechamieno</a></p>
 							<h4>Decreto 1082 de 2015:</h4>
@@ -86,28 +87,28 @@
 							<h4>Ley 1753 de 2015:</h4>
 							<p><a href="http://www.secretariasenado.gov.co/senado/basedoc/ley_1753_2015.html" target="_blank">http://www.secretariasenado.gov.co/senado/basedoc/ley_1753_2015.html</a></p>
 							<h4>Guías y Resoluciones del DNP:</h4>
-							<p><a href="https://www.dnp.gov.co/programas/participaci%C3%B3n-privada-y-en-proyectos-de-infraestructura/asociaciones-publicoprivadas/Paginas/asociaciones-publico-privadas.aspx" target="_blank">https://www.dnp.gov.co/programas/participaci%C3%B3n-privada-y-en-proyectos-de-infraestructura/asociaciones-publicoprivadas/Paginas/asociaciones-publico-privadas.aspx</a></p>
-						</div>
-					</div>
-				</div>
-				<div class="card team border-0">
-					<div class="card-header" id="headingOne">
-						<h2 class="mb-0"><button aria-controls="suitContent" aria-expanded="true" class="btn btn-link btn-block text-left text-dark font-bold" data-target="#suitContent" data-toggle="collapse" type="button">Aprovechamiento Económica del Espacio Público (AEEP).</button></h2>
-					</div>
-					<div aria-labelledby="headingOne" class="collapse" data-parent="#accordionExample" id="suitContent">
-						<div class="card-body">
-							<h4>La información la puedes revisar a través del SUIT</h4>
-							<p><a href="{{route('user.transparency.suit')}}" target="_blank">Haz clic aquí para continuar.</a></p>
-						</div>
-					</div>
-				</div>
-				<div class="card team border-0">
-					<div class="card-header" id="headingOne">
-						<h2 class="mb-0"><button aria-controls="inmoContent" aria-expanded="true" class="btn btn-link btn-block text-left text-dark font-bold" data-target="#inmoContent" data-toggle="collapse" type="button">Bienes Fiscales Inmuebles</button></h2>
-					</div>
-					<div aria-labelledby="headingOne" class="collapse" data-parent="#accordionExample" id="inmoContent">
-						<div class="card-body">
-							<h4>¿Qué son bienes fiscales?</h4>
+							<p><a href="https://www.dnp.gov.co/programas/participaci%C3%B3n-privada-y-en-proyectos-de-infraestructura/asociaciones-publicoprivadas/Paginas/asociaciones-publico-privadas.aspx" target="_blank">https://www.dnp.gov.co/programas/participaci%C3%B3n-privada-y-en-proyectos-de-infraestructura/asociaciones-publicoprivadas/Paginas/asociaciones-publico-privadas.aspx</a></p>				
+					</tr>
+				</tbody>
+			</table>
+		</div>
+		<button class="accordion">Aprovechamiento Económica del Espacio Público (AEEP).</button>
+		<div class="panel">
+			<table class="table table-bordered table-striped custom-table">
+				<tbody>
+					<tr>		
+					<h4>La información la puedes revisar a través del SUIT</h4>
+							<p><a href="{{route('user.transparency.suit')}}" target="_blank">Haz clic aquí para continuar.</a></p>				
+					</tr>
+				</tbody>
+			</table>
+		</div>
+		<button class="accordion">Bienes Fiscales Inmuebles</button>
+		<div class="panel">
+			<table class="table table-bordered table-striped custom-table">
+				<tbody>
+					<tr>	
+					<h4>¿Qué son bienes fiscales?</h4>
 							<p class="text-justify">Los bienes fiscales son aquellos inmuebles que pertenecen a las Entidades del estado y que están destinados a servir en el ejercicio de funciones públicas (Alcaldías, Concejos Municipales, empresas del estado, etc.) o para la prestación de servicios colectivos (recreación, salud, educación, cultura, etc.). El Estado puede gestionarlos como si se tratase de un bien de propiedad particular, es decir, venderlos, arrendarlos, desarrollarlos constructivamente, etc.</p>
 							<h4>¿Qué son bienes de uso público?</h4>
 							<p class="text-justify">Los bienes de uso público son aquellos que pertenecen al Estado y que se destinan al uso y disfrute de todos los habitantes de un territorio sin excepción. Forman parte del espacio público y son administrados bajo el principio del interés general, por lo que no pueden ser vendidos, donados, embargados o usurpados. Por esta razón, su destinación como bien de uso público solo puede ser modificada por los Concejos Municipales.</p>
@@ -118,13 +119,14 @@
 							<h4>¿Cuál es el proceso para enajenar un bien fiscal?</h4>
 							<p class="text-justify">Es necesario contar con un avalúo comercial a través del cual se identifique el valor real del bien inmueble. Luego, se inicia un proceso público, denominado "Enajenación de Bienes del Estado a través de Subasta Pública", el cual tiene todas las etapas de un proceso licitatorio, y donde las personas interesadas en el bien pueden presentar ofertas económicas. Estas, se entregan en sobre cerrado y la entidad pública, elige la oferta que contenga el valor más alto sobre el avalúo comercial realizado. Es importante precisar que para poder participar en el proceso de selección, se debe consignar un porcentaje del valor del bien, lo cual constituye un requisito habilitante para participar en el proceso de enajenación.</p>
 							<h4>¿Cuál es el precio de referencia para comercialización de un bien fiscal?</h4>
-							<p class="text-justify">Este precio parte del avalúo comercial realizado por un avaluador debidamente autorizado por la Ley. Dicho avalúo comercial determina el valor de enajenación, el valor de la renta en caso de celebración de un contrato de arrendamiento, o incluso el valor del aprovechamiento económico y frutos percibidos a futuro, en el evento que la comercialización se dé a través de otro tipo de contrato como es la concesión.</p>
-						</div>
-					</div>
-				</div>
-			</div>
+							<p class="text-justify">Este precio parte del avalúo comercial realizado por un avaluador debidamente autorizado por la Ley. Dicho avalúo comercial determina el valor de enajenación, el valor de la renta en caso de celebración de un contrato de arrendamiento, o incluso el valor del aprovechamiento económico y frutos percibidos a futuro, en el evento que la comercialización se dé a través de otro tipo de contrato como es la concesión.</p>					
+					</tr>
+				</tbody>
+			</table>
 		</div>
-	</section>
+	</div>
+</section>
+		
 	<footer class="vlt-single-post__footer">
 		<!--Post Tags-->
 		<!--Post Share-->
@@ -146,6 +148,7 @@
 @endsection
 
 @push('scripts')
+<script src="{{ asset('assets/js/acordion.js')}}"></script>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
 @endpush

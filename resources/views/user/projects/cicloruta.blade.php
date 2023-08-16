@@ -5,12 +5,12 @@
 <section>
 		<!--Page Title Hero-->
 		<div class="vlt-page-title-hero vlt-page-title-hero--work vlt-page-title-hero--lg jarallax">
-			<div class="vlt-page-title-hero__overlay"></div><img alt="" class="jarallax-img" src="{{asset('assets/img/bg/5.jpg')}}">
-			<div class="vlt-page-title-hero__content">
-				<h1 style="color:white;">Ciclorruta Norte - Sur</h1>
+			<div class="vlt-page-title-hero__overlay"></div><img alt="" class="jarallax-img" src="{{asset('assets/img/Banners/bannerCicloruta.jpg')}}">
+			<div class="vlt-page-title-hero__content ocultPosition">
+				<h1 style="color:white;">Ciclorura Norte - Sur</h1>
 			</div>
 		</div>
-	</section><!--Content-->
+	</section>
 	<section>
 		<div class="vlt-gap-0"></div>
 		<div class="container">
@@ -23,7 +23,7 @@
 								<hr>
 								<p>Por medio de un contrato interadministrativo con la Secretaría de Movilidad desarrollamos los diagnósticos y el diseño en anteproyecto de la ciclorruta norte-sur que conectará a toda el área metropolitana, desde Bello hasta Itagüí. Al ser nuestra Agencia APP la diseñadora de esta gran proyecto se tiene como principio la cualificación del paisaje urbano y la adecuación de espacio público para que la ciudadanía pueda habitar nuevos espacios, a través del Aprovechamiento Económico del Espacio Público –AEEP–.</p>
 								<hr>
-								<div align="center"><img alt="" src="{{asset('assets/img/Proyectos/Ciclorruta.jpeg')}}"></div>
+								<div align="center"><img alt="" src="{{asset('assets/img/Proyectos/imgCicloruta.png')}}"></div>
 							</div>
 						</div>
 					</div>

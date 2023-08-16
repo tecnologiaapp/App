@@ -1,16 +1,15 @@
 @extends('layouts.app')
 @section('content')
 @section('body_color', '#FFFFFF;')
-
 <section>
 		<!--Page Title Hero-->
 		<div class="vlt-page-title-hero vlt-page-title-hero--work vlt-page-title-hero--lg jarallax">
-			<div class="vlt-page-title-hero__overlay"></div><img alt="" class="jarallax-img" src="{{asset('assets/img/bg/5.jpg')}}">
-			<div class="vlt-page-title-hero__content">
+			<div class="vlt-page-title-hero__overlay"></div><img alt="" class="jarallax-img" src="{{asset('assets/img/Banners/bannerPuentesYarteUrbano.jpg')}}">
+			<div class="vlt-page-title-hero__content ocultPosition">
 				<h1 style="color:white;">Puentes y arte urbano</h1>
 			</div>
 		</div>
-	</section><!--Content-->
+	</section>
 	<section>
 		<div class="vlt-gap-0"></div>
 		<div class="container">
@@ -23,7 +22,7 @@
 								<hr>
 								<p>Adecuamos cuatro puentes con arte urbano en la 33, entre el barrio Conquistadores y el Cerro Nutibara; en la calle Colombia, entre Suramericana y el sector Carlos E. Restrepo; al sur, en la Avenida Guayabal, a la altura del Parque de Conservación Santa Fe; y al norte en la zona Caribe a la altura de la Secretaría de Movilidad. Con este proyecto aportamos a la consolidación de estructuras verdes en Medellín Futuro, evitamos la demolición de los puentes con una reducción en la generación de huella de carbono y avanzamos en la consolidación de una Ecociudad.</p>
 								<hr>
-								<div align="center"><img alt="" src="{{asset('assets/img/Proyectos/Puentes-urbano.webp')}}"></div>
+								<div align="center"><img alt="" src="{{asset('assets/img/Proyectos/imgPuentesYarteUrbano.png')}}"></div>
 							</div>
 						</div>
 					</div>

@@ -5,11 +5,17 @@
 <head>
 <link  href="{{ asset('assets/css/noticia.css') }}" rel="stylesheet">
 </head>
-	
-<div class="vlt-single-post-wrapper vlt-single-post-wrapper--style-1">
-		<section class="bannerT">
-			<a target="_blank"><img class="img-fluid img-banner-t" src="{{asset('assets/img/Banners/Noticias.jpg')}}"></a>
-		</section>
+
+<section>
+		<!--Page Title Hero-->
+		<div class="vlt-page-title-hero vlt-page-title-hero--work vlt-page-title-hero--lg jarallax">
+			<div class="vlt-page-title-hero__overlay"></div><img alt="" class="jarallax-img" src="{{asset('assets/img/Banners/app-bannerNoticiasok.jpg')}}">
+			<div class="vlt-page-title-hero__content ocultPosition">
+				<h1 style="color:white;">Noticias</h1>
+			</div>
+		</div>
+	</section>
+
 		<div class="container">
 			<article class="vlt-single-post">
 				<div class="vlt-animation-block mb-5 text-center" data-aos="fade" data-aos-delay="0">
@@ -128,7 +134,6 @@
 				</ul>
 			</nav>
 		</div>
-	</div>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 	

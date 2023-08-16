@@ -5,12 +5,12 @@
 <section>
 		<!--Page Title Hero-->
 		<div class="vlt-page-title-hero vlt-page-title-hero--work vlt-page-title-hero--lg jarallax">
-			<div class="vlt-page-title-hero__overlay"></div><img alt="" class="jarallax-img" src="{{asset('assets/img/bg/5.jpg')}}">
-			<div class="vlt-page-title-hero__content">
-				<h1 style="color:white;">Galería urbana calle 10, El Poblado</h1>
+			<div class="vlt-page-title-hero__overlay"></div><img alt="" class="jarallax-img" src="{{asset('assets/img/Banners/bannerGaleriaUrbana.jpg')}}">
+			<div class="vlt-page-title-hero__content ocultPosition">
+				<h1 style="color:white;">Galería urbana Calle 10 - El poblado</h1>
 			</div>
 		</div>
-	</section><!--Content-->
+	</section>
 	<section>
 		<div class="vlt-gap-0"></div>
 		<div class="container">
@@ -23,7 +23,7 @@
 								<hr>
 								<p>Entre las carreras 46 y 32d, alrededor del Parque de El Poblado y la avenida El Poblado, intervenimos de color 26.000 m2 con 40 murales, 60 cortinas metálicas y 7 muros verdes en medianeros. Es un proyecto de cualificación del paisaje urbano en un corredor estratégico para la ciudad que busca la intervención de las fachadas a través de su mejoramiento integral y la regulación de los avisos publicitarios bajo la modalidad de participación público-privado. 88 propietarios y artistas se vincularon, y fueron intervenidos 48 predios con beneficios como mejoramiento de la percepción de seguridad, crear un museo al aire libre de expresiones artísticas, atraer nuevos clientes a actividades comerciales y cumplir la norma en avisos y elementos de fachada.</p>
 								<hr>
-								<div align="center"><img alt="" src="{{asset('assets/img/Proyectos/El-Poblado.webp')}}"></div>
+								<div align="center"><img alt="" src="{{asset('assets/img/Proyectos/imgGaleriaUrbana.png')}}"></div>
 							</div>
 						</div>
 					</div>

@@ -2,7 +2,7 @@
 @section('body_color', '#ffffff;')
 @section('content')
 <head>
-<link rel="stylesheet" href="{{ asset('assets/css/transparencia.css')}}">
+<link rel="stylesheet" href="{{ asset('assets/css/transparency.css')}}">
 </head>
 
 <section>

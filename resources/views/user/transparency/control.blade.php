@@ -2,15 +2,15 @@
 @section('body_color', '#ffffff;')
 @section('content')
 <head>
-<link rel="stylesheet" href="{{ asset('assets/css/transparencia.css')}}">
+<link rel="stylesheet" href="{{ asset('assets/css/transparency.css')}}">
 </head>
 
 <section>
 		<!--Page Title Hero-->
 		<div class="vlt-page-title-hero vlt-page-title-hero--work vlt-page-title-hero--lg jarallax">
-			<div class="vlt-page-title-hero__overlay"></div><img alt="" class="jarallax-img" src="{{asset('assets/img/bg/5.jpg')}}">
-			<div class="vlt-page-title-hero__content">
-				<h1 style="color:white;">Control</h1>
+			<div class="vlt-page-title-hero__overlay"></div><img alt="" class="jarallax-img" src="{{asset('assets/img/Banners/bannerControl.jpg')}}">
+			<div class="vlt-page-title-hero__content ocultPosition">
+				<h1 style="color:white;">Control interno</h1>
 			</div>
 		</div>
 	</section>

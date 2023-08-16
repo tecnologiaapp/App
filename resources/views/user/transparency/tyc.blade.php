@@ -1,23 +1,15 @@
 @extends('layouts.app')
-@section('body_color', '#FEF38F;')
+@section('body_color', '#ffffff;')
 @section('content')
-
 <section>
 		<!--Page Title Hero-->
 		<div class="vlt-page-title-hero vlt-page-title-hero--work vlt-page-title-hero--lg jarallax">
-			<div class="vlt-page-title-hero__overlay"></div><img alt="" class="jarallax-img" src="{{asset('assets/img/bg/5.jpg')}}">
-			<div class="vlt-page-title-hero__content">
-				<div class="container">
-					<div class="row">
-						<div class="col-md-8 offset-md-2">
-							<h1 class="vlt-page-title-hero__title" style="text-transform: none;">Politica de manejo de datos personales</h1>
-						</div>
-					</div>
-				</div>
-			</div><a class="vlt-scroll-to-arrow" href="#content"><i class="leedo-download-arrow"></i></a>
+			<div class="vlt-page-title-hero__overlay"></div><img alt="" class="jarallax-img" src="{{asset('assets/img/Banners/bannerTramitesEnElSuit.jpg')}}">
+			<div class="vlt-page-title-hero__content ocultPosition">
+				<h1 style="color:white;">Política de manejo de datos personales</h1>
+			</div>
 		</div>
-		<div id="content"></div>
-	</section><!--Content-->
+	</section>
 	<section>
 		<div class="vlt-gap-120"></div>
 		<div class="container">
@@ -33,7 +25,7 @@
 						</div>
 						<div class="vlt-gap-45"></div><!--Animation Block-->
 						<div>
-							<embed height="380" src="{{asset('assets/pdf/pol%C3%ADtica-de-manejo-de-datos-personales.pdf')}}" type="application/pdf">
+							<embed height="380" src="{{asset('assets/pdf/política-de-manejo-de-datos-personales.pdf')}}" type="application/pdf">
 						</div>
 						<div class="vlt-gap-45"></div>
 					</div>

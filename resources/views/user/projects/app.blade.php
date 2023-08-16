@@ -6,7 +6,7 @@
 	<section>
 		<!--Page Title Hero-->
 		<div class="vlt-page-title-hero vlt-page-title-hero--work vlt-page-title-hero--lg jarallax">
-			<div class="vlt-page-title-hero__overlay"></div><img alt="" class="jarallax-img" src="{{asset('assets/img/Banners/gestion.jpg')}}">
+			<div class="vlt-page-title-hero__overlay"></div><img alt="" class="jarallax-img" src="{{ asset('assets/img/Banners/gestionDeAsociaciones.jpg')}}">
 			<div class="vlt-page-title-hero__content ocultPosition">
 				<h1 style="color:white;">Gestión de asociaciones público privadas</h1>
 			</div>

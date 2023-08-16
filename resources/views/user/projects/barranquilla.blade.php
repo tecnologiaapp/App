@@ -5,12 +5,12 @@
 <section>
 		<!--Page Title Hero-->
 		<div class="vlt-page-title-hero vlt-page-title-hero--work vlt-page-title-hero--lg jarallax">
-			<div class="vlt-page-title-hero__overlay"></div><img alt="" class="jarallax-img" src="{{asset('assets/img/bg/5.jpg')}}">
-			<div class="vlt-page-title-hero__content">
+			<div class="vlt-page-title-hero__overlay"></div><img alt="" class="jarallax-img" src="{{asset('assets/img/Banners/bannerGaleriaUrbanaAcielo.jpg')}}">
+			<div class="vlt-page-title-hero__content ocultPosition">
 				<h1 style="color:white;">Galería urbana a cielo abierto calle Barranquilla</h1>
 			</div>
 		</div>
-	</section><!--Content-->
+	</section>
 	<section>
 		<div class="vlt-gap-0"></div>
 		<div class="container">
@@ -23,7 +23,7 @@
 								<hr>
 								<p>Patrimonio, cultura, vecindad, barrio, homenaje a grandes personajes locales y otras expresiones artísticas hacen parte de la nueva cara urbana de la calle Barranquilla, gracias a la renovación de fachadas de este corredor vial del norte de Medellín. En esta iniciativa participaron 100 artistas urbanos y se intervinieron 3.406 m2. culturales de Prado y Lovaina.</p>
 								<hr>
-								<div align="center"><img alt="" src="{{asset('assets/img/Proyectos/Barranquilla.webp')}}"></div>
+								<div align="center"><img alt="" src="{{asset('assets/img/Proyectos/imgGaleriaUrbanaAcielo.png')}}"></div>
 							</div>
 						</div>
 					</div>

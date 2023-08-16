@@ -29,7 +29,7 @@
 
 
   
-	<link rel="stylesheet" type="text/css" href="{{ asset('assets/css/indes.css')}}" />
+	<link rel="stylesheet" type="text/css" href="{{ asset('assets/css/index.css')}}" />
     <link rel="stylesheet" href="{{ asset('assets/css/footer.css') }}">
     <link rel="stylesheet" id="google-language-translator-css" href="https://www.medellin.gov.co/es/wp-content/plugins/google-language-translator/css/style.css?ver=6.0.15" type="text/css" media="">
 <link rel="stylesheet" id="pojo-a11y-css" href="https://www.medellin.gov.co/es/wp-content/plugins/pojo-accessibility/assets/css/style.min.css?ver=1.0.0" type="text/css" media="all">

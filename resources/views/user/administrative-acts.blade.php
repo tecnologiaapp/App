@@ -1,18 +1,14 @@
 @extends('layouts.app')
 @section('body_color', '#ffffff;')
 @section('content')
-	<section>
+<section>
 		<!--Page Title Hero-->
 		<div class="vlt-page-title-hero vlt-page-title-hero--work vlt-page-title-hero--lg jarallax">
-			<div class="vlt-page-title-hero__overlay"></div><img class="jarallax-img" src="{{ asset('assets/img/bg/5.jpg')}}" alt="">
-			<div class="vlt-page-title-hero__content">
-
-							<h1 style="color:white;">
-							Actos administrativos
-							</h1>
-		
+			<div class="vlt-page-title-hero__overlay"></div><img alt="" class="jarallax-img" src="{{asset('assets/img/Banners/bannerActosAdministrativos.jpg')}}">
+			<div class="vlt-page-title-hero__content ocultPosition">
+				<h1 style="color:white;">Actos administrativos</h1>
 			</div>
-		</div>		
+		</div>
 	</section>
 
 	<!--Content-->

@@ -39,11 +39,11 @@
 				  <span>Carcel Metropolitana para Sindicados</span>
 			  </a>
 				</li>
-				<li>
+				<!-- <li>
 				<a  href="{{ route('user.projects.factibilidad') }}">
 				  <span>Proyecto de factibilidad</span>
 			  </a>
-				</li>
+				</li> -->
 				<li>
 				<a href="{{ route('user.projects.arena') }}">
 				  <span>Arena Medellín</span>
@@ -79,9 +79,7 @@
 				   <span>Aprovechamiento Económico del Espacio Público –AEEP–</span>
 			   </a>
 			</li>				
-				<li><a href="https://forms.gle/weBzN8E6FUxLkSuT8" target="_blank">
-				 <span>Banco de artistas</span>
-				 </a> </li>
+				
 				<li>
 				<a class="menu-sub-item" href="{{ route('user.projects.gestion') }}">
 				  <span>Plan Integral de Gestión de Prado</span>

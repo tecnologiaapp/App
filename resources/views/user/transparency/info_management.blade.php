@@ -1,7 +1,9 @@
 @extends('layouts.app')
 @section('body_color', '#ffffff;')
 @section('content')
-
+<head>
+<link rel="stylesheet" href="{{ asset('assets/css/transparency.css')}}">
+</head>
 <section>
 		<!--Page Title Hero-->
 		<div class="vlt-page-title-hero vlt-page-title-hero--work vlt-page-title-hero--lg jarallax">
@@ -68,17 +70,11 @@
 			</div>
 		</div>
 		<div class="container mt-5">
-			<div class="accordion" id="extraInfo" style="background-color: transparent;">
-				<!--extraInfo-->
-				<div class="card team border-0">
-					<div class="card-header" id="headingOne">
-						<h2 class="mb-0"><button aria-controls="extraInfo" aria-expanded="true" class="btn btn-link btn-block text-left text-dark font-bold" data-target="#extraInfo" data-toggle="collapse" type="button">Información adicional</button></h2>
-					</div>
-					<div aria-labelledby="headingOne" class="collapse show" data-parent="#extraInfo" id="extraInfo">
-						<div class="card-body">
-							<table class="table table-bordered table-striped custom-table">
-								<tbody>
-									<tr>
+		<button class="accordion">Información adicional</button>
+		<div class="panel">
+			<table class="table table-bordered table-striped custom-table">
+				<tbody>
+				<tr>
 										<td>Costos de reproducción de la información pública</td>
 										<td>
 											<a class="btn btn-primary" href="{{asset('assets/pdf/control/tables/resolucion-105-de-2019.pdf')}}" target="_blank">Ver documento</a>
@@ -144,14 +140,12 @@
 											<a class="btn btn-primary" href="{{asset('assets/pdf/control/202010000431TVD.pdf')}}" target="_blank">Ver documento</a>
 										</td>
 									</tr>
-								</tbody>
-							</table>
-						</div>
-					</div>
-				</div><!--/extraInfo-->
-			</div>
+				</tbody>
+			</table>
 		</div>
-	</section>
+	</div>
+</section>
+
 	<footer class="vlt-single-post__footer">
 		<!--Post Tags-->
 		<!--Post Share-->
@@ -173,6 +167,7 @@
 @endsection
 
 @push('scripts')
+<script src="{{ asset('assets/js/acordion.js')}}"></script>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
 @endpush

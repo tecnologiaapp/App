@@ -5,12 +5,12 @@
 <section>
 		<!--Page Title Hero-->
 		<div class="vlt-page-title-hero vlt-page-title-hero--work vlt-page-title-hero--lg jarallax">
-			<div class="vlt-page-title-hero__overlay"></div><img alt="" class="jarallax-img" src="{{asset('assets/img/bg/5.jpg')}}">
-			<div class="vlt-page-title-hero__content">
-				<h1 style="color:white;">Muros verdes</h1>
+			<div class="vlt-page-title-hero__overlay"></div><img alt="" class="jarallax-img" src="{{asset('assets/img/Banners/bannerMurosVerde.jpg')}}">
+			<div class="vlt-page-title-hero__content ocultPosition">
+				<h1 style="color:white;">Muros Verdes</h1>
 			</div>
 		</div>
-	</section><!--Content-->
+	</section>
 	<section>
 		<div class="vlt-gap-0"></div>
 		<div class="container">
@@ -23,7 +23,7 @@
 								<hr>
 								<p>Con el propósito de cualificar el paisaje público urbano, mejorar la conectividad biológica y adecuar espacios para enriquecer y consolidar el sistema ambiental, entregamos 767 m2 de nueva infraestructura verde alternativa: uno de los muros verdes más grandes de la ciudad de 475 m2 en la fachada del Concejo de Medellín y 292 m2 de jardines verticales en las zonas de recepción, vacío central y piso quinto del Centro Administrativo La Alpujarra. En total se sembraron 36.816 plantas que aportan a la biodiversidad de fauna y flora en la ciudad.</p>
 								<hr>
-								<div align="center"><img alt="" src="{{asset('assets/img/Proyectos/Muros-verdes.webp')}}"></div>
+								<div align="center"><img alt="" src="{{asset('assets/img/Proyectos/imgMurosVerdes.png')}}"></div>
 							</div>
 						</div>
 					</div>

@@ -10,7 +10,8 @@
 				<h1 style="color:white;">Centro de comercios y servicios la Aurora</h1>
 			</div>
 		</div>
-	</section><!--Content-->
+	</section>
+	<!--Content-->
 	<section>
 		<div class="vlt-gap-0"></div>
 		<div class="container">

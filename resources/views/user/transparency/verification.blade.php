@@ -2,7 +2,7 @@
 @section('body_color', '#ffffff;')
 @section('content')
 <head>
-<link rel="stylesheet" href="{{ asset('assets/css/transparencia.css')}}">
+<link rel="stylesheet" href="{{ asset('assets/css/transparency.css')}}">
 </head>
 
 <section>
@@ -240,19 +240,10 @@
 					</tr>
 				</thead>
 				<tbody>
-					<!-- <tr>
-                            <td width="65%">Carta de trato digno al ciudadano </td>
-                            
-                            <td class="text-center">
-                                <a href="https://drive.google.com/file/d/1kZpuKVDlUPHh_xV7CfJcMt72RWiE8EAN/view" class="btn btn-primary btn-block" target="_blank">
-                                    Ver documento
-                                </a>
-                            </td>
-                        </tr>    -->
 					<tr>
 						<td width="65%">Código de integridad</td>
 						<td class="text-center">
-							<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/C%C3%B3digodeIntegridadAPP.pdf')}}" target="_blank">Ver documento</a>
+							<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/codigointegridadapp.pdf')}}" target="_blank">Ver documento</a>
 						</td>
 					</tr>
 				</tbody>
@@ -795,17 +786,6 @@
 		</div><button class="accordion">10. Instrumentos de gestión de información pública.</button>
 		<div class="panel">
 			<table class="table table-bordered table-striped custom-table">
-				<tbody>
-					<!-- <tr>
-                            <td width="65%">Instrumentos de gestión de información pública.</td>
-                        
-                            <td class="text-center">
-                                <a href="{{ route('user.transparency.info_management') }}" class="btn btn-primary btn-block" target="_blank">
-                                    Ver página
-                                </a>
-                            </td>
-                        </tr>        -->
-				</tbody>
 				<thead>
 					<tr>
 						<th>10.2. Registro de Activos de Información</th>
@@ -815,19 +795,15 @@
 					<tr>
 						<td width="65%">Instrumentos de gestión de información pública.</td>
 						<td class="text-center">
-							<!-- <a href="{{ route('user.transparency.info_management') }}" class="btn btn-primary btn-block" target="_blank">
-                                    Ver página
-                                </a> -->
+							
 							 <a class="btn btn-primary btn-block" href="{{asset('assets/pdf/REGISTROACTIVOSINFORMACIONAGENCIAAPP2022.pdf')}}" target="_blank">Ver documento</a>
 						</td>
 					</tr>
 					<tr>
 						<td width="65%">Resolución 063</td>
 						<td class="text-center">
-							<!-- <a href="{{ route('user.transparency.info_management') }}" class="btn btn-primary btn-block" target="_blank">
-                                    Ver página
-                                </a> -->
-							 <a class="btn btn-primary btn-block" href="{{asset('assets/pdf/Resoluci%C3%B3n063.pdf')}}" target="_blank">Ver documento</a>
+						
+							 <a class="btn btn-primary btn-block" href="{{asset('assets/pdf/Resolución063.pdf')}}" target="_blank">Ver documento</a>
 						</td>
 					</tr>
 				</tbody>
@@ -840,19 +816,15 @@
 					<tr>
 						<td width="65%">Instrumentos de gestión de información pública.</td>
 						<td class="text-center">
-							<!-- <a href="{{ route('user.transparency.info_management') }}" class="btn btn-primary btn-block" target="_blank">
-                                    Ver página
-                                </a> -->
-							 <a class="btn btn-primary btn-block" href="{{asset('assets/pdf/INDICEDEINFORMACI%C3%93NCLASIFICADAYRESERVADAAGENCIAAPP2022.pdf')}}" target="_blank">Ver documento</a>
+					
+							 <a class="btn btn-primary btn-block" href="{{asset('assets/pdf/INDICEDEINFORMACIÓNCLASIFICADAYRESERVADAAGENCIAAPP2022.pdf')}}" target="_blank">Ver documento</a>
 						</td>
 					</tr>
 					<tr>
 						<td width="65%">Resolución 063</td>
 						<td class="text-center">
-							<!-- <a href="{{ route('user.transparency.info_management') }}" class="btn btn-primary btn-block" target="_blank">
-                                    Ver página
-                                </a> -->
-							 <a class="btn btn-primary btn-block" href="{{asset('assets/pdf/Resoluci%C3%B3n063.pdf')}}" target="_blank">Ver documento</a>
+						
+							 <a class="btn btn-primary btn-block" href="{{asset('assets/pdf/Resolución063.pdf')}}" target="_blank">Ver documento</a>
 						</td>
 					</tr>
 				</tbody>
@@ -871,10 +843,8 @@
 					<tr>
 						<td width="65%">Resolución 063</td>
 						<td class="text-center">
-							<!-- <a href="{{ route('user.transparency.info_management') }}" class="btn btn-primary btn-block" target="_blank">
-                                    Ver página
-                                </a> -->
-							 <a class="btn btn-primary btn-block" href="{{asset('assets/pdf/Resoluci%C3%B3n063.pdf')}}" target="_blank">Ver documento</a>
+							
+							 <a class="btn btn-primary btn-block" href="{{asset('assets/pdf/Resolución063.pdf')}}" target="_blank">Ver documento</a>
 						</td>
 					</tr>
 				</tbody>
@@ -887,7 +857,7 @@
 					<tr>
 						<td width="65%">Plan para facilitar la identificación, gestión, clasificación, organización, conservación y disposición de la información pública, elaborado según lineamientos del Decreto 2609 de 2012, o las normas que lo sustituyan o modifiquen</td>
 						<td class="text-center">
-							<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/ProgramadeGesti%C3%B3nDocumental.pdf')}}" target="_blank">Ver documento</a>
+							<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/ProgramadeGestiónDocumental.pdf')}}" target="_blank">Ver documento</a>
 						</td>
 					</tr>
 					<tr>

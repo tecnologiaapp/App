@@ -5,12 +5,12 @@
 <section>
 		<!--Page Title Hero-->
 		<div class="vlt-page-title-hero vlt-page-title-hero--work vlt-page-title-hero--lg jarallax">
-			<div class="vlt-page-title-hero__overlay"></div><img alt="" class="jarallax-img" src="{{asset('assets/img/bg/5.jpg')}}">
-			<div class="vlt-page-title-hero__content">
-				<h1 style="color:white;">Arte urbano en intercambio vial Bulerías</h1>
+			<div class="vlt-page-title-hero__overlay"></div><img alt="" class="jarallax-img" src="{{asset('assets/img/Banners/bannerArteUrbanoEnIntercambioVial.jpg')}}">
+			<div class="vlt-page-title-hero__content ocultPosition">
+				<h1 style="color:white;">Arte urbano e intercambio vial Bulerías</h1>
 			</div>
 		</div>
-	</section><!--Content-->
+	</section>
 	<section>
 		<div class="vlt-gap-0"></div>
 		<div class="container">
@@ -23,7 +23,7 @@
 								<hr>
 								<p>Obra de arte urbano de 1.600 m2 realizada en el deprimido de Bulerías en la calle 33, en el sector de Laureles de Medellín. Para este proyecto se trabajó con la artista e indígena gunadule, Amelicia Santacruz Álvarez, quien diseñó las molas que se dibujaron en los muros del intercambio vial. La obra fue ejecutada por la Fundación El Hormiguero, un colectivo de artistas urbanos quienes por tres semanas pintaron en las noches esta representación de arte, vida y color.</p>
 								<hr>
-								<div align="center"><img alt="" src="{{asset('assets/img/Proyectos/Buler%C3%ADas.webp')}}"></div>
+								<div align="center"><img alt="" src="{{asset('assets/img/Proyectos/imgArteUrbanoEnIntercambioVial.png')}}"></div>
 							</div>
 						</div>
 					</div>
