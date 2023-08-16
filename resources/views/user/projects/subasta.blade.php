@@ -38,7 +38,7 @@
 				<div class="section-title">
 					<h2>Subasta de bienes muebles Agencia APP</h2>
 				</div>
-				<p style="text-align:justify">La Agencia APP, se permite informar que se encuentra publicado proceso para la enajenación de bienes muebles, a través de la modalidad de martillo, liderado por el Banco Popular, se debe seleccionar el evento del 28 de julio en el sitio web.</p>
+				<p style="text-align:justify">La Agencia APP, se permite informar que se encuentra publicado proceso para la enajenación de bienes muebles, a través de la modalidad de martillo, liderado por el Banco Popular, se debe seleccionar el evento del 23 de Agosto en el sitio web.</p>
 				<table class="table table-hover">
 					<thead>
 						<tr>
@@ -51,34 +51,26 @@
 					<tbody>
 						<tr>
 							<th scope="row">1</th>
-							<td>Imagenes de catálogo</td>
+							<td>Catálogo</td>
 							<td>PDF</td>
 							<td class="text-center">
-								<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/imagencatalogo.pdf')}}" target="_blank">Ver PDF</a>
+								<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/martillo.pdf')}}" target="_blank">Ver PDF</a>
 							</td>
 						</tr>
 						<tr>
 							<th scope="row">2</th>
-							<td>Catálogo</td>
-							<td>PDF</td>
-							<td class="text-center">
-								<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/CATALOGO.pdf')}}" target="_blank">Ver PDF</a>
-							</td>
-						</tr>
-						<tr>
-							<th scope="row">3</th>
 							<td>Detalles virtuales</td>
 							<td>PDF</td>
 							<td class="text-center">
-								<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/detalles.pdf')}}" target="_blank">Ver PDF</a>
+								<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/detalle-martillo.pdf')}}" target="_blank">Ver PDF</a>
 							</td>
 						</tr>
                         <tr>
-							<th scope="row">4</th>
+							<th scope="row">3</th>
 							<td>Banco Popular</td>
 							<td>Imagen</td>
 							<td class="text-center">
-								<a class="btn btn-primary btn-block" href="{{ asset('assets/img/banco-popular.jpeg')}}" target="_blank">Ver imagen</a>
+								<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/banco.pdf')}}"  target="_blank">Ver PDF</a>
 							</td>
 						</tr>
 					</tbody>
