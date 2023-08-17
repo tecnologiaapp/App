@@ -55,13 +55,18 @@
 						<div class="col-md-10 offset-md-1">
 							<div class="text-justify">
 								<div class="vlt-gap-15"></div>
-								<h3 style="text-align:center;">Qué es el AEEP</h3>
+								<div class="section-title">
+									<h2>Qué es el AEEP</h2>
+								</div>
 								<hr>
 								<p>Uno de los objetivos de la Agencia APP es operar los instrumentos financieros definidos en el Acuerdo 048 de 2014 del Plan de Ordenamiento Territorial –POT–. Uno de ellos es el Aprovechamiento Económico del Espacio Público –AEEP–, el cual establece que cualquier ciudadano que aproveche económicamente el espacio público debe pagar una tarifa que se direcciona para el sostenimiento y cualificación del paisaje urbano (infraestructura física, aseo y ornato, seguridad, comercio, cultura e interacción social sobre el espacio público).</p>
 								<p>El instrumento del AEEP tiene aplicabilidad en todo el subsistema de espacios públicos, con una extensión total de 10,2 km², y está conformado por parques, plazas, franjas de amoblamiento y elemento complementarios como el antejardín en áreas de alta y media mixtura (zonas y corredores con predominancia económica y centralidades urbanas).</p>
 								<hr>
 								<iframe allowfullscreen frameborder="0" height="315" src="https://www.youtube.com/embed/qFS_Gvyi2y8" title="YouTube video player" width="560"></iframe>
-								<h3 style="text-align:center;">Beneficios del AEEP</h3>
+								<div class="section-title">
+									<h2>Beneficios del AEEP</h2>
+								</div>
+								
 								<ul>
 									<li type="circle">Garantizar los protocolos de bioseguridad y el distanciamiento social en los negocios.</li>
 									<li style="list-style: none"><br></li>
@@ -79,7 +84,9 @@
 									<li style="list-style: none"><br></li>
 								</ul>
 								<hr>
-								<h3 style="text-align:center;">Formas y subcategorías</h3>
+								<div class="section-title">
+									<h2>Formas y subcategorías</h2>
+								</div>								
 								<p>Las formas de aprovechamiento económico del espacio público establecidas en el artículo 542 del Acuerdo 48 de 2014 se definen así:</p>
 								<ul>
 									<li><b>Aprovechamiento económico transitorio del espacio público.</b> Para estos casos el permiso de ocupación del espacio público se otorgará por un lapso no mayor a 30 días calendario.</li>
@@ -88,7 +95,9 @@
 									<li style="list-style: none"><br></li>
 								</ul>
 								<hr>
-								<h3 style="text-align:center;">Actividades permitidas</h3>
+								<div class="section-title">
+									<h2>Actividades permitidas</h2>
+								</div>								
 								<ul>
 									<li><b>Mesas y sillas.</b> En esta categoría el comerciante puede hacer extensión de su negocio con mesas y sillas en su antejardín. En casos excepcionales podrá realizarlo en las franjas de amoblamiento de forma transitoria.</li>
 									<li style="list-style: none"><br></li>
@@ -110,7 +119,9 @@
 									<li style="list-style: none"><br></li>
 								</ul>
 								<hr>
-								<h3 style="text-align:center;">Espacios públicos susceptibles de ser aprovechados económicamente</h3>
+								<div class="section-title">
+									<h2>Espacios públicos susceptibles de ser aprovechados económicamente</h2>
+								</div>								
 								<p>El aprovechamiento económico se podrá realizar en los componentes del Subsistema de Espacio Público de Esparcimiento y Encuentro, y en el Subsistema de Movilidad, en particular sobre los siguientes componentes.</p>
 								<ul>
 									<li>En las franjas de amoblamiento de los andenes con una sección mínima de 5 metros donde la franja de amoblamiento posea una sección mínima de 3 metros y la franja de circulación, una sección mínima de 2.</li>
@@ -124,7 +135,9 @@
 								</ul>
 								<div align="center"><img alt="Espacios públicos susceptibles de ser aprovechados económicamente" src="{{asset('assets/img/Proyectos/imgAprovEconomicoDelEspacio.png')}}" title="Espacios públicos susceptibles de ser aprovechados económicamente"></div><br>
 								<hr>
-								<h3 style="text-align:center;">Cómo se implementa el AEEP</h3>
+								<div class="section-title">
+									<h2>Cómo se implementa el AEEP</h2>
+								</div>								
 								<p>Las personas interesadas en desarrollar actividades bajo las subcategorías mencionadas con algún fin económico deben tener en cuenta el siguiente marco jurídico bajo el cual se rige el instrumento del AEEP.</p>
 								<ul>
 									<li type="circle">Acuerdo 048 de 2014 - Plan de Ordenamiento Territorial –POT–.</li>
@@ -149,7 +162,9 @@
 									<li style="list-style: none"><br></li>
 								</ul>
 								<hr>
-								<h3 style="text-align:center;">Paso a paso</h3>
+								<div class="section-title">
+									<h2>Paso a paso</h2>
+								</div>									
 								<h4 style="text-align:center;">Procedimiento para la solicitud de los permisos de ocupación y Aprovechamiento Económico del Espacio Público</h4>
 								<h4 style="text-align:left;">Mesas y sillas</h4>
 								<ul>
@@ -193,7 +208,10 @@
 									<li style="list-style: none"><br></li>
 								</ul>
 								<h5>Descarga aquí</h5><b><a href="{{asset('assets/pdf/aeep/FOGPP09003FORMATOPROYECTODEOCUPACIONAEEPMESASYSILLAS.docx.pdf')}}" target="_blank">PROYECTO DE OCUPACIÓN AEEP</a></b>
-								<h3 style="text-align:center;">Eventos ocasionales con fines económicos</h3>
+								<div class="section-title">
+									<h2>Eventos ocasionales con fines económicos</h2>
+								</div>
+								
 								<ul>
 									<li><b>Comité de eventos.</b> Es liderado por la Subsecretaría de Gobierno Local y Convivencia, la cual está integrada por todas las entidades competentes para la autorización y control de los eventos y espectáculos públicos. Los interesados pueden solicitar este espacio para aclarar dudas y exponer el evento. Número de contacto: 385 55 55, extensión 8406.</li>
 									<li style="list-style: none"><br></li>

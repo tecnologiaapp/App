@@ -47,16 +47,24 @@
 				<div class="col-md-10 offset-md-1">
 					<div class="text-justify">
 						<div class="vlt-gap-15"></div>
-						<h3 style="text-align:center;">Ventanilla Única</h3>
+								<div class="section-title">
+									<h2>Ventanilla Única</h2>
+								</div>
+					
 						<div align="center">
 							<a href="https://www.medellin.gov.co/eventos" target="_blank">Ingresa aquí</a>
 						</div>
-						<h3 style="text-align:center;">Cómo hacerlo</h3>
+								<div class="section-title">
+									<h2>Cómo hacerlo</h2>
+								</div>
+					
 						<p align="center">Mira el video instructivo</p>
 						<div align="center">
 							<a href="https://drive.google.com/file/d/1fiffTWgTL1FlApr4GcW1D7XJbWpUaoYD/view?usp=sharing" target="_blank">Ingresa aquí</a>
 						</div>
-						<h3 style="text-align:center;">Parques de diversiones no permanentes</h3>
+								<div class="section-title">
+									<h2>Parques de diversiones no permanentes</h2>
+								</div>
 						<ul>
 							<li><b>Radicación.</b> Recibimiento del proyecto de ocupación del espacio público para eventos ocasionales e ingreso a bases de datos consecutivos de la Agencia APP y del Sistema de Gestión Documental Mercurio de la Alcaldía de Medellín.</li>
 							<li style="list-style: none"><br></li>
@@ -97,24 +105,45 @@
 							<li><b>Traslado.</b> Envío de la solicitud a la Subdirección de Espacio Público para emitir acto administrativo por medio del cual se otorga, niega o se declara desistida la solicitud y su posterior notificación.</li>
 							<li style="list-style: none; display: inline">
 								<h5>Descarga aquí</h5><a href="{{asset('assets/pdf/aeep/FOGPP09002FORMATOPROYECTODEOCUPACIONAEEPEVENTOSOCASIONALES.docx.pdf')}}" target="_blank">PROYECTO DE OCUPACIÓN AEEP</a>
-								<h3 style="text-align:center;">Amoblamiento urbano</h3>
+								<div class="section-title">
+									<h2>Amoblamiento urbano</h2>
+								</div>
+								
 								<p>Esta categoría es liderada por la Subsecretaría de Espacio Público, entidad que realiza todo el procedimiento desde la radicación hasta el estudio socioeconómico del solicitante. Una vez está aprobado, se da traslado a la Agencia APP para conceptualizar la ocupación del módulo en el espacio público.</p>
-								<h3 style="text-align:center;">Avisos publicitarios</h3>
+								<div class="section-title">
+									<h2>Avisos publicitarios</h2>
+								</div>
+								
 								<p>Este proceso es liderado por la Subsecretaría de Espacio Público. El ciudadano deberá radicar la solicitud en las instalaciones de la Subsecretaría ubicada en las Torres de Bombona, carrera 42 # 47 - 15.</p>
-								<h3 style="text-align:center;">Plataformas</h3>
+								<div class="section-title">
+									<h2>Plataformas</h2>
+								</div>
+							
 								<p>Plataforma Isolucion - Alcaldía de Medellín</p>
 								<h5><a href="https://www.medellin.gov.co/Isolucion/Administracion/" target="blank">Ingresa aquí</a></h5>
-								<h3 style="text-align:center;">Documentos de tu interés</h3>
+								<div class="section-title">
+									<h2>Documentos de tu interés</h2>
+								</div>
+								
 								<hr>
-								<h3 style="text-align:center;">Tablero Informativo de Ocupación del AEEP</h3>
+								<div class="section-title">
+									<h2>Tablero Informativo de Ocupación del AEEP</h2>
+								</div>
+								
 								<p>Sistema gerencial y de participación ciudadana para el monitoreo de las dinámicas y la gestión del aprovechamiento económico del espacio público en Medellín. Encuentras información general en cifra de indicadores y métricas mensuales, áreas del espacio público ocupadas con actividades, mapas de calor, entre otras.</p>
 								<h5><a href="https://agenciaapp.maps.arcgis.com/apps/dashboards/135b9dce2374440cb2d16b272c22194d" target="_blank">Ingresa aquí</a></h5>
 								<hr>
-								<h3 style="text-align:center;">Decreto de reducción de la tarifa para el aprovechamiento económico del espacio público</h3>
+								<div class="section-title">
+									<h2>Decreto de reducción de la tarifa para el aprovechamiento económico del espacio público</h2>
+								</div>
+								
 								<p>Por medio del cual se prorroga la medida de reducción temporal para la retribución por ocupación del espacio público y se permite autorizar temporalmente otras ocupaciones especiales de la actividad económica en el espacio público en el marco del instrumento Aprovechamiento Económico del Espacio Público y de las medidas de reactivación económica, establecida mediante Decreto 0967 de 2020.</p>
 								<h5>Descarga aquí</h5><a href="https://drive.google.com/file/d/1xUB4-b7KzVNk6JA8LGC5jhlBu775CREH/view?usp=sharing">Decreto 0502 de 2021</a>
 								<hr>
-								<h3 style="text-align:center;">Módulos de atención</h3>
+								<div class="section-title">
+									<h2>Módulos de atención</h2>
+								</div>
+								
 								<h4>Presenciales</h4>
 								<ul>
 									<li>Centro de Servicios a la Ciudadanía La Alpujarra. Centro Administrativo La Alpujarra, sótano A, taquilla 11 o 12.</li>
@@ -125,7 +154,10 @@
 									<li>Correo electrónico: <b>solicitudes@app.gov.co</b></li>
 									<li>Taquilla virtual: <b><a href="https://municipiodemedellinvirtual.sistemasentry.com.co/VisionWeb" target="_blank">Click aquí</a></b></li>
 								</ul>
-								<h3 style="text-align:center;">Reportes ciudadanos</h3>
+								<div class="section-title">
+									<h2>Reportes ciudadanos</h2>
+								</div>
+								
 								<p><b>ArcGIS Survey123</b> es una sencilla e intuitiva solución de captura de datos basada en formularios inteligentes. Con esta herramienta configuramos un formulario que puedes diligenciar instalando la aplicación, accediendo mediante el navegador web para recopilar datos e información geoespacial desde un teléfono inteligente o cualquier otro dispositivo móvil equipado con GPS. También se puede utilizar sin datos móviles.</p>
 								<p>Este aplicativo recibe reportes de la ciudadanía sobre el uso inadecuado del espacio público, nutriendo en tiempo real el Sistema gerencial de participación ciudadana para el monitoreo de las dinámicas y la gestión del Aprovechamiento Económico del Espacio Público para consolidar información y reorientar las acciones de control en el territorio.</p>
 								<p>Los datos son fundamentales para tomar decisiones y garantizar la correcta ocupación de los espacios públicos.</p>
