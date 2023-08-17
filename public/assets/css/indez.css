@@ -519,13 +519,15 @@ h6 {
       }
 
       .ocultPosition span {
-        /* position: relative;
-        top: -500px; */
+        font-size: 48px;
+        font-family: "Jost", sans-serif !important;
+        font-weight: bold;
         }
 
         .ocultPosition h1 {
-          /* position: relative;
-          top: -500px; */
+          font-size: 48px;
+          font-family: "Jost", sans-serif !important;
+          font-weight: bold;
           }
 
           .vlt-animation-block p {
@@ -612,6 +614,11 @@ h6 {
       padding: 18px;
       border-radius: 26px;
       margin-top: 30px;
+    }
+
+    .ulNew li:hover {
+      background-color: #ea5b67;
+    border: 2px solid #ea5b67;
     }
 
     .paddingTopTitle {
