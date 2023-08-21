@@ -15,7 +15,7 @@
 	</section>
 	<section>
 		<div class="vlt-gap-120"></div><!--Particle-->
-		<div class="vlt-particle" data-jarallax-element="-100 0"><img alt="" src="{{asset('assets/img/root/particle-01--black.png')}}" width="200"></div><!--Particle-->
+		<div class="vlt-particle" data-jarallax-element="-100 0"><img alt="" src="{{asset('assets/img/Banners/particle-01--black.png')}}" width="200"></div><!--Particle-->
 		<div class="container mt-5">
 			<h5 class="mt-5 mb-5">Aquí encontrarás todos los instrumentos y mecanismos para la gestión de la información pública:</h5>
 		</div>

@@ -17,10 +17,10 @@
 			<div class="row">
 				<div class="col-md-8 offset-md-2">
 					<div class="text-center">
-						<div class="vlt-animation-block" data-aos="fade" data-aos-delay="0">
-							<h2 class="m-0" style="font-size: 4rem;"><span class="vlt-highlight">Rodrigo Foronda Morales</span></h2>
+						<div class="section-title">
+							<h2>Rodrigo Foronda Morales</h2>
 						</div>
-						<p class="text-subtitulo text-dark mt-3">Agencia para la Gestión del Paisaje, el Patrimonio y las Alianzas Público Privadas</p>
+						<p class="text-subtitulo text-dark">Agencia para la Gestión del Paisaje, el Patrimonio y las Alianzas Público Privadas</p>
 						<div class="vlt-gap-45"></div>
 					</div>
 				</div>

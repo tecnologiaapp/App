@@ -15,20 +15,22 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-12 col-md-3 offset-md-9">
-					<div class="vlt-particle d-flex justify-content-center" data-jarallax-element="100 0"><img alt="" src="{{asset('assets/img/root/particle-01--black.png')}}"></div>
+					<div class="vlt-particle d-flex justify-content-center" data-jarallax-element="100 0"><img alt="" src="{{asset('assets/img/Banners/particle-01--black.png')}}"></div>
 				</div>
 				<div class="col-md-10 offset-md-1">
 					<div class="text-center">
-						<!--Animation Block-->
-						<div class="vlt-animation-block" data-aos="fade" data-aos-delay="0">
-							<h2 class="m-0"><span class="vlt-highlight">Aprovechamiento Económico del Espacio Público</span></h2>
-							<p class="text-justify mt-5">En el Acuerdo 48 de 2014 – Plan de Ordenamiento Territorial (POT) se encuentra consignado el Aprovechamiento Económico del Espacio Público, instrumento de financiación que permite al Municipio de Medellín generar recursos no tributarios para el sostenimiento y cualificación del Paisaje Urbano.</p>
+						<div class="section-title">
+							<h2>Aprovechamiento Económico del Espacio Público</h2>
 						</div>
-						<div class="vlt-gap-45"></div>
-						<div class="vlt-animation-block" data-aos="fade" data-aos-delay="0">
-							<h2 class="m-0"><span class="vlt-highlight">﻿Decreto 2148 de 2015</span></h2>
-							<p class="text-justify mt-5 mb-5">"Por medio del cual, se reglamenta el aprovechamiento económico del espacio público, se fijan las retribuciones por su utilización, se crean la Comisión Intersectorial Asesora del Espacio Público y el Comité Técnico".</p>
+							<p class="text-justify">En el Acuerdo 48 de 2014 – Plan de Ordenamiento Territorial (POT) se encuentra consignado el Aprovechamiento Económico del Espacio Público, instrumento de financiación que permite al Municipio de Medellín generar recursos no tributarios para el sostenimiento y cualificación del Paisaje Urbano.</p>
+					
+						<div class="vlt-gap-40"></div>
+						<div class="section-title">
+							<h2>Decreto 2148 de 2015</h2>
 						</div>
+					
+							<p class="text-justify mb-5">"Por medio del cual, se reglamenta el aprovechamiento económico del espacio público, se fijan las retribuciones por su utilización, se crean la Comisión Intersectorial Asesora del Espacio Público y el Comité Técnico".</p>
+						
 						<div>
 							<embed height="380" src="{{asset('assets/pdf/decreto-2148-de-2015.pdf')}}" type="application/pdf">
 						</div>

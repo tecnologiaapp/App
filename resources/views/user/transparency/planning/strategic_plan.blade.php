@@ -13,23 +13,23 @@
 	</section>
 	<section>
 		<div class="vlt-gap-120"></div><!--Particle-->
-		<div class="vlt-particle" data-jarallax-element="-100 0"><img alt="" src="{{asset('assets/img/root/particle-01--black.png')}}" width="200"></div><!--Particle-->
+		<div class="vlt-particle" data-jarallax-element="-100 0"><img alt="" src="{{asset('assets/img/Banners/particle-01--black.png')}}" width="200"></div><!--Particle-->
 		<div class="container mt-5">
 			<h5 class="mt-5 mb-5">Aquí encontrarás la formulación de programas, planes y estrategias que nos han permitido y permitirán alcanzar los objetivos trazados a corto, mediano y largo plazo:</h5>
 		</div>
 		<div class="container mt-5">
 			<div class="row">
 				<div class="col-md-10 offset-md-1">
-					<div align="center">
-						<h4>Plan estratégico de 2020 a 2025</h4>
-					</div>
+				<div class="section-title">
+					<h2>Plan estratégico de 2020 a 2025</h2>
+				</div>
 					<hr>
 					<iframe height="900px" src="{{asset('assets/pdf/planning/estrategico-2020-2025.pdf')}}" width="100%"></iframe>
 				</div>
 				<div class="col-md-10 offset-md-1">
 					<hr>
-					<div align="center">
-						<h4>Plan estratégico de 2016 a 2019</h4>
+					<div class="section-title">
+					<h2>Plan estratégico de 2016 a 2019</h2>
 					</div>
 					<hr>
 					<iframe height="900px" src="{{asset('assets/pdf/planning/plan-estrategico-2016-2019.pdf')}}" width="100%"></iframe>

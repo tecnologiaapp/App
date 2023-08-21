@@ -17,29 +17,30 @@
 				<div class="col-sm-12 col-md-3 offset-md-9"></div>
 			</div>
 			<section>
-				<div align="center">
-					<h3>Políticas y lineamientos sectoriales e institucionales</h3>
-				</div>
-				<div align="center">
-					<h4>Resolución 2023</h4>
+						<div class="section-title">
+							<h2>Políticas y lineamientos sectoriales e institucionales</h2>
+						</div>
+
+				<div class="section-title">
+					<h2>Resolución 2023</h2>
 				</div>
 				<hr>
 				<embed height="220" src="{{asset('assets/pdf/Resolucion014de2023PlanesInstitucionales.pdf')}}" type="application/pdf" width="300">
 				<hr>
-				<div align="center">
-					<h4>Resolución 2022</h4>
+				<div class="section-title">
+					<h2>Resolución 2022</h2>
 				</div>
 				<hr>
 				<embed height="220" src="{{asset('assets/pdf/Resolucion-014-2022.pdf')}}" type="application/pdf" width="300">
 				<hr>
-				<div align="center">
-					<h4>Resolución 2021</h4>
+				<div class="section-title">
+					<h2>Resolución 2021</h2>
 				</div>
 				<hr>
 				<embed height="220" src="{{asset('assets/pdf/planning/resolucion-014-del-29-de-enero-de-2021.pdf')}}" type="application/pdf" width="300">
 				<hr>
-				<div align="center">
-					<h4>Resolución 2020</h4>
+				<div class="section-title">
+					<h2>Resolución 2020</h2>
 				</div>
 				<hr>
 				<embed height="220" src="{{asset('assets/pdf/resolucion-013-integracion-planes.pdf')}}" type="application/pdf" width="300">

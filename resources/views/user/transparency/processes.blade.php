@@ -13,7 +13,7 @@
 	</section>
 	<section>
 		<div class="vlt-gap-120"></div><!--Particle-->
-		<div class="vlt-particle" data-jarallax-element="-100 0"><img alt="" src="{{asset('assets/img/root/particle-01--black.png')}}" width="400"></div><!--Particle-->
+		<div class="vlt-particle" data-jarallax-element="-100 0"><img alt="" src="{{asset('assets/img/Banners/particle-01--black.png')}}" width="400"></div><!--Particle-->
 		<div class="container mt-5">
 			<h5 class="mt-5 mb-5">Manual de procesos y procedimientos</h5><embed height="380" src="{{asset('assets/pdf/manual-de-procesos-y-procedimientos.pdf')}}" type="application/pdf">
 			<h5 class="mt-5 mb-5">Mapa de procesos</h5><embed height="210" src="{{asset('assets/pdf/mapa-de-procesos.pdf')}}" type="application/pdf">

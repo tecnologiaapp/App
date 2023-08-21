@@ -12,10 +12,9 @@
 		color:black;
 	}
 
-	
 	.button {
-		justify-content:center;
-    background-color: #008CBA; /* Green */
+    justify-content: center;
+    background-color: #ea5b67;
     border: none;
     color: white;
     padding: 15px 32px;
@@ -28,8 +27,8 @@
 }
 
 .button:hover {
-    background-color: #A8F7FE  ; /* Green */
-    color: black;
+    background-color: #a34085;
+    color: #ffffff;
 }
 </style>
 

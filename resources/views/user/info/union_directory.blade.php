@@ -13,20 +13,10 @@
 	<section>
 		<div class="vlt-gap-120"></div>
 		<div class="container">
-			<div class="row">
-				<div class="col-md-8 offset-md-2">
-					<div class="text-center">
-						<!--Animation Block-->
-						<div class="vlt-animation-block" data-aos="fade" data-aos-delay="0">
-							{{--
-							<h5 class="m-0">Subdirección de Gestión APP</h5>--}}
-						</div>
-						<div class="vlt-gap-45"></div>
-					</div>
-				</div>
-			</div>
 			<section class="mb-5 pb-5">
-				<h4 class="text-center mb-5">Listado de agremiaciones, cámaras de comercio y eventos</h4>
+			<div class="section-title">
+				<h2>Listado de agremiaciones, cámaras de comercio y eventos</h2>
+			</div>
 				<div class="container">
 					<div class="row">
 						<div class="col-md-10 offset-md-1">

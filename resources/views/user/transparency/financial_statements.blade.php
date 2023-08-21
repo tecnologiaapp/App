@@ -8,7 +8,7 @@
 <section>
 		<!--Page Title Hero-->
 		<div class="vlt-page-title-hero vlt-page-title-hero--work vlt-page-title-hero--lg jarallax">
-			<div class="vlt-page-title-hero__overlay"></div><img alt="" class="jarallax-img" src="{{asset('assets/img/Banners/bannerEstadosFinancieros.jpg')}}">
+			<div class="vlt-page-title-hero__overlay"></div><img alt="" class="jarallax-img" src="{{asset('assets/img/Banners/bannerEstadosFinancieros2.jpg')}}">
 			<div class="vlt-page-title-hero__content ocultPosition">
 				<h1 style="color:white;">Estados financieros</h1>
 			</div>

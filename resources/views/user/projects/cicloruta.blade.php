@@ -1,13 +1,12 @@
 @extends('layouts.app')
 @section('content')
 @section('body_color', '#ffffff;')
-
-<section>
+	<section>
 		<!--Page Title Hero-->
 		<div class="vlt-page-title-hero vlt-page-title-hero--work vlt-page-title-hero--lg jarallax">
 			<div class="vlt-page-title-hero__overlay"></div><img alt="" class="jarallax-img" src="{{asset('assets/img/Banners/bannerCicloruta.jpg')}}">
 			<div class="vlt-page-title-hero__content ocultPosition">
-				<h1 style="color:white;">Ciclorura Norte - Sur</h1>
+				<h1 style="color:white;">Cicloruta Norte - Sur</h1>
 			</div>
 		</div>
 	</section>

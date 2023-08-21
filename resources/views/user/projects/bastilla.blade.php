@@ -23,7 +23,7 @@
 								<hr>
 								<p>En este proyecto piloto diseñamos, gestionamos e intervenimos el paisaje urbano del centro tradicional y uno de los más representativos de Medellín con la rehabilitación de 7.534 m2 de fachadas y 4.500 m2 de área de mantenimiento de espacio público. Así recuperamos la identidad histórica del sector para propiciar el regreso de aquellos que dejaron de frecuentar y hacerlo atractivo para nuevos visitantes.</p>
 								<hr>
-								<div align="center"><img alt="" src="{{asset('assets/img/Proyectos/Bastilla.webp')}}"></div>
+								<div align="center"><img alt="" src="{{asset('assets/img/Proyectos/bastilla.webp')}}"></div>
 							</div>
 						</div>
 					</div>

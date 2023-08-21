@@ -15,14 +15,13 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-12 col-md-3 offset-md-9">
-					<div class="vlt-particle d-flex justify-content-center" data-jarallax-element="100 0"><img alt="" src="{{asset('assets/img/root/particle-01--black.png')}}"></div>
+					<div class="vlt-particle d-flex justify-content-center" data-jarallax-element="100 0"><img alt="" src="{{asset('assets/img/Banners/particle-01--black.png')}}"></div>
 				</div>
 				<div class="col-md-10 offset-md-1">
 					<div class="text-center">
-						<!--Animation Block-->
-						<div class="vlt-animation-block" data-aos="fade" data-aos-delay="0">
-							<h2 class="m-0"><span class="vlt-highlight">Organigrama de la Agencia APP</span></h2>
-						</div>
+					<div class="section-title">
+						<h2>Organigrama de la Agencia APP</h2>
+					</div>
 						<div class="vlt-gap-45"></div><!--Animation Block-->
 						<div>
 							<embed height="300" src="{{asset('assets/pdf/organigrama-agencia-app.pdf')}}" type="application/pdf">

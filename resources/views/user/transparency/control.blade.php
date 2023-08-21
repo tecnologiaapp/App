@@ -16,7 +16,7 @@
 	</section>
 	<section>
 		<div class="vlt-gap-120"></div><!--Particle-->
-		<div class="vlt-particle" data-jarallax-element="-500 10"><img alt="" src="{{asset('assets/img/root/particle-01--black.png')}}" width="200"></div><!--Particle-->
+		<div class="vlt-particle" data-jarallax-element="-500 10"><img alt="" src="{{asset('assets/img/Banners/particle-01--black.png')}}" width="200"></div><!--Particle-->
 		<div class="container mt-5">
 			<h5>Aquí encontrarás los informes, planes de mejoramiento y mecanismos de control y supervisión:</h5>
 		</div>

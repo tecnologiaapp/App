@@ -5,7 +5,7 @@
 <section>
 		<!--Page Title Hero-->
 		<div class="vlt-page-title-hero vlt-page-title-hero--work vlt-page-title-hero--lg jarallax">
-			<div class="vlt-page-title-hero__overlay"></div><img alt="" class="jarallax-img" src="{{asset('assets/img/Banners/bannerPlanDeRendicionDeCuentas.jpg')}}">
+			<div class="vlt-page-title-hero__overlay"></div><img alt="" class="jarallax-img" src="{{asset('assets/img/Banners/bannerPlanDeRendicionDeCuentas2.jpg')}}">
 			<div class="vlt-page-title-hero__content ocultPosition">
 				<h1 style="color:white;">Plan de rendición de cuentas</h1>
 			</div>
@@ -13,7 +13,7 @@
 	</section>
 	<section>
 		<div class="vlt-gap-120"></div><!--Particle-->
-		<div class="vlt-particle" data-jarallax-element="-100 0"><img alt="" src="{{asset('assets/img/root/particle-01--black.png')}}" width="200"></div><!--Particle-->
+		<div class="vlt-particle" data-jarallax-element="-100 0"><img alt="" src="{{asset('assets/img/Banners/particle-01--black.png')}}" width="200"></div><!--Particle-->
 		<div class="container mt-5">
 			<div class="accordion" id="accordionExample" style="background-color: transparent;">
 				<!--2013-->
