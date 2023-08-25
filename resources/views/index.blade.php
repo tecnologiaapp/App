@@ -24,13 +24,9 @@
 				<li class="active" data-slide-to="0" data-target="#carouselExampleIndicators"></li>
 				<li data-slide-to="1" data-target="#carouselExampleIndicators"></li>
 				<li data-slide-to="2" data-target="#carouselExampleIndicators"></li>
-				<li data-slide-to="3" data-target="#carouselExampleIndicators"></li>
 			</ol>
 			<div class="carousel-inner">
 				<div class="carousel-item active">
-					<a href="{{route('user.projects.subasta')}}"><img alt="One slide" class="d-block w-100" src="assets/img/Banners/Banner-Internas.jpg"></a>
-				</div>
-				<div class="carousel-item">
 					<a href="{{route('user.projects.mudag')}}"><img alt="Second slide" class="d-block w-100" src="assets/img/Banners/bannerHome1.jpg"></a>
 				</div>
 				<div class="carousel-item">
