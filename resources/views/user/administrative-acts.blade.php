@@ -20,6 +20,16 @@
 			
 				<tbody>
 					<tr>
+						<td width="20%" class="align-middle">Resolución 098 de 2023</td>
+						<td width="50%" class="align-middle">Por la cual se decreta el desistimiento tácito y el archivo de una petición</td>
+						<td width="15%" class="align-middle">14 de Agosto de 2023</td>
+						<td width="15%" class="align-middle">
+							<a href="{{ asset('assets/pdf/Resolucion-098-2023.pdf')}}" class="btn btn-primary btn-block" target="_blank">
+								Ver documento
+							</a>
+						</td>
+					</tr>
+					<tr>
 						<td width="20%" class="align-middle">Resolución 082 de 2023</td>
 						<td width="50%" class="align-middle">Por medio de la cual se concede un día correspondiente a la segunda jornada semestral del año 2023, para que los servidores públicos de la Agencia para la Gestión del Paisaje, el Patrimonio y las Alianzas Público Privadas - APP, compartan con sus familias</td>
 						<td width="15%" class="align-middle">05 de Julio de 2023</td>
