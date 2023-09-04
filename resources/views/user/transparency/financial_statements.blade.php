@@ -85,6 +85,12 @@
 				<table class="table table-bordered table-striped custom-table">
 					<tbody>
 						<tr>
+							<td>Estados Financieros Junio 2023</td>
+							<td>
+								<a class="btn btn-primary btn-block btn-block" href="{{asset('assets/pdf/financial_statements/2023/junio-2023.pdf')}}" target="_blank">Ver documento</a>
+							</td>
+						</tr>
+						<tr>
 							<td>Estados Financieros Marzo 2023</td>
 							<td>
 								<a class="btn btn-primary btn-block btn-block" href="{{asset('assets/pdf/financial_statements/2023/marzo-2023.pdf')}}" target="_blank">Ver documento</a>
