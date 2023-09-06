@@ -23,11 +23,11 @@
 			<button class="accordion">Plan anual 2023</button>
 			<div class="panel">
 				<table class="table table-bordered table-striped custom-table">
-					<tbody>
+					<tbody>						
 						<tr>
 							<td>Plan anual de adquisiciones 2023 - Actualizado</td>
 							<td>
-								<a class="btn btn-primary" href="{{asset('assets/pdf/annual_procurement_plan/2023V10.xlsx')}}" target="_blank">Ver documento</a>
+								<a class="btn btn-primary" href="{{asset('assets/pdf/annual_procurement_plan/AdquisicionesPAA-V12.xlsx')}}" target="_blank">Ver documento</a>
 							</td>
 						</tr>
 					</tbody>
