@@ -27,7 +27,7 @@
 						<tr>
 							<td>Plan anual de adquisiciones 2023 - Actualizado</td>
 							<td>
-								<a class="btn btn-primary" href="{{asset('assets/pdf/annual_procurement_plan/AdquisicionesPAA-V12.xlsx')}}" target="_blank">Ver documento</a>
+								<a class="btn btn-primary" href="{{asset('assets/pdf/annual_procurement_plan/AdquisicionesPAA-V13.xlsx')}}" target="_blank">Ver documento</a>
 							</td>
 						</tr>
 					</tbody>
