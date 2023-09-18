@@ -82,27 +82,72 @@
             </p>
 
             <div class="skills-content">
-
+            @php
+                $story = App\Models\SIG::where('categoria', 'Story Maps')->count();
+                $mapa = App\Models\SIG::where('categoria', 'Mapa Web')->count();
+                $aplicacion = App\Models\SIG::where('categoria', 'Aplicacion Web')->count();
+                $dashboard = App\Models\SIG::where('categoria', 'Dashboard')->count();
+                $movil = App\Models\SIG::where('categoria', 'App Movil')->count();
+                $ortofoto = App\Models\SIG::where('categoria', 'Ortofoto')->count();
+                $modelo = App\Models\SIG::where('categoria', 'Modelo 3D')->count();
+                $colecciones = App\Models\SIG::where('categoria', 'Colecciones')->count();
+            @endphp
               <div class="progress">
-                <span class="skill">Mapas <i class="val">30</i></span>
+                <span class="skill">Story Maps <i class="val">{{ $story }}</i></span>
                 <div class="progress-bar-wrap">
                   <div class="progress-bar" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
               </div>
 
               <div class="progress">
-                <span class="skill">Mapa Web <i class="val">30</i></span>
+                <span class="skill">Mapa Web <i class="val">{{ $mapa }}</i></span>
                 <div class="progress-bar-wrap">
                   <div class="progress-bar" role="progressbar" aria-valuenow="35" aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
               </div>
 
               <div class="progress">
-                <span class="skill">Dashboard <i class="val">30</i></span>
+                <span class="skill">Aplicación Web <i class="val">{{ $aplicacion }}</i></span>
                 <div class="progress-bar-wrap">
                   <div class="progress-bar" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
               </div>
+
+              <div class="progress">
+                <span class="skill">Dashboard <i class="val">{{ $dashboard }}</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+
+              <div class="progress">
+                <span class="skill">App Móvil <i class="val">{{ $movil }}</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+
+              <div class="progress">
+                <span class="skill">Ortofoto <i class="val">{{ $ortofoto }}</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+
+              <div class="progress">
+                <span class="skill">Modelo 3D <i class="val">{{ $modelo }}</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+
+              <div class="progress">
+                <span class="skill">Colecciones <i class="val">{{ $colecciones }}</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+
 
             </div>
 
@@ -113,23 +158,9 @@
     </section>
     <!-- End Skills Section -->
 
-    <!-- ======= Cta Section ======= -->
-    <section id="cta" class="cta">
-      <div class="container" data-aos="zoom-in">
-
-        <div class="row">
-          <div class="col-lg-9 text-center text-lg-start">
-            <h3>Call To Action</h3>
-            <p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          </div>
-          <div class="col-lg-3 cta-btn-container text-center">
-            <a class="cta-btn align-middle" href="#">Call To Action</a>
-          </div>
-        </div>
-
-      </div>
-    </section>
-    <!-- End Cta Section -->
+<a href="{{ asset('assets/pdf/Glosario.xlsx')}}">
+<img src="{{ asset('assets/img/Banners/Banner-SIG.jpg')}}" alt="" width="100%">
+</a>
 
     <!-- ======= Team Section ======= -->
     <section id="team" class="team section-bg">
