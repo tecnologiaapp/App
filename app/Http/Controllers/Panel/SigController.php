@@ -13,29 +13,29 @@ class SigController extends Controller
 
         $Story = SIG::where('categoria', '=', 'Story Maps')
         ->orderBy('id','desc')
-                            ->paginate(9);
+                            ->paginate(6);
         $Mapa = SIG::where('categoria', '=', 'Mapa Web')
         ->orderBy('id','desc')
-                            ->paginate(9);
+                            ->paginate(6);
         $Aplicacion = SIG::where('categoria', '=', 'Aplicacion Web')
         ->orderBy('id','desc')
-                            ->paginate(9);
+                            ->paginate(6);
         $Dashboard = SIG::where('categoria', '=', 'Dashboard')
         ->orderBy('id','desc')
-                            ->paginate(9);
+                            ->paginate(6);
 
         $App = SIG::where('categoria', '=', 'App Movil')
         ->orderBy('id','desc')
-                            ->paginate(9);
+                            ->paginate(6);
         $Ortofoto = SIG::where('categoria', '=', 'Ortofoto')
         ->orderBy('id','desc')
-                            ->paginate(9);
+                            ->paginate(6);
         $Modelo = SIG::where('categoria', '=', 'Modelo 3D')
         ->orderBy('id','desc')
-                            ->paginate(9);
+                            ->paginate(6);
         $Colecciones = SIG::where('categoria', '=', 'colecciones')
         ->orderBy('id','desc')
-                            ->paginate(9);
+                            ->paginate(6);
         $data = [
             'Story' =>$Story,
             'Mapa' =>$Mapa,

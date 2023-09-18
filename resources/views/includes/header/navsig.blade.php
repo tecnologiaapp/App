@@ -45,7 +45,7 @@
           <li><a class="nav-link scrollto" href="{{ route('user.projects.sig')}}">Inicio</a></li>
           <li><a class="nav-link scrollto" href="{{ route('SIG.index')}}">Expediente geografico</a></li>
           <li><a class="nav-link scrollto" href="{{ route('user.projects.SigDatos')}}">Datos abiertos</a></li>
-          <li><a class="nav-link scrollto " href="{{ route('user.projects.SigServicios')}}">Servicios</a></li>
+          <!-- <li><a class="nav-link scrollto " href="{{ route('user.projects.SigServicios')}}">Servicios</a></li> -->
           <li><a class="nav-link scrollto " href="{{ route('user.projects.SigContacto')}}">Contacto</a></li>   
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>

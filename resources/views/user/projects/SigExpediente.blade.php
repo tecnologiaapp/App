@@ -520,48 +520,22 @@ $(document).ready(function() {
     // Obtener el ID del tab objetivo
     var target = $(this).data('target');
 
-    // Quitar la clase "active" de todos los botones de tab y contenidos de tab
-    $('.btn-tab').removeClass('active');
-    $('.tab-pane').removeClass('active');
+    // Forzar la página a "1" cuando se hace clic en un tab
+    var page = 1;
 
-    // Agregar la clase "active" al botón de tab y contenido de tab correspondientes
-    $(this).addClass('active');
-    $('#' + target).addClass('active');
-
-    // Actualizar la URL de la página con la página 1
+    // Actualizar la URL de la página con el nuevo tab y la página 1
     var url = new URL(window.location.href);
-    url.searchParams.set('page', 1);
+    url.searchParams.set('page', page);
     history.replaceState(null, '', url.toString());
+
+    // Forzar la recarga de la página
+    window.location.reload();
 
     // Almacenar el tab activo en localStorage
     localStorage.setItem('activeTab', target);
   });
-
-  // Obtener el tab activo de la URL y activarlo
-  var urlParams = new URLSearchParams(window.location.search);
-  var activeTab = urlParams.get('tab');
-  if (activeTab) {
-    $('.btn-tab[data-target="' + activeTab + '"]').trigger('click');
-  }
-
-  // Manejar el evento de clic en los enlaces del paginador
-  $('.pagination-link').click(function(e) {
-    e.preventDefault(); // Evitar la acción predeterminada del enlace
-
-    // Obtener el ID del tab objetivo desde el atributo data-tab
-    var targetTab = $(this).attr('data-tab');
-
-    // Actualizar la URL de la página con el nuevo tab y la página 1
-    var url = new URL(window.location.href);
-    url.searchParams.set('page', 1);
-    history.replaceState(null, '', url.toString());
-
-    // Activar el tab correspondiente al enlace del paginador
-    $('.btn-tab[data-target="' + targetTab + '"]').trigger('click');
-  });
 });
 </script>
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
 <script>
     // Este código utiliza jQuery, asegúrate de tenerlo incluido en tu página
