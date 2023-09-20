@@ -95,56 +95,56 @@
               <div class="progress">
                 <span class="skill">Story Maps <i class="val">{{ $story }}</i></span>
                 <div class="progress-bar-wrap">
-                  <div class="progress-bar" role="progressbar" aria-valuenow="{{ $story }}" aria-valuemin="0" aria-valuemax="50"></div>
+                  <div class="progress-bar" role="progressbar" aria-valuenow="{{ $story }}" aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
               </div>
 
               <div class="progress">
                 <span class="skill">Mapa Web <i class="val">{{ $mapa }}</i></span>
                 <div class="progress-bar-wrap">
-                  <div class="progress-bar" role="progressbar" aria-valuenow="{{ $mapa }}" aria-valuemin="0" aria-valuemax="50"></div>
+                  <div class="progress-bar" role="progressbar" aria-valuenow="{{ $mapa }}" aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
               </div>
 
               <div class="progress">
                 <span class="skill">Aplicación Web <i class="val">{{ $aplicacion }}</i></span>
                 <div class="progress-bar-wrap">
-                  <div class="progress-bar" role="progressbar" aria-valuenow="{{ $aplicacion }}" aria-valuemin="0" aria-valuemax="50"></div>
+                  <div class="progress-bar" role="progressbar" aria-valuenow="{{ $aplicacion }}" aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
               </div>
 
               <div class="progress">
                 <span class="skill">Dashboard <i class="val">{{ $dashboard }}</i></span>
                 <div class="progress-bar-wrap">
-                  <div class="progress-bar" role="progressbar" aria-valuenow="{{ $dashboard }}" aria-valuemin="0" aria-valuemax="50"></div>
+                  <div class="progress-bar" role="progressbar" aria-valuenow="{{ $dashboard }}" aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
               </div>
 
               <div class="progress">
                 <span class="skill">App Móvil <i class="val">{{ $movil }}</i></span>
                 <div class="progress-bar-wrap">
-                  <div class="progress-bar" role="progressbar" aria-valuenow="{{ $movil }}" aria-valuemin="0" aria-valuemax="50"></div>
+                  <div class="progress-bar" role="progressbar" aria-valuenow="{{ $movil }}" aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
               </div>
 
               <div class="progress">
                 <span class="skill">Ortofoto <i class="val">{{ $ortofoto }}</i></span>
                 <div class="progress-bar-wrap">
-                  <div class="progress-bar" role="progressbar" aria-valuenow="{{ $ortofoto }}" aria-valuemin="0" aria-valuemax="50"></div>
+                  <div class="progress-bar" role="progressbar" aria-valuenow="{{ $ortofoto }}" aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
               </div>
 
               <div class="progress">
                 <span class="skill">Modelo 3D <i class="val">{{ $modelo }}</i></span>
                 <div class="progress-bar-wrap">
-                  <div class="progress-bar" role="progressbar" aria-valuenow="{{ $modelo }}" aria-valuemin="0" aria-valuemax="50"></div>
+                  <div class="progress-bar" role="progressbar" aria-valuenow="{{ $modelo }}" aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
               </div>
 
               <div class="progress">
                 <span class="skill">Colecciones <i class="val">{{ $colecciones }}</i></span>
                 <div class="progress-bar-wrap">
-                  <div class="progress-bar" role="progressbar" aria-valuenow="{{ $colecciones }}" aria-valuemin="0" aria-valuemax="50"></div>
+                  <div class="progress-bar" role="progressbar" aria-valuenow="{{ $colecciones }}" aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
               </div>
 
