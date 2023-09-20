@@ -73,7 +73,7 @@
 
         <div class="row">
           <div class="col-lg-6 d-flex align-items-center" data-aos="fade-right" data-aos-delay="100">
-            <img src="{{ asset('assets/img/skills.png')}}" class="img-fluid" alt="">
+            <img src="{{ asset('assets/img/Imagen-cantidades.png')}}" class="img-fluid" alt="">
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0 content" data-aos="fade-left" data-aos-delay="100">
             <h3>Gestionado</h3>
@@ -159,7 +159,7 @@
     <!-- End Skills Section -->
 
 <a href="{{ asset('assets/pdf/Glosario.xlsx')}}">
-<img src="{{ asset('assets/img/Banners/Banner-SIG.jpg')}}" alt="" width="100%">
+<img src="{{ asset('assets/img/Banners/sig.png')}}" alt="" width="100%">
 </a>
 
     <!-- ======= Team Section ======= -->
