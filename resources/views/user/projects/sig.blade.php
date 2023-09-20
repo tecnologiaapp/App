@@ -73,7 +73,7 @@
 
         <div class="row">
           <div class="col-lg-6 d-flex align-items-center" data-aos="fade-right" data-aos-delay="100">
-            <img src="{{ asset('assets/img/Imagen-cantidades.png')}}" class="img-fluid" alt="">
+            <img src="{{ asset('assets/img/cantidad.png')}}" alt="" height="100%" width="100%">
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0 content" data-aos="fade-left" data-aos-delay="100">
             <h3>Gestionado</h3>
