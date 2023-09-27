@@ -50,7 +50,7 @@
 						<td class="text-center">050015</td>
 					</tr>
 					<tr>
-						<td width="65%">Teléfonos fijos y móviles, líneas gratuitas y fax: (60) + (4) 448 1740</td>
+						<td width="65%">Teléfonos fijos y móviles, líneas gratuitas y fax: 604 448 1740</td>
 						<td class="text-center">
 							<a class="btn btn-primary btn-block" href="tel:570344481740" target="_blank">Llamar</a>
 						</td>
