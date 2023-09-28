@@ -23,7 +23,7 @@
 			<div class="panel">
 				<table class="table table-bordered table-striped custom-table">
 					<tbody>
-						<tr>
+					 <tr>
 							<td>Ejecución presupuestal de gastos Agosto 2023</td>
 							<td>
 								<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/budget/2023/Gastos-agosto-2023.pdf')}}" target="_blank">Ver documento</a>
