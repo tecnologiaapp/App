@@ -68,7 +68,7 @@
 							<tr>
 								<td>Plan de Acción MPAL - Formulación inicial 2021</td>
 								<td>
-									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/planning/FormulacioninicialPlandeAcci%C3%B3nMunicipal2021.pdf')}}" target="_blank">Ver documento</a>
+									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/planning/FormulacioninicialPlandeAcciónMunicipal2021.pdf')}}" target="_blank">Ver documento</a>
 								</td>
 							</tr>
 							<tr>
@@ -86,19 +86,19 @@
 							<tr>
 								<td>Plan de Acción MPAL - Seguimiento Agosto de 2021</td>
 								<td>
-									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/planning/PlandeAccionMPAL-seguimientoAGOSTOde2021.pdf')}}" target="_blank">Ver documento</a>
+									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/planning/Plan de Accion MPAL - seguimiento AGOSTO de 2021.pdf')}}" target="_blank">Ver documento</a>
 								</td>
 							</tr>
 							<tr>
 								<td>Plan de Acción MPAL - Seguimiento Junio de 2021</td>
 								<td>
-									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/planning/PlandeAccionMPAL-seguimientoJUNIOde2021.pdf')}}" target="_blank">Ver documento</a>
-								</td>
+									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/planning/Plan de Accion MPAL - seguimiento JUNIO de 2021.pdf')}}" target="_blank">Ver documento</a>
+								</td> 
 							</tr>
 							<tr>
 								<td>Plan de Acción MPAL - Seguimiento Marzo de 2021</td>
 								<td>
-									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/planning/PlandeAccionMPAL-seguimientoMARZOde2021.pdf')}}" target="_blank">Ver documento</a>
+									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/planning/Plan de Accion MPAL - seguimiento MARZO de 2021.pdf')}}" target="_blank">Ver documento</a>
 								</td>
 							</tr>
 						</tbody>
@@ -110,7 +110,7 @@
 							<tr>
 								<td>Plan de Acción MPAL - Formulación inicial 2020</td>
 								<td>
-									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/planning/PlandeAcci%C3%B3nMPAL-Formulacioninicial2020.pdf')}}" target="_blank">Ver documento</a>
+									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/planning/Plan de Acción MPAL - Formulacion inicial 2020.pdf')}}" target="_blank">Ver documento</a>
 								</td>
 							</tr>
 							<tr>
@@ -122,13 +122,13 @@
 							<tr>
 								<td>Plan de Acción MPAL - Seguimiento OCTUBRE de 2020</td>
 								<td>
-									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/planning/PlandeAccionMPAL-seguimientoOCTUBREde2020.pdf')}}" target="_blank">Ver documento</a>
+									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/planning/Plan de Accion MPAL - seguimiento OCTUBRE de 2020.pdf')}}" target="_blank">Ver documento</a>
 								</td>
 							</tr>
 							<tr>
 								<td>Plan de Acción MPAL - Seguimiento AGOSTO de 2020</td>
 								<td>
-									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/planning/PlandeAccionMPAL-seguimientoAGOSTOde2020.pdf')}}" target="_blank">Ver documento</a>
+									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/planning/Plan de Accion MPAL - seguimiento AGOSTO de 2020.pdf')}}" target="_blank">Ver documento</a>
 								</td>
 							</tr>
 						</tbody>
@@ -146,7 +146,7 @@
 							<tr>
 								<td>Plan de Acción MPAL - Seguimiento OCTUBRE de 2019</td>
 								<td>
-									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/planning/PlandeAccionMPAL-seguimientoOCTUBREde2019.pdf')}}" target="_blank">Ver documento</a>
+									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/planning/Plan de Accion MPAL - seguimiento OCTUBRE de 2019.pdf')}}" target="_blank">Ver documento</a>
 								</td>
 							</tr>
 							<tr>
@@ -158,7 +158,7 @@
 							<tr>
 								<td>Plan de Acción MPAL - Seguimiento MARZO de 2019</td>
 								<td>
-									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/planning/PlandeAccionMPAL-seguimientoMARZOde2019.pdf')}}" target="_blank">Ver documento</a>
+									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/planning/Plan de Accion MPAL - seguimiento MARZO de 2019.pdf')}}" target="_blank">Ver documento</a>
 								</td>
 							</tr>
 						</tbody>
@@ -170,7 +170,7 @@
 							<tr>
 								<td>Plan de Acción MPAL - Formulación inicial 2018</td>
 								<td>
-									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/planning/PlandeAcci%C3%B3nMPAL-Formulacioninicial2018.pdf')}}" target="_blank">Ver documento</a>
+									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/planning/Plan de Acción MPAL - Formulacion inicial 2018.pdf')}}" target="_blank">Ver documento</a>
 								</td>
 							</tr>
 							<tr>
@@ -194,25 +194,25 @@
 							<tr>
 								<td>Plan de Acción 2017</td>
 								<td>
-									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/planning/2017PlandeAcci%C3%B3n.pdf')}}" target="_blank">Ver documento</a>
+									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/planning/2017 Plan de Acción.pdf')}}" target="_blank">Ver documento</a>
 								</td>
 							</tr>
 							<tr>
 								<td>Plan de Acción 2016</td>
 								<td>
-									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/planning/2016PlandeAcci%C3%B3n.pdf')}}" target="_blank">Ver documento</a>
+									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/planning/2016 Plan de Acción.pdf')}}" target="_blank">Ver documento</a>
 								</td>
 							</tr>
 							<tr>
 								<td>Plan de Acción 2015</td>
 								<td>
-									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/planning/2015PlandeAcci%C3%B3n.pdf')}}" target="_blank">Ver documento</a>
+									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/planning/2015 Plan de Acción.pdf')}}" target="_blank">Ver documento</a>
 								</td>
 							</tr>
 							<tr>
 								<td>Plan de Acción 2014</td>
 								<td>
-									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/planning/2014PlandeAcci%C3%B3n.pdf')}}" target="_blank">Ver documento</a>
+									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/planning/2014 Plan de Acción.pdf')}}" target="_blank">Ver documento</a>
 								</td>
 							</tr>
 						</tbody>
@@ -251,7 +251,7 @@
 							<tr>
 								<td>Plan de Acción AGENCIA APP - Seguimiento Junio 2021</td>
 								<td>
-									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/planning/PlandeAcci%C3%B3nAGENCIAAPP-seguimientoJUNIO2021.pdf')}}" target="_blank">Ver documento</a>
+									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/planning/Plan de Acción AGENCIA APP - seguimiento JUNIO 2021.pdf')}}" target="_blank">Ver documento</a>
 								</td>
 							</tr>
 							<tr>
@@ -275,7 +275,7 @@
 							<tr>
 								<td>Plan de Acción AGENCIA APP - Formulación inicial 2020</td>
 								<td>
-									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/planning/PlandeAcci%C3%B3nAGENCIAAPP-Formulacioninicial2020.pdf')}}" target="_blank">Ver documento</a>
+									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/planning/Plan de Acción AGENCIA APP - Formulacion inicial 2020.pdf')}}" target="_blank">Ver documento</a>
 								</td>
 							</tr>
 							<tr>
@@ -356,49 +356,49 @@
 							<tr>
 								<td>Plan de Bienestar Social e Incentivos</td>
 								<td>
-									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/planning/PlandeBienestarSocialeIncentivos2023.pdf')}}" target="_blank">Ver documento</a>
+									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/planning/Plan de Bienestar Social e Incentivos 2023.pdf')}}" target="_blank">Ver documento</a>
 								</td>
 							</tr>
 							<tr>
 								<td>Plan de Trabajo Anual en Seguridad y Salud en el Trabajo</td>
 								<td>
-									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/planning/PlandeTrabajoAnualenSeguridadySaludenelTrabajo2023.pdf')}}" target="_blank">Ver documento</a>
+									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/planning/Plan de Trabajo Anual en Seguridad y Salud en el Trabajo 2023.pdf')}}" target="_blank">Ver documento</a>
 								</td>
 							</tr>
 							<tr>
 								<td>Plan Institucional de Capacitación</td>
 								<td>
-									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/planning/PlanInstitucionaldeCapacitaci%C3%B3n2023.pdf')}}" target="_blank">Ver documento</a>
+									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/planning/Plan Institucional de Capacitación 2023.pdf')}}" target="_blank">Ver documento</a>
 								</td>
 							</tr>
 							<tr>
 								<td>Plan Anual de adquisiciones</td>
 								<td>
-									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/planning/PlanAnualdeAdquisiciones2023.xlsx')}}" target="_blank">Ver documento</a>
+									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/planning/Plan Anual de Adquisiciones 2023.xlsx')}}" target="_blank">Ver documento</a>
 								</td>
 							</tr>
 							<tr>
 								<td>Plan de Prevision de Recursos Humanos</td>
 								<td>
-									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/planning/PlandePrevisi%C3%B3ndeRecursosHumanos2023.pdf')}}" target="_blank">Ver documento</a>
+									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/planning/Plan de Previsión de Recursos Humanos 2023.pdf')}}" target="_blank">Ver documento</a>
 								</td>
 							</tr>
 							<tr>
 								<td>Plan Anticorrupción y de Atención al Ciudadano</td>
 								<td>
-									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/planning/PlanAnticorrupci%C3%B3nydeatenci%C3%B3nalciudadano2023.pdf')}}" target="_blank">Ver documento</a>
+									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/planning/Plan Anticorrupción y de atención al ciudadano 2023.pdf')}}" target="_blank">Ver documento</a>
 								</td>
 							</tr>
 							<tr>
 								<td>Plan estrategico de tecnologias de la información y las comunicaciones</td>
 								<td>
-									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/planning/PlanEstrat%C3%A9gicodeTecnolog%C3%ADasdelaInformaci%C3%B3nylasComunicaciones2023.pdf')}}" target="_blank">Ver documento</a>
+									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/planning/Plan Estratégico de Tecnologías de la Información y las Comunicaciones 2023.pdf')}}" target="_blank">Ver documento</a>
 								</td>
 							</tr>
 							<tr>
 								<td>Plan Anual de Auditoria Vigencia 2023</td>
 								<td>
-									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/planning/PlanAnualdeAuditor%C3%ADaVigencia2023.pdf')}}" target="_blank">Ver documento</a>
+									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/planning/Plan Anual de Auditoría Vigencia 2023.pdf')}}" target="_blank">Ver documento</a>
 								</td>
 							</tr>
 							<tr>
@@ -410,19 +410,19 @@
 							<tr>
 								<td>Plan Estrategico de talento humano</td>
 								<td>
-									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/planning/PlanEstrat%C3%A9gicodeTalentoHumano2023.pdf')}}" target="_blank">Ver documento</a>
+									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/planning/Plan Estratégico de Talento Humano 2023.pdf')}}" target="_blank">Ver documento</a>
 								</td>
 							</tr>
 							<tr>
 								<td>Plan Anual de Vacantes</td>
 								<td>
-									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/planning/PlanAnualdeVacantes2023.pdf')}}" target="_blank">Ver documento</a>
+									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/planning/Plan Anual de Vacantes 2023.pdf')}}" target="_blank">Ver documento</a>
 								</td>
 							</tr>
 							<tr>
 								<td>Plan de seguridad y privacidad de la información</td>
 								<td>
-									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/planning/PlandeSeguridadyPrivacidaddelaInformaci%C3%B3n2023.pdf')}}" target="_blank">Ver documento</a>
+									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/planning/Plan de Seguridad y Privacidad de la Información 2023.pdf')}}" target="_blank">Ver documento</a>
 								</td>
 							</tr>
 						</tbody>
@@ -434,7 +434,7 @@
 							<tr>
 								<td>Plan anticorrupción y atención al ciudadano 2022</td>
 								<td>
-									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/planning/PlanAnticorrupci%C3%B3nydeAtenci%C3%B3nalCiudadano2022.pdf')}}" target="_blank">Ver documento</a>
+									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/planning/PlanAnticorrupciónydeAtenciónalCiudadano2022.pdf')}}" target="_blank">Ver documento</a>
 								</td>
 							</tr>
 							<tr>
@@ -458,7 +458,7 @@
 							<tr>
 								<td>plan anual de auditoria 2022</td>
 								<td>
-									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/control/auditoriavigencia2022.pdf')}}" target="_blank">Ver documento</a>
+									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/control/auditoria vigencia 2022.pdf')}}" target="_blank">Ver documento</a>
 								</td>
 							</tr>
 							<tr>
@@ -476,7 +476,7 @@
 							<tr>
 								<td>plan de formacion y capacitacion 2022</td>
 								<td>
-									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/planning/PlanInstitucionaldeCapacitaci%C3%B3n2022.pdf')}}" target="_blank">Ver documento</a>
+									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/planning/PlanInstitucionaldeCapacitación2022.pdf')}}" target="_blank">Ver documento</a>
 								</td>
 							</tr>
 							<tr>
@@ -488,7 +488,7 @@
 							<tr>
 								<td>plan de prevision de recursos humanos 2022</td>
 								<td>
-									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/planning/PlandePrevisi%C3%B3ndeRecursosHumanos2022.pdf')}}" target="_blank">Ver documento</a>
+									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/planning/PlandePrevisióndeRecursosHumanos2022.pdf')}}" target="_blank">Ver documento</a>
 								</td>
 							</tr>
 							<tr>
@@ -500,13 +500,13 @@
 							<tr>
 								<td>plan estrategico de talento humano 2022</td>
 								<td>
-									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/planning/PlanEstrat%C3%A9gicodelTalentoHumano2022.pdf')}}" target="_blank">Ver documento</a>
+									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/planning/PlanEstratégicodelTalentoHumano2022.pdf')}}" target="_blank">Ver documento</a>
 								</td>
 							</tr>
 							<tr>
 								<td>Politicas de Seguridad Informática AGENCIA APP</td>
 								<td>
-									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/planning/PoliticasdeSeguridadInform%C3%A1ticaAGENCIAAPP.pdf')}}" target="_blank">Ver documento</a>
+									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/planning/PoliticasdeSeguridadInformáticaAGENCIAAPP.pdf')}}" target="_blank">Ver documento</a>
 								</td>
 							</tr>
 						</tbody>
@@ -536,7 +536,7 @@
 							<tr>
 								<td>plan de formacion y capacitacion 2021</td>
 								<td>
-									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/planning/plan-de-formacion-y-capacitacion-2021.pdf')}}" target="_blank">Ver documento</a>
+									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/planning/plan-de-formacion-capacitacion-2021.pdf')}}" target="_blank">Ver documento</a>
 								</td>
 							</tr>
 							<tr>
@@ -578,7 +578,7 @@
 							<tr>
 								<td>Planes integrados App 2020</td>
 								<td>
-									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/planning/PlanesintegradosApp2020.pdf')}}" target="_blank">Ver documento</a>
+									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/planning/Planes integrados App 2020.pdf')}}" target="_blank">Ver documento</a>
 								</td>
 							</tr>
 							<tr>
@@ -603,7 +603,7 @@
 				<div class="vlt-animation-block aos-init aos-animate" data-aos="fade" data-aos-delay="0">
 					<!--Social Share-->
 					<div class="vlt-social-share text-center">
-						<h5 class="vlt-display-1">Compártelo</h5><a class="vlt-social-icon vlt-social-icon--style-1 twitter" href="https://twitter.com/intent/tweet?text=https://www.app.gov.co/plan-de-acci%C3%B3n" rel="nofollow" target="_blank"><i class="fa fa-twitter"></i></a> <a class="vlt-social-icon vlt-social-icon--style-1 facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://www.app.gov.co/plan-de-acci%C3%B3n" rel="nofollow" target="_blank"><i class="fa fa-facebook"></i></a>
+						<h5 class="vlt-display-1">Compártelo</h5><a class="vlt-social-icon vlt-social-icon--style-1 twitter" href="https://twitter.com/intent/tweet?text=https://www.app.gov.co/plan-de-acción" rel="nofollow" target="_blank"><i class="fa fa-twitter"></i></a> <a class="vlt-social-icon vlt-social-icon--style-1 facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://www.app.gov.co/plan-de-acción" rel="nofollow" target="_blank"><i class="fa fa-facebook"></i></a>
 					</div>
 				</div>
 			</div>

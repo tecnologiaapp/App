@@ -74,25 +74,25 @@
 							<tr>
 								<td>Plan indicativo - Seguimiento Septiembre de 2021</td>
 								<td>
-									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/planning/Plan-indicativo-Seguimiento-2021.pdf')}}" target="_blank">Ver documento</a>
+									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/planning/Plan-Indicativo-seguimiento-2021.pdf')}}" target="_blank">Ver documento</a>
 								</td>
 							</tr>
 							<tr>
 								<td>Plan indicativo - Seguimiento Agosto de 2021</td>
 								<td>
-									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/planning/PlanIndicativo-seguimientoAGOSTO2021.pdf')}}" target="_blank">Ver documento</a>
+									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/planning/Plan Indicativo - seguimiento AGOSTO 2021.pdf')}}" target="_blank">Ver documento</a>
 								</td>
 							</tr>
 							<tr>
 								<td>Plan indicativo - Seguimiento Junio de 2021</td>
 								<td>
-									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/planning/PlanIndicativo-seguimientoJUNIO2021.pdf')}}" target="_blank">Ver documento</a>
+									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/planning/Plan Indicativo - seguimiento JUNIO 2021.pdf')}}" target="_blank">Ver documento</a>
 								</td>
 							</tr>
 							<tr>
 								<td>Plan indicativo - Seguimiento Marzo de 2021</td>
 								<td>
-									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/planning/PlanIndicativo-seguimientoMARZO2021.pdf')}}" target="_blank">Ver documento</a>
+									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/planning/Plan Indicativo - seguimiento MARZO 2021.pdf')}}" target="_blank">Ver documento</a>
 								</td>
 							</tr>
 						</tbody>
@@ -104,25 +104,25 @@
 							<tr>
 								<td>Formulación Plan Indicativo 2020-2023</td>
 								<td>
-									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/planning/Formulaci%C3%B3nPlanIndicativo2020-2023.pdf')}}" target="_blank">Ver documento</a>
+									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/planning/FormulaciónPlanIndicativo2020-2023.pdf')}}" target="_blank">Ver documento</a>
 								</td>
 							</tr>
 							<tr>
 								<td>Plan indicativo - Seguimiento DICIEMBRE de 2020</td>
 								<td>
-									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/planning/PlanIndicativo-seguimientoDICIEMBRE2020.pdf')}}" target="_blank">Ver documento</a>
+									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/planning/Plan Indicativo - seguimiento DICIEMBRE 2020.pdf')}}" target="_blank">Ver documento</a>
 								</td>
 							</tr>
 							<tr>
 								<td>Plan indicativo - Seguimiento OCTUBRE de 2020</td>
 								<td>
-									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/planning/PlanIndicativo-seguimientoOCTUBRE2020.pdf')}}" target="_blank">Ver documento</a>
+									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/planning/Plan Indicativo - seguimiento OCTUBRE 2020.pdf')}}" target="_blank">Ver documento</a>
 								</td>
 							</tr>
 							<tr>
 								<td>Plan indicativo - Seguimiento AGOSTO de 2020</td>
 								<td>
-									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/planning/PlanIndicativo-seguimientoAGOSTO2020.pdf')}}" target="_blank">Ver documento</a>
+									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/planning/Plan Indicativo - seguimiento AGOSTO 2020.pdf')}}" target="_blank">Ver documento</a>
 								</td>
 							</tr>
 						</tbody>
@@ -134,25 +134,25 @@
 							<tr>
 								<td>Plan Indicativo - seguimiento DICIEMBRE 2019</td>
 								<td>
-									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/planning/PlanIndicativo-seguimientoDICIEMBRE2019.pdf')}}" target="_blank">Ver documento</a>
+									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/planning/Plan Indicativo - seguimiento DICIEMBRE 2019.pdf')}}" target="_blank">Ver documento</a>
 								</td>
 							</tr>
 							<tr>
 								<td>Plan Indicativo - seguimiento DICIEMBRE 2018</td>
 								<td>
-									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/planning/PlanIndicativo-seguimientoDICIEMBRE2018.pdf')}}" target="_blank">Ver documento</a>
+									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/planning/Plan Indicativo - seguimiento DICIEMBRE 2018.pdf')}}" target="_blank">Ver documento</a>
 								</td>
 							</tr>
 							<tr>
 								<td>Plan Indicativo - seguimiento DICIEMBRE 2017</td>
 								<td>
-									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/planning/PlanIndicativo-seguimientoDICIEMBRE2017.pdf')}}" target="_blank">Ver documento</a>
+									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/planning/Plan Indicativo - seguimiento DICIEMBRE 2017.pdf')}}" target="_blank">Ver documento</a>
 								</td>
 							</tr>
 							<tr>
 								<td>Plan Indicativo - seguimiento DICIEMBRE 2016</td>
 								<td>
-									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/planning/PlanIndicativo-seguimientoDICIEMBRE2016.pdf')}}" target="_blank">Ver documento</a>
+									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/planning/Plan Indicativo - seguimiento DICIEMBRE 2016.pdf')}}" target="_blank">Ver documento</a>
 								</td>
 							</tr>
 						</tbody>

@@ -52,17 +52,7 @@
 			</div>
 			<div class="col-lg-6 col-md-6 proy1">
 				<h4 align="center">Proyectos de iniciativa privada</h4>
-				<ul class="ulNew">
-					<li>
-						<a href="https://app.gov.co/proyectos/arena_medellin">Arena Medellín</a>
-					</li>
-					<li>
-						<a href="https://app.gov.co/proyectos/AIIRE">AIIRE</a>
-					</li>
-					<li>
-						<a href="https://app.gov.co/proyectos/medellin_saludable">Medellín Saludable</a>
-					</li>
-				</ul>
+				<h4 align="center" class="text-justify">La subdirección de Alianzas Público privadas evalúa proyectos de Asociación Público Privadas formulados por originadores privados en dos etapas: prefactibilidad y factibilidad. Lo anterior está establecido en el artículo 14 de la ley 1508 del 2012.</h4>
 			</div>
 		</div>
 		<div class="pt-5" style="margin-bottom: 20px;">
