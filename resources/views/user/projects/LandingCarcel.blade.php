@@ -313,7 +313,9 @@
 					</div>
 				</div>
 			</div><a class="back-to-top d-flex align-items-center justify-content-center" href="#"><i class="bi bi-arrow-up-short"></i></a>
-		</footer><!-- Vendor JS Files -->
+		</footer>
+		
+		<!-- Vendor JS Files -->
 		<script src="https://kit.fontawesome.com/5373575732.js">
 		</script> 
 		<script src="{{asset('assets/vendor/aos/aos.js')}}">
@@ -327,10 +329,7 @@
 		<script src="{{asset('assets/vendor/swiper/swiper-bundle.min.js')}}">
 		</script> 
 		<script src="{{asset('assets/vendor/waypoints/noframework.waypoints.js')}}">
-		</script> 
-		<script src="{{asset('assets/vendor/php-email-form/validate.js')}}">
-		</script> <!-- Template Main JS File -->
-		 
+		</script>		 
 		<script src="{{asset('assets/js/patrimonio.js')}}">
 		</script> 
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js">
