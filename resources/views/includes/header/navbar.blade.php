@@ -49,19 +49,17 @@
 				  <span>Arena Medellín</span>
 			  </a>
 				</li>
-				<li>
+				<!-- <li>
 				<a href="{{ route('user.projects.saludable') }}">
 				  <span>Medellín Saludable</span>
 			  </a>
 				</li>
-			
-			  
-			   
+
 				<li>
 				<a  href="{{ route('user.projects.aiire') }}">
 				  <span>AIIRE</span>
 			  </a>
-				</li>
+				</li> -->
 				
 			  </ul>
 			</li>
