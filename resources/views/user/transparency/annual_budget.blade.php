@@ -23,6 +23,18 @@
 			<div class="panel">
 				<table class="table table-bordered table-striped custom-table">
 					<tbody>
+					<tr>
+							<td>Ejecución presupuestal de gastos Septiembre 2023</td>
+							<td>
+								<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/budget/2023/Gastos-sep-2023.pdf')}}" target="_blank">Ver documento</a>
+							</td>
+						</tr>
+						<tr>
+							<td>Ejecución presupuestal de ingresos Septiembre 2023</td>
+							<td>
+								<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/budget/2023/Ingresos-sep-2023.pdf')}}" target="_blank">Ver documento</a>
+							</td>
+						</tr>
 					 <tr>
 							<td>Ejecución presupuestal de gastos Agosto 2023</td>
 							<td>
