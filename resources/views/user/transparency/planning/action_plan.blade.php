@@ -220,10 +220,35 @@
 				</div>
 			</div><button class="accordion">PLAN DE ACCIÓN INTERNO AGENCIA APP</button>
 			<div class="panel">
+				<button class="accordion">2023</button>
+				<div class="panel">
+					<table class="table table-bordered table-striped custom-table">
+						<tbody>
+							<tr>
+								<td>Plan de Acción interno AGENCIA APP - Primer semestre 2023</td>
+								<td>
+									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/planning/2023/Seguimiento PAI 1° Semestre 2023 Consolidado.xlsx')}}" target="_blank">Ver documento</a>
+								</td>
+							</tr>
+							<tr>
+								<td>Plan de Acción interno AGENCIA APP - 2023</td>
+								<td>
+									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/planning/2023/Plan de Acción Interno Consolidado Vigencia 2023.xlsx')}}" target="_blank">Ver documento</a>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
 				<button class="accordion">2022</button>
 				<div class="panel">
 					<table class="table table-bordered table-striped custom-table">
 						<tbody>
+							<tr>
+								<td>Plan de Acción interno AGENCIA APP - Segundo semestre 2022</td>
+								<td>
+									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/planning/2022/Seguimiento PAI Consolidado 2° Semestre 2022.xlsx')}}" target="_blank">Ver documento</a>
+								</td>
+							</tr>
 							<tr>
 								<td>Plan de Acción interno AGENCIA APP - Primer semestre 2022</td>
 								<td>
@@ -232,7 +257,8 @@
 							</tr>
 						</tbody>
 					</table>
-				</div><button class="accordion">2021</button>
+				</div>
+				<button class="accordion">2021</button>
 				<div class="panel">
 					<table class="table table-bordered table-striped custom-table">
 						<tbody>
