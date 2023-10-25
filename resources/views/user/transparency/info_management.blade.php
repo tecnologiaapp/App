@@ -42,7 +42,7 @@
 							</td>
 						</tr>
 						<tr>
-							<th scope="row">Plan institucional de archivos-PINAR</th>
+							<th scope="row">Plan institucional de archivos PINAR</th>
 							<td>
 								<a class="btn btn-primary" href="{{asset('assets/pdf/PINAR2021.pdf')}}" target="_blank">Ver documento</a>
 							</td>
