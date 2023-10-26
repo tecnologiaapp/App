@@ -15,17 +15,7 @@
 				<div class="vlt-animation-block mb-5 text-center" data-aos="fade" data-aos-delay="0">
 					<h1 class="m-0 ocultPosition" style="font-size: 4rem;"><span class="vlt-highlight">Noticias</span></h1>
 				</div>
-				<div class="content">
-					<article class="post">
-						<div class="post-header">
-							<div class="post-img-44"></div>
-						</div>
-						<div class="post-body">
-							<span>19/12/2022</span>
-							<h5>Gestión del patrimonio 2022</h5><a href="{{route('user.noticias.new44')}}" target="_blank">
-							<h6><b>Leer más</b></h6></a>
-						</div>
-					</article>
+				<div class="content">			
 					<article class="post">
 						<div class="post-header">
 							<div class="post-img-43"></div>

@@ -92,13 +92,23 @@
 							<h6><b>Leer más</b></h6></a>
 						</div>
 					</article>
-					<article class="post">
+					<!-- <article class="post">
 						<div class="post-header">
 							<div class="post-img-45"></div>
 						</div>
 						<div class="post-body">
 							<span>01/02/2023</span>
 							<h5>Obra ganadora de Concéntrico en Medellín</h5><a href="{{route('user.noticias.new45')}}" target="_blank">
+							<h6><b>Leer más</b></h6></a>
+						</div>
+					</article> -->
+					<article class="post">
+						<div class="post-header">
+							<div class="post-img-44"></div>
+						</div>
+						<div class="post-body">
+							<span>19/12/2022</span>
+							<h5>Gestión del patrimonio 2022</h5><a href="{{route('user.noticias.new44')}}" target="_blank">
 							<h6><b>Leer más</b></h6></a>
 						</div>
 					</article>
