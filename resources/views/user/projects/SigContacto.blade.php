@@ -166,7 +166,7 @@
 
 
   <!-- Template Main JS File -->
-  <script src="{{ asset('assets/js/SIG.js')}}"></script>
+  <script src="{{ asset('assets/js/landing.js')}}"></script>
 </body>
 
 </html>

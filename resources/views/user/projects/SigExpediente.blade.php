@@ -503,7 +503,7 @@
 
 
   <!-- Template Main JS File -->
-  <script src="{{ asset('assets/js/SIG.js')}}"></script>
+  <script src="{{ asset('assets/js/landing.js')}}"></script>
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <script>
 $(document).ready(function() {

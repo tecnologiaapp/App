@@ -316,32 +316,15 @@
 		</footer>
 		
 		<!-- Vendor JS Files -->
-		<script src="https://kit.fontawesome.com/5373575732.js">
-		</script> 
-		<script src="{{asset('assets/vendor/aos/aos.js')}}">
-		</script> 
-		<script src="{{asset('assets/vendor/bootstrap/js/bootstrap.bundle.min.js')}}">
-		</script> 
-		<script src="{{asset('assets/vendor/glightbox/js/glightbox.min.js')}}">
-		</script> 
-		<script src="{{asset('assets/vendor/isotope-layout/isotope.pkgd.min.js')}}">
-		</script> 
-		<script src="{{asset('assets/vendor/swiper/swiper-bundle.min.js')}}">
-		</script> 
-		<script src="{{asset('assets/vendor/waypoints/noframework.waypoints.js')}}">
-		</script>		 
-		<script src="{{asset('assets/js/SIG.js')}}">
-		</script> 
-		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js">
-		</script> 
-		<script src="js/scripts.js">
-		</script> 
-		<script src="https://cdn.startbootstrap.com/sb-forms-latest.js">
-		</script> 
-		<script src="{{asset('assets/js/mudag.js')}}">
-		</script> 
-		<script src="{{asset('assets/js/mein.js')}}">
-		</script> 
+		<script src="https://kit.fontawesome.com/5373575732.js"></script> 
+		<script src="{{asset('assets/vendor/aos/aos.js')}}"></script> 
+		<script src="{{asset('assets/vendor/bootstrap/js/bootstrap.bundle.min.js')}}"></script> 
+		<script src="{{asset('assets/vendor/glightbox/js/glightbox.min.js')}}"></script> 
+		<script src="{{asset('assets/vendor/isotope-layout/isotope.pkgd.min.js')}}"></script> 
+		<script src="{{asset('assets/vendor/swiper/swiper-bundle.min.js')}}"></script> 
+		<script src="{{asset('assets/vendor/waypoints/noframework.waypoints.js')}}"></script>		 
+		<script src="{{asset('assets/js/landing.js')}}"></script>
+
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js">
 		</script> 
 		<script>
