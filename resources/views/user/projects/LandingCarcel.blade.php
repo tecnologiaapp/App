@@ -330,7 +330,7 @@
 		</script> 
 		<script src="{{asset('assets/vendor/waypoints/noframework.waypoints.js')}}">
 		</script>		 
-		<script src="{{asset('assets/js/patrimonio.js')}}">
+		<script src="{{asset('assets/js/SIG.js')}}">
 		</script> 
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js">
 		</script> 
