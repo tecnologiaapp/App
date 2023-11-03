@@ -19,11 +19,11 @@
 	<main id="main">
 		<!-- ======= About Us Section ======= -->
 		<section class="about" id="contexto">
-			<div class="container" data-aos="fade-up">
+			<div class="container" >
 				<div class="row content">
 					<p>La Agencia para la Gestión del Paisaje, el Patrimonio y las Alianzas Público Privadas -Agencia APP-, a través de la Subdirección de Gestión de Alianzas Público Privadas, estructuró este proyecto de Asociación Público Privada (Ley 1508 de 2012), primero de su tipo en Colombia, en el que el Distrito de Medellín contará con un nuevo centro de detención preventiva para personas en calidad de sindicados, con capacidad para albergar hasta 1.339 internos en cinco pabellones y edificios especializados para la atención, tratamiento y administración de justicia y de sanidad.</p>
 				</div><br>
-				<div class="container-fluid" data-aos="fade-up">
+				<div class="container-fluid">
 					<div class="row">
 						<div class="content">
 							<div class="section-title">
@@ -35,7 +35,7 @@
 						</div>
 					</div><!-- ======= Features Section ======= -->
 					<section class="features" id="features">
-						<div class="container" data-aos="fade-up">
+						<div class="container">
 							<div class="section-subtitle" style="margin-top: 50px;"></div>
 							<div class="row">
 								<div class="col-lg-6">
@@ -70,7 +70,7 @@
 					</section><!-- End Features Section -->
 				</div><!-- ======= Counts Section ======= -->
 				<section class="counts" id="counts">
-					<div class="container" data-aos="fade-up">
+					<div class="container">
 						<div class="row gy-4">
 							<div class="col-lg-3 col-md-6">
 								<div class="count-box">
@@ -105,7 +105,7 @@
 			</div>
 		</section><!-- End About Us Section -->
 		<section class="why-us" id="donde" style="padding-top: 20px; background-color:#f6f9fe;">
-			<div class="container" data-aos="fade-up">
+			<div class="container">
 				<div class="section-title">
 					<h2>¿Qué es una Asociación Público Privada (APP)?</h2>
 				</div>
@@ -115,7 +115,7 @@
 				</div>
 			</div>
 			<section class="features" id="features">
-				<div class="container" data-aos="fade-up">
+				<div class="container">
 					<div class="row">
 						<div class="col-lg-6" data-aos="fade-rigth" data-aos-delay="100" style="padding-right: 30px;">
 							<div class="icon-box mt-5 mt-lg-0" data-aos="zoom-in" data-aos-delay="150">
@@ -153,7 +153,7 @@
 			</section>
 		</section>
 		<section class="about" id="proyecto">
-			<div class="container" data-aos="fade-up">
+			<div class="container">
 				<div class="section-title">
 					<h2>La nueva Cárcel Metropolitana para Sindicados</h2>
 				</div>
