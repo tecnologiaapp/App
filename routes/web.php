@@ -699,7 +699,7 @@ Route::get('/participa', function(){
    return view('user.projects.participa');
 }) ->name('user.projects.participa');
 
-Route::get('/SIG', function(){
+Route::get('/sig', function(){
    return view('user.projects.sig');
 }) ->name('user.projects.sig');
 

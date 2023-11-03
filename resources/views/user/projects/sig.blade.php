@@ -159,7 +159,7 @@
     <!-- End Skills Section -->
 
 <a href="{{ asset('assets/pdf/Glosario.xlsx')}}">
-<img src="{{ asset('assets/img/Banners/sig.png')}}" alt="" width="100%">
+<img src="{{ asset('assets/img/Banners/SIG.jpg')}}" alt="" width="100%">
 </a>
 
     <!-- ======= Team Section ======= -->

@@ -17,7 +17,7 @@
 	<link href="{{ asset('assets/vendor/remixicon/remixicon.css') }}" rel="stylesheet">
 	<link href="{{ asset('assets/vendor/swiper/swiper-bundle.min.css') }}" rel="stylesheet">
 	<link href="{{ asset('assets/vendor/animate.css/animate.min.css') }}" rel="stylesheet">
-	<link href="assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+	<link href="{{ asset('assets/vendor/fontawesome-free/css/all.min.css')}}" rel="stylesheet">
 	
   <!-- Template Main CSS File -->
 	<link href="{{ asset('assets/css/landingcarcel.css') }}" rel="stylesheet">
