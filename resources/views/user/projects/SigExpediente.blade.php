@@ -9,7 +9,7 @@
 
     <!-- ======= Portfolio Section ======= -->
     <section id="portfolio" class="portfolio" >
-      <div class="container" data-aos="fade-up">
+      <div class="container" >
 
         <div class="section-title">
           <h2>Galeria de mapas</h2>
@@ -58,7 +58,7 @@
                   <div class="row">
                       @foreach($Story as $story)
                         @if($story->categoria == 'Story Maps')
-                        <div class="col-lg-4 col-md-6 mt-4 mt-lg-0 pt-4 portfolio-item" data-aos="fade-up" data-aos-delay="400">
+                        <div class="col-lg-4 col-md-6 mt-4 mt-lg-0 pt-4 portfolio-item"  data-aos-delay="400">
                           <div class="portfolio-img">
                           @if (isset($story->enlace) && !empty($story->enlace))
                           <a href="{{$story->enlace}}" target="_blank"><img class="static-image" src="{{ asset('storage/recurso/' . $story->imagen) }}" class="img-fluid" alt=""><img class="gif-image"  src="{{ asset('storage/recurso/' . $story->gif) }}" class="img-fluid" alt=""> </a>
@@ -101,7 +101,7 @@
                   <div class="row">
                       @foreach($Mapa as $mapa)
                         @if($mapa->categoria == 'Mapa Web')
-                        <div class="col-lg-4 col-md-6 mt-4 mt-lg-0 pt-4 portfolio-item" data-aos="fade-up" data-aos-delay="400">
+                        <div class="col-lg-4 col-md-6 mt-4 mt-lg-0 pt-4 portfolio-item"  data-aos-delay="400">
                         <div class="portfolio-img">
                         @if (isset($mapa->enlace) && !empty($mapa->enlace))
                         <a href="{{$mapa->enlace}}" target="_blank"><img class="static-image" src="{{ asset('storage/recurso/' . $mapa->imagen) }}" class="img-fluid" alt=""><img class="gif-image"  src="{{ asset('storage/recurso/' . $mapa->gif) }}" class="img-fluid" alt=""> </a>
@@ -145,7 +145,7 @@
                   <div class="row">
                       @foreach($Aplicacion as $apli)
                         @if($apli->categoria == 'Aplicacion Web')
-                        <div class="col-lg-4 col-md-6 mt-4 mt-lg-0 pt-4 portfolio-item" data-aos="fade-up" data-aos-delay="400">
+                        <div class="col-lg-4 col-md-6 mt-4 mt-lg-0 pt-4 portfolio-item"  data-aos-delay="400">
                           <div class="portfolio-img">
                           @if (isset($apli->enlace) && !empty($apli->enlace))
                           <a href="{{$apli->enlace}}" target="_blank"><img class="static-image" src="{{ asset('storage/recurso/' . $apli->imagen) }}" class="img-fluid" alt=""><img class="gif-image"  src="{{ asset('storage/recurso/' . $apli->gif) }}" class="img-fluid" alt=""> </a>
@@ -188,7 +188,7 @@
                   <div class="row">
                       @foreach($Dashboard as $dash)
                         @if($dash->categoria == 'Dashboard')
-                        <div class="col-lg-4 col-md-6 mt-4 mt-lg-0 pt-4 portfolio-item" data-aos="fade-up" data-aos-delay="400">
+                        <div class="col-lg-4 col-md-6 mt-4 mt-lg-0 pt-4 portfolio-item"  data-aos-delay="400">
                           <div class="portfolio-img">
                           @if (isset($dash->enlace) && !empty($dash->enlace))
                           <a href="{{$dash->enlace}}" target="_blank"><img class="static-image" src="{{ asset('storage/recurso/' . $dash->imagen) }}" class="img-fluid" alt=""><img class="gif-image"  src="{{ asset('storage/recurso/' . $dash->gif) }}" class="img-fluid" alt=""> </a>
@@ -231,7 +231,7 @@
                   <div class="row">
                       @foreach($App as $app)
                         @if($app->categoria == 'App Movil')
-                        <div class="col-lg-4 col-md-6 mt-4 mt-lg-0 pt-4 portfolio-item" data-aos="fade-up" data-aos-delay="400">
+                        <div class="col-lg-4 col-md-6 mt-4 mt-lg-0 pt-4 portfolio-item"  data-aos-delay="400">
                           <div class="portfolio-img">
                           @if (isset($app->enlace) && !empty($app->enlace))
                           <a href="{{$app->enlace}}" target="_blank"><img class="static-image" src="{{ asset('storage/recurso/' . $app->imagen) }}" class="img-fluid" alt=""><img class="gif-image"  src="{{ asset('storage/recurso/' . $app->gif) }}" class="img-fluid" alt=""> </a>
@@ -273,7 +273,7 @@
                   <div class="row">
                       @foreach($Ortofoto as $orto)
                         @if($orto->categoria == 'Ortofoto')
-                        <div class="col-lg-4 col-md-6 mt-4 mt-lg-0 pt-4 portfolio-item" data-aos="fade-up" data-aos-delay="400">
+                        <div class="col-lg-4 col-md-6 mt-4 mt-lg-0 pt-4 portfolio-item"  data-aos-delay="400">
                           <div class="portfolio-img">
                           @if (isset($orto->enlace) && !empty($orto->enlace))
                           <a href="{{$orto->enlace}}" target="_blank"><img class="static-image" src="{{ asset('storage/recurso/' . $orto->imagen) }}" class="img-fluid" alt=""><img class="gif-image"  src="{{ asset('storage/recurso/' . $orto->gif) }}" class="img-fluid" alt=""> </a>
@@ -322,7 +322,7 @@
                   <div class="row">
                       @foreach($Modelo as $mode)
                         @if($mode->categoria == 'Modelo 3D')
-                        <div class="col-lg-4 col-md-6 mt-4 mt-lg-0 pt-4 portfolio-item" data-aos="fade-up" data-aos-delay="400">
+                        <div class="col-lg-4 col-md-6 mt-4 mt-lg-0 pt-4 portfolio-item"  data-aos-delay="400">
                           <div class="portfolio-img">
                           @if (isset($mode->enlace) && !empty($mode->enlace))
                           <a href="{{$mode->enlace}}" target="_blank"><img class="static-image" src="{{ asset('storage/recurso/' . $mode->imagen) }}" class="img-fluid" alt=""><img class="gif-image"  src="{{ asset('storage/recurso/' . $mode->gif) }}" class="img-fluid" alt=""> </a>
@@ -368,7 +368,7 @@
                   <div class="row">
                       @foreach($Colecciones as $colec)
                         @if($colec->categoria == 'colecciones')
-                        <div class="col-lg-4 col-md-6 mt-4 mt-lg-0 pt-4 portfolio-item" data-aos="fade-up" data-aos-delay="400">
+                        <div class="col-lg-4 col-md-6 mt-4 mt-lg-0 pt-4 portfolio-item"  data-aos-delay="400">
                           <div class="portfolio-img">
                           @if (isset($colec->enlace) && !empty($colec->enlace))
                           <a href="{{$colec->enlace}}" target="_blank"><img class="static-image" src="{{ asset('storage/recurso/' . $colec->imagen) }}" class="img-fluid" alt=""><img class="gif-image"  src="{{ asset('storage/recurso/' . $colec->gif) }}" class="img-fluid" alt=""> </a>
@@ -414,97 +414,8 @@
   </main>
   <!-- End #main -->
 
-<!-- ======= Footer ======= -->
-<footer id="footer">
+  @include('includes.footer.footsig')
 
-
-<div class="footer-top">
-  <div class="container">
-    <div class="row">
-
-      <div class="col-lg-3 col-md-2 footer-contact">
-        <h3>Agencia APP</h3>
-        <p>
-        Medellin / Antioquia <br>
-        Carrera 55 # 42-180 Local 203 Edificio Plaza de La Libertad<br>  
-          <strong>Telefono:</strong> +57 604 448 1740<br>
-          <strong>Correo:</strong> info@app.gov.co<br>
-        </p>
-      </div>
-
-      <div class="col-lg-3 col-md-2 footer-links">
-        <h4>Mapa del sitio</h4>
-        <ul>
-          <li><i class="bx bx-chevron-right"></i> <a href="#">Inicio</a></li>
-          <li><i class="bx bx-chevron-right"></i> <a href="#">Expediente geografico</a></li>
-          <li><i class="bx bx-chevron-right"></i> <a href="#">Datos abiertos</a></li>
-          <li><i class="bx bx-chevron-right"></i> <a href="#">Servicios</a></li>
-          <li><i class="bx bx-chevron-right"></i> <a href="#">Contacto</a></li>
-        </ul>
-      </div>
-
-
- 
-    <div class="col-lg-2 col-md-2 footer-links">
-        <h4>Portales</h4>
-        <ul>
-          <li><i class="bx bx-chevron-right"></i> <a href="{{ route('user.projects.aeep') }}" target="_blank">Reportes Med</a></li>
-          <li><i class="bx bx-chevron-right"></i> <a href="{{ route('user.projects.aeep') }}" target="_blank">SIAMED</a></li>
-          <li><i class="bx bx-chevron-right"></i> <a href="{{ route('user.projects.aeep') }}" target="_blank">La Perla</a></li>
-          <li><i class="bx bx-chevron-right"></i> <a href="{{ route('user.projects.aeep') }}" target="_blank">Árbol Urbano – SAU</a></li>
-          <li><i class="bx bx-chevron-right"></i> <a href="{{ route('user.projects.aeep') }}" target="_blank">MapGIS</a></li>
-          <li><i class="bx bx-chevron-right"></i> <a href="{{ route('user.projects.aeep') }}" target="_blank">OpenData Medellín</a></li>
-         
-        </ul>
-      </div>
-      
-      <div class="col-lg-2 col-md-2 footer-links">
-        <h4>Portales</h4>
-        <ul>
-        <li><i class="bx bx-chevron-right"></i> <a href="{{ route('user.projects.aeep') }}" target="_blank">GIS Catalogación Medellín</a></li>
-          <li><i class="bx bx-chevron-right"></i> <a href="{{ route('user.projects.aeep') }}" target="_blank">GISTO</a></li>
-          <li><i class="bx bx-chevron-right"></i> <a href="{{ route('user.projects.aeep') }}" target="_blank">DANE</a></li>
-          <li><i class="bx bx-chevron-right"></i> <a href="{{ route('user.projects.aeep') }}" target="_blank">Catastro Antioquia</a></li>
-          <li><i class="bx bx-chevron-right"></i> <a href="{{ route('user.projects.aeep') }}" target="_blank">Datos Abierto Gobierno</a></li>
-          <li><i class="bx bx-chevron-right"></i> <a href="{{ route('user.projects.aeep') }}" target="_blank">UrbaMED</a></li>
-        </ul>
-      </div>
-
-
-
-      <div class="col-lg-2 col-md-2 footer-links">
-        <h4>Redes Sociales</h4>
-        <p>Síguenos y enterate de todo</p>
-        <div class="social-links mt-3">
-          <a href="https://twitter.com/agenciaappmed?lang=es" class="twitter" target="_blank"><i class="bx bxl-twitter"></i></a>
-          
-          <a href="https://www.instagram.com/agenciaappmed/" class="instagram" target="_blank"><i class="bx bxl-instagram"></i></a>
-          
-          <a href="https://www.youtube.com/channel/UCV1jArK6Q8cgXX7ESNocJxA" class="youtube" target="_blank"><i class="bx bxl-youtube"></i></a>
-        </div>
-      </div>
-
-    </div>
-  </div>
-</div>
-
-</footer>
-<!-- End Footer -->
-
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
-
-  <!-- Vendor JS Files -->
-  <script src="{{ asset('assets/vendor/aos/aos.js')}}"></script>
-  <script src="{{ asset('assets/vendor/bootstrap/js/bootstrap.bundle.min.js')}}"></script> 
-  <script src="{{ asset('assets/vendor/glightbox/js/glightbox.min.js')}}"></script>
-  <script src="{{ asset('assets/vendor/isotope-layout/isotope.pkgd.min.js')}}"></script>
-  <script src="{{ asset('assets/vendor/swiper/swiper-bundle.min.js')}}"></script> 
-  <script src="{{ asset('assets/vendor/waypoints/noframework.waypoints.js')}}"></script>
-
-
-  <!-- Template Main JS File -->
-  <script src="{{ asset('assets/js/landing.js')}}"></script>
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <script>
 $(document).ready(function() {
   // Obtén el tab activo almacenado en localStorage
