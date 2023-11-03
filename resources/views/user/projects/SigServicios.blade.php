@@ -9,7 +9,7 @@
 
     <div class="container">
       <div class="row">
-        <div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
+        <div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1"  data-aos-delay="200">
           <h1>Agencia APP</h1>
           <h2>Medellín, Colombia</h2>
         </div>
@@ -27,7 +27,7 @@
 
  <!-- ======= Services Section ======= -->
  <section id="services" class="services section-bg">
-      <div class="container" data-aos="fade-up">
+      <div class="container" >
 
         <div class="section-title">
           <h2>Herramientas moviles y web al servicio ciudadano</h2>

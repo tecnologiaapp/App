@@ -8,7 +8,7 @@
   <section id="hero" class="d-flex align-items-center" style="padding-top: 120px;">
 
     <section id="why-us" class="why-us section-bg" style="padding-top: 120px;">
-      <div class="container-fluid" data-aos="fade-up">
+      <div class="container-fluid" >
 
         <div class="row">
 
@@ -69,7 +69,7 @@
 
     <!-- ======= Skills Section ======= -->
     <section id="skills" class="skills">
-      <div class="container" data-aos="fade-up">
+      <div class="container" >
 
         <div class="row">
           <div class="col-lg-8 d-flex align-items-center" data-aos="fade-right" data-aos-delay="100">
@@ -164,7 +164,7 @@
 
     <!-- ======= Team Section ======= -->
     <section id="team" class="team section-bg">
-      <div class="container" data-aos="fade-up">
+      <div class="container" >
 
         <div class="section-title">
           <h2>Equipo</h2>
