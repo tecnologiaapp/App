@@ -95,7 +95,7 @@
 							<tr>
 								<td>Mapa de riesgos de corrupción de 2023</td>
 								<td>
-									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/control/MapadeRiesgosdeCorrupci%C3%B3n2023.xlsx')}}" target="_blank">Ver documento</a>
+									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/control/MapadeRiesgosdeCorrupción2023.xlsx')}}" target="_blank">Ver documento</a>
 								</td>
 							</tr>
 						</tbody>
@@ -113,7 +113,7 @@
 							<tr>
 								<td>Mapa de riesgos de corrupción de 2022</td>
 								<td>
-									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/control/MapadeRiesgosdeCorrupci%C3%B3n2022.pdf')}}" target="_blank">Ver documento</a>
+									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/control/MapadeRiesgosdeCorrupción2022.pdf')}}" target="_blank">Ver documento</a>
 								</td>
 							</tr>
 						</tbody>
@@ -617,12 +617,6 @@
 				<div class="panel">
 					<table class="table table-bordered table-striped custom-table">
 						<tbody>
-							<tr>
-								<td>Seguimiento al plan de mejoramiento - Auditoría a la gestión de compras en diciembre de 2019</td>
-								<td>
-									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/control/seguimiento-al-plan-de-mejoramiento-auditoria-a-la-gestion-de-compras-en-diciembre-de-2019.pdf')}}" target="_blank">Ver documento</a>
-								</td>
-							</tr>
 							<tr>
 								<td>Seguimiento al plan de mejoramiento ITA-02 - diciembre de 2019</td>
 								<td>
