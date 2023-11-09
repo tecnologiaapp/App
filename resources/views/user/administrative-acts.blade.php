@@ -1,6 +1,9 @@
 @extends('layouts.app')
 @section('body_color', '#ffffff;')
 @section('content')
+<head>
+<link rel="stylesheet" href="{{ asset('assets/css/transparency.css')}}">
+</head>
 <section>
 		<!--Page Title Hero-->
 		<div class="vlt-page-title-hero vlt-page-title-hero--work vlt-page-title-hero--lg jarallax">
@@ -14,11 +17,60 @@
 	<!--Content-->
 	<section>
 		<div class="vlt-gap-120"></div>
-		<div class="container table-responsive">
-
-			<table class="table table-bordered table-striped custom-table">
-			
-				<tbody>
+		<div class="container mt-5">
+			<button class="accordion">Baja de bienes muebles</button>
+			<div class="panel">
+				<table class="table table-bordered table-striped custom-table">
+					<tbody>
+						<tr>
+							<td>1. RESOLUCIÓN 049 CREA EL COMITE DE BAJAS Y MANUAL DE PROCEDIMIENTO DE BAJAS</td>
+							<td width="15%" class="align-middle">
+								<a class="btn btn-primary btn-block btn-block" href="{{asset('assets/pdf/baja-de-bienes/1.RESOLUCIÓN-049-CREA-EL-COMITE-DE-BAJAS-Y-MANUAL-DE-PROCEDIMIENTO-DE-BAJAS.pdf')}}" target="_blank">Ver documento</a>
+							</td>
+						</tr>
+						<tr>
+							<td>2. ACTA N° 1 COMITE DE BAJAS 23 DE MAYO DE 2023 Y ANEXOS</td>
+							<td width="15%" class="align-middle">
+								<a class="btn btn-primary btn-block btn-block" href="{{asset('assets/pdf/baja-de-bienes/2.ACTA-N°-1-COMITE-DE-BAJAS-23-DE-MAYO-DE-2023-Y-ANEXOS.pdf')}}" target="_blank">Ver documento</a>
+							</td>
+						</tr>
+						<tr>
+							<td>3. ACTA N° 2 COMITE DE BAJAS 01 DE AGOSTO DE 2023 Y ANEXOS</td>
+							<td width="15%" class="align-middle">
+								<a class="btn btn-primary btn-block btn-block" href="{{asset('assets/pdf/baja-de-bienes/3.ACTA-N°-2-COMITE-DE-BAJAS-01-DE-AGOSTO-DE-2023-Y-ANEXOS.pdf')}}" target="_blank">Ver documento</a>
+							</td>
+						</tr>
+						<tr>
+							<td>4. RESOLUCIÓN 061 POR LA CUAL SE ORDENA A BAJA Y ENAJENACIÓN DE BIENES MUEBLES Y ANEXOS (ACTA 1 DE COMITE DE BAJAS Y CONCEPTOS)</td>
+							<td width="15%" class="align-middle">
+								<a class="btn btn-primary btn-block btn-block" href="{{asset('assets/pdf/baja-de-bienes/4.RESOLUCIÓN-061-POR-LA-CUAL-SE-ORDENA-A-BAJA-Y-ENAJENACIÓN-DE-BIENES-MUEBLES-Y-ANEXOS-(ACTA-1-DE-COMITE-DE-BAJAS-Y-CONCEPTOS).pdf')}}" target="_blank">Ver documento</a>
+							</td>
+						</tr>
+						<tr>
+							<td>5. ACTA N° 3 COMITE DE BAJAS 25 DE AGOSTO DE 2023 Y ANEXOS</td>
+							<td width="15%" class="align-middle">
+								<a class="btn btn-primary btn-block btn-block" href="{{asset('assets/pdf/baja-de-bienes/5.ACTA-N°-3-COMITE-DE-BAJAS-25-DE-AGOSTO-DE-2023-Y-ANEXOS.pdf')}}" target="_blank">Ver documento</a>
+							</td>
+						</tr>
+						<tr>
+							<td>6. RESOLUCIÓN 102 DEL 28 DE AGOSTO DE 2023 ORDENA DESTINO FINAL</td>
+							<td width="15%" class="align-middle">
+								<a class="btn btn-primary btn-block btn-block" href="{{asset('assets/pdf/baja-de-bienes/6.RESOLUCIÓN-102-DEL-28-DE-AGOSTO-DE-2023-ORDENA-DESTINO-FINAL.pdf')}}" target="_blank">Ver documento</a>
+							</td>
+						</tr>
+						<tr>
+							<td>7. ACTA DE DESTRUCCIÓN 09 DE SEPTIEMBRE DE 2023 Y ANEXOS</td>
+							<td width="15%" class="align-middle">
+								<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/baja-de-bienes/7.ACTA-DE-DESTRUCCIÓN-09-DE-SEPTIEMBRE-DE-2023-Y-ANEXOS.pdf')}}" target="_blank">Ver documento</a>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			<button class="accordion">Actos administrativos</button>
+			<div class="panel">
+				<table class="table table-bordered table-striped custom-table">
+					<tbody>
 					<tr>
 						<td width="20%" class="align-middle">Resolución 098 de 2023</td>
 						<td width="50%" class="align-middle">Por la cual se decreta el desistimiento tácito y el archivo de una petición</td>
@@ -343,10 +395,10 @@ la Gestión del Paisaje, el Patrimonio y las Alianzas Público - Privadas -APP</
 							</a>
 						</td>
 					</tr>
-				</tbody>
-			</table>
+					</tbody>
+				</table>
+			</div>
 		</div>
-
 
 		<footer class="vlt-single-post__footer">
 		<!--Post Tags-->
@@ -369,3 +421,8 @@ la Gestión del Paisaje, el Patrimonio y las Alianzas Público - Privadas -APP</
 </div>
 </section>
 @endsection
+@push('scripts')
+<script src="{{ asset('assets/js/acordion.js')}}"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+@endpush
