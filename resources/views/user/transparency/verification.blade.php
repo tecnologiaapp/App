@@ -121,7 +121,7 @@
 					<tr>
 						<td width="65%">Página con los enlaces de datos abiertos</td>
 						<td class="text-center">
-							<a class="btn btn-primary btn-block" href="https://www.datos.gov.co/browse?q=agenciaapp&sortBy=relevance" target="_blank">Visitar sitio</a>
+							<a class="btn btn-primary btn-block" href="https://www.datos.gov.co/" target="_blank">Visitar sitio</a>
 						</td>
 					</tr>
 					<tr>
@@ -697,7 +697,7 @@
 					<tr>
 						<td width="65%">Procesos contractuales</td>
 						<td class="text-center">
-							<a class="btn btn-primary btn-block" href="https://www.contratos.gov.co/consultas/inicioConsulta.do" target="_blank">Visitar sitio</a>
+							<a class="btn btn-primary btn-block" href="https://community.secop.gov.co/Public/Tendering/ContractNoticeManagement/Index?currentLanguage=es-CO&Page=login&Country=CO&SkinName=CCE" target="_blank">Visitar sitio</a>
 						</td>
 					</tr>
 				</tbody>
@@ -708,9 +708,33 @@
 				</thead>
 				<tbody>
 					<tr>
-						<td width="65%">Ejecución de contratos</td>
+						<td width="65%">Ejecución de contratos 2023</td>
 						<td class="text-center">
-							<a class="btn btn-primary btn-block" href="https://www.contratos.gov.co/consultas/inicioConsulta.do" target="_blank">Visitar página</a>
+							<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/4. REPORTE CONTRATOS VIGENCIA 2023.pdf')}}" target="_blank">Visitar página</a>
+						</td>
+					</tr>
+					<tr>
+						<td width="65%">Ejecución de contratos 2022</td>
+						<td class="text-center">
+							<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/3. REPORTE CONTRATOS VIGENCIA 2022.pdf')}}" target="_blank">Visitar página</a>
+						</td>
+					</tr>
+					<tr>
+						<td width="65%">Ejecución de contratos 2021</td>
+						<td class="text-center">
+							<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/2. REPORTE CONTRATOS VIGENCIA 2021.pdf')}}" target="_blank">Visitar página</a>
+						</td>
+					</tr>
+					<tr>
+						<td width="65%">Ejecución de contratos 2020</td>
+						<td class="text-center">
+							<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/1. REPORTE CONTRATOS VIGENCIA 2020.pdf')}}" target="_blank">Visitar página</a>
+						</td>
+					</tr>
+					<tr>
+						<td width="65%">Convenios interadministrativos (2020 - 2023)</td>
+						<td class="text-center">
+							<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/5. REPORTE CONVENIOS INTERADMINISTRATIVOS $0 (2020-2023).pdf')}}" target="_blank">Visitar página</a>
 						</td>
 					</tr>
 				</tbody>
@@ -720,16 +744,28 @@
 					</tr>
 				</thead>
 				<tbody>
+				<tr>
+						<td width="65%">Procesos por entidades y proveedores</td>
+						<td class="text-center">
+							<a class="btn btn-primary btn-block" href="https://consultaprocesos.colombiacompra.gov.co/Autenticar" target="_blank">Ver documento</a>
+						</td>
+					</tr>
+					<tr>
+						<td width="65%">Ordenes de compra TVEC</td>
+						<td class="text-center">
+							<a class="btn btn-primary btn-block" href="https://www.colombiacompra.gov.co/tienda-virtual-del-estado-colombiano/ordenes-compra" target="_blank">Ver documento</a>
+						</td>
+					</tr>
 					<tr>
 						<td width="65%">Resolución 014 de 2016</td>
 						<td class="text-center">
-							<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/Resoluci%C3%B3n-014-Febrero-8-2016.pdf')}}" target="_blank">Ver documento</a>
+							<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/Resolución-014-Febrero-8-2016.pdf')}}" target="_blank">Ver documento</a>
 						</td>
 					</tr>
 					<tr>
 						<td width="65%">Resolución 017 de 2016</td>
 						<td class="text-center">
-							<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/Resoluci%C3%B3n-017-2016.pdf')}}" target="_blank">Ver documento</a>
+							<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/Resolución-017-2016.pdf')}}" target="_blank">Ver documento</a>
 						</td>
 					</tr>
 					<tr>
@@ -760,7 +796,7 @@
 					<tr>
 						<td width="65%">Enlace que direccione al PAA publicado en el SECOP</td>
 						<td class="text-center">
-							<a class="btn btn-primary btn-block" href="https://www.contratos.gov.co/consultas/inicioConsulta.do" target="_blank">Visitar sitio</a>
+							<a class="btn btn-primary btn-block" href="https://community.secop.gov.co/Public/App/AnnualPurchasingPlanManagementPublic/Index?currentLanguage=en&Page=login&Country=CO&SkinName=CCE" target="_blank">Visitar sitio</a>
 						</td>
 					</tr>
 				</tbody>
