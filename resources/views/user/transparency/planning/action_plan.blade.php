@@ -19,6 +19,49 @@
 		<div class="container mt-5">
 			<button class="accordion">PLAN DE ACCIÓN MUNICIPAL</button>
 			<div class="panel">
+			<button class="accordion">2023</button>
+				<div class="panel">
+					<table class="table table-bordered table-striped custom-table">
+						<tbody>
+							<tr>
+								<td>Plan de Acción MPAL - Primer bimestre 2023</td>
+								<td>
+									<a class="btn btn-primary btn-block" href="{{ asset('assets/pdf/planning/2023/Seguimiento-PA-28-Febrero-2023_Definitivo.pdf')}}" target="_blank">Ver documento</a>
+								</td>
+							</tr>
+							<tr>
+								<td>Plan de Acción MPAL - Segundo bimestre 2023</td>
+								<td>
+									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/planning/2023/Seguimiento Plan de Acción 30 de Abril de 2023 - Definitivo.pdf')}}" target="_blank">Ver documento</a>
+								</td>
+							</tr>
+							<tr>
+								<td>Plan de Acción MPAL - Tercer bimestre 2023</td>
+								<td>
+									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/planning/2023/Seguimiento PA_ 30Junio 2023_Definitivo.pdf')}}" target="_blank">Ver documento</a>
+								</td>
+							</tr>
+							<tr>
+								<td>Plan de Acción MPAL - Cuarto bimestre 2023</td>
+								<td>
+									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/planning/2023/Seguimiento PA_ 31Agosto 2023_Definitivo (1).pdf')}}" target="_blank">Ver documento</a>
+								</td>
+							</tr>
+							<tr>
+								<td>Plan de Acción MPAL - Quinto bimestre 2023</td>
+								<td>
+									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/planning/2023/Seguimiento PA_ 31Octubre2023_Preliminar.pdf')}}" target="_blank">Ver documento</a>
+								</td>
+							</tr>
+							<!-- <tr>
+								<td>Plan de Acción MPAL - Sexto bimestre 2023</td>
+								<td>
+									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/planning/SeguimientoPA31Diciembre_2022_Defintivo.pdf')}}" target="_blank">Ver documento</a>
+								</td>
+							</tr> -->
+						</tbody>
+					</table>
+				</div>
 				<button class="accordion">2022</button>
 				<div class="panel">
 					<table class="table table-bordered table-striped custom-table">
@@ -61,7 +104,8 @@
 							</tr>
 						</tbody>
 					</table>
-				</div><button class="accordion">2021</button>
+				</div>
+				<button class="accordion">2021</button>
 				<div class="panel">
 					<table class="table table-bordered table-striped custom-table">
 						<tbody>

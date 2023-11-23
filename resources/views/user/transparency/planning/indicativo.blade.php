@@ -19,6 +19,49 @@
 		<div class="container mt-5">
 			<button class="accordion">PLANES INDICATIVOS</button>
 			<div class="panel">
+			<button class="accordion">2023</button>
+				<div class="panel">
+					<table class="table table-bordered table-striped custom-table">
+						<tbody>
+							<!-- <tr>
+								<td>Plan indicativo - Sexto bimestre 2023</td>
+								<td>
+									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/planning/2023/Seguimiento-Plan_Indicativo-31diciembre2022_Definitivo.pdf')}}" target="_blank">Ver documento</a>
+								</td>
+							</tr> -->
+							<tr>
+								<td>Plan indicativo - Quinto bimestre 2023</td>
+								<td>
+									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/planning/2023/indicativo/Seguimiento PI_Octubre31_Preliminar.pdf')}}" target="_blank">Ver documento</a>
+								</td>
+							</tr>
+							<tr>
+								<td>Plan indicativo - Cuarto bimestre 2023</td>
+								<td>
+									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/planning/2023/indicativo/Plan Indicativo Agosto31 - Definitivo (1).pdf')}}" target="_blank">Ver documento</a>
+								</td>
+							</tr>
+							<tr>
+								<td>Plan indicativo - Tercer bimestre 2023</td>
+								<td>
+									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/planning/2023/indicativo/Seguimiento Plan Indicativo Junio 30 de 2023 - Definitivo.pdf')}}" target="_blank">Ver documento</a>
+								</td>
+							</tr>
+							<tr>
+								<td>Plan indicativo - Segundo bimestre 2023</td>
+								<td>
+									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/planning/2023/indicativo/Plan Indicativo 30 Abril 2023-Definitivo.pdf')}}" target="_blank">Ver documento</a>
+								</td>
+							</tr>
+							<tr>
+								<td>Plan indicativo - Primer bimestre 2023</td>
+								<td>
+									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/planning/2023/indicativo/Seguimiento-Plan_Indicativo-28Febrero2023_Definitivo.pdf')}}" target="_blank">Ver documento</a>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
 				<button class="accordion">2022</button>
 				<div class="panel">
 					<table class="table table-bordered table-striped custom-table">
@@ -61,7 +104,8 @@
 							</tr>
 						</tbody>
 					</table>
-				</div><button class="accordion">2021</button>
+				</div>
+				<button class="accordion">2021</button>
 				<div class="panel">
 					<table class="table table-bordered table-striped custom-table">
 						<tbody>

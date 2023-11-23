@@ -192,6 +192,19 @@
 				</div>
 			</div><button class="accordion">Informes pormenorizado del Estado de Control Interno</button>
 			<div class="panel">
+			<button class="accordion">2023</button>
+				<div class="panel">
+					<table class="table table-bordered table-striped custom-table">
+						<tbody>
+							<tr>
+								<td>Informe pormenorizado de control interno Junio 30 2023</td>
+								<td>
+									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/control/INFORME PORMENORIZADO AGENCIA APP 2023  - Corte Junio 30.pdf')}}" target="_blank">Ver documento</a>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
 				<button class="accordion">2022</button>
 				<div class="panel">
 					<table class="table table-bordered table-striped custom-table">
@@ -210,7 +223,8 @@
 							</tr>
 						</tbody>
 					</table>
-				</div><button class="accordion">2021</button>
+				</div>
+				<button class="accordion">2021</button>
 				<div class="panel">
 					<table class="table table-bordered table-striped custom-table">
 						<tbody>
