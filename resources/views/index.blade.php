@@ -24,16 +24,20 @@
 				<li class="active" data-slide-to="0" data-target="#carouselExampleIndicators"></li>
 				<li data-slide-to="1" data-target="#carouselExampleIndicators"></li>
 				<li data-slide-to="2" data-target="#carouselExampleIndicators"></li>
+				<li data-slide-to="3" data-target="#carouselExampleIndicators"></li>
 			</ol>
-			<div class="carousel-inner">	
-				<div class="carousel-item active">
-					<a href="{{route('user.projects.mudag')}}"><img alt="One slide" class="d-block w-100" src="assets/img/Banners/bannerHome1.jpg"></a>
+			<div class="carousel-inner">
+			<div class="carousel-item active">
+					<a href="#"><img alt="One slide" class="d-block w-100" src="{{ asset('assets/img/Banners/rendicion.jpg')}}"></a>
+				</div>	
+				<div class="carousel-item">
+					<a href="{{route('user.projects.mudag')}}"><img alt="One slide" class="d-block w-100" src="{{asset('assets/img/Banners/bannerHome1.jpg')}}"></a>
 				</div>
 				<div class="carousel-item">
-					<a href="{{route('user.noticias.new50')}}"><img alt="Second slide" class="d-block w-100" src="assets/img/Banners/bannerHome2.jpg"></a>
+					<a href="{{route('user.noticias.new50')}}"><img alt="Second slide" class="d-block w-100" src="{{asset('assets/img/Banners/bannerHome2.jpg')}}"></a>
 				</div>
 				<div class="carousel-item">
-					<a href="https://www.instagram.com/s/aGlnaGxpZ2h0OjE3OTg4MDk0NTkyMDA3ODIx?story_media_id=3115907623191126740_6167483428&igshid=MzRlODBiNWFlZA=="><img alt="Third slide" class="d-block w-100" src="assets/img/Banners/bannerHome3.jpg"></a>
+					<a href="https://www.instagram.com/s/aGlnaGxpZ2h0OjE3OTg4MDk0NTkyMDA3ODIx?story_media_id=3115907623191126740_6167483428&igshid=MzRlODBiNWFlZA=="><img alt="Third slide" class="d-block w-100" src="{{asset('assets/img/Banners/bannerHome3.jpg')}}"></a>
 				</div>
 			</div><button class="carousel-control-prev" data-slide="prev" data-target="#carouselExampleIndicators" onclick="disableScroll()" type="button"><span aria-hidden="true" class="carousel-control-prev-icon"></span> <span class="sr-only">Previous</span></button> <button class="carousel-control-next" data-slide="next" data-target="#carouselExampleIndicators" onclick="disableScroll()" type="button"><span aria-hidden="true" class="carousel-control-next-icon"></span> <span class="sr-only">Next</span></button>
 		</div>
