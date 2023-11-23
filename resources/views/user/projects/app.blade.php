@@ -23,20 +23,7 @@
 			<h3>La Subdirección de Gestión de Alianzas Público Privadas de la Agencia APP del Distrito de Medellín en la actualidad tiene el siguiente portafolio de proyectos de iniciativas públicas y privadas.</h3>
 		</div>
 		<div class="row" style="justify-content:center;">
-			<div class="carousel slide" data-bs-ride="carousel" id="carouselExampleInterval">
-				<div class="carousel-inner">
-					<div class="carousel-item active" data-bs-interval="5000">
-						<section class="img-new">
-							<a href="{{asset('assets/pdf/APPEspa%C3%B1ol.pdf')}}" target="_blank"><img class="img-fluid img-border" src="{{asset('assets/img/Banners/gestion2.jpg')}}"></a>
-						</section>
-					</div>
-					<div class="carousel-item" data-bs-interval="5000">
-						<section class="img-new">
-							<a href="{{asset('assets/pdf/APP-English.pdf')}}" target="_blank"><img class="img-fluid img-border" src="{{asset('assets/img/Banners/gestion1.jpg')}}"></a>
-						</section>
-					</div>
-				</div><button class="carousel-control-prev" data-bs-slide="prev" data-bs-target="#carouselExampleInterval" style="padding-right: 40px; width: 8%;" type="button"><span aria-hidden="true" class="carousel-control-prev-icon"></span> <span class="visually-hidden">Previous</span></button> <button class="carousel-control-next" data-bs-slide="next" data-bs-target="#carouselExampleInterval" style="padding-left: 40px; width: 8%;" type="button"><span aria-hidden="true" class="carousel-control-next-icon"></span> <span class="visually-hidden">Next</span></button>
-			</div>
+			<img class="img-fluid img-border" src="{{asset('assets/img/Banners/gestion2.jpg')}}">
 		</div>
 		<div class="row proyectos-destacados" style="justify-content:center;">
 			<div class="col-lg-6 col-md-6 proy1">
