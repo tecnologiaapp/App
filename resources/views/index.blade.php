@@ -28,7 +28,7 @@
 			</ol>
 			<div class="carousel-inner">
 			<div class="carousel-item active">
-					<a href="https://issuu.com/alexisbrayan0444/docs/revista_app_alcald_a_de_medell_n" target="_blank"><img alt="One slide" class="d-block w-100" src="{{ asset('assets/img/Banners/cuentas.jpg')}}"></a>
+					<a href="https://issuu.com/agenciaappmed/docs/revista_rendici_n_de_cuentas_agencia_app" target="_blank"><img alt="One slide" class="d-block w-100" src="{{ asset('assets/img/Banners/cuentas.jpg')}}"></a>
 				</div>	
 				<div class="carousel-item">
 					<a href="{{route('user.projects.mudag')}}"><img alt="One slide" class="d-block w-100" src="{{asset('assets/img/Banners/bannerHome1.jpg')}}"></a>
