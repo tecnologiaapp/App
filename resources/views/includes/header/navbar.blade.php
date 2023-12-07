@@ -77,7 +77,11 @@
 				   <span>Aprovechamiento Económico del Espacio Público –AEEP–</span>
 			   </a>
 			</li>				
-				
+			<li>
+			<a href="{{ route('user.projects.sig') }}">
+				   <span>SIG</span>
+			   </a>
+			</li>	
 				<li>
 				<a class="menu-sub-item" href="{{ route('user.projects.gestion') }}">
 				  <span>Plan Integral de Gestión de Prado</span>

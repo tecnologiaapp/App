@@ -16,7 +16,7 @@
 
 
   <!-- Template Main CSS File -->
-  <link rel="stylesheet" href="{{ asset('assets/css/geografico.css') }}">
+  <link rel="stylesheet" href="{{ asset('assets/css/geografic.css') }}">
 
 </head>
 

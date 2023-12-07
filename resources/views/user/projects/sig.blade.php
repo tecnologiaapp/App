@@ -11,7 +11,21 @@
       <div class="container-fluid" >
 
         <div class="row">
-
+        <div style="display: flex; justify-content: center;">
+            <button id="abrir-modal" class="btn-get-started scrollto">Explorar</button>
+            <div id="mi-modal" class="ventana" style="display: none;">
+              <div class="ventana-contenido">
+                <!-- Contenido del modal -->
+                <span class="cerrar">&times;</span>
+                <div id="video-container">
+                <video id="video" controls style="width: 100%; height: 375px;">
+                    <source src="{{ asset('assets/videos/sig.mp4')}}" type="video/mp4">
+                    <!-- También puedes agregar otros formatos de video compatibles aquí -->
+                </video>
+                </div>
+              </div>
+            </div>
+          </div>
           <div class="col-lg-7 d-flex flex-column justify-content-center align-items-stretch  order-2 order-lg-1">
 
             <div class="content">
@@ -197,7 +211,27 @@
   </main>
   <!-- End #main -->
   @include('includes.footer.footsig')
+  <script>
+    var boton = document.getElementById("abrir-modal");
+    var modal = document.getElementById("mi-modal");
 
+    boton.onclick = function() {
+        modal.style.display = "block";
+        reproducirVideo();
+    }
+
+    function reproducirVideo() {
+        var video = document.getElementById("video");
+        video.play();
+    }
+
+    var cerrarBoton = document.getElementsByClassName("cerrar")[0];
+    cerrarBoton.onclick = function() {
+        var video = document.getElementById("video");
+        video.pause();
+        modal.style.display = "none";
+    }
+</script>
 </body>
 
 </html>
