@@ -72,6 +72,16 @@
 				<table class="table table-bordered table-striped custom-table">
 					<tbody>
 					<tr>
+						<td width="20%" class="align-middle">Circular 07 de 2023</td>
+						<td width="50%" class="align-middle">Cumplimiento de horario de trabajo jueves 07 de diciembre de 2023</td>
+						<td width="15%" class="align-middle">05 de Diciembre de 2023</td>
+						<td width="15%" class="align-middle">
+							<a href="{{ asset('assets/pdf/Circular-07-de-2023.pdf')}}" class="btn btn-primary btn-block" target="_blank">
+								Ver documento
+							</a>
+						</td>
+					</tr>
+					<tr>
 						<td width="20%" class="align-middle">Resolución 098 de 2023</td>
 						<td width="50%" class="align-middle">Por la cual se decreta el desistimiento tácito y el archivo de una petición</td>
 						<td width="15%" class="align-middle">14 de Agosto de 2023</td>
