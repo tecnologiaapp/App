@@ -91,9 +91,27 @@
 							</td>
 						</tr>
 						<tr>
+							<td>Estados Financieros Agosto 2023</td>
+							<td>
+								<a class="btn btn-primary btn-block btn-block" href="{{asset('assets/pdf/financial_statements/2023/agosto-2023.pdf')}}" target="_blank">Ver documento</a>
+							</td>
+						</tr>
+						<tr>
+							<td>Estados Financieros Julio 2023</td>
+							<td>
+								<a class="btn btn-primary btn-block btn-block" href="{{asset('assets/pdf/financial_statements/2023/junio-2023.pdf')}}" target="_blank">Ver documento</a>
+							</td>
+						</tr>
+						<tr>
 							<td>Estados Financieros Junio 2023</td>
 							<td>
 								<a class="btn btn-primary btn-block btn-block" href="{{asset('assets/pdf/financial_statements/2023/junio-2023.pdf')}}" target="_blank">Ver documento</a>
+							</td>
+						</tr>
+						<tr>
+							<td>Estados Financieros Mayo 2023</td>
+							<td>
+								<a class="btn btn-primary btn-block btn-block" href="{{asset('assets/pdf/financial_statements/2023/mayo-2023.pdf')}}" target="_blank">Ver documento</a>
 							</td>
 						</tr>
 						<tr>
