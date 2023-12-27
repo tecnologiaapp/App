@@ -80,6 +80,12 @@
 				<div class="panel">
 					<table class="table table-bordered table-striped custom-table">
 						<tbody>
+						<tr>
+								<td>Informe de Gestión y comité de conciliación segundo semestre 2023</td>
+								<td>
+									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/control/Informe-de-gestion-SEGUNDO-SEMESTRE.pdf')}}" target="_blank">Ver documento</a>
+								</td>
+							</tr>
 							<tr>
 								<td>Informe de Gestión y comité de conciliación primer semestre 2023</td>
 								<td>
