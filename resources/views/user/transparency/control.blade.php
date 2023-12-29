@@ -596,6 +596,19 @@
 				</div>
 			</div><button class="accordion">Planes de mejoramiento</button>
 			<div class="panel">
+			<button class="accordion">2023</button>
+				<div class="panel">
+					<table class="table table-bordered table-striped custom-table">
+						<tbody>
+							<tr>
+								<td>Plan de Mejoramiento Contraloría 2023</td>
+								<td>
+									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/control/contraloria-2023.pdf')}}" target="_blank">Ver documento</a>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
 				<button class="accordion">2022</button>
 				<div class="panel">
 					<table class="table table-bordered table-striped custom-table">

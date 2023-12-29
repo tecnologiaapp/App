@@ -548,6 +548,12 @@
 				</thead>
 				<tbody>
 					<tr>
+						<td width="65%">Informe de Gestión 2020 - 2023 Rodrigo Foronda</td>
+						<td class="text-center">
+							<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/control/Formato-Informe-de-Gestión-2020-2023-RODRIGO-FORONDA.pdf')}}" target="_blank">Ver documento</a>
+						</td>
+					</tr>
+					<tr>
 						<td width="65%">Presentación Empalme Agencia APP 2019</td>
 						<td class="text-center">
 							<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/planning/Empalme2019.pdf')}}" target="_blank">Ver documento</a>
