@@ -16,7 +16,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-8 offset-md-2">
-					<div class="text-center">
+				{{--<div class="text-center">
 						<div class="section-title">
 							<h2>Rodrigo Foronda Morales</h2>
 						</div>
@@ -50,7 +50,7 @@
 							<h2 data-swiper-parallax="-280"><span>"</span>Queremos llenar a Medellín de arte, magia y color"<span>.</span></h2>
 						</div>
 						<div class="vlt-testimonial-item__metas">
-							<h3 style="color: purple;">Rodrigo Foronda Morales</h3>
+							<h3 style="color: purple;">Rodrigo Foronda Morales</h3>--}}
 						</div>
 					</div>
 				</div>
