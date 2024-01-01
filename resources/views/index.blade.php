@@ -47,9 +47,6 @@
 				<div class="carousel-item">
 					<a href="https://www.instagram.com/s/aGlnaGxpZ2h0OjE3OTg4MDk0NTkyMDA3ODIx?story_media_id=3115907623191126740_6167483428&igshid=MzRlODBiNWFlZA=="><img class="d-block w-100" src="{{asset('assets/img/Banners/bannerHome3.jpg')}}"></a>
 				</div>
-				<div class="carousel-item">
-					<a href="{{route('user.projects.mudag')}}"><img class="d-block w-100" src="{{asset('assets/img/Banners/Medellin_somo_todos.jpg')}}"></a>
-				</div>
 			</div><button class="carousel-control-prev" data-slide="prev" data-target="#carouselExampleIndicators" onclick="disableScroll()" type="button"><span aria-hidden="true" class="carousel-control-prev-icon"></span> <span class="sr-only">Previous</span></button> <button class="carousel-control-next" data-slide="next" data-target="#carouselExampleIndicators" onclick="disableScroll()" type="button"><span aria-hidden="true" class="carousel-control-next-icon"></span> <span class="sr-only">Next</span></button>
 		</div>
 	</section>
