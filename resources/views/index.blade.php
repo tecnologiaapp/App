@@ -30,7 +30,7 @@
 			</ol>
 			<div class="carousel-inner">
 			<div class="carousel-item active">
-					<a href="{{route('user.projects.mudag')}}"><img class="d-block w-100" src="{{asset('assets/img/Banners/Medellin_somo_todos.jpg')}}"></a>
+					<a href="https://www.youtube.com/watch?v=lh9yWdoMpDU&ab_channel=Alcald%C3%ADadeMedell%C3%ADn"><img class="d-block w-100" src="{{asset('assets/img/Banners/Medellin_somo_todos.jpg')}}"></a>
 				</div>
 				<div class="carousel-item">
 					<a href="https://youtu.be/pCyoDKN0zlg" target="_blank"><img class="d-block w-100" src="{{asset('assets/img/Banners/RENDICION2023.jpg')}}"></a>
