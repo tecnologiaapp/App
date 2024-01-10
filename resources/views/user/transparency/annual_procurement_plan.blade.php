@@ -20,6 +20,19 @@
 			<h5 class="mt-5 mb-5">Aquí encontrarás la información relacionada con los planes Anuales de adquisiciones de la Agencia APP</h5>
 		</div>
 		<div class="container mt-5">
+		<button class="accordion">Plan anual 2024</button>
+			<div class="panel">
+				<table class="table table-bordered table-striped custom-table">
+					<tbody>						
+						<tr>
+							<td>Plan anual de adquisiciones 2024</td>
+							<td>
+								<a class="btn btn-primary" href="{{asset('assets/pdf/annual_procurement_plan/2024.xlsx')}}" target="_blank">Ver documento</a>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
 			<button class="accordion">Plan anual 2023</button>
 			<div class="panel">
 				<table class="table table-bordered table-striped custom-table">
@@ -32,7 +45,8 @@
 						</tr>
 					</tbody>
 				</table>
-			</div><button class="accordion">Plan anual 2022</button>
+			</div>
+			<button class="accordion">Plan anual 2022</button>
 			<div class="panel">
 				<table class="table table-bordered table-striped custom-table">
 					<tbody>
