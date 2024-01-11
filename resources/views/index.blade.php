@@ -25,20 +25,12 @@
 				<li data-slide-to="1" data-target="#carouselExampleIndicators"></li>
 				<li data-slide-to="2" data-target="#carouselExampleIndicators"></li>
 				<li data-slide-to="3" data-target="#carouselExampleIndicators"></li>
-				<li data-slide-to="4" data-target="#carouselExampleIndicators"></li>
-				<li data-slide-to="5" data-target="#carouselExampleIndicators"></li>
 			</ol>
 			<div class="carousel-inner">
 			<div class="carousel-item active">
 					<a href="https://www.youtube.com/watch?v=lh9yWdoMpDU&ab_channel=Alcald%C3%ADadeMedell%C3%ADn"><img class="d-block w-100" src="{{asset('assets/img/Banners/Medellin_somo_todos.jpg')}}"></a>
 				</div>
-				<div class="carousel-item">
-					<a href="https://youtu.be/pCyoDKN0zlg" target="_blank"><img class="d-block w-100" src="{{asset('assets/img/Banners/RENDICION2023.jpg')}}"></a>
-				</div>
 			<div class="carousel-item">
-					<a href="https://issuu.com/agenciaappmed/docs/revista_rendici_n_de_cuentas_agencia_app" target="_blank"><img alt="One slide" class="d-block w-100" src="{{ asset('assets/img/Banners/cuentas.jpg')}}"></a>
-				</div>				
-				<div class="carousel-item">
 					<a href="{{route('user.projects.mudag')}}"><img class="d-block w-100" src="{{asset('assets/img/Banners/bannerHome1.jpg')}}"></a>
 				</div>
 				<div class="carousel-item">
