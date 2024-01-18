@@ -72,6 +72,16 @@
 				<table class="table table-bordered table-striped custom-table">
 					<tbody>
 					<tr>
+						<td width="20%" class="align-middle">Resolución 01 de 2024</td>
+						<td width="50%" class="align-middle">Por medio de la cual se establecen las cuantías para la contratación en la vigencia 2024 de la Agencia para la Gestión del Paisaje, el Patrimonio y las Alianzas Público Privadas</td>
+						<td width="15%" class="align-middle">9 de enero de 2024</td>
+						<td width="15%" class="align-middle">
+							<a href="{{ asset('assets/pdf/Resoluciones-001-2024-cuantias.pdf')}}" class="btn btn-primary btn-block" target="_blank">
+								Ver documento
+							</a>
+						</td>
+					</tr>
+					<tr>
 						<td width="20%" class="align-middle">Circular 08 de 2023</td>
 						<td width="50%" class="align-middle">Cumplimiento de horario de trabajo diciembre 22 y 29 de 2023</td>
 						<td width="15%" class="align-middle">22 de Diciembre de 2023</td>
