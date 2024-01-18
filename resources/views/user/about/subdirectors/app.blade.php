@@ -11,7 +11,7 @@
 		</div>
 	</section>
 <section>
-		<div class="vlt-gap-120"></div>
+{{--<div class="vlt-gap-120"></div>
 		<div class="container">
 			<div class="row no-gutters">
 				<!-- ======= Hero Section ======= -->
@@ -24,7 +24,7 @@
 							</div>
 							<div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="200"><img alt="" class="img-fluid animated" src="{{asset('assets/img/funcionarios/imgSubdirectordeAlianzas.png')}}"></div>
 						</div>
-					</div>
+					</div>--}}
 				</section><!-- End Hero -->
 			</div>
 		</div>
