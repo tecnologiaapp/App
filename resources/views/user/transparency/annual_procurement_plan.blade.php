@@ -27,7 +27,7 @@
 						<tr>
 							<td>Plan anual de adquisiciones 2024</td>
 							<td>
-								<a class="btn btn-primary" href="{{asset('assets/pdf/annual_procurement_plan/2024.xlsx')}}" target="_blank">Ver documento</a>
+								<a class="btn btn-primary" href="{{asset('assets/pdf/annual_procurement_plan/PAA-2024-v2.xlsx')}}" target="_blank">Ver documento</a>
 							</td>
 						</tr>
 					</tbody>
