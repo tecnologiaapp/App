@@ -16,16 +16,16 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-8 offset-md-2">
-				{{--<div class="text-center">
+				<div class="text-center">
 						<div class="section-title">
-							<h2>Rodrigo Foronda Morales</h2>
+							<h2>German Schäfer</h2>
 						</div>
 						<p class="text-subtitulo text-dark">Agencia para la Gestión del Paisaje, el Patrimonio y las Alianzas Público Privadas</p>
 						<div class="vlt-gap-45"></div>
 					</div>
 				</div>
 			</div>
-			<p style="text-align:justify;">Abogado, magíster en Derecho con énfasis en Derecho Administrativo y especialista en Derecho Constitucional. Se ha desempeñado como jefe de la Oficina Asesora Jurídica de Indeportes Antioquia; director de Servicios Generales delegado para la contratación del Politécnico Jaime Isaza Cadavid y jefe de la Oficina Jurídica del Fondo de Pasivo Social de Ferrocarriles Nacionales de Colombia.</p>
+			{{--<p style="text-align:justify;">Abogado, magíster en Derecho con énfasis en Derecho Administrativo y especialista en Derecho Constitucional. Se ha desempeñado como jefe de la Oficina Asesora Jurídica de Indeportes Antioquia; director de Servicios Generales delegado para la contratación del Politécnico Jaime Isaza Cadavid y jefe de la Oficina Jurídica del Fondo de Pasivo Social de Ferrocarriles Nacionales de Colombia.</p>
 			<p style="text-align:justify;">Desde su actual cargo como director General de la Agencia APP es responsable de promover la generación de recursos a través de la implementación de los instrumentos financieros definidos en el Plan de Ordenamiento Territorial, fomentar la incorporación de capitales privados a proyectos de inversión para beneficio público, y gestionar y promover acciones que garanticen la cualificación, sostenibilidad y mantenimiento del Sistema Público y Colectivo de Medellín, con énfasis en el paisaje y el patrimonio.</p>
 			<section>
 				<div class="row marginTB">
