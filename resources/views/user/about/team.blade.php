@@ -20,10 +20,22 @@
 						<div class="section-title">
 							<h2>German Schäfer</h2>
 						</div>
-						<p class="text-subtitulo text-dark">Agencia para la Gestión del Paisaje, el Patrimonio y las Alianzas Público Privadas</p>
+						<section class="d-flex align-items-center" id="hero">
+					<div class="container">
+						<div class="row">
+							<div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
+							<p class="normal-text" style="text-align:justify;">Director General de la Agencia para la Gestión del Paisaje, el Patrimonio y las Alianzas Público Privadas</p>
+								<p class="normal-text" style="text-align:justify;"></p>
+							</div>
+							<div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="400"><img alt="" class="img-fluid animated" src="{{asset('assets/img/funcionarios/German-director.jpg')}}"></div>
+						</div>
+						</div>
+						</div>
+						<p class="text-subtitulo text-dark"></p>
 						<div class="vlt-gap-45"></div>
 					</div>
 				</div>
+				<div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
 			</div>
 			{{--<p style="text-align:justify;">Abogado, magíster en Derecho con énfasis en Derecho Administrativo y especialista en Derecho Constitucional. Se ha desempeñado como jefe de la Oficina Asesora Jurídica de Indeportes Antioquia; director de Servicios Generales delegado para la contratación del Politécnico Jaime Isaza Cadavid y jefe de la Oficina Jurídica del Fondo de Pasivo Social de Ferrocarriles Nacionales de Colombia.</p>
 			<p style="text-align:justify;">Desde su actual cargo como director General de la Agencia APP es responsable de promover la generación de recursos a través de la implementación de los instrumentos financieros definidos en el Plan de Ordenamiento Territorial, fomentar la incorporación de capitales privados a proyectos de inversión para beneficio público, y gestionar y promover acciones que garanticen la cualificación, sostenibilidad y mantenimiento del Sistema Público y Colectivo de Medellín, con énfasis en el paisaje y el patrimonio.</p>
