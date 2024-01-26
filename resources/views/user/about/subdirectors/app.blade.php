@@ -9,9 +9,13 @@
 				<h1 style="color:white;">Subdirector de Alianzas público privadas</h1>
 			</div>
 		</div>
+		<div class="text-center">
+						<div class="section-title">
+							<h2>Javier Rodas Velásquez</h2>
+				</div>
 	</section>
 <section>
-{{--<div class="vlt-gap-120"></div>
+<div class="vlt-gap-120"></div>
 		<div class="container">
 			<div class="row no-gutters">
 				<!-- ======= Hero Section ======= -->
@@ -19,12 +23,13 @@
 					<div class="container">
 						<div class="row">
 							<div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
-								<p class="normal-text" style="text-align:justify;">La Subdirección de Gestión de Alianzas Público Privadas es liderada por el Economista Juan Manuel Mejía Salazar, Project Management Professional (PMP®), Profesional en Finanzas y Comercio Internacional y Magíster en Derecho Público. Principalmente ha trabajado en la dirección, estructuración y evaluación de proyectos de inversión en el sector público y privado.</p>
-								<p class="normal-text" style="text-align:justify;">Juan Manuel fue coordinador de planeación de la Consejería Presidencial de Derechos Humanos y Asuntos Internacionales, en la Presidencia de la República de Colombia. Posteriormente, fue analista económico y director de proyecto en The Business Year en Colombia, Jamaica, México y Panamá, realizando análisis de tendencias económicas, construcción de artículos especializados e investigaciones sectoriales específicas sobre Asociaciones Público Privadas. Desde el 2020 es Subdirector de Gestión de Alianzas Público-Privadas en la Agencia APP donde se encuentra estructurando y evaluando proyectos de iniciativa pública y privada mediante la Ley 1508 de 2012 de Asociaciones Público Privadas – APP.</p>
+								<p class="normal-text" style="text-align:justify;">La Subdirección de Alianzas Público Privadas está a cargo del abogado Javier Rodas, quien es un especialista en Derecho Administrativo y tiene un máster en Derecho de la Universidad Pontificia Bolivariana. También es Filósofo de la Universidad de Antioquia; magíster en Argumentación Jurídica de la Universidad de Alicante en España y actualmente está cursando un doctorado</p>
+								<p class="normal-text" style="text-align:justify;">Javier fue director jurídico de la Contaduría General de la Nación, asesor jurídico del Hospital Regional de Medellín y docente de derecho de la universidad de Santo Tomás.</p>
+								<p class="normal-text" style="text-align:justify;">Llega a la Agencia APP para acompañar y evaluar proyectos de iniciativa pública y privada mediante la ley 1508 de 2012 de Asociaciones Público Privadas- APP.</p>
 							</div>
-							<div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="200"><img alt="" class="img-fluid animated" src="{{asset('assets/img/funcionarios/imgSubdirectordeAlianzas.png')}}"></div>
+							<div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="200"><img alt="" class="img-fluid animated" src="{{asset('assets/img/funcionarios/Subdirector-app.jpg')}}"></div>
 						</div>
-					</div>--}}
+					</div>
 				</section><!-- End Hero -->
 			</div>
 		</div>
