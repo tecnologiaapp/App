@@ -123,14 +123,7 @@ Estas obras se complementan con otras acciones de la Agencia APP, como el mejora
 <br>
                             <div style="text-align:center;" >    <img src="{{ asset('assets/img/news/29-1.jpg')}}" alt=""></div>
 <br>
-
-
-
-                                								
-<div style="text-align:center;"class="col-sm-12 pt-4">
-						<iframe src="{{ asset('assets/videos/new/Rodrigo22.mp4') }}" width="700" height="400"></iframe>
-					</div>
-                              
+                          
 								
 
                     <h2>Recursos</h2> 

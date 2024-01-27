@@ -159,11 +159,7 @@ La consolidación del Perpetuo Socorro, San Ignacio y Prado como Áreas de Desar
                             <div style="text-align:center;" >    <img src="{{ asset('assets/img/news/27-1.jpg')}}" alt=""></div>
 <br>
 
-<h5 style="text-align:center;">
-Información para periodistas <br>
-Secretaría de Desarrollo Económico <br>
-Gisela Saldarriaga <br>
-3043786101
+
 
 							
 								</h5>

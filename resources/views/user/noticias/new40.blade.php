@@ -88,17 +88,7 @@ El alcalde Daniel Quintero Calle oficializó el decreto que habilita las Áreas 
 
 
 
-<br>
-                            <div style="text-align:center;" >    <img src="{{ asset('assets/img/news/Archivo-005.png')}}" alt=""></div>
-<br>
-
-
-								
-<div style="text-align:center;"class="col-sm-12 pt-4">
-						<iframe src="{{ asset('assets/videos/new/Rodrigo29.mp4') }}" width="700" height="400"></iframe>
-					</div>
-
-                    <h2>Recursos</h2> 
+<h2>Recursos</h2> 
 
 <br>
 

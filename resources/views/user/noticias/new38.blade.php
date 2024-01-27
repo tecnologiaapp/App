@@ -86,11 +86,6 @@ La Alcaldía de Medellín intervendrá 60 esculturas en el marco de la Fiesta de
 <br>
 
 
-								
-<div style="text-align:center;"class="col-sm-12 pt-4">
-						<iframe src="{{ asset('assets/videos/new/Rodrigo27.mp4') }}" width="700" height="400"></iframe>
-					</div>
-
                     <h2>Recursos</h2> 
 
 <br>

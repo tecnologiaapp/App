@@ -128,25 +128,6 @@ Con esta galería, además de la de El Poblado y del nuevo tramo del Grafitour, 
 <br>
                             <div style="text-align:center;" >    <img src="{{ asset('assets/img/news/naviera2.jpg')}}" alt=""></div>
 <br>
-
-
-                              
-								
-
-                    <h2>Recursos</h2> 
-                        
-					<a href="https://drive.google.com/file/d/12iVTKXXoHwcruYluhJnyOKxuUCqbmSUo/view?usp=sharing" target="_blank">Reproducir video - Rodrigo Foronda Morales, Director general de Agencia APP</a>
-<br>
-<a href="https://drive.google.com/file/d/18FyW7alCVWZ1RJbv7_MYN0hyyJ500usL/view?usp=sharing" target="_blank">Reproducir audio - Rodrigo Foronda Morales, Director general de Agencia APP</a>
-<br>
- 
-<a href="https://drive.google.com/file/d/1Sm4TZpd1RcUP8oBnCK9LhKbdQOy3e80-/view?usp=sharing" target="_blank">Reproducir video - Daniel Quintero Calle, Alcalde de Medellín  </a>
-<br>
-
-<a href="https://drive.google.com/file/d/1stA7t6r2em4XMOjIdbCRCitF2DgeMLhE/view?usp=sharing" target="_blank">Reproducir audio - Daniel Quintero Calle, Alcalde de Medellín </a>
-<br>
-
-
 							</div>
 						</div>
 					</div>

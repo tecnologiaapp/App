@@ -96,19 +96,7 @@ En 24 recorridos temáticos, los habitantes de Medellín conocerán historias y 
 <br>
 
 <h5 style="text-align:center;">
-Información para periodistas <br>
-Gerencia del Centro <br>
-Alejandro Noreña Jaramillo
-
-
-							
-								</h5>
-								
-<div style="text-align:center;"class="col-sm-12 pt-4">
-						<iframe src="{{ asset('assets/videos/new/Mónica.mp4') }}" width="700" height="400"></iframe>
-					</div>
-
-                    <h2>Recursos</h2> 
+<h2>Recursos</h2> 
 
 <br>
 

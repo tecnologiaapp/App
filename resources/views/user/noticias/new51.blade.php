@@ -67,28 +67,7 @@
 
 
        
-      </div>
-                    <div style="text-align:center;" class="col-sm-12 pt-4">
-						<iframe src="{{ asset('assets/videos/new/Rodrigo38.mp4') }}" width="700" height="400"></iframe>
-					</div>
-      <div class="section-title" style="padding-top: 60px;">
-          <h2>  Recursos</h2>
-        </div>
-        <table>
-        
-            <tbody>
-             <tr>
-                <td width="65%">
-                Reel - Lleras
-                </td>
-                <td>
-                <a href="https://drive.google.com/file/d/1stx2DhdGt84x-vH-YUg64X-egoahQ9Tq/view?usp=share_link" class="btn btn-primary btn-block" target="_blank">
-									Visualizar
-								</a>
-                </td>
-             </tr>
-             <tr>
-                <td width="65%">
+      
                 Testimonio - Caro Lopéz Zapata
                 </td>
                 <td >

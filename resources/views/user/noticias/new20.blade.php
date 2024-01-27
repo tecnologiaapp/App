@@ -127,57 +127,7 @@ Cuidar y proteger el patrimonio contribuye a la cohesión social, estimula la ap
                             <div style="text-align:center;" >    <img src="{{ asset('assets/img/news/incentivos.jpeg')}}" alt=""></div>
 <br>
 
-<h5 style="text-align:center;">
-Información para periodistas <br>
-Departamento Administrativo de Planeación <br>
-Gerardo Pérez Peñaranda 3192955930
-
-
-
-
-
-
-
-
-									
-								</h5>
-
-								
-<div style="text-align:center;"class="col-sm-12 pt-4">
-						<iframe src="{{ asset('assets/videos/new/Rodrigo17.mp4') }}" width="700" height="400"></iframe>
 					</div>
-
-
-
-                    <h2>Recursos</h2> 
-                        
-<br>
-
-<a href="https://drive.google.com/file/d/187Jj5b8tSiCT3OBwqbCCUnfhn_K8OeFk/view?usp=sharing" target="_blank">Reproducir audio - Rodrigo Foronda Morales, Director general de la agencia App</a>
-<br>
-
-<a href="https://drive.google.com/file/d/16u3bWnn1rS_wgMARqP1VVfx8RJF2lin5/view?usp=sharing" target="_blank">Reproducir video - Maria victoria Castaño Sierra</a>
-<br>
-
-<a href="https://drive.google.com/file/d/1NPjT0JQGiCcssjAl2dUBDOstvbhmaSxC/view?usp=sharing" target="_blank">Reproducir audio - Maria victoria Castaño Sierra</a>
-<br>
-
-<a href="https://drive.google.com/file/d/1AriWFwWoDOBliPpcyz23Jj1oTGcmIgsb/view?usp=sharing" target="_blank">Reproducir video - Monica Duran Hernandez</a>
-<br>
-
-<a href="https://drive.google.com/file/d/1dFTM7S5Ui45TDKLxaLuzRTlCiW6B1S_8/view?usp=sharing" target="_blank">Reproducir audio - Monica Duran Hernandez</a>
-<br>
-
-
-<a href="https://drive.google.com/file/d/1zO3tqguCooNnAjLYbPBLPHq-rbXsgq_4/view?usp=sharing" target="_blank">Reproducir video - Sergio Lopez</a>
-<br>
-
-<a href="https://drive.google.com/file/d/1OdFAL3SgYhXh0z5nwckQZ_tOS_BIrTzk/view?usp=sharing" target="_blank">Reproducir audio - Sergio Lopez</a>
-<br>
-
-
-
-							</div>
 						</div>
 					</div>
 				</div>

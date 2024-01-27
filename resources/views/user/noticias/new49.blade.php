@@ -68,17 +68,9 @@
         </div>
 <br>
 <h5 style="text-align:center; padding-top: 20px;">
-Prensa Alcaldía de Medellín <br>
-Byron García Correa – 313 6419192<br>
-
-
-       
+   
       </div>
-                    <div style="text-align:center;" class="col-sm-12 pt-4">
-						<iframe src="{{ asset('assets/videos/new/director.mp4') }}" width="700" height="400"></iframe>
-					</div>
-      <div class="section-title" style="padding-top: 60px;">
-          <h2>  Recursos</h2>
+       <h2>  Recursos</h2>
         </div>
         <table>
         

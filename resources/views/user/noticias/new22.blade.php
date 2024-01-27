@@ -121,29 +121,7 @@ Adicionalmente, la Alcaldía de Medellín lidera la mesa permanente de atención
                             <div style="text-align:center;" >    <img src="{{ asset('assets/img/news/parque.jpg')}}" alt=""></div>
 <br>
 
-
-
-								
-<div style="text-align:center;"class="col-sm-12 pt-4">
-						<iframe src="{{ asset('assets/videos/new/Rodrigo18.mp4') }}" width="700" height="400"></iframe>
-					</div>
-
-
-
-                    <h2>Recursos</h2> 
-                        
-<br>
-<a href="https://drive.google.com/file/d/12KPZQz3RrXiGR0LJdlcAa6TnBdpGMbdj/view?usp=sharing" target="_blank">Reproducir audio - Rodrigo Foronda Morales, Director general de Agencia APP</a>
-<br>
- 
-<a href="https://drive.google.com/file/d/1TP8WU3kVxuiHrCxFVGssjAMDEm5_kPE0/view?usp=sharing" target="_blank">Reproducir video - Esteban Restrepo, secretario de Gobierno. </a>
-<br>
-
-<a href="https://drive.google.com/file/d/1bkD6znxIQFeULZVAlCKvIqiK0dDQk0Bz/view?usp=sharing" target="_blank">Reproducir audio - Esteban Restrepo, secretario de Gobierno. </a>
-<br>
-
-
-							</div>
+						</div>
 						</div>
 					</div>
 				</div>

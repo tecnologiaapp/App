@@ -118,36 +118,6 @@ Adicionalmente, la Administración Municipal hará desde las 7:00 p. m. de este 
                             <div style="text-align:center;" >    <img src="{{ asset('assets/img/news/iluminacion2.jpg')}}" alt=""></div>
 <br>
 
-<h5 style="text-align:center;">
-Medellín Futuro, un Valle del Software </h5>
-
-
-                                <p>El desarrollo y transformación de Medellín debe pensarse desde los macroproyectos que permitieron que la ciudad avanzara, entre ellos, la construcción del Ferrocarril de Antioquia a inicios del siglo XX, la fundación de las Empresas Públicas de Medellín (EPM) en 1955 y el Metro en 1995, además de todo el desarrollo industrial y urbanístico de la ciudad. </p>
-
-                                <p>“El 2 de noviembre de 1675 se le dio el nombre de Villa de Nuestra Señora de la Candelaria de Medellín a un pequeño cruce de caminos, entre la capital de Antioquia y el centro del país. Hoy, Medellín se transforma y se convierte en Distrito de Ciencia, Tecnología e Innovación y continúa la visión del plano de la Medellín Futuro de 1912 con el actual Plan de Desarrollo. Que este cumpleaños sirva para saber que la ciudad siempre ha pensado y planificado en futuro”, manifestó el director del Departamento Administrativo de Planeación, Sergio López Muñoz.
-</p>
-
-                                
-								
-<div style="text-align:center;"class="col-sm-12 pt-4">
-						<iframe src="{{ asset('assets/videos/new/Rodrigo20.mp4') }}" width="700" height="400"></iframe>
-					</div>
-
-
-
-                    <h2>Recursos</h2> 
-                        
-<br>
-<a href="https://drive.google.com/file/d/1dMFLt8Mop-lHmJ5PW9q5uYMigvLvtFSI/view?usp=sharing" target="_blank">Reproducir audio - Rodrigo Foronda Morales, Director general de Agencia APP</a>
-<br>
- 
-<a href="https://drive.google.com/file/d/1g5GfQg0Pof9awLnhSja95HJUv_1E6wRd/view?usp=sharing" target="_blank">Reproducir video - Sergio López Muñoz, Director del DAP  </a>
-<br>
-
-<a href="https://drive.google.com/file/d/1MWtsVZn7XMAkNf5pT-P-3T10yZ3Ikywx/view?usp=sharing" target="_blank">Reproducir video - Álvaro Narváez, historia Medellín </a>
-<br>
-
-
 							</div>
 						</div>
 					</div>

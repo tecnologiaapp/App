@@ -70,49 +70,8 @@
         </div>
 <br>
 <h5 style="text-align:center; padding-top: 20px;">
-Información para periodistas <br>
-Secretaría Desarrollo Económico<br>
-Daniela Lopera <br>
 Agencia App <br>
-       
-      </div>
-      <div style="text-align:center;" class="col-sm-12 pt-4">
-						<iframe src="{{ asset('assets/videos/new/Rodrigo35.mp4') }}" width="700" height="400"></iframe>
-					</div>
-      <div class="section-title" style="padding-top: 60px;">
-          <h2>  Recursos</h2>
-        </div>
-        <table>
-        
-            <tbody>
-             <tr>
-                <td width="65%">
-                Mauricio Valencia - secretario desarrolllo económico
-                </td>
-                <td>
-                <a href="https://drive.google.com/file/d/1JNu0lRXB5FCUgp13DL0vBwdV-GBUS7ns/view?usp=share_link" class="btn btn-primary btn-block" target="_blank">
-									Visualizar
-								</a>
-                </td>
-             </tr>
-             <tr>
-                <td width="65%">
-                Mauricio Valencia - secretario desarrolllo económico
-                </td>
-                <td >
-                    <a href="https://drive.google.com/file/d/1uUgvkl8bNJIj6t8s8L4E_Jfn8eee08Tp/view?usp=share_link" class="btn btn-primary btn-block" target="_blank">
-                        Reproducir
-                    </a>
-                </td>
-             </tr>
-             <tr>
-                <td width="65%">
-                    Audio - Rodrigo Foronda Morales, director general Agencia APP
-                </td>
-                <td>
-                    <a href="https://drive.google.com/file/d/1iDNI8J--0hbLGDuPdOPwa2ThmatS-uPY/view?usp=share_link" class="btn btn-primary btn-block color:color:#b3348a;" target="_blank">
-                        Reproducir
-                    </a>
+                          </a>
                 </td>
              </tr>
             </tbody>

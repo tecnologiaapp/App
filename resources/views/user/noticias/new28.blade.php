@@ -144,14 +144,7 @@ De los 14.300 metros establecidos en el Plan de Desarrollo Medellín Futuro 2020
 <br>
                             <div style="text-align:center;" >    <img src="{{ asset('assets/img/news/4-sur2.jpg')}}" alt=""></div>
 <br>
-
-
-
-                                								
-<div style="text-align:center;"class="col-sm-12 pt-4">
-						<iframe src="{{ asset('assets/videos/new/Rodrigo21.mp4') }}" width="700" height="400"></iframe>
-					</div>
-                              
+ 
 								
 
                     <h2>Recursos</h2> 

@@ -97,19 +97,6 @@ Los edificios Palacé, Constain y Cárdenas renuevan el paisaje urbano del Centr
                             <div style="text-align:center;" >    <img src="{{ asset('assets/img/news/Palacé.jpg')}}" alt=""></div>
 <br>
 
-
-								
-<div style="text-align:center;"class="col-sm-12 pt-4">
-						<iframe src="{{ asset('assets/videos/new/Rodrigo33.mp4') }}" width="700" height="400"></iframe>
-					</div>
-
-                    <h2>Recursos</h2> 
-
-<br>
-
-
-
-<a href="https://drive.google.com/file/d/12oUE_6Sz5dLU5iT8jMbEEdlRbQ2Afovb/view?usp=share_link" target="_blank">Reproducir video - Reel Edificios Palacé. Constaín y Cárdenas</a>
 <br>
 
 

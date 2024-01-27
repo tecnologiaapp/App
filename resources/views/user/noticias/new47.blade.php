@@ -58,53 +58,12 @@
                     <span class="visually-hidden">Next</span>
                 </button>
             </div>
-        </div>
-        
-        </div>
-<br>
+    <br>
 <h5 style="text-align:center; padding-top: 20px;">
-Información para periodistas <br>
-Secretaría de Seguridad y Convivencia <br>
-Stephen Arboleda López 3116481894 <br>
-
-       
-      </div>
-      <div style="text-align:center;" class="col-sm-12 pt-4">
-						<iframe src="{{ asset('assets/videos/new/Rodrigo36.mp4') }}" width="700" height="400"></iframe>
+>
 					</div>
       <div class="section-title" style="padding-top: 60px;">
-          <h2>  Recursos</h2>
-        </div>
-        <table>
-        
-            <tbody>
-             <tr>
-                <td width="65%">
-                Secretario de seguridad - Video
-                </td>
-                <td>
-                <a href="https://drive.google.com/file/d/1esdYz8R7VLu6Tp-5LpHMTEorHAjoOLlW/view?usp=share_link" class="btn btn-primary btn-block" target="_blank">
-									Visualizar
-								</a>
-                </td>
-             </tr>
-             <tr>
-                <td width="65%">
-                Secretario de seguridad - Audio
-                </td>
-                <td >
-                    <a href="https://drive.google.com/file/d/1CNFDc4OXEK_uPfQweNp1ZhJZgdo9XjYF/view?usp=share_link" class="btn btn-primary btn-block" target="_blank">
-                        Reproducir
-                    </a>
-                </td>
-             </tr>
-             <tr>
-                <td width="65%">
-                     Cárcel Metropolitana para sindicados
-                </td>
-                <td>
-                    <a href="https://drive.google.com/file/d/1NAZ4uC7eS8IM6eERdLNLwXAtmXhLpkro/view?usp=share_link" class="btn btn-primary btn-block color:color:#b3348a;" target="_blank">
-                        Reproducir
+         
                     </a>
                 </td>
              </tr>
@@ -112,16 +71,8 @@ Stephen Arboleda López 3116481894 <br>
         </table>
       
     </div>
-    
- </div>
-</div>
-
-
-
-	<footer class="vlt-single-post__footer">
-			
-							
-				<section style="background-color: transparent;">
+    </div>	<footer class="vlt-single-post__footer">
+										<section style="background-color: transparent;">
 	                <div class="vlt-gap-100"></div>
 	                   <div class="container">
 	                  	<!--Animation Block-->

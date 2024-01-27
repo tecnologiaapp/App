@@ -102,24 +102,6 @@ Esta obra artística sobre el intercambio vial iniciará en los próximos días 
 <br>
                             <div style="text-align:center;" >    <img src="{{ asset('assets/img/news/sur2.jpeg')}}" alt=""></div>
 <br>
-
-
-
-								
-<div style="text-align:center;"class="col-sm-12 pt-4">
-						<iframe src="{{ asset('assets/videos/new/Rodrigo16.mp4') }}" width="700" height="400"></iframe>
-					</div>
-
-
-
-                    <h2>Recursos</h2> 
-                        
-<br>
-<a href="https://drive.google.com/file/d/1h9IMp6lTFEMZW9w-D-2xfJhGlgwsZ8Nm/view?usp=sharing" target="_blank">Reproducir audio - Rodrigo Foronda Morales, director general Agencia APP</a>
-<br>
-
-
-
 							</div>
 						</div>
 					</div>

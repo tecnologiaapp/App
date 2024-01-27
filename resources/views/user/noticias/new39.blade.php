@@ -92,12 +92,6 @@ La comuna Manrique tendrá el macromural artístico más grande de Medellín
                             <div style="text-align:center;" >    <img src="{{ asset('assets/img/news/Foto10.jpg')}}" alt=""></div>
 <br>
 
-
-								
-<div style="text-align:center;"class="col-sm-12 pt-4">
-						<iframe src="{{ asset('assets/videos/new/Rodrigo28.mp4') }}" width="700" height="400"></iframe>
-					</div>
-
                     <h2>Recursos</h2> 
 
 <br>

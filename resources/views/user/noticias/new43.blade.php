@@ -91,13 +91,6 @@ Más de 150 venteros conocieron avances y logros en la modernización de la Unid
 
 <br>
                             <div style="text-align:center;" >    <img src="{{ asset('assets/img/news/unidad.png')}}" alt=""></div>
-<br>
-
-
-								
-<div style="text-align:center;"class="col-sm-12 pt-4">
-						<iframe src="{{ asset('assets/videos/new/Rodrigo32.mp4') }}" width="700" height="400"></iframe>
-					</div>
 
                     <h2>Recursos</h2> 
 

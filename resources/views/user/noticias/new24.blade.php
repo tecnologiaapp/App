@@ -118,29 +118,6 @@ La Agencia APP avanza en la actualidad en distintas iniciativas públicas y priv
 <br>
                             <div style="text-align:center;" >    <img src="{{ asset('assets/img/news/convenio1.jpg')}}" alt=""></div>
 <br>
-
-
-
-								
-<div style="text-align:center;"class="col-sm-12 pt-4">
-						<iframe src="{{ asset('assets/videos/new/Rodrigo19.mp4') }}" width="700" height="400"></iframe>
-					</div>
-
-
-
-                    <h2>Recursos</h2> 
-                        
-<br>
-<a href="https://drive.google.com/file/d/1qcKetoNaBxzzgNINN2gZqtJD1UO-7g-s/view?usp=sharing" target="_blank">Reproducir audio - Rodrigo Foronda Morales, Director general de Agencia APP</a>
-<br>
- 
-<a href="https://drive.google.com/file/d/1TlcbhohSJI5wckSHIp_JW5MrHYkMwSZQ/view?usp=sharing" target="_blank">Reproducir video - Libardo Álvarez Lopera, rector Politécnico Jaime Isaza Cadavid </a>
-<br>
-
-<a href="https://drive.google.com/file/d/1QIJpTNq2_4J8JHMTjnxum-7GA_m1P9N1/view?usp=sharing" target="_blank">Reproducir audio - Libardo Álvarez Lopera, rector Politécnico Jaime Isaza Cadavid </a>
-<br>
-
-
 							</div>
 						</div>
 					</div>

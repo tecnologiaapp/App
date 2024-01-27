@@ -59,14 +59,7 @@
         
         </div>
 <br>
-
-
-       
-      </div>
-      <div style="text-align:center;" class="col-sm-12 pt-4">
-						<iframe src="{{ asset('assets/videos/new/Rodrigo37.mp4') }}" width="700" height="400"></iframe>
-					</div>
-      <div class="section-title" style="padding-top: 60px;">
+<div class="section-title" style="padding-top: 60px;">
           <h2>  Recursos</h2>
         </div>
         <table>
