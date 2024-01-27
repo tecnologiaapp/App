@@ -66,35 +66,10 @@
         
         </div>
 <br>
-
-       
-      </div>
-                    <div style="text-align:center;" class="col-sm-12 pt-4">
-						<iframe src="{{ asset('assets/videos/new/alcalde.mp4') }}" width="700" height="400"></iframe>
-					</div>
-      <div class="section-title" style="padding-top: 60px;">
-          <h2>  Recursos</h2>
+  
+                <h2>  Recursos</h2>
         </div>
-        <table>
-        
-            <tbody>
-             <tr>
-                <td width="65%">
-                Reel - Constelaciones
-                </td>
-                <td>
-                <a href="https://drive.google.com/file/d/151Jpt9UZA4MFmpkGbqaBCylZEMbF22-Z/view?usp=share_link" class="btn btn-primary btn-block" target="_blank">
-									Visualizar
-								</a>
-                </td>
-             </tr>
-             <tr>
-                <td width="65%">
-                Alcalde - Constelaciones
-                </td>
-                <td >
-                    <a href="https://drive.google.com/file/d/17_r118J22U1WdyLDWh9JyIx0w5gexkds/view?usp=share_link" class="btn btn-primary btn-block" target="_blank">
-                        Reproducir
+        Reproducir
                     </a>
                 </td>
              </tr>

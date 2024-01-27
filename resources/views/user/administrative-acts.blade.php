@@ -15,6 +15,31 @@
 	</section>
 
 	<!--Content-->
+	<div class="vlt-gap-120"></div>
+		<div class="container mt-5">
+			<button class="accordion">CUMPLIMIENTO DE AUTO QUE ORDENA PUBLICIDAD DE ACCIÓN POPULAR 2023 - 219</button>
+			<div class="panel">
+				<table class="table table-bordered table-striped custom-table">
+					<tbody>
+						<tr>
+						<p class="mt-5 mb-5">La Agencia APP garantizando la transparencia y publicidad de las órdenes judiciales, comunica la existencia de la Acción Popular 05001333303420230021900 interpuesta por el señor LIBARDO BOLÍVAR PETRO en contra del DISTRITO ESPECIAL DE CIENCIA, TECNOLOGÍA E INNOVACIÓN DE MEDELLÍN, AGENCIA APP Y OTROS.
+						Con este fin se publica la Demanda interpuesta y el auto admisorio de la demanda.</p>
+						<p>	Con este fin se publica la Demanda interpuesta y el auto admisorio de la demanda.</p>
+	  					</div>
+							<td>1. Auto Admisorio</td>
+							<td width="15%" class="align-middle">
+								<a class="btn btn-primary btn-block btn-block" href="{{asset('assets/pdf/Auto-admisorio.pdf')}}" target="_blank">Ver documento</a>
+							</td>
+						</tr>
+						<tr>
+							<td>2. Accion Popular</td>
+							<td width="15%" class="align-middle">
+								<a class="btn btn-primary btn-block btn-block" href="{{asset('assets/pdf/Accion-Popular.pdf')}}" target="_blank">Ver documento</a>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
 	<section>
 		<div class="vlt-gap-120"></div>
 		<div class="container mt-5">
@@ -76,7 +101,7 @@
 						<td width="50%" class="align-middle">Por medio de la cual se establecen las cuantías para la contratación en la vigencia 2024 de la Agencia para la Gestión del Paisaje, el Patrimonio y las Alianzas Público Privadas</td>
 						<td width="15%" class="align-middle">9 de enero de 2024</td>
 						<td width="15%" class="align-middle">
-							<a href="{{ asset('assets/pdf/Resoluciones-001-2024-cuantias.pdf')}}" class="btn btn-primary btn-block" target="_blank">
+							<a href="{{ asset('assets/pdf/.pdf')}}" class="btn btn-primary btn-block" target="_blank">
 								Ver documento
 							</a>
 						</td>
@@ -440,7 +465,6 @@ la Gestión del Paisaje, el Patrimonio y las Alianzas Público - Privadas -APP</
 				</table>
 			</div>
 		</div>
-
 		<footer class="vlt-single-post__footer">
 		<!--Post Tags-->
 		<!--Post Share-->

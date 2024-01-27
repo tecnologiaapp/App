@@ -39,20 +39,7 @@
 					</div>
 				</div><br>
 			</div>
-			<div class="col-sm-12 pt-4" style="text-align:center;">
-				<iframe height="400" src="{{asset('assets/videos/new/alcalde1.mp4')}}" width="700"></iframe>
-			</div>
-			<div class="section-title" style="padding-top: 60px;">
-				<h2>Recursos</h2>
-			</div>
-			<table>
-				<tbody>
-					<tr>
-						<td width="65%">Rodrigo Foronda - Muro Verde</td>
-						<td>
-							<a class="btn btn-primary btn-block" href="https://drive.google.com/file/d/1ZYWphmgKdPfwuvuihK-1opYyKj0-LZFQ/view?usp=drive_link" target="_blank">Reproducir</a>
-						</td>
-					</tr>
+			
 				</tbody>
 			</table>
 		</div>
