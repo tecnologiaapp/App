@@ -18,7 +18,7 @@
 				<div class="col-md-8 offset-md-2">
 				<div class="text-center">
 						<div class="section-title">
-							<h2>German Schäfer</h2>
+							<h2>German Schäfer Elejalde</h2>
 				</div>
 				</section>
 				<div class="vlt-gap-40"></div>
