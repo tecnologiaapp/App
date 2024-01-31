@@ -419,7 +419,86 @@
 				</div>
 			</div><button class="accordion">PLANES INSTITUCIONALES</button>
 			<div class="panel">
-				<button class="accordion">2023</button>
+				<button class="accordion">2024</button>
+				<div class="panel">
+					<table class="table table-bordered table-striped custom-table">
+						<tbody>
+							<tr>
+								<td>Plan Institucional de archivos de la Entidad-PINAR</td>
+								<td>
+									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/planning/2024/PlanInstitucionaldeArchivosPINAR2024.pdf')}}" target="_blank">Ver documento</a>
+								</td>
+							</tr>
+							<tr>
+								<td>Plan Anual de adquisiciones</td>
+								<td>
+									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/planning/2024/Plan-Anual-de-Adquisiciones-2024.pdf')}}" target="_blank">Ver documento</a>
+								</td>
+							</tr>
+							<tr>
+								<td>Plan Anual de Vacantes</td>
+								<td>
+									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/planning/2024/planningPlan-Anual-de-Vacantes2024.pdf')}}" target="_blank">Ver documento</a>
+								</td>
+							</tr>
+							<tr>
+								<td>Plan de Prevision de Recursos Humanos</td>
+								<td>
+									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/planning/2024/Plan-de-Previsión-de-Recursos-Humanos-2024.pdf')}}" target="_blank">Ver documento</a>
+								</td>
+							</tr>
+							<tr>
+								<td>Plan Estrategico de talento humano</td>
+								<td>
+									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/planning/2024/Plan-Estratégico-de-Talento-Humano-2024.pdf')}}" target="_blank">Ver documento</a>
+								</td>
+							</tr>
+							<tr>
+								<td>Plan Institucional de Capacitación</td>
+								<td>
+									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/planning/2024/Plan-Institucional-de-Capacitación-2024.pdf')}}" target="_blank">Ver documento</a>
+								</td>
+							</tr>
+							<tr>
+								<td>Plan de Bienestar e Incentivos</td>
+								<td>
+									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/planning/2024/Plan-de-Incentivos-Institucionales-2024.pdf')}}" target="_blank">Ver documento</a>
+								</td>
+							</tr>
+							</tr>
+								<td>Plan de Trabajo Anual en Seguridad y Salud en el Trabajo</td>
+								<td>
+									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/planning/2024/Plan-de-Trabajo-Anual-en-Seguridad-y-Salud-en-el-Trabajo-2024.pdf')}}" target="_blank">Ver documento</a>
+								</td>
+							</tr>
+							<tr>
+								<td>Plan Anticorrupción y de Atención al Ciudadano</td>
+								<td>
+									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/planning/2024/Plan-Anticorrupción-y-de-atención-al-ciudadano-2024.pdf')}}" target="_blank">Ver documento</a>
+								</td>
+							</tr>
+							<tr>
+								<td>Plan estrategico de tecnologias de la información y las comunicaciones</td>
+								<td>
+									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/planning/2024/Plan-Estrategico-de-la-Tecnologia-de-la-Informacion-y-las-comunicaciones-PETI-2024.pdf')}}" target="_blank">Ver documento</a>
+								</td>
+							</tr>
+							<tr>
+								<td>Plan de Tratamiento de Riesgo de Seguridad y Privavidad de la Información</td>
+								<td>
+									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/planning/2024/Plan-de-tratamiento-de-riesgos-de-seguridad-de-la-informacion-2024.pdf')}}" target="_blank">Ver documento</a>
+								</td>
+							</tr>
+							<tr>
+								<td>Plan de Seguridad y Privacidad de la Informacion</td>
+								<td>
+									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/planning/2024/Politicas-de-Seguridad-y-Privacidad-de-la-Informacion-2024.pdf')}}" target="_blank">Ver documento</a>
+								</td>
+							</tr>
+							</tr>
+						</tbody>
+					</table>
+					</div><button class="accordion">2023</button>
 				<div class="panel">
 					<table class="table table-bordered table-striped custom-table">
 						<tbody>
