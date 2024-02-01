@@ -423,6 +423,11 @@
 				<div class="panel">
 					<table class="table table-bordered table-striped custom-table">
 						<tbody>
+						<tr>
+								<td>Resolucion 17 de 2024 Planes Institucionales</td>
+								<td>
+									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/planning/2024/Resolucion-17-de-2024-PlanesInstitucionale.pdf')}}" target="_blank">Ver documento</a>
+								</td>
 							<tr>
 								<td>Plan Institucional de archivos de la Entidad-PINAR</td>
 								<td>
