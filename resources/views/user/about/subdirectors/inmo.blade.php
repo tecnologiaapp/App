@@ -14,7 +14,7 @@
 		<div class="vlt-gap-120"></div>
 		<div class="container">
 			<div class="row no-gutters">
-				<!-- ======= Hero Section ======= -->
+			{{--<!-- ======= Hero Section ======= -->
 				<section class="d-flex align-items-center" id="hero">
 					<div class="container">
 						<div class="row">
@@ -38,7 +38,7 @@
 			<div class="container">
 				<!--Animation Block-->
 				<div class="vlt-animation-block aos-init aos-animate" data-aos="fade" data-aos-delay="0">
-					<!--Social Share-->
+					<!--Social Share-->--}}
 					<div class="vlt-social-share text-center">
 						<h5 class="vlt-display-1">Compártelo</h5><a class="vlt-social-icon vlt-social-icon--style-1 twitter" href="https://twitter.com/intent/tweet?text=https://www.app.gov.co/subdirectores/gesti%C3%B3n-inmobiliaria" rel="nofollow" target="_blank"><i class="fa fa-twitter"></i></a> <a class="vlt-social-icon vlt-social-icon--style-1 facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://www.app.gov.co/subdirectores/gesti%C3%B3n-inmobiliaria" rel="nofollow" target="_blank"><i class="fa fa-facebook"></i></a>
 					</div>

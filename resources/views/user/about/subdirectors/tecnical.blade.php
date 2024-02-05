@@ -6,7 +6,7 @@
 		<div class="vlt-page-title-hero vlt-page-title-hero--work vlt-page-title-hero--lg jarallax">
 			<div class="vlt-page-title-hero__overlay"></div><img alt="" class="jarallax-img" src="{{asset('assets/img/Banners/bannerDirectoraTecnica.jpg')}}">
 			<div class="vlt-page-title-hero__content ocultPosition">
-				<h1 style="color:white;">Directora Técnica</h1>
+				<h1 style="color:white;">Direccion  Técnica</h1>
 			</div>
 		</div>
 	</section>
@@ -15,7 +15,7 @@
 		<div class="vlt-gap-120"></div>
 		<div class="container">
 			<div class="row no-gutters">
-				<!-- ======= Hero Section ======= -->
+			{{--<!-- ======= Hero Section ======= -->
 				<section class="d-flex align-items-center" id="hero">
 					<div class="container">
 						<div class="row">
@@ -31,7 +31,7 @@
 			</div>
 		</div>
 	</section>
-	<footer class="vlt-single-post__footer">
+	<footer class="vlt-single-post__footer">--}}
 		<!--Post Tags-->
 		<!--Post Share-->
 		<section style="background-color: transparent;">
