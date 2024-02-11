@@ -6,7 +6,7 @@
 		<div class="vlt-page-title-hero vlt-page-title-hero--work vlt-page-title-hero--lg jarallax">
 			<div class="vlt-page-title-hero__overlay"></div><img alt="" class="jarallax-img" src="{{asset('assets/img/Banners/bannerSubDeGestionInmobiliaria.jpg')}}">
 			<div class="vlt-page-title-hero__content ocultPosition">
-				<h1 style="color:white;">Subdirectora de Gestión inmobiliaria</h1>
+				<h1 style="color:white;">Subdireccion de Gestión inmobiliaria</h1>
 			</div>
 		</div>
 	</section>

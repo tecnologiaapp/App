@@ -713,6 +713,11 @@
 					</tr>
 				</thead>
 				<tbody>
+				<tr>
+						<td width="65%">Ejecución de contratos 2024</td>
+						<td class="text-center">
+							<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/8. Contratacion/RELACION-DE-CONTRATOS-2024.pdf')}}" target="_blank">Visitar página</a>
+						</td>
 					<tr>
 						<td width="65%">Ejecución de contratos 2023</td>
 						<td class="text-center">
