@@ -24,10 +24,14 @@
 				<li class="active" data-slide-to="0" data-target="#carouselExampleIndicators"></li>
 				<li data-slide-to="1" data-target="#carouselExampleIndicators"></li>
 				<li data-slide-to="2" data-target="#carouselExampleIndicators"></li>
+				<li data-slide-to="3" data-target="#carouselExampleIndicators"></li>
 				</ol>
 			<div class="carousel-inner">
 			<div class="carousel-item active">
 					<a href="https://www.youtube.com/watch?v=lh9yWdoMpDU&ab_channel=Alcald%C3%ADadeMedell%C3%ADn"><img class="d-block w-100" src="{{asset('assets/img/Banners/Medellin_somo_todos.jpg')}}"></a>
+				</div>
+			<div class="carousel-item">
+					<a href="{{asset('assets/pdf/Arquitectura-Moderna.pdf')}}"><img class="d-block w-100" src="{{asset('assets/img/Banners/Banner-web_Mesadetrabajo.jpg')}}"></a>
 				</div>
 			<div class="carousel-item">
 					<a href="{{route('user.projects.mudag')}}"><img class="d-block w-100" src="{{asset('assets/img/Banners/bannerHome1.jpg')}}"></a>
