@@ -24,6 +24,20 @@
 				<table class="table table-bordered table-striped custom-table">
 					<tbody>
 					<tr>
+							<td>Ejecución presupuestal de gastos Diciembre 2023</td>
+							<td>
+								<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/budget/2023/Gastos-Diciembre-2023.pdf')}}" target="_blank">Ver documento</a>
+							</td>
+						</tr>
+						<tr>
+							<td>Ejecución presupuestal de ingresos Diciembre 2023</td>
+							<td>
+								<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/budget/2023/Ingresos-Diciembre-2023.pdf')}}" target="_blank">Ver documento</a>
+							</td>
+						</tr>
+					<tr>
+
+					<tr>
 							<td>Ejecución presupuestal de gastos Noviembre 2023</td>
 							<td>
 								<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/budget/2023/Gastos-noviembre-2023.pdf')}}" target="_blank">Ver documento</a>
