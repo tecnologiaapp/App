@@ -47,15 +47,7 @@
 										<h2>La Naviera</h2></a>
 									</div>
 								</div>
-								<div class="imagen">
-									<img alt="" src="{{asset('assets/img/Galeria/p2.jpg')}}">
-									<div class="overlay">
-										<a href="{{route('user.transparency.galeria.galery1')}}">
-										<h2>Rendición de cuentas 2021</h2></a>
-									</div>
-								</div>
-							</div>
-							<div class="vlt-gap-30"></div>
+								<div class="vlt-gap-30"></div>
 							<div class="linea"></div>
 						</div>
 					</article>
