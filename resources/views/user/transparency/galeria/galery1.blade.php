@@ -11,7 +11,7 @@
         </div>
 
 <div class="container">
- <!-- ======= Gallery Section ======= -->
+{{--<!-- ======= Gallery Section ======= -->
  <section id="gallery" class="gallery">
       <div class="container-fluid">
 
@@ -143,7 +143,7 @@
             
               </div>
             </div>
-          </div><!-- End Gallery Item -->
+          </div><!-- End Gallery Item -->--}}
           
 
         </div>
