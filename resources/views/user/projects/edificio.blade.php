@@ -35,14 +35,7 @@
 				<div class="row">
 					<div class="col-sm-12">
 						<div class="title-box text-center">
-							<p>¿Qué opina la gente?</p>
-							<h2>Testimonios</h2>
-						</div>
-					</div>
-				</div><!-- end row -->
-				<div class="row"><img alt="" src="https://i.ibb.co/VtVWC8L/Testimonio-edi.png"></div><!-- end row -->
-			</div><!-- end container -->
-		</section>
+	</section>
 	</section>
 	<footer id="footer">
 		<div class="footer-top">
