@@ -50,9 +50,6 @@
 		</div>
 		<p>Imágenes de referencia sujetas a cambios.</p>
 	</div>
-	<div align="center" class="container" style="padding-top: 100px;">
-		<iframe allowfullscreen frameborder="0" height="515" src="https://www.youtube.com/embed/_shrUjI9WWU" title="YouTube video player" width="100%"></iframe>
-	</div>
 	<div class="container px-5">
 		<div class="row gx-5 align-items-center" style="padding-top: 100px;">
 			<h4 class="display-1 lh-1 mb-3" style="font-size: 3rem;">@lang('messages.parrafo8')</h4>
