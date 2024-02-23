@@ -19,7 +19,25 @@
 			<h5 class="mt-5 mb-5">Aquí encontrarás la información relacionada con la ejecución presupuestal anual de la Agencia APP</h5>
 		</div>
 		<div class="container mt-5">
-			<button class="accordion">Presupuesto 2023</button>
+		<button class="accordion">Presupuesto 2024</button>
+			<div class="panel">
+				<table class="table table-bordered table-striped custom-table">
+					<tbody>
+					<tr>
+							<td>Ejecución presupuestal de gastos enero 2024</td>
+							<td>
+								<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/budget/2024/Gastos-enero-2024.pdf')}}" target="_blank">Ver documento</a>
+							</td>
+						</tr>
+						<tr>
+							<td>Ejecución presupuestal de ingresos enero 2024</td>
+							<td>
+								<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/budget/2024/Ingreso-enero-2024.pdf')}}" target="_blank">Ver documento</a>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+		    </div><button class="accordion">Presupuesto 2023</button>
 			<div class="panel">
 				<table class="table table-bordered table-striped custom-table">
 					<tbody>
@@ -36,7 +54,6 @@
 							</td>
 						</tr>
 					<tr>
-
 					<tr>
 							<td>Ejecución presupuestal de gastos Noviembre 2023</td>
 							<td>
