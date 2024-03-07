@@ -84,7 +84,7 @@
             <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#medios"
                     aria-expanded="true" aria-controls="medios">
                     <i class='fas fa-newspaper'></i>
-                    <span>App en medios</span></a>
+                    {{--<span>App en medios</span></a>--}}
                 </a>
                 <div id="medios" class="collapse" aria-labelledby="headingUtilities"
                     data-parent="#accordionSidebar">

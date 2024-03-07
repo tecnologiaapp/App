@@ -325,14 +325,12 @@
 						</li>
 						<li>
 							<a class="menu-sub-item" href="{{ route('user.transparency.medios') }}">
-								<span>Agencia APP en medios</span>
+							{{--	<span>Agencia APP en medios</span>--}}
 							</a>
 						</li>
 
 					</ul>
 				</li>
-
-
 
 				<li>
 					<a href="{{ route('user.transparency.contact-us') }}">
