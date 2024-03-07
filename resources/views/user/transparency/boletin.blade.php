@@ -28,7 +28,7 @@
 						</div>
 						<div class="post-body">
 							<span>07/03/2024</span>
-							<h5>Boletín de presa # 93</h5><a href="{{route('user.noticias.new53')}}" target="_blank">
+							<h5>Boletín de prensa # 93</h5><a href="{{route('user.noticias.new53')}}" target="_blank">
 							<h6><b>Leer más</b></h6></a>
 						</div>
 					</article>
