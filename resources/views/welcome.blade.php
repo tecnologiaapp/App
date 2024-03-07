@@ -16,7 +16,7 @@
 
         <style>
             body {
-                font-family: 'Metropolis';
+                font-family: 'Nunito';
             }
         </style>
     </head>
