@@ -18,14 +18,20 @@
 						<section class="img-new">
 							<a target="_blank"><img class="img-fluid img-border" src="{{asset('assets/img/Galeria/carcel/4.jpg')}}"></a>
 						</section>
-						<div class="section-title">
-						<h2>Boletin de prensa # 93</h2>
+						<p>Cumpliendo con el cronograma propuesto desde la Agencia APP para la adjudicación del contrato de interventoría para construir la Cárcel Metropolitana para Sindicados, el próximo miércoles 13 de marzo se conocerá el nombre de la firma. La interventoría se proyecta a 5 años y 10 meses, y tendrá un valor de más de $13.315 millones.</p>
+						<p>“Por tratarse de un contrato avaluado inicialmente en $675.013 millones para la construcción de la cárcel, es importante contar con la interventoría como lo estipula la ley, para garantizar la transparencia durante la ejecución del mismo. Nos sentimos muy satisfechos de haber adelantado este proceso en el que se presentaron tres oferentes, lo que da tranquilidad a la entidad y a la ciudadanía”, explicó el director general de la Agencia APP, German Schäfer Elejalde.</p>
+						<p>El 19 de diciembre de 2023, la anterior administración de la APP y el contratista, la firma mexicana Prodemex, firmaron un otrosí para modificar las cláusulas del contrato que permitían iniciar obras sin tener una interventoría. La nueva administración revisó el contrato para que de común acuerdo con el contratista, se contara con un proceso de interventoría como se requiere.</p>
+						<p>Hoy, se conocerá la evaluación de las propuestas del Consorcio Metropol, Consorcio Intercárceles y Consorcio MZCJ 2024, las cuales tendrán hasta el lunes 11 de marzo para presentar las observaciones.</p>
+						<p>“Al ser la Cárcel Metropolitana para Sindicados una iniciativa pública debe cumplir estrictamente la ley y garantizar la transparencia en la destinación de los recursos, y así brindar espacios dignos para las personas privadas de la libertad”, resaltó el director de la AP</p>
+						<p>Después de que se conozca la firma ganadora, el contrato de interventoría se firmará el 3 de abril para iniciar las obras, convirtiendo a Medellín en la primera ciudad en acatar los fallos de la Corte Suprema de Justicia y la Corte Constitucional que obligan a los municipios a tener un establecimiento carcelario de estas características en cumplimiento de la ley.</p>
 						</div>
+						<br>
+						</div>
+						<h5 style="text-align:center;"> Información para periodistas <br>
+						Agencia APP<br>
+						Mary Luz Avendaño Arbeláez 3104444335
 						<hr>
-						<embed height="220" src="{{asset('assets/pdf/boletin-prensa-93.pdf')}}" type="application/pdf" width="300">
-						<hr>
-						<hr>
-						<div class="section-title">
+						<div class="ssection-title">
 						<h3>Palabras del director general de la Agencia APP, German Schäfer</h3>
 						</div>
 					<br>                     				

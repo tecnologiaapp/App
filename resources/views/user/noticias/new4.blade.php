@@ -101,20 +101,7 @@ Byron García Correa 313 641 9192
 
 
 									
-								</h5>
-
-
-<div style="text-align:center;"class="col-sm-12 pt-4">
-						<iframe src="{{ asset('assets/videos/new/Rodrigo4.mp4') }}" width="700" height="400"></iframe>
-					</div>
-
-                    <h2>Recursos</h2>
-                    <a href="https://drive.google.com/file/d/1u-0dXHxqigQNURxyO35q0vZrcQQAiGqc/view?usp=sharing" target="blank">Descargar PDF</a>
-                    <br>
-                    <a href="https://drive.google.com/file/d/1WuFqQzV87IEuaREUHR6LExHlUrv-2Nbq/view?usp=sharing" target="blank">Reproducir audio - Rodrigo Foronda Morales - Director general Agencia APP</a>
-
-
-
+					
 							</div>
 						</div>
 					</div>
