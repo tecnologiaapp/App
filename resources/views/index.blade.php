@@ -25,6 +25,7 @@
 				<li data-slide-to="1" data-target="#carouselExampleIndicators"></li>
 				<li data-slide-to="2" data-target="#carouselExampleIndicators"></li>
 				<li data-slide-to="3" data-target="#carouselExampleIndicators"></li>
+				<li data-slide-to="4" data-target="#carouselExampleIndicators"></li>
 				</ol>
 			<div class="carousel-inner">
 			<div class="carousel-item active">
