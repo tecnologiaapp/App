@@ -27,8 +27,7 @@
 						</div>
 						<br>
 						</div>
-						<h5 style="text-align:center;"> Información para periodistas <br>
-						Agencia APP<br>
+						<h5 style="text-align:center;"> Información para periodistas <br>Agencia APP<br>
 						Mary Luz Avendaño Arbeláez 3104444335
 						<hr>
 						<div class="ssection-title">

@@ -643,6 +643,10 @@ Route::get('/noticias/new53', function () {
    return view('user.noticias.new53');
 })->name('user.noticias.new53');
 
+Route::get('/noticias/new54', function () {
+   return view('user.noticias.new54');
+})->name('user.noticias.new54');
+
 Route::get('/prueba', function () {
    return view('user.projects.prueba');
 })->name('user.projects.prueba');

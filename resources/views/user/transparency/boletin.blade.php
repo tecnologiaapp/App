@@ -27,7 +27,17 @@
 							<div class="post-img-47"></div>
 						</div>
 						<div class="post-body">
-							<span>07/03/2024</span>
+							<span>19/03/2024</span>
+							<h5>Intercárceles realizará la interventoría de la Cárcel</h5><a href="{{route('user.noticias.new54')}}" target="_blank">
+							<h6><b>Leer más</b></h6></a>
+						</div>
+					</article>
+					<article class="post">
+					<div class="post-header">
+							<div class="post-img-47"></div>
+						</div>
+						<div class="post-body">
+						<span>07/03/2024</span>
 							<h5>13 de marzo se adjudica interventoria para la carcel</h5><a href="{{route('user.noticias.new53')}}" target="_blank">
 							<h6><b>Leer más</b></h6></a>
 						</div>

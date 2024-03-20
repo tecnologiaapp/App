@@ -7,7 +7,7 @@
 @section('content')
                     <div class="row">
                         <div class="col-md-12">
-                        {{--   <h1 class="h3 mb-2 text-gray-800">Sala de prensa</h1>--}}
+                            <h1 class="h3 mb-2 text-gray-800">Sala de prensa</h1>
                         </div>
                     </div>
                     <div class="row">
@@ -21,10 +21,10 @@
 
                     <!-- DataTales Example -->
                     <div class="card shadow mb-4">
-                    {{--  <div class="card-header py-3 d-flex justify-content-between">
+                    <div class="card-header py-3 d-flex justify-content-between">
                         <h6 class="m-0 font-weight-bold text-primary">APP en medios</h6>
                         <a href="{{ url('/medios/create') }}" class="btn-get-started" style="position: absolute; top: 0; right: 10px;">Añadir noticia</a>
-                    </div>       --}}               
+                    </div>                      
                         
                     <div class="card-body px-0 pt-0 pb-2">
                         @if(session('notificacion'))
