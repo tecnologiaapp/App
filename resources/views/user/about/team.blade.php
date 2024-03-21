@@ -18,7 +18,7 @@
 				<div class="col-md-8 offset-md-2">
 				<div class="text-center">
 						<div class="section-title">
-							<h2>German Schäfer Elejalde</h2>
+							{{-- <h2>German Schäfer Elejalde</h2>
 				</div>
 				</section>
 				<div class="vlt-gap-40"></div>
@@ -36,10 +36,10 @@
 									<div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="200"><img alt="" class="img-fluid animated" src="{{asset('assets/img/funcionarios/German-director.jpg')}}"></div>
 								</div>
 							</div>
-						</section><!-- End Hero -->
+						</section><!-- End Hero -->  
 			</div>
 		</div>
-	</section>
+	</section>--}}
 						<section class="d-flex align-items-center" id="hero">
 						{{--<div class="container">
 						<div class="row">
