@@ -25,7 +25,6 @@
 				<li data-slide-to="1" data-target="#carouselExampleIndicators"></li>
 				<li data-slide-to="2" data-target="#carouselExampleIndicators"></li>
 				<li data-slide-to="3" data-target="#carouselExampleIndicators"></li>
-				<li data-slide-to="4" data-target="#carouselExampleIndicators"></li>
 				</ol>
 			<div class="carousel-inner">
 			<div class="carousel-item active">
@@ -39,9 +38,6 @@
 				</div>
 				<div class="carousel-item">
 					<a href="{{route('user.noticias.new50')}}"><img  class="d-block w-100" src="{{asset('assets/img/Banners/bannerHome2.jpg')}}"></a>
-				</div>
-				<div class="carousel-item">
-					<a href="{{asset('assets/pdf/Resolución-030.pdf')}}"><img  class="d-block w-100" src="{{asset('assets/img/Banners/Banner-SemanaSanta.jpg')}}"></a>
 				</div>
 			</div><button class="carousel-control-prev" data-slide="prev" data-target="#carouselExampleIndicators" onclick="disableScroll()" type="button"><span aria-hidden="true" class="carousel-control-prev-icon"></span> <span class="sr-only">Previous</span></button> <button class="carousel-control-next" data-slide="next" data-target="#carouselExampleIndicators" onclick="disableScroll()" type="button"><span aria-hidden="true" class="carousel-control-next-icon"></span> <span class="sr-only">Next</span></button>
 		</div>
