@@ -23,7 +23,7 @@
 								<hr>
 								<p>Muy cerca a la Plaza de las Esculturas se encuentra un hito de la construcción colombiana: un edificio con forma de barco llamado La Naviera, obra emblemática de la empresa de navegación a vapor más importante de Colombia en la primera mitad del siglo XX y uno de los símbolos, junto con el Hotel Nutibara y de la Plaza Nutibara, del nacimiento de una ciudad moderna. Para conservar este bien patrimonial y destacar su importancia en el centro de la ciudad, La Naviera tuvo una intervención de sus 2.910 m2 de fachada con limpieza, mantenimiento e iluminación con luces led programables. Asimismo, adecuamos el octavo piso con 54 puestos de trabajo.</p>
 								<hr>
-								<div align="center"><img alt="" src="{{asset('assets/img/Proyectos/imgEdificioLaNaviera.png')}}"></div>
+								<div align="center"><img alt="" src="{{asset('assets/img/Proyectos/LA_NAVIERA_FACHADA.png')}}"></div>
 							</div>
 						</div>
 					</div>

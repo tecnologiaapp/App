@@ -20,7 +20,7 @@
 							<div class="text-justify">
 								<div class="vlt-gap-15"></div>
 								<hr>
-								<p>Adecuamos cuatro puentes con arte urbano en la 33, entre el barrio Conquistadores y el Cerro Nutibara; en la calle Colombia, entre Suramericana y el sector Carlos E. Restrepo; al sur, en la Avenida Guayabal, a la altura del Parque de Conservación Santa Fe; y al norte en la zona Caribe a la altura de la Secretaría de Movilidad. Con este proyecto aportamos a la consolidación de estructuras verdes en Medellín Futuro, evitamos la demolición de los puentes con una reducción en la generación de huella de carbono y avanzamos en la consolidación de una Ecociudad.</p>
+								<p>Adecuamos cuatro puentes con arte urbano en la 33, entre el barrio Conquistadores y el Cerro Nutibara; en la calle Colombia, entre Suramericana y el sector Carlos E. Restrepo; al sur, en la Avenida Guayabal, a la altura del Parque de Conservación Santa Fe; y al norte en la zona Caribe a la altura de la Secretaría de Movilidad. Con este proyecto aportamos a la consolidación de estructuras verdes en Medellín, evitamos la demolición de los puentes con una reducción en la generación de huella de carbono y avanzamos en la consolidación de una Ecociudad.</p>
 								<hr>
 								<div align="center"><img alt="" src="{{asset('assets/img/Proyectos/imgPuentesYarteUrbano.png')}}"></div>
 							</div>

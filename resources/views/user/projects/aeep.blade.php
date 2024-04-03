@@ -61,7 +61,7 @@
 								<p>Uno de los objetivos de la Agencia APP es operar los instrumentos financieros definidos en el Acuerdo 048 de 2014 del Plan de Ordenamiento Territorial –POT–. Uno de ellos es el Aprovechamiento Económico del Espacio Público –AEEP–, el cual establece que cualquier ciudadano que aproveche económicamente el espacio público debe pagar una tarifa que se direcciona para el sostenimiento y cualificación del paisaje urbano (infraestructura física, aseo y ornato, seguridad, comercio, cultura e interacción social sobre el espacio público).</p>
 								<p>El instrumento del AEEP tiene aplicabilidad en todo el subsistema de espacios públicos, con una extensión total de 10,2 km², y está conformado por parques, plazas, franjas de amoblamiento y elemento complementarios como el antejardín en áreas de alta y media mixtura (zonas y corredores con predominancia económica y centralidades urbanas).</p>
 								<hr>
-								<iframe allowfullscreen frameborder="0" height="315" src="https://www.youtube.com/embed/qFS_Gvyi2y8" title="YouTube video player" width="560"></iframe>
+							    {{-- <iframe allowfullscreen frameborder="0" height="315" src="https://www.youtube.com/embed/qFS_Gvyi2y8" title="YouTube video player" width="560"></iframe>--}}
 								<div class="section-title">
 									<h2>Beneficios del AEEP</h2>
 								</div>

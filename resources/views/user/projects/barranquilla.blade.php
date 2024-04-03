@@ -21,7 +21,7 @@
 							<div class="text-justify">
 								<div class="vlt-gap-15"></div>
 								<hr>
-								<p>Patrimonio, cultura, vecindad, barrio, homenaje a grandes personajes locales y otras expresiones artísticas hacen parte de la nueva cara urbana de la calle Barranquilla, gracias a la renovación de fachadas de este corredor vial del norte de Medellín. En esta iniciativa participaron 100 artistas urbanos y se intervinieron 3.406 m2. culturales de Prado y Lovaina.</p>
+								<p>Patrimonio, cultura, vecindad, barrio, homenaje a grandes personajes locales y otras expresiones artísticas hacen parte de la nueva cara urbana de la calle Barranquilla, gracias a la renovación de fachadas de este corredor vial del norte de Medellín. En esta iniciativa participaron 100 artistas urbanos y se intervinieron 3.406 m2 culturales de Prado y Lovaina.</p>
 								<hr>
 								<div align="center"><img alt="" src="{{asset('assets/img/Proyectos/imgGaleriaUrbanaAcielo.png')}}"></div>
 							</div>
