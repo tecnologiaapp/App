@@ -253,7 +253,7 @@
 						</li>
 						<li>
 							<a href="{{ route('user.subdirectors.tecnical') }}">
-								<span>Directora técnica</span>
+								<span>Director Tecnica</span>
 							</a>
 						</li>
 

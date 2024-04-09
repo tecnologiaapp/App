@@ -5,19 +5,6 @@
 @endpush
 @section('content')
 <head>
-	<style>
-		section {
-	padding: 30px 0;
-	overflow: hidden;
-  }
-  .disable-scroll {
-    overflow: hidden;
-    height: 100vh;
-  }
-	</style>
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-</head>
-
 <section class="bannersHome" style="padding-top:125px; position: relative;">
 		<div class="carousel slide" data-ride="carousel" id="carouselExampleIndicators">
 			<ol class="carousel-indicators">
@@ -27,21 +14,21 @@
 				<li data-slide-to="3" data-target="#carouselExampleIndicators"></li>
 				</ol>
 			<div class="carousel-inner">
+			<div class="carousel-item">
+					<a href="{{asset('assets/pdf/Arquitectura-Moderna.pdf')}}"><img class="d-block w-100" src="{{asset('assets/img/Banners/Banner-web_Mesadetrabajo.jpg')}}"></a>
+				</div>
+				<div class="carousel-item">
+					<a href="{{route('user.projects.mudag')}}"><img class="d-block w-100" src="{{asset('assets/img/BannersNuevos/HomeMUDAG.jpg')}}"></a>
+				</div>
+				<div class="carousel-item">
+					<a href="{{route('user.noticias.new50')}}"><img  class="d-block w-100" src="{{asset('assets/img/BannersNuevos/HomeConstelaciones.jpg')}}"></a>
+				</div>
 			<div class="carousel-item active">
 					<a href="https://www.youtube.com/watch?v=lh9yWdoMpDU&ab_channel=Alcald%C3%ADadeMedell%C3%ADn"><img class="d-block w-100" src="{{asset('assets/img/Banners/Medellin_somo_todos.jpg')}}"></a>
 				</div>
-			    <div class="carousel-item">
-					<a href="{{asset('assets/pdf/Arquitectura-Moderna.pdf')}}"><img class="d-block w-100" src="{{asset('assets/img/Banners/Banner-web_Mesadetrabajo.jpg')}}"></a>
-				</div>
-			    <div class="carousel-item">
-					<a href="{{route('user.projects.mudag')}}"><img class="d-block w-100" src="{{asset('assets/img/Banners/bannerHome1.jpg')}}"></a>
-				</div>
-				<div class="carousel-item">
-					<a href="{{route('user.noticias.new50')}}"><img  class="d-block w-100" src="{{asset('assets/img/Banners/bannerHome2.jpg')}}"></a>
-				</div>
 			</div><button class="carousel-control-prev" data-slide="prev" data-target="#carouselExampleIndicators" onclick="disableScroll()" type="button"><span aria-hidden="true" class="carousel-control-prev-icon"></span> <span class="sr-only">Previous</span></button> <button class="carousel-control-next" data-slide="next" data-target="#carouselExampleIndicators" onclick="disableScroll()" type="button"><span aria-hidden="true" class="carousel-control-next-icon"></span> <span class="sr-only">Next</span></button>
-		</div>
-	</section>
+		</div> 
+	</section> 
 	<section class="about" id="about">
 		<div class="container aos-init aos-animate" data-aos="fade-up">
 			<div class="section-title">
@@ -56,17 +43,17 @@
 			<div class="section-title">
 				<h2>¿Qué hacemos en la Agencia APP?</h2>
 			</div>
-			<div class="col-center listHome">
+		<div class="col-center listHome">
 				<ul>
 					<li><img alt="Icono" height="50px;" src="{{asset('assets/img/icon1.png')}}" width="50px;"> Desarrollamos Alianzas Público Privadas (APP) para entregarle a Medellín nuevas obras estratégicas y de alto impacto.</li>
 					<li><img alt="Icono" height="50px;" src="{{asset('assets/img/icon2.png')}}" width="50px;"> Fomentamos la incorporación de capitales privadas a proyectos de inversión para beneficio público.</li>
 					<li><img alt="Icono" height="50px;" src="{{asset('assets/img/icon3.png')}}" width="50px;"> Mejoramos el paisaje urbano con arte urbano, muros verdes, jardines verticales y pasos de fauna.</li>
 					<li><img alt="Icono" height="50px;" src="{{asset('assets/img/icon4.png')}}" width="50px;"> Contribuimos al cuidado del patrimonio y de los Bienes de interés Cultural (BIC).</li>
-					<li><img alt="Icono" height="50px;" src="{{asset('assets/img/icon5.png')}}" width="50px;"> Operamos el instrumento de Aprovechamiento Económico del Espacio Público (AEEP) para consolidar la reactivación económica y generar espacios de calidad para comerciantes y ciudadanos.</li>
+					<li><img alt="Icono" height="50px;" src="{{asset('assets/img/icon5.png')}}" width="50px;"> Operamos el instrumento de Aprovechamiento Económico del Espacio Público (AEEP) para consolidar la reactivación económica y generar espacios de calidad para comerciantes y ciudadanos. </li>
 					<li><img alt="Icono" height="50px;" src="{{asset('assets/img/icon6.png')}}" width="50px;"> Gestionamos bienes inmuebles del Distrito para proyectar nuevos usos.</li>
 				</ul>
 			</div>
-		</div>
+		</div> --}}
 	</section><!-- ======= Counts Section ======= -->
 	<section class="countas" id="countas">
 		<div class="container">
