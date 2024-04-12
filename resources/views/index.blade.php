@@ -45,15 +45,15 @@
 			</div>
 		<div class="col-center listHome">
 				<ul>
-					<li><img alt="Icono" height="50px;" src="{{asset('assets/img/icon1.png')}}" width="50px;"> Desarrollamos Alianzas Público Privadas (APP) para entregarle a Medellín nuevas obras estratégicas y de alto impacto.</li>
-					<li><img alt="Icono" height="50px;" src="{{asset('assets/img/icon2.png')}}" width="50px;"> Fomentamos la incorporación de capitales privadas a proyectos de inversión para beneficio público.</li>
-					<li><img alt="Icono" height="50px;" src="{{asset('assets/img/icon3.png')}}" width="50px;"> Mejoramos el paisaje urbano con arte urbano, muros verdes, jardines verticales y pasos de fauna.</li>
-					<li><img alt="Icono" height="50px;" src="{{asset('assets/img/icon4.png')}}" width="50px;"> Contribuimos al cuidado del patrimonio y de los Bienes de interés Cultural (BIC).</li>
-					<li><img alt="Icono" height="50px;" src="{{asset('assets/img/icon5.png')}}" width="50px;"> Operamos el instrumento de Aprovechamiento Económico del Espacio Público (AEEP) para consolidar la reactivación económica y generar espacios de calidad para comerciantes y ciudadanos. </li>
-					<li><img alt="Icono" height="50px;" src="{{asset('assets/img/icon6.png')}}" width="50px;"> Gestionamos bienes inmuebles del Distrito para proyectar nuevos usos.</li>
+					<li><img alt="Icono" height="50px;" src="{{asset('assets/img/NuevosIconos/Icono01.png')}}" width="50px;"> Desarrollamos Alianzas Público Privadas (APP) para entregarle a Medellín nuevas obras estratégicas y de alto impacto.</li>
+					<li><img alt="Icono" height="50px;" src="{{asset('assets/img//NuevosIconos/Icono02.png')}}" width="50px;"> Fomentamos la incorporación de capitales privadas a proyectos de inversión para beneficio público.</li>
+					<li><img alt="Icono" height="50px;" src="{{asset('assets/img//NuevosIconos/Icono03.png')}}" width="50px;"> Mejoramos el paisaje urbano con arte urbano, muros verdes, jardines verticales y pasos de fauna.</li>
+					<li><img alt="Icono" height="50px;" src="{{asset('assets/img//NuevosIconos/Icono04.png')}}" width="50px;"> Contribuimos al cuidado del patrimonio y de los Bienes de interés Cultural (BIC).</li>
+					<li><img alt="Icono" height="50px;" src="{{asset('assets/img//NuevosIconos/Icono05.png')}}" width="50px;"> Operamos el instrumento de Aprovechamiento Económico del Espacio Público (AEEP) para consolidar la reactivación económica y generar espacios de calidad para comerciantes y ciudadanos. </li>
+					<li><img alt="Icono" height="50px;" src="{{asset('assets/img//NuevosIconos/Icono06.png')}}" width="50px;"> Gestionamos bienes inmuebles del Distrito para proyectar nuevos usos.</li>
 				</ul>
 			</div>
-		</div> --}}
+		</div>
 	</section><!-- ======= Counts Section ======= -->
 	<section class="countas" id="countas">
 		<div class="container">
