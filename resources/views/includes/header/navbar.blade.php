@@ -233,7 +233,7 @@
 					<ul>
 						<li>
 							<a href="{{ route('user.about.team') }}">
-								<span>Director general</span>
+								<span>Director General</span>
 							</a>
 						</li>
 						<li>
@@ -253,7 +253,7 @@
 						</li>
 						<li>
 							<a href="{{ route('user.subdirectors.tecnical') }}">
-								<span>Director Tecnica</span>
+								<span>Director Tecnico u Operativo</span>
 							</a>
 						</li>
 

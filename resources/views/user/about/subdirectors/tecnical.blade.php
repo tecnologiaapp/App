@@ -23,11 +23,13 @@
 				<section class="d-flex align-items-center" id="hero">
 					<div class="container">
 						<div class="row">
-							{{-- <div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
-								<p class="normal-text">La dirección técnica de la Agencia APP está a cargo de Nathalia Gallego Mejía, Arquitecta de la Universidad Nacional de Colombia Sede Medellín, Magíster en Arquitectura de la Universidad de Houston - Texas, con habilidades para la planeación, dirección, gestión y seguimiento de proyectos, con amplia experiencia administrativa y técnica en los sectores hospitalario, educativo, inmobiliario, urbano y de APP's, en el ámbito público y privado.</p>
-								<p class="normal-text">Nathalia ha participado en importantes proyectos de ciudad como los son el diseño y adecuación de espacios urbanos de la ciudad de Medellín - proyecto UVAS (EPM); el apoyo a la supervisión de proyectos hospitalarios como el Centro de Salud San Lorenzo, Unidad Hospitalaria de San Cristóbal, Unidad Hospitalaria de Pajarito; la coordinación del Equipo de Expansión Educativa - Subsecretaría de Planeación Educativa, quienes iniciaron el análisis normativo y de oferta y demanda de la infraestructura educativa de la ciudad de Medellín; el apoyo a la Dirección General de la Agencia APP en el seguimiento a la gestión de los proyectos desarrollados por la Agencia APP como líder de Planeación, apoyando en la formulación del Plan de Desarrollo "Medellín Futuro 2020-2023” y en el seguimiento a las metas establecidas para la entidad.</p>
-								<p class="normal-text">Como directora técnica de la Agencia APP, Nathalia ha logrado consolidar y direccionar un equipo de profesionales idóneos, con alto sentido de responsabilidad, adaptabilidad y compromiso, con actitud positiva, proactiva, propositiva, con buenas relaciones interpersonales y comprometidos hacia el logro de los objetivos financieros, administrativos, contables y de mejora continua planteados, no solo en aras al cumplimiento de las metas del plan de Desarrollo, si no hacia el cumplimiento de la misión y visión de la Agencia APP.</p>
-							</div> --}}
+							<div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
+								<p class="normal-text">La Dirección Técnica u Operativa está a cargo de Edison Montoya Vélez. Edison es Contador público egresado de la Universidad Medellín, especialista en alta gerencia, en gestión financiera empresarial y magíster en Administración MBA.</p>
+								<br>
+								<p class="normal-text">Cuenta con una amplia trayectoria y experiencia profesional: Fue director administrativo y financiero en la Gobernación de Antioquia, Coordinador del proyecto gestión y control de los ingresos municipales del Distrito de Medellín, fue funcionario de la Dirección de impuesto y aduanas nacionales – DIAN, coordinador del proyecto aplicación de estrategias para la gestión financiera y del proyecto de calidad de la información contable. Docente de pregrado en la universidad ITM de la facultad de ciencias económicas y administrativas..</p>
+								<br>
+								<p class="normal-text">Llega a la Agencia APP para direccionar, formular, desarrollar y controlar la gestión administrativa, financiera y de apoyo a la gestión de la Agencia, con el fin de brindar soporte adecuado y para facilitar el cumplimiento de los objetivos y metas de la Agencia</p>
+							</div>
 							<div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="200"><img alt="" class="img-fluid animated" src="{{asset('assets/img/funcionarios/EdisonMontoyaVelez.png')}}"></div>
 						</div>
 					</div>
