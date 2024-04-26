@@ -18,7 +18,7 @@
 				<div class="col-md-8 offset-md-2">
 				<div class="text-center">
 						<div class="section-title">
-							{{-- <h2>German Schäfer Elejalde</h2>
+							<h2>Daniel Felipe Escobar Valencia </h2>
 				</div>
 				</section>
 				<div class="vlt-gap-40"></div>
@@ -29,17 +29,21 @@
 							<div class="container">
 								<div class="row">
 									<div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
-										<p class="normal-text">Ingeniero de Procesos con énfasis en biotecnología; máster en Gestión de Ciencia, Tecnología e Innovación, y Candidato a Doctor en Ingeniería Química. Cuenta con una amplia experiencia tanto en el sector público como en el privado, especialmente como gerente de producción en la Fábrica de Licores y Alcoholes de Antioquia (FLA). Gracias a su trayectoria en distintas entidades y posiciones, ha consolidado un perfil integral que le permite liderar proyectos de investigación, innovación, sostenibilidad y planificación estratégica, así como establecer relaciones efectivas con entidades nacionales e internacionales. Además, cuenta con habilidades para apoyar los procesos de gestión del conocimiento, implementación de nuevas tecnologías e infraestructura.</p>
-										<p class="normal-text">Como director general de la Agencia APP, es responsable de generar vínculos estratégicos entre los sectores público y privado para ejecutar proyectos de beneficio común; así como de promover la generación de recursos a través de los instrumentos financieros definidos en el Plan de Ordenamiento Territorial (POT). Su objetivo es construir proyectos e iniciativas que garanticen la cualificación, sostenibilidad y   mantenimiento del Sistema Público y Colectivo, poniendo especial énfasis en el paisaje, la preservación del patrimonio y la identificación de oportunidades inmobiliarias en bienes inmuebles fiscales.</p>
-										<p class="normal-text">Con su visión y el equipo de profesionales que conforman la Agencia APP, liderará proyectos que buscan mejorar la calidad de vida de las personas, impulsar el desarrollo del Distrito de Medellín y generar valor tanto para el sector público como privado. </p>
+										<p class="normal-text">Más de 10 años de experiencia en el sector público y privado. Líder en procesos de gestión de rentas territoriales, articulación y coordinación entre entidades públicas, director de ingresos territoriales en diferentes entidades. </p>
+										<br>
+										<p class="normal-text">Exsubsecretario de Ingresos de Medellín, Exsecretario de Hacienda (e) del Municipio de Medellín. Miembro experto de la Comisión de Estudios del Sistema Tributario Territorial (MHCP), ExDirector de Estudios de la Asociación de Ciudades Capitales, Asesor Asociación de Ciudades intermedias, Ex Director de la Misión de Descentralización. Miembro del Instituo Colombiano de Derecho Tributario.</p>
+									    <br>
+										<p class="normal-text">Ha sido profesor en temas tributarios y de Hacienda Pública Territorial en diferentes universidades como CIDER - UniAndes, U Rosario, EAFIT, Universidad de Medellín, Universidad Sergio Arboleda, entre otras. </p>
+									    <br>
+									    <p class="normal-text">Actualmente es consultor de diferentes entidades públicas como Gobernación de Antioquia, Municipios de Itagüí, Sabaneta, Bello, La Estrella, La Ceja, Asointermedias, entre otros. </p>
 									</div>
-									<div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="200"><img alt="" class="img-fluid animated" src="{{asset('assets/img/funcionarios/German-director.jpg')}}"></div>
+									{{-- <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="200"><img alt="" class="img-fluid animated" src="{{asset('assets/img/funcionarios/German-director.jpg')}}"></div> --}}
 								</div>
 							</div>
 						</section><!-- End Hero -->  
 			</div>
 		</div>
-	</section>--}}
+	</section>
 						<section class="d-flex align-items-center" id="hero">
 						{{--<div class="container">
 						<div class="row">
