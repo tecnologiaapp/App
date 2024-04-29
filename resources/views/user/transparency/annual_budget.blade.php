@@ -24,6 +24,18 @@
 				<table class="table table-bordered table-striped custom-table">
 					<tbody>
 					<tr>
+							<td>Ejecución presupuestal de gastos marzo 2024</td>
+							<td>
+								<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/budget/2024/Gastos-marzo-2024.pdf')}}" target="_blank">Ver documento</a>
+							</td>
+						</tr>
+						<tr>
+							<td>Ejecución presupuestal de ingresos marzo 2024</td>
+							<td>
+								<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/budget/2024/Ingreso-marzo-2024.pdf')}}" target="_blank">Ver documento</a>
+							</td>
+					</tr>	
+					<tr>
 							<td>Ejecución presupuestal de gastos febrero 2024</td>
 							<td>
 								<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/budget/2024/Gastos-febrero-2024.pdf')}}" target="_blank">Ver documento</a>
