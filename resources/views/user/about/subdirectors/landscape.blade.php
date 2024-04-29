@@ -4,14 +4,18 @@
 <section>
 		<!--Page Title Hero-->
 		<div class="vlt-page-title-hero vlt-page-title-hero--work vlt-page-title-hero--lg jarallax">
-			<div class="vlt-page-title-hero__overlay"></div><img alt="" class="jarallax-img" src="{{asset('assets/img/Banners/bannerSubdirectorDePaisaje.jpg')}}">
+			<div class="vlt-page-title-hero__overlay"></div><img alt="" class="jarallax-img" src="{{asset('assets/img/BannersNuevos/BannerPyP.jpg')}}">
 			<div class="vlt-page-title-hero__content ocultPosition">
-				<h1 style="color:white;">Subdirector de Paisaje y Patrimonio</h1>
+				<h1 style="color:black;">Subdirección de Gestión de Paisaje y Patrimonio</h1>
 			</div>
 		</div>
 	</section>
 <section>
 <section>
+<div class="text-center">
+						<div class="section-title">
+							
+						<h2>Daniel Madrigal Arango</h2>
 		<div class="vlt-gap-120"></div>
 		<div class="container">
 			<div class="row no-gutters">
@@ -21,9 +25,10 @@
 						<div class="row">
 							<div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
 								<p class="normal-text">La Subdirección de Gestión del Paisaje y el Patrimonio es liderada desde el 21 de marzo de 2018 por el arquitecto Daniel Madrigal, especialista en gestión estratégica de diseño de la universidad de Buenos Aires (Argentina), director de proyectos multidisciplinarios y docente universitario.</p>
+								<br>
 								<p class="normal-text">Daniel Madrigal llega a la Agencia después de ser el coordinador de macro proyectos urbanos del Departamento Administrativo de Planeación de la Alcaldía de Medellín. Así mismo, alternó sus labores con el ejercicio de la docencia en la Universidad San Buenaventura y la Universidad Pontificia Bolivariana.</p>
 							</div>
-							<div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="200"><img alt="" class="img-fluid animated" src="{{asset('assets/img/funcionarios/imgSubdirectorDePaisaje.png')}}"></div>
+							<div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="200"><img alt="" class="img-fluid animated" src="{{asset('assets/img/funcionarios/DanielMadrigal.png')}}"></div>
 						</div>
 					</div>
 				</section><!-- End Hero -->

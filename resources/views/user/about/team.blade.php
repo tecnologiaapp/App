@@ -5,7 +5,7 @@
 <section>
 		<!--Page Title Hero-->
 		<div class="vlt-page-title-hero vlt-page-title-hero--work vlt-page-title-hero--lg jarallax">
-			<div class="vlt-page-title-hero__overlay"></div><img alt="" class="jarallax-img" src="{{asset('assets/img/Banners/bannerDireccionGeneral.jpg')}}">
+			<div class="vlt-page-title-hero__overlay"></div><img alt="" class="jarallax-img" src="{{asset('assets/img/BannersNuevos/BannerDireccionG.jpg')}}">
 			<div class="vlt-page-title-hero__content ocultPosition">
 				<h1 style="color:white;">Dirección General</h1>
 			</div>
@@ -30,11 +30,8 @@
 								<div class="row">
 									<div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
 										<p class="normal-text">Más de 10 años de experiencia en el sector público y privado. Líder en procesos de gestión de rentas territoriales, articulación y coordinación entre entidades públicas, director de ingresos territoriales en diferentes entidades. </p>
-										<br>
 										<p class="normal-text">Exsubsecretario de Ingresos de Medellín, Exsecretario de Hacienda (e) del Municipio de Medellín. Miembro experto de la Comisión de Estudios del Sistema Tributario Territorial (MHCP), ExDirector de Estudios de la Asociación de Ciudades Capitales, Asesor Asociación de Ciudades intermedias, Ex Director de la Misión de Descentralización. Miembro del Instituo Colombiano de Derecho Tributario.</p>
-									    <br>
 										<p class="normal-text">Ha sido profesor en temas tributarios y de Hacienda Pública Territorial en diferentes universidades como CIDER - UniAndes, U Rosario, EAFIT, Universidad de Medellín, Universidad Sergio Arboleda, entre otras. </p>
-									    <br>
 									    <p class="normal-text">Actualmente es consultor de diferentes entidades públicas como Gobernación de Antioquia, Municipios de Itagüí, Sabaneta, Bello, La Estrella, La Ceja, Asointermedias, entre otros. </p>
 									</div>
 									{{-- <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="200"><img alt="" class="img-fluid animated" src="{{asset('assets/img/funcionarios/German-director.jpg')}}"></div> --}}
