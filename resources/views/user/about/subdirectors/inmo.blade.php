@@ -6,7 +6,7 @@
 		<div class="vlt-page-title-hero vlt-page-title-hero--work vlt-page-title-hero--lg jarallax">
 			<div class="vlt-page-title-hero__overlay"></div><img alt="" class="jarallax-img" src="{{asset('assets/img/BannersNuevos/BannerInmobiliaria.jpg')}}">
 			<div class="vlt-page-title-hero__content ocultPosition">
-				<h1 style="color:white;">Subdireccion de Gestión Inmobiliaria</h1>
+				<h1 style="color:white;">Subdirección de Gestión Inmobiliaria</h1>
 			</div>
 		</div>
 	</section>
@@ -27,7 +27,7 @@
 							<br>
 							<p class="normal-text">Cuenta con amplia experiencia en el relacionamiento público privado. Ha sido colaboradora de la Agencia APP desde el año 2015 apoyando desde el componente técnico y estratégico el desarrollo de múltiples proyectos de la entidad como la revitalización del corredor Junín y Parque Bolívar, el Plan Integral de Gestión de Prado, la Asociación Público Privada Cárcel Metropolitana y otras iniciativas que involucran relacionamiento e incorporación de capital privado a proyectos de ciudad. </p>
 							<br>
-							<p class="normal-text"> Luisa Gutiérrez llega a la Subdirección después de ser la coordinadora de Alianzas y contenidos de la Agenda Antioquia 2040, Plan Estratégico del Departamento.</p>
+							<p class="normal-text"> Luisa llega a la Subdirección después de ser la coordinadora de Alianzas y contenidos de la Agenda Antioquia 2040, Plan Estratégico del Departamento.</p>
 							</div> 
 							<div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="200"><img alt="" class="img-fluid animated" src="{{asset('assets/img/funcionarios/LuisaFernandaGuitierrez.png')}}"></div>
 						</div>
