@@ -44,7 +44,7 @@
 					<div class="col-lg-3 col-md-6 footer-contact">
 						<h3>Agencia APP</h3>
 						<p>Medellin / Antioquia<br>
-						Carrera 55 # 42-180 Local 203 Edificio Plaza de La Libertad<br></p><a href="{{route('user.projects.mapa')}}">
+						Carrera 50 Nº 52-25, Piso 8 - Edificio La Naviera<br></p><a href="{{route('user.projects.mapa')}}">
 						<p><strong>Mapa del sitio</strong></p></a>
 					</div>
 					<div class="col-lg-3 col-md-6 footer-contact">

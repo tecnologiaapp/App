@@ -20,7 +20,7 @@
 					<!--Animation Block-->
 					<div class="vlt-animation-block" data-aos="fade" data-aos-delay="0">
 						<!--Simple Image-->
-						<div class="vlt-simple-image"><img alt="" src="{{asset('assets/img/Banners/plaza.png')}}"></div>
+						<div class="vlt-simple-image"><img alt="" src="{{asset('assets/img/Banners/naviera.webp')}}"></div>
 					</div>
 					<div class="vlt-gap-60--sm"></div>
 				</div>
@@ -30,7 +30,7 @@
 					<h3 class="vlt-first-color m-0">Canales de <span class="vlt-second-color tlt-black">atención</span></h3>
 					<div class="vlt-gap-10"></div><!--Animation Block-->
 					<div class="vlt-animation-block" data-aos="fade" data-aos-delay="100">
-						<p>Atención al usuario sede principal, carrera 55 # 42-180, local 203, edificio Plaza de la Libertad, Medellín - Antioquia. Teléfono: (+57) 604 448 1740 Ext 100</p>
+						<p>Atención al usuario sede principal, carrera 50 Nº 52-25, Piso 8 - Edificio La Naviera, Medellín - Antioquia. Teléfono: (+57) 604 448 1740 Ext 100</p>
 						<p>Atención al usuario de trámite Aprovechamiento Económico del Espacio Público. Teléfono: (+57) 604 385 55 55 Ext 9477 ó 8800.</p>
 						<p>Dirección: calle 44 # 52-165, Centro de Servicio a la Ciudadanía La Alpujarra. Taquillas 11 y 12. Medellin - Antioquia</p>
 						<p>Correo Institucional: <a href="mailto:info@app.gov.co">info@app.gov.co</a></p>
@@ -39,7 +39,7 @@
 						<p>Lunes a jueves: 7:30 a. m. a 12:30 p. m. y de 1:30 p. m. a 5:30 p. m.</p>
 						<p>Viernes: 7:30 a. m. a 12:30 p. m. y de 1:30 p. m. a 4:30 p. m.</p>
 						<h3 class="vlt-first-color m-0">Dirección de correspondencia</h3>
-						<p>Carrera 55 # 42-180, local 203, edificio Plaza de la Libertad, Medellín - Antioquia.</p>
+						<p>Carrera 50 Nº 52-25, Piso 8 - Edificio La Naviera, Medellín - Antioquia.</p>
 					</div>
 					<div class="vlt-gap-15"></div>
 				</div>

@@ -10,7 +10,7 @@
         <h3>Agencia APP</h3>
         <p>
         Medellin / Antioquia <br>
-        Carrera 55 # 42-180 Local 203 Edificio Plaza de La Libertad<br>  
+        Carrera 50 Nº 52-25, Piso 8 - Edificio La Naviera<br>  
           <strong>Telefono:</strong> +57 604 448 1740<br>
           <strong>Correo:</strong> info@app.gov.co<br>
         </p>
