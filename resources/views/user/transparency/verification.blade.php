@@ -308,7 +308,7 @@
 					<tr>
 						<td width="65%">Directorio de información de los servidores públicos y contratistas.</td>
 						<td class="text-center">
-							<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/Contratos-2024.pdf')}}" target="_blank">Ver documento</a>
+							<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/Directorio-Agencia-2024.pdf')}}" target="_blank">Ver documento</a>
 						</td>
 					</tr>
 				</tbody>
