@@ -254,7 +254,7 @@
 				</thead>
 				<tbody>
 					<tr>
-						<td width="65%">Código de integridad</td>
+						<td width="65%">Entes de Control</td>
 						<td class="text-center">
 							<a class="btn btn-primary btn-block" href="https://www.medellin.gov.co/es/transparencia/entes-de-control-que-vigilan-al-distrito-de-medellin/" target="_blank">Visitar página</a>
 						</td>
@@ -391,6 +391,12 @@
 						<td width="65%">Sistema Único de Información Normativa – SUIN</td>
 						<td class="text-center">
 							<a class="btn btn-primary btn-block" href="https://www.suin-juriscol.gov.co/" target="_blank">Visitar página</a>
+						</td>
+					</tr>
+					<tr>
+						<td width="65%">Gaceta Oficial Distrito de Medellín</td>
+						<td class="text-center">
+							<a class="btn btn-primary btn-block" href="{{route('user.administrative-acts')}}" target="_blank">Visitar página</a>
 						</td>
 					</tr>
 				</tbody>
