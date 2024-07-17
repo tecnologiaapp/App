@@ -247,6 +247,19 @@
 						</td>
 					</tr>
 				</tbody>
+				<thead>
+					<tr>
+						<th>2.10. Entes de control que vigilan al Distrito de Medellín</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td width="65%">Código de integridad</td>
+						<td class="text-center">
+							<a class="btn btn-primary btn-block" href="https://www.medellin.gov.co/es/transparencia/entes-de-control-que-vigilan-al-distrito-de-medellin/" target="_blank">Visitar página</a>
+						</td>
+					</tr>
+				</tbody>
 			</table>
 		</div><button class="accordion">3. Estructura orgánica y talento humano</button>
 		<div class="panel">
