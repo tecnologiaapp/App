@@ -31,13 +31,7 @@
 							<th>Procesos contractuales SECOP. En entidad compradora buscar:<br>
 							<b>AGENCIA PARA LA GESTIÓN DEL PAISAJE, EL PATRIMONIO Y LAS ALIANZAS PÚBLICO - PRIVADAS - MEDELLIN</b>.</th>
 							<td>
-								<a class="btn btn-primary btn-block" href="https://www.contratos.gov.co/consultas/inicioConsulta.do" target="_blank">Ver sitio web</a>
-							</td>
-						</tr>
-						<tr>
-							<th scope="row">Plan anual de adquisiones en SECOP I</th>
-							<td>
-								<a class="btn btn-primary btn-block" href="https://www.contratos.gov.co/consultas/consultarArchivosPAA2018.do" target="_blank">Ver documento</a>
+								<a class="btn btn-primary btn-block" href="https://community.secop.gov.co/Public/Tendering/ContractNoticeManagement/Index?currentLanguage=es-CO&Page=login&Country=CO&SkinName=CCE" target="_blank">Ver sitio web</a>
 							</td>
 						</tr>
 					</tbody>
