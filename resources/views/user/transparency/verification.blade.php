@@ -364,6 +364,19 @@
 						</td>
 					</tr>
 				</tbody>
+				<thead>
+					<tr>
+						<th> 3.9 Manual de Procesos y Procedimientos </th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td width="65%">Manual de Procesos y Procedimientos</td>
+						<td class="text-center">
+							<a class="btn btn-danger btn-block" href="https://app.gov.co/assets/pdf/manual-de-procesos-y-procedimientos.pdf" target="_blank">Ver documento</a>
+						</td>
+					</tr>
+				</tbody>
 			</table>
 		</div><button class="accordion">4. Normatividad</button>
 		<div class="panel">
