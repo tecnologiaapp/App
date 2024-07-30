@@ -1053,6 +1053,9 @@
 				<tbody>
 					<tr>
 						<td width="65%">Este sitio web cuenta con una accesibilidad de categoria AA</td>
+						<td class="text-center">
+							<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/Certificado-Accesibilidad-Web-Firmado2024.pdf')}}" target="_blank">Ver certificado</a>
+						</td>
 					</tr>
 				</tbody>
 			</table>
