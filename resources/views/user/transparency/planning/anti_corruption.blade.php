@@ -20,7 +20,7 @@
 				<table class="table table-bordered table-striped custom-table">
 					<tbody>
 						<tr>
-							<td>Seguimiento Plan anticorrupción y atención al ciudadano - Julio</td>
+							<td>Seguimiento Plan anticorrupción y atención al ciudadano - Enero - Abril</td>
 							<td>
 								<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/planning/PLAN-ANTICORRUPCION-SEGUIMIENTO.xlsx')}}" target="_blank">Ver documento</a>
 							</td>

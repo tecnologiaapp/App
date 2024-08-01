@@ -864,7 +864,7 @@
 					<tr>
 						<td width="65%">Manual de servicio a la ciudadania</td>
 						<td class="text-center">
-							<a class="btn btn-primary btn-block" href="https://www.medellin.gov.co/es/wp-content/uploads/2022/08/Manual-de-servicio-a-la-ciudadania-2020_compressed.pdf" target="_blank">Ver página</a>
+							<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/Manual-de-servicio-al-ciudadano.pdf')}}" target="_blank">Ver página</a>
 						</td>
 					</tr>
 				</tbody>
