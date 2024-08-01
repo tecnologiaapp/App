@@ -315,6 +315,12 @@
 			<div class="panel">
 					<table class="table table-bordered table-striped custom-table">
 						<tbody>
+						<tr>
+								<td>Informe de PQRSD - Segundo trimestre de 2024</td>
+								<td>
+									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/pqrs/Informe-de-PQRSD-AbrJun.pdf')}}" target="_blank">Ver documento</a>
+								</td>
+							</tr>
 							<tr>
 								<td>Informe de PQRSD - Primer trimestre de 2024</td>
 								<td>
