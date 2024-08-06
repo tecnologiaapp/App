@@ -80,6 +80,48 @@
 						</tr>
 					</tbody>
 				</table>
+			</div><button class="accordion">Información contable de 2024</button>
+			<div class="panel">
+				<table class="table table-bordered table-striped custom-table">
+					<tbody>
+						<tr>
+							<td>Estados Financieros - Junio 2024</td>
+							<td>
+								<a class="btn btn-primary btn-block btn-block" href="{{asset('assets/pdf/financial_statements/2024/JUNIO-2024.pdf')}}" target="_blank">Ver documento</a>
+							</td>
+						</tr>
+						<tr>
+							<td>Estados Financieros - Mayo 2024</td>
+							<td>
+								<a class="btn btn-primary btn-block btn-block" href="{{asset('assets/pdf/financial_statements/2024/MAYO-2024.pdf')}}" target="_blank">Ver documento</a>
+							</td>
+						</tr>
+						<tr>
+							<td>Estados Financieros - Abril 2024</td>
+							<td>
+								<a class="btn btn-primary btn-block btn-block" href="{{asset('assets/pdf/financial_statements/2024/ABRIL-2024.pdf')}}" target="_blank">Ver documento</a>
+							</td>
+						</tr>
+						<tr>
+							<td>Estados Financieros - Marzo 2024</td>
+							<td>
+								<a class="btn btn-primary btn-block btn-block" href="{{asset('assets/pdf/financial_statements/2024/MARZO-2024.pdf')}}" target="_blank">Ver documento</a>
+							</td>
+						</tr>
+						<tr>
+							<td>Estados Financieros - Febrero 2024</td>
+							<td>
+								<a class="btn btn-primary btn-block btn-block" href="{{asset('assets/pdf/financial_statements/2024/FEBRERO-2024.pdf')}}" target="_blank">Ver documento</a>
+							</td>
+						</tr>
+						<tr>
+							<td>Estados Financieros - Enero 2024</td>
+							<td>
+								<a class="btn btn-primary btn-block btn-block" href="{{asset('assets/pdf/financial_statements/2024/ENERO-2024.pdf')}}" target="_blank">Ver documento</a>
+							</td>
+						</tr>
+					</tbody>
+				</table>
 			</div><button class="accordion">Información contable de 2023</button>
 			<div class="panel">
 				<table class="table table-bordered table-striped custom-table">
