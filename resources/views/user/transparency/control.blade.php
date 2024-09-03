@@ -799,7 +799,21 @@
 						</tbody>
 					</table>
 				</div>
-			</div>
+			</div><button class="accordion">Informe de Software Legal</button>
+			<div class="panel">
+			<button class="accordion">2023</button>
+				<div class="panel">
+					<table class="table table-bordered table-striped custom-table">
+						<tbody>
+							<tr>
+								<td>Informe de Software Legal 2023</td>
+								<td>
+									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/control/INFORME-DE-SOFTWARE-LEGAL-2023.pdf')}}" target="_blank">Ver documento</a>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
 		</div>
 	</section>
 	<footer class="vlt-single-post__footer">
