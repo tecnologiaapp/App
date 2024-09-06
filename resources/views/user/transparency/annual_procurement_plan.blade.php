@@ -30,6 +30,12 @@
 								<a class="btn btn-primary" href="{{asset('assets/pdf/annual_procurement_plan/PAA-2024-V7-(SECOP8y9).xlsx')}}" target="_blank">Ver documento</a>
 							</td>
 						</tr>
+						<tr>
+							<td>Plan anual de adquisiciones 2024 - Agosto</td>
+							<td>
+								<a class="btn btn-primary" href="{{asset('assets/pdf/annual_procurement_plan/PAA-2024-V12.xlsx')}}" target="_blank">Ver documento</a>
+							</td>
+						</tr>
 					</tbody>
 				</table>
 			</div>
