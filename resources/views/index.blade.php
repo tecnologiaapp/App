@@ -12,9 +12,13 @@
 				<li data-slide-to="1" data-target="#carouselExampleIndicators"></li>
 				<li data-slide-to="2" data-target="#carouselExampleIndicators"></li>
 				<li data-slide-to="3" data-target="#carouselExampleIndicators"></li>
+				<li data-slide-to="4" data-target="#carouselExampleIndicators"></li>
 				</ol>
 			<div class="carousel-inner">
-			<div class="carousel-item">
+			    <div class="carousel-item">
+			       <a href="{{asset('assets/pdf/BASES-DE-CONCURSO-DE-FOTOGRAFÍA.pdf')}}"><img class="d-block w-100" src="{{asset('assets/img/BannersNuevos/Banner-concurso-de-fotografía.png')}}"></a>
+			   </div>
+				<div class="carousel-item">
 					<a href="{{asset('assets/pdf/Arquitectura-Moderna.pdf')}}"><img class="d-block w-100" src="{{asset('assets/img/Banners/Banner-web_Mesadetrabajo.jpg')}}"></a>
 				</div>
 				<div class="carousel-item">
