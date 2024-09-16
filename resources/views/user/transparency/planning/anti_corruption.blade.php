@@ -19,6 +19,12 @@
 			<div class="panel">
 				<table class="table table-bordered table-striped custom-table">
 					<tbody>
+					    <tr>
+							<td>Seguimiento Plan anticorrupción y atención al ciudadano - Mayo - Agosto</td>
+							<td>
+								<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/planning/PLAN-ANTICORRUPCION-SEGUIMIENTO- 2.xlsx')}}" target="_blank">Ver documento</a>
+							</td>
+						</tr>
 						<tr>
 							<td>Seguimiento Plan anticorrupción y atención al ciudadano - Enero - Abril</td>
 							<td>

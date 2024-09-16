@@ -551,8 +551,21 @@
 						</tbody>
 					</table>
 				</div>
-			</div><button class="accordion">Plan anual de auditoría</button>
+			</div><button class="accordion">Plan Anual de Auditoría</button>
 			<div class="panel">
+			<button class="accordion">2024</button>
+				<div class="panel">
+					<table class="table table-bordered table-striped custom-table">
+						<tbody>
+							<tr>
+								<td>Plan anual de auditoria de 2024</td>
+								<td>
+									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/control/PLAN-ANUAL-DE-AUDITORIAS-2024.xlsx')}}" target="_blank">Ver documento</a>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
 				<button class="accordion">2022</button>
 				<div class="panel">
 					<table class="table table-bordered table-striped custom-table">
