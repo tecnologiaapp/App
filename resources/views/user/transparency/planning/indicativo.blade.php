@@ -19,6 +19,19 @@
 		<div class="container mt-5">
 			<button class="accordion">PLANES INDICATIVOS</button>
 			<div class="panel">
+			<button class="accordion">2024</button>
+				<div class="panel">
+					<table class="table table-bordered table-striped custom-table">
+						<tbody>
+							<tr>
+								<td>Plan indicativo - Julio 2024</td>
+								<td>
+									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/planning/2024/Seguimiento-Plan-Indicativo-Julio-31-de-2024-Preliminar.pdf')}}" target="_blank">Ver documento</a>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
 			<button class="accordion">2023</button>
 				<div class="panel">
 					<table class="table table-bordered table-striped custom-table">

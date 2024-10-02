@@ -84,6 +84,12 @@
 			<div class="panel">
 				<table class="table table-bordered table-striped custom-table">
 					<tbody>
+					    <tr>
+							<td>Estados Financieros - Julio 2024</td>
+							<td>
+								<a class="btn btn-primary btn-block btn-block" href="{{asset('assets/pdf/financial_statements/2024/JULIO-2024.pdf')}}" target="_blank">Ver documento</a>
+							</td>
+						</tr>
 						<tr>
 							<td>Estados Financieros - Junio 2024</td>
 							<td>

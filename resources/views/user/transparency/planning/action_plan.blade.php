@@ -19,7 +19,20 @@
 		<div class="container mt-5">
 			<button class="accordion">PLAN DE ACCIÓN MUNICIPAL</button>
 			<div class="panel">
-			<button class="accordion">2023</button>
+			<button class="accordion">2024</button>
+				<div class="panel">
+					<table class="table table-bordered table-striped custom-table">
+						<tbody>
+							<tr>
+								<td>Plan de Acción MPAL - Julio 2024</td>
+								<td>
+									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/planning/Seguimiento-PA_31julio-2024_Definitivo.pdf')}}" target="_blank">Ver documento</a>
+								</td>
+							</tr>
+							</tbody>
+					</table>
+				</div>
+				<button class="accordion">2023</button>
 				<div class="panel">
 					<table class="table table-bordered table-striped custom-table">
 						<tbody>
