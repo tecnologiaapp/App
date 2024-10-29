@@ -277,6 +277,19 @@
 				</div>
 			</div><button class="accordion">PLAN DE ACCIÓN INTERNO AGENCIA APP</button>
 			<div class="panel">
+			<button class="accordion">2024</button>
+				<div class="panel">
+					<table class="table table-bordered table-striped custom-table">
+						<tbody>
+							<tr>
+								<td>Plan de Acción Interno - AGENCIA APP 2024</td>
+								<td>
+									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/planning/2024/PLAN-DE-ACCIÓN-INTERNO-2024.pdf')}}" target="_blank">Ver documento</a>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
 				<button class="accordion">2023</button>
 				<div class="panel">
 					<table class="table table-bordered table-striped custom-table">

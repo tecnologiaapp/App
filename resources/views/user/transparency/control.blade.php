@@ -93,7 +93,13 @@
 				<div class="panel">
 					<table class="table table-bordered table-striped custom-table">
 						<tbody>
-						<tr>
+						    <tr>
+								<td>Evaluación por Dependencias 2023</td>
+								<td>
+									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/control/EVALUACIÓN-POR-DEPENDENCIAS-2023.pdf')}}" target="_blank">Ver documento</a>
+								</td>
+							</tr>
+						    <tr>
 								<td>Informe de Gestión y comité de conciliación segundo semestre 2023</td>
 								<td>
 									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/control/Informe-de-gestion-SEGUNDO-SEMESTRE.pdf')}}" target="_blank">Ver documento</a>
@@ -335,20 +341,42 @@
 						</tbody>
 					</table>
 				</div>
-			</div><button class="accordion">Informes de peticiones, quejas, reclamos y sugerencias - PQRS</button>
+			</div><button class="accordion">Registro Publico PQRSD</button>
 			<div class="panel">
 			<button class="accordion">2024</button>
 			<div class="panel">
 					<table class="table table-bordered table-striped custom-table">
 						<tbody>
-						<tr>
-								<td>Informe de PQRSD - Segundo trimestre de 2024</td>
+						   <tr>
+								<td>Registro Publico PQRSD - Semestre I 2024</td>
+								<td>
+									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/pqrs/Registro-publico-PQRSD-semestre-I-2024.xlsx')}}" target="_blank">Ver documento</a>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+			<button class="accordion">Informes de peticiones, quejas, reclamos y sugerencias - PQRS</button>
+			<div class="panel">
+			<button class="accordion">2024</button>
+			<div class="panel">
+					<table class="table table-bordered table-striped custom-table">
+						<tbody>
+						   <tr>
+								<td>Informe de PQRSD - Tercer Trimestre de 2024</td>
+								<td>
+									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/pqrs/Informe-de-PQRSD-JulSept.pdf')}}" target="_blank">Ver documento</a>
+								</td>
+							</tr>
+						   <tr>
+								<td>Informe de PQRSD - Segundo Trimestre de 2024</td>
 								<td>
 									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/pqrs/Informe-de-PQRSD-AbrJun.pdf')}}" target="_blank">Ver documento</a>
 								</td>
 							</tr>
 							<tr>
-								<td>Informe de PQRSD - Primer trimestre de 2024</td>
+								<td>Informe de PQRSD - Primer Trimestre de 2024</td>
 								<td>
 									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/pqrs/Informe-de-PQRSD-PrimerTrismestre2024.pdf')}}" target="_blank">Ver documento</a>
 								</td>
@@ -459,9 +487,21 @@
 					<table class="table table-bordered table-striped custom-table">
 						<tbody>
 							<tr>
-								<td>Informe de austeridad - Tercer trimestre de 2024</td>
+								<td>Informe de Austeridad - Tercer Trimestre de 2024</td>
 								<td>
 									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/control/austerity/Informe-de-austeridad-trimestre-3-2024.pdf')}}" target="_blank">Ver documento</a>
+								</td>
+							</tr>
+							<tr>
+								<td>Informe de Austeridad - Segundo Trimestre de 2024</td>
+								<td>
+									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/control/austerity/Austeridad-en-el-gasto-segundo-trimestre-2024.pdf')}}" target="_blank">Ver documento</a>
+								</td>
+							</tr>
+							<tr>
+								<td>Informe de Austeridad - Primer Trimestre de 2024</td>
+								<td>
+									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/control/austerity/Austeridad-en-el-gasto-primer-trimestre-2024.pdf')}}" target="_blank">Ver documento</a>
 								</td>
 							</tr>
 						</tbody>
