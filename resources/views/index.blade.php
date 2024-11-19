@@ -28,7 +28,7 @@
 					<a href="{{route('user.noticias.new50')}}"><img  class="d-block w-100" src="{{asset('assets/img/BannersNuevos/HomeConstelaciones.jpg')}}"></a>
 				</div>
 			    <div class="carousel-item active">
-			        <a href="https://arcg.is/0DairO1" Target="_blank"><img class="d-block w-100" src="{{asset('assets/img/BannersNuevos/banner_rendicion_de_cuentas_web_medellin_te_cuenta.png')}}"></a>	
+			        <a href="https://arcg.is/0DairO1" Target="_blank"><img class="d-block w-100" src="{{asset('assets/img/BannersNuevos/banner_rendicion_de_cuentas_web_actualizado.png')}}"></a>	
 		        </div><button class="carousel-control-prev" data-slide="prev" data-target="#carouselExampleIndicators" onclick="disableScroll()" type="button"><span aria-hidden="true" class="carousel-control-prev-icon"></span> <span class="sr-only">Previous</span></button> <button class="carousel-control-next" data-slide="next" data-target="#carouselExampleIndicators" onclick="disableScroll()" type="button"><span aria-hidden="true" class="carousel-control-next-icon"></span> <span class="sr-only">Next</span></button>
 		</div> 
 	</section> 
