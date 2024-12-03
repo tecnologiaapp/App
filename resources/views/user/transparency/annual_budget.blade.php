@@ -23,7 +23,67 @@
 			<div class="panel">
 				<table class="table table-bordered table-striped custom-table">
 					<tbody>
-					<tr>
+					    <tr>
+							<td>Ejecución presupuestal de ingresos octubre 2024</td>
+							<td>
+								<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/budget/2024/INGRESOS-OCTUBRE.pdf')}}" target="_blank">Ver documento</a>
+							</td>
+						</tr>
+						<tr>
+							<td>Ejecución presupuestal de gastos octubre 2024</td>
+							<td>
+								<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/budget/2024/GASTOS-OCTUBRE.pdf')}}" target="_blank">Ver documento</a>
+							</td>
+						</tr>
+					    <tr>
+							<td>Ejecución presupuestal de ingresos septiembre 2024</td>
+							<td>
+								<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/budget/2024/INGRESOS-SEPTIEMBRE.pdf')}}" target="_blank">Ver documento</a>
+							</td>
+						</tr>
+						<tr>
+							<td>Ejecución presupuestal de gastos septiembre 2024</td>
+							<td>
+								<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/budget/2024/GASTOS-SEPTIEMBRE.pdf')}}" target="_blank">Ver documento</a>
+							</td>
+						</tr>
+					    <tr>
+							<td>Ejecución presupuestal de ingresos agosto 2024</td>
+							<td>
+								<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/budget/2024/INGRESOS-AGOSTO.pdf')}}" target="_blank">Ver documento</a>
+							</td>
+						</tr>
+						<tr>
+							<td>Ejecución presupuestal de gastos agosto 2024</td>
+							<td>
+								<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/budget/2024/GASTOS-AGOSTO.pdf')}}" target="_blank">Ver documento</a>
+							</td>
+						</tr>
+					    <tr>
+							<td>Ejecución presupuestal de ingresos julio 2024</td>
+							<td>
+								<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/budget/2024/INGRESOS-JULIO.pdf')}}" target="_blank">Ver documento</a>
+							</td>
+						</tr>
+						<tr>
+							<td>Ejecución presupuestal de gastos julio 2024</td>
+							<td>
+								<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/budget/2024/GASTOS-JULIO.pdf')}}" target="_blank">Ver documento</a>
+							</td>
+						</tr>
+					    <tr>
+							<td>Ejecución presupuestal de gastos junio 2024</td>
+							<td>
+								<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/budget/2024/GASTOS-JUNIO.pdf')}}" target="_blank">Ver documento</a>
+							</td>
+						</tr>
+						<tr>
+							<td>Ejecución presupuestal de ingresos junio 2024</td>
+							<td>
+								<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/budget/2024/INGRESOS-JUNIO.pdf')}}" target="_blank">Ver documento</a>
+							</td>
+						</tr>
+					   <tr>
 							<td>Ejecución presupuestal de gastos mayo 2024</td>
 							<td>
 								<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/budget/2024/GASTOS-MAYO.pdf')}}" target="_blank">Ver documento</a>
