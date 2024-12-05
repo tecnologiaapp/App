@@ -23,6 +23,18 @@
 				<div class="panel">
 					<table class="table table-bordered table-striped custom-table">
 						<tbody>
+						    <tr>
+								<td>Plan indicativo - Octubre 2024</td>
+								<td>
+									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/planning/2024/PLAN-INDICATIVO-DEFINITIVO-CORTE-OCTUBRE-2024.pdf')}}" target="_blank">Ver documento</a>
+								</td>
+							</tr>
+						    <tr>
+								<td>Plan indicativo - Agosto 2024</td>
+								<td>
+									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/planning/2024/Seguimiento-Plan-Indicativo-Agosto31de2024-Dependencia.pdf')}}" target="_blank">Ver documento</a>
+								</td>
+							</tr>
 							<tr>
 								<td>Plan indicativo - Julio 2024</td>
 								<td>
@@ -36,12 +48,12 @@
 				<div class="panel">
 					<table class="table table-bordered table-striped custom-table">
 						<tbody>
-							<!-- <tr>
-								<td>Plan indicativo - Sexto bimestre 2023</td>
+						    <tr>
+								<td>Plan indicativo - Diciembre 2023</td>
 								<td>
-									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/planning/2023/Seguimiento-Plan_Indicativo-31diciembre2022_Definitivo.pdf')}}" target="_blank">Ver documento</a>
+									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/planning/2024/Plan-Indicativo-Diciembre-31-de-2023-Dependencia-Definitivo-Agencia-APP.pdf')}}" target="_blank">Ver documento</a>
 								</td>
-							</tr> -->
+							</tr>
 							<tr>
 								<td>Plan indicativo - Quinto bimestre 2023</td>
 								<td>

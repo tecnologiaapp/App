@@ -23,6 +23,18 @@
 				<div class="panel">
 					<table class="table table-bordered table-striped custom-table">
 						<tbody>
+						    <tr>
+								<td>Plan de Acción MPAL - Octubre 2024</td>
+								<td>
+									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/planning/PLAN-DE-ACCION-DEFINITIVO-CORTE-OCTUBRE-2024.pdf')}}" target="_blank">Ver documento</a>
+								</td>
+							</tr>
+						    <tr>
+								<td>Plan de Acción MPAL - Agosto 2024</td>
+								<td>
+									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/planning/Seguimiento_PA_31Agosto2024_Definitivo.pdf')}}" target="_blank">Ver documento</a>
+								</td>
+							</tr>
 							<tr>
 								<td>Plan de Acción MPAL - Julio 2024</td>
 								<td>
