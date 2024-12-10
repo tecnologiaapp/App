@@ -15,7 +15,7 @@
 				<li data-slide-to="4" data-target="#carouselExampleIndicators"></li>
 				</ol>
 			    <div class="carousel-inner">
-			    <div class="carousel-item active">
+			    <div class="carousel-item">
 				    <a href="{{asset('assets/pdf/Carta-de-trato-digno.pdf')}}"><img class="d-block w-100" src="{{asset('assets/img/Banners/CartaTratoDigno.png')}}"></a>
 				</div>
 				<div class="carousel-item">
@@ -27,8 +27,8 @@
 				<div class="carousel-item">
 					<a href="{{route('user.noticias.new50')}}"><img  class="d-block w-100" src="{{asset('assets/img/BannersNuevos/HomeConstelaciones.jpg')}}"></a>
 				</div>
-				 <div class="carousel-item">
-			        <a href="https://arcg.is/0DairO1" Target="_blank"><img class="d-block w-100" src="{{asset('assets/img/BannersNuevos/banner_rendicion_de_cuentas_invitacion.png')}}"></a>
+				 <div class="carousel-item active">
+			        <a href="{{asset('assets/pdf/APP_rendicioncuentas.pdf')}}" Target="_blank"><img class="d-block w-100" src="{{asset('assets/img/BannersNuevos/banner_rendicion_de_cuentas_invitacion.png')}}"></a>
 		        </div>
 				<button class="carousel-control-prev" data-slide="prev" data-target="#carouselExampleIndicators" onclick="disableScroll()" type="button"><span aria-hidden="true" class="carousel-control-prev-icon"></span> <span class="sr-only">Previous</span></button> <button class="carousel-control-next" data-slide="next" data-target="#carouselExampleIndicators" onclick="disableScroll()" type="button"><span aria-hidden="true" class="carousel-control-next-icon"></span> <span class="sr-only">Next</span></button>
 		</div> 
