@@ -4,6 +4,40 @@
 
 @endpush
 @section('content')
+
+<style>
+
+.content-certificado {
+	background-color: #f1f1f1;
+	padding: 20px;
+	margin-top: 40px;
+	marging-bottom: 40px;
+	border-top: solid 1px #ddd;
+}
+
+.buttom-certificado {
+	text-align: center;
+}
+
+.buttom-certificado a {
+	font-size: 27px;
+	color: #cf2e2e;
+	text-align: center;
+	font-family: "jost", sans-serif !important;
+	font-weight: bold;
+}
+
+.buttom-certificado a:hover {
+	font-size: 27px;
+	color: #8b3bf5;
+	text-align: center;
+	font-family: "jost", sans-serif !important;
+	font-weight: bold;
+}
+	
+	
+</style>
+
 <head>
 <section class="bannersHome" style="padding-top:125px; position: relative;">
 		<div class="carousel slide" data-ride="carousel" id="carouselExampleIndicators">
@@ -28,7 +62,7 @@
 					<a href="{{route('user.noticias.new50')}}"><img  class="d-block w-100" src="{{asset('assets/img/BannersNuevos/HomeConstelaciones.jpg')}}"></a>
 				</div>
 				 <div class="carousel-item active">
-			        <a href="{{asset('assets/pdf/APP_rendicioncuentas.pdf')}}" Target="_blank"><img class="d-block w-100" src="{{asset('assets/img/BannersNuevos/banner_rendicion_de_cuentas_invitacion.png')}}"></a>
+			        <a href="https://www.youtube.com/live/wFyY-ibeOjA?si=fVMHIwKsthjDnQTo" Target="_blank"><img class="d-block w-100" src="{{asset('assets/img/BannersNuevos/BannerRdeC-VideoYoutube.jpeg')}}"></a>
 		        </div>
 				<button class="carousel-control-prev" data-slide="prev" data-target="#carouselExampleIndicators" onclick="disableScroll()" type="button"><span aria-hidden="true" class="carousel-control-prev-icon"></span> <span class="sr-only">Previous</span></button> <button class="carousel-control-next" data-slide="next" data-target="#carouselExampleIndicators" onclick="disableScroll()" type="button"><span aria-hidden="true" class="carousel-control-next-icon"></span> <span class="sr-only">Next</span></button>
 		</div> 
@@ -118,6 +152,14 @@
 			</div>
 		</div>
 	</section>
+
+	<section>
+		<div class="content-certificado">
+			<div class="buttom-certificado">
+				<a href="http://181.143.121.243:8001/search-contract" target="_blank">Gestiona tus certificados contractuales haciendo clic aqui >></a>
+			</div>
+		</div>
+</section>
 
 @endsection
 

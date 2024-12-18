@@ -405,3 +405,9 @@
 section{
 		text-align:center;
 	}
+
+.buttom-certificado {
+	font-size: 27px;
+	color: #cf2e2e;
+	text-align: center;
+}

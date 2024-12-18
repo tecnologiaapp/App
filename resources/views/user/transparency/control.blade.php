@@ -811,9 +811,21 @@
 						</tbody>
 					</table>
 				</div>
-			</div><button class="accordion">Informes de defensa judicial</button>
+			</div><button class="accordion">Informes de Defensa Judicial</button>
 			<div class="panel">
-				<button class="accordion">2022</button>
+			<button class="accordion">2024</button>
+				<div class="panel">
+					<table class="table table-bordered table-striped custom-table">
+						<tbody>
+							<tr>
+								<td>Informe Diciembre</td>
+								<td>
+									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/control/Informe-DefensaJudicial-2024.pdf')}}" target="_blank">Ver documento</a>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</div><button class="accordion">2022</button>
 				<div class="panel">
 					<table class="table table-bordered table-striped custom-table">
 						<tbody>
