@@ -50,10 +50,10 @@
 				</ol>
 			    <div class="carousel-inner">
 			    <div class="carousel-item">
-				    <a href="{{asset('assets/pdf/Carta-de-trato-digno.pdf')}}"><img class="d-block w-100" src="{{asset('assets/img/Banners/CartaTratoDigno.png')}}"></a>
+				    <a href="{{asset('assets/pdf/Resolucion-093-horario-fin-de-año.pdf')}}" Target="_blank"><img class="d-block w-100" src="{{asset('assets/img/Banners/BannerHorarioNavidad.jpeg')}}"></a>
 				</div>
 				<div class="carousel-item">
-					<a href="{{asset('assets/pdf/Arquitectura-Moderna.pdf')}}"><img class="d-block w-100" src="{{asset('assets/img/Banners/Banner-web_Mesadetrabajo.jpg')}}"></a>
+					<a href="http://181.143.121.243:8001/search-contract" Target="_blank"><img class="d-block w-100" src="{{asset('assets/img/Banners/BannerCertificadosContractuales.jpeg')}}"></a>
 				</div>
 				<div class="carousel-item">
 					<a href="{{route('user.projects.mudag')}}"><img class="d-block w-100" src="{{asset('assets/img/BannersNuevos/HomeMUDAG.jpg')}}"></a>
