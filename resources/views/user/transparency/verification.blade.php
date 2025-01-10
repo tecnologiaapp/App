@@ -24,6 +24,816 @@
 		</div>
 	</section>
 	<div class="container mt-5">
+
+	<!-- Collapsed 1 -->
+	<button class="accordion">1.  Información de la Entidad</button>
+		<div class="panel">
+			<table class="table table-bordered table-striped custom-table">
+				<thead>
+					<tr>
+						<th>1.1. Misión, visión, funciones y deberes</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td width="65%">Misión, visión, principios y valores</td>
+						<td class="text-center">
+							<a class="btn btn-primary btn-block" href="{{route('user.about.mision')}}" target="_blank">Visitar página</a>
+						</td>
+					</tr>
+				</tbody>
+				<tbody>
+					<tr>
+						<td width="65%">Funciones</td>
+						<td class="text-center">
+							<a class="btn btn-primary btn-block" href="{{route('user.about.functions')}}" target="_blank">Visitar página</a>
+						</td>
+					</tr>
+				</tbody>
+				<thead>
+					<tr>
+						<th>1.2. Estructura orgánica</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td width="65%">Organigrama</td>
+						<td class="text-center">
+							<a class="btn btn-primary btn-block" href="{{asset('assets/img/organjgrama_app.png')}}" target="_blank">Ver documento</a>
+						</td>
+					</tr>
+				</tbody>
+				<thead>
+					<tr>
+						<th>1.3. Mapas y cartas descriptivas de procesos</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td width="65%">Manual de Procesos y Procedimientos</td>
+						<td class="text-center">
+							<a class="btn btn-danger btn-block" href="https://app.gov.co/assets/pdf/manual-de-procesos-y-procedimientos.pdf" target="_blank">Ver documento</a>
+						</td>
+					</tr>
+				</tbody>
+				<thead>
+					<tr>
+						<th>1.4. Directorio institucional</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td width="65%">Ubicación sede principal, sedes alternas, horarios y días de atención al público, datos de contacto</td>
+						<td class="text-center">
+							<a class="btn btn-primary btn-block" href="{{route('user.transparency.contact-us')}}" target="_blank">Visitar página</a>
+						</td>
+					</tr>
+				</tbody>
+				<thead>
+					<tr>
+						<th>1.5. Directorio de servidores públicos y contratistas</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td width="65%">Directorio de información de los servidores públicos y contratistas.</td>
+						<td class="text-center">
+							<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/Directorio-Agencia-2024.pdf')}}" target="_blank">Ver documento</a>
+						</td>
+					</tr>
+				</tbody>
+				<thead>
+					<tr>
+						<th>1.6. Directorio de entidades</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td width="65%">Directorio de entidades</td>
+						<td class="text-center">
+							<a class="btn btn-primary btn-block" href="{{route('user.info.entity_directory')}}" target="_blank">Visitar página</a>
+						</td>
+					</tr>
+				</tbody>
+				<thead>
+					<tr>
+						<th>1.7. Directorio de agremiaciones o asociaciones</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td width="65%">Directorio de agremiaciones, asociaciones y otros grupos de interés</td>
+						<td class="text-center">
+							<a class="btn btn-primary btn-block" href="{{route('user.info.union_directory')}}" target="_blank">Visitar página</a>
+						</td>
+					</tr>
+				</tbody>
+				<thead>
+					<tr>
+						<th>1.8. Servicio al público, normas, formularios y protocolos de atención</th>
+					</tr>
+					<tr>
+						<th>1.8.1. Servicio al público</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td width="65%">Carta de trato digno a la ciudadanía</td>
+						<td class="text-center">
+							<a class="btn btn-primary btn-block" href="{{route('user.info.union_directory')}}" target="_blank">Ver documento</a>
+						</td>
+					</tr>
+				</tbody>
+				<tbody>
+					<tr>
+						<td width="65%">Manual de radicación de PQRSD</td>
+						<td class="text-center">
+							<a class="btn btn-primary btn-block" href="{{route('user.info.union_directory')}}" target="_blank">Ver documento</a>
+						</td>
+					</tr>
+				</tbody>
+				<tbody>
+					<tr>
+						<td width="65%">Manual de servicios a la ciudadanía</td>
+						<td class="text-center">
+							<a class="btn btn-primary btn-block" href="{{route('user.info.union_directory')}}" target="_blank">Ver documento</a>
+						</td>
+					</tr>
+				</tbody>
+				<thead>
+					<tr>
+						<th>1.8.2. Normas</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td width="65%">ASTREA, Biblioteca Jurídica Virtual. Compendio normativo del Distrito de Medellín – Búsqueda de normatividad de la entidad o autoridad</td>
+						<td class="text-center">
+							<a class="btn btn-primary btn-block" href="https://www.medellin.gov.co/normograma/docs/astrea/herramientas_busqueda.html" target="_blank">Visitar página</a>
+						</td>
+					</tr>
+				</tbody>
+				<tbody>
+					<tr>
+						<td width="65%">Preguntas frecuentes</td>
+						<td class="text-center">
+							<a class="btn btn-primary btn-block" href="https://app.gov.co/preguntas-y-respuestas-frecuentes" target="_blank">Visitar página</a>
+						</td>
+					</tr>
+				</tbody>
+				<tbody>
+					<tr>
+						<td width="65%">Glosario</td>
+						<td class="text-center">
+							<a class="btn btn-primary btn-block" href="https://app.gov.co/assets/pdf/convocatorias/APP-2021.pdf" target="_blank">Visitar página</a>
+						</td>
+					</tr>
+				</tbody>
+				<tbody>
+					<tr>
+						<td width="65%">Normograma</td>
+						<td class="text-center">
+							<a class="btn btn-primary btn-block" href="https://app.gov.co/assets/pdf/normograma.pdf" target="_blank">Ver documento</a>
+						</td>
+					</tr>
+				</tbody>
+				<thead>
+					<tr>
+						<th>1.8.3. Formularios</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td width="65%">XXXX</td>
+						<td class="text-center">
+							<a class="btn btn-primary btn-block" href="#" target="_blank">Visitar página</a>
+						</td>
+					</tr>
+				</tbody>
+				<thead>
+					<tr>
+						<th>1.9. Procedimientos que se siguen para tomar decisiones</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td width="65%">Manual de Procesos y Procedimientos</td>
+						<td class="text-center">
+							<a class="btn btn-primary btn-block" href="https://app.gov.co/assets/pdf/manual-de-procesos-y-procedimientos.pdf " target="_blank">Ver documento</a>
+						</td>
+					</tr>
+				</tbody>
+				<thead>
+					<tr>
+						<th>1.10. Mecanismo de presentación de solicitudes, quejas y reclamos (PQRSD)</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td width="65%">Portal de radicación de PQRSD</td>
+						<td class="text-center">
+							<a class="btn btn-primary btn-block" href="http://mercurioapp.medellin.gov.co/mercurio/inicialPqr.jsp" target="_blank">Ver documento</a>
+						</td>
+					</tr>
+				</tbody>
+				<thead>
+					<tr>
+						<th>1.11. Calendario de actividades y eventos</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td width="65%">Calendario de actividades</td>
+						<td class="text-center">
+							<a class="btn btn-primary btn-block" href="https://app.powerbi.com/view?r=eyJrIjoiMDFiMWRkOTctMWZlYS00NjhhLWJmYzEtYjY1YmIzMWIzNmRjIiwidCI6ImZlNWQ1MzNlLWZiZmUtNDMxNy05ZDJlLWVlMjVhYzU0NmFiMyIsImMiOjR9" target="_blank">Ver documento</a>
+						</td>
+					</tr>
+				</tbody>
+				<thead>
+					<tr>
+						<th>1.12. Información sobre decisiones que pueden afectar al público</th>
+					</tr>
+					<tr>
+						<th>Planes de Ordenamiento Territorial – POT</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td width="65%">Acuerdo 48 de 2014</td>
+						<td class="text-center">
+							<a class="btn btn-primary btn-block" href="#" target="_blank">Ver documento</a>
+						</td>
+					</tr>
+				</tbody>
+				<tbody>
+					<tr>
+						<td width="65%">Acuerdo 46 de 2006</td>
+						<td class="text-center">
+							<a class="btn btn-primary btn-block" href="#" target="_blank">Ver documento</a>
+						</td>
+					</tr>
+				</tbody>
+				<tbody>
+					<tr>
+						<td width="65%">Acuerdo 062 de 1999</td>
+						<td class="text-center">
+							<a class="btn btn-primary btn-block" href="#" target="_blank">Ver documento</a>
+						</td>
+					</tr>
+				</tbody>
+				<thead>
+					<tr>
+						<th>Planes de Desarrollo Distrital</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td width="65%">Medellín Te Quiere 2024 – 2027</td>
+						<td class="text-center">
+							<a class="btn btn-primary btn-block" href="https://www.medellin.gov.co/es/plan-de-desarrollo/" target="_blank">Ver documento</a>
+						</td>
+					</tr>
+				</tbody>
+				<thead>
+					<tr>
+						<th>1.13. Entes de control que vigilan al Distrito de Medellín</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td width="65%">Entes de Control</td>
+						<td class="text-center">
+							<a class="btn btn-primary btn-block" href="https://www.medellin.gov.co/es/transparencia/entes-de-control-que-vigilan-al-distrito-de-medellin/" target="_blank">Visitar página</a>
+						</td>
+					</tr>
+				</tbody>
+				<thead>
+					<tr>
+						<th>1.14. Publicación de hojas de vida</th>
+						<th>No aplica</th>
+					</tr>
+				</thead>
+			
+			</table>
+		</div>
+		<!-- Collapsed 1 -->
+
+		<!-- Collapsed 2 -->
+		<button class="accordion">2. Normatividad</button>
+		<div class="panel">
+			<table class="table table-bordered table-striped custom-table">
+				<thead>
+					<tr>
+						<th>2.1. Normativa de la entidad</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td width="65%">Normograma</td>
+						<td class="text-center">
+							<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/normograma.pdf')}}" target="_blank">Ver documento</a>
+						</td>
+					</tr>
+					<tr>
+						<td width="65%">Actos administrativos</td>
+						<td class="text-center">
+							<a class="btn btn-primary btn-block" href="{{route('user.administrative-acts')}}" target="_blank">Visitar página</a>
+						</td>
+					</tr>
+					<tr>
+						<td width="65%">Gaceta Oficial Distrito de Medellín</td>
+						<td class="text-center">
+							<a class="btn btn-primary btn-block" href="{{route('user.administrative-acts')}}" target="_blank">Visitar página</a>
+						</td>
+					</tr>
+				</tbody>
+				<thead>
+					<tr>
+						<th>2.2. Búsqueda de normas</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td width="65%">Biblioteca jurídica virtual del Distrito de Medellín</td>
+						<td class="text-center">
+							<a class="btn btn-primary btn-block" href="https://www.medellin.gov.co/irj/portal/medellin?NavigationTarget=navurl://ad0112085c36a7718f46d9dba43bbe60" target="_blank">Visitar página</a>
+						</td>
+					</tr>
+					<tr>
+						<td width="65%">Sistema Único de Información Normativa – SUIN</td>
+						<td class="text-center">
+							<a class="btn btn-primary btn-block" href="https://www.suin-juriscol.gov.co/" target="_blank">Visitar página</a>
+						</td>
+					</tr>
+				</tbody>
+				<thead>
+					<tr>
+						<th>2.3. Proyectos normativos para comentarios</th>
+					</tr>
+				</thead>
+			</table>
+		</div>
+		<!-- Collapsed 2 -->
+
+		<!-- Collapsed 3 -->
+		<button class="accordion">3. Contratación</button>
+		<div class="panel">
+			<table class="table table-bordered table-striped custom-table">
+				<thead>
+					<tr>
+						<th>3.1. Plan anual de adquisiciones</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td width="65%">Plan Anual de Adquisiciones (PAA)</td>
+						<td class="text-center">
+							<a class="btn btn-primary btn-block" href="{{route('user.transparency.annual_procurement_plan')}}" target="_blank">Visitar sitio</a>
+						</td>
+					</tr>
+				</tbody>
+				<thead>
+					<tr>
+						<th>3.2. Información contractual</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td width="65%">Enlace que direccione al PAA publicado en el SECOP</td>
+						<td class="text-center">
+							<a class="btn btn-primary btn-block" href="https://community.secop.gov.co/Public/App/AnnualPurchasingPlanManagementPublic/Index?currentLanguage=en&Page=login&Country=CO&SkinName=CCE" target="_blank">Visitar sitio</a>
+						</td>
+					</tr>
+				</tbody>
+				<thead>
+					<tr>
+						<th>3.3. Publicación de la ejecución de contratos</th>
+					</tr>
+				</thead>
+				<tbody>
+				<tr>
+						<td width="65%">Ejecución de contratos 2024</td>
+						<td class="text-center">
+							<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/8. Contratacion/RELACIÓN-DE-CONTRATOS-31-JULIO-2024.pdf')}}" target="_blank">Visitar página</a>
+						</td>
+					<tr>
+						<td width="65%">Ejecución de contratos 2023</td>
+						<td class="text-center">
+							<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/4. REPORTE CONTRATOS VIGENCIA 2023.pdf')}}" target="_blank">Visitar página</a>
+						</td>
+					</tr>
+					<tr>
+						<td width="65%">Ejecución de contratos 2022</td>
+						<td class="text-center">
+							<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/3. REPORTE CONTRATOS VIGENCIA 2022.pdf')}}" target="_blank">Visitar página</a>
+						</td>
+					</tr>
+					<tr>
+						<td width="65%">Ejecución de contratos 2021</td>
+						<td class="text-center">
+							<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/2. REPORTE CONTRATOS VIGENCIA 2021.pdf')}}" target="_blank">Visitar página</a>
+						</td>
+					</tr>
+					<tr>
+						<td width="65%">Ejecución de contratos 2020</td>
+						<td class="text-center">
+							<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/1. REPORTE CONTRATOS VIGENCIA 2020.pdf')}}" target="_blank">Visitar página</a>
+						</td>
+					</tr>
+					<tr>
+						<td width="65%">Convenios interadministrativos (2020 - 2023)</td>
+						<td class="text-center">
+							<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/5. REPORTE CONVENIOS INTERADMINISTRATIVOS $0 (2020-2023).pdf')}}" target="_blank">Visitar página</a>
+						</td>
+					</tr>
+				</tbody>
+				<thead>
+					<tr>
+						<th>3.4. Manual de contratación</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td width="65%">Gestión contractual</td>
+						<td class="text-center">
+							<a class="btn btn-primary btn-block" href="{{route('user.transparency.hiring')}}" target="_blank">Visitar página</a>
+						</td>
+					</tr>
+				</tbody>
+				<thead>
+					<tr>
+						<th>3.5. Modelos de contratos o pliegos tipo</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td width="65%">Documentos pliegos tipo que utiliza el proceso de gestión de compras públicas transparentes, Colombia Compra Eficiente  </td>
+						<td class="text-center">
+							<a class="btn btn-primary btn-block" href="https://www.colombiacompra.gov.co/documentos-tipo/documentos-tipo" target="_blank">Visitar página</a>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+		<!-- Collapsed 3 -->
+
+		<!-- Collapsed 4 -->
+		<button class="accordion">4. Presupuesto</button>
+		<div class="panel">
+			<table class="table table-bordered table-striped custom-table">
+				<thead>
+					<tr>
+						<th>4.1. Presupuesto general de ingresos, gastos e inversión.</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td width="65%">Presupuesto general de ingresos, gastos e inversión de cada año fiscal</td>
+						<td class="text-center">
+							<a class="btn btn-primary btn-block" href="https://app.gov.co/ejecuci%C3%B3n-presupuestal-hist%C3%B3rica-anual" target="_blank">Visitar página</a>
+						</td>
+					</tr>
+				</tbody>
+				<thead>
+					<tr>
+						<th>4.2. Ejecución presupuestal</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td width="65%">Ejecución presupuestal histórica anual</td>
+						<td class="text-center">
+							<a class="btn btn-primary btn-block" href="{{route('user.transparency.annual_budget')}}" target="_blank">Visitar página</a>
+						</td>
+					</tr>
+				</tbody>
+				<thead>
+					<tr>
+						<th>4.3. Plan de acción</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td width="65%">Plan de Acción Anual</td>
+						<td class="text-center">
+							<a class="btn btn-primary btn-block" href="{{route('user.transparency.planning.action_plan')}}" target="_blank">Visitar página</a>
+						</td>
+					</tr>
+					<tr>
+						<td width="65%">Plan indicativo</td>
+						<td class="text-center">
+							<a class="btn btn-primary btn-block" href="{{route('user.transparency.planning.indicativo')}}" target="_blank">Visitar página</a>
+						</td>
+					</tr>
+				</tbody>
+				<thead>
+					<tr>
+						<th>4.4. Proyectos de inversión</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td width="65%">Banco de proyectos</td>
+						<td class="text-center">
+							<a class="btn btn-primary btn-block" href="{{route('user.projects.index')}}" target="_blank">Visitar página</a>
+						</td>
+					</tr>
+				</tbody>
+				<thead>
+					<tr>
+						<th>4.5. Informes de empalme</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td width="65%">Informe de Gestión 2024 - German Schafer</td>
+						<td class="text-center">
+							<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/control/InformeGestión-GermanSchafer-2024.pdf')}}" target="_blank">Ver documento</a>
+						</td>
+					</tr>
+					<tr>
+						<td width="65%">Informe de Gestión 2020 - 2023 Rodrigo Foronda</td>
+						<td class="text-center">
+							<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/control/Formato-Informe-de-Gestión-2020-2023-RODRIGO-FORONDA.pdf')}}" target="_blank">Ver documento</a>
+						</td>
+					</tr>
+					<tr>
+						<td width="65%">Presentación Empalme Agencia APP 2019</td>
+						<td class="text-center">
+							<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/planning/Empalme2019.pdf')}}" target="_blank">Ver documento</a>
+						</td>
+					</tr>
+				<tbody>
+				<thead>
+					<tr>
+						<th>4.6. Información pública o relevante</th>
+						<th>Esta subcategoría no aplica para la Agencia APP. </th>
+					</tr>
+				</thead>
+				<thead>
+					<tr>
+						<th>4.7. Informes de gestión, evaluación y auditoría</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td width="65%">Informe enviado al Congreso/Asamblea/Concejo</td>
+						<td class="text-center">
+							<a class="btn btn-primary btn-block" href="{{route('user.transparency.control')}}" target="_blank">Visitar página</a>
+						</td>
+					</tr>
+					<tr>
+						<td width="65%">Informe de rendición de la cuenta fiscal a la Contraloría General de la República o a los organismos de control territorial, según corresponda. <span class="text-dark"><em>Sección</em> <b>Rendición de cuentas</b></span></td>
+						<td class="text-center">
+							<a class="btn btn-primary btn-block" href="{{route('user.transparency.control')}}" target="_blank">Visitar página</a>
+						</td>
+					</tr>
+					<tr>
+						<td width="65%">Informe de rendición de cuentas a los ciudadanos, incluyendo la respuesta a las solicitudes realizadas por los ciudadanos, antes y durante el ejercicio de rendición</td>
+						<td class="text-center">
+							<a class="btn btn-primary btn-block" href="{{route('user.transparency.cuentas')}}" target="_blank">Visitar página</a>
+						</td>
+					</tr>
+					<tr>
+						<td width="65%">Informes a organismos de inspección, vigilancia y control. <span class="text-dark"><em>Sección <b>Informes de auditoría interna</b></em></span></td>
+						<td class="text-center">
+							<a class="btn btn-primary btn-block" href="{{route('user.transparency.control')}}" target="_blank">Visitar página</a>
+						</td>
+					</tr>
+				</tbody>
+				<thead>
+					<tr>
+						<th>4.8. Informes de la oficina de control interno</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td width="65%">Informe pormenorizado del estado del control interno de acuerdo al artículo 9 de la Ley 1474 de 2011. <span class="text-dark"><em>Sección <b>Informes pormenorizado del Estado de Control Interno</b></em></span></td>
+						<td class="text-center">
+							<a class="btn btn-primary btn-block" href="{{route('user.transparency.control')}}" target="_blank">Visitar página</a>
+						</td>
+					</tr>
+				</tbody>
+				
+				<thead>
+					<tr>
+						<th>4.9. Informe sobre defensa pública y prevención de daño antijurídico</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td width="65%">2024</td>
+						<td class="text-center">
+							<a class="btn btn-primary btn-block" href="https://app.gov.co/assets/pdf/control/Informe-DefensaJudicial-2024.pdf" target="_blank">Ver documento</a>
+						</td>
+					</tr>
+					<tr>
+						<td width="65%">Historico</td>
+						<td class="text-center">
+							<a class="btn btn-primary btn-block" href="https://app.gov.co/transparencia/control" target="_blank">Visitar página</a>
+						</td>
+					</tr>
+				</tbody>
+				<thead>
+					<tr>
+						<th>4.10. Informes trimestrales sobre acceso a la información, quejas y reclamos</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td width="65%">Tercer Trimestre de 2024</td>
+						<td class="text-center">
+							<a class="btn btn-primary btn-block" href="https://app.gov.co/assets/pdf/pqrs/Informe-de-PQRSD-JulSept.pdf" target="_blank">Ver documento</a>
+						</td>
+					</tr>
+					<tr>
+						<td width="65%">Historico</td>
+						<td class="text-center">
+							<a class="btn btn-primary btn-block" href="https://app.gov.co/transparencia/control" target="_blank">Visitar página</a>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+		<!-- Collapsed 4 -->
+
+		<!-- Collapsed 5 -->
+		<button class="accordion">5. Trámites y servicios</button>
+		<div class="panel">
+			<table class="table table-bordered table-striped custom-table">
+				<tbody>
+					<tr>
+						<td width="65%">Información sobre trámites (normativa, procesos, costos y formatos). </td>
+						<td class="text-center">
+							<a class="btn btn-primary btn-block" href="{{route('user.transparency.suit')}}" target="_blank">Ver página</a>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+		<!-- Collapsed 5 -->
+
+		<!-- Collapsed 6 -->
+		<button class="accordion">6. Participa</button>
+		<div class="panel">
+			<table class="table table-bordered table-striped custom-table">
+			<thead>
+					<tr>
+						<th>6.1. Mecanismos de participación en la formulación de políticas y decisiones</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td width="65%">Participa es la sección donde encontrará toda la información relacionada con los espacios, mecanismos y acciones que permiten la participación ciudadana en el ciclo de la gestión pública; diagnóstico, formulación, implementación, evaluación y seguimiento a través del sitio web de la Agencia APP, con el propósito de vincular a la ciudadanía y demás grupos de interés en las decisiones y acciones públicas, para fortalecer la incidencia , la promoción y garantía de la participación como derecho.  </td>
+						<td class="text-center">
+							<a class="btn btn-primary btn-block" href="https://app.gov.co/participa" target="_blank">Ver página</a>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+		<!-- Collapsed 6 -->
+
+		<!-- Collapsed 7 -->
+		<button class="accordion">7. Datos Abiertos </button>
+		<div class="panel">
+			<table class="table table-bordered table-striped custom-table">
+				<thead>
+					<tr>
+						<th>7.1. Instrumentos de gestión de la información</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td width="65%">Registro de activos de información</td>
+						<td class="text-center">
+							<a class="btn btn-primary btn-block" href="https://www.datos.gov.co/login" target="_blank">Ver página</a>
+						</td>
+					</tr>
+					<tr>
+						<td width="65%">Índice de información clasificada y reservada</td>
+						<td class="text-center">
+							<a class="btn btn-primary btn-block" href="https://www.datos.gov.co/Trabajo/INDICE-DE-INFORMACI-N-CLASIFICADA-Y-RESERVADA/v9c3-nmht/about_data" target="_blank">Ver página</a>
+						</td>
+					</tr>
+					<tr>
+						<td width="65%">Esquema de publicación de información</td>
+						<td class="text-center">
+							<a class="btn btn-primary btn-block" href="https://www.datos.gov.co/" target="_blank">Ver página</a>
+						</td>
+					</tr>
+				</tbody>
+				<thead>
+					<tr>
+						<th>Tablas de Retención Documental</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td width="65%">Listado de series, con sus correspondientes tipos documentales, a las cuales se asigna el tiempo de permanencia en cada etapa del ciclo vital de los documentos</td>
+						<td class="text-center">
+							<a class="btn btn-primary btn-block" href="{{route('user.transparency.info_management')}}" target="_blank">Ver página</a>
+						</td>
+					</tr>
+					<tr>
+						<td width="65%">Adoptadas y actualizadas por medio de acto administrativo o documento equivalente de acuerdo con el régimen legal al sujeto obligado, de conformidad con lo establecido por el acuerdo No. 004 de 2013 del Archivo General de la Nación</td>
+						<td class="text-center">
+							<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/trdytvd.pdf')}}" target="_blank">Ver documento</a>
+						</td>
+					</tr>
+				</tbody>
+				<thead>
+					<tr>
+						<th>7.2. Sección de datos abiertos</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td width="65%"> Portal de Datos Abiertos</td>
+						<td class="text-center">
+							<a class="btn btn-primary btn-block" href="https://www.datos.gov.co/" target="_blank">Ver página</a>
+						</td>
+					</tr>
+					<tr>
+						<td width="65%">Monitoreo de las dinámicas y la gestión del Aprovechamiento Económico del Espacio Público en Medellín.</td>
+						<td class="text-center">
+							<a class="btn btn-primary btn-block" href="https://app.gov.co/proyectos/AEEP" target="_blank">Ver documento</a>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+		<!-- Collapsed 7 -->
+
+		<!-- Collapsed 8 -->
+		<button class="accordion">8. Información específica para grupos de interés</button>
+		<div class="panel">
+			<table class="table table-bordered table-striped custom-table">
+				<thead>
+					<tr>
+						<th>8.1. Información dirigida a niños, niñas y adolescentes</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td width="65%">Unidad de Niñez y Adolescencia – Secretaría de Inclusión Social y Familia. </td>
+						<td class="text-center">
+							<a class="btn btn-primary btn-block" href="https://www.medellin.gov.co/es/secretaria-de-inclusion-social-y-familia/subsecretaria-de-grupos-poblacionales/unidad-de-ninez/" target="_blank">Ver página</a>
+						</td>
+					</tr>
+				</tbody>
+				<thead>
+					<tr>
+						<th>8.2. Información para mujeres</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td width="65%">Secretaría de las Mujeres.</td>
+						<td class="text-center">
+							<a class="btn btn-primary btn-block" href="https://www.medellin.gov.co/es/secretaria-mujeres/" target="_blank">Ver página</a>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+		<!-- Collapsed 8 -->
+
+		<!-- Collapsed 9 -->
+		<button class="accordion">9. Obligaciones de reporte</button>
+		<div class="panel">
+			<table class="table table-bordered table-striped custom-table">
+				<thead>
+					<tr>
+						<th>9.1. Documentos y datos exigidos por normativa especial.</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td width="65%">Esta subcategoría no aplica para la Agencia APP.<br>La totalidad de las normas se encuentran en el Normograma anteriormente publicado. </td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+		<!-- Collapsed 9 -->
+
+		<!-- Collapsed 10 -->
+		<button class="accordion">10. Información tributaria (solo para entidades territoriales locales)</button>
+		<div class="panel">
+			<table class="table table-bordered table-striped custom-table">
+				<thead>
+					<tr>
+						<th>Esta subcategoría no aplica para la Agencia APP</th>
+					</tr>
+				</thead>
+			</table>
+		</div>
+		<!-- Collapsed 10 -->
+
+		
+
+
+	<!--  
 		<button class="accordion">1. Mecanismos de contacto</button>
 		<div class="panel">
 			<table class="table table-bordered table-striped custom-table">
@@ -1079,6 +1889,7 @@
 				</tbody>
 			</table>
 		</div>
+		-->
 	</div>
 	<footer class="vlt-single-post__footer">
 		<!--Post Tags-->

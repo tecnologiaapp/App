@@ -133,7 +133,7 @@ body.pojo-a11y-focusable a:focus{ outline-style: solid !important;	outline-width
 
     <!-- ======= Footer ======= -->
     <footer id="footer">
-
+      
 
 <div class="footer-top">
   <div class="container">
@@ -151,7 +151,7 @@ body.pojo-a11y-focusable a:focus{ outline-style: solid !important;	outline-width
 
       <div class="col-lg-3 col-md-6 footer-contact">
         <h4>Contacto</h4>
-        <p> <strong> Teléfono: </strong> +57 604 448 1740</p>
+        <p> <strong>Línea de servicio a la ciudadanía: <br></strong> +57 604 448 1740</p>
         <p> <strong>Información general:</strong>  info@app.gov.co</p>
         <p> <strong>Linea anticorrupción:</strong> +57 604 448 1740</p>
         <p style="text-align:left;"> <strong> Notificaciones judiciales:</strong> procesosjudiciales@app.gov.co</p>
@@ -182,6 +182,17 @@ body.pojo-a11y-focusable a:focus{ outline-style: solid !important;	outline-width
     </div>
   </div>
 </div>
+
+<div class="footer-top" style="background-color: #b3348a; padding-top: 17px !important; padding-bottom: 20px !important; ">
+  <div class="container">
+    <div style="display: flex; align-items: center; justify-content: space-between;">
+      <a href="https://app.gov.co/assets/pdf/pol%C3%ADtica-de-manejo-de-datos-personales.pdf" target="_blank"><p style="font-size: 14px; color: #FFF">Política de tratamiento de datos >></p></a> <span><p style="font-size: 14px; color: #FFF">|</p></span>
+      <a href="{{asset('assets/pdf/Términos-y-condiciones-de-uso-del-portal.pdf')}}" target="_blank"><p style="font-size: 14px; color: #FFF">Términos y condiciones >></p></a> <span><p style="font-size: 14px; color: #FFF">|</p></span>
+      <a href="{{asset('assets/pdf/Política-de-derechos-de-autor.pdf')}}" target="_blank" ><p style="font-size: 14px; color: #FFF">Políticas de derecho de autor >></p></a>
+    </div>
+  </div>
+</div>
+
 
 </footer><!-- End Footer -->
 <div class="bg-primary">

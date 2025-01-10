@@ -51,7 +51,7 @@
 						    <tr>
 								<td>Plan indicativo - Diciembre 2023</td>
 								<td>
-									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/planning/2024/Plan-Indicativo-Diciembre-31-de-2023-Dependencia-Definitivo-Agencia-APP.pdf')}}" target="_blank">Ver documento</a>
+									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/planning/2023/Plan-Indicativo-Diciembre-31-de-2023-Dependencia-Definitivo-Agencia-APP.pdf')}}" target="_blank">Ver documento</a>
 								</td>
 							</tr>
 							<tr>

@@ -10,20 +10,39 @@
 			</div>
 		</div>
 	</section>
-<div class="vlt-single-post-wrapper vlt-single-post-wrapper--style-1">
-		<div class="container">
-			<article class="vlt-single-post">
-				<div class="vlt-animation-block" data-aos="fade" data-aos-delay="0">
-					<h1><span class="subt-m">Misión</span></h1>
-				</div>
-				<p>Contribuir al desarrollo del municipio de Medellín, mediante el sostenimiento, la cualificación del paisaje urbano y el embellecimiento del sistema público-colectivo, la puesta en valor del patrimonio arquitectónico; el aprovechamiento de oportunidades inmobiliarias y la estructuración de proyectos de ciudad, mediante sinergias entre los sectores público y privado.</p>
-				<div class="vlt-animation-block" data-aos="fade" data-aos-delay="0">
-					<h1><span class="subt-m">Visión</span></h1>
-				</div>
-				<p>En 2025 seremos reconocidos en el departamento de Antioquia como un aliado estratégico para el desarrollo de proyectos de ciudad que buscan el mejoramiento del sistema público-colectivo a través del embellecimiento, la cualificación del paisaje urbano y la participación del sector privado.</p>
-			</article>
+	<section>
+		<div class="container mt-5 text-justify">
+			<div class="section-title"  style="padding-bottom: 0">
+				<h2>Misión</h2>
+			</div>
+			<p class="normal-text">Poner en valor el sistema público y colectivo de la ciudad, generando beneficio social y aumentando la inversión pública y privada.</p>
+			<br>
+			<div class="section-title" style="padding-bottom: 0">
+				<h2>Visión</h2>
+			</div>
+			<p class="normal-text">En el año 2034 seremos la entidad de mayor CONFIANZA Y EFICIENCIA de Medellín, para realizar alianzas Público-Privadas en PROYECTOS de ciudad.</p>
+			<br>
+			<div class="section-title"  style="padding-bottom: 0">
+				<h2>Principios de integridad</h2>
+			</div>
+			<p class="normal-text">La <b>transparencia</b> en todos sus actos, poniendo a disposición de los diferentes grupos de valor y de interés información clara, completa, veraz y oportuna sobre la gestión y ejecución de recursos.</p>
+			<p class="normal-text"><b>Servicio oportuno</b> y de utilidad que facilita las actividades internas y satisface las necesidades de los usuarios.</p>
+			<p class="normal-text">La <b>cooperación</b> entre la Agencia APP y sus aliados estratégicos; y en el trabajo en equipo, reconociendo y apreciando la singularidad de cada uno y de aquello que tiene para contribuir con los demás al esfuerzo común.</p>
+			<br>
+			<div class="section-title"  style="padding-bottom: 0">
+				<h2>Valores institucionales</h2>
+			</div>
+			<h1 class="subt-m">Confianza:</h1>
+			<p class="normal-text">Creemos firmemente en nosotros como equipo y en la importancia del trabajo colaborativo y participativo entre las entidades públicas, privadas y la sociedad.</p>
+			<br>
+			<h1 class="subt-m">Proactividad:</h1>
+			<p class="normal-text">Creemos firmemente en nosotros como equipo y en la importancia del trabajo colaborativo y participativo entre las entidades públicas, privadas y la sociedad.  </p>
+			<br>
+			<h1 class="subt-m">Transparencia:</h1>
+			<p class="normal-text">Actuamos con veracidad y transparencia, bajo parámetros éticos y de integralidad, propiciando el seguimiento y control por parte de las entidades que nos vigilan y la ciudadanía en general.</p>
 		</div>
-	</div>
+	</section>
+
 	<footer class="vlt-single-post__footer">
 		<!--Post Tags-->
 		<!--Post Share-->
