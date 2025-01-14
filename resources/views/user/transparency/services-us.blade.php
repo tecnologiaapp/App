@@ -7,7 +7,7 @@
 		<div class="vlt-page-title-hero vlt-page-title-hero--work vlt-page-title-hero--lg jarallax">
 			<div class="vlt-page-title-hero__overlay"></div><img alt="" class="jarallax-img" src="{{asset('assets/img/Banners/bannerContactenos.jpg')}}">
 			<div class="vlt-page-title-hero__content ocultPosition">
-				<h1 style="color:white;">Servicio a la ciudadania</h1>
+				<h1 style="color:white;">Servicio a la ciudadania Nueva</h1>
 			</div>
 		</div>
 	</section>

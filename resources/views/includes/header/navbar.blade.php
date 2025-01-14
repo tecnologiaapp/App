@@ -355,6 +355,68 @@
 						<span>Participa</span>
 					</a>
 				</li>
+
+
+
+
+
+				<li class="dropdown">
+				<a href="#"><span>Otro</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+                    <ul>
+						<li>
+							<a class="menu-sub-item" href="{{ route('user.transparency.verification') }}">
+								<span>Transparencia</span>
+							</a>
+						</li>
+						<li>
+							<a class="menu-sub-item" href="{{ route('user.projects.participa') }}">
+								<span>Participa</span>
+							</a>
+						</li>
+						<li>
+							<a class="menu-sub-item" href="https://issuu.com/agenciaappmed/docs/revista_rendici_n_de_cuentas_agencia_app" target="_blank">
+								<span>Rendición de cuentas 2023</span>
+							</a>
+						</li>
+						<li>
+							<a class="menu-sub-item" href="{{ route('user.rendition.cuentas-2022') }}">
+								<span>Rendición de cuentas 2022</span>
+							</a>
+						</li>
+						<li>
+							<a class="menu-sub-item" href="{{ route('user.rendition.cuentas-2021') }}">
+								<span>Rendición de cuentas 2021</span>
+							</a>
+						</li>
+						<li>
+							<a class="menu-sub-item" href="{{ route('user.rendition.cuentas') }}">
+								<span>Rendición de cuentas 2020</span>
+							</a>
+						</li>
+						<li>
+							<a class="menu-sub-item" href="{{ asset('assets/pdf/Rendicion-2019.pdf')}}" target="_blank">
+								<span>Rendición de cuentas 2019</span>
+							</a>
+						</li>
+						<li>
+							<a class="menu-sub-item" href="{{ asset('assets/pdf/Rendicion-2018.pdf')}}" target="_blank">
+								<span>Rendición de cuentas 2018</span>
+							</a>
+						</li>
+						<li>
+							<a class="menu-sub-item" href="{{ asset('assets/pdf/Rendicion-2017.pdf')}}" target="_blank">
+								<span>Rendición de cuentas 2017</span>
+							</a>
+						</li>
+						<li>
+							<a class="menu-sub-item" href="#" target="_blank">
+								<span>Nueva</span>
+							</a>
+						</li>
+
+					</ul>
+					
+				</li>
 				
 				
 			</ul>

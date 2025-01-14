@@ -82,6 +82,10 @@ Route::get('/transparencia/contacto', function () {
    return view('user.transparency.contact-us');
 })->name('user.transparency.contact-us');
 
+Route::get('/transparencia/servicios', function () {
+   return view('user.transparency.services-us');
+})->name('user.transparency.contact-us');
+
 Route::get('/transparencia/sistema-integrado-de-gestión', function () {
    return view('user.transparency.processes');
 })->name('user.transparency.processes');

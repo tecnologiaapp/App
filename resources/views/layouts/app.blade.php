@@ -141,7 +141,8 @@ body.pojo-a11y-focusable a:focus{ outline-style: solid !important;	outline-width
 
       <div class="col-lg-3 col-md-6 footer-contact">
         <h3>Agencia APP</h3>
-        <p>
+        <div style="width: 90%; height: 3px; background-color: #b33489; margin: auto;"></div>
+        <p style="margin-top: 20px">
         Medellin / Antioquia <br>
         Carrera 50 Nº 52-25, Piso 8 - Edificio La Naviera<br></p>
        <a href="{{ route('user.projects.mapa') }}"><p><strong>Mapa del sitio</strong></p></a>
@@ -151,17 +152,17 @@ body.pojo-a11y-focusable a:focus{ outline-style: solid !important;	outline-width
 
       <div class="col-lg-3 col-md-6 footer-contact">
         <h4>Contacto</h4>
-        <p> <strong>Línea de servicio a la ciudadanía: <br></strong> +57 604 448 1740</p>
-        <p> <strong>Información general:</strong>  info@app.gov.co</p>
-        <p> <strong>Linea anticorrupción:</strong> +57 604 448 1740</p>
-        <p style="text-align:left;"> <strong> Notificaciones judiciales:</strong> procesosjudiciales@app.gov.co</p>
+        <p style="text-align: left"> <strong>Línea de servicio a la ciudadanía: <br></strong> +57 604 448 1740</p>
+        <p style="text-align: left"> <strong>Información general:</strong>  info@app.gov.co</p>
+        <p style="text-align: left"> <strong>Linea anticorrupción:</strong> +57 604 448 1740</p>
+        <p style="text-align: left;"> <strong> Notificaciones judiciales:</strong> procesosjudiciales@app.gov.co</p>
      
       </div>
 
       <div class="col-lg-3 col-md-6 footer-contact">
         <h4>Horario de atención</h4>
-       <p> <strong> Lunes - Jueves: </strong> 7:30 AM a 12:30 PM y de 1:30 PM a 5:30 PM</p>
-       <p> <strong> Viernes: </strong> 7:30 AM a 12:30 PM y de 1:30 PM a 4:30 PM</p>
+       <p style="text-align: left"> <strong> Lunes - Jueves: </strong> 7:30 AM a 12:30 PM y de 1:30 PM a 5:30 PM</p>
+       <p style="text-align: left"> <strong> Viernes: </strong> 7:30 AM a 12:30 PM y de 1:30 PM a 4:30 PM</p>
      
       </div>
 
