@@ -72,7 +72,7 @@
 					<tr>
 						<td width="65%">Manual de Procesos y Procedimientos</td>
 						<td class="text-center">
-							<a class="btn btn-danger btn-block" href="https://app.gov.co/assets/pdf/manual-de-procesos-y-procedimientos.pdf" target="_blank">Ver documento</a>
+							<a class="btn btn-primary btn-block" href="https://app.gov.co/assets/pdf/manual-de-procesos-y-procedimientos.pdf" target="_blank">Ver documento</a>
 						</td>
 					</tr>
 				</tbody>
@@ -96,9 +96,41 @@
 				</thead>
 				<tbody>
 					<tr>
-						<td width="65%">Directorio de información de los servidores públicos y contratistas.</td>
+						<td width="65%">Directorio de información de servidores públicos y empleados:<br>Al ingresar al Sistema de la Función Pública, digite en el buscador Agencia para la Gestión del Paisaje, el Patrimonio y las Alianzas Publico Privadas o el nombre de cada funcionario.</td>
 						<td class="text-center">
-							<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/Directorio-Agencia-2024.pdf')}}" target="_blank">Ver documento</a>
+							<a class="btn btn-primary btn-block" href="https://www1.funcionpublica.gov.co/web/sigep2/directorio" target="_blank">Ver directorio</a>
+						</td>
+					</tr>
+				</tbody>
+				<tbody>
+					<tr>
+						<td width="65%">Informe de contratos de prestación de servicios de personas naturales.</td>
+						<td class="text-center">
+							<a class="btn btn-primary btn-block" href="https://app.gov.co/assets/pdf/Directorio-Agencia-2024.pdf" target="_blank">Ver documento</a>
+						</td>
+					</tr>
+				</tbody>
+				<tbody>
+					<tr>
+						<td width="65%">Correos y números de contacto de la entidad.</td>
+						<td class="text-center">
+							<a class="btn btn-primary btn-block" href="#" target="_blank">Ver documento</a>
+						</td>
+					</tr>
+				</tbody>
+				<tbody>
+					<tr>
+						<td width="65%">Escala salarial servidores públicos.</td>
+						<td class="text-center">
+							<a class="btn btn-primary btn-block" href="#" target="_blank">Ver documento</a>
+						</td>
+					</tr>
+				</tbody>
+				<tbody>
+					<tr>
+						<td width="65%">Tabla de honorarios contratistas.</td>
+						<td class="text-center">
+							<a class="btn btn-primary btn-block" href="#" target="_blank">Ver documento</a>
 						</td>
 					</tr>
 				</tbody>
@@ -111,7 +143,7 @@
 					<tr>
 						<td width="65%">Directorio de entidades</td>
 						<td class="text-center">
-							<a class="btn btn-primary btn-block" href="{{route('user.info.entity_directory')}}" target="_blank">Visitar página</a>
+							<a class="btn btn-primary btn-block" href="https://www.medellin.gov.co/es/gabinete/" target="_blank">Visitar página</a>
 						</td>
 					</tr>
 				</tbody>
@@ -140,15 +172,7 @@
 					<tr>
 						<td width="65%">Carta de trato digno a la ciudadanía</td>
 						<td class="text-center">
-							<a class="btn btn-primary btn-block" href="{{route('user.info.union_directory')}}" target="_blank">Ver documento</a>
-						</td>
-					</tr>
-				</tbody>
-				<tbody>
-					<tr>
-						<td width="65%">Manual de radicación de PQRSD</td>
-						<td class="text-center">
-							<a class="btn btn-primary btn-block" href="{{route('user.info.union_directory')}}" target="_blank">Ver documento</a>
+							<a class="btn btn-primary btn-block" href="#" target="_blank">Ver documento</a>
 						</td>
 					</tr>
 				</tbody>
@@ -156,7 +180,7 @@
 					<tr>
 						<td width="65%">Manual de servicios a la ciudadanía</td>
 						<td class="text-center">
-							<a class="btn btn-primary btn-block" href="{{route('user.info.union_directory')}}" target="_blank">Ver documento</a>
+							<a class="btn btn-primary btn-block" href="#" target="_blank">Ver documento</a>
 						</td>
 					</tr>
 				</tbody>
@@ -173,6 +197,8 @@
 						</td>
 					</tr>
 				</tbody>
+
+				<!-- 
 				<tbody>
 					<tr>
 						<td width="65%">Preguntas frecuentes</td>
@@ -181,11 +207,13 @@
 						</td>
 					</tr>
 				</tbody>
+				-->
+
 				<tbody>
 					<tr>
 						<td width="65%">Glosario</td>
 						<td class="text-center">
-							<a class="btn btn-primary btn-block" href="https://app.gov.co/assets/pdf/convocatorias/APP-2021.pdf" target="_blank">Visitar página</a>
+							<a class="btn btn-primary btn-block" href="https://app.gov.co/assets/pdf/convocatorias/APP-2021.pdf" target="_blank">Ver documento</a>
 						</td>
 					</tr>
 				</tbody>
@@ -204,9 +232,25 @@
 				</thead>
 				<tbody>
 					<tr>
-						<td width="65%">XXXX</td>
+						<td width="65%">Proyecto de ocupación Aprovechamiento Económico del Espacio Público – (Categoría Mesas y Sillas).</td>
 						<td class="text-center">
-							<a class="btn btn-primary btn-block" href="#" target="_blank">Visitar página</a>
+							<a class="btn btn-primary btn-block" href="#" target="_blank">Ver formulario</a>
+						</td>
+					</tr>
+				</tbody>
+				<tbody>
+					<tr>
+						<td width="65%">Aprobación intervenciones en inmuebles del Barrio Prado.</td>
+						<td class="text-center">
+							<a class="btn btn-primary btn-block" href="#" target="_blank">Ver formulario</a>
+						</td>
+					</tr>
+				</tbody>
+				<tbody>
+					<tr>
+						<td width="65%">Requisitos APP de iniciativa privada en etapa de prefactibilidad.</td>
+						<td class="text-center">
+							<a class="btn btn-primary btn-block" href="#" target="_blank">Ver formulario</a>
 						</td>
 					</tr>
 				</tbody>
@@ -310,9 +354,13 @@
 				<thead>
 					<tr>
 						<th>1.14. Publicación de hojas de vida</th>
-						<th>No aplica</th>
 					</tr>
 				</thead>
+				<tbody>
+					<tr>
+						<td width="65%">Publicación de hojas de vida: No Aplica. | Esta publicación, según el Decreto Nacional 1083 de 2015 es para las entidades del Nivel Nacional. No existe regulación en igual sentido para las del nivel Territorial. </td>
+					</tr>
+				</tbody>
 			
 			</table>
 		</div>

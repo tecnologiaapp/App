@@ -1,15 +1,16 @@
 <header id="header" class="fixed-top" style="position: absolute;">
 	<div class="bg-primary">
 		<div class="container-xl logo_menu_superior">
-			<div class="header-govco">
+			<div class="header-govco" style="display: flex; align-items: center; justify-content: space-between">
 				<a href="https://www.gov.co/" target="blank" title="Ir al portal GOV.CO">
 					<img src="https://www.mintic.gov.co/portal/715/channels-616_header_govco.png" alt="Imagen logo GovCo" class="img-fluid">
 					<span class="sr-only">Logo Gobierno de Colombia</span>
 				</a>
+				<div>Participa <span style="margin: 0 10px">|</span> Transparencia <span style="margin: 0 10px">|</span> Contacto <span style="margin: 0 10px">|</span> PQRSD</div>
 			</div>
 		</div>
 	</div>
-	<div class="container d-flex align-items-center" style="margin-left: 2px; justify-content: space-between;">
+	<div class="container d-flex align-items-center" style="justify-content: space-between;">
 		<a href="{{ url('/') }}">
 			<img class="logo me-auto" src="https://app.gov.co/assets/img/Proyectos/logo-landing.png" style=" width: 200px; height: 90px;">
 		</a>
@@ -222,14 +223,9 @@
 							</a></li>
 						<li><a class="menu-sub-item" href="{{ route('user.about.functions')}}">
 								<span>Funciones</span>
-							</a></li>
-
-					</ul>
-				</li>
-
-
-
-				<li class="dropdown"><a href="#"><span>Nuestro equipo</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+							</a>
+						</li>
+						<li class="dropdown"><a href="#"><span>Nuestro equipo</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
 					<ul>
 						<li>
 							<a href="{{ route('user.about.team') }}">
@@ -260,8 +256,23 @@
 					</ul>
 				</li>
 
-				<li class="dropdown"><a href="#"><span>Transparencia</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
-					<ul>
+
+					</ul>
+				</li>
+
+
+
+				
+
+				<li class="dropdown">
+				<a href="https://app.gov.co/transparencia/general  ">
+						<span>Transparencia</span>
+					</a>
+					
+				
+				<!--
+				<a href="#"><span>Transparencia</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+                    <ul>
 						<li>
 							<a class="menu-sub-item" href="{{ route('user.transparency.verification') }}">
 								<span>Transparencia</span>
@@ -309,6 +320,7 @@
 						</li>
 
 					</ul>
+					-->
 				</li>
               
 				<li class="dropdown"><a href="#"><span>Sala de prensa</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
@@ -334,7 +346,7 @@
 
 				<li>
 					<a href="{{ route('user.transparency.contact-us') }}">
-						<span>Contáctanos</span>
+						<span>Servicio a la ciudadania</span>
 					</a>
 				</li>
 

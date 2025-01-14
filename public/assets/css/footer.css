@@ -488,7 +488,8 @@ header .recuadro img {
   
   #footer .footer-top {
 	padding: 60px 0 30px 0;
-	background: #fff;
+	background: #fafafa;
+  border-top: solid 1px #f1f1f1;
   }
   
   #footer .footer-top .footer-contact {
