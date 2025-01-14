@@ -1,3 +1,37 @@
+<style>
+.top-bar-nav {
+	display: flex;
+	gap: 10px;
+	align-items: center;
+	justify-content: end;
+}
+
+.top-bar-nav p {
+	color: #FFF;
+	font-size: 14px;
+	margin-bottom: 0;
+}
+
+.top-bar-nav p a {
+	color: #FFF;
+	font-size: 14px;
+	margin-bottom: 0;
+}
+
+.top-bar-nav p a:hover {
+	color: #000;
+	font-size: 14px;
+	margin-bottom: 0;
+}
+
+.separador-nav-top {
+	width: 1px;
+	height: 15px;
+	background-color: #ffffff;
+}
+	
+</style>
+
 <header id="header" class="fixed-top" style="position: absolute;">
 	<div class="bg-primary">
 		<div class="container-xl logo_menu_superior">
@@ -6,7 +40,9 @@
 					<img src="https://www.mintic.gov.co/portal/715/channels-616_header_govco.png" alt="Imagen logo GovCo" class="img-fluid">
 					<span class="sr-only">Logo Gobierno de Colombia</span>
 				</a>
-				<div>Participa <span style="margin: 0 10px">|</span> Transparencia <span style="margin: 0 10px">|</span> Contacto <span style="margin: 0 10px">|</span> PQRSD</div>
+				<div class="top-bar-nav">
+					<p><a href="{{ route('user.projects.participa') }}">Participa</a></p> <span class="separador-nav-top"></span> <p><a href="{{ route('user.transparency.verification') }}">Transparencia</a></p> <span class="separador-nav-top"></span> <p><a href="{{ route('user.transparency.contact-us') }}">Servicio a la ciudadania</a></p> <span class="separador-nav-top"></span> <p><a href="http://mercurioapp.medellin.gov.co/mercurio/inicialPqr.jsp">PQRSD</a></p>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -19,7 +55,55 @@
 			<ul>
 				<li><a href="{{ url('/') }}">Inicio</a></li>
 
-				<li class="dropdown btn-book-a-table" style="margin-left: 9px; margin-right: 8px;"><a href="#" class="getstarted scrollto"><span>Proyectos</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+				<li>
+				<li class="dropdown"><a href="#"><span>Somos APP</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+					<ul>
+						<li><a href="{{ route('user.about.history') }}">
+								<span>Historia</span>
+							</a></li>
+						<li><a href="{{ route('user.about.mision')}}">
+								<span>Misión y visión</span>
+							</a></li>
+						<li><a class="menu-sub-item" href="{{ route('user.about.functions')}}">
+								<span>Funciones</span>
+							</a>
+						</li>
+						<li class="dropdown"><a href="#"><span>Nuestro equipo</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+					<ul>
+						<li>
+							<a href="{{ route('user.about.team') }}">
+								<span>Director General</span>
+							</a>
+						</li>
+						<li>
+							<a href="{{ route('user.subdirectors.app') }}">
+								<span>Subdirector de Alianzas Público Privadas</span>
+							</a>
+						</li>
+						<li>
+							<a href="{{ route('user.subdirectors.landscape') }}">
+								<span>Subdirector de Paisaje y Patrimonio</span>
+							</a>
+						</li>
+						<li>
+							<a href="{{ route('user.subdirectors.inmo') }}">
+								<span>Subdirectora de Gestión Inmobiliaria </span>
+							</a>
+						</li>
+						<li>
+							<a href="{{ route('user.subdirectors.tecnical') }}">
+								<span>Director Tecnico u Operativo</span>
+							</a>
+						</li>
+
+					</ul>
+				</li>
+
+
+					</ul>
+				</li>
+
+				<li class="dropdown btn-book-a-table"><a href="#" class="getstarted scrollto"><span>Proyectos</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
 					<ul>
 
 						<li class="dropdown"><a href="{{ route('user.projects.app') }}"><span>Gestión de Asociaciones Público Privadas - APP</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
@@ -212,65 +296,19 @@
 
 				</li>
 
-				<li>
-				<li class="dropdown"><a href="#"><span>Somos APP</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
-					<ul>
-						<li><a href="{{ route('user.about.history') }}">
-								<span>Historia</span>
-							</a></li>
-						<li><a href="{{ route('user.about.mision')}}">
-								<span>Misión y visión</span>
-							</a></li>
-						<li><a class="menu-sub-item" href="{{ route('user.about.functions')}}">
-								<span>Funciones</span>
-							</a>
-						</li>
-						<li class="dropdown"><a href="#"><span>Nuestro equipo</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
-					<ul>
-						<li>
-							<a href="{{ route('user.about.team') }}">
-								<span>Director General</span>
-							</a>
-						</li>
-						<li>
-							<a href="{{ route('user.subdirectors.app') }}">
-								<span>Subdirector de Alianzas Público Privadas</span>
-							</a>
-						</li>
-						<li>
-							<a href="{{ route('user.subdirectors.landscape') }}">
-								<span>Subdirector de Paisaje y Patrimonio</span>
-							</a>
-						</li>
-						<li>
-							<a href="{{ route('user.subdirectors.inmo') }}">
-								<span>Subdirectora de Gestión Inmobiliaria </span>
-							</a>
-						</li>
-						<li>
-							<a href="{{ route('user.subdirectors.tecnical') }}">
-								<span>Director Tecnico u Operativo</span>
-							</a>
-						</li>
-
-					</ul>
-				</li>
-
-
-					</ul>
-				</li>
+				
 
 
 
 				
-
+                <!--
 				<li class="dropdown">
-				<a href="https://app.gov.co/transparencia/general  ">
+				<a href="https://app.gov.co/transparencia/general">
 						<span>Transparencia</span>
 					</a>
 					
 				
-				<!--
+				
 				<a href="#"><span>Transparencia</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
                     <ul>
 						<li>
@@ -344,79 +382,8 @@
 					</ul>
 				</li>
 
-				<li>
-					<a href="{{ route('user.transparency.contact-us') }}">
-						<span>Servicio a la ciudadania</span>
-					</a>
-				</li>
-
-                <li>
-					<a href="https://app.gov.co/participa">
-						<span>Participa</span>
-					</a>
-				</li>
-
-
-
-
-
-				<li class="dropdown">
-				<a href="#"><span>Otro</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
-                    <ul>
-						<li>
-							<a class="menu-sub-item" href="{{ route('user.transparency.verification') }}">
-								<span>Transparencia</span>
-							</a>
-						</li>
-						<li>
-							<a class="menu-sub-item" href="{{ route('user.projects.participa') }}">
-								<span>Participa</span>
-							</a>
-						</li>
-						<li>
-							<a class="menu-sub-item" href="https://issuu.com/agenciaappmed/docs/revista_rendici_n_de_cuentas_agencia_app" target="_blank">
-								<span>Rendición de cuentas 2023</span>
-							</a>
-						</li>
-						<li>
-							<a class="menu-sub-item" href="{{ route('user.rendition.cuentas-2022') }}">
-								<span>Rendición de cuentas 2022</span>
-							</a>
-						</li>
-						<li>
-							<a class="menu-sub-item" href="{{ route('user.rendition.cuentas-2021') }}">
-								<span>Rendición de cuentas 2021</span>
-							</a>
-						</li>
-						<li>
-							<a class="menu-sub-item" href="{{ route('user.rendition.cuentas') }}">
-								<span>Rendición de cuentas 2020</span>
-							</a>
-						</li>
-						<li>
-							<a class="menu-sub-item" href="{{ asset('assets/pdf/Rendicion-2019.pdf')}}" target="_blank">
-								<span>Rendición de cuentas 2019</span>
-							</a>
-						</li>
-						<li>
-							<a class="menu-sub-item" href="{{ asset('assets/pdf/Rendicion-2018.pdf')}}" target="_blank">
-								<span>Rendición de cuentas 2018</span>
-							</a>
-						</li>
-						<li>
-							<a class="menu-sub-item" href="{{ asset('assets/pdf/Rendicion-2017.pdf')}}" target="_blank">
-								<span>Rendición de cuentas 2017</span>
-							</a>
-						</li>
-						<li>
-							<a class="menu-sub-item" href="#" target="_blank">
-								<span>Nueva</span>
-							</a>
-						</li>
-
-					</ul>
-					
-				</li>
+				
+				
 				
 				
 			</ul>

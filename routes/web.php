@@ -84,7 +84,7 @@ Route::get('/transparencia/contacto', function () {
 
 Route::get('/transparencia/servicios', function () {
    return view('user.transparency.services-us');
-})->name('user.transparency.contact-us');
+})->name('user.transparency.services-us');
 
 Route::get('/transparencia/sistema-integrado-de-gestión', function () {
    return view('user.transparency.processes');
@@ -710,6 +710,10 @@ Route::get('/Prensa/album13', function(){
 Route::get('/participa', function(){
    return view('user.projects.participa');
 }) ->name('user.projects.participa');
+
+Route::get('/rendicioncuentas', function(){
+   return view('user.projects.surrender');
+}) ->name('user.projects.surrender');
 
 Route::get('/sig', function(){
    return view('user.projects.sig');

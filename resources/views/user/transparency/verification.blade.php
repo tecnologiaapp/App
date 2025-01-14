@@ -122,7 +122,7 @@
 					<tr>
 						<td width="65%">Escala salarial servidores públicos.</td>
 						<td class="text-center">
-							<a class="btn btn-primary btn-block" href="#" target="_blank">Ver documento</a>
+							<a class="btn btn-primary btn-block" href="{{ asset('assets/pdf/Resolución-034-reajuste-incremento-salarial')}}" target="_blank">Ver documento</a>
 						</td>
 					</tr>
 				</tbody>
@@ -130,7 +130,7 @@
 					<tr>
 						<td width="65%">Tabla de honorarios contratistas.</td>
 						<td class="text-center">
-							<a class="btn btn-primary btn-block" href="#" target="_blank">Ver documento</a>
+							<a class="btn btn-primary btn-block" href="{{ asset('assets/pdf/Resolucion-002-tabla-de-honorarios')}}" target="_blank">Ver documento</a>
 						</td>
 					</tr>
 				</tbody>
@@ -172,7 +172,7 @@
 					<tr>
 						<td width="65%">Carta de trato digno a la ciudadanía</td>
 						<td class="text-center">
-							<a class="btn btn-primary btn-block" href="#" target="_blank">Ver documento</a>
+							<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/Carta-de-trato-digno.pdf')}}" target="_blank">Ver documento</a>
 						</td>
 					</tr>
 				</tbody>
@@ -180,7 +180,7 @@
 					<tr>
 						<td width="65%">Manual de servicios a la ciudadanía</td>
 						<td class="text-center">
-							<a class="btn btn-primary btn-block" href="#" target="_blank">Ver documento</a>
+							<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/Carta-de-trato-digno.pdf')}}" target="_blank">Ver documento</a>
 						</td>
 					</tr>
 				</tbody>
@@ -250,7 +250,7 @@
 					<tr>
 						<td width="65%">Requisitos APP de iniciativa privada en etapa de prefactibilidad.</td>
 						<td class="text-center">
-							<a class="btn btn-primary btn-block" href="#" target="_blank">Ver formulario</a>
+							<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/Checklist-APP-iniciativa-privada.pdf')}}" target="_blank">Ver formulario</a>
 						</td>
 					</tr>
 				</tbody>
@@ -305,7 +305,7 @@
 					<tr>
 						<td width="65%">Acuerdo 48 de 2014</td>
 						<td class="text-center">
-							<a class="btn btn-primary btn-block" href="#" target="_blank">Ver documento</a>
+							<a class="btn btn-primary btn-block" href="https://www.medellin.gov.co/normograma/docs/astrea/docs/a_conmed_0048_2014.htm" target="_blank">Ver documento</a>
 						</td>
 					</tr>
 				</tbody>
@@ -313,7 +313,7 @@
 					<tr>
 						<td width="65%">Acuerdo 46 de 2006</td>
 						<td class="text-center">
-							<a class="btn btn-primary btn-block" href="#" target="_blank">Ver documento</a>
+							<a class="btn btn-primary btn-block" href="https://www.medellin.gov.co/normograma/docs/astrea/docs/a_conmed_0046_2006.htm" target="_blank">Ver documento</a>
 						</td>
 					</tr>
 				</tbody>
@@ -321,7 +321,7 @@
 					<tr>
 						<td width="65%">Acuerdo 062 de 1999</td>
 						<td class="text-center">
-							<a class="btn btn-primary btn-block" href="#" target="_blank">Ver documento</a>
+							<a class="btn btn-primary btn-block" href="https://www.medellin.gov.co/normograma/docs/astrea/docs/A_CONMED_0062_1999.htm" target="_blank">Ver documento</a>
 						</td>
 					</tr>
 				</tbody>
