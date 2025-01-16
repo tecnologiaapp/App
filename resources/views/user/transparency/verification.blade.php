@@ -4,6 +4,9 @@
 
 <style>
 
+.accordion {
+	font-family: "Jost", sans-serif !important;
+}
 
 
 </style>
@@ -84,6 +87,7 @@
 						<li><a href="{{asset('assets/pdf/Carta-de-trato-digno.pdf')}}" target="_blank">Manual de servicios a la ciudadanía >></a></li>
 					</ul>
 				</li>
+				<br>
 				<li><h5>1.8.2. Normas</h5>
 					<ul>
 						<li><a href="https://www.medellin.gov.co/normograma/docs/astrea/herramientas_busqueda.html" target="_blank">ASTREA, Biblioteca Jurídica Virtual. Compendio normativo del Distrito de Medellín – Búsqueda de normatividad de la entidad o autoridad >></a></li>
@@ -91,6 +95,7 @@
 						<li><a href="https://app.gov.co/assets/pdf/normograma.pdf" target="_blank">Normograma >></a></li>
 					</ul>
 				</li>
+				<br>
 				<li><h5>1.8.3. Formularios</h5>
 					<ul>
 						<li><a href="#" target="_blank">Proyecto de ocupación Aprovechamiento Económico del Espacio Público – (Categoría Mesas y Sillas) >></a></li>
@@ -124,6 +129,7 @@
 						<li><a href="https://www.medellin.gov.co/normograma/docs/astrea/docs/A_CONMED_0062_1999.htm" target="_blank">Acuerdo 062 de 1999 >></a></li>
 					</ul>
 				</li>
+				<br>
 				<li><h5>Planes de Desarrollo Distrital</h5>
 					<ul>
 						<li><a href="https://www.medellin.gov.co/es/plan-de-desarrollo/" target="_blank"></a>Medellín Te Quiere 2024 – 2027 >></li>

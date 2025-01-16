@@ -308,15 +308,13 @@
 
 
 				
-                <!--
+                
 				<li class="dropdown">
-				<a href="https://app.gov.co/transparencia/general">
-						<span>Transparencia</span>
-					</a>
+				
 					
 				
 				
-				<a href="#"><span>Transparencia</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+				<a href="#"><span>Transparencia oculto</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
                     <ul>
 						<li>
 							<a class="menu-sub-item" href="{{ route('user.transparency.verification') }}">
@@ -365,7 +363,7 @@
 						</li>
 
 					</ul>
-					-->
+					
 				</li>
               
 				<li class="dropdown"><a href="#"><span>Sala de prensa</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
