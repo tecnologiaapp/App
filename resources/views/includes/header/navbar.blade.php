@@ -1,4 +1,5 @@
 <style>
+
 .top-bar-nav {
 	display: flex;
 	gap: 10px;
@@ -41,7 +42,13 @@
 					<span class="sr-only">Logo Gobierno de Colombia</span>
 				</a>
 				<div class="top-bar-nav">
-					<p><a href="{{ route('user.projects.participa') }}">Participa</a></p> <span class="separador-nav-top"></span> <p><a href="{{ route('user.transparency.verification') }}">Transparencia</a></p> <span class="separador-nav-top"></span> <p><a href="{{ route('user.transparency.contact-us') }}">Servicio a la ciudadania</a></p> <span class="separador-nav-top"></span> <p><a href="http://mercurioapp.medellin.gov.co/mercurio/inicialPqr.jsp">PQRSD</a></p>
+					<p><a href="{{ route('user.transparency.verification') }}">Transparencia</a></p>
+					<span class="separador-nav-top"></span>
+					<p><a href="{{ route('user.transparency.contact-us') }}">Servicio a la ciudadania</a></p>
+					<span class="separador-nav-top"></span>
+					<p><a href="{{ route('user.projects.participa') }}">Participa</a> </p>
+					<span class="separador-nav-top"></span>
+					<p><a href="http://mercurioapp.medellin.gov.co/mercurio/inicialPqr.jsp">PQRSD</a></p>
 				</div>
 			</div>
 		</div>
@@ -106,7 +113,7 @@
 				<li class="dropdown btn-book-a-table"><a href="#" class="getstarted scrollto"><span>Proyectos</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
 					<ul>
 
-						<li class="dropdown"><a href="{{ route('user.projects.app') }}"><span>Gestión de Asociaciones Público Privadas - APP</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+						<li class="dropdown"><a href="{{ route('user.projects.app') }}"><span>Gestión - APP</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
 							<ul>
 								<li>
 									<a href="{{ route('user.projects.app') }}">
@@ -382,9 +389,6 @@
 					</ul>
 				</li>
 
-				
-				
-				
 				
 			</ul>
 
