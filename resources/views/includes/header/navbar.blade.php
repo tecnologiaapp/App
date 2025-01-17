@@ -62,54 +62,6 @@
 			<ul>
 				<li><a href="{{ url('/') }}">Inicio</a></li>
 
-				<li>
-				<li class="dropdown"><a href="#"><span>Somos APP</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
-					<ul>
-						<li><a href="{{ route('user.about.history') }}">
-								<span>Historia</span>
-							</a></li>
-						<li><a href="{{ route('user.about.mision')}}">
-								<span>Misión y visión</span>
-							</a></li>
-						<li><a class="menu-sub-item" href="{{ route('user.about.functions')}}">
-								<span>Funciones</span>
-							</a>
-						</li>
-						<li class="dropdown"><a href="#"><span>Nuestro equipo</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
-					<ul>
-						<li>
-							<a href="{{ route('user.about.team') }}">
-								<span>Director General</span>
-							</a>
-						</li>
-						<li>
-							<a href="{{ route('user.subdirectors.app') }}">
-								<span>Subdirector de Alianzas Público Privadas</span>
-							</a>
-						</li>
-						<li>
-							<a href="{{ route('user.subdirectors.landscape') }}">
-								<span>Subdirector de Paisaje y Patrimonio</span>
-							</a>
-						</li>
-						<li>
-							<a href="{{ route('user.subdirectors.inmo') }}">
-								<span>Subdirectora de Gestión Inmobiliaria </span>
-							</a>
-						</li>
-						<li>
-							<a href="{{ route('user.subdirectors.tecnical') }}">
-								<span>Director Tecnico u Operativo</span>
-							</a>
-						</li>
-
-					</ul>
-				</li>
-
-
-					</ul>
-				</li>
-
 				<li class="dropdown btn-book-a-table"><a href="#" class="getstarted scrollto"><span>Proyectos</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
 					<ul>
 
@@ -303,68 +255,63 @@
 
 				</li>
 
+				<li>
+				<li class="dropdown"><a href="#"><span>Somos APP</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+					<ul>
+						<li><a href="{{ route('user.about.history') }}">
+								<span>Historia</span>
+							</a></li>
+						<li><a href="{{ route('user.about.mision')}}">
+								<span>Misión y visión</span>
+							</a></li>
+						<li><a class="menu-sub-item" href="{{ route('user.about.functions')}}">
+								<span>Funciones</span>
+							</a>
+						</li>
+						<li class="dropdown"><a href="#"><span>Nuestro equipo</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+					<ul>
+						<li>
+							<a href="{{ route('user.about.team') }}">
+								<span>Director General</span>
+							</a>
+						</li>
+						<li>
+							<a href="{{ route('user.subdirectors.app') }}">
+								<span>Subdirector de Alianzas Público Privadas</span>
+							</a>
+						</li>
+						<li>
+							<a href="{{ route('user.subdirectors.landscape') }}">
+								<span>Subdirector de Paisaje y Patrimonio</span>
+							</a>
+						</li>
+						<li>
+							<a href="{{ route('user.subdirectors.inmo') }}">
+								<span>Subdirectora de Gestión Inmobiliaria </span>
+							</a>
+						</li>
+						<li>
+							<a href="{{ route('user.subdirectors.tecnical') }}">
+								<span>Director Tecnico u Operativo</span>
+							</a>
+						</li>
+
+					</ul>
+				</li>
+
+
+					</ul>
+				</li>
+
+				
+
 				
 
 
 
 				
                 
-				<li class="dropdown">
 				
-					
-				
-				
-				<a href="#"><span>Transparencia oculto</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
-                    <ul>
-						<li>
-							<a class="menu-sub-item" href="{{ route('user.transparency.verification') }}">
-								<span>Transparencia</span>
-							</a>
-						</li>
-						<li>
-							<a class="menu-sub-item" href="{{ route('user.projects.participa') }}">
-								<span>Participa</span>
-							</a>
-						</li>
-						<li>
-							<a class="menu-sub-item" href="https://issuu.com/agenciaappmed/docs/revista_rendici_n_de_cuentas_agencia_app" target="_blank">
-								<span>Rendición de cuentas 2023</span>
-							</a>
-						</li>
-						<li>
-							<a class="menu-sub-item" href="{{ route('user.rendition.cuentas-2022') }}">
-								<span>Rendición de cuentas 2022</span>
-							</a>
-						</li>
-						<li>
-							<a class="menu-sub-item" href="{{ route('user.rendition.cuentas-2021') }}">
-								<span>Rendición de cuentas 2021</span>
-							</a>
-						</li>
-						<li>
-							<a class="menu-sub-item" href="{{ route('user.rendition.cuentas') }}">
-								<span>Rendición de cuentas 2020</span>
-							</a>
-						</li>
-						<li>
-							<a class="menu-sub-item" href="{{ asset('assets/pdf/Rendicion-2019.pdf')}}" target="_blank">
-								<span>Rendición de cuentas 2019</span>
-							</a>
-						</li>
-						<li>
-							<a class="menu-sub-item" href="{{ asset('assets/pdf/Rendicion-2018.pdf')}}" target="_blank">
-								<span>Rendición de cuentas 2018</span>
-							</a>
-						</li>
-						<li>
-							<a class="menu-sub-item" href="{{ asset('assets/pdf/Rendicion-2017.pdf')}}" target="_blank">
-								<span>Rendición de cuentas 2017</span>
-							</a>
-						</li>
-
-					</ul>
-					
-				</li>
               
 				<li class="dropdown"><a href="#"><span>Sala de prensa</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
 					<ul>
@@ -386,6 +333,8 @@
 
 					</ul>
 				</li>
+
+				<li><a href="{{ route('user.transparency.contact-us') }}">Servicio a la ciudadania</a></li>
 
 				
 			</ul>

@@ -617,3 +617,12 @@ header .recuadro img {
 	  padding-top: 4px;
 	}
   }
+
+.buttom-whatsapp {
+	width: 200px;
+	height: 200px;
+	background-color: #25d366;
+	position: fixed; 
+  z-index: 2000;
+	color: #000;
+}

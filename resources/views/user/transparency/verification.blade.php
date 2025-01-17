@@ -478,19 +478,20 @@
 		<!-- Collapsed 1 -->
 
 		<!-- Collapsed 2 -->
-		<button class="accordion">2. Normatividad</button>
+		<button class="accordion">2. Normatividad de la Agencia APP</button>
 		<div class="panel">
 			<H1 class="subt-m">2.1. Normativa de la entidad</H1>
 			<ul>
-				<li><a href="{{asset('assets/pdf/normograma.pdf')}}" target="_blank">Normograma</a></li>
-				<li><a href="{{route('user.administrative-acts')}}" target="_blank">Actos administrativos</a></li>
-				<li><a href="{{route('user.administrative-acts')}}" target="_blank">Gaceta Oficial Distrito de Medellín</a></li>
+				<li><a href="{{asset('assets/pdf/normograma.pdf')}}" target="_blank">Normograma >></a></li>
+				<li><a href="{{route('user.administrative-acts')}}" target="_blank">Actos Administrativos Propios >></a></li>
+				<li><a href="{{route('user.administrative-acts')}}" target="_blank">Gaceta Oficial Distrito de Medellín >></a></li>
+				<li><a href="#">Políticas, lineamientos y manuales >></a></li>
 			</ul>
 			<br>
 			<H1 class="subt-m">2.2. Búsqueda de normas</H1>
 			<ul>
-				<li><a href="https://www.medellin.gov.co/irj/portal/medellin?NavigationTarget=navurl://ad0112085c36a7718f46d9dba43bbe60" target="_blank">Biblioteca jurídica virtual del Distrito de Medellín</a></li>
-				<li><a href="https://www.suin-juriscol.gov.co/" target="_blank"></a>Sistema Único de Información Normativa – SUIN</li>
+				<li><a href="https://www.medellin.gov.co/irj/portal/medellin?NavigationTarget=navurl://ad0112085c36a7718f46d9dba43bbe60" target="_blank">ASTREA - Biblioteca jurídica virtual del Distrito de Medellín >></a></li>
+				<li><a href="https://www.suin-juriscol.gov.co/" target="_blank">Sistema Único de Información Normativa – SUIN >></a></li>
 			</ul>
 			<br>
 			<H1 class="subt-m">2.3. Proyectos normativos para comentarios</H1>
@@ -556,34 +557,42 @@
 		<!-- Collapsed 3 -->
 		<button class="accordion">3. Contratación</button>
 		<div class="panel">
-			<H1 class="subt-m">3.1. Plan anual de adquisiciones</H1>
+			<h1 class="subt-m">3.1. Plan anual de adquisiciones</h1>
 			<ul>
-				<li><a href="{{route('user.transparency.annual_procurement_plan')}}" target="_blank">Plan Anual de Adquisiciones (PAA)</a></li>
+				<li><a href="{{route('user.transparency.annual_procurement_plan')}}" target="_blank">Plan Anual de Adquisiciones (PAA) >></a></li>
 			</ul>
 			<br>
-			<H1 class="subt-m">3.2. Información contractual</H1>
+			<h1 class="subt-m">3.2. Información contractual</h1>
 			<ul>
-				<li><a href="https://community.secop.gov.co/Public/App/AnnualPurchasingPlanManagementPublic/Index?currentLanguage=en&Page=login&Country=CO&SkinName=CCE" target="_blank">Enlace que direccione al PAA publicado en el SECOP</a></li>
+				<li><a href="https://community.secop.gov.co/Public/App/AnnualPurchasingPlanManagementPublic/Index?currentLanguage=en&Page=login&Country=CO&SkinName=CCE" target="_blank">Enlace que direccione al PAA publicado en el SECOP >></a></li>
+				<li><a href="https://www.colombiacompra.gov.co/secop/secop-i " target="_blank">SECOP I >></a></li>
+				<li><a href="https://www.colombiacompra.gov.co/secop-ii" target="_blank">SECOP II >></a></li>
+			</ul>
+			<p><p>Consulta de compras a través de la Tienda Virtual del Estado Colombiano – Colombia Compra Eficiente, debe una vez ingrese al link digitar en el campo entidad estatal «Agencia para la Gestión del Paisaje, el Patrimonio y las Alianzas Publico Privadas» y luego dar clic en buscar.</p></p>
+			<br>
+			<h1 class="subt-m">3.3. Publicación de la ejecución de contratos</h1>
+			<ul>
+			<li><a href="#" target="_blank">Ejecución de contratos 2025 >></a></li>
+				<li><a href="{{asset('assets/pdf/8. Contratacion/RELACIÓN-DE-CONTRATOS-31-JULIO-2024.pdf')}}" target="_blank">Ejecución de contratos 2024 >></a></li>
+				<li><a href="{{asset('assets/pdf/4. REPORTE CONTRATOS VIGENCIA 2023.pdf')}}" target="_blank">Ejecución de contratos 2023 >></a></li>
+				<li><a href="{{asset('assets/pdf/3. REPORTE CONTRATOS VIGENCIA 2022.pdf')}}" target="_blank">Ejecución de contratos 2022 >></a></li>
+				<li><a href="{{asset('assets/pdf/2. REPORTE CONTRATOS VIGENCIA 2021.pdf')}}" target="_blank">Ejecución de contratos 2021 >></a></li>
+				<li><a href="{{asset('assets/pdf/1. REPORTE CONTRATOS VIGENCIA 2020.pdf')}}" target="_blank">Ejecución de contratos 2020 >></a></li>
+				<li><a href="{{asset('assets/pdf/5. REPORTE CONVENIOS INTERADMINISTRATIVOS $0 (2020-2023).pdf')}}" target="_blank">Convenios interadministrativos (2020 - 2023) >></a></li>
 			</ul>
 			<br>
-			<H1 class="subt-m">3.3. Publicación de la ejecución de contratos</H1>
+			<h1 class="subt-m">3.4. Manual de contratación, adquisición y compras</h1>
 			<ul>
-				<li><a href="{{asset('assets/pdf/8. Contratacion/RELACIÓN-DE-CONTRATOS-31-JULIO-2024.pdf')}}" target="_blank">Ejecución de contratos 2024</a></li>
-				<li><a href="{{asset('assets/pdf/4. REPORTE CONTRATOS VIGENCIA 2023.pdf')}}" target="_blank">Ejecución de contratos 2023</a></li>
-				<li><a href="{{asset('assets/pdf/3. REPORTE CONTRATOS VIGENCIA 2022.pdf')}}" target="_blank">Ejecución de contratos 2022</a></li>
-				<li><a href="{{asset('assets/pdf/2. REPORTE CONTRATOS VIGENCIA 2021.pdf')}}" target="_blank">Ejecución de contratos 2021</a></li>
-				<li><a href="{{asset('assets/pdf/1. REPORTE CONTRATOS VIGENCIA 2020.pdf')}}" target="_blank">Ejecución de contratos 2020</a></li>
-				<li><a href="{{asset('assets/pdf/5. REPORTE CONVENIOS INTERADMINISTRATIVOS $0 (2020-2023).pdf')}}" target="_blank">Convenios interadministrativos (2020 - 2023)</a></li>
-			</ul>
-			<br>
-			<h1 class="subt-m">3.4. Manual de contratación</h1>
-			<ul>
-				<li><a href="{{route('user.transparency.hiring')}}" target="_blank">Gestión contractual</a></li>
+				<li><a href="https://drive.google.com/file/d/18ODbrvDcgM7pRVTUf0dOfsy6jONuEJ6X/view" target="_blank">Gestión contractual >></a></li>
+				<li><a href="https://www.app.gov.co/assets/pdf/resolucion-015-5-de-febrero-de-2021.pdf" target="_blank">Resolución 015 - Febrero 5 de 2021 >></a></li>
+				<li><a href="https://www.app.gov.co/assets/pdf/resolucion-015-2-de-febrero-de-2021.pdf">Resolución 015 - Febrero 2 de 2021 >></a></li>
 			</ul>
 			<br>
 			<h1 class="subt-m">3.5. Modelos de contratos o pliegos tipo</h1>
 			<ul>
-				<li><a href="https://www.colombiacompra.gov.co/documentos-tipo/documentos-tipo" target="_blank">Documentos pliegos tipo que utiliza el proceso de gestión de compras públicas transparentes, Colombia Compra Eficiente.</a></li>
+				<li><a href="https://www.colombiacompra.gov.co/documentos-tipo/documentos-tipo" target="_blank">Documentos pliegos tipo que utiliza el proceso de gestión de compras públicas transparentes, Colombia Compra Eficiente >></a></li>
+				<li><a href="https://consultaprocesos.colombiacompra.gov.co/Autenticar" target="_blank">Procesos por entidades y proveedores >></a></li>
+				<li><a href="https://www.colombiacompra.gov.co/tienda-virtual-del-estado-colombiano/ordenes-compra" target="_blank">Ordenes de compra TVEC >></a></li>
 			</ul>
 
 			<!--
@@ -688,34 +697,35 @@
 		<!-- Collapsed 3 -->
 
 		<!-- Collapsed 4 -->
-		<button class="accordion">4. Presupuesto</button>
+		<button class="accordion">4. Planeación, Presupuesto e Informes</button>
 		<div class="panel">
 			<h1 class="subt-m">4.1. Presupuesto general de ingresos, gastos e inversión</h1>
 			<ul>
-				<li><a href="https://app.gov.co/ejecuci%C3%B3n-presupuestal-hist%C3%B3rica-anual" target="_blank">Presupuesto general de ingresos, gastos e inversión de cada año fiscal</a></li>
+				<li><a href="https://app.gov.co/ejecuci%C3%B3n-presupuestal-hist%C3%B3rica-anual" target="_blank">Presupuesto general de ingresos, gastos e inversión de cada año fiscal >></a></li>
 			</ul>
 			<br>
 			<h1 class="subt-m">4.2. Ejecución presupuestal</h1>
 			<ul>
-				<li><a href="{{route('user.transparency.annual_budget')}}" target="_blank">Ejecución presupuestal histórica anual</a></li>
+				<li><a href="{{route('user.transparency.financial_statements')}}" target="_blank">Ejecución presupuestal histórica anual >></a></li>
 			</ul>
 			<br>
 			<h1 class="subt-m">4.3. Plan de acción</h1>
 			<ul>
-				<li><a href="{{route('user.transparency.planning.action_plan')}}" target="_blank">Plan de Acción Anual</a></li>
-				<li><a href="{{route('user.transparency.planning.indicativo')}}" target="_blank">Plan indicativo</a></li>
+				<li><a href="{{route('user.transparency.planning.action_plan')}}" target="_blank">Plan de Acción Anual >></a></li>
+				<li><a href="{{route('user.transparency.planning.indicativo')}}" target="_blank">Plan indicativo >></a></li>
+				<li><a href="{{route('user.transparency.planning.strategic_plan')}}" target="_blank">Plan estratégico >></a></li>
 			</ul>
 			<br>
 			<h1 class="subt-m">4.4. Proyectos de inversión</h1>
 			<ul>
-				<li><a href="{{route('user.projects.index')}}" target="_blank">Banco de proyectos</a></li>
+				<li><a href="{{route('user.projects.index')}}" target="_blank">Banco de proyectos >></a></li>
 			</ul>
 			<br>
 			<h1 class="subt-m">4.5. Informes de empalme</h1>
 			<ul>
-				<li><a href="{{asset('assets/pdf/control/InformeGestión-GermanSchafer-2024.pdf')}}" target="_blank">Informe de Gestión 2024 - German Schafer</a></li>
-				<li><a href="{{asset('assets/pdf/control/Formato-Informe-de-Gestión-2020-2023-RODRIGO-FORONDA.pdf')}}" target="_blank">Informe de Gestión 2020 - 2023 Rodrigo Foronda</a></li>
-				<li><a href="{{asset('assets/pdf/planning/Empalme2019.pdf')}}" target="_blank">Presentación Empalme Agencia APP 2019</a></li>
+				<li><a href="{{asset('assets/pdf/control/InformeGestión-GermanSchafer-2024.pdf')}}" target="_blank">Informe de Gestión 2024 - German Schafer >></a></li>
+				<li><a href="{{asset('assets/pdf/control/Formato-Informe-de-Gestión-2020-2023-RODRIGO-FORONDA.pdf')}}" target="_blank">Informe de Gestión 2020 - 2023 Rodrigo Foronda >></a></li>
+				<li><a href="{{asset('assets/pdf/planning/Empalme2019.pdf')}}" target="_blank">Presentación Empalme Agencia APP 2019 >></a></li>
 			</ul>
 			<br>
 			<h1 class="subt-m">4.6. Información pública o relevante</h1>
@@ -725,26 +735,26 @@
 			<br>
 			<h1 class="subt-m">4.7. Informes de gestión, evaluación y auditoría</h1>
 			<ul>
-				<li><a href="{{route('user.transparency.control')}}" target="_blank">Informe enviado al Congreso/Asamblea/Concejo.</a></li>
-				<li><a href="{{route('user.transparency.control')}}" target="_blank">Informe de rendición de la cuenta fiscal a la Contraloría General de la República o a los organismos de control territorial, según corresponda. Sección Rendición de cuentas.</a></li>
-				<li><a href="{{route('user.transparency.cuentas')}}" target="_blank">Informe de rendición de cuentas a los ciudadanos, incluyendo la respuesta a las solicitudes realizadas por los ciudadanos, antes y durante el ejercicio de rendición.</a></li>
-				<li><a href="{{route('user.transparency.control')}}" target="_blank">Informes a organismos de inspección, vigilancia y control. Sección Informes de auditoría interna.</a></li>
+				<li><a href="{{route('user.transparency.control')}}" target="_blank">Informe enviado al Congreso/Asamblea/Concejo >></a></li>
+				<li><a href="{{route('user.transparency.control')}}" target="_blank">Informe de rendición de la cuenta fiscal a la Contraloría General de la República o a los organismos de control territorial, según corresponda. Sección Rendición de cuentas >></a></li>
+				<li><a href="{{route('user.transparency.cuentas')}}" target="_blank">Informe de rendición de cuentas a los ciudadanos, incluyendo la respuesta a las solicitudes realizadas por los ciudadanos, antes y durante el ejercicio de rendición >></a></li>
+				<li><a href="{{route('user.transparency.control')}}" target="_blank">Informes a organismos de inspección, vigilancia y control. Sección Informes de auditoría interna >></a></li>
 			</ul>
 			<br>
 			<h1 class="subt-m">4.8. Informes de la oficina de control interno</h1>
 			<ul>
-				<li><a href="{{route('user.transparency.control')}}" target="_blank">Informe pormenorizado del estado del control interno de acuerdo al artículo 9 de la Ley 1474 de 2011. Sección Informes pormenorizado del Estado de Control Interno.</a></li>
+				<li><a href="{{route('user.transparency.control')}}" target="_blank">Informe pormenorizado del estado del control interno de acuerdo al artículo 9 de la Ley 1474 de 2011. Sección Informes pormenorizado del Estado de Control Interno >></a></li>
 			</ul>
 			<br>
 			<h1 class="subt-m">4.9. Informe sobre defensa pública y prevención de daño antijurídico</h1>
 			<ul>
-				<li><a href="https://app.gov.co/assets/pdf/control/Informe-DefensaJudicial-2024.pdf" target="_blank">2024</a></li>
-				<li><a href="https://app.gov.co/transparencia/control" target="_blank">Historico</a></li>
+				<li><a href="https://app.gov.co/assets/pdf/control/Informe-DefensaJudicial-2024.pdf" target="_blank">2024 >></a></li>
+				<li><a href="https://app.gov.co/transparencia/control" target="_blank">Historico >></a></li>
 			</ul>
 			<br>
 			<h1 class="subt-m">4.10. Informes trimestrales sobre acceso a la información, quejas y reclamos</h1>
 			<ul>
-				<li><a href="https://app.gov.co/assets/pdf/pqrs/Informe-de-PQRSD-JulSept.pdf" target="_blank">Tercer Trimestre de 2024</a></li>
+				<li><a href="https://app.gov.co/assets/pdf/pqrs/Informe-de-PQRSD-JulSept.pdf" target="_blank">Tercer Trimestre de 2024 >></a></li>
 				<li><a href="https://app.gov.co/transparencia/control" target="_blank">Historico</a></li>
 			</ul>
 
@@ -931,7 +941,13 @@
 		<!-- Collapsed 5 -->
 		<button class="accordion">5. Trámites y servicios</button>
 		<div class="panel">
-			<p><a href="{{route('user.transparency.suit')}}" target="_blank">Información sobre trámites (normativa, procesos, costos y formatos).</a></p>
+			<h1 class="subt-m">5.1. Información sobre trámites</h1>
+			<ul>
+				<li><a href="{{route('user.transparency.suit')}}" target="_blank">Normativa, procesos, costos y formatos >></a></li>
+				<li><a href="http://app.test/preguntas-y-respuestas-frecuentes" target="_blank">Preguntas frecuentes >></a></li>
+				<li><a href="https://www.app.gov.co/assets/pdf/control/tables/resolucion-105-de-2019.pdf" target="_blank">Costos de reproducción de la información pública >></a></li>
+			</ul>
+			
 
 
 			<!--
@@ -953,8 +969,9 @@
 		<button class="accordion">6. Participa</button>
 		<div class="panel">
 			<h1 class="subt-m">6.1. Mecanismos de participación en la formulación de políticas y decisiones</h1>
+			<p>Participa es la sección donde encontrará toda la información relacionada con los espacios, mecanismos y acciones que permiten la participación ciudadana en el ciclo de la gestión pública; diagnóstico, formulación, implementación, evaluación y seguimiento a través del sitio web de la Agencia APP, con el propósito de vincular a la ciudadanía y demás grupos de interés en las decisiones y acciones públicas, para fortalecer la incidencia, la promoción y garantía de la participación como derecho.</p>
 			<ul>
-				<li><a href="https://app.gov.co/participa" target="_blank">Participa es la sección donde encontrará toda la información relacionada con los espacios, mecanismos y acciones que permiten la participación ciudadana en el ciclo de la gestión pública; diagnóstico, formulación, implementación, evaluación y seguimiento a través del sitio web de la Agencia APP, con el propósito de vincular a la ciudadanía y demás grupos de interés en las decisiones y acciones públicas, para fortalecer la incidencia , la promoción y garantía de la participación como derecho.</a></li>
+				<li><a href="https://app.gov.co/participa" target="_blank">Para más información ingresa a Participa >></a></li>
 			</ul>
 
 			<!--
@@ -982,21 +999,25 @@
 		<div class="panel">
 			<h1 class="subt-m">7.1. Instrumentos de gestión de la información</h1>
 			<ul>
-				<li><a href="https://www.datos.gov.co/login" target="_blank">Registro de activos de información</a></li>
-				<li><a href="https://www.datos.gov.co/Trabajo/INDICE-DE-INFORMACI-N-CLASIFICADA-Y-RESERVADA/v9c3-nmht/about_data" target="_blank">Índice de información clasificada y reservada</a></li>
-				<li><a href="https://www.datos.gov.co/" target="_blank">Esquema de publicación de información</a></li>
+				<li><a href="https://www.app.gov.co/assets/pdf/REGISTROACTIVOSINFORMACIONAGENCIAAPP2022.pdf" target="_blank">Registro de activos de información >></a></li>
+				<li><a href="https://www.datos.gov.co/Trabajo/INDICE-DE-INFORMACI-N-CLASIFICADA-Y-RESERVADA/v9c3-nmht/about_data" target="_blank">Índice de información clasificada y reservada >></a></li>
+				<li><a href="https://www.datos.gov.co/" target="_blank">Esquema de publicación de información >></a></li>
+				<li><a href="https://www.app.gov.co/assets/pdf/Resolución063.pdf" target="_blank">Resolución 63 >></a></li>
+				<li><a href="https://www.app.gov.co/assets/pdf/trdytvd.pdf" target="_blank">Acuerdo de tablas de retención >></a></li>
+				<li><a href="https://www.app.gov.co/assets/pdf/ProgramadeGestiónDocumental.pdf" target="_blank">Programa de Gestión Documental</a></li>
 				<li><h5>Tablas de Retención Documental</h5>
 					<ul>
-						<li><a href="{{route('user.transparency.info_management')}}" target="_blank">Listado de series, con sus correspondientes tipos documentales, a las cuales se asigna el tiempo de permanencia en cada etapa del ciclo vital de los documentos.</a></li>
-						<li><a href="{{asset('assets/pdf/trdytvd.pdf')}}" target="_blank">Adoptadas y actualizadas por medio de acto administrativo o documento equivalente de acuerdo con el régimen legal al sujeto obligado, de conformidad con lo establecido por el acuerdo No. 004 de 2013 del Archivo General de la Nación.</a></li>
+						<li><a href="{{route('user.transparency.info_management')}}" target="_blank">Listado de series, con sus correspondientes tipos documentales, a las cuales se asigna el tiempo de permanencia en cada etapa del ciclo vital de los documentos >></a></li>
+						<li><a href="{{asset('assets/pdf/trdytvd.pdf')}}" target="_blank">Adoptadas y actualizadas por medio de acto administrativo o documento equivalente de acuerdo con el régimen legal al sujeto obligado, de conformidad con lo establecido por el acuerdo No. 004 de 2013 del Archivo General de la Nación >></a></li>
 					</ul>
 				</li>
 			</ul>
 			<br>
 			<h1 class="subt-m">7.2. Sección de datos abiertos</h1>
 			<ul>
-				<li><a href="https://www.datos.gov.co/" target="_blank">Portal de Datos Abiertos</a></li>
-				<li><a href="https://app.gov.co/proyectos/AEEP" target="_blank">Monitoreo de las dinámicas y la gestión del Aprovechamiento Económico del Espacio Público en Medellín.</a></li>
+				<li><a href="https://www.datos.gov.co/" target="_blank">Portal de Datos Abiertos >></a></li>
+				<li><a href="https://app.gov.co/proyectos/AEEP" target="_blank">Monitoreo de las dinámicas y la gestión del Aprovechamiento Económico del Espacio Público en Medellín >></a></li>
+				<li><a href="">Estudio de Arquitectura Moderna >></a></li>
 			</ul>
 
 			<!--
@@ -1074,12 +1095,12 @@
 		<div class="panel">
 			<h1 class="subt-m">8.1. Información dirigida a niños, niñas y adolescentes</h1>
 			<ul>
-				<li><a href="https://www.medellin.gov.co/es/secretaria-de-inclusion-social-y-familia/subsecretaria-de-grupos-poblacionales/unidad-de-ninez/" target="_blank">Unidad de Niñez y Adolescencia – Secretaría de Inclusión Social y Familia.</a></li>
+				<li><a href="https://www.medellin.gov.co/es/secretaria-de-inclusion-social-y-familia/subsecretaria-de-grupos-poblacionales/unidad-de-ninez/" target="_blank">Unidad de Niñez y Adolescencia – Secretaría de Inclusión Social y Familia >></a></li>
 			</ul>
 			<br>
 			<h1 class="subt-m">8.2. Información para mujeres</h1>
 			<ul>
-				<li><a href="https://www.medellin.gov.co/es/secretaria-mujeres/" target="_blank">Secretaría de las Mujeres.</a></li>
+				<li><a href="https://www.medellin.gov.co/es/secretaria-mujeres/" target="_blank">Secretaría de las Mujeres  >></a></li>
 			</ul>
 
 
@@ -1160,10 +1181,17 @@
 		</div>
 		<!-- Collapsed 10 -->
 
+
+<br><br><br><br>
+<hr>
+<br><br><br><br>
+
+		<h5>Contenido oculto</h5>
+
 		
 
 
-	<!--  
+	  
 		<button class="accordion">1. Mecanismos de contacto</button>
 		<div class="panel">
 			<table class="table table-bordered table-striped custom-table">
@@ -2219,7 +2247,11 @@
 				</tbody>
 			</table>
 		</div>
-		-->
+		
+
+
+
+
 	</div>
 	<footer class="vlt-single-post__footer">
 		<!--Post Tags-->

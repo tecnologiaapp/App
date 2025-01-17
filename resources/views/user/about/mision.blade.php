@@ -30,7 +30,7 @@
 			<p class="normal-text">La <b>cooperación</b> entre la Agencia APP y sus aliados estratégicos; y en el trabajo en equipo, reconociendo y apreciando la singularidad de cada uno y de aquello que tiene para contribuir con los demás al esfuerzo común.</p>
 			<br>
 			<div class="section-title"  style="padding-bottom: 0">
-				<h2>Valores institucionales</h2>
+				<h2>Código de Integridad</h2>
 			</div>
 			<h1 class="subt-m">Confianza:</h1>
 			<p class="normal-text">Creemos firmemente en nosotros como equipo y en la importancia del trabajo colaborativo y participativo entre las entidades públicas, privadas y la sociedad.</p>
@@ -40,6 +40,9 @@
 			<br>
 			<h1 class="subt-m">Transparencia:</h1>
 			<p class="normal-text">Actuamos con veracidad y transparencia, bajo parámetros éticos y de integralidad, propiciando el seguimiento y control por parte de las entidades que nos vigilan y la ciudadanía en general.</p>
+			<br>
+			<h1 class="subt-m">Valores de los servidores públicos y colaboradores:</h1>
+			<a href="https://app.gov.co/assets/pdf/codigointegridadapp.pdf" target="_blank">Ver documento >></a>
 		</div>
 	</section>
 

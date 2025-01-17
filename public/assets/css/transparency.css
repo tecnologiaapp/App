@@ -30,7 +30,7 @@
   }
   
   .active, .accordion:hover {
-    background-color: #ff4d63;
+    background-color: #007bff !important;
     color: #ffffff;
     font-size: 18px;
 }
