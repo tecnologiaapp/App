@@ -42,8 +42,8 @@
 				<li><a href="https://www.gov.co/ficha-tramites-y-servicios/T87169" target="_blank">Estructuración de proyectos de asociación publico privada por agentes privados en etapa de prefactibilidad >></a></li>
 			</ul>
 
-			<div class="container" style="margin: 60px 0 70px 0"><hr></div>
-			
+			<div class="container" style="margin: 60px 0 50px 0"><hr></div>
+
 			<div class="section-title">
 				<h3 class="vlt-first-color m-0" style="text-align: left">Preguntas frecuentes</h3>
 			</div>

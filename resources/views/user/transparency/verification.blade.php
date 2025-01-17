@@ -1182,16 +1182,7 @@
 		<!-- Collapsed 10 -->
 
 
-<br><br><br><br>
-<hr>
-<br><br><br><br>
-
-		<h5>Contenido oculto</h5>
-
-		
-
-
-	  
+		<!-- 
 		<button class="accordion">1. Mecanismos de contacto</button>
 		<div class="panel">
 			<table class="table table-bordered table-striped custom-table">
@@ -2247,7 +2238,7 @@
 				</tbody>
 			</table>
 		</div>
-		
+		-->
 
 
 
