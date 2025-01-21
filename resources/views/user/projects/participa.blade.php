@@ -6,12 +6,12 @@
 <link  href="{{ asset('assets/css/noticia.css') }}" rel="stylesheet">
 </head>
 
-<section>
+<!-- <section> 
 		<!--Page Title Hero-->
 		<div class="vlt-page-title-hero vlt-page-title-hero--work vlt-page-title-hero--lg jarallax">
 			<div class="vlt-page-title-hero__overlay"></div><img alt="" class="jarallax-img" src="{{asset('assets/img/Banners/bannerParticipa.jpg')}}">
 			<div class="vlt-page-title-hero__content ocultPosition">
-				<h1 style="color:white;">Participa la ciudadania</h1>
+			<h1 style="color:white;">Participa la ciudadania</h1>
 			</div>
 		</div>
 	</section>
@@ -56,7 +56,7 @@
 							<div class="post-img"><img alt="" src="https://www.mintic.gov.co/portal/715/articles-162362_img_recuadro.thumb_recuadro.jpg"></div>
 						</div>
 						<div class="post-body">
-							<h5>Rendición de cuentas</h5><a  href="{{ route('user.projects.surrender') }}" target="_blank"><h6><b>Participa</b></h6></a>
+							<h5>Rendición de cuentas</h5><a  href="https://app.gov.co/rendici%C3%B3n/de/cuentas/evaluacion" target="_blank"><h6><b>Participa</b></h6></a>
 						</div>
 					</article>
 					<article class="post">
@@ -70,7 +70,7 @@
 				</div>
 			</article>
 		</div>
-	</div>
+	</div> 
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 	

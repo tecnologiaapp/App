@@ -36,8 +36,8 @@
 	<div class="container mt-5">
 
 	<!-- Collapsed 1 -->
-	<button class="accordion">1.  Información de la Entidad</button>
-		<div class="panel">
+	<button class="accordion active">1.  Información de la Entidad</button>
+		<div class="panel" style="display: block">
 			<H1 class="subt-m">1.1. Misión, visión, funciones y deberes</H1>
 			<ul>
 				<li><a href="{{route('user.about.mision')}}" target="_blank">Misión, visión, principios y valores >></a></li>
@@ -478,8 +478,8 @@
 		<!-- Collapsed 1 -->
 
 		<!-- Collapsed 2 -->
-		<button class="accordion">2. Normatividad de la Agencia APP</button>
-		<div class="panel">
+		<button class="accordion active">2. Normatividad de la Agencia APP</button>
+		<div class="panel" style="display: block">
 			<H1 class="subt-m">2.1. Normativa de la entidad</H1>
 			<ul>
 				<li><a href="{{asset('assets/pdf/normograma.pdf')}}" target="_blank">Normograma >></a></li>
@@ -555,8 +555,8 @@
 		<!-- Collapsed 2 -->
 
 		<!-- Collapsed 3 -->
-		<button class="accordion">3. Contratación</button>
-		<div class="panel">
+		<button class="accordion active">3. Contratación</button>
+		<div class="panel" style="display: block">
 			<h1 class="subt-m">3.1. Plan anual de adquisiciones</h1>
 			<ul>
 				<li><a href="{{route('user.transparency.annual_procurement_plan')}}" target="_blank">Plan Anual de Adquisiciones (PAA) >></a></li>
@@ -697,8 +697,8 @@
 		<!-- Collapsed 3 -->
 
 		<!-- Collapsed 4 -->
-		<button class="accordion">4. Planeación, Presupuesto e Informes</button>
-		<div class="panel">
+		<button class="accordion active">4. Planeación, Presupuesto e Informes</button>
+		<div class="panel" style="display: block">
 			<h1 class="subt-m">4.1. Presupuesto general de ingresos, gastos e inversión</h1>
 			<ul>
 				<li><a href="https://app.gov.co/ejecuci%C3%B3n-presupuestal-hist%C3%B3rica-anual" target="_blank">Presupuesto general de ingresos, gastos e inversión de cada año fiscal >></a></li>
@@ -939,8 +939,8 @@
 		<!-- Collapsed 4 -->
 
 		<!-- Collapsed 5 -->
-		<button class="accordion">5. Trámites y servicios</button>
-		<div class="panel">
+		<button class="accordion active">5. Trámites y servicios</button>
+		<div class="panel" style="display: block">
 			<h1 class="subt-m">5.1. Información sobre trámites</h1>
 			<ul>
 				<li><a href="{{route('user.transparency.suit')}}" target="_blank">Normativa, procesos, costos y formatos >></a></li>
@@ -966,8 +966,8 @@
 		<!-- Collapsed 5 -->
 
 		<!-- Collapsed 6 -->
-		<button class="accordion">6. Participa</button>
-		<div class="panel">
+		<button class="accordion active">6. Participa</button>
+		<div class="panel" style="display: block">
 			<h1 class="subt-m">6.1. Mecanismos de participación en la formulación de políticas y decisiones</h1>
 			<p>Participa es la sección donde encontrará toda la información relacionada con los espacios, mecanismos y acciones que permiten la participación ciudadana en el ciclo de la gestión pública; diagnóstico, formulación, implementación, evaluación y seguimiento a través del sitio web de la Agencia APP, con el propósito de vincular a la ciudadanía y demás grupos de interés en las decisiones y acciones públicas, para fortalecer la incidencia, la promoción y garantía de la participación como derecho.</p>
 			<ul>
@@ -995,8 +995,8 @@
 		<!-- Collapsed 6 -->
 
 		<!-- Collapsed 7 -->
-		<button class="accordion">7. Datos Abiertos </button>
-		<div class="panel">
+		<button class="accordion active">7. Datos Abiertos </button>
+		<div class="panel" style="display: block">
 			<h1 class="subt-m">7.1. Instrumentos de gestión de la información</h1>
 			<ul>
 				<li><a href="https://www.app.gov.co/assets/pdf/REGISTROACTIVOSINFORMACIONAGENCIAAPP2022.pdf" target="_blank">Registro de activos de información >></a></li>
@@ -1091,8 +1091,8 @@
 		<!-- Collapsed 7 -->
 
 		<!-- Collapsed 8 -->
-		<button class="accordion">8. Información específica para grupos de interés</button>
-		<div class="panel">
+		<button class="accordion active">8. Información específica para grupos de interés</button>
+		<div class="panel" style="display: block">
 			<h1 class="subt-m">8.1. Información dirigida a niños, niñas y adolescentes</h1>
 			<ul>
 				<li><a href="https://www.medellin.gov.co/es/secretaria-de-inclusion-social-y-familia/subsecretaria-de-grupos-poblacionales/unidad-de-ninez/" target="_blank">Unidad de Niñez y Adolescencia – Secretaría de Inclusión Social y Familia >></a></li>
@@ -1138,8 +1138,8 @@
 		<!-- Collapsed 8 -->
 
 		<!-- Collapsed 9 -->
-		<button class="accordion">9. Obligaciones de reporte</button>
-		<div class="panel">
+		<button class="accordion active">9. Obligaciones de reporte</button>
+		<div class="panel" style="display: block">
 			<h1 class="subt-m">9.1. Documentos y datos exigidos por normativa especial.</h1>
 			<ul>
 				<li><p>Esta subcategoría no aplica para la Agencia APP.<br>
@@ -1165,8 +1165,8 @@
 		<!-- Collapsed 9 -->
 
 		<!-- Collapsed 10 -->
-		<button class="accordion">10. Información tributaria (solo para entidades territoriales locales)</button>
-		<div class="panel">
+		<button class="accordion active">10. Información tributaria (solo para entidades territoriales locales)</button>
+		<div class="panel" style="display: block">
 			<p>Esta subcategoría no aplica para la Agencia APP</p>
 
 			<!--
@@ -2247,19 +2247,7 @@
 	<footer class="vlt-single-post__footer">
 		<!--Post Tags-->
 		<!--Post Share-->
-		<section style="background-color: transparent;">
-			<div class="vlt-gap-100"></div>
-			<div class="container">
-				<!--Animation Block-->
-				<div class="vlt-animation-block aos-init aos-animate" data-aos="fade" data-aos-delay="0">
-					<!--Social Share-->
-					<div class="vlt-social-share text-center">
-						<h5 class="vlt-display-1">Compártelo</h5><a class="vlt-social-icon vlt-social-icon--style-1 twitter" href="https://twitter.com/intent/tweet?text=https://www.app.gov.co/transparencia/general" rel="nofollow" target="_blank"><i class="fa fa-twitter"></i></a> <a class="vlt-social-icon vlt-social-icon--style-1 facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://www.app.gov.co/transparencia/general" rel="nofollow" target="_blank"><i class="fa fa-facebook"></i></a>
-					</div>
-				</div>
-			</div>
-			<div class="vlt-gap-100"></div>
-		</section>
+		
 	</footer>
 
 @endsection
