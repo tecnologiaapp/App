@@ -56,7 +56,7 @@
 							<div class="post-img"><img alt="" src="https://www.mintic.gov.co/portal/715/articles-162362_img_recuadro.thumb_recuadro.jpg"></div>
 						</div>
 						<div class="post-body">
-							<h5>Rendición de cuentas</h5><a  href="{{ route('user.projects.surrender') }}" target="_blank"><h6><b>Participa</b></h6></a>
+							<h5>Rendición de cuentas</h5><a  href="https://app.gov.co/rendici%C3%B3n/de/cuentas/evaluacion" target="_blank"><h6><b>Participa</b></h6></a>
 						</div>
 					</article>
 					<article class="post">
