@@ -139,7 +139,10 @@ h5 {
 						<li><a href="http://181.143.121.243:8001/search-contract" target="_blank">Certificados laborales >></a></li>
 						<li><a href="https://app.gov.co/transparencia/contacto" target="_blank">Concepto de norma urbanística para el Barrio Prado >></a></li>
 						<li><a href="https://www.gov.co/ficha-tramites-y-servicios/T87169" target="_blank">Estructuración de proyectos de asociación publico privada por agentes privados en etapa de prefactibilidad >></a></li>
+						<li><a href="https://www.gov.co/ficha-tramites-y-servicios/T87169" target="_blank">Manual de Contratacíon - Versión Preliminar >></a></li>
 					</ul>
+					<br>
+					<p><p>"La Agencia APP publica para conocer opinión y recibir comentarios de cualquier interesado la versión previa del nuevo Manual de Contratación de la entidad y de esta manera fortalecer la transparencia en la gestión contractual que adelantamos.  La ciudadanía podrá enviar sus comentarios  o recomendaciones al correo info@app.gov.co  hasta el próximo 29 febrero  de 2025.".</p></p>
 				</li>
 				<br>
 				<li><a href="https://app.gov.co/somos-app/historia" target="_blank">Información general de la Agencia APP >></a></li>
