@@ -174,7 +174,7 @@ h5 {
 			</ul>
 			<h5>3.6. Plan Anticorrupción y de Atención al Ciudadano (PAAC):</h5>
 			<ul>
-				<li><a href="#">Plan Anticorrupción y de Atención al Ciudadano (PAAC)</a></li>
+				<li><a href="{{asset('assets/pdf/PAAC-2025.xlsx')}}">Plan Anticorrupción y de Atención al Ciudadano (PAAC)</a></li>
 			</ul>
 
 			<hr style="margin: 50px 0">

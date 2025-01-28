@@ -364,6 +364,12 @@
 					<table class="table table-bordered table-striped custom-table">
 						<tbody>
 						   <tr>
+								<td>Informe de PQRSD - Cuarto Trimestre de 2024</td>
+								<td>
+									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/pqrs/Informe-de-PQRSD-Oct-Dic.pdf')}}" target="_blank">Ver documento</a>
+								</td>
+							</tr>
+						   <tr>
 								<td>Informe de PQRSD - Tercer Trimestre de 2024</td>
 								<td>
 									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/pqrs/Informe-de-PQRSD-JulSept.pdf')}}" target="_blank">Ver documento</a>
