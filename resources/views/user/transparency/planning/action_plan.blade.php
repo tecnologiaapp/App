@@ -457,6 +457,79 @@
 				</div>
 			</div><button class="accordion">PLANES INSTITUCIONALES</button>
 			<div class="panel">
+			<button class="accordion">2025</button>
+				<div class="panel">
+					<table class="table table-bordered table-striped custom-table">
+						<tbody>
+							<tr>
+								<td>Resolución 014 de 2025 - Planes Institucionales</td>
+								<td>
+									<a class="btn btn-primary btn-block" href="#" target="_blank">Ver documento</a>
+								</td>
+							</tr>
+							<tr>
+								<td> Plan Anual de Adquisiciones</td>
+								<td>
+									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/planning/2-Plan-Anual-de-Adquisiciones.pdf')}}" target="_blank">Ver documento</a>
+								</td>
+							</tr>
+							<tr>
+								<td>Plan Anual de Vacantes y Previsión de Recursos Humanos</td>
+								<td>
+									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/planning/3.Plan-Anual-de-VacantesyPrevisión-de-Recursos-Humanos.pdf')}}" target="_blank">Ver documento</a>
+								</td>
+							</tr>
+							<tr>
+								<td>Plan Estratégico de Talento Humano</td>
+								<td>
+									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/planning/5.Plan-Estratégico-de-Talento-Humano.pdf')}}" target="_blank">Ver documento</a>
+								</td>
+							</tr>
+							<tr>
+								<td>Plan Institucional de Capacitación</td>
+								<td>
+									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/control/6.PlanInstitucionaldeCapacitación.pdf')}}" target="_blank">Ver documento</a>
+								</td>
+							</tr>
+							<tr>
+								<td>Plan de Incentivos Institucionales</td>
+								<td>
+									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/planning/7.PlandeIncentivosInstitucionales.pdf')}}" target="_blank">Ver documento</a>
+								</td>
+							</tr>
+							<tr>
+								<td>Plan de Trabajo Anual en Seguridad y Salud en el Trabajo</td>
+								<td>
+									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/planning/8.PlandeTrabajoAnualenSeguridadySaludenelTrabajo.pdf')}}" target="_blank">Ver documento</a>
+								</td>
+							</tr>
+							<tr>
+								<td>Plan Anticorrupción y de Atención al Ciudadano</td>
+								<td>
+									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/planning/9.PlanAnticorrupciónydeAtenciónalCiudadano.xlsx')}}" target="_blank">Ver documento</a>
+								</td>
+							</tr>
+							<tr>
+								<td>Plan Estratégico de Tecnologías de la Información y las Comunicaciones - PETI</td>
+								<td>
+									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/planning/10.PlanEstratégicodeTecnologíasdelaInformaciónylasComunicaciones-PETI.pdf')}}" target="_blank">Ver documento</a>
+								</td>
+							</tr>
+							<tr>
+								<td>Plan de Tratamiento de Riesgos de Seguridad y Privacidad de la Información</td>
+								<td>
+									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/planning/11.PlandeTratamientodeRiesgosdeSeguridadyPrivacidaddelaInformación.pdf')}}" target="_blank">Ver documento</a>
+								</td>
+							</tr>
+							<tr>
+								<td>Politicas de Seguridad y Privacidad de la Informacion</td>
+								<td>
+									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/planning/12.PoliticasdeSeguridadyPrivacidaddelaInformacion.pdf')}}" target="_blank">Ver documento</a>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
 				<button class="accordion">2024</button>
 				<div class="panel">
 					<table class="table table-bordered table-striped custom-table">
