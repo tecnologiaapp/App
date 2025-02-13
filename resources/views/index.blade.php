@@ -34,6 +34,29 @@
 	font-family: "jost", sans-serif !important;
 	font-weight: bold;
 }
+
+.contededor-banner-op {
+	background-color: #1a2d4e;
+	max-width: 900px;
+	width: 90%;
+	display: block;
+	margin: auto;
+	border-radius: 10px;
+	padding: 0 20px;
+}
+
+.contededor-banner-op:hover {
+	background-color: #050b14;
+}
+
+.contededor-banner-op a img {
+	width: 100%;
+	height: auto;
+	display: block;
+	margin: auto;
+}
+
+
 	
 	
 </style>
@@ -118,6 +141,15 @@
 		</div>
 	</section><!-- End Counts Section -->
 	<!-- ======= Features Section ======= -->
+<br>
+	<!-- Banner oportunidades -->
+		<div class="contededor-banner-op">
+			<a href="https://app.powerbi.com/view?r=eyJrIjoiYThjMWQ0ZWEtZjI4OS00ZDI3LThhOTYtODE0Y2E3NWQxMGE5IiwidCI6IjljNDhlMDg4LTVlNDQtNGIwZC05M2EwLWVlYjJjNjEyN2MzZCIsImMiOjR9" target="_blank"><img class="img-fluid" src="assets/img/buscador_de_oportunidades.svg"></a>
+		</div>
+	
+	<!-- Banner oportunidades -->
+	 <br>
+
 	<section class="features" id="features">
 		<div class="container">
 			<div class="section-title">
