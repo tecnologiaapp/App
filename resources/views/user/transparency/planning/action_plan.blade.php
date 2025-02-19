@@ -294,9 +294,9 @@
 					<table class="table table-bordered table-striped custom-table">
 						<tbody>
 							<tr>
-								<td>Plan de Acción Interno - AGENCIA APP 2024</td>
+								<td>Plan de Acción Interno Anual- AGENCIA APP 2024</td>
 								<td>
-									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/planning/2024/PLAN-DE-ACCIÓN-INTERNO-2024.pdf')}}" target="_blank">Ver documento</a>
+									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/planning/2024/Plandeacción-diciembre2024.pdf')}}" target="_blank">Ver documento</a>
 								</td>
 							</tr>
 						</tbody>

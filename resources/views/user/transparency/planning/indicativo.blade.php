@@ -24,6 +24,12 @@
 					<table class="table table-bordered table-striped custom-table">
 						<tbody>
 						    <tr>
+								<td>Plan indicativo - Diciembre 2024</td>
+								<td>
+									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/planning/2024/Planindicativo-diciembre2024.pdf')}}" target="_blank">Ver documento</a>
+								</td>
+							</tr>
+						    <tr>
 								<td>Plan indicativo - Octubre 2024</td>
 								<td>
 									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/planning/2024/PLAN-INDICATIVO-DEFINITIVO-CORTE-OCTUBRE-2024.pdf')}}" target="_blank">Ver documento</a>
