@@ -23,6 +23,30 @@
 			<div class="panel">
 				<table class="table table-bordered table-striped custom-table">
 					<tbody>
+						<tr>
+							<td>Ejecución presupuestal de ingresos diciembre 2024</td>
+							<td>
+								<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/budget/2024/ejecucion-ingresos-diciembre-2024.pdf')}}" target="_blank">Ver documento</a>
+							</td>
+						</tr>
+						<tr>
+							<td>Ejecución presupuestal de gastos diciembre 2024</td>
+							<td>
+								<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/budget/2024/ejecucion-gastos-diciembre-2024.pdf')}}" target="_blank">Ver documento</a>
+							</td>
+						</tr>
+					    <tr>
+							<td>Ejecución presupuestal de ingresos noviembre 2024</td>
+							<td>
+								<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/budget/2024/ejecución-ingresos-noviembre-2024.pdf')}}" target="_blank">Ver documento</a>
+							</td>
+						</tr>
+						<tr>
+							<td>Ejecución presupuestal de gastos noviembre 2024</td>
+							<td>
+								<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/budget/2024/ejecución-gastos-noviembre-2024.pdf')}}" target="_blank">Ver documento</a>
+							</td>
+						</tr>
 					    <tr>
 							<td>Ejecución presupuestal de ingresos octubre 2024</td>
 							<td>
