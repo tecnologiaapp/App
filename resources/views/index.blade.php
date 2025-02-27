@@ -37,12 +37,11 @@
 
 .contededor-banner-op {
 	background-color: #1a2d4e;
-	max-width: 900px;
+	max-width: 800px;
 	width: 90%;
 	display: block;
 	margin: auto;
 	border-radius: 10px;
-	padding: 0 20px;
 }
 
 .contededor-banner-op:hover {
@@ -144,7 +143,7 @@
 <br>
 	<!-- Banner oportunidades -->
 		<div class="contededor-banner-op">
-			<a href="https://app.powerbi.com/view?r=eyJrIjoiYThjMWQ0ZWEtZjI4OS00ZDI3LThhOTYtODE0Y2E3NWQxMGE5IiwidCI6IjljNDhlMDg4LTVlNDQtNGIwZC05M2EwLWVlYjJjNjEyN2MzZCIsImMiOjR9" target="_blank"><img class="img-fluid" src="assets/img/buscador_de_oportunidades.svg"></a>
+			<a href="https://app.powerbi.com/view?r=eyJrIjoiYThjMWQ0ZWEtZjI4OS00ZDI3LThhOTYtODE0Y2E3NWQxMGE5IiwidCI6IjljNDhlMDg4LTVlNDQtNGIwZC05M2EwLWVlYjJjNjEyN2MzZCIsImMiOjR9" target="_blank"><img class="img-fluid" src="assets/img/banner_buscador_de_oportunidades_actual.svg"></a>
 		</div>
 	
 	<!-- Banner oportunidades -->
