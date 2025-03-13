@@ -224,14 +224,17 @@ h5 {
 						<li><a href="https://www.colombiacompra.gov.co/secop-ii" target="_blank">SECOP II >></a></li>
 					</ul>
 				</li>
-				<li><a href="http://mercurioapp.medellin.gov.co/mercurio/inicialPqr.jsp" target="_blank">Si tienes alguna Petición, Queja, Reclamo, Sugerencia o Denuncia (ADJUNTAR EL ENLACE EN ESAS PALABRAS) por actos de corrupción te invitamos a leer las recomendaciones para que ejerzas tu derecho de interponer solicitudes ante la Entidad >></a></li>
+				<li><a href="http://mercurioapp.medellin.gov.co/mercurio/inicialPqr.jsp" target="_blank">Si tienes alguna Petición, Queja, Reclamo, Sugerencia o Denuncia por actos de corrupción te invitamos a leer las recomendaciones para que ejerzas tu derecho de interponer solicitudes ante la Entidad >></a></li>
 			</ul>
 
 			
 		</div>
 	</section>
+	<br><br>
 
-<div class="vlt-single-post-wrapper vlt-single-post-wrapper--style-1">
+	<!-- 
+
+	<div class="vlt-single-post-wrapper vlt-single-post-wrapper--style-1">
 		<div class="container">
 			<article class="vlt-single-post">
 				<div class="content">
@@ -287,6 +290,7 @@ h5 {
 			</article>
 		</div>
 	</div> 
+	-->
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 	
