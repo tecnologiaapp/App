@@ -23,6 +23,12 @@
 				<div class="panel">
 					<table class="table table-bordered table-striped custom-table">
 						<tbody>
+						   <tr>
+								<td>Plan de Acción MPAL - Diciembre 2024</td>
+								<td>
+									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/planning/2024/PLAN-DE-ACCIÓN-INTERNO-2024.pdf')}}" target="_blank">Ver documento</a>
+								</td>
+							</tr>
 						    <tr>
 								<td>Plan de Acción MPAL - Octubre 2024</td>
 								<td>
@@ -294,9 +300,9 @@
 					<table class="table table-bordered table-striped custom-table">
 						<tbody>
 							<tr>
-								<td>Plan de Acción Interno Anual- AGENCIA APP 2024</td>
+								<td>Plan de Acción Interno - AGENCIA APP 2024</td>
 								<td>
-									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/planning/2024/Plandeacción-diciembre2024.pdf')}}" target="_blank">Ver documento</a>
+									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/planning/2024/PLAN-DE-ACCIÓN-INTERNO-2024.pdf')}}" target="_blank">Ver documento</a>
 								</td>
 							</tr>
 						</tbody>
@@ -464,7 +470,7 @@
 							<tr>
 								<td>Resolución 014 de 2025 - Planes Institucionales</td>
 								<td>
-									<a class="btn btn-primary btn-block" href="#" target="_blank">Ver documento</a>
+									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/planning/Resolución-014-integracion-planes-institucionales.pdf')}}" target="_blank">Ver documento</a>
 								</td>
 							</tr>
 							<tr>
