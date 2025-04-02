@@ -77,13 +77,13 @@
 				<div class="carousel-item">
 					<a href="http://181.143.121.243:8001/search-contract" Target="_blank"><img class="d-block w-100" src="{{asset('assets/img/Banners/BannerCertificadosContractuales.jpeg')}}"></a>
 				</div>
-				<div class="carousel-item">
-					<a href="{{route('user.projects.mudag')}}"><img class="d-block w-100" src="{{asset('assets/img/BannersNuevos/HomeMUDAG.jpg')}}"></a>
+				<div class="carousel-item active">
+					<a href="{{asset('assets/pdf/Resolución022-horario-semana-santa.pdf')}}" Target="_blank"><img class="d-block w-100" src="{{asset('assets/img/BannersNuevos/Banner_semana_santa_25.jpg')}}"></a>
 				</div>
 				<div class="carousel-item">
 					<a href="{{route('user.noticias.new50')}}"><img  class="d-block w-100" src="{{asset('assets/img/BannersNuevos/HomeConstelaciones.jpg')}}"></a>
 				</div>
-				 <div class="carousel-item active">
+				 <div class="carousel-item">
 			        <a href="https://www.youtube.com/live/wFyY-ibeOjA?si=fVMHIwKsthjDnQTo" Target="_blank"><img class="d-block w-100" src="{{asset('assets/img/BannersNuevos/BannerRdeC-VideoYoutube.jpeg')}}"></a>
 		        </div>
 				<button class="carousel-control-prev" data-slide="prev" data-target="#carouselExampleIndicators" onclick="disableScroll()" type="button"><span aria-hidden="true" class="carousel-control-prev-icon"></span> <span class="sr-only">Previous</span></button> <button class="carousel-control-next" data-slide="next" data-target="#carouselExampleIndicators" onclick="disableScroll()" type="button"><span aria-hidden="true" class="carousel-control-next-icon"></span> <span class="sr-only">Next</span></button>
@@ -156,7 +156,7 @@
 			</div>
 			<div class="newsHome1 row gy-4 align-items-center features-item aos-init aos-animate" data-aos="fade-up">
 				<div class="col-md-5">
-					<a href="{{route('user.noticias.new50')}}" target="_blank"><img class="img-fluid" src="assets/img/Galeria/constelaciones/1.png"></a>
+					<a href="{{route('user.noticias.new50')}}" target="_blank"><img class="img-fluid" src="assets/img/Galeria/constelaciones/1.png" alt="Descripción de la imagen"></a>
 				</div>
 				<div class="col-md-7">
 					<h3 class="text-white">Constelaciones, el mural artístico más grande de Medellín, se potencia como nuevo destino turístico y cultural</h3>
