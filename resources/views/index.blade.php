@@ -143,7 +143,7 @@
 <br>
 	<!-- Banner oportunidades -->
 		<div class="contededor-banner-op">
-			<a href="https://app.powerbi.com/view?r=eyJrIjoiYThjMWQ0ZWEtZjI4OS00ZDI3LThhOTYtODE0Y2E3NWQxMGE5IiwidCI6IjljNDhlMDg4LTVlNDQtNGIwZC05M2EwLWVlYjJjNjEyN2MzZCIsImMiOjR9" target="_blank"><img class="img-fluid" src="assets/img/banner_buscador_de_oportunidades_actual.svg"></a>
+			<a href="https://www.medellin.gov.co/es/secretaria-suministros-y-servicios/buscador-oportunidades/" target="_blank"><img class="img-fluid" src="assets/img/banner_buscador_de_oportunidades_actual.svg"></a>
 		</div>
 	
 	<!-- Banner oportunidades -->
