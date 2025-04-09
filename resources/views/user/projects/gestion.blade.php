@@ -6,8 +6,8 @@
 		<!--Page Title Hero-->
 		<div class="vlt-page-title-hero vlt-page-title-hero--work vlt-page-title-hero--lg jarallax">
 			<div class="vlt-page-title-hero__overlay"></div><img alt="" class="jarallax-img" src="{{asset('assets/img/Banners/bannerPlanIntegralDeGestionDePrado.jpg')}}">
-			<div class="vlt-page-title-hero__content ocultPosition">
-				<h1 style="color:white;">Plan integral de gestión de prado</h1>
+			<div class="vlt-page-title-hero__content ocultPosition" style="width: 100%">
+				<h1 style="color:white;">Plan Integral de Gestión de Prado</h1>
 			</div>
 		</div>
 	</section><!--Content-->
@@ -19,9 +19,10 @@
 					<div class="row">
 						<div class="col-md-10 offset-md-1">
 							<div class="text-justify">
-								<div class="vlt-gap-15"></div>
-								<hr>
-								<p>Sus grandes casonas, los diversos estilos arquitectónicos en las fachadas, las historias que reflejan las costumbres de una época, la riqueza natural, sus amplias vías y su nuevo parque hacen de Prado, en la comuna La Candelaria, uno de los barrios de Medellín con más cualidades para convertirse en un espacio para el encuentro ciudadano. Por ello, realizamos varias acciones: branding y marketing territorial para atraer la inversión pública y privada; diseño, gestión e intervención del espacio público en la carrera Palacé, entre las calles 58 y 67, con 11.800 m2 intervenidos, 34 árboles sembrados y 413 conservados, 501 plantas menores conservadas y nuevas zonas de estancia con mobiliario urbano; embellecimiento de fachadas y medianeros, en alianza con la Fundación Pintuco, de 114 inmuebles declarados y no declarados patrimoniales; e iluminación de 28 bienes de interés cultural localizados sobre la carrera Palacé.</p>
+								
+								<p style="margin-top: 40px">El Plan Integral de Gestión busca aportar a la recuperación del barrio a partir de la puesta en valor de su patrimonio cultural, la conservación del uso tradicional residencial y la inserción de nuevas dinámicas económicas relacionadas con el arte, la cultura y el turismo. Para este plan se aplicó una estrategia de intervención para sectores patrimoniales basada en una metodología de participación y co-creación, que comprende el patrimonio como un saber colectivo, que se construye y reconstruye permanentemente; donde la cultura juega un rol protagónico, en la medida que se crean sentimientos de identidad y de pertenencia asociados a la idiosincrasia, elementos claves para la cohesión y organización social.
+								</p>
+								<a href="{{asset('assets/pdf/PRESENTACIÓN-PLAN-INTEGRAL-DEL-BARRIO-PRADO-PIGP.pdf')}}">Boton Documento</a>
 								<hr>
 								<div align="center"><img alt="" src="{{asset('assets/img/Proyectos/imgGestionDeBienesInmueblesFiscales.png')}}"></div>
 							</div>
