@@ -42,6 +42,7 @@
 			<ul>
 				<li><a href="{{route('user.about.mision')}}" target="_blank">Misión, visión, principios y valores >></a></li>
 				<li><a href="{{route('user.about.functions')}}" target="_blank">Funciones >></a></li>
+				<li><a href="{{asset('assets/pdf/PresentaciónAgenciaAPP.pdf')}}" target="_blank">Presentación Agencia APP >></a></li>
 			</ul>
 			<br>
 			<H1 class="subt-m">1.2. Estructura orgánica</H1>
