@@ -22,17 +22,17 @@
 				<div class="section-title">
 					<h2>Subdirección de Gestión de Alianzas Público Privadas</h2>
 				</div>
-				<p style="text-align:justify">Aporta a la respuesta de las necesidades de demanda social de la ciudad, la prestación de servicios públicos de calidad, la reactivación socioeconómica y el desarrollo urbano, potenciando la inversión local y extranjera, a través de la identificación, estructuración y aprobación de proyectos de infraestructura social, bajo el marco normativo de la Ley 1508 de 2012 Asociaciones Público Privadas, tanto de iniciativa pública como de iniciativa privada; enmarcados dentro del Plan de Desarrollo Municipal. Para ello, une esfuerzos con las diferentes secretarías, empresas industriales y comerciales del Estado, entidades descentralizadas y demás entidades pertenecientes a la Administración Municipal y al Conglomerado Público.</p>
+				<p style="text-align:justify">Dirigir y orientar la gestión contractual, evaluación y control de la ejecución de los proyectos urbanos, arquitectónicos, de gestión inmobiliaria y/o de infraestructura social desarrollados en los equipamientos públicos y demás bienes inmuebles fiscales que hacen parte del Sistema Público y Colectivo a cargo de la Agencia APP, de acuerdo con la normatívidad vigente, con el fin de contribuir al cumplimiento de los objetivos y metas institucionales.</p>
 				<br>
 				<div class="section-title">
 					<h2>Subdirección de Gestión Inmobiliaria</h2>
 				</div>
-				<p style="text-align:justify">Esta dependencia se encarga de viabilizar oportunidades inmobiliarias y estructurar proyectos en bienes fiscales que son propiedad del Municipio de Medellín. Esto se logra por medio de modelos novedosos que faciliten la vinculación de capital privado y la generación de recursos que se destinan a la cualificación, sostenibilidad y mantenimiento de los mismos.</p>
+				<p style="text-align:justify">Dirigir, orientar y gestionar los planes, programas y estrategias requeridas para la estructuración y evaluación técnica, financiera, legal y social de los proyectos de iniciativa pública y/o privada a cargo o bajo responsabilidad de la Agencia, en coherencia con la normatividad vigente que busquen mejorar la calidad de vida de los habitantes de la ciudad y el fomento del marketing territorial.</p>
 				<br>
 				<div class="section-title">
 					<h2>Subdirección de Gestión del Paisaje y el Patrimonio</h2>
 				</div>
-				<p style="text-align:justify">La subdirección se subdivide en dos líneas: la primera línea de acción opera instrumentos de financiación del Plan de Ordenamiento Territorial, como el Aprovechamiento Económico del Espacio Público (AEEP) y las Transferencias de los Derechos de Construcción con Destinación Ambiental o Patrimonial; La segunda línea de acción hace referencia a iniciativas de paisaje urbano donde la subdirección plantea los proyectos de Cualificación del Espacio Público, en los que hay una inversión compartida entre la administración y los privados.</p>
+				<p style="text-align:justify">Planear, formular, direccionar, coordinar y hacer seguimiento a la adopción de planes, programas y proyectos para la intervención, cualificación y preservación del paisaje, el patrimonio, los equipamientos públicos y demás bienes inmuebles fiscales que hacen parte del Sistema Público y Colectivo, así como la operación de los instrumentos de gestión y financiación del POT conforme a la normativa vigente.</p>
 				<footer class="vlt-single-post__footer">
 					<!--Post Tags-->
 					<!--Post Share-->
