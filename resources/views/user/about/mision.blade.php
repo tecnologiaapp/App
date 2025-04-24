@@ -23,23 +23,8 @@
 			<p class="normal-text">En el año 2034 seremos la entidad de mayor CONFIANZA Y EFICIENCIA de Medellín, para realizar alianzas Público-Privadas en PROYECTOS de ciudad.</p>
 			<br>
 			<div class="section-title"  style="padding-bottom: 0">
-				<h2>Principios de integridad</h2>
-			</div>
-			<p class="normal-text">La <b>transparencia</b> en todos sus actos, poniendo a disposición de los diferentes grupos de valor y de interés información clara, completa, veraz y oportuna sobre la gestión y ejecución de recursos.</p>
-			<p class="normal-text"><b>Servicio oportuno</b> y de utilidad que facilita las actividades internas y satisface las necesidades de los usuarios.</p>
-			<p class="normal-text">La <b>cooperación</b> entre la Agencia APP y sus aliados estratégicos; y en el trabajo en equipo, reconociendo y apreciando la singularidad de cada uno y de aquello que tiene para contribuir con los demás al esfuerzo común.</p>
-			<br>
-			<div class="section-title"  style="padding-bottom: 0">
 				<h2>Código de Integridad</h2>
 			</div>
-			<h1 class="subt-m">Confianza:</h1>
-			<p class="normal-text">Creemos firmemente en nosotros como equipo y en la importancia del trabajo colaborativo y participativo entre las entidades públicas, privadas y la sociedad.</p>
-			<br>
-			<h1 class="subt-m">Proactividad:</h1>
-			<p class="normal-text">Creemos firmemente en nosotros como equipo y en la importancia del trabajo colaborativo y participativo entre las entidades públicas, privadas y la sociedad.  </p>
-			<br>
-			<h1 class="subt-m">Transparencia:</h1>
-			<p class="normal-text">Actuamos con veracidad y transparencia, bajo parámetros éticos y de integralidad, propiciando el seguimiento y control por parte de las entidades que nos vigilan y la ciudadanía en general.</p>
 			<br>
 			<h1 class="subt-m">Valores de los servidores públicos y colaboradores:</h1>
 			<a href="https://app.gov.co/assets/pdf/codigointegridadapp.pdf" target="_blank">Ver documento >></a>
