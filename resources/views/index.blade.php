@@ -68,17 +68,13 @@
 				<li data-slide-to="1" data-target="#carouselExampleIndicators"></li>
 				<li data-slide-to="2" data-target="#carouselExampleIndicators"></li>
 				<li data-slide-to="3" data-target="#carouselExampleIndicators"></li>
-				<li data-slide-to="4" data-target="#carouselExampleIndicators"></li>
 				</ol>
 			    <div class="carousel-inner">
-			    <div class="carousel-item">
+			    <div class="carousel-item active">
 				    <a href="{{asset('assets/pdf/Carta-de-trato-digno.pdf')}}" Target="_blank"><img class="d-block w-100" src="{{asset('assets/img/Banners/CartaTratoDigno.png')}}"></a>
 				</div>
 				<div class="carousel-item">
 					<a href="http://181.143.121.243:8001/search-contract" Target="_blank"><img class="d-block w-100" src="{{asset('assets/img/Banners/BannerCertificadosContractuales.jpeg')}}"></a>
-				</div>
-				<div class="carousel-item active">
-					<a href="{{asset('assets/pdf/Resolución022-horario-semana-santa.pdf')}}" Target="_blank"><img class="d-block w-100" src="{{asset('assets/img/BannersNuevos/Banner_semana_santa_25.jpg')}}"></a>
 				</div>
 				<div class="carousel-item">
 					<a href="{{route('user.noticias.new50')}}"><img  class="d-block w-100" src="{{asset('assets/img/BannersNuevos/HomeConstelaciones.jpg')}}"></a>

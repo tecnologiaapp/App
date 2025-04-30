@@ -6,7 +6,7 @@
 		<div class="vlt-page-title-hero vlt-page-title-hero--work vlt-page-title-hero--lg jarallax">
 			<div class="vlt-page-title-hero__overlay"></div><img alt="" class="jarallax-img" src="{{asset('assets/img/BannersNuevos/BannerTecnica.jpg')}}">
 			<div class="vlt-page-title-hero__content ocultPosition">
-				<h1 style="color:white;">Dirección  Técnica</h1>
+				<h1 style="color:white;">Dirección  Administrativa y Financiera</h1>
 			</div>
 		</div>
 	</section>
@@ -24,7 +24,7 @@
 					<div class="container">
 						<div class="row">
 							<div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
-								<p class="normal-text">La Dirección Técnica u Operativa está a cargo de Edison Montoya Vélez. Edison es Contador público egresado de la Universidad Medellín, especialista en alta gerencia, en gestión financiera empresarial y magíster en Administración MBA.</p>
+								<p class="normal-text">La Dirección  Administrativa y Financiera está a cargo de Edison Montoya Vélez. Edison es Contador público egresado de la Universidad Medellín, especialista en alta gerencia, en gestión financiera empresarial y magíster en Administración MBA.</p>
 								<br>
 								<p class="normal-text">Cuenta con una amplia trayectoria y experiencia profesional: Fue director administrativo y financiero en la Gobernación de Antioquia, Coordinador del proyecto gestión y control de los ingresos municipales del Distrito de Medellín, fue funcionario de la Dirección de impuesto y aduanas nacionales – DIAN, coordinador del proyecto aplicación de estrategias para la gestión financiera y del proyecto de calidad de la información contable. Docente de pregrado en la universidad ITM de la facultad de ciencias económicas y administrativas..</p>
 								<br>

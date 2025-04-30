@@ -292,7 +292,7 @@
 						</li>
 						<li>
 							<a href="{{ route('user.subdirectors.tecnical') }}">
-								<span>Director Tecnico u Operativo</span>
+								<span>Director Administrativo y Financiero</span>
 							</a>
 						</li>
 
