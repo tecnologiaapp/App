@@ -85,7 +85,7 @@
 				<li><h5>1.8.1. Servicio al público</h5>
 					<ul>
 						<li><a href="{{asset('assets/pdf/Carta-de-trato-digno.pdf')}}" target="_blank">Carta de trato digno a la ciudadanía >></a></li>
-						<li><a href="{{asset('assets/pdf/Carta-de-trato-digno.pdf')}}" target="_blank">Manual de servicios a la ciudadanía >></a></li>
+						<li><a href="{{asset('assets/pdf/Manual-de-servicio-al-ciudadano.pdf')}}" target="_blank">Manual de servicios a la ciudadanía >></a></li>
 					</ul>
 				</li>
 				<br>
