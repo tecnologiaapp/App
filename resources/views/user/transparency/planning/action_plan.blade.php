@@ -19,7 +19,25 @@
 		<div class="container mt-5">
 			<button class="accordion">PLAN DE ACCIÓN MUNICIPAL</button>
 			<div class="panel">
-			<button class="accordion">2024</button>
+			<button class="accordion">2025</button>
+				<div class="panel">
+					<table class="table table-bordered table-striped custom-table">
+						<tbody>
+						    <tr>
+								<td>Plan de Acción MPAL - Segundo Bimestre</td>
+								<td>
+									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/planning/2025/PlandeAcciónMPAL_Abril2025.pdf')}}" target="_blank">Ver documento</a>
+								</td>
+							</tr>
+						    <tr>
+								<td>Plan de Acción MPAL - Primer Bimestre </td>
+								<td>
+									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/planning/2025/PlandeAcciónMPAL_Feb2025.pdf')}}" target="_blank">Ver documento</a>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</div><button class="accordion">2024</button>
 				<div class="panel">
 					<table class="table table-bordered table-striped custom-table">
 						<tbody>
