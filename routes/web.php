@@ -794,3 +794,7 @@ Route::get('/subasta', function(){
 Route::get('/patrimonio', function(){
    return view('user.projects.LandingPrado');
 }) ->name('user.projects.LandingPrado');
+
+Route::get('/health', function () {
+    return response()->json(['status' => 'healthy'], 200);
+});
