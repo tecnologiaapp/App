@@ -755,8 +755,8 @@
 			<br>
 			<h1 class="subt-m">4.10. Informes trimestrales sobre acceso a la información, quejas y reclamos</h1>
 			<ul>
-				<li><a href="https://app.gov.co/assets/pdf/pqrs/Informe-de-PQRSD-JulSept.pdf" target="_blank">Tercer Trimestre de 2024 >></a></li>
-				<li><a href="https://app.gov.co/transparencia/control" target="_blank">Historico</a></li>
+				<li><a href="{{asset('assets/pdf/pqrs/InformedePQRSD-EneMar-2025.pdf')}}" target="_blank">Informe Trimestral de PQRSD >></a></li>
+				<li><a href="https://app.gov.co/transparencia/control" target="_blank">Registro Publico PQRSD</a></li>
 			</ul>
 
 

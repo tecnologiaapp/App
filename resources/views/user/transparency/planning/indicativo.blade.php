@@ -24,13 +24,13 @@
 					<table class="table table-bordered table-striped custom-table">
 						<tbody>
 						    <tr>
-								<td>Plan indicativo - Abril</td>
+								<td>Plan indicativo - Segundo Bimestre</td>
 								<td>
 									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/planning/2025/PlanIndicativo-Abril2025.pdf')}}" target="_blank">Ver documento</a>
 								</td>
 							</tr>
 						    <tr>
-								<td>Plan indicativo - Febrero </td>
+								<td>Plan indicativo - Primer Bimestre </td>
 								<td>
 									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/planning/2025/PlanIndicativo-Feb2025.pdf')}}" target="_blank">Ver documento</a>
 								</td>

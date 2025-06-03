@@ -45,7 +45,7 @@
 					</tbody>
 				</table>
 			</div>
-			<button class="accordion">Plan anual 2023</button>
+			<button class="accordion">Plan Anual 2023</button>
 			<div class="panel">
 				<table class="table table-bordered table-striped custom-table">
 					<tbody>						
@@ -58,7 +58,7 @@
 					</tbody>
 				</table>
 			</div>
-			<button class="accordion">Plan anual 2022</button>
+			<button class="accordion">Plan Anual 2022</button>
 			<div class="panel">
 				<table class="table table-bordered table-striped custom-table">
 					<tbody>
@@ -82,7 +82,7 @@
 						</tr>
 					</tbody>
 				</table>
-			</div><button class="accordion">Plan anual 2021</button>
+			</div><button class="accordion">Plan Anual 2021</button>
 			<div class="panel">
 				<table class="table table-bordered table-striped custom-table">
 					<tbody>
@@ -112,7 +112,7 @@
 						</tr>
 					</tbody>
 				</table>
-			</div><button class="accordion">Plan anual 2020</button>
+			</div><button class="accordion">Plan Anual 2020</button>
 			<div class="panel">
 				<table class="table table-bordered table-striped custom-table">
 					<tbody>
@@ -142,7 +142,7 @@
 						</tr>
 					</tbody>
 				</table>
-			</div><button class="accordion">Plan anual 2019</button>
+			</div><button class="accordion">Plan Anual 2019</button>
 			<div class="panel">
 				<table class="table table-bordered table-striped custom-table">
 					<tbody>
@@ -172,7 +172,7 @@
 						</tr>
 					</tbody>
 				</table>
-			</div><button class="accordion">Plan anual 2018</button>
+			</div><button class="accordion">Plan Anual 2018</button>
 			<div class="panel">
 				<table class="table table-bordered table-striped custom-table">
 					<tbody>
@@ -184,7 +184,7 @@
 						</tr>
 					</tbody>
 				</table>
-			</div><button class="accordion">Plan anual 2017</button>
+			</div><button class="accordion">Plan Anual 2017</button>
 			<div class="panel">
 				<table class="table table-bordered table-striped custom-table">
 					<tbody>
@@ -196,7 +196,7 @@
 						</tr>
 					</tbody>
 				</table>
-			</div><button class="accordion">Plan anual 2016</button>
+			</div><button class="accordion">Plan Anual 2016</button>
 			<div class="panel">
 				<table class="table table-bordered table-striped custom-table">
 					<tbody>
@@ -208,7 +208,7 @@
 						</tr>
 					</tbody>
 				</table>
-			</div><button class="accordion">Plan anual 2015</button>
+			</div><button class="accordion">Plan Anual 2015</button>
 			<div class="panel">
 				<table class="table table-bordered table-striped custom-table">
 					<tbody>
