@@ -12,7 +12,6 @@
 		</div>
 	</section>
 	<section>
-		<div class="vlt-gap-40"></div>
 		<div class="container">
 			<div class="row">
 				<div class="col-md-8 offset-md-2">
@@ -21,7 +20,7 @@
 							<h2>Daniel Felipe Escobar Valencia </h2>
 				</div>
 				</section>
-				<div class="vlt-gap-40"></div>
+				<div style="margin-top: -40px"></div>
 				<div class="container">
 					<div class="row no-gutters">
 						<!-- ======= Hero Section ======= -->
