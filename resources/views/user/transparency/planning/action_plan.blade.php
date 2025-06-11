@@ -530,7 +530,7 @@
 							<tr>
 								<td>Plan Anticorrupción y de Atención al Ciudadano</td>
 								<td>
-									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/planning/9.PlanAnticorrupciónydeAtenciónalCiudadano.xlsx')}}" target="_blank">Ver documento</a>
+									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/planning/PAAC20250131.xlsx')}}" target="_blank">Ver documento</a>
 								</td>
 							</tr>
 							<tr>
