@@ -23,25 +23,48 @@
 			<div class="panel">
 				<table class="table table-bordered table-striped custom-table">
 					   <tbody>
+						<tr>
+							<td>Ejecución Presupuestal de Ingresos Abril</td>
+							<td>
+								<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/budget/2025/Ejecución_ingresos_abril.pdf')}}" target="_blank">Ver documento</a>
+							</td>
+						</tr>
+						<tr>
+							<td>Ejecución Presupuestal de Gastos Abril</td>
+							<td>
+								<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/budget/2025/Ejecución_gastos_abril.pdf')}}" target="_blank">Ver documento</a>
+							</td>
+						</tr><tr>
+							<td>Ejecución Presupuestal de Ingresos Marzo</td>
+							<td>
+								<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/budget/2025/Ejecución_ingresos_marzo.pdf')}}" target="_blank">Ver documento</a>
+							</td>
+						</tr>
+						<tr>
+							<td>Ejecución Presupuestal de Gastos Marzo</td>
+							<td>
+								<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/budget/2025/Ejecución_gastos_marzo.pdf')}}" target="_blank">Ver documento</a>
+							</td>
+						</tr>
 					   <tr>
-							<td>Ejecución presupuestal de ingresos febrero 2025</td>
+							<td>Ejecución Presupuestal de Ingresos Febrero</td>
 							<td>
 								<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/budget/2025/Ingresos-Febrero2025.pdf')}}" target="_blank">Ver documento</a>
 							</td>
 						</tr>
 						<tr>
-							<td>Ejecución presupuestal de gastos febrero 2025</td>
+							<td>Ejecución Presupuestal de Gastos Febrero</td>
 							<td>
 								<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/budget/2025/Gastos-Febrero2025.pdf')}}" target="_blank">Ver documento</a>
 							</td>
 						</tr><tr>
-							<td>Ejecución presupuestal de ingresos enero 2025</td>
+							<td>Ejecución Presupuestal de Ingresos Enero</td>
 							<td>
 								<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/budget/2025/Ingresos-Enero2025.pdf')}}" target="_blank">Ver documento</a>
 							</td>
 						</tr>
 						<tr>
-							<td>Ejecución presupuestal de gastos enero 2025</td>
+							<td>Ejecución Presupuestal de Gastos Enero</td>
 							<td>
 								<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/budget/2025/Gastos-Enero2025.pdf')}}" target="_blank">Ver documento</a>
 							</td>
