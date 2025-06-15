@@ -10,7 +10,8 @@ env:
 
 jobs:
   deploy:
-    runs-on: ubuntu-latest
+    runs-on:
+      - codebuild-github-app-runner-project-${{ github.run_id }}-${{ github.run_attempt }}
     steps:
       - uses: actions/checkout@v2
 
