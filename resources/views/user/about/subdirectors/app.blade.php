@@ -15,7 +15,7 @@
 						<div class="section-title">
 							
 						<h2>Javier Rodas Velásquez</h2>
-<div class="vlt-gap-120"></div>
+<div style="margin-top: 40px"></div>
 		<div class="container">
 			<div class="row no-gutters">
 				<!-- ======= Hero Section ======= -->

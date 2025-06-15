@@ -85,7 +85,7 @@
 				<li><h5>1.8.1. Servicio al público</h5>
 					<ul>
 						<li><a href="{{asset('assets/pdf/Carta-de-trato-digno.pdf')}}" target="_blank">Carta de trato digno a la ciudadanía >></a></li>
-						<li><a href="{{asset('assets/pdf/Carta-de-trato-digno.pdf')}}" target="_blank">Manual de servicios a la ciudadanía >></a></li>
+						<li><a href="{{asset('assets/pdf/Manual-de-servicio-al-ciudadano.pdf')}}" target="_blank">Manual de servicios a la ciudadanía >></a></li>
 					</ul>
 				</li>
 				<br>
@@ -736,28 +736,294 @@
 			<br>
 			<h1 class="subt-m">4.7. Informes de gestión, evaluación y auditoría</h1>
 			<ul>
+				<li><h5>4.7.1. Plan Anual de Auditoria</h5>
+					<ul>
+						<li><a href="{{asset('assets/pdf/control/PlanAnualdeAuditorías.pdf')}}" target="_blank">2025 >></a></li>
+						<li><a href="{{asset('assets/pdf/control/PLAN-ANUAL-DE-AUDITORIAS-2024.xlsx')}}" target="_blank">2024 >></a></li>
+						<li><a href="#" target="_blank">2023 >></a></li>
+						<li><a href="{{asset('assets/pdf/control/auditoriavigencia2022.pdf')}}" target="_blank">2022 >></a></li>
+						<li><a href="{{asset('assets/pdf/control/plan-anual-de-auditoria-2021.pdf')}}" target="_blank">2021 >></a></li>
+						<li><a href="{{asset('assets/pdf/control/audit/plan-anual-de-auditoria-2020.pdf')}}" target="_blank">2020 >></a></li>
+						<li>2019</li>
+						<ul>
+							<li><a href="{{asset('assets/pdf/control/audit/plan-anual-auditoria-vigencia-de-2019.pdf')}}" target="_blank">Plan anual de auditoría - Vigencia 2019 >></a></li>
+						<li><a href="{{asset('assets/pdf/control/audit/acta-del-comite-coordinador-control-interno-modificacion-del-plan-anual-auditoria-vigencia-de-2019.pdf')}}" target="_blank">Acta Comité Coordinador Control Interno | Modificación al plan anual de auditoría - Vigencia 2019 >></a></li>
+						<li><a href="{{asset('assets/pdf/control/audit/modificacion-del-plan-anual-auditoria-vigencia-de-2019.pdf')}}" target="_blank">Modificación al plan anual de auditoría - Vigencia 2019 >></a></li>
+						</ul>
+					</ul>
+				</li>
+			</ul>
+			<!-- 
+			<ul>
 				<li><a href="{{route('user.transparency.control')}}" target="_blank">Informe enviado al Congreso/Asamblea/Concejo >></a></li>
 				<li><a href="{{route('user.transparency.control')}}" target="_blank">Informe de rendición de la cuenta fiscal a la Contraloría General de la República o a los organismos de control territorial, según corresponda. Sección Rendición de cuentas >></a></li>
 				<li><a href="{{route('user.transparency.cuentas')}}" target="_blank">Informe de rendición de cuentas a los ciudadanos, incluyendo la respuesta a las solicitudes realizadas por los ciudadanos, antes y durante el ejercicio de rendición >></a></li>
 				<li><a href="{{route('user.transparency.control')}}" target="_blank">Informes a organismos de inspección, vigilancia y control. Sección Informes de auditoría interna >></a></li>
 			</ul>
+			-->
+			
+			<ul>
+				<li><h5>4.7.2. Informes de Gestión</h5>
+					<ul>
+						<li><a href="https://www.app.gov.co/assets/pdf/planning/Empalme2019.pdf" target="_blank">Informe de Gestión 2016-2019 >></a></li>
+						<li><a href="https://www.app.gov.co/assets/pdf/control/Formato-Informe-de-Gestio%CC%81n-2020-2023-RODRIGO-FORONDA.pdf" target="_blank">Informe de Gestión 2020-2023 >></a></li>
+					</ul>
+				</li>
+			</ul>
+
+			<ul>
+				<li><h5>4.7.3. Informe de rendición de cuentas ante la Contraloría General de la República</h5>
+					<ul>
+						<li><a href="#" target="_blank">Contraloría General de Medellín - 2024 >></a></li>
+						<li><a href="#" target="_blank">Contraloría General de Medellín - 2023 >></a></li>
+					</ul>
+				</li>
+			</ul>
+
+			<ul>
+				<li><h5>4.7.4. Informe de rendición de cuentas a los ciudadanos, incluyendo la respuesta a las solicitudes realizadas por los ciudadanos, antes y durante el ejercicio de rendición</h5>
+					<ul>
+						<li><a href="#" target="_blank">Estrategia de Rendición de cuentas >></a></li>
+						<li><a href="#" target="_blank">Informe de rendición de cuentas >></a></li>
+					</ul>
+				</li>
+			</ul>
+
+			<ul>
+				<li><h5>4.7.5. Informes a organismos de inspección, vigilancia y control</h5>
+					<ul>
+						<li><a href="#" target="_blank">Evaluación del Índice de Desempeño Institucional y del Sistema de Control Interno – MECI a través del Formulario Único de Reporte Administrativo de la Gestión – FURAG >></a></li>
+						<li><a href="https://www.cdm.gov.co/cgm/Paginaweb/IP/Paginas/Informes-de-Auditor%C3%ADa.aspx" target="_blank">Informes de Auditoría por parte de la Contraloría >></a></li>
+					</ul>
+				</li>
+			</ul>
+
+			<ul>
+				<li><h5>4.7.6. Planes de Mejoramiento</h5>
+					<ul>
+						<li>2024</li>
+						<ul>
+							<li><a href="{{asset('assets/pdf/control/Seguimiento-Plan-de-Mejoramiento-Agencia-APP-2024.pdf')}}" target="_blank">Seguimiento Plan de Mejoramiento Agencia APP 2024 >></a></li>
+						</ul>
+						<li>2023</li>
+						<ul>
+							<li><a href="{{asset('assets/pdf/control/contraloria-2023.pdf')}}" target="_blank">Plan de Mejoramiento Contraloría 2023 >></a></li>
+							<li><a href="{{asset('assets/pdf/control/Documento-de-apoyo-plan-de-mejora-2023.pdf')}}" target="_blank">Plan de Mejoramiento Contraloría 2023 - Segundo seguimiento >></a></li>
+						</ul>
+						<li>2022</li>
+						<ul>
+							<li><a href="{{asset('assets/pdf/control/PlandeMejoramientoSubdireccionAPP2022.xlsx')}}" target="_blank">Plan de Mejoramiento Subdirección APP 2022 >></a></li>
+							<li><a href="{{asset('assets/pdf/control/PlandeMejoramientoAuditor%C3%ADaGH.pdf')}}" target="_blank">Plan de Mejoramiento Auditoría GH 2022 >></a></li>
+						</ul>
+						<li>2020 - 2021</li>
+						<ul>
+							<li><a href="{{asset('assets/pdf/control/mejoramiento-2021.pdf')}}" target="_blank">Seguimiento al plan de mejoramiento 2021 - Auditoria financiera y de gestion, vigencia 2020 >></a></li>
+						</ul>
+
+						<li>2019</li>
+						<ul>
+							<li><a href="{{asset('assets/pdf/control/seguimiento-al-plan-de-mejoramiento-ita-02-diciembre-de-2019.pdf')}}" target="_blank">Seguimiento al plan de mejoramiento ITA-02 - diciembre de 2019 >></a></li>
+							<li><a href="{{asset('assets/pdf/control/seguimiento-al-plan-de-mejoramiento-auditoria-a-la-gestion-financiera-en-noviembre-2019.pdf')}}" target="_blank">Seguimiento al plan de mejoramiento - Auditoría a la gestión financiera en noviembre 2019 >></a></li>
+							<li><a href="{{asset('assets/pdf/control/plan-de-mejoramiento-indice-de-transparencia-y-acceso-a-la-informacion-en-2019.pdf')}}" target="_blank">Plan de mejoramiento - Índice de transparencia y acceso a la información en 2019 >></a></li>
+							<li><a href="{{asset('assets/pdf/control/plan-de-mejoramiento-auditoria-a-la-gestion-de-compras-en-noviembre-de-2019.pdf')}}" target="_blank">Plan de mejoramiento - Auditoría a la gestión de compras en noviembre de 2019 >></a></li>
+							<li><a href="{{asset('assets/pdf/control/plan-de-mejoramiento-unico.pdf')}}" target="_blank">Plan de mejoramiento único >></a></li>
+						</ul>
+					</ul>
+				</li>
+			</ul>
 			<br>
 			<h1 class="subt-m">4.8. Informes de la oficina de control interno</h1>
 			<ul>
-				<li><a href="{{route('user.transparency.control')}}" target="_blank">Informe pormenorizado del estado del control interno de acuerdo al artículo 9 de la Ley 1474 de 2011. Sección Informes pormenorizado del Estado de Control Interno >></a></li>
+				<li><h5>4.8.1. Informe pormenorizado del estado del control interno</h5>
+					<ul>
+						<li>2024</a></li>
+						<ul>
+							<li><a href="{{asset('assets/pdf/control/INFORME-PORMENORIZADO-DE-CONTROL-INTERNO-ENERO- JUNIO-2024.pdf')}}" target="_blank">Informe Pormenorizado de Control Interno Enero - Junio >></a></li>
+						</ul>
+					</ul>
+
+					<ul>
+						<li>2023</a></li>
+						<ul>
+							<li><a href="{{asset('assets/pdf/control/INFORME PORMENORIZADO AGENCIA APP 2023  - Corte Junio 30.pdf')}}" target="_blank">Informe pormenorizado de control interno Junio 30 2023 >></a></li>
+						</ul>
+					</ul>
+
+					<ul>
+						<li>2022</a></li>
+						<ul>
+							<li><a href="{{asset('assets/pdf/control/AutoevaluacionSistemadeControlInternoVigencia2022.pdf')}}" target="_blank">Informe pormenorizado de control interno Diciembre 30 2022 >></a></li>
+							<li><a href="{{asset('assets/pdf/control/APP2022-CorteJunio-30.pdf')}}" target="_blank">Informe pormenorizado de control interno Junio 30 2022 >></a></li>
+						</ul>
+					</ul>
+
+					<ul>
+						<li>2021</a></li>
+						<ul>
+							<li><a href="{{asset('assets/pdf/control/INFORMEPORMENORIZADOAGENCIAAPP2021-CorteDiciembre30.pdf')}}" target="_blank">Informe pormenorizado de control interno diciembre 2021 >></a></li>
+							<li><a href="{{asset('assets/pdf/control/INFORMEPORMENORIZADOAGENCIAAPP2021-CorteJunio30.pdf')}}" target="_blank">Informe pormenorizado de control interno al 30 de junio 2021 >></a></li>
+							<li><a href="{{asset('assets/pdf/control/informe-pormenorizado-control-interno-enero-27-de-2021.pdf')}}" target="_blank">Informe pormenorizado de control interno al 27 de enero 2021 >></a></li>
+						</ul>
+					</ul>
+
+					<ul>
+						<li>2020</a></li>
+						<ul>
+							<li><a href="{{asset('assets/pdf/control/informe-pormenorizado-control-interno-2020.pdf')}}" target="_blank">Informe pormenorizado de control interno 2020 >></a></li>
+						</ul>
+					</ul>
+
+					<ul>
+						<li>2019</a></li>
+						<ul>
+							<li><a href="{{asset('assets/pdf/control/informe-pormenorizado-31-dic-2019.pdf')}}" target="_blank">Informe pormenorizado del 1 de noviembre al 31 de diciembre de 2019 >></a></li>
+							<li><a href="{{asset('assets/pdf/control/informe-pormenorizado-12-nov-2019.pdf')}}" target="_blank">Informe pormenorizado al 12 de noviembre de 2019 >></a></li>
+							<li><a href="{{asset('assets/pdf/control/informe-pormenorizado-control-interno-abril-2019.pdf')}}" target="_blank">Informe pormenorizado a abril de 2019 >></a></li>
+						</ul>
+					</ul>
+
+					<ul>
+						<li>2018</a></li>
+						<ul>
+							<li><a href="{{asset('assets/pdf/control/informe-pormenorizado-iii-control-interno-2018.pdf')}}" target="_blank">Informe pormenorizado III de control interno - 2018 >></a></li>
+							<li><a href="{{asset('assets/pdf/control/informe-pormenorizado-ii-control-interno-2018.pdf')}}" target="_blank">Informe pormenorizado II de control interno - 2018 >></a></li>
+						</ul>
+					</ul>
+
+				</li>
 			</ul>
+
+			<ul>
+				<li><h5>4.8.2. Informe de derechos de autor</h5>
+					<ul>
+						<li><a href="{{asset('assets/pdf/control/InformedeDerechodeAutordeSoftware-2024.pdf')}}" target="_blank">2024 - Informe de Derecho de Autor de Software >></a></li>
+						<li><a href="{{asset('assets/pdf/control/INFORME-DE-SOFTWARE-LEGAL-2023.pdf')}}" target="_blank">2023 - Informe de Derecho de Autor de Software >></a></li>
+					</ul>
+
+				</li>
+			</ul>
+
+			<ul>
+				<li><h5>4.8.3. Evaluación por dependencias</h5>
+					<!-- 
+					<ul>
+						<li><a href="{{asset('assets/pdf/control/InformedeDerechodeAutordeSoftware-2024.pdf')}}" target="_blank">2024 - Informe de Derecho de Autor de Software >></a></li>
+						<li><a href="{{asset('assets/pdf/control/INFORME-DE-SOFTWARE-LEGAL-2023.pdf')}}" target="_blank">2023 - Informe de Derecho de Autor de Software >></a></li>
+					</ul>
+					-->
+
+				</li>
+			</ul>
+
+			<ul>
+				<li><h5>4.8.4. Informe de austeridad en el gasto</h5>
+					<ul>
+						<li>2024</li>
+						<ul>
+							<li><a href="{{asset('assets/pdf/control/austerity/Informe-de-austeridad-trimestre-3-2024.pdf')}}" target="_blank">Informe de Austeridad - Tercer Trimestre de 2024 >></a></li>
+							<li><a href="{{asset('assets/pdf/control/austerity/Austeridad-en-el-gasto-segundo-trimestre-2024.pdf')}}" target="_blank">Informe de Austeridad - Segundo Trimestre de 2024 >></a></li>
+							<li><a href="{{asset('assets/pdf/control/austerity/Austeridad-en-el-gasto-primer-trimestre-2024.pdf')}}" target="_blank">Informe de Austeridad - Primer Trimestre de 2024 >></a></li>
+						</ul>
+						<li>2022</li>
+						<ul>
+							<li><a href="{{asset('assets/pdf/control/austerity/Tercer-trimestre-2022.pdf')}}" target="_blank">Informe de austeridad - Tercer trimestre de 2022 >></a></li>
+							<li><a href="{{asset('assets/pdf/control/austerity/segundo-trimestre-de-2022.pdf')}}" target="_blank">Informe de austeridad - Segundo trimestre de 2022 >></a></li>
+						</ul>
+						<li>2021</li>
+						<ul>
+							<li><a href="{{asset('assets/pdf/control/austerity/tercer-2021.pdf')}}" target="_blank">Informe de austeridad - Tercer trimestre de 2021 >></a></li>
+							<li><a href="{{asset('assets/pdf/control/austerity/informedeausteridadenelgastosegundotrimestrede2021.pdf')}}" target="_blank">Informe de austeridad - Segundo trimestre de 2021 >></a></li>
+							<li><a href="{{asset('assets/pdf/control/austerity/informe-de-austeridad-primer-trimestre-2021.pdf')}}" target="_blank">Informe de austeridad - Primer trimestre de 2021 >></a></li>
+						</ul>
+						<li>2020</li>
+						<ul>
+							<li><a href="{{asset('assets/pdf/control/austerity/informe-de-austeridad-cuarto-trimestre-2020.pdf')}}" target="_blank">Informe de austeridad - Cuarto trimestre de 2020 >></a></li>
+							<li><a href="{{asset('assets/pdf/control/austerity/informe-de-austeridad-tercer-trimestre-2020.pdf')}}" target="_blank">Informe de austeridad - Tercer trimestre de 2020 >></a></li>
+							<li><a href="{{asset('assets/pdf/control/austerity/informe-de-austeridad-segundo-trimestre-2020.pdf')}}" target="_blank">Informe de austeridad - Segundo trimestre de 2020 >></a></li>
+							<li><a href="{{asset('assets/pdf/control/austerity/informe-de-austeridad-primer-trimestre-2020.pdf')}}" target="_blank">Informe de austeridad - Primer trimestre de 2020 >></a></li>
+						</ul>
+						<li>2019</li>
+						<ul>
+							<li><a href="{{asset('assets/pdf/control/austerity/informe-de-austeridad-en-el-gasto-de-octubre-diciembre-2019.pdf')}}" target="_blank">Informe de austeridad en el gasto de octubre a diciembre de 2019 >></a></li>
+							<li><a href="{{asset('assets/pdf/control/austerity/informe-de-austeridad-en-el-gasto-de-julio-septiembre-2019.pdf')}}" target="_blank">Informe de austeridad en el gasto de julio a septiembre de 2019 >></a></li>
+							<li><a href="{{asset('assets/pdf/control/austerity/informe-de-austeridad-en-el-gasto-de-enero-junio-2019.pdf')}}" target="_blank">Informe de austeridad en el gasto de enero a junio de 2019 >></a></li>
+						</ul>
+					</ul>
+
+				</li>
+			</ul>
+
+			<ul>
+				<li><h5>4.8.5. Mapas de riesgos</h5>
+			</ul>
+			
+			
 			<br>
 			<h1 class="subt-m">4.9. Informe sobre defensa pública y prevención de daño antijurídico</h1>
 			<ul>
-				<li><a href="https://app.gov.co/assets/pdf/control/Informe-DefensaJudicial-2024.pdf" target="_blank">2024 >></a></li>
-				<li><a href="https://app.gov.co/transparencia/control" target="_blank">Historico >></a></li>
+				<li><a href="{{asset('assets/pdf/control/Informe-DefensaJudicial-2024.pdf')}}" target="_blank">2024 >></a></li>
+				<li><a href="#" target="_blank">2022 >></a></li>
+				<li><a href="{{asset('assets/pdf/control/informe-de-defensa-judicial-28-enero-2021.pdf')}}" target="_blank">2021 >></a></li>
+				<li><a href="{{asset('assets/pdf/control/informe-de-defensa-judicial-15-de-octubre-de-2020.pdf')}}" target="_blank">2000 >></a></li>
+				<li><a href="{{asset('assets/pdf/control/informede-defensa-judicial-vigencia-2016-a-2019.pdf')}}" target="_blank">2019 >></a></li>
 			</ul>
 			<br>
 			<h1 class="subt-m">4.10. Informes trimestrales sobre acceso a la información, quejas y reclamos</h1>
 			<ul>
-				<li><a href="https://app.gov.co/assets/pdf/pqrs/Informe-de-PQRSD-JulSept.pdf" target="_blank">Tercer Trimestre de 2024 >></a></li>
-				<li><a href="https://app.gov.co/transparencia/control" target="_blank">Historico</a></li>
+				<li><h5>4.10.1. Informes de peticiones, quejas, reclamos y sugerencias - PQRS</h5>
+					<ul>
+						<li>2025</li>
+						<ul>
+							<li><a href="{{asset('assets/pdf/pqrs/InformedePQRSD-EneMar-2025.pdf')}}" target="_blank">Informe de PQRSD - Primer Trimestre de 2025 >></a></li>
+						</ul>
+						<li>2024</li>
+						<ul>
+							<li><a href="{{asset('assets/pdf/pqrs/Informe-de-PQRSD-Oct-Dic.pdf')}}" target="_blank">Informe de PQRSD - Cuarto Trimestre de 2024 >></a></li>
+							<li><a href="{{asset('assets/pdf/pqrs/Informe-de-PQRSD-JulSept.pdf')}}" target="_blank">Informe de PQRSD - Tercer Trimestre de 2024 >></a></li>
+							<li><a href="{{asset('assets/pdf/pqrs/Informe-de-PQRSD-AbrJun.pdf')}}" target="_blank">Informe de PQRSD - Segundo Trimestre de 2024 >></a></li>
+							<li><a href="{{asset('assets/pdf/pqrs/Informe-de-PQRSD-PrimerTrismestre2024.pdf')}}" target="_blank">Informe de PQRSD - Primer Trimestre de 2024 >></a></li>
+						</ul>
+						<li>2023</li>
+						<ul>
+							<li><a href="{{asset('assets/pdf/pqrs/primer-trimestre-2023.pdf')}}" target="_blank">Informe de PQRSD - Primer trimestre de 2023 >></a></li>
+						</ul>
+						<li>2022</li>
+						<ul>
+							<li><a href="{{asset('assets/pdf/pqrs/cuarto-Trimestre-2022.pdf')}}" target="_blank">Informe de PQRSD - Cuarto trimestre de 2022 >></a></li>
+							<li><a href="{{asset('assets/pdf/control/pqrs/InformePQRSD3%C2%B0Trimestre2022.pdf')}}" target="_blank">Informe de PQRSD - Tercer trimestre de 2022 >></a></li>
+							<li><a href="{{asset('assets/pdf/control/pqrs/InformePQRSD2%C2%B0Trimestre2022.pdf')}}" target="_blank">Informe de PQRSD - Segundo trimestre de 2022 >></a></li>
+							<li><a href="{{asset('assets/pdf/control/pqrs/InformePQRSD1%C2%B0Trimestre2022.pdf')}}" target="_blank">Informe de PQRSD - Primer trimestre de 2022 >></a></li>
+						</ul>
+						<li>2021</li>
+						<ul>
+							<li><a href="{{asset('assets/pdf/control/pqrs/InformePQRSDcortesegundoSemestreJulio01al30Diciembre2021.pdf')}}" target="_blank">Informe de PQRSD - Segundo semestre de 2021 >></a></li>
+							<li><a href="{{asset('assets/pdf/control/pqrs/InformePQRSDcortesegundotrimestre2021.pdf')}}" target="_blank">Informe de PQRSD - Segundo trimestre de 2021 >></a></li>
+							<li><a href="{{asset('assets/pdf/control/pqrs/informe-enero-1-a-marzo-30-del-2021.pdf')}}" target="_blank">Informe de PQRSD - Primer trimestre de 2021 >></a></li>
+						</ul>
+						<li>2020</li>
+						<ul>
+							<li><a href="{{asset('assets/pdf/control/pqrs/informe-enero-1-a-diciembre-30-del-2020.pdf')}}" target="_blank">Informe de PQRSD desde el 1 enero al 30 diciembre de 2020 >></a></li>
+						</ul>
+						<li>2019</li>
+						<ul>
+							<li><a href="{{asset('assets/pdf/control/pqrs/informe-de-estados-pqrsd-de-julio-a-diciembre-de-2019.pdf')}}" target="_blank">Informe de PQRSD - Segundo semestre de 2019 >></a></li>
+							<li><a href="{{asset('assets/pdf/control/pqrs/informe-de-estados-pqrsd-primer-semestre-de-2019.pdf')}}" target="_blank">Informe de PQRSD - Primer semestre de 2019 >></a></li>
+						</ul>
+					</ul>
+
+				</li>
 			</ul>
+
+			<ul>
+				<li><h5>4.10.2. Registro Público PQRSD</h5>
+					<ul>
+						<li><a href="{{asset('assets/pdf/pqrs/Registro-publico-PQRSD-semestre-II-2024.xlsx')}}" target="_blank">Registro Publico PQRSD - Semestre II 2024 >></a></li>
+						<li><a href="{{asset('assets/pdf/pqrs/Registro-publico-PQRSD-semestre-I-2024.xlsx')}}" target="_blank">Registro Publico PQRSD - Semestre I 2024 >></a></li>
+					</ul>
+
+				</li>
+			</ul>
+
 
 
 			<!-- 

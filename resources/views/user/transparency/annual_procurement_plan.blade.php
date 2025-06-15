@@ -10,7 +10,7 @@
 		<div class="vlt-page-title-hero vlt-page-title-hero--work vlt-page-title-hero--lg jarallax">
 			<div class="vlt-page-title-hero__overlay"></div><img alt="" class="jarallax-img" src="{{asset('assets/img/Banners/adquisiciones.jpg')}}">
 			<div class="vlt-page-title-hero__content ocultPosition">
-				<h1 style="color:white;">Plan anual de adquisiciones</h1>
+				<h1 style="color:white;">Plan Anual de Adquisiciones</h1>
 			</div>
 		</div>
 	</section>
@@ -20,12 +20,24 @@
 			<h5 class="mt-5 mb-5">Aquí encontrarás la información relacionada con los planes Anuales de adquisiciones de la Agencia APP</h5>
 		</div>
 		<div class="container mt-5">
-		<button class="accordion">Plan anual 2024</button>
+		<button class="accordion">Plan Anual 2025</button>
 			<div class="panel">
 				<table class="table table-bordered table-striped custom-table">
 					<tbody>						
 						<tr>
-							<td>Plan anual de adquisiciones 2024 - Actualizado</td>
+							<td>Plan Anual de Adquisiciones 2025</td>
+							<td>
+								<a class="btn btn-primary" href="{{asset('assets/pdf/annual_procurement_plan/PAA2025_2025-04-29.xlsx')}}" target="_blank">Ver documento</a>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div><button class="accordion">Plan Anual 2024</button>
+			<div class="panel">
+				<table class="table table-bordered table-striped custom-table">
+					<tbody>						
+						<tr>
+							<td>Plan Anual de Adquisiciones 2024</td>
 							<td>
 								<a class="btn btn-primary" href="{{asset('assets/pdf/annual_procurement_plan/PAA-2024-V13.xlsx')}}" target="_blank">Ver documento</a>
 							</td>
@@ -33,7 +45,7 @@
 					</tbody>
 				</table>
 			</div>
-			<button class="accordion">Plan anual 2023</button>
+			<button class="accordion">Plan Anual 2023</button>
 			<div class="panel">
 				<table class="table table-bordered table-striped custom-table">
 					<tbody>						
@@ -46,7 +58,7 @@
 					</tbody>
 				</table>
 			</div>
-			<button class="accordion">Plan anual 2022</button>
+			<button class="accordion">Plan Anual 2022</button>
 			<div class="panel">
 				<table class="table table-bordered table-striped custom-table">
 					<tbody>
@@ -70,7 +82,7 @@
 						</tr>
 					</tbody>
 				</table>
-			</div><button class="accordion">Plan anual 2021</button>
+			</div><button class="accordion">Plan Anual 2021</button>
 			<div class="panel">
 				<table class="table table-bordered table-striped custom-table">
 					<tbody>
@@ -100,7 +112,7 @@
 						</tr>
 					</tbody>
 				</table>
-			</div><button class="accordion">Plan anual 2020</button>
+			</div><button class="accordion">Plan Anual 2020</button>
 			<div class="panel">
 				<table class="table table-bordered table-striped custom-table">
 					<tbody>
@@ -130,7 +142,7 @@
 						</tr>
 					</tbody>
 				</table>
-			</div><button class="accordion">Plan anual 2019</button>
+			</div><button class="accordion">Plan Anual 2019</button>
 			<div class="panel">
 				<table class="table table-bordered table-striped custom-table">
 					<tbody>
@@ -160,7 +172,7 @@
 						</tr>
 					</tbody>
 				</table>
-			</div><button class="accordion">Plan anual 2018</button>
+			</div><button class="accordion">Plan Anual 2018</button>
 			<div class="panel">
 				<table class="table table-bordered table-striped custom-table">
 					<tbody>
@@ -172,7 +184,7 @@
 						</tr>
 					</tbody>
 				</table>
-			</div><button class="accordion">Plan anual 2017</button>
+			</div><button class="accordion">Plan Anual 2017</button>
 			<div class="panel">
 				<table class="table table-bordered table-striped custom-table">
 					<tbody>
@@ -184,7 +196,7 @@
 						</tr>
 					</tbody>
 				</table>
-			</div><button class="accordion">Plan anual 2016</button>
+			</div><button class="accordion">Plan Anual 2016</button>
 			<div class="panel">
 				<table class="table table-bordered table-striped custom-table">
 					<tbody>
@@ -196,7 +208,7 @@
 						</tr>
 					</tbody>
 				</table>
-			</div><button class="accordion">Plan anual 2015</button>
+			</div><button class="accordion">Plan Anual 2015</button>
 			<div class="panel">
 				<table class="table table-bordered table-striped custom-table">
 					<tbody>

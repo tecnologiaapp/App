@@ -16,7 +16,7 @@
 						<div class="section-title">
 							
 						<h2>Edison Montoya Vélez</h2>
-		<div class="vlt-gap-120"></div>
+		<div style="margin-top: 10px"></div>
 		<div class="container">
 			<div class="row no-gutters">
 			<!-- ======= Hero Section ======= -->

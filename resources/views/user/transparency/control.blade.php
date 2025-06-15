@@ -347,6 +347,12 @@
 			<div class="panel">
 					<table class="table table-bordered table-striped custom-table">
 						<tbody>
+							<tr>
+								<td>Registro Publico PQRSD - Semestre II 2024</td>
+								<td>
+									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/pqrs/Registro-publico-PQRSD-semestre-II-2024.xlsx')}}" target="_blank">Ver documento</a>
+								</td>
+							</tr>
 						   <tr>
 								<td>Registro Publico PQRSD - Semestre I 2024</td>
 								<td>
@@ -359,6 +365,19 @@
 			</div>
 			<button class="accordion">Informes de peticiones, quejas, reclamos y sugerencias - PQRS</button>
 			<div class="panel">
+			<button class="accordion">2025</button>
+			<div class="panel">
+					<table class="table table-bordered table-striped custom-table">
+						<tbody>
+						   <tr>
+								<td> Informe de PQRSD - Primer Trimestre de 2025</td>
+								<td>
+									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/pqrs/InformedePQRSD-EneMar-2025.pdf')}}" target="_blank">Ver documento</a>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+			</div>
 			<button class="accordion">2024</button>
 			<div class="panel">
 					<table class="table table-bordered table-striped custom-table">
