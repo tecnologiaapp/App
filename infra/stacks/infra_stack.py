@@ -5,6 +5,7 @@ from aws_cdk import (
     aws_elasticloadbalancingv2 as elbv2,
     aws_iam as iam,
     aws_logs as logs,
+    aws_certificatemanager as acm,
     CfnOutput,
     Duration,
 )
@@ -144,10 +145,17 @@ class WebsiteAppStack(Stack):
             idle_timeout=Duration.seconds(60)
         )
 
-        # HTTP Listener
-        http_listener = lb.add_listener(
-            "HttpListener",
-            port=80,
+        # Importar certificado existente o crear uno nuevo
+        certificate = acm.Certificate.from_certificate_arn(
+            self, "Certificate",
+            certificate_arn="arn:aws:acm:us-east-1:825612589793:certificate/08cc41bd-40ee-4dfd-98e3-29555b47fc79"  # Reemplazar con tu ARN de certificado
+        )
+
+        # HTTPS Listener
+        https_listener = lb.add_listener(
+            "HttpsListener",
+            port=443,
+            certificates=[certificate],
             default_action=elbv2.ListenerAction.fixed_response(
                 status_code=200,
                 content_type="text/plain",
@@ -155,9 +163,9 @@ class WebsiteAppStack(Stack):
             )
         )
 
-        # Target Group con una sola instancia
-        target_group = http_listener.add_targets(
-            "WebsiteAppHttpTarget",
+        # Target Group para HTTPS
+        target_group = https_listener.add_targets(
+            "WebsiteAppHttpsTarget",
             port=80,
             targets=[
                 ecs.FargateService(
@@ -168,7 +176,7 @@ class WebsiteAppStack(Stack):
                     vpc_subnets=ec2.SubnetSelection(
                         subnet_type=ec2.SubnetType.PRIVATE_WITH_EGRESS
                     ),
-                    assign_public_ip=False,  # No es necesaria una IP pública ya que se usa NAT Gateway
+                    assign_public_ip=False,
                     desired_count=1,
                     min_healthy_percent=100,
                     max_healthy_percent=200,
@@ -177,13 +185,24 @@ class WebsiteAppStack(Stack):
             ],
             health_check=elbv2.HealthCheck(
                 path="/health",
-                healthy_http_codes="200-499", 
+                healthy_http_codes="200-499",
                 interval=Duration.seconds(60),
                 timeout=Duration.seconds(30),
                 healthy_threshold_count=2,
                 unhealthy_threshold_count=10
             ),
             deregistration_delay=Duration.seconds(60)
+        )
+
+        # HTTP Listener (redireccionar a HTTPS)
+        http_listener = lb.add_listener(
+            "HttpListener",
+            port=80,
+            default_action=elbv2.ListenerAction.redirect(
+                protocol="HTTPS",
+                port="443",
+                permanent=True
+            )
         )
 
         # Outputs
