@@ -80,60 +80,84 @@
 						</tr>
 					</tbody>
 				</table>
+			</div><button class="accordion">Información contable de 2025</button>
+			<div class="panel">
+				<table class="table table-bordered table-striped custom-table">
+					<tbody>
+						<tr>
+							<td>Estados Financieros - Marzo</td>
+							<td>
+								<a class="btn btn-primary btn-block btn-block" href="{{asset('assets/pdf/financial_statements/2025/MARZO-2025.pdf')}}" target="_blank">Ver documento</a>
+							</td>
+						</tr> 
+						<tr>
+							<td>Estados Financieros - Febrero</td>
+							<td>
+								<a class="btn btn-primary btn-block btn-block" href="{{asset('assets/pdf/financial_statements/2025/FEBRERO-2025.pdf')}}" target="_blank">Ver documento</a>
+							</td>
+						</tr> 
+					    <tr>
+							<td>Estados Financieros - Enero</td>
+							<td>
+								<a class="btn btn-primary btn-block btn-block" href="{{asset('assets/pdf/financial_statements/2025/ENERO-2025.pdf')}}" target="_blank">Ver documento</a>
+							</td>
+						</tr> 
+					</tbody>
+				</table>
 			</div><button class="accordion">Información contable de 2024</button>
 			<div class="panel">
 				<table class="table table-bordered table-striped custom-table">
 					<tbody>
 					    <tr>
-							<td>Estados Financieros - Septiembre 2024</td>
+							<td>Estados Financieros - Septiembre</td>
 							<td>
 								<a class="btn btn-primary btn-block btn-block" href="{{asset('assets/pdf/financial_statements/2024/SEPTIEMBRE-2024.pdf')}}" target="_blank">Ver documento</a>
 							</td>
 						</tr> 
 						<tr>
-							<td>Estados Financieros - Agosto 2024</td>
+							<td>Estados Financieros - Agosto</td>
 							<td>
 								<a class="btn btn-primary btn-block btn-block" href="{{asset('assets/pdf/financial_statements/2024/AGOSTO-2024.pdf')}}" target="_blank">Ver documento</a>
 							</td>
 						</tr>
 					    <tr>
-							<td>Estados Financieros - Julio 2024</td>
+							<td>Estados Financieros - Julio</td>
 							<td>
 								<a class="btn btn-primary btn-block btn-block" href="{{asset('assets/pdf/financial_statements/2024/JULIO-2024.pdf')}}" target="_blank">Ver documento</a>
 							</td>
 						</tr>
 						<tr>
-							<td>Estados Financieros - Junio 2024</td>
+							<td>Estados Financieros - Junio</td>
 							<td>
 								<a class="btn btn-primary btn-block btn-block" href="{{asset('assets/pdf/financial_statements/2024/JUNIO-2024.pdf')}}" target="_blank">Ver documento</a>
 							</td>
 						</tr>
 						<tr>
-							<td>Estados Financieros - Mayo 2024</td>
+							<td>Estados Financieros - Mayo</td>
 							<td>
 								<a class="btn btn-primary btn-block btn-block" href="{{asset('assets/pdf/financial_statements/2024/MAYO-2024.pdf')}}" target="_blank">Ver documento</a>
 							</td>
 						</tr>
 						<tr>
-							<td>Estados Financieros - Abril 2024</td>
+							<td>Estados Financieros - Abril</td>
 							<td>
 								<a class="btn btn-primary btn-block btn-block" href="{{asset('assets/pdf/financial_statements/2024/ABRIL-2024.pdf')}}" target="_blank">Ver documento</a>
 							</td>
 						</tr>
 						<tr>
-							<td>Estados Financieros - Marzo 2024</td>
+							<td>Estados Financieros - Marzo</td>
 							<td>
 								<a class="btn btn-primary btn-block btn-block" href="{{asset('assets/pdf/financial_statements/2024/MARZO-2024.pdf')}}" target="_blank">Ver documento</a>
 							</td>
 						</tr>
 						<tr>
-							<td>Estados Financieros - Febrero 2024</td>
+							<td>Estados Financieros - Febrero</td>
 							<td>
 								<a class="btn btn-primary btn-block btn-block" href="{{asset('assets/pdf/financial_statements/2024/FEBRERO-2024.pdf')}}" target="_blank">Ver documento</a>
 							</td>
 						</tr>
 						<tr>
-							<td>Estados Financieros - Enero 2024</td>
+							<td>Estados Financieros - Enero</td>
 							<td>
 								<a class="btn btn-primary btn-block btn-block" href="{{asset('assets/pdf/financial_statements/2024/ENERO-2024.pdf')}}" target="_blank">Ver documento</a>
 							</td>
@@ -145,55 +169,55 @@
 				<table class="table table-bordered table-striped custom-table">
 					<tbody>
 						<tr>
-							<td>Estados Financieros Septiembre 2023</td>
+							<td>Estados Financieros Septiembre</td>
 							<td>
 								<a class="btn btn-primary btn-block btn-block" href="{{asset('assets/pdf/financial_statements/2023/septiembre-2023.pdf')}}" target="_blank">Ver documento</a>
 							</td>
 						</tr>
 						<tr>
-							<td>Estados Financieros Agosto 2023</td>
+							<td>Estados Financieros Agosto</td>
 							<td>
 								<a class="btn btn-primary btn-block btn-block" href="{{asset('assets/pdf/financial_statements/2023/agosto-2023.pdf')}}" target="_blank">Ver documento</a>
 							</td>
 						</tr>
 						<tr>
-							<td>Estados Financieros Julio 2023</td>
+							<td>Estados Financieros Julio</td>
 							<td>
 								<a class="btn btn-primary btn-block btn-block" href="{{asset('assets/pdf/financial_statements/2023/junio-2023.pdf')}}" target="_blank">Ver documento</a>
 							</td>
 						</tr>
 						<tr>
-							<td>Estados Financieros Junio 2023</td>
+							<td>Estados Financieros Junio</td>
 							<td>
 								<a class="btn btn-primary btn-block btn-block" href="{{asset('assets/pdf/financial_statements/2023/junio-2023.pdf')}}" target="_blank">Ver documento</a>
 							</td>
 						</tr>
 						<tr>
-							<td>Estados Financieros Mayo 2023</td>
+							<td>Estados Financieros Mayo</td>
 							<td>
 								<a class="btn btn-primary btn-block btn-block" href="{{asset('assets/pdf/financial_statements/2023/mayo-2023.pdf')}}" target="_blank">Ver documento</a>
 							</td>
 						</tr>
 						<tr>
-							<td>Estados Financieros Abril 2023</td>
+							<td>Estados Financieros Abril</td>
 							<td>
 								<a class="btn btn-primary btn-block btn-block" href="{{asset('assets/pdf/financial_statements/2023/abril-2023.pdf')}}" target="_blank">Ver documento</a>
 							</td>
 						</tr>
 						<tr>
-							<td>Estados Financieros Marzo 2023</td>
+							<td>Estados Financieros Marzo</td>
 							<td>
 								<a class="btn btn-primary btn-block btn-block" href="{{asset('assets/pdf/financial_statements/2023/marzo-2023.pdf')}}" target="_blank">Ver documento</a>
 							</td>
 						</tr>
 						<tr>
-							<td>Estados Financieros Febrero 2023</td>
+							<td>Estados Financieros Febrero</td>
 							<td>
 								<a class="btn btn-primary btn-block btn-block" href="{{asset('assets/pdf/financial_statements/2023/febrero-2023.pdf')}}" target="_blank">Ver documento</a>
 							</td>
 						</tr>
 						<tr>
-							<td>Estados Financieros Enero 2023</td>
+							<td>Estados Financieros Enero</td>
 							<td>
 								<a class="btn btn-primary btn-block btn-block" href="{{asset('assets/pdf/financial_statements/2023/enero-2023.pdf')}}" target="_blank">Ver documento</a>
 							</td>
@@ -205,73 +229,73 @@
 				<table class="table table-bordered table-striped custom-table">
 					<tbody>
 						<tr>
-							<td>Estados Financieros Diciembre 2022</td>
+							<td>Estados Financieros Diciembre</td>
 							<td>
 								<a class="btn btn-primary btn-block btn-block" href="{{asset('assets/pdf/financial_statements/2022/Diciembre-2022.pdf')}}" target="_blank">Ver documento</a>
 							</td>
 						</tr>
 						<tr>
-							<td>Estados Financieros Noviembre 2022</td>
+							<td>Estados Financieros Noviembre</td>
 							<td>
 								<a class="btn btn-primary btn-block btn-block" href="{{asset('assets/pdf/financial_statements/2022/Noviembre-2022.pdf')}}" target="_blank">Ver documento</a>
 							</td>
 						</tr>
 						<tr>
-							<td>Estados Financieros Octubre 2022</td>
+							<td>Estados Financieros Octubre</td>
 							<td>
 								<a class="btn btn-primary btn-block btn-block" href="{{asset('assets/pdf/financial_statements/2022/octubre-2022.pdf')}}" target="_blank">Ver documento</a>
 							</td>
 						</tr>
 						<tr>
-							<td>Estados Financieros Septiembre 2022</td>
+							<td>Estados Financieros Septiembre</td>
 							<td>
 								<a class="btn btn-primary btn-block btn-block" href="{{asset('assets/pdf/financial_statements/2022/septiembre-2022.pdf')}}" target="_blank">Ver documento</a>
 							</td>
 						</tr>
 						<tr>
-							<td>Estados Financieros Agosto 2022</td>
+							<td>Estados Financieros Agosto</td>
 							<td>
 								<a class="btn btn-primary btn-block btn-block" href="{{asset('assets/pdf/financial_statements/2022/agosto-2022.pdf')}}" target="_blank">Ver documento</a>
 							</td>
 						</tr>
 						<tr>
-							<td>Estados Financieros Julio 2022</td>
+							<td>Estados Financieros Julio</td>
 							<td>
 								<a class="btn btn-primary btn-block btn-block" href="{{asset('assets/pdf/financial_statements/2022/julio-2022.pdf')}}" target="_blank">Ver documento</a>
 							</td>
 						</tr>
 						<tr>
-							<td>Estados Financieros Junio 2022</td>
+							<td>Estados Financieros Junio</td>
 							<td>
 								<a class="btn btn-primary btn-block btn-block" href="{{asset('assets/pdf/financial_statements/2022/junio-2022.pdf')}}" target="_blank">Ver documento</a>
 							</td>
 						</tr>
 						<tr>
-							<td>Estados Financieros Mayo 2022</td>
+							<td>Estados Financieros Mayo</td>
 							<td>
 								<a class="btn btn-primary btn-block btn-block" href="{{asset('assets/pdf/financial_statements/2022/mayo-2022.pdf')}}" target="_blank">Ver documento</a>
 							</td>
 						</tr>
 						<tr>
-							<td>Estados Financieros Abril 2022</td>
+							<td>Estados Financieros Abril</td>
 							<td>
 								<a class="btn btn-primary btn-block btn-block" href="{{asset('assets/pdf/financial_statements/2022/abril-2022.pdf')}}" target="_blank">Ver documento</a>
 							</td>
 						</tr>
 						<tr>
-							<td>Estados Financieros Marzo 2022</td>
+							<td>Estados Financieros Marzo</td>
 							<td>
 								<a class="btn btn-primary btn-block btn-block" href="{{asset('assets/pdf/financial_statements/2022/marzo-2022.pdf')}}" target="_blank">Ver documento</a>
 							</td>
 						</tr>
 						<tr>
-							<td>Estados Financieros Febrero 2022</td>
+							<td>Estados Financieros Febrero</td>
 							<td>
 								<a class="btn btn-primary btn-block btn-block" href="{{asset('assets/pdf/financial_statements/2022/febrero-2022.pdf')}}" target="_blank">Ver documento</a>
 							</td>
 						</tr>
 						<tr>
-							<td>Estados Financieros Enero 2022</td>
+							<td>Estados Financieros Enero</td>
 							<td>
 								<a class="btn btn-primary btn-block btn-block" href="{{asset('assets/pdf/financial_statements/2022/enero-2022.pdf')}}" target="_blank">Ver documento</a>
 							</td>
@@ -283,31 +307,31 @@
 				<table class="table table-bordered table-striped custom-table">
 					<tbody>
 						<tr>
-							<td>Estados Financieros Diciembre 2021</td>
+							<td>Estados Financieros Diciembre</td>
 							<td>
 								<a class="btn btn-primary btn-block btn-block" href="{{asset('assets/pdf/financial_statements/2021/Dic-2021.pdf')}}" target="_blank">Ver documento</a>
 							</td>
 						</tr>
 						<tr>
-							<td>Estados Financieros Noviembre 2021</td>
+							<td>Estados Financieros Noviembre</td>
 							<td>
 								<a class="btn btn-primary btn-block btn-block" href="{{asset('assets/pdf/financial_statements/2021/Noviembre-2021.pdf')}}" target="_blank">Ver documento</a>
 							</td>
 						</tr>
 						<tr>
-							<td>Estados Financieros Octubre 2021</td>
+							<td>Estados Financieros Octubre</td>
 							<td>
 								<a class="btn btn-primary btn-block btn-block" href="{{asset('assets/pdf/financial_statements/2021/Octubre-2021.pdf')}}" target="_blank">Ver documento</a>
 							</td>
 						</tr>
 						<tr>
-							<td>Estados Financieros Septiembre 2021</td>
+							<td>Estados Financieros Septiembre</td>
 							<td>
 								<a class="btn btn-primary btn-block btn-block" href="{{asset('assets/pdf/financial_statements/2021/septiembre-2021.pdf')}}" target="_blank">Ver documento</a>
 							</td>
 						</tr>
 						<tr>
-							<td>Estados Financieros Agosto 2021</td>
+							<td>Estados Financieros Agosto</td>
 							<td>
 								<a class="btn btn-primary btn-block btn-block" href="{{asset('assets/pdf/financial_statements/2021/agosto-2021.pdf')}}" target="_blank">Ver documento</a>
 							</td>

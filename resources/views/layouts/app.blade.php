@@ -187,7 +187,7 @@ body.pojo-a11y-focusable a:focus{ outline-style: solid !important;	outline-width
 <div class="footer-top" style="background-color: #b3348a; padding-top: 17px !important; padding-bottom: 20px !important; ">
   <div class="container">
     <div style="display: flex; align-items: center; justify-content: space-between;">
-      <a href="https://app.gov.co/assets/pdf/pol%C3%ADtica-de-manejo-de-datos-personales.pdf" target="_blank"><p style="font-size: 14px; color: #FFF">Política de tratamiento de datos >></p></a> <span><p style="font-size: 14px; color: #FFF">|</p></span>
+      <a href="{{asset('assets/pdf/Resolucion033-Politicadatospersonales.pdf')}}" target="_blank"><p style="font-size: 14px; color: #FFF">Política de tratamiento de datos >></p></a> <span><p style="font-size: 14px; color: #FFF">|</p></span>
       <a href="{{asset('assets/pdf/Términos-y-condiciones-de-uso-del-portal.pdf')}}" target="_blank"><p style="font-size: 14px; color: #FFF">Términos y condiciones >></p></a> <span><p style="font-size: 14px; color: #FFF">|</p></span>
       <a href="{{asset('assets/pdf/Política-de-derechos-de-autor.pdf')}}" target="_blank" ><p style="font-size: 14px; color: #FFF">Políticas de derecho de autor >></p></a>
       <span><p style="font-size: 14px; color: #FFF">|</p></span>
