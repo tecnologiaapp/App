@@ -183,7 +183,7 @@
 	<section>
 		<div class="content-certificado">
 			<div class="buttom-certificado">
-				<a href="http://181.143.121.243:8001/search-contract" target="_blank">Gestiona tus certificados contractuales haciendo clic aqui >></a>
+				<a href="https://certificados.app.gov.co/search-contract" target="_blank">Gestiona tus certificados contractuales haciendo clic aqui >></a>
 			</div>
 		</div>
 </section>
