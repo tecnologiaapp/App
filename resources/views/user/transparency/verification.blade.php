@@ -772,10 +772,18 @@
 			</ul>
 
 			<ul>
-				<li><h5>4.7.3. Informe de rendición de cuentas ante la Contraloría General de la República</h5>
+				<li><h5>4.7.3. Informe de rendición de cuentas ante la Contraloría General de la República/ Medellín</h5>
 					<ul>
-						<li><a href="#" target="_blank">Contraloría General de Medellín - 2024 >></a></li>
-						<li><a href="#" target="_blank">Contraloría General de Medellín - 2023 >></a></li>
+						<li>2024</li>
+						<ul>
+							<li><a href="{{asset('assets/pdf/control/Rendición_CuentaFiscal_2024.pdf')}}" target="_blank">Rendición de la cuenta fiscal >></a></li>
+							<li><a href="{{asset('assets/pdf/control/ANEXOS_RENDICION_ANUAL2024.pdf')}}" target="_blank">Anexos rendición de la cuenta fiscal >></a></li>
+						</ul>
+						<li>2023</li>
+						<ul>
+							<li><a href="{{asset('assets/pdf/control/INFORMEFISCALYFINANCIERO2023.pdf')}}" target="_blank">Rendición de la cuenta fiscal >></a></li>
+							<li><a href="{{asset('assets/pdf/control/ANEXOSRENDICIONANUAL2023.pdf')}}" target="_blank">Anexos rendición de la cuenta fiscal >></a></li>
+						</ul>
 					</ul>
 				</li>
 			</ul>
