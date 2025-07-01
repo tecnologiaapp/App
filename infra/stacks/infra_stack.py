@@ -81,6 +81,7 @@ class WebsiteAppStack(Stack):
                 "APP_KEY": "base64:Zi0aU8hJOWzuxgFYprfA7xvHnEgmNEYBZ6LDGZ7hTDs=",
                 "APP_DEBUG": "true",
                 "APP_URL": "https://www.app.gov.co",
+                "ASSET_URL": "https://www.app.gov.co",
                 "LOG_CHANNEL": "stack",
                 "LOG_DEPRECATIONS_CHANNEL": "null",
                 "LOG_LEVEL": "debug",
