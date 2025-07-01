@@ -16,6 +16,14 @@ class WebsiteAppStack(Stack):
     def __init__(self, scope: Construct, construct_id: str, **kwargs) -> None:
         super().__init__(scope, construct_id, **kwargs)
 
+        # Obtener variables de entorno del contexto o usar valores por defecto
+        app_key = self.node.try_get_context('app_key') or "base64:Zi0aU8hJOWzuxgFYprfA7xvHnEgmNEYBZ6LDGZ7hTDs="
+        mail_host = self.node.try_get_context('mail_host') or "smtp.gmail.com"
+        mail_port = self.node.try_get_context('mail_port') or "587"
+        mail_username = self.node.try_get_context('mail_username') or "alexis.espinosa@app.gov.co"
+        mail_password = self.node.try_get_context('mail_password') or ""
+        mail_from_address = self.node.try_get_context('mail_from_address') or "alexis.espinosa@app.gov.co"
+
         # VPC sin subredes aisladas (ya no se requiere para Aurora)
         vpc = ec2.Vpc(
             self, 
@@ -78,8 +86,8 @@ class WebsiteAppStack(Stack):
             environment={
                 "APP_NAME": "Laravel",
                 "APP_ENV": "local",
-                "APP_KEY": "base64:Zi0aU8hJOWzuxgFYprfA7xvHnEgmNEYBZ6LDGZ7hTDs=",
-                "APP_DEBUG": "true",
+                "APP_KEY": app_key,
+                "APP_DEBUG": "false",
                 "APP_URL": "https://www.app.gov.co",
                 "ASSET_URL": "https://www.app.gov.co",
                 "LOG_CHANNEL": "stack",
@@ -95,11 +103,12 @@ class WebsiteAppStack(Stack):
                 "REDIS_HOST": "127.0.0.1",
                 "REDIS_PORT": "6379",
                 "MAIL_MAILER": "smtp",
-                "MAIL_HOST": "smtp.gmail.com",
-                "MAIL_PORT": "587",
-                "MAIL_USERNAME": "alexis.espinosa@app.gov.co",
+                "MAIL_HOST": mail_host,
+                "MAIL_PORT": mail_port,
+                "MAIL_USERNAME": mail_username,
+                "MAIL_PASSWORD": mail_password,
                 "MAIL_ENCRYPTION": "tls",
-                "MAIL_FROM_ADDRESS": "alexis.espinosa@app.gov.co",
+                "MAIL_FROM_ADDRESS": mail_from_address,
                 "MAIL_FROM_NAME": "Laravel",
                 "AWS_ACCESS_KEY_ID": "",
                 "AWS_SECRET_ACCESS_KEY": "",
