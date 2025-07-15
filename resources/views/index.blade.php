@@ -13,6 +13,7 @@
 	margin-top: 40px;
 	marging-bottom: 40px;
 	border-top: solid 1px #ddd;
+	cursor: pointer;
 }
 
 .buttom-certificado {
@@ -111,8 +112,30 @@
 			</div>
 		</div>
 	</section><!-- ======= Counts Section ======= -->
+
+
+
+	<section>
+		<div class="content-certificado" style="border-bottom: solid 1px #dddddd !important">
+			<div class="buttom-certificado">
+				<a class="collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          Haz clic aquí para conocer nuestro cronograma de actvidades de 2025 >>
+</a>
+
+<div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+      <div class="card-body" style="margin-top: 20px">
+        <iframe style="margin: auto; display: flex" title="Calendario APP" width="600" height="373.5" src="https://app.powerbi.com/view?r=eyJrIjoiMjBhM2VjNjQtMjhhNS00NWI1LTg0OWItOTY0ZTYyMjZhNjJkIiwidCI6ImZlNWQ1MzNlLWZiZmUtNDMxNy05ZDJlLWVlMjVhYzU0NmFiMyIsImMiOjR9" frameborder="0" allowFullScreen="true"></iframe>
+      </div>
+    </div>
+			</div>
+		</div>
+</section>
+
+
+<!-- 
 	<section class="countas" id="countas">
 		<div class="container">
+
 			<div class="row counters position-relative">
 				<div class="col-lg-4 col-6 text-center">
 					<div align="center">
@@ -133,10 +156,11 @@
 					</div>
 				</div>
 			</div>
+			-->
 		</div>
 	</section><!-- End Counts Section -->
 	<!-- ======= Features Section ======= -->
-<br>
+<br><br><br>
 	<!-- Banner oportunidades -->
 		<div class="contededor-banner-op">
 			<a href="https://www.medellin.gov.co/es/secretaria-suministros-y-servicios/buscador-oportunidades/" target="_blank"><img class="img-fluid" src="assets/img/banner_buscador_de_oportunidades_actual.svg"></a>
