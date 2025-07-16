@@ -5,15 +5,17 @@
 	@include('includes.header.LandingCarcel')
    <!-- ======= Hero Section ======= -->
    <section class="d-flex align-items-center" id="hero">
-		<div class="container" style="padding-top:70px;">
+		<div class="container" style="padding-top:135px;>
 			<div class="row">
 				<div>
 					<h1 style="color:black; text-align:center;">Cárcel Metropolitana para Sindicados</h1>
 				</div>
 			</div>
-			<div class="video-responsive">
+			<!--
+ 			<div class="video-responsive">
 				<iframe allowfullscreen frameborder="0" src="https://www.youtube.com/embed/8vadSCij5Ew" title="YouTube video player"></iframe>
 			</div>
+			-->
 		</div>
 	</section><!-- End Hero -->
 	<main id="main">

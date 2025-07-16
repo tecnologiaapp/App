@@ -67,16 +67,19 @@
 
 						<li class="dropdown"><a href="{{ route('user.projects.app') }}"><span>Gestión - APP</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
 							<ul>
+								<!--
 								<li>
 									<a href="{{ route('user.projects.app') }}">
 										<span>Ver todo</span>
 									</a>
 								</li>
+								
 								<li>
 									<a href="{{ route('user.projects.mudag') }}">
 										<span>Modernización Unidad Deportiva Atanasio Girardot</span>
 									</a>
 								</li>
+								-->
 								<li>
 									<a href="{{ route('user.projects.LandingCarcel') }}">
 										<span>Carcel Metropolitana para Sindicados</span>
@@ -87,11 +90,13 @@
 				  <span>Proyecto de factibilidad</span>
 			  </a>
 				</li> -->
+								<!-- 
 								<li>
 									<a href="{{ route('user.projects.arena') }}">
 										<span>Arena Medellín</span>
 									</a>
 								</li>
+								-->
 								<!-- <li>
 				<a href="{{ route('user.projects.saludable') }}">
 				  <span>Medellín Saludable</span>
