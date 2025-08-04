@@ -48,7 +48,7 @@
 					<span class="separador-nav-top"></span>
 					<p><a href="{{ route('user.projects.participa') }}">Participa</a> </p>
 					<span class="separador-nav-top"></span>
-					<p><a href="http://mercurioapp.medellin.gov.co/mercurio/inicialPqr.jsp">PQRSD</a></p>
+					<p><a href="https://mercurio.app.gov.co/mercurio/inicialPqr.jsp">PQRSD</a></p>
 				</div>
 			</div>
 		</div>
