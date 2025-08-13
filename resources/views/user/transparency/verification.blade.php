@@ -47,7 +47,7 @@
 			<br>
 			<H1 class="subt-m">1.2. Estructura orgánica</H1>
 			<ul>
-				<li><a href="{{asset('assets/img/organjgrama_app.png')}}" target="_blank">Organigrama >></a></li>
+				<li><a href="{{asset('assets/img/organigrama_app.png')}}" target="_blank">Organigrama >></a></li>
 			</ul>
 			<br>
 			<H1 class="subt-m">1.3. Mapas y cartas descriptivas de procesos</H1>
