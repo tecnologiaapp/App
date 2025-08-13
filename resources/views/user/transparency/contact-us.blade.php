@@ -92,7 +92,7 @@
 						<h3 class="vlt-first-color m-0" style="text-align: left">Dirección de correspondencia</h3>
 						<p style="text-align: left">Carrera 50 Nº 52-25, Piso 8 - Edificio La Naviera, Medellín - Antioquia.</p>
 						<hr>
-						<a href="https://api.whatsapp.com/send/?phone=573022340175&text&type=phone_number&app_absent=0" target="_blank"><div class="buttom-whatsapp">Línea de atención WhatsApp - Agenda tu cita</div></a>
+						<a href="https://api.whatsapp.com/send/?phone=573012960715&text&type=phone_number&app_absent=0" target="_blank"><div class="buttom-whatsapp">Línea de atención WhatsApp - Agenda tu cita</div></a>
 					</div>
 
 					
