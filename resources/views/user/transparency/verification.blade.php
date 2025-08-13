@@ -800,7 +800,7 @@
 			<ul>
 				<li><h5>4.7.5. Informes a organismos de inspección, vigilancia y control</h5>
 					<ul>
-						<li><a href="#" target="_blank">Evaluación del Índice de Desempeño Institucional y del Sistema de Control Interno – MECI a través del Formulario Único de Reporte Administrativo de la Gestión – FURAG >></a></li>
+						<li><a href="{{asset('assets/pdf/CertificadodeDiligenciamiento_FURAG.pdf')}}" target="_blank">Evaluación del Índice de Desempeño Institucional y del Sistema de Control Interno – MECI a través del Formulario Único de Reporte Administrativo de la Gestión – FURAG >></a></li>
 						<li><a href="https://www.cdm.gov.co/cgm/Paginaweb/IP/Paginas/Informes-de-Auditor%C3%ADa.aspx" target="_blank">Informes de Auditoría por parte de la Contraloría >></a></li>
 					</ul>
 				</li>
