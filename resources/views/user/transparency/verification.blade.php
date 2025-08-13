@@ -118,7 +118,7 @@
 			<br>
 			<H1 class="subt-m">1.11. Calendario de actividades y eventos</H1>
 			<ul>
-				<li><a href="https://app.powerbi.com/view?r=eyJrIjoiMDFiMWRkOTctMWZlYS00NjhhLWJmYzEtYjY1YmIzMWIzNmRjIiwidCI6ImZlNWQ1MzNlLWZiZmUtNDMxNy05ZDJlLWVlMjVhYzU0NmFiMyIsImMiOjR9" target="_blank">Calendario de actividades >></a></li>
+				<li><a href="https://app.powerbi.com/view?r=eyJrIjoiMjBhM2VjNjQtMjhhNS00NWI1LTg0OWItOTY0ZTYyMjZhNjJkIiwidCI6ImZlNWQ1MzNlLWZiZmUtNDMxNy05ZDJlLWVlMjVhYzU0NmFiMyIsImMiOjR9" target="_blank">Calendario de actividades >></a></li>
 			</ul>
 			<br>
 			<H1 class="subt-m">1.12. Información sobre decisiones que pueden afectar al público</H1>
