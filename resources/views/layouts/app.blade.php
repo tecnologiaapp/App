@@ -191,7 +191,7 @@ body.pojo-a11y-focusable a:focus{ outline-style: solid !important;	outline-width
       <a href="{{asset('assets/pdf/Términos-y-condiciones-de-uso-del-portal.pdf')}}" target="_blank"><p style="font-size: 14px; color: #FFF">Términos y condiciones >></p></a> <span><p style="font-size: 14px; color: #FFF">|</p></span>
       <a href="{{asset('assets/pdf/Política-de-derechos-de-autor.pdf')}}" target="_blank" ><p style="font-size: 14px; color: #FFF">Políticas de derecho de autor >></p></a>
       <span><p style="font-size: 14px; color: #FFF">|</p></span>
-      <a href="https://www.app.gov.co/assets/pdf/Certificado-Accesibilidad-Web-Firmado2024.pdf" target="_blank" ><p style="font-size: 14px; color: #FFF">Certificado de accesibilidad >></p></a>
+      <a href="{{asset('assets/pdf/CertiAcWeb-app-2025.pdf')}}" target="_blank" ><p style="font-size: 14px; color: #FFF">Certificado de accesibilidad >></p></a>
     </div>
   </div>
 </div>
