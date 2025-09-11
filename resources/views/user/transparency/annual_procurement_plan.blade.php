@@ -27,7 +27,7 @@
 						<tr>
 							<td>Plan Anual de Adquisiciones 2025</td>
 							<td>
-								<a class="btn btn-primary" href="{{asset('assets/pdf/annual_procurement_plan/PAA2025_2025-04-29.xlsx')}}" target="_blank">Ver documento</a>
+								<a class="btn btn-primary" href="{{asset('assets/pdf/annual_procurement_plan/PAA2025_2025-08-11.xlsx')}}" target="_blank">Ver documento</a>
 							</td>
 						</tr>
 					</tbody>

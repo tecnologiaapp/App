@@ -212,6 +212,24 @@
 		</div>
 </section>
 
+<section>
+		<div class="content-certificado" style="border-bottom: solid 1px #dddddd !important; margin-top: 0; background-color: #ddd">
+			<div class="buttom-certificado">
+				<a class="collapsed" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+          Consulta para la vinculación de funcionarios y contratistas >>
+</a>
+
+<div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+      <div class="card-body" style="margin-top: 20px">
+        <iframe src="https://survey123.arcgis.com/share/49e2fc2ef8634050a53497ae7d027ebf?draft=true?hide=navbar&hide=footer" width="100%" height="800px" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>
+      </div>
+    </div>
+			</div>
+		</div>
+</section>
+
+
+
 @endsection
 
 @push('scripts')
