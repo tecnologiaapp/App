@@ -77,7 +77,7 @@
 				    <a href="{{asset('assets/pdf/agenda_prado_vive_25_curvas.pdf')}}" Target="_blank"><img class="d-block w-100" src="{{asset('assets/img/BannersNuevos/banner_festival_prado_vive.png')}}"></a>
 				</div>
 			    <div class="carousel-item">
-				    <a href="https://experience.arcgis.com/experience/151e7e00d94345e88db2b3fe1a22b3c1/?draft=true" Target="_blank"><img class="d-block w-100" src="{{asset('assets/img/BannersNuevos/banner_calculadora_2.png')}}"></a>
+				    <a href="https://www.instagram.com/bienal.latidos.med/" Target="_blank"><img class="d-block w-100" src="{{asset('assets/img/BannersNuevos/banner_bienal.png')}}"></a>
 				</div>
 				<div class="carousel-item">
 				    <a href="{{asset('assets/pdf/Carta-de-trato-digno.pdf')}}" Target="_blank"><img class="d-block w-100" src="{{asset('assets/img/Banners/CartaTratoDigno.png')}}"></a>
@@ -86,7 +86,7 @@
 					<a href="https://certificados.app.gov.co/search-contract" Target="_blank"><img class="d-block w-100" src="{{asset('assets/img/Banners/BannerCertificadosContractuales.jpeg')}}"></a>
 				</div>
 				<div class="carousel-item">
-					<a href="{{route('user.noticias.new50')}}"><img  class="d-block w-100" src="{{asset('assets/img/BannersNuevos/HomeConstelaciones.jpg')}}"></a>
+					<a href="https://experience.arcgis.com/experience/151e7e00d94345e88db2b3fe1a22b3c1/?draft=true" Target="_blank"><img class="d-block w-100" src="{{asset('assets/img/BannersNuevos/banner_calculadora_2.png')}}"></a>
 				</div>
 				<button class="carousel-control-prev" data-slide="prev" data-target="#carouselExampleIndicators" onclick="disableScroll()" type="button"><span aria-hidden="true" class="carousel-control-prev-icon"></span> <span class="sr-only">Previous</span></button> <button class="carousel-control-next" data-slide="next" data-target="#carouselExampleIndicators" onclick="disableScroll()" type="button"><span aria-hidden="true" class="carousel-control-next-icon"></span> <span class="sr-only">Next</span></button>
 		</div> 
