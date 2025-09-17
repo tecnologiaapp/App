@@ -69,9 +69,14 @@
 				<li data-slide-to="1" data-target="#carouselExampleIndicators"></li>
 				<li data-slide-to="2" data-target="#carouselExampleIndicators"></li>
 				<li data-slide-to="3" data-target="#carouselExampleIndicators"></li>
+				<li data-slide-to="4" data-target="#carouselExampleIndicators"></li>
+
 				</ol>
 			    <div class="carousel-inner">
-			    <div class="carousel-item active">
+				 <div class="carousel-item active">
+				    <a href="{{asset('assets/pdf/agenda_prado_vive_25_curvas.pdf')}}" Target="_blank"><img class="d-block w-100" src="{{asset('assets/img/BannersNuevos/banner_festival_prado_vive.png')}}"></a>
+				</div>
+			    <div class="carousel-item">
 				    <a href="https://experience.arcgis.com/experience/151e7e00d94345e88db2b3fe1a22b3c1/?draft=true" Target="_blank"><img class="d-block w-100" src="{{asset('assets/img/BannersNuevos/banner_calculadora_2.png')}}"></a>
 				</div>
 				<div class="carousel-item">
