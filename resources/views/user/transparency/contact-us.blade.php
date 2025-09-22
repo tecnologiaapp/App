@@ -36,6 +36,7 @@
 			</div>
 			<p>Encuentra aquí todos los trámites y servicios relacionados con la Agencia APP:</p>
 			<ul>
+				<li><a href="{{asset('assets/pdf/bases_concurso_de_fotografia')}}" target="_blank">Bases Concurso de Fotografia - Riqueza Arquitectónica y Urbanistica de Prado  >></a></li>
 				<li><a href="https://www.gov.co/ficha-tramites-y-servicios/T87834" Target="_blank">Autorización de bienes de interés cultural en el Barrio Prado >></a></li>
 		        <li><a href="https://www.gov.co/ficha-tramites-y-servicios/T88426" Target="_blank"> Viabilidad técnica para el Aprovechamiento Económico del Espacio Público >></a></li>
 				<li><a href="https://certificados.app.gov.co/search-contract" target="_blank">Certificados laborales >></a></li>

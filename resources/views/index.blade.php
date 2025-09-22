@@ -70,11 +70,12 @@
 				<li data-slide-to="2" data-target="#carouselExampleIndicators"></li>
 				<li data-slide-to="3" data-target="#carouselExampleIndicators"></li>
 				<li data-slide-to="4" data-target="#carouselExampleIndicators"></li>
+				<li data-slide-to="5" data-target="#carouselExampleIndicators"></li>
 
 				</ol>
 			    <div class="carousel-inner">
 				 <div class="carousel-item active">
-				    <a href="{{asset('assets/pdf/agenda_prado_vive_25_curvas.pdf')}}" Target="_blank"><img class="d-block w-100" src="{{asset('assets/img/BannersNuevos/banner_festival_prado_vive.png')}}"></a>
+				    <a href="{{asset('assets/pdf/agenda_prado_vive_25.pdf')}}" Target="_blank"><img class="d-block w-100" src="{{asset('assets/img/BannersNuevos/banner_festival_prado_vive.png')}}"></a>
 				</div>
 			    <div class="carousel-item">
 				    <a href="https://www.instagram.com/bienal.latidos.med/" Target="_blank"><img class="d-block w-100" src="{{asset('assets/img/BannersNuevos/banner_bienal.png')}}"></a>
