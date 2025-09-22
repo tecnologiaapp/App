@@ -114,7 +114,8 @@
 			<br>
 			<H1 class="subt-m">1.10. Mecanismo de presentación de solicitudes, quejas y reclamos (PQRSD) >></H1>
 			<ul>
-				<li><a href="http://mercurioapp.medellin.gov.co/mercurio/inicialPqr.jsp" target="_blank">Portal de radicación de PQRSD >></a></li>
+				<li><a href="https://mercurio.app.gov.co/mercurio/inicialPqr.jsp" target="_blank">Portal de radicación de PQRSD >></a></li>
+				<li><a href="https://mercurio.app.gov.co/mercurio/IndiceServlet?operacion=9&codIndice=00001&indicador=3" target="_blank">Seguimiento a la gestión de una PQRSD >></a></li>
 			</ul>
 			<br>
 			<H1 class="subt-m">1.11. Calendario de actividades y eventos</H1>
