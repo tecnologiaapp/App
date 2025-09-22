@@ -66,8 +66,8 @@
 				</a></li>
 				<li><a href="https://app.gov.co/assets/pdf/Directorio-Agencia-2024.pdf" target="_blank">Informe de contratos de prestación de servicios de personas naturales >></a></li>
 				<li><a href="#" target="_blank">Correos y números de contacto de la entidad >></a></li>
-				<li><a href="{{ asset('assets/pdf/Resolución-034-reajuste-incremento-salarial')}}" target="_blank">Escala salarial servidores públicos >></a></li>
-				<li><a href="{{ asset('assets/pdf/Resolucion-002-tabla-de-honorarios')}}" target="_blank">Tabla de honorarios contratistas >></a></li>
+				<li><a href="{{ asset('assets/pdf/Resolución-034-reajuste-incremento-salarial.pdf')}}" target="_blank">Escala salarial servidores públicos >></a></li>
+				<li><a href="{{ asset('assets/pdf/Resolucion-002-tabla-de-honorarios.pdf')}}" target="_blank">Tabla de honorarios contratistas >></a></li>
 			</ul>
 			<br>
 			<H1 class="subt-m">1.6. Directorio de entidades</H1>
