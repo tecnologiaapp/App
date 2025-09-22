@@ -24,6 +24,29 @@
 				<table class="table table-bordered table-striped custom-table">
 					   <tbody>
 						<tr>
+							<td>Ejecución Presupuestal de Ingresos Junio</td>
+							<td>
+								<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/budget/2025/EjecuciónIngresosJunio.pdf')}}" target="_blank">Ver documento</a>
+							</td>
+						</tr>
+						<tr>
+							<td>Ejecución Presupuestal de Gastos Junio</td>
+							<td>
+								<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/budget/2025/EjecuciónGastosJunio.pdf')}}" target="_blank">Ver documento</a>
+							</td>
+						</tr><tr>
+							<td>Ejecución Presupuestal de Ingresos Mayo</td>
+							<td>
+								<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/budget/2025/EjecuciónIngresosMayo.pdf')}}" target="_blank">Ver documento</a>
+							</td>
+						</tr>
+						<tr>
+							<td>Ejecución Presupuestal de Gastos Mayo</td>
+							<td>
+								<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/budget/2025/EjecuciónGastosMayo.pdf')}}" target="_blank">Ver documento</a>
+							</td>
+						</tr>
+						<tr>
 							<td>Ejecución Presupuestal de Ingresos Abril</td>
 							<td>
 								<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/budget/2025/Ejecución_ingresos_abril.pdf')}}" target="_blank">Ver documento</a>
