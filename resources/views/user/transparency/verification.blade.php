@@ -99,9 +99,10 @@
 				<br>
 				<li><h5>1.8.3. Formularios</h5>
 					<ul>
-						<li><a href="#" target="_blank">Proyecto de ocupación Aprovechamiento Económico del Espacio Público – (Categoría Mesas y Sillas) >></a></li>
-						<li><a href="#" target="_blank">Aprobación intervenciones en inmuebles del Barrio Prado >></a></li>
-						<li><a href="{{asset('assets/pdf/Checklist-APP-iniciativa-privada.pdf')}}" target="_blank">Requisitos APP de iniciativa privada en etapa de prefactibilidad >></a></li>
+						<li><a href="{{asset('assets/pdf/bases_concurso_de_fotografia.pdf')}}" target="_blank">Bases Concurso de Fotografia - Riqueza Arquitectónica y Urbanistica de Prado  >></a></li>
+						<li><a href="https://www.gov.co/ficha-tramites-y-servicios/T88426" target="_blank">Proyecto de ocupación Aprovechamiento Económico del Espacio Público – (Categoría Mesas y Sillas) >></a></li>
+						<li><a href="https://www.gov.co/ficha-tramites-y-servicios/T87834" Target="_blank">Autorización de bienes de interés cultural en el Barrio Prado >>
+						<li><a href="https://www.gov.co/ficha-tramites-y-servicios/T87169" target="_blank">Requisitos APP de iniciativa privada en etapa de prefactibilidad >></a></li>
 					</ul>
 				</li>
 			</ul>
