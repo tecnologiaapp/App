@@ -109,7 +109,7 @@
 			<br>
 			<H1 class="subt-m">1.9. Procedimientos que se siguen para tomar decisiones</H1>
 			<ul>
-				<li><a href="https://app.gov.co/assets/pdf/manual-de-procesos-y-procedimientos.pdf " target="_blank">Manual de Procesos y Procedimientos >></a></li>
+				<li><a href="https://app.gov.co/assets/pdf/manual-de-procesos-y-procedimientos.pdf" target="_blank">Manual de Procesos y Procedimientos >></a></li>
 			</ul>
 			<br>
 			<H1 class="subt-m">1.10. Mecanismo de presentación de solicitudes, quejas y reclamos (PQRSD) >></H1>
@@ -135,7 +135,7 @@
 				<br>
 				<li><h5>Planes de Desarrollo Distrital</h5>
 					<ul>
-						<li><a href="https://www.medellin.gov.co/es/plan-de-desarrollo/" target="_blank"></a>Medellín Te Quiere 2024 – 2027 >></li>
+						<li><a href="{{asset('assets/pdf/Plan-de-Desarrollo-Distrital-2024-2027.pdf')}}" target="_blank"></a>Medellín Te Quiere 2024 – 2027 >></li>
 					</ul>
 				</li>
 			</ul>
