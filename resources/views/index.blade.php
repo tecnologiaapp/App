@@ -75,7 +75,7 @@
 				</ol>
 			    <div class="carousel-inner">
 				 <div class="carousel-item active">
-				    <a href="{{asset('assets/pdf/agenda_prado_vive_25.pdf')}}" Target="_blank"><img class="d-block w-100" src="{{asset('assets/img/BannersNuevos/banner_festival_prado_vive.png')}}"></a>
+				    <a href="https://arcg.is/0DairO1" Target="_blank"><img class="d-block w-100" src="{{asset('assets/img/BannersNuevos/banner_rendicion_de_cuentas_inicial_25_c.png')}}"></a>
 				</div>
 			    <div class="carousel-item">
 				    <a href="https://www.instagram.com/bienal.latidos.med/" Target="_blank"><img class="d-block w-100" src="{{asset('assets/img/BannersNuevos/banner_bienal.png')}}"></a>
