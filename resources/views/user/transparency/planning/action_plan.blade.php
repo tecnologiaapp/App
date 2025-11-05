@@ -23,6 +23,18 @@
 				<div class="panel">
 					<table class="table table-bordered table-striped custom-table">
 						<tbody>
+							<tr>
+								<td>Plan de Acción MPAL - Cuarto Bimestre</td>
+								<td>
+									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/planning/2025/PlandeAccionMPAL-cuartobimestres.pdf')}}" target="_blank">Ver documento</a>
+								</td>
+							</tr>
+						    <tr>
+								<td>Plan de Acción MPAL - Tercer Bimestre </td>
+								<td>
+									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/planning/2025/PlandeAcciónMPAL_Feb2025.pdf')}}" target="_blank">Ver documento</a>
+								</td>
+							</tr>
 						    <tr>
 								<td>Plan de Acción MPAL - Segundo Bimestre</td>
 								<td>
