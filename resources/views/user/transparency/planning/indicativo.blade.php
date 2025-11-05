@@ -23,6 +23,18 @@
 				<div class="panel">
 					<table class="table table-bordered table-striped custom-table">
 						<tbody>
+							<tr>
+								<td>Plan indicativo - Cuarto Bimestre</td>
+								<td>
+									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/planning/2025/Planindicativo-cuartobimestre2025.pdf')}}" target="_blank">Ver documento</a>
+								</td>
+							</tr>
+						    <tr>
+								<td>Plan indicativo - Tercer Bimestre </td>
+								<td>
+									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/planning/2025/Planindicativo-tercerbimestre2025.pdf')}}" target="_blank">Ver documento</a>
+								</td>
+							</tr>
 						    <tr>
 								<td>Plan indicativo - Segundo Bimestre</td>
 								<td>
