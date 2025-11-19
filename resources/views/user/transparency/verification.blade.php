@@ -110,6 +110,11 @@
 			<H1 class="subt-m">1.9. Procedimientos que se siguen para tomar decisiones</H1>
 			<ul>
 				<li><a href="https://app.gov.co/assets/pdf/manual-de-procesos-y-procedimientos.pdf" target="_blank">Manual de Procesos y Procedimientos >></a></li>
+				<br>
+				<li><h5>Conflicto de interés </h5>
+					<ul>
+						<li><a href="{{asset('assets/pdf/202540000110.pdf')}}" target="_blank">Manual de Conflicto de Interes >></a></li>
+						<li><a href="{{asset('assets/pdf/MA-GITH-001_Conflicto_Intereses_Agencia_APP.pdf')}}" target="_blank">Resolución >></a></li>
 			</ul>
 			<br>
 			<H1 class="subt-m">1.10. Mecanismo de presentación de solicitudes, quejas y reclamos (PQRSD) >></H1>

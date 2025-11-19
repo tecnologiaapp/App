@@ -32,7 +32,7 @@
 						    <tr>
 								<td>Plan de Acción MPAL - Tercer Bimestre </td>
 								<td>
-									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/planning/2025/PlandeAcciónMPAL_Feb2025.pdf')}}" target="_blank">Ver documento</a>
+									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/planning/2025/PlandeAccionMPAL-tercerbimestre.pdf')}}" target="_blank">Ver documento</a>
 								</td>
 							</tr>
 						    <tr>
