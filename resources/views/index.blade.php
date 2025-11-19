@@ -57,7 +57,9 @@
 }
 
 
-	
+
+
+<meta name="facebook-domain-verification" content="09e9i3q69xdt1effv1d2ao77zx2lgy" />
 	
 </style>
 
@@ -95,7 +97,7 @@
 	<section class="about" id="about">
 		<div class="container aos-init aos-animate" data-aos="fade-up">
 			<div class="section-title">
-				<h2>Sobre nosotros</h2>
+				<h2>Sobre nosotros 26</h2>
 			</div>
 			<div class="row content">
 				<div class="col-center">
