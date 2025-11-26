@@ -1010,6 +1010,7 @@
 						<li>2025</li>
 						<ul>
 							<li><a href="{{asset('assets/pdf/pqrs/InformedePQRSD-EneMar-2025.pdf')}}" target="_blank">Informe de PQRSD - Primer Trimestre de 2025 >></a></li>
+							<li><a href="{{asset('assets/pdf/pqrs/InformedePQRSD-AbrJun.pdf')}}" target="_blank">Informe de PQRSD - Segundo Trimestre de 2025 >></a></li>
 						</ul>
 						<li>2024</li>
 						<ul>
