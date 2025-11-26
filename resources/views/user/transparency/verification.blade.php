@@ -816,6 +816,11 @@
 			<ul>
 				<li><h5>4.7.6. Planes de Mejoramiento</h5>
 					<ul>
+						<li>2025</li>
+						<ul>
+							<li><a href="{{asset('assets/pdf/control/20251-Informe-consolidado-PM.pdf')}}" target="_blank">Seguimiento Plan de Mejoramiento Agencia APP 2025 >></a></li>
+						</ul>
+						<ul>
 						<li>2024</li>
 						<ul>
 							<li><a href="{{asset('assets/pdf/control/Seguimiento-Plan-de-Mejoramiento-Agencia-APP-2024.pdf')}}" target="_blank">Seguimiento Plan de Mejoramiento Agencia APP 2024 >></a></li>
@@ -850,6 +855,12 @@
 			<h1 class="subt-m">4.8. Informes de la oficina de control interno</h1>
 			<ul>
 				<li><h5>4.8.1. Informe pormenorizado del estado del control interno</h5>
+					<ul>
+						<li>2025</a></li>
+						<ul>
+							<li><a href="{{asset('assets/pdf/control/Pormenorizado2025-1.pdf')}}" target="_blank">Informe Pormenorizado Primer Semestre  2025 >></a></li>
+						</ul>
+					</ul>
 					<ul>
 						<li>2024</a></li>
 						<ul>
@@ -971,6 +982,15 @@
 			<ul>
 				<li><h5>4.8.5. Mapas de riesgos</h5>
 			</ul>
+			<ul>
+				<li><h5>4.8.6. Plan Anticorrucpción </h5>
+				<ul>
+						<li>2025</li>
+						<ul>
+							<li><a href="{{asset('assets/pdf/control/MatrizdeRiesgosCorrupciónseg1monit.xlsx')}}" target="_blank">Seguimiento Plan de Mejoramiento Agencia APP 2025 >></a></li>
+						</ul>
+						
+			    </ul>
 			
 			
 			<br>
