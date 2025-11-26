@@ -16,7 +16,7 @@
 <link rel="stylesheet" href="{{ asset('assets/fonts/boucher/boucher.css')}}">
 <link rel="stylesheet" href="{{ asset('assets/fonts/oldventure/oldventure.css')}}">
 <link rel="stylesheet" href="{{ asset('assets/fonts/elephant/elephant.css')}}">
-
+<meta name="facebook-domain-verification" content="09e9i3q69xdt1effv1d2ao77zx2lgy" />
 <!--Icons-->
 <link rel="stylesheet" href="{{ asset('assets/fonts/fontawesome/font-awesome.min.css')}}">
 
