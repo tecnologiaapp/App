@@ -745,7 +745,7 @@
 			<ul>
 				<li><h5>4.7.1. Plan Anual de Auditoria</h5>
 					<ul>
-						<li><a href="{{asset('assets/pdf/control/PlanAnualdeAuditorías.pdf')}}" target="_blank">2025 >></a></li>
+						<li><a href="{{asset('assets/pdf/control/PlanAnualdeAuditoria-v2.pdf')}}" target="_blank">2025 >></a></li>
 						<li><a href="{{asset('assets/pdf/control/PLAN-ANUAL-DE-AUDITORIAS-2024.xlsx')}}" target="_blank">2024 >></a></li>
 						<li><a href="#" target="_blank">2023 >></a></li>
 						<li><a href="{{asset('assets/pdf/control/auditoriavigencia2022.pdf')}}" target="_blank">2022 >></a></li>
@@ -1058,7 +1058,15 @@
 
 				</li>
 			</ul>
+            <ul>
+				<li><h5>4.10.3. Radicación y seguimiento de PQRSD</h5>
+					<ul>
+						<li><a href="https://mercurio.app.gov.co/mercurio/inicialPqr.jsp" target="_blank">Portal de radicación - PQRSD >></a></li>
+						<li><a href="https://mercurio.app.gov.co/mercurio/IndiceServlet?operacion=9&codIndice=00001&indicador=3" target="_blank">Portal de seguimiento - PQRSD >></a></li>
+					</ul>
 
+				</li>
+			</ul>
 
 
 			<!-- 

@@ -47,6 +47,16 @@
 			<div class="container" style="margin: 60px 0 50px 0"><hr></div>
 
 			<div class="section-title">
+				<h3 class="vlt-first-color m-0" style="text-align: left">Radicación y seguimiento de PQRSD</h3>
+			</div>
+			<ul>
+				<li><a href="https://mercurio.app.gov.co/mercurio/inicialPqr.jsp" target="_blank">Portal de radicación - PQRSD >></a></li>
+				<li><a href="https://mercurio.app.gov.co/mercurio/IndiceServlet?operacion=9&codIndice=00001&indicador=3" target="_blank">Portal de seguimiento - PQRSD >></a></li>
+			</ul>
+
+			<div class="container" style="margin: 60px 0 50px 0"><hr></div>
+
+			<div class="section-title">
 				<h3 class="vlt-first-color m-0" style="text-align: left">Preguntas frecuentes</h3>
 			</div>
 			<ul>
