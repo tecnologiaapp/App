@@ -60,7 +60,6 @@
 </style>
 
 <head>
-<meta name="facebook-domain-verification" content="09e9i3q69xdt1effv1d2ao77zx2lgy" />
 <section class="bannersHome" style="padding-top:125px; position: relative;">
 		<div class="carousel slide" data-ride="carousel" id="carouselExampleIndicators">
 			<ol class="carousel-indicators">
@@ -74,10 +73,10 @@
 				</ol>
 			    <div class="carousel-inner">
 				 <div class="carousel-item active">
-				    <a href="https://arcg.is/0DairO1" Target="_blank"><img class="d-block w-100" src="{{asset('assets/img/BannersNuevos/banner_rendicion_de_cuentas_inicial_25_c.png')}}"></a>
+				    <a href="https://forms.office.com/r/AeJuLbbqs4?origin=lprLink" Target="_blank"><img class="d-block w-100" src="{{asset('assets/img/BannersNuevos/banner_rc_25.png')}}"></a>
 				</div>
 			    <div class="carousel-item">
-				    <a href="https://www.instagram.com/bienal.latidos.med/" Target="_blank"><img class="d-block w-100" src="{{asset('assets/img/BannersNuevos/banner_bienal.png')}}"></a>
+				    <a href="{{asset('assets/pdf/202540000115_horario_diciembre.pdf')}}" Target="_blank"><img class="d-block w-100" src="{{asset('assets/img/BannersNuevos/banner_horario_especial_navidad.png')}}"></a>
 				</div>
 				<div class="carousel-item">
 				    <a href="{{asset('assets/pdf/Carta-de-trato-digno.pdf')}}" Target="_blank"><img class="d-block w-100" src="{{asset('assets/img/Banners/CartaTratoDigno.png')}}"></a>
