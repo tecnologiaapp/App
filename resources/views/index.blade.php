@@ -73,7 +73,7 @@
 				</ol>
 			    <div class="carousel-inner">
 				 <div class="carousel-item active">
-				    <a href="https://forms.office.com/r/AeJuLbbqs4?origin=lprLink" Target="_blank"><img class="d-block w-100" src="{{asset('assets/img/BannersNuevos/banner_rc_25.png')}}"></a>
+				    <a href="https://forms.office.com/r/AeJuLbbqs4?origin=lprLink" Target="_blank"><img class="d-block w-100" src="{{asset('assets/img/BannersNuevos/banner_bienal.png')}}"></a>
 				</div>
 			    <div class="carousel-item">
 				    <a href="{{asset('assets/pdf/202540000115_horario_diciembre.pdf')}}" Target="_blank"><img class="d-block w-100" src="{{asset('assets/img/BannersNuevos/banner_horario_especial_navidad.png')}}"></a>
