@@ -594,6 +594,7 @@
 				<li><a href="https://drive.google.com/file/d/18ODbrvDcgM7pRVTUf0dOfsy6jONuEJ6X/view" target="_blank">Gestión contractual >></a></li>
 				<li><a href="https://www.app.gov.co/assets/pdf/resolucion-015-5-de-febrero-de-2021.pdf" target="_blank">Resolución 015 - Febrero 5 de 2021 >></a></li>
 				<li><a href="https://www.app.gov.co/assets/pdf/resolucion-015-2-de-febrero-de-2021.pdf">Resolución 015 - Febrero 2 de 2021 >></a></li>
+				<li><a href="https://www.app.gov.co/assets/pdf/Resolucion_Manual_de_Contratacion_27_06_25.pdf">Resolución 202540000069 - junio 27 de 2025 >></a></li>
 			</ul>
 			<br>
 			<h1 class="subt-m">3.5. Modelos de contratos o pliegos tipo</h1>

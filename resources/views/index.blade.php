@@ -68,17 +68,13 @@
 				<li data-slide-to="2" data-target="#carouselExampleIndicators"></li>
 				<li data-slide-to="3" data-target="#carouselExampleIndicators"></li>
 				<li data-slide-to="4" data-target="#carouselExampleIndicators"></li>
-				<li data-slide-to="5" data-target="#carouselExampleIndicators"></li>
 
-				</ol>
+			</ol>
 			    <div class="carousel-inner">
 				 <div class="carousel-item active">
 				    <a href="https://www.instagram.com/bienal.latidos.med/?igsh=MXBwbml2ZHB3MHNlYQ%3D%3D#" Target="_blank"><img class="d-block w-100" src="{{asset('assets/img/BannersNuevos/banner_bienal.png')}}"></a>
 				</div>
 			    <div class="carousel-item">
-				    <a href="{{asset('assets/pdf/202540000115_horario_diciembre.pdf')}}" Target="_blank"><img class="d-block w-100" src="{{asset('assets/img/BannersNuevos/banner_horario_especial_navidad.png')}}"></a>
-				</div>
-				<div class="carousel-item">
 				    <a href="{{asset('assets/pdf/Carta-de-trato-digno.pdf')}}" Target="_blank"><img class="d-block w-100" src="{{asset('assets/img/Banners/CartaTratoDigno.png')}}"></a>
 				</div>
 				<div class="carousel-item">
