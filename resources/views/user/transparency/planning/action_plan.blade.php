@@ -493,6 +493,85 @@
 				</div>
 			</div><button class="accordion">PLANES INSTITUCIONALES</button>
 			<div class="panel">
+			<button class="accordion">2026</button>
+				<div class="panel">
+					<table class="table table-bordered table-striped custom-table">
+						<tbody>
+							<tr>
+								<td>Plan Anual de Adquisiciones</td>
+								<td>
+									<a class="btn btn-primary btn-block" href="#" target="_blank">Ver documento</a>
+								</td>
+							</tr>
+							<tr>
+								<td>Plan Anual de auditorias</td>
+								<td>
+									<a class="btn btn-primary btn-block" href="#" target="_blank">Ver documento</a>
+								</td>
+							</tr>
+							<tr>
+								<td>Plan Estratégico de Talento Humano</td>
+								<td>
+									<a class="btn btn-primary btn-block" href="#" target="_blank">Ver documento</a>
+								</td>
+							</tr>
+							<tr>
+								<td>Plan Anual de Vacantes y previsión de empleos</td>
+								<td>
+									<a class="btn btn-primary btn-block" href="#" target="_blank">Ver documento</a>
+								</td>
+							</tr>
+							<tr>
+								<td>Plan Institucional de Capacitación</td>
+								<td>
+									<a class="btn btn-primary btn-block" href="#" target="_blank">Ver documento</a>
+								</td>
+							</tr>
+							<tr>
+								<td>Plan de Incentivos Institucionales</td>
+								<td>
+									<a class="btn btn-primary btn-block" href="#" target="_blank">Ver documento</a>
+								</td>
+							</tr>
+							<tr>
+								<td>Plan de Trabajo Anual en Seguridad y Salud en el Trabajo</td>
+								<td>
+									<a class="btn btn-primary btn-block" href="#" target="_blank">Ver documento</a>
+								</td>
+							</tr>
+							<tr>
+								<td>Plan Institucional de Archivos de la Entidad PINAR</td>
+								<td>
+									<a class="btn btn-primary btn-block" href="#" target="_blank">Ver documento</a>
+								</td>
+							</tr>
+							<tr>
+								<td>Estrategia de Servicio a la Ciudadania</td>
+								<td>
+									<a class="btn btn-primary btn-block" href="#" target="_blank">Ver documento</a>
+								</td>
+							</tr>
+							<tr>
+								<td>Plan Estratégico de Tecnologías de la Información y las Comunicaciones - PETI</td>
+								<td>
+									<a class="btn btn-primary btn-block" href="#" target="_blank">Ver documento</a>
+								</td>
+							</tr>
+							<tr>
+								<td>Plan de Tratamiento de Riesgos de Seguridad y Privacidad de la Información</td>
+								<td>
+									<a class="btn btn-primary btn-block" href="#" target="_blank">Ver documento</a>
+								</td>
+							</tr>
+							<tr>
+								<td>Plan de Seguridad y Privacidad de la Información</td>
+								<td>
+									<a class="btn btn-primary btn-block" href="#" target="_blank">Ver documento</a>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
 			<button class="accordion">2025</button>
 				<div class="panel">
 					<table class="table table-bordered table-striped custom-table">
@@ -558,7 +637,7 @@
 								</td>
 							</tr>
 							<tr>
-								<td>Politicas de Seguridad y Privacidad de la Informacion</td>
+								<td>Politicas de Seguridad y Privacidad de la Información</td>
 								<td>
 									<a class="btn btn-primary btn-block" href="{{asset('assets/pdf/planning/12.PoliticasdeSeguridadyPrivacidaddelaInformacion.pdf')}}" target="_blank">Ver documento</a>
 								</td>
