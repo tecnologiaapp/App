@@ -506,36 +506,37 @@
 							<tr>
 								<td>Plan Anual de auditorias</td>
 								<td>
-									<a class="btn btn-primary btn-block" href="#" target="_blank">Ver documento</a>
+									<a class="btn btn-primary btn-block" href="https://cdn.jsdelivr.net/gh/AgenciaAPP/Adjuntosvarios@main/2.%20Plan%20Anual%20de%20auditoria.pdf" target="_blank">Ver documento</a>
 								</td>
 							</tr>
 							<tr>
 								<td>Plan Estratégico de Talento Humano</td>
 								<td>
-									<a class="btn btn-primary btn-block" href="#" target="_blank">Ver documento</a>
+									<a class="btn btn-primary btn-block" href="https://cdn.jsdelivr.net/gh/AgenciaAPP/Adjuntosvarios@main/3.%20Plan%20Estrate%E2%95%A0%C3%BCgico%20del%20Talento%20Humano.pdf" target="_blank">Ver documento</a>
 								</td>
 							</tr>
 							<tr>
 								<td>Plan Anual de Vacantes y previsión de empleos</td>
 								<td>
-									<a class="btn btn-primary btn-block" href="#" target="_blank">Ver documento</a>
+									<a class="btn btn-primary btn-block" href="https://cdn.jsdelivr.net/gh/AgenciaAPP/Adjuntosvarios@main/4.%20Plan%20Anual%20de%20Vacantes%20y%20prevision%20de%20empleos.pdf" target="_blank">Ver documento</a>
 								</td>
 							</tr>
 							<tr>
 								<td>Plan Institucional de Capacitación</td>
 								<td>
-									<a class="btn btn-primary btn-block" href="#" target="_blank">Ver documento</a>
+									<a class="btn btn-primary btn-block" href="https://cdn.jsdelivr.net/gh/AgenciaAPP/Adjuntosvarios@main/5.%20Plan%20Institucional%20de%20Capacitacion.pdf" target="_blank">Ver documento</a>
 								</td>
 							</tr>
 							<tr>
 								<td>Plan de Incentivos Institucionales</td>
 								<td>
-									<a class="btn btn-primary btn-block" href="#" target="_blank">Ver documento</a>
+									<a class="btn btn-primary btn-block" href="https://cdn.jsdelivr.net/gh/AgenciaAPP/Adjuntosvarios@main/6.%20Plan%20de%20Bienestar%20Social%20e%20Incentivos.pdf" target="_blank">Ver documento</a>
 								</td>
 							</tr>
 							<tr>
 								<td>Plan de Trabajo Anual en Seguridad y Salud en el Trabajo</td>
 								<td>
+									<a class="btn btn-primary btn-block" href="https://cdn.jsdelivr.net/gh/AgenciaAPP/Adjuntosvarios@main/7.%20Plan%20de%20seguridad%20y%20salud%20en%20el%20trabajo.pdf" target="_blank">Ver documento</a>
 									<a class="btn btn-primary btn-block" href="#" target="_blank">Ver documento</a>
 								</td>
 							</tr>
@@ -560,13 +561,13 @@
 							<tr>
 								<td>Plan de Tratamiento de Riesgos de Seguridad y Privacidad de la Información</td>
 								<td>
-									<a class="btn btn-primary btn-block" href="#" target="_blank">Ver documento</a>
+									<a class="btn btn-primary btn-block" href="https://cdn.jsdelivr.net/gh/AgenciaAPP/Adjuntosvarios@main/10.%20Plan%20de%20Tratamiento%20de%20Riesgos%20de%20Seguridad%20y%20Privacidad%20de%20la%20Informacio%E2%95%A0%C3%BCn.pdf" target="_blank">Ver documento</a>
 								</td>
 							</tr>
 							<tr>
 								<td>Plan de Seguridad y Privacidad de la Información</td>
 								<td>
-									<a class="btn btn-primary btn-block" href="#" target="_blank">Ver documento</a>
+									<a class="btn btn-primary btn-block" href="https://cdn.jsdelivr.net/gh/AgenciaAPP/Adjuntosvarios@main/11.%20Politicas%20de%20Seguridad%20y%20Privacidad%20de%20la%20Informacion.pdf" target="_blank">Ver documento</a>
 								</td>
 							</tr>
 						</tbody>

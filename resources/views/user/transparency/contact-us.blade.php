@@ -52,6 +52,13 @@
 			<ul>
 				<li><a href="https://mercurio.app.gov.co/mercurio/inicialPqr.jsp" target="_blank">Portal de radicación - PQRSD >></a></li>
 				<li><a href="https://mercurio.app.gov.co/mercurio/IndiceServlet?operacion=9&codIndice=00001&indicador=3" target="_blank">Portal de seguimiento - PQRSD >></a></li>
+				<li><strong>Notificación por aviso de PQRSD anónimas - Ley 1437 de 2011, artículo 69:</strong><br>
+				<p>Conforme a lo establecido en el artículo 69 de la Ley 1437 de 2011, cuando la entidad no cuente con información sobre el destinatario, el aviso de notificación junto con la copia íntegra del acto administrativo correspondiente— será publicado en esta página web y, adicionalmente, en un lugar de acceso público de la entidad durante un término de cinco (5) días. Se advierte que la notificación se entenderá surtida al finalizar el día siguiente al retiro del aviso</p>
+				<ul>
+					<li><a href="#" target="_blank">Respuesta al radicado 202610000285 >></a></li>
+				</ul>
+			
+			</li>
 			</ul>
 
 			<div class="container" style="margin: 60px 0 50px 0"><hr></div>
