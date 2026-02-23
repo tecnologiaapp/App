@@ -500,7 +500,7 @@
 							<tr>
 								<td>Plan Anual de Adquisiciones</td>
 								<td>
-									<a class="btn btn-primary btn-block" href="#" target="_blank">Ver documento</a>
+									<a class="btn btn-primary btn-block" href="https://raw.githubusercontent.com/AgenciaAPP/Adjuntosvarios/main/1.%20Plan%20Anual%20de%20Adquisiciones.xlsx" target="_blank">Ver documento</a>
 								</td>
 							</tr>
 							<tr>
@@ -537,7 +537,7 @@
 								<td>Plan de Trabajo Anual en Seguridad y Salud en el Trabajo</td>
 								<td>
 									<a class="btn btn-primary btn-block" href="https://cdn.jsdelivr.net/gh/AgenciaAPP/Adjuntosvarios@main/7.%20Plan%20de%20seguridad%20y%20salud%20en%20el%20trabajo.pdf" target="_blank">Ver documento</a>
-									<a class="btn btn-primary btn-block" href="#" target="_blank">Ver documento</a>
+									<a class="btn btn-primary btn-block" href="https://raw.githubusercontent.com/AgenciaAPP/Adjuntosvarios/main/7.%20PLAN%20DE%20TRABAJO%20ANUAL%202026%20APP.xlsx" target="_blank">Ver documento</a>
 								</td>
 							</tr>
 							<tr>
@@ -549,7 +549,7 @@
 							<tr>
 								<td>Estrategia de Servicio a la Ciudadania</td>
 								<td>
-									<a class="btn btn-primary btn-block" href="#" target="_blank">Ver documento</a>
+									<a class="btn btn-primary btn-block" href="https://raw.githubusercontent.com/AgenciaAPP/Adjuntosvarios/main/9.%20Estrategia%20de%20servicio%20al%20ciudadano.xlsx" target="_blank">Ver documento</a>
 								</td>
 							</tr>
 							<tr>
