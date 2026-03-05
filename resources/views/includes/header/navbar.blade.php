@@ -55,8 +55,9 @@
 	</div>
 	<div class="container d-flex align-items-center" style="justify-content: space-between;">
 		<a href="{{ url('/') }}">
-			<img class="logo me-auto" src="https://app.gov.co/assets/img/Proyectos/logo-landing.png" style=" width: 200px; height: 90px;">
+			<img class="logo me-auto" src="https://raw.githubusercontent.com/AgenciaAPP/Adjuntosvarios/1e5d5dbe0ca136693b3fbb3705dbde4c611f28cd/logo_APP_full_color.svg" style=" width: 200px; height: 90px;">
 		</a>
+		
 
 		<nav id="navbar" class="navbar">
 			<ul>

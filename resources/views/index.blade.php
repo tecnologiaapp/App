@@ -72,9 +72,12 @@
 			</ol>
 			    <div class="carousel-inner">
 				 <div class="carousel-item active">
-				    <a href="https://www.instagram.com/bienal.latidos.med/?igsh=MXBwbml2ZHB3MHNlYQ%3D%3D#" Target="_blank"><img class="d-block w-100" src="{{asset('assets/img/BannersNuevos/banner_bienal.png')}}"></a>
+				    <a href="https://forms.gle/FHbBd1DYT4yB164C8" Target="_blank"><img class="d-block w-100" src="https://github.com/AgenciaAPP/Adjuntosvarios/blob/main/banner_postulacion_jurados.jpg?raw=true"></a>
 				</div>
 			    <div class="carousel-item">
+				    <a href="https://forms.gle/RxK1wHdbZksBhcAh7" Target="_blank"><img class="d-block w-100" src="https://github.com/AgenciaAPP/Adjuntosvarios/blob/main/banner_postulacion_escuela_arte.jpg?raw=true"></a>
+				</div>
+				<div class="carousel-item">
 				    <a href="{{asset('assets/pdf/Carta-de-trato-digno.pdf')}}" Target="_blank"><img class="d-block w-100" src="{{asset('assets/img/Banners/CartaTratoDigno.png')}}"></a>
 				</div>
 				<div class="carousel-item">
