@@ -75,7 +75,7 @@
 				    <a href="https://cdn.jsdelivr.net/gh/AgenciaAPP/Adjuntosvarios@main/202640000037%20modificacion%20horario%20laboral.pdf" Target="_blank"><img class="d-block w-100" src="http://34.207.170.23/wp-content/uploads/2026/03/BANNER-SEMANA-SANTA-2026-scaled.jpg"></a>
 				</div>
 			    <div class="carousel-item">
-				    <a href="https://forms.gle/RxK1wHdbZksBhcAh7" Target="_blank"><img class="d-block w-100" src="https://github.com/AgenciaAPP/Adjuntosvarios/blob/main/banner_postulacion_escuela_arte.jpg.jpeg?raw=true"></a>
+				    <a href="https://forms.gle/RxK1wHdbZksBhcAh7" Target="_blank"><img class="d-block w-100" src="https://github.com/AgenciaAPP/Adjuntosvarios/blob/main/BANNER%20SEMANA%20SANTA%202026.jpg.jpeg?raw=true"></a>
 				</div>
 				<div class="carousel-item">
 				    <a href="{{asset('assets/pdf/Carta-de-trato-digno.pdf')}}" Target="_blank"><img class="d-block w-100" src="{{asset('assets/img/Banners/CartaTratoDigno.png')}}"></a>
