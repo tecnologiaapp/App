@@ -42,6 +42,12 @@
 				<li><a href="https://certificados.app.gov.co/search-contract" target="_blank">Certificados laborales >></a></li>
 				<li><a href=""Target="_blank">Concepto de norma urbanística para el Barrio Prado >></a></li>
 				<li><a href="https://www.gov.co/ficha-tramites-y-servicios/T87169" target="_blank">Estructuración de proyectos de asociación publico privada por agentes privados en etapa de prefactibilidad >></a></li>
+				<li style="font-weight: bold">Formulario para la radicación de AEEP:</li>
+				<ul>
+					<li><a href="https://mercurio.app.gov.co/mercurio/IndiceServlet?operacion=9&codIndice=00006&idAsunto=0062&indicador=1" target="_blank">Solicitud proyecto transitorio de mesas y sillas >></a></li>
+					<li><a href="https://mercurio.app.gov.co/mercurio/IndiceServlet?operacion=9&codIndice=00007&idAsunto=0064&indicador=1" target="_blank">Solicitud económica móvil, vallet parking o acopios >></a></li>
+					<li><a href="https://mercurio.app.gov.co/mercurio/IndiceServlet?operacion=9&codIndice=00008&idAsunto=0065&indicador=1" target="_blank">Trámite de Juegos infantiles >></a></li>
+				</ul>
 			</ul>
 
 			<div class="container" style="margin: 60px 0 50px 0"><hr></div>

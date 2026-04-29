@@ -66,10 +66,13 @@
 				<li class="active" data-slide-to="0" data-target="#carouselExampleIndicators"></li>
 				<li data-slide-to="1" data-target="#carouselExampleIndicators"></li>
 				<li data-slide-to="2" data-target="#carouselExampleIndicators"></li>
+				<li data-slide-to="2" data-target="#carouselExampleIndicators"></li>
 			</ol>
 			    <div class="carousel-inner">
-				 
 				<div class="carousel-item active">
+				    <a href="#" Target="_blank"><img class="d-block w-100" src="https://cdn.jsdelivr.net/gh/AgenciaAPP/PaginaWebComunicaciones@main/banner.jpg"></a>
+				</div> 
+				<div class="carousel-item">
 				    <a href="{{asset('assets/pdf/Carta-de-trato-digno.pdf')}}" Target="_blank"><img class="d-block w-100" src="{{asset('assets/img/Banners/CartaTratoDigno.png')}}"></a>
 				</div>
 				<div class="carousel-item">
