@@ -70,7 +70,7 @@
 			</ol>
 			    <div class="carousel-inner">
 				<div class="carousel-item active">
-				    <a href="#" Target="_blank"><img class="d-block w-100" src="https://cdn.jsdelivr.net/gh/AgenciaAPP/PaginaWebComunicaciones@main/banner.jpg"></a>
+				    <a href="https://www.app.gov.co/transparencia/contacto" Target="_blank"><img class="d-block w-100" src="https://cdn.jsdelivr.net/gh/AgenciaAPP/PaginaWebComunicaciones@main/espaciopublico.jpeg"></a>
 				</div> 
 				<div class="carousel-item">
 				    <a href="{{asset('assets/pdf/Carta-de-trato-digno.pdf')}}" Target="_blank"><img class="d-block w-100" src="{{asset('assets/img/Banners/CartaTratoDigno.png')}}"></a>
